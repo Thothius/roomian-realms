@@ -1,2 +1,0 @@
-NAME: "The Gourmand",
-DESC: "Gained by having lots of food. Increases food production.",

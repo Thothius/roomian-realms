@@ -1,8 +1,0 @@
-NAME: "Tavern",
-DESC: "A place where your subjects can relax and drink themselves out of their misery.",
-
-LEVELS: [
-	"Inn",
-	"Ale House",
-	"Hall of Drink",
-],

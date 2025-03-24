@@ -13,3 +13,6 @@ Thumbs.db
 
 # Ignore log files
 *.log
+
+# Ignore data folder (local development only)
+/data/

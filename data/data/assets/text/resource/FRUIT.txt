@@ -1,3 +1,0 @@
-NAME: "Fruit",
-NAMES: "Fruit",
-DESC: "Fruit is a food source, coveted by many.",

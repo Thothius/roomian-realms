@@ -1,3 +1,0 @@
-NAME: "Clothes",
-NAMES: "Clothes",
-DESC: "Clothes protect the wearer from the elements and elevate their self-esteem.",

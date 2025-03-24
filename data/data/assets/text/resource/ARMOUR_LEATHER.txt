@@ -1,3 +1,0 @@
-NAME: "Leather Armour",
-NAMES: "Leather Armours",
-DESC: "Used to equip soldiers for battle. Protects against slash damage.",

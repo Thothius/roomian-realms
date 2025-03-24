@@ -1,2 +1,0 @@
-NAME_NEED: "Worship (Temple)",
-NAME_RATE: "Piety (Temple)",

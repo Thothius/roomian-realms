@@ -1,8 +1,0 @@
-NAME: "Stands",
-DESC: "A place for song and dance and laughter.  It is expensive to hire on skilled troupes but little land is required.",
-
-LEVELS: [
-	"Stand",
-	"Band Station",
-	"Pavilion",
-],

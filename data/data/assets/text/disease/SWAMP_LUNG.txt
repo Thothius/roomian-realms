@@ -1,2 +1,0 @@
-NAME: "Swamp Lung",
-DESC: "This disease, contrary to its name, is not contracted in swamps. While it starts as a light cough, over days breathing will get increasingly more difficult due to fluids collecting in the lungs. The sound, afflicted make while trying to breathe in their final days, is remarkably similar to the one a stuck boot makes when freed from a bog, thus the name.",

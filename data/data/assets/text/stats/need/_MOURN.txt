@@ -1,2 +1,0 @@
-NAME_NEED: "Mourn",
-NAME_RATE: "Mourn",

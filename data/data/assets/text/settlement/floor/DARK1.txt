@@ -1,2 +1,0 @@
-NAME: "Fungus Road",
-DESC: "The road of choice for a darker path. A secretion extracted from the fini-glands of a Garthimi in heat is mixed with Balticrawler urine and clay. When this mixture is applied to soil, it hardens it and produces an odour that is pleasant to some...",

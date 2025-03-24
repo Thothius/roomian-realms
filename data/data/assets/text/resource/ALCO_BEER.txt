@@ -1,3 +1,0 @@
-NAME: "Piva",
-NAMES: "Piva",
-DESC: "A slightly intoxicating beverage made primarily from grain.",

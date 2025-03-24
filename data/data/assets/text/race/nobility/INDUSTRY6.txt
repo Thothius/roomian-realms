@@ -1,4 +1,0 @@
-INFO: {
-	NAME: "Slavemaster",
-	DESC: "The Slavemaster is responsible for keeping all of the slaves in line. They largely boost slave submission in the settlement",
-},

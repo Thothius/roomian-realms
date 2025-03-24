@@ -1,2 +1,0 @@
-NAME: "The Plague",
-DESC: "The vicious plague is deadly, tormenting its victims for days before usually ending their lives. Painful, pus-filled boils appear all over the infected, swiftly sapping their strength and often leading to death.",

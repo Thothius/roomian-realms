@@ -1,3 +1,0 @@
-NAME: "Fabric",
-NAMES: "Fabric",
-DESC: "Fabric is used to make Clothes and Carpets.",

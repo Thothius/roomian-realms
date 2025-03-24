@@ -1,3 +1,0 @@
-NAME: "Cotton",
-NAMES: "Cotton",
-DESC: "Cotton is used to make Fabric.",

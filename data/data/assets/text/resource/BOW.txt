@@ -1,3 +1,0 @@
-NAME: "Bow",
-NAMES: "Bows",
-DESC: "Bows, used by archers in battle.",

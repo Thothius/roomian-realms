@@ -1,8 +1,0 @@
-NAME: "Roads",
-DESC: "Roads ease the penalty your territories face the further they are from your capital. They also decrease the toll you pay when trading.",
-
-LEVELS: [
-	"Dirt roads",
-	"Paved Roads",
-	"Highways",
-],

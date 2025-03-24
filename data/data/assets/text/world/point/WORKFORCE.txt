@@ -1,2 +1,0 @@
-NAME: "Workforce",
-DESC: "Can be used to construct and run buildings in a region. Excess workforce is used for industries.",

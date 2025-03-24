@@ -1,8 +1,0 @@
-NAME: "School",
-DESC: "Increases education and productivity globally.",
-
-LEVELS: [
-	"Primary School",
-	"Library",
-	"Royal Academy",
-],

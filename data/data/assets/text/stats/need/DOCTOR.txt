@@ -1,2 +1,0 @@
-NAME_NEED: "Doctor",
-NAME_RATE: "Health Care",

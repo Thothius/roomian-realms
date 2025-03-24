@@ -1,2 +1,0 @@
-NAME: "The Merciful",
-DESC: "Gained by being a saint after battles. Adds some loyalty to your name.",

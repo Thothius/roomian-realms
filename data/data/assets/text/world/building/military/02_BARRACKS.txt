@@ -1,6 +1,0 @@
-NAME: "Barracks",
-DESC: "Adds aspiring soldiers to your conscript pool that will allow you to train armies.",
-
-LEVELS: [
-	
-],

@@ -1,2 +1,0 @@
-NAME: "The Child of the Sun",
-DESC: "Have loads of farms and orchards.",

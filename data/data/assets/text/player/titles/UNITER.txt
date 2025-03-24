@@ -1,2 +1,0 @@
-NAME: "The Uniter",
-DESC: "Gained by absorbing a lot of kingdoms.",

@@ -1,3 +1,0 @@
-NAME: "Metal",
-NAMES: "Metal",
-DESC: "Metal is used in a variety of industries and constructions.",

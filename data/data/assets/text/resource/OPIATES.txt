@@ -1,3 +1,0 @@
-NAME: "Opiate",
-NAMES: "Opiates",
-DESC: "Opiates are used by the health system to cure injuries and improve chances of plague survival.",

@@ -1,3 +1,0 @@
-NAME: "Ore",
-NAMES: "Ore",
-DESC: "Ore can be processed into Metal.",

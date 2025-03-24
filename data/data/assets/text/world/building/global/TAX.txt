@@ -1,9 +1,0 @@
-NAME: "Tax Office",
-DESC: "Allows you to gather more tax from all your subjects",
-
-LEVELS: [
-	"Tax Collector",
-	"Tax Office",
-	"Tax Adminstration",
-	"Tax Headquarters",
-],

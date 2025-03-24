@@ -1,3 +1,0 @@
-NAME: "Crystal Water",
-DESC: "A road of colored obsidian, that mimics water.",
-

@@ -1,4 +1,0 @@
-INFO: {
-	NAME: "Master of The Feast",
-	DESC: "The Master of the Feast is a carousing host that specializes in boosting the production of alcohol-producing buildings and savory snacks",
-},

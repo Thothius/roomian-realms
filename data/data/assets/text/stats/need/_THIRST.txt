@@ -1,2 +1,0 @@
-NAME_NEED: "Drink",
-NAME_RATE: "Thirst",

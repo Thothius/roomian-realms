@@ -1,4 +1,0 @@
-INFO: {
-	NAME: "Master of Mines",
-	DESC: "The Master of Mines is the head of the Miners' guild and makes sure that everything is running at peak efficiency and all quotas are met.",
-},

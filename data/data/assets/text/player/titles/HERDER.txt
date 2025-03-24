@@ -1,2 +1,0 @@
-NAME: "Herdsman of Entelodonts",
-DESC: "Have loads of Entelodont pastures.",

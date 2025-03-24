@@ -1,2 +1,0 @@
-NAME: "Forest Plaza",
-DESC: "Fine natural stones, carefully selected and arranged in harmony with nature, and then painted tastefully. Pedestrians need to be careful not to trip.",

@@ -1,2 +1,0 @@
-NAME: "The Usurper",
-DESC: "Kill a couple of foreign royalties to gain this lucrative title.",

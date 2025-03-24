@@ -1,5 +1,0 @@
-INFO: {
-	NAME: "Urbanisation",
-	DESC: "Urbanisation is the density of your structures.",
-
-},

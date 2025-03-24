@@ -1,3 +1,0 @@
-MALE: "Legati",
-FEMALE: "Legatiss",
-DESC: "As our population bolster, unfortunately so will the bad apples. Crimes must be dealt with swiftly and justly, else they can easily get out of hand. A Legati is a judge, and as such lets you pass judgement on your subjects.",

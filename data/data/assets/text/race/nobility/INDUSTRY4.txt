@@ -1,4 +1,0 @@
-INFO: {
-	NAME: "Master of Fashions",
-	DESC: "The Master of Fashions is a proficient designer and patron of the arts. They are well versed in the world's fineries and will boost the productivity of clothiers and jewelers",
-},

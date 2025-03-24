@@ -1,6 +1,0 @@
-NAME: "Walls",
-DESC: "Walls add fortifications to a settlement, and increases the defence.",
-
-LEVELS: [
-	
-],

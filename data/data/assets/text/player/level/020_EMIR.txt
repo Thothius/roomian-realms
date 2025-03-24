@@ -1,3 +1,0 @@
-MALE: "Emir",
-FEMALE: "Emiress",
-DESC: "An Emir is a chosen one, destined to lead his peoples to greatness. In order to secure future growth, we must now turn to our ingenuity.",

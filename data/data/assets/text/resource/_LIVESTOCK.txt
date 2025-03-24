@@ -1,3 +1,0 @@
-NAME: "Livestock",
-NAMES: "Livestock",
-DESC: "Neat little domesticated animals wrapped in boxes that can be used to populate pastures.",

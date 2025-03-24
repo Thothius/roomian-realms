@@ -1,3 +1,0 @@
-NAME: "Jewelry",
-NAMES: "Jewelry",
-DESC: "Jewelry is a luxury that can be used in some posh construction projects and can be equipped by your subjects.",

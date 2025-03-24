@@ -1,3 +1,0 @@
-MALE: "Sorax",
-FEMALE: "Sorax",
-DESC: "Good news, you can now style yourself with the title of Sorax, meaning king.",

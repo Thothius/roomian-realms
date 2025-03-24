@@ -1,2 +1,0 @@
-NAME: "Seer of the Gods",
-DESC: "A ruler making his people pay homage to the spiritual realm. Surely the gods reward such piety.",

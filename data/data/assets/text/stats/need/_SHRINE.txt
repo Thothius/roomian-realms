@@ -1,2 +1,0 @@
-NAME_NEED: "Worship (Shrine)",
-NAME_RATE: "Piety (Shrine)",

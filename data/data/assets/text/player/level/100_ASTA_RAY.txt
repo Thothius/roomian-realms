@@ -1,3 +1,0 @@
-MALE: "Asta Invicti",
-FEMALE: "Asta Invicti",
-DESC: "All of Syx have come together and acknowledge you as the new 'Asta Invicti'. The title hails from the myth of the one who unifies all of Syx and defeats Aminion himself. To hold such a great title is the greatest honor in all of Syx",

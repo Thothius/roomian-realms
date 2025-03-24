@@ -1,2 +1,0 @@
-NAME: "The Slaver",
-DESC: "Gained by having many slaves.",

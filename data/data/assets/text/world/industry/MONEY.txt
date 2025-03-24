@@ -1,2 +1,0 @@
-NAME: "Tax Office",
-DESC: "Collects tax in the form of Denari.",

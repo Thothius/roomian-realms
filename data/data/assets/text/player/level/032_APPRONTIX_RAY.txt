@@ -1,3 +1,0 @@
-MALE: "Approntix Ray",
-FEMALE: "Approntix Ray",
-DESC: "You now have the title of Grand Conqueror, and as such, you now have the divine permission to appoint a nobleman, who can help you greatly.",

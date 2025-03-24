@@ -1,5 +1,0 @@
-INFO: {
-	NAME: "Onx",
-	NAMES: "Onxes",
-	DESC: "An onx is a stubborn beast, best left to its grazing. Though generally peaceful, it can wreak havoc with its sharp horns and compact frame if provoked. It thrives in mountainous areas. Its favourite food is the Grieving Lilly, only found on southern ridges in dry and northern climates.",
-},

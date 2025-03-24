@@ -1,2 +1,0 @@
-NAME: "The Drunkard",
-DESC: "Gained by having lots of drunk subjects. Increases drink production.",

@@ -1,3 +1,0 @@
-NAME: "Wood",
-NAMES: "Wood",
-DESC: "Wood is a basic building material.",

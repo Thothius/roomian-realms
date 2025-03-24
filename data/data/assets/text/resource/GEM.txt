@@ -1,3 +1,0 @@
-NAME: "Gem",
-NAMES: "Gems",
-DESC: "Gems are used to make jewelry and as construction material.",

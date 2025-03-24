@@ -1,3 +1,0 @@
-MALE: "Dakori",
-FEMALE: "Dakoress",
-DESC: "Dakori simply means prince. Such a noble title needs a realm to go with its capital. With an administration, we can develop our conquered lands to a greater extent, raise bigger armies and expand our influence.",

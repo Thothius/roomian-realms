@@ -1,8 +1,0 @@
-NAME: "Cratorism",
-DEITY: "Crator",
-DESC: "Crator, the foremost creator of the Astarii. Promotes farming and husbandry.",
-WIKI: {
-	NAME: "Cratorism",
-	CATEGORY: "Religion",
-	TEXT: "Crator, the foremost creator of the Astarii. Promotes farming and husbandry.",
-},

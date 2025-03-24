@@ -1,3 +1,0 @@
-NAME: "Humidifier",
-DESC: "Creates a hospitable environment for Garthimis. Unfortunately most other species don't share their preference.",
-CATEGORY: "Infrastructure",

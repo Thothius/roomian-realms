@@ -1,4 +1,0 @@
-INFO: {
-	NAME: "Master of Farms",
-	DESC: "The Master of farms handles our farms and boosts their yield.",
-},

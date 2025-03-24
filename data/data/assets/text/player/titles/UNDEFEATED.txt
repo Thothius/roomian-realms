@@ -1,2 +1,0 @@
-NAME: "The Undefeated",
-DESC: "Gained by being a badass on the field of battle. Increases morale and discourages raiders.",

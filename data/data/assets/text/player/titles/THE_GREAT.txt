@@ -1,2 +1,0 @@
-NAME: "The Great",
-DESC: "Gained by having many people follow and love you.",

@@ -1,2 +1,0 @@
-NAME: "The Merciless",
-DESC: "Gained by being harsh on your conquered foes. Slaves will be more easily controlled.",

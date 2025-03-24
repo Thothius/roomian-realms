@@ -1,2 +1,0 @@
-NAME: "Richest of Kings",
-DESC: "Decreases inflation, allowing you to amass even greater wealth.",

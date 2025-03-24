@@ -1,2 +1,0 @@
-NAME: "The Clumsy",
-DESC: "Gained by living through multiple accidents. Makes people a bit more cautious in your presence.",

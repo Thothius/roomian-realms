@@ -1,2 +1,0 @@
-NAME: "Fungus Highway",
-DESC: "An improved formula for the organic road. By adding fermented hay, the mixture becomes even more potent and creates a better road and a stronger smell.",

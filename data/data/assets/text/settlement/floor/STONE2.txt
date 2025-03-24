@@ -1,2 +1,0 @@
-NAME: "Highway",
-DESC: "An optimal road for transportation, and also doesn't look that bad.",

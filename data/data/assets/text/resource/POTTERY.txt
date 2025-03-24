@@ -1,3 +1,0 @@
-NAME: "Pottery",
-NAMES: "Pottery",
-DESC: "Pottery is an essential component of your industry and used in a variety of production lines.",

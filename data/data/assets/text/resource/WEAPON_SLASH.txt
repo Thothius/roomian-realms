@@ -1,3 +1,0 @@
-NAME: "Flanx",
-NAMES: "Flanxes",
-DESC: "A long, double-handed blade that causes lots of slash damage.",

@@ -1,3 +1,0 @@
-NAME: "Fish",
-NAMES: "Fish",
-DESC: "Fish is a food source. Must be eaten or processed quickly, else it will spoil.",

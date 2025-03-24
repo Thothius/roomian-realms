@@ -1,3 +1,0 @@
-NAME: "Stone",
-NAMES: "Stone",
-DESC: "Stone is a basic building material.",

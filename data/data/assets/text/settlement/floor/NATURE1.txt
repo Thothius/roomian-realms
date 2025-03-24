@@ -1,2 +1,0 @@
-NAME: "Cobblestone Road",
-DESC: "A humble road made of natural stone.",

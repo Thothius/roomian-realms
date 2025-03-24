@@ -1,2 +1,0 @@
-NAME: "The Artisan",
-DESC: "Gained by workshop output. Increases productivity of all workshops.",

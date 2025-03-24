@@ -1,4 +1,0 @@
-INFO: {
-	NAME: "Master of Industry",
-	DESC: "The Master of Industry is responsible for ensuring all industry is running at peak efficiency",
-},

@@ -1,3 +1,0 @@
-MALE: "Amarir",
-FEMALE: "Amariress",
-DESC: "An Amarir is a rightful ruler of a land. As such, we can now conduct trade with our neighbours.",

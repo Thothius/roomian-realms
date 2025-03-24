@@ -1,6 +1,0 @@
-NAME: "Growth",
-DESC: "Increases population capacity.",
-
-LEVELS: [
-	"Land Clearance",
-],

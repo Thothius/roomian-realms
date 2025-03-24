@@ -1,2 +1,0 @@
-NAME: "Warden of the North",
-DESC: "Survive and thrive in a cold climate to gain the goodwill of its hardened people.",

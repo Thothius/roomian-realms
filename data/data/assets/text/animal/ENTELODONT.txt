@@ -1,5 +1,0 @@
-INFO: {
-	NAME: "Entelodont",
-	NAMES: "Entelodonts",
-	DESC: "A ferocious four-legged mammal, an Entelodont can both feed a family for several days, as well as inspire fear in the hearts of hunters. Their thick hides can blunt the impact of any hunting weapon if not used with enough strength. Its ferocity and fearlessness often lead the hunters of these creatures to lose their pride, and sometimes, their lives.",
-},

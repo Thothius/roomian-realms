@@ -1,4 +1,0 @@
-INFO: {
-	NAME: "Master of The Forge",
-	DESC: "The Master of The Forge is the leader of the blacksmits' guild. They boost the effectiveness of smelters and smithies.",
-},

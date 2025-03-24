@@ -1,2 +1,0 @@
-NAME_NEED: "News",
-NAME_RATE: "News Craving",

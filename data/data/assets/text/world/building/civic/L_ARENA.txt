@@ -1,6 +1,0 @@
-NAME: "Fight Pit",
-DESC: "Nothing distracts the citizens like blood on the sands. Ruinously expensive, the greatest arenas can draw citizens from all over your empire for lavish events.",
-
-LEVELS: [
-	
-],

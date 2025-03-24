@@ -1,3 +1,0 @@
-MALE: "Approntix",
-FEMALE: "Approntix",
-DESC: "An Approntix is a conquerer. It is time we look to our offensive capabilities. With a military supply depot we can now supply an army away from our town, either for aggressive or defensive purposes.",

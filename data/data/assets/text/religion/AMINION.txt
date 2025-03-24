@@ -1,9 +1,0 @@
-NAME: "Aminionism",
-DEITY: "Aminion",
-DESC: "Aminion, the lord of chaos promotes submission and his temples accepts human sacrifices (prisoners).",
-
-WIKI: {
-	NAME: "Aminionism",
-	CATEGORY: "Religion",
-	TEXT: "Aminion was once kind and just, and ruled the Astarii alongside Athuri, being the strongest among them. It is said he then stumbled upon the corpse of Amon Astra and drank her blood. This poisoned Aminion and he was bend towards chaos and destruction, and where the Astarii sowed seeds of life, he plucked it out and poisoned the world. This later escalated into the war of the Astarii, where Aminion used beasts of pure hate and despair to lay waste upon Syx until he was finally imprisoned by Athuri and the rest of the Astarii. He was then set free by men, with the promise of granting them immortality, and the war of doom commenced. It is known that Aminion was finally slain, his body cut up into 8 pieces and scattered throughout Syx to prevent resurrection. It has been prophesied that he shall return and bring with him eternal darkness. Until then, his followers worship and sustain his spirit, believing that he will grant them everlasting life and health upon his return.",
-},

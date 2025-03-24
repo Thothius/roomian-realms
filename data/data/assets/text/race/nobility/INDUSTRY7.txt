@@ -1,4 +1,0 @@
-INFO: {
-	NAME: "Master Builder",
-	DESC: "The Master Builder is the guildmaster of the builders' guild. They ensure everything is constructed with quality, reducing degredation. They also are in charge of the carpenters and their fine carts and wheelbarrows improve the carry capacity of haulers",
-},

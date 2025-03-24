@@ -1,3 +1,0 @@
-NAME: "Dirt Road",
-DESC: "An unpaved and rudimentary road that increases movement speed slightly. Costs a lot of labour to upkeep, but requires no resources to construct.",
-

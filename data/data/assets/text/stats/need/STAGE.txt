@@ -1,2 +1,0 @@
-NAME_NEED: "Drama",
-NAME_RATE: "Drama",

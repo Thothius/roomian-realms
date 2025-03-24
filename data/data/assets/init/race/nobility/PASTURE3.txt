@@ -1,5 +1,0 @@
-COLOR: 80_80_20,
-BOOST: {
-	ROOM_FISHERY*>ADD: 0.25,
-},
-

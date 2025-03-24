@@ -1,2 +1,0 @@
-NAME: "Dark Plaza",
-DESC: "Fine granite, decorated with odes to Aminion. Expensive to upkeep, but a must for a respectable dark lord.",

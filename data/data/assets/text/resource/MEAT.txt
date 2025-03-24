@@ -1,3 +1,0 @@
-NAME: "Meat",
-NAMES: "Meat",
-DESC: "Meat is a food source.",
