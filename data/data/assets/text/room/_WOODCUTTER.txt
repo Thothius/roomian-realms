@@ -1,0 +1,46 @@
+INFO: {
+	NAME: "Woodcutter",
+	NAMES: "Woodcutters",
+	DESC: "Placed on trees. Will sustainably produce wood.",
+},
+
+BONUS: {
+	NAME: "Wood Cutting",
+	DESC: "Increases the output of your Woodcutters",
+},
+
+WORK: {
+	TITLE: "Woodcutter",
+	VERB: "Felling trees",
+},
+
+STATS: [
+	{
+		NAME: "Workers",
+		DESC: "The amount of workers that can be employed.",
+	},
+	{
+		NAME: "Efficiency",
+		DESC: "How well this room will perform. Increased by placing Auxiliaries.",
+	},
+	{
+		NAME: "",
+		DESC: "",
+	},
+	{
+		NAME: "Output",
+		DESC: "The amount of wood that will be produced per day.",
+	},
+
+],
+
+ITEMS: [
+	{
+		NAME: "Storage",
+		DESC: "Where workers will put the wood.",
+	},
+	{
+		NAME: "Auxiliaries",
+		DESC: "Adds Efficiency to the room.",
+	},
+],

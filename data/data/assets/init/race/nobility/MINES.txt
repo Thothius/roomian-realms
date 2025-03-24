@@ -1,0 +1,5 @@
+COLOR: 80_10_10,
+BOOST: {
+	ROOM_MINE*>ADD: 0.15,
+},
+

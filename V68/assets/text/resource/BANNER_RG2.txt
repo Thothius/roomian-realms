@@ -1,0 +1,3 @@
+NAME: "Banner",
+NAMES: "Banners",
+DESC: "Blood-soaked standards that inspire both fear and loyalty. In the chaos of battle, these symbols of power become targets for the enemy, their bearers marked for death. Warriors who defend their banner to the last breath are honored in songs and tales, while those who allow it to fall face eternal shame.",

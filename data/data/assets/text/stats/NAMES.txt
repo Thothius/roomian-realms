@@ -1,0 +1,731 @@
+EVENT_PROSECUTION:{
+	NAME: "Persecuted",
+	DESC: "Persecuted subjects get arrested without a cause by your guards and are processed in your law facilities according your settings. Persecuted subjects will become very unhappy and might revolt.",
+	VERB: "Persecute",
+},
+EVENT_HANDOUT:{
+	NAME: "Handouts",
+	DESC: "Handouts are 400 Denari in cash that have been handed out to a subject.",
+	VERB: "Handout",
+},
+EVENT_DAY_OFF:{
+	NAME: "Days Off",
+	DESC: "On a day off, a subject doesn't have to work.",
+	VERB: "Declare day off",
+},
+EVENT_SLAVES_FREED:{
+	NAME: "Emancipated",
+	DESC: "Emancipated slaves are slaves graciously given their freedom by your grace, becoming citizens. Note that slaves that live in havens might immediately leave your city if their requirements are not met.",
+	VERB: "Emancipate",
+},
+EVENT_SERIAL_KILLER:{
+	NAME: "Serial Killing",
+	DESC: "Active serial killings, that are targeting a race.",
+	VERB: "",
+},
+EVENT_OVERTIME:{
+	NAME: "Overtime",
+	DESC: "Subjects working overtime will increase base production by 100% for a day but quickly become unhappy with their treatment.",
+	VERB: "Work overtime",
+},
+BURIAL_DESECRATION:{
+	NAME: "Desecration",
+	DESC: "Caused either by you deleting a place of burial, or one becoming damaged. A graveyard must be deactivated for a while before it can be removed, all the burial spots must be empty.",
+	MORE: [
+		"Stop the desecration of our dead. Let {RACES} rest in peace!",
+		"If we disturb the dead they might come back as in ancient times!",
+		"I've heard that {RELIGION_GOD} is mighty angry with you my {RACE_LORD} for desecrating the graveyards...",
+		"By {RELIGION_GOD}, this desecration of our gravesites must stop!",
+	],
+},
+RELIGION_TEMPLE:{
+	NAME: "Temple",
+	DESC: "Gained by having access to quality temples of the subjects' religion. Low faith can lead to conversion to other religions.",
+	MORE: [
+		"I wish to sacrifice to {RELIGION_GOD}, but doing it in my backyard feels weird somehow.",
+		"We need a grand structure equal to the strength of our faith for honoring {RELIGION_GOD}.",
+		"We need an awesome temple to {RELIGION_GOD}!",
+		"Let us build the most awesome and greatest temple to {RELIGION_GOD}!",
+	],
+},
+RELIGION_SHRINE:{
+	NAME: "Shrine",
+	DESC: "Gained by having access to quality shrines of the subjects' religion.",
+	MORE: [
+		"I lack a place to offer a prayer to {RELIGION_GOD}. I guess I could do it at home, but I don't want to bother anyone.",
+		"We need more shrines. Make sure they are built well lest you insult {RELIGION_GOD}.",
+		"My {RACE_LORD}, surely we must honor {RELIGION_GOD} more. More and better shrines would do it.",
+		"I'm a follower of {RELIGION}, and I can not worship properly in this {RACE_CITY}. We need more and better shrines to {RELIGION_GOD}'s honor",
+	],
+},
+RELIGION_RELIGION_OPPOSITION:{
+	NAME: "Opposition",
+	DESC: "Different religions like other religions differently. Some just don't mix, which can cause unrest.",
+	MORE: [
+		"There are a lot of heretics in our city, worshipping this and that god. It requires a sorting out.",
+		"Too many of your subjects believe in the wrong gods. Even they say so! They should have a talk with the priests.",
+		"I am sick of all these unbelievers walking around the place, thinking themselves righteous as they dismiss the true faith. Someone should do something about them.",
+	],
+},
+EDUCATION_EDUCATION:{
+	NAME: "Education",
+	DESC: "The education level of your citizens. Increased by having them go to school when young, and universities when adult. Increases productivity of some industries benefiting from critical thinking.",
+	MORE: [
+		"We need some proper education. It is galling to see us waste our potential.",
+		"Allow us to visit universities and educate ourselves.",
+		"There are no opportunities for higher learning accessible.",
+	],
+	LESS: [
+		"Education is foreign to our way of life and usually unsuited to our favorite work.",
+		"{RACE_LORD}, educating your subjects has given them ideas not suited for working in your hive. I am sure you have a plan, but it should perhaps include reversing this decision in the near future.",
+		"I was more content before learning all that stuff. Now there are all these questions buzzing in my head. Questions I will never get the answers to.",
+	],
+},
+EDUCATION_INDOCTRINATION:{
+	NAME: "Indoctrination",
+	DESC: "Instead of teaching useful things, education facilities can instead focus on patriotism and some harmless brainwashing. Indoctrinated subjects will be much more loyal.",
+	MORE: [
+		"There has to be a right way to think and you should finally tell us. More indoctrination please.",
+		"Some of us have too many doubts about the way you do things. Teach them that this lack of certainty is a weakness.",
+	],
+	LESS: [
+		"Education is foreign to our way of life and usually unsuited to our favorite work.",
+		"{RACE_LORD}, educating your subjects has given them ideas not suited for working in your hive. I am sure you have a plan, but it should perhaps include reversing this decision in the near future.",
+		"I was more content before learning all that stuff. Now there are all these questions buzzing in my head. Questions I will never get the answers to.",
+	],
+},
+POPULATION_TRAPPED:{
+	NAME: "Trapped",
+	DESC: "People who are trapped and cut off from the throne.",
+},
+POPULATION_EMIGRATING:{
+	NAME: "Emigrating",
+	DESC: "People who are upset and leaving your city.",
+},
+POPULATION_NOBLES:{
+	NAME: "Noble",
+	DESC: "The amount of nobles of this species.",
+	MORE: [
+		"More nobles to represent us at court.",
+		"Few of the nobles are of proper stock and I question why they were appointed in the first place.",
+	],
+},
+POPULATION_AGE:{
+	NAME: "Age",
+	DESC: "The subjects's age in years.",
+},
+POPULATION_IMMIGRANTS:{
+	NAME: "Immigrant",
+	DESC: "An immigrant is someone who has immigrated to your city and was not born in it. Native citizens can have a problem with these.",
+	LESS: [
+		"Filthy immigrants from barbarian villages are stealing our jobs and hogging our services. I suggest you send them back where they come from. Some public executions of the worst examples would also be appreciated.",
+	],
+},
+POPULATION_NATIVES:{
+	NAME: "Native",
+	DESC: "Citizens that have been born and bred in the settlement.",
+},
+POPULATION_FORMER_SLAVES:{
+	NAME: "Former Slave",
+	DESC: "Citizens that are former slaves.",
+	LESS: [
+		"I used to be proud being a citizen to serve your grace, but now that you've seemed to free every uneducated slave you find, it means very little.",
+		"There is a natural order to the world and making slaves equal to us disrupts it. I urge you to reconsider freeing so many.",
+	],
+},
+POPULATION_MAJORITY:{
+	NAME: "Majority",
+	DESC: "The numbers of this species compared to your total population.",
+	MORE: [
+		"Once we were united as brothers. Now, everywhere I look I see green, red and even blue faces. Now, I'm not a racist, but some of these are a lower breed milord.",
+		"There are too many of the other species in your city. We do not feel safe. What if they try something?",
+		"Esteemed {RACE_LORD}, Everywhere I look I see {RACE_OTHERS}! Is this {RACE_CITY} not a place for pure blooded {RACES}?",
+	],
+},
+POPULATION_SLAVES_SELF:{
+	NAME: "Slaves",
+	DESC: "The amount enslaved of the same species",
+	LESS: [
+		"{RACE_CURSE} Is this how you repay our loyalty? By shackling us? This will not end well for you.",
+		"{RACE_LORD}, many of my brethren you have turned to slaves, and I, myself, fear the day when I shall bear the yoke. {RACES} can serve you better as free citizens.",
+	],
+},
+POPULATION_SLAVES_OTHER:{
+	NAME: "Other Slaves",
+	DESC: "The amount enslaved of all species-",
+	MORE: [
+		"We could work better jobs if we had slaves do the less critical ones we nonetheless need.",
+		"Getting a hand from a slave these days is difficult. I suggest we purchase another batch.",
+		"There are some things in life, that no {RACE} should be forced to do and that is exactly why we need more slaves!",
+	],
+	LESS: [
+		"It is unnatural to force others into slavery. Surely we can do something else to make sure they cause us no harm?",
+		"Why would we need slaves? If we are unable to live together in harmony we could still trade with them, instead of forcing them to work here.",
+	],
+},
+POPULATION_WRONGFUL_DEATHS:{
+	NAME: "Wrongful Deaths",
+	DESC: "The amount of people who have wrongfully died. This memory lingers in the minds of people after the events, but will slowly be forgotten.",
+	LESS: [
+		"Too many of the deaths recently were caused by your negligence. {RACE} lives matter!",
+		"Please treat our lives with care. Many have fallen, and for what? We need the tools and means to survive to a ripe age.",
+		"Too many of us die to preventable things. Please, take better care of us.",
+	],
+},
+POPULATION_EX_CON:{
+	NAME: "Ex. Convict",
+	DESC: "People on parole from a prison.",
+},
+LAW_NONE:{
+	NAME: "Stockade",
+	DESC: "No punishment, simply keep our criminals in the stockade.",
+},
+LAW_EXILE:{
+	NAME: "Exile",
+	DESC: "Punishment by exile.",
+	MORE: [
+		"Let's not waste our precious resources on the law. Simply kick out the rascals.",
+		"Throw all the criminals out of the RACE_CITY. See how they like it with only scum for company.",
+	],
+	LESS: [
+		"The fact that we simply let our criminals leave makes my sleep uneasy. They should be processed accordingly!",
+	],
+},
+LAW_PRISON:{
+	NAME: "Imprisonment",
+	DESC: "Punishment by imprisonment.",
+	MORE: [
+		"I call for a more humane way of punishment. Abolish the death penalty and let criminals atone in prisons. Many of them are victims too, you know.",
+		"It is a disgrace, that we just turn our backs on citizens because of one misstep. Punish them and give them time to reflect and you may yet gain a loyal subject back.",
+	],
+	LESS: [
+		"The prisons are flooded, and the prisoners eat all our food. I suggest alternative solutions.",
+	],
+},
+LAW_STOCKS:{
+	NAME: "Stocking",
+	DESC: "Punishments in the stocks.",
+	MORE: [
+		"The city needs more entertainment. How about some stocks?",
+		"The consequences of breaking your laws should be more visible. Build more stocks, so that everyone sees how we deal with criminals here.",
+		"We need more stocks if we want our prisoners to serve as a lesson to others.",
+	],
+	LESS: [
+		"We should not display our prisoners in stocks. Give them time to think without making a spectacle of them.",
+		"Stocks are a sacrilege. No living being deserves such humiliation.",
+	],
+},
+LAW_EXECUTION:{
+	NAME: "Executions",
+	DESC: "Punishment by execution",
+	MORE: [
+		"I can get a bit bored at times. Back where my kin comes from, we usually had a public execution every full moon. I would suggest you arrange the same.",
+		"Sometimes it can be a bit difficult to find entertainment for the whole family. Some more executions would be just the thing!",
+	],
+	LESS: [
+		"My kin value all life, and the public executions are very disturbing. There are more {RACIAN} ways of punishing the wicked.",
+	],
+},
+LAW_ENSLAVED:{
+	NAME: "Enslavement",
+	DESC: "Punishment by enslavement.",
+	MORE: [
+		"Stop fussing about criminal punishment, there is but one just punishment for most crimes, simply enslave them. We could always use more slaves!",
+		"Criminals have wronged you and us. It is only fitting if they pay their debt to us with honest work. I can take a few of them under my wing if you need me to, {RACE_LORD}.",
+	],
+	LESS: [
+		"I feel uneasy about enslaving our criminals.",
+	],
+},
+LAW_PARDONED:{
+	NAME: "Pardoning",
+	DESC: "Pardoned criminals.",
+	MORE: [
+		"Pardoning a prisoner would be very compassionate of you. I am sure some deserve to be let free sooner than the law says.",
+		"It's customary for a {RACE_LORD} to pardon one of the criminals once in awhile.",
+		"Everyone has moments of weakness and it would show your magnanimity if you pardoned a few of the cases where your law is not yet perfected yet.",
+	],
+	LESS: [
+		"Pardoning criminals sends the wrong impression to your citizens. Is it your desire for us to engage in criminal acts?",
+		"You should not let criminals escape punishment on a whim. There has to be order to these things.",
+	],
+},
+LAW_ARENA:{
+	NAME: "Arena",
+	DESC: "Criminals punished by death in the arena.",
+	MORE: [
+		"It would be a fun idea to let the criminals fight to the death in the arena. It would save us some coin, and at the same time be fun to watch.",
+		"Executions are fine, but they are too clean. I want our criminals to die messily in the arena.",
+		"The criminals that we are going to execute anyway might as well serve as entertainment in the arena.",
+	],
+	LESS: [
+		"Making criminals fight to death in the arena is sickening! Seeing them fight for their lives as they are mocked by an audience turns my stomach.",
+		"Killing criminals in the arena is barbaric and unbecoming of {RACES}.",
+	],
+},
+LAW_JUDGEMENT:{
+	NAME: "Judgement",
+	DESC: "Criminals processed in courts.",
+	MORE: [
+		"Our justice system needs some attention. I've heard many stories about wrongfully convicted fellows. A court should try every case before judgment is passed.",
+		"Guards are just fine for catching criminals, but deciding their fate and culpability requires a bit more finesse. We need proper judges.",
+	],
+	LESS: [
+		"Courts are overrated. I could judge them for you milord, all I need is a quick glance. It's all in the eyes, you see.",
+		"Our justice system has some unnecessary jobs. Would it not be more efficient to just make judge, jury, and executioner one position?",
+	],
+},
+LAW_EQUALITY:{
+	NAME: "Equality",
+	DESC: "Same fair treatment of all races.",
+	MORE: [
+		"Apparently we are not all the same under the law? Why should we be punished harder than our fellow citizens?",
+		"{RACE_LORD}, we can plainly see that some of your subjects are favored by your laws and it is causing unrest.",
+		"We are getting punished more severely than {RACE_OTHERS}!",
+	],
+},
+LAW_LAW:{
+	NAME: "Law",
+	DESC: "How crimes are handled and processed in your city.",
+	MORE: [
+		"We need to catch more of our criminals, so we can feel safe again.",
+		"It pains me to say this, but I do not feel like I can trust my fellow citizens any more. We need more guards ensuring our safety.",
+		"Many flaunt your laws because there are no visible repercussions.",
+		"{RACE_LORD}, if you do not enforce your laws, you will lose the respect of your subjects.",
+	],
+	LESS: [
+		"More devastation and death please!",
+	],
+},
+GOVERN_RICHES:{
+	NAME: "Riches",
+	DESC: "How much riches are in your coffers divided by your citizens and nobles.",
+	MORE: [
+		"We should save up more money for emergencies.",
+		"The rest of the world is laughing at our poverty. We must get our industry going and acquire more Denari for our treasury.",
+		"If the city had more money, surely some of it would make it back to us, your subjects?",
+	],
+},
+GOVERN_TOURISM_FRIEND:{
+	NAME: "Liked Tourists",
+	DESC: "Amount of tourists that are liked by the species.",
+	MORE: [
+		"We could use more friendly faces from all over Syx around here. I am sure tourists would have great stories to tell.",
+		"I like the tales of distant lands tourists bring with them. A shame that we have so few of them.",
+		"We must attract tourists to our settlement and show them how great we are.",
+	],
+},
+GOVERN_TOURISM_ENEMY:{
+	NAME: "Disliked Tourists",
+	DESC: "Amount of tourists that are disliked by the species.",
+	LESS: [
+		"Gosh, they are everywhere, clogging up the streets, the tourists. I'm not sure why we allow them.",
+		"Tourism is fine and all, but do we have to let everyone in?",
+		"Some of the tourists really get on my nerves. They gawk at how we do things here and disrespect our culture.",
+	],
+},
+ENVIRONMENT_BUILDING_PREF:{
+	NAME: "Building",
+	DESC: "Building Preference. Different races like to hang around in different kinds of structures. Some like wood, some like mountain caves. This value is registered when the subject is within a structure.",
+	MORE: [
+		"My {RACE_LORD}, if I may be so bold to suggest you use materials suited for {RACES} when building.",
+		"My all, my {RACE_LORD}, when building your heavenly {RACE_CITY}, remember to pick the materials with care. You know what {RACES} like.",
+		"We would like more proper buildings. Stuff like {RACE_LIKED_BUILDING}.",
+		"Please use more fitting materials for our dwellings, others may enjoy these for some reason, but we don't.",
+	],
+},
+ENVIRONMENT_POOL_PREF:{
+	NAME: "Pool type",
+	DESC: "Determined by the type of pools you use for swimming in.",
+	MORE: [
+		"Please, we want more pools the way we like them.",
+	],
+},
+ENVIRONMENT_OTHERS:{
+	NAME: "Others",
+	DESC: "The feeling towards your city's composition of species. A species may like or dislike another species.",
+	LESS: [
+		"Some of those, who dare to call themselves your subjects, are fundamentally inferior and it is infuriating to see them walk around uncollared.",
+	],
+},
+ENVIRONMENT_CLIMATE:{
+	NAME: "Climate",
+	DESC: "Climate is static once you've selected a starting position and can't be improved.",
+	MORE: [
+		"Why did you choose to build your city in this climate?",
+		"This climate ill suits us.",
+	],
+},
+ENVIRONMENT_CANNIBALISM:{
+	NAME: "Cannibalism",
+	DESC: "Cannibalism is eating other humanoids. It can be done by constructing cannibal rooms. Starving subjects can also resort to cannibalism. Cannibalism is a singular event, and once it happens, it will take a long while to diminish.",
+	MORE: [
+		"Why let the worms have their fill and not us? You are throwing perfectly fine meat away.",
+		"Eating your lessers is a sign of strength and tasty as well, please allow us to indulge a bit.",
+	],
+	LESS: [
+		"We eat {RACE_LIKED_FOOD}, not our dead!",
+		"The consumption of our dead offends me and none of us should be forced to do it.",
+		"Reducing our dead to just another meal is shameful and sickening.",
+	],
+},
+ENVIRONMENT_UNBURRIED:{
+	NAME: "Corpses",
+	DESC: "Unburied corpses can upset your citizens. They can also spread disease.",
+	LESS: [
+		"Corpses are everywhere. They breed disease and pests. Something needs to be done.",
+		"All these unburied corpses make me sick. Treat our dead with respect.",
+	],
+},
+ENVIRONMENT_ROAD_ACCESS:{
+	NAME: "Road Access",
+	DESC: "The access this subject has to roads. Try building roads in the busy parts of the city to increase this.",
+	MORE: [
+		"Every day I need to spend a lot of time cleaning my muddy feet. We need more and better roads in our city.",
+		"We could use more roads around here. Might speed up travel.",
+		"The lack of roads is making this place look uncivilized.",
+	],
+},
+ENVIRONMENT_ROAD_PREF:{
+	NAME: "Road Preference",
+	DESC: "The type of road this subject finds itself walking on, and their preference of it. Use the roads the race prefers to increase this value.",
+	MORE: [
+		"I'm sure our splendid {RACE_LORD}, like me, would prefer {RACE_LIKED_ROAD} for our streets. That would make all {RACES} happy as they can be.",
+		"Oh, great {RACE_LORD}, once you have time, please look into the roads of our {RACE_CITY}. Us {RACES} prefer roads of a specific type.",
+		"Back in {RND_REGION} I hear that they make their streets of {RACE_LIKED_ROAD}. Wouldn't that be something?",
+		"Our {RACE_CITY} is beautiful and all that. But imagine, just imagine my {RACE_LORD}, our streets covered by {RACE_LIKED_ROAD}!",
+	],
+},
+FOOD_STARVATION:{
+	NAME: "Starving",
+	DESC: "If a Subject can't find food when hungry, it will eventually start to starve. Starving subjects will refuse to work, and instead they will spend all their remaining efforts to find something to eat.",
+	MORE: [
+		"We are starving!",
+		"The people need {RACE_LIKED_FOOD}!",
+	],
+},
+FOOD_FOOD_PREFFERENCE:{
+	NAME: "Food Pref.",
+	DESC: "Food Preference. Every race prefers to eat certain foods. Each time a subject wants to eat, it craves a full meal of a specific food resource, selected randomly from among their preferred foods. If the subject is successful in finding it, food preference will go up. If not, it will go down. This mechanic only works when the subject visits a food service room, not when eating from the ground, or in a warehouse.",	
+	MORE: [		
+		"The variety of foods is a bit bland.",
+		"Oh, {RACE_LORD}, how I dream of {RACE_LIKED_FOODS}. These should be in every food stall if you ask any {RACE}.",
+		"I have a craving for things like {RACE_LIKED_FOODS}.",
+		"Sincerely, all {RACIAN} like {RACE_LIKED_FOODS}. They should be well stocked in every food stall.",
+	],
+},
+FOOD_DRINK_PREFFERENCE:{
+	NAME: "Drink Pref.",
+	DESC: "Drink Preference. Each race has its own preference in beverages. Each time a subject drinks, it craves a specific drink type. If the subject is successful in finding this type, drink preference will go up. If not, it will go down. This mechanic only works when the subject visits a drink service room. Not when drinking from the ground, or in a warehouse.",
+	MORE: [
+		"The taverns are only serving filth. Please expand their sortiments.",
+	],
+},
+FOOD_FOOD_DAYS:{
+	NAME: "Food Days",
+	DESC: "How long the food in your stockpiles, food stalls and restaurants will last.",
+	MORE: [
+		"Our food stores are running low. We must increase them or risk starvation.",
+		"My {RACE_LORD}, we must fill our stockpiles with {RACE_LIKED_FOODS}!",
+		"Food stores are low. We should allocate more workers to procure food for harsh times.",
+		"My {RACE_LORD}! Our food stores are low. They must be replenished or we risk disaster.",
+	],
+},
+FOOD_FOOD_RATIONS:{
+	NAME: "Food Servings",
+	DESC: "How many pieces of food each subject is allowed when they eat. Servings greater than 1 can only be extracted from an eating service.",
+	MORE: [
+		"We want to eat more.",
+		"We {RACES} like to eat my {RACE_LORD}. Perhaps allow us an extra ration in the food stalls?",
+		"I could eat some more {RACE_LIKED_FOOD}. Could our {RACE_LORD} find it in their heart to increase food servings, just a little?",
+	],
+},
+FOOD_DRINK_RATIONS:{
+	NAME: "Drink Servings",
+	DESC: "How many drinks subjects are allowed when thirsty. High Servings will lead to more drunkenness and decrease health.",
+	MORE: [
+		"Couldn't you allow us a bit more alcohol?",
+		"More drink!",
+		"It is impossible for me to get drunk on such small drink servings.",
+	],
+},
+WORK_RETIREMENT_AGE:{
+	NAME: "Retirement Age",
+	DESC: "Allows you to offer your loyal subjects some well deserved early retirement. At 0%, this decree will have your subjects work until they drop dead. At 100%, subjects will retire once they reach 40% of their life expectancy.",
+	MORE: [
+		"We wish to be able to retire at an earlier age.",
+		"Few of us will live long enough to enjoy retirement. Let us retire earlier.",
+	],
+},
+WORK_WORK_TIME:{
+	NAME: "Work Time",
+	DESC: "Progress of current work shift. Subjects try to work for the better part of the day. Will reset when shift has ended.",
+},
+WORK_FULFILLMENT:{
+	NAME: "Fulfilment",
+	DESC: "Occupation Fulfilment. How this subject feels about its current occupation situation. Different species like different workplaces or activities.",
+	MORE: [
+		"I'd like to do something more fulfilling.",
+		"I wish there were a more fulfilling occupation available for me.",
+		"My job, well, it's all right. But as a {RACE} I dream of doing something else.",
+		"Greatest {RACE_LORD}, I do not mean to complain. But perhaps when you have a moment, have a look if you can open up some more fulfilling work for us {RACES}?",
+	],
+},
+WORK_INCAPACITATED:{
+	NAME: "Incapacitated",
+	DESC: "incapacitated subjects can not work due to illness or injury.",
+},
+WORK_EMPLOYED:{
+	NAME: "Employed",
+	DESC: "The amount of subjects currently employed.",
+	MORE: [
+		"I walk around all day, trying to find something to do, but let's face it. I'm useless. All the real jobs are taken and I have no way of contributing.",
+	],
+},
+WORK_RETIREMENT:{
+	NAME: "Retirement",
+	DESC: "Retirement. A measure of how many subjects you allow to retire, and the activities you provide them with. Increased by retirement rooms and retirement age. Retirees will look for the activity that makes them the most happy.",
+	MORE: [
+		"The elderly should be allowed to relax and enjoy themselves.",
+		"There is nothing to look forward to for when you retire.",
+		"Our retirees have worked hard and should be treated better.",
+	],
+},
+HOME_HOUSED:{
+	NAME: "Housing",
+	DESC: "The housing of your citizens.",
+	MORE: [
+		"We need more homes for our people.",
+		"My {RACE_LORD}, the first step in building a mighty {RACE_CITY} would be to build some homes for us.",
+		"More housing is urgently needed. I can not sleep on the street like a beggar.",
+		"The {RACE_CITY} is suffering from a lack of homes!",
+		"Please, {RACE_LORD}, I have nowhere to live. I sleep in the gutter every night.",
+		"More housing is urgently needed.",
+	],
+},
+HOME_FURNITURE:{
+	NAME: "Furniture",
+	DESC: "If allowed, subjects can use resources to furnish their dwellings. The resources used as furniture are consumed each year.",
+	MORE: [
+		"Perhaps you could allow us a little more furniture for our homes?",
+		"I can't create a cozy home for myself with the goods you have allowed us.",
+		"Sometimes I dream of decorating my house with some {RND_FURNITURE}.",
+		"I think my house would look lovely with some {RND_FURNITURE}. Don't you think so, {RACE_LORD}?",
+	],
+},
+BATTLE_COMBAT_EXPERIENCE:{
+	NAME: "Soldier Experience",
+	DESC: "The level of soldiering experience of these subjects. Experience is gained through fighting and killing enemy troops.",
+},
+BATTLE_ENEMY_KILLS:{
+	NAME: "Enemy kills",
+	DESC: "The amount of enemy soldiers killed.",
+	MORE: [
+		"We should kill more enemies and make a name for ourselves.",
+		"Our military had no great accomplishments recently.",
+	],
+},
+BATTLE_WAR_TIME:{
+	NAME: "Wars",
+	DESC: "The time you have spent at war with other factions.",
+	LESS: [
+		"We are tired of the bloodshed. Enough is enough, we should make peace with our enemies.",
+		"This war is taking its toll on us. {RACE_LORD}, please we yearn for peace.",
+		"We have been at war for too long. It does not seem like we are winning, and I worry for the future.",
+	],
+},
+BATTLE_SOLDIERS:{
+	NAME: "Soldiers",
+	DESC: "The amount of soldiers (race specific)",
+},
+BATTLE_SOLDIERS_TOTAL:{
+	NAME: "Army",
+	DESC: "The amount of soldiers",
+	MORE: [
+		"Our army is embarrassing. We need to gear them up and swell the ranks, my {RACE_LORD}.",
+		"More of us will have to be soldiers to defend our settlement.",
+		"Violence is unquestionably a necessity in this life. Prepare for it by getting more soldiers.",
+		"Many out there wish to take what belongs to {RACE_LORD}. While I will fight for you until my last breath, we could still use more soldiers to protect our {RACE_CITY}.",
+	],
+},
+BATTLE_RECRUITS:{
+	NAME: "Recruits",
+	DESC: "The amount of subjects undergoing training and are not yet fit for a division.",
+},
+BATTLE_ROUTING:{
+	NAME: "Routing",
+	DESC: "The amount of subjects that are routing.",
+},
+BATTLE_PROWESS:{
+	NAME: "Prowess",
+	DESC: "Your success on the battlefield.",
+	MORE: [
+		"It is time we prove ourselves on the field of battle! Some victories will do us good and improve spirits!",
+		"The raiders are laughing at us. It's time we take the battle to them and squash them on the battlefield.",
+		"I, {NAME}, dream of glory on the field of battle. Let us conquer, let us smash, {RELIGION_GOD} is by our side!",
+		"I have only one request my {RACE_LORD}. Let us take up arms, let me die for your glory and make a name for you in the history of Syx.",
+	],
+},
+BATTLE_CHIVALRY:{
+	NAME: "Chivalry",
+	DESC: "Your actions after a successful battle.",
+	MORE: [
+		"You are a great warrior, we {RACES} do not question that. Perhaps our {RACE_LORD} can be a bit harsh upon the conquered though. Respectfully.",
+		"Let's be merciful to our enemies. They will feel grateful and perhaps leave us alone.",
+		"Treating our captives well will prevent bad blood and more wars.",
+		"As tired as I am of {HATED_RACE} raiders, I do think we should treat them better once conquered.",
+	],
+	LESS: [
+		"Our enemies do not deserve mercy, they would have given none to us either!",
+		"You are too soft on our enemies, My {RACE_LORD}. Next time we conquer some we should execute them, else they'll never learn."
+		"A good {HATED_RACE} enemy is a dead {HATED_RACE} enemy, and they should be killed without fuss when conquered.",
+	],
+},
+BATTLE_CRUELTY:{
+	NAME: "Cruelty",
+	DESC: "Your actions after a successful battle.",
+},
+BATTLE_BESIEGED:{
+	NAME: "Besieged",
+	DESC: "The time your city has been under siege.",
+	LESS: [
+		"{RACE_LORD}, the {RACE_CITY} is under siege. We can not hold out indefinitely and morale is starting to become a problem.",
+		"{RACE_CURSE}. This siege is wearing us down.",
+	],
+},
+NEEDS_INJURIES:{
+	NAME: "Injuries",
+	DESC: "The amount of injuries. Small injuries will heal in time. Critical ones will lead to death unless the subject can visit a hospital.",
+},
+NEEDS_EXHAUSTION:{
+	NAME: "Exhaustion",
+	DESC: "Fighting and running subjects get exhausted. If exhaustion reaches a tresshold the subject will collapse. Exhausted soldiers are worse at fighting.",
+},
+NEEDS_HUNGER:{
+	NAME: "Hunger",
+	DESC: "The access to food of this subject. Hungry subjects will look for food when hungry. The faster they find it, the better the access. They will try to eat when value is below 50%.",
+},
+NEEDS_THIRST:{
+	NAME: "Thirst",
+	DESC: "Thirsty subjects want drink and will try to seek out stored drinks or visit taverns.",
+},
+NEEDS_EXPOSURE:{
+	NAME: "Exposure",
+	DESC: "As temperatures rise and drop, your subjects will be exposed based on their resistance properties. Exposed subjects might stop working to get to a hearth or source of water. If none is found, they risk death. Some items can be equipped to better handle exposure.",
+},
+DISEASE_INCUBATE:{
+	NAME: "Incubated",
+	DESC: "Incubated subjects have yet to get sick, but are carrying the contagion.",
+},
+DISEASE_INFECTED:{
+	NAME: "Infected",
+	DESC: "Infected subjects can still operate normally, but might have some special needs.",
+},
+APPEARANCE_DEAD:{
+	NAME: "Dead",
+	DESC: "",
+},
+SERVICE_HOSPITAL:{
+	NAME: "Hospitals",
+	DESC: "The amount of hospital beds in your city. You need at least 1 bed per 100 subjects for them to feel safe.",
+	MORE: [
+		"With so few hospitals a plague could devastate our {RACE_CITY}.",
+		"It would be comforting to know there were hospital beds available for me, should I get sick or injured, the gods forbid.",
+		"There are too few hospital beds available to us in emergencies.",
+	],
+	LESS: [
+		"We have too many hospitals unnaturally prolonging out lives.",
+	],
+},
+EVENT_EVENT:{
+	NAME: "Event",
+	DESC: "",
+},
+
+EVENT_DEBUG_MARK:{
+	NAME: "Mark",
+	DESC: "",
+},
+
+ACCESS_SHAPE_ROUND: {
+	NAME: "Roundness",
+	DESC: "How round your general outline of buildings are.",
+	MORE: [
+		"Oh greatest of {RACE_LORD}, The buildings that you order us to build are very square. While efficient, it looks a little sterile to us {RACIAN} {RACE_SELVES}. Consider making them a little rounder.",
+		"These straight angles might appeal to a {HATED_RACE}, but to a {RACE} it's appalling. Our {RACE_LORD} should fix this as soon as possible, or risk being smitten by {RELIGION_GOD}",
+		"All these straight angles are giving me a headache, perhaps build a bit rounder?",
+		"Forgive me, wise and powerful {RACE_LORD}, while the city is divinely built, consider making it look a bit more organic.",
+		"Memmnon the wise, perhaps you've heard of him my {RACE_LORD}, said on many occasions that a {RACE_CITY} should be round.",
+		"Have you ever seen a square tree or a river without curves? {RACES} have not, and we want that reflected in our {RACE_CITY}.",
+	],
+	LESS: [
+		"Please by, {RELIGION_GOD}, these round shapes of our city make me dizzy.",
+		"The architecture of the city is too whimsical. Please don't use such round shapes.",
+		"The weird round shapes and curving paths frequently cause me to get lost.",
+	],
+},
+ACCESS_SHAPE_SQUARE: {
+	NAME: "Squareness",
+	DESC: "How square your general outline of buildings are.",
+	MORE: [
+		"Oh greatest of {RACE_LORD}, The buildings that you order us to build are very round. It looks a little whimsical to us {RACIAN} {RACE_SELVES}. Consider making them a little squarer.",
+		"These round angles might appeal to a {HATED_RACE}, but to a {RACE} it's appalling. Our {RACE_LORD} should fix this as soon as possible, or risk being smitten by {RELIGION_GOD}",
+		"All these round angles are giving me a headache, perhaps build a bit more square?",
+		"Forgive me, wise and powerful {RACE_LORD}, while the city is divinely built, consider making it look a bit more square.",
+		"Memmnon the wise, perhaps you've heard of him my {RACE_LORD}, said on many occasions that a {RACE_CITY} should be square.",
+	],
+	LESS: [
+		"Please by, {RELIGION_GOD}, these square shapes of our city make me dizzy.",
+		"The architecture of the city is too square. Please don't use such square shapes.",
+		"The weird square shapes and square paths frequently cause me to get lost.",
+	],
+},
+SERVICE_BENCH: {
+	MORE: [
+		"A few benches to rest our feet would be nice.",
+		"We need somewhere to sit after a hard day of work.",
+		"More benches to relax on would be nice.",
+	],
+},
+BURIAL_GRAVEYARD_NORMAL: {
+	MORE: [
+		"We need more graveyards for our people. Somewhere where we can visit dead friends.",
+		"I worry about what will happen to me after I die. I mean physically. I don't think we have free graves.",
+		"We need more graveyards to prevent our people rotting in the sun.",
+		"Burying someone should be done with respect and not left up to vermin.",
+	],
+},
+BURIAL_TOMB_NORMAL: {
+	MORE: [
+		"I do not want to get eaten by worms after I die. Please make sure a spot in a tomb is available for me.",
+		"I hear the great among us do not get a burial befitting their station.",
+		"We need more crypts to honor our most illustrious citizens.",
+	],
+},
+EQUIP_CIVIC_CLOTHES: {
+	MORE: [
+		"Many of us are clad in rags. They are coarse and scratchy. More comfortable clothes would be greatly appreciated.",
+		"More sets of clothes would be appreciated. What we have now is not enough to protect against the weather.",
+		"Please give us more clothes. Naked people quickly lose their charm when you see them every day.",
+	],
+},
+EQUIP_CIVIC_JEWELRY: {
+	MORE: [
+		"We must have more jewelry. I can not get enough of that sublime sparkle!",
+		"A grand city should have equally good-looking citizens. Give us more jewelry to make us as ostentatious as your great design.",
+		"A bit more jewelry would be nice. Just a chain or two and matching rings. Gotta have something complementing that on your head somewhere of course.",
+	],
+},
+BATTLE_BARRACKS_VANILLA: {
+	MORE: [
+		"You know those tales of a small force of elite warrior prevailing against a superior force? I think our soldiers would be the nameless sword-fodder from those stories.",
+		"Our soldiers may be willing to die for you, but that is all they are going to do if you do not train them better, {RACE_LORD}.",
+		"I hear our soldiers do not know how to fight. That is both embarassing and concerning.",
+	],
+},
+BATTLE_ARCHERY_VANILLA: {
+	MORE: [
+		"We {RACES} have a natural aptitude for archery. Talent will only get us so far, please allow us to train more.",
+		"More of us should know how to shoot a bow. Knowing Syx, it will become necessary sooner or later.",
+	],
+},

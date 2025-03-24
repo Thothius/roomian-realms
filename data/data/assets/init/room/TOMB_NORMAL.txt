@@ -1,0 +1,104 @@
+ICON: 32->DEATH->3,
+RESOURCES: [STONE_CUT,GEM,],
+AREA_COSTS: [0,0,],
+MINI_COLOR: 70_0_255,
+FLOOR: STONE_LARGE_DARK,
+MONUMENT: MONUMENT_STATUE,
+ITEMS: [
+	{
+		COSTS: [2,1,],
+		STATS: [0.05,1,0,],
+	},
+	{
+		COSTS: [2,0,],
+		STATS: [0,0,4,],
+	},
+],
+WORK: {
+	SHIFT_OFFSET: 0.75,
+	SOUND: DUMMY,
+	USES_TOOL: false,
+	FULFILLMENT: 0,
+},
+STANDING: {
+	
+	CITIZEN: 2.0,
+	SLAVE: 0,
+	NOBLE: 3,
+	PRIO: 5,
+},
+SPRITES: {
+	HEAD_BOTTOM_1X1: {
+		SHADOW_LENGTH: 6,
+		ROTATES: true,
+		TINT: true,
+		FRAMES: [
+			2xBED: 24,
+		],
+	},
+	
+	HEAD_TOP_1X1: {
+		SHADOW_LENGTH: 0,
+		ROTATES: true,
+		TINT: true,
+		FRAMES: [
+			2xBED: 10,
+		],
+	},
+	
+	TAIL_BOTTOM_1X1: {
+		SHADOW_LENGTH: 6,
+		ROTATES: true,
+		TINT: true,
+		FRAMES: [
+			2xBED: 25,
+		],
+	},
+	
+	TAIL_TOP_1X1: {
+		SHADOW_LENGTH: 0,
+		ROTATES: true,
+		TINT: true,
+		FRAMES: [
+			2xBED: 11,
+		],
+	},
+	
+	STONE_1X1: {
+		SHADOW_LENGTH: 8,
+		ROTATES: false,
+		TINT: true,
+		FRAMES: [
+			TABLES: 4,
+		],
+	},
+	
+	MONUMENT_1x1: {
+		FPS: 0,
+		SHADOW_LENGTH: 24,
+		SHADOW_HEIGHT: 0,
+		ROTATES: true,
+		FRAMES: [
+			MONUMENT: 1,
+		],
+	},
+	MONUMENT_2x2: {
+		FPS: 0,
+		SHADOW_LENGTH: 24,
+		SHADOW_HEIGHT: 0,
+		ROTATES: true,
+		FRAMES: [
+			MONUMENT: 1,
+		],
+	},
+	MONUMENT_3x3: {
+		FPS: 0,
+		SHADOW_LENGTH: 24,
+		SHADOW_HEIGHT: 0,
+		ROTATES: true,
+		FRAMES: [
+			MONUMENT: 1,
+		],
+	},
+},
+

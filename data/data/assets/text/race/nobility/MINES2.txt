@@ -1,0 +1,4 @@
+INFO: {
+	NAME: "Master Treasurer",
+	DESC: "The Master Treasurer is responsible for ensuring the acquisition of rares proceeds apace and keeps tabs on the settlement's finances.",
+},

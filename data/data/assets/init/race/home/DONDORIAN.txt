@@ -1,0 +1,494 @@
+
+
+CITIZEN: {
+	FLOORS: [
+		{
+			RESOURCES: {
+			
+			},
+			FLOOR: DIRT,
+		},
+		{
+			RESOURCES: {
+				STONE: 2,
+			},
+			FLOOR: STONE1,
+		},
+		{
+			RESOURCES: {
+				STONE: 5,
+			},
+			FLOOR: STONE2,
+		},
+	],
+
+	BED_1x1_TOP: [
+		{
+			RESOURCES: {
+				
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 1,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				2xBED: 0,
+			],
+		},
+		{
+			RESOURCES: {
+				WOOD: 2,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				2xBED: 2,
+			],
+		},
+		{
+			RESOURCES: {
+				FURNITURE: 1,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 3,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				2xBED: 4,
+			],
+		},
+		{
+			RESOURCES: {
+				FURNITURE: 4,
+				FABRIC: 3,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 3,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				2xBED: 14,
+			],
+		},
+	],
+	BED_1x1_BOTTOM: [
+		{
+			RESOURCES: {
+				
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 1,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				2xBED: 1,
+			],
+		},
+		{
+			RESOURCES: {
+				WOOD: 2,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				2xBED: 3,
+			],
+		},
+		{
+			RESOURCES: {
+				FURNITURE: 1,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 3,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				2xBED: 5,
+			],
+		},
+		{
+			RESOURCES: {
+				FURNITURE: 4,
+				FABRIC: 3,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 3,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				2xBED: 15,
+			],
+		},
+	],
+	NIGHTSTAND_1x1: [
+		{
+			RESOURCES: {
+			
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 1,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				TABLES: 0,
+			],
+		},
+		{
+			RESOURCES: {
+				STONE_CUT: 1,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				TABLES: 2,
+			],
+		},
+		{
+			RESOURCES: {
+				STONE_CUT: 3,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				TABLES: 4,
+			],
+		},
+	],
+	STORAGE_1x1: [
+		{
+			RESOURCES: {
+				FURNITURE: 3,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				STORAGE: 2,
+			],
+		},
+	],
+	CHAIR_1x1: [
+		{
+			RESOURCES: {
+				WOOD: 1,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				CHAIRS: 0,
+				CHAIRS: 1,
+			],
+		},
+		{
+			RESOURCES: {
+				FURNITURE: 2,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				CHAIRS: 2,
+				CHAIRS: 3,
+			],
+		},
+	],
+	NICKNACK_A_1x1: [
+		{
+			RESOURCES: {
+				FURNITURE: 1,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				TABLES: 3,
+			],
+		},
+	],
+	NICKNACK_A_ONTOP_1x1: [
+		{
+			RESOURCES: {
+				SITHILON: 2,
+			},
+			COLOR: {R: 10, G: 150, B: 10,},
+			FPS: 0,
+			SHADOW_LENGTH: 1,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				TOP: 6,
+				TOP: 7,
+				TOP: 8,
+			],
+		},
+	],
+	NICKNACK_B_1x1: [
+		{
+			RESOURCES: {
+				FURNITURE: 2,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				STORAGE: 0,
+			],
+		},
+	],
+	MAT_1x1: [ 
+		{
+			RESOURCES: {
+				FABRIC: 1,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				CARPET: 0,
+			],
+		},
+	],
+	TABLE_COMBO: [
+		{
+			RESOURCES: {
+				WOOD: 3,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 3,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				COMBO_TABLES: 0,
+				COMBO_TABLES: 1,
+			],
+		},
+	],
+	CARPET_COMBO: [
+		{
+			RESOURCES: {
+				FABRIC: 4,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				COMBO_CARPETS: 0,
+				COMBO_CARPETS: 1,
+			],
+		},
+	],
+},
+
+NOBLE: {
+	FLOORS: [
+		{
+			RESOURCES: {
+			
+			},
+			FLOOR: DIRT,
+		},
+	],
+	BED_MASTER_2x2: [
+		{
+			RESOURCES: {
+			
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 4,
+			SHADOW_HEIGHT: 4,
+			ROTATES: true,
+			FRAMES : [
+				BEDS: 0,
+			],
+		},
+	],
+	STATUE_2x2: [ 
+		{
+			RESOURCES: {
+			
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 8,
+			SHADOW_HEIGHT: 8,
+			ROTATES: true,
+			FRAMES : [
+				MONUMENT: 1,
+			],
+		},
+	],
+},
+
+SLAVE: {
+
+	FLOORS: [
+		{
+			RESOURCES: {
+			
+			},
+			FLOOR: DIRT,
+		},
+		{
+			RESOURCES: {
+				STONE: 2,
+			},
+			FLOOR: STONE1,
+		},
+		{
+			RESOURCES: {
+				STONE: 4,
+			},
+			FLOOR: STONE1,
+		},
+	],
+
+	BED_1x1_TOP: [
+		{
+			RESOURCES: {
+				
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 1,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				2xBED: 0,
+			],
+		},
+		{
+			RESOURCES: {
+				WOOD: 2,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				2xBED: 2,
+			],
+		},
+	],
+	BED_1x1_BOTTOM: [
+		{
+			RESOURCES: {
+				
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 1,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				2xBED: 1,
+			],
+		},
+		{
+			RESOURCES: {
+				WOOD: 2,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				2xBED: 3,
+			],
+		},
+	],
+	NIGHTSTAND_1x1: [
+		{
+			RESOURCES: {
+			
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 1,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				TABLES: 0,
+			],
+		},
+		{
+			RESOURCES: {
+				STONE_CUT: 2,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				TABLES: 2,
+			],
+		},
+	],
+
+	CHAIR_1x1: [
+		{
+			RESOURCES: {
+				WOOD: 1,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				CHAIRS: 0,
+				CHAIRS: 1,
+			],
+		},
+		{
+			RESOURCES: {
+				FURNITURE: 2,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				CHAIRS: 2,
+				CHAIRS: 3,
+			],
+		},
+	],
+	NICKNACK_A_1x1: [
+		{
+			RESOURCES: {
+				FURNITURE: 2,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				SHELVES: 0,
+			],
+		},
+	],
+
+	NICKNACK_B_1x1: [
+		{
+			RESOURCES: {
+				FURNITURE: 2,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				STORAGE: 0,
+			],
+		},
+	],
+	
+	MAT_1x1: [ 
+		{
+			RESOURCES: {
+				FABRIC: 2,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				CARPET: 0,
+			],
+		},
+	],
+	TABLE_COMBO: [
+		{
+			RESOURCES: {
+				WOOD: 1,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 3,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				COMBO_TABLES: 0,
+				COMBO_TABLES: 1,
+			],
+		},
+	],
+},

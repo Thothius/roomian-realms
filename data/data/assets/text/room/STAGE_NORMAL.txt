@@ -1,0 +1,36 @@
+INFO: {
+	NAME: "Stage",
+	NAMES: "Stages",
+	DESC: "A stage allows subjects to listen to a tune, or see a play. It is only active when manned.",
+},
+
+WORK: {
+	TITLE: "Actor",
+	VERB: "Acting",
+},
+
+STATS: [
+	{
+		NAME: "Workers",
+		DESC: "The amount of actors required.",
+	},
+	{
+		NAME: "Spectators",
+		DESC: "The amount of spectators.",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Stage",
+		DESC: "",
+	},
+],
+
+SERVICE: {
+	VERB: "Watching a performance",
+	MORE: [
+		"More stages are needed, if we are to preserve our culture.",
+		"We need some drama and music. Build more stages.",
+	],
+},

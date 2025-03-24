@@ -1,0 +1,9 @@
+INFO: {
+	NAME: "Fresh Water",
+	DESC: "Proximity to fresh water. Some species are naturally drawn to water. The proximity increases efficiency of some rooms.",
+
+},
+
+	MORE: [
+		"Closer access to the fresh water",
+	],

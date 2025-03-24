@@ -1,0 +1,3 @@
+NAME: "Egg",
+NAMES: "Eggs",
+DESC: "Eggs are highly nutritious sustenance with a long shelf life. Produced by some animals.",

@@ -1,0 +1,15 @@
+OCEAN: {
+
+},
+WET: {
+	
+},
+MOUNTAIN: {
+
+},
+FOREST: {
+
+},
+NONE: {
+
+},

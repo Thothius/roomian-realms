@@ -1,0 +1,3 @@
+NAME: "Leather",
+NAMES: "Leather",
+DESC: "Leather can be refined to make various items.",

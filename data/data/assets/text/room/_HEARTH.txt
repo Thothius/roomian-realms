@@ -1,0 +1,34 @@
+INFO: {
+	NAME: "Hearth",
+	NAMES: "Hearths",
+	DESC: "Helps keeping your subjects warm in cold weather. Has no workers, but requires regular maintenance.",
+	WIKI: {
+		CATEGORY: "Service",
+		NAME: "Hearth",
+		TEXT: "Helps keeping your subjects warm in cold weathers. Has no workers, but are managed by odd jobbers and janitors.",
+		CATEGORIES: [],
+	},
+},
+
+STATS: [
+	{
+		NAME: "Spots",
+		DESC: "Available spots",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Hearth",
+		DESC: "",
+	},
+],
+
+SERVICE: {
+	VERB: "Warming up",
+	MORE: [
+		"Some hearths, where you can stare into the fire and share some stories, would do this settlement some good.",
+		"We need somewhere to warm up. The weather can be unpredictable.",
+		"Last night it was chilly, and the oracles in {RND_REGION} say more is to come. It would be wise to make sure our whole {NAME_CITY} has access to hearths.",
+	],	
+},

@@ -1,0 +1,16 @@
+INFO: {
+	NAME: "Pool",
+	NAMES: "Pools",
+	DESC: "Provides your subject with a place to swim. A pool fills up when it is connected to a canal system with enough pressure. One tile of pool will consume one unit of pressure.",
+},
+
+STATS: [
+	
+],
+
+ITEMS: [
+	{
+		NAME: "",
+		DESC: "",
+	},
+],

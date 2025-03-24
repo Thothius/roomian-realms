@@ -1,0 +1,729 @@
+DIMENSIONAL_BREACH: {
+	ICON: 32->DEATH->1,
+	DURATION: {
+		DAYS: 5.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: { *: 1.0 },
+		TERRAIN: { *: 1.0 },
+		RACE: { 
+			*: 0,
+			GARTHIMI: 1.0
+		},
+		REQUIRES: {
+			GREATER: { 
+				POPULATION: 100
+			}
+		}
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			DIMENSIONAL_BREACH
+		],
+		ADD: [
+			DIMENSIONAL_BREACH
+		]
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					RATES_REPRODUCTION>MUL: 2.0,
+					RATES_IMMIGRATION>MUL: 1.8,
+					BEHAVIOUR_SANITY>MUL: 0.8,
+					BEHAVIOUR_SPIRITUAL>MUL: 1.5
+				}
+			}
+		]
+	},
+},
+
+HOST_INFILTRATION: {
+	ICON: 32->DEATH->2,
+	DURATION: {
+		DAYS: 6.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: { *: 1.0 },
+		TERRAIN: { *: 1.0 },
+		RACE: { 
+			*: 0,
+			GARTHIMI: 1.0
+		},
+		REQUIRES: {
+			GREATER: { 
+				POPULATION: 150,
+				ROOM_TEMPLE_SHMALOR_AMOUNT: 1
+			}
+		}
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			HOST_INFILTRATION
+		],
+		ADD: [
+			HOST_INFILTRATION
+		]
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BATTLE_STEALTH>MUL: 2.0,
+					RATES_ESPIONAGE>MUL: 1.8,
+					RATES_CRIME>MUL: 1.5,
+					BEHAVIOUR_SANITY>MUL: 0.9
+				}
+			}
+		]
+	},
+},
+
+VOID_COMMUNION: {
+	ICON: 32->DEATH->0,
+	DURATION: {
+		DAYS: 4.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: { *: 1.0 },
+		TERRAIN: { *: 1.0 },
+		RACE: { 
+			*: 0,
+			GARTHIMI: 1.0
+		},
+		REQUIRES: {
+			GREATER: { 
+				POPULATION: 200
+			}
+		}
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			VOID_COMMUNION
+		],
+		ADD: [
+			VOID_COMMUNION
+		]
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_SPIRITUAL>MUL: 2.0,
+					RATES_TEMPLE>MUL: 1.8,
+					BEHAVIOUR_LOYALTY>MUL: 1.5,
+					BEHAVIOUR_SANITY>MUL: 0.7
+				}
+			}
+		]
+	},
+},
+
+BIOLOGICAL_ADAPTATION: {
+	ICON: 32->HEALTH->1,
+	DURATION: {
+		DAYS: 7.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: { *: 1.0 },
+		TERRAIN: { *: 1.0 },
+		RACE: { 
+			*: 0,
+			GARTHIMI: 1.0
+		},
+		REQUIRES: {
+			GREATER: { 
+				POPULATION: 300
+			}
+		}
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			BIOLOGICAL_ADAPTATION
+		],
+		ADD: [
+			BIOLOGICAL_ADAPTATION
+		]
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					PHYSICS_DISEASE_RESISTANCE>MUL: 2.0,
+					PHYSICS_POISON_RESISTANCE>MUL: 2.0,
+					PHYSICS_HUNGER_RESISTANCE>MUL: 1.5,
+					PHYSICS_THIRST_RESISTANCE>MUL: 1.5
+				}
+			}
+		]
+	},
+},
+
+GOD_EMPEROR_VISITATION: {
+	ICON: 32->DEATH->3,
+	DURATION: {
+		DAYS: 8.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: { *: 1.0 },
+		TERRAIN: { *: 1.0 },
+		RACE: { 
+			*: 0,
+			GARTHIMI: 1.0
+		},
+		REQUIRES: {
+			GREATER: { 
+				POPULATION: 350,
+				ROOM_TEMPLE_SHMALOR_AMOUNT: 2
+			}
+		}
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			GOD_EMPEROR_VISITATION
+		],
+		ADD: [
+			GOD_EMPEROR_VISITATION
+		]
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_LOYALTY>MUL: 2.0,
+					BEHAVIOUR_SPIRITUAL>MUL: 2.0,
+					BEHAVIOUR_DISCIPLINE>MUL: 1.8,
+					BATTLE_MORALE>MUL: 1.8,
+					BEHAVIOUR_SANITY>MUL: 0.6
+				}
+			},
+			{
+				TYPE: SUBJECTS_ADD,
+				AMOUNTS: {
+					GARTHIMI: {
+						AMOUNT: 5,
+					},	
+				},
+				IMMIGRANT_TYPE: IMMIGRANT
+			}
+		]
+	},
+},
+
+PARASITIC_EVOLUTION: {
+	ICON: 32->HEALTH->2,
+	DURATION: {
+		DAYS: 5.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: { *: 1.0 },
+		TERRAIN: { *: 1.0 },
+		RACE: { 
+			*: 0,
+			GARTHIMI: 1.0
+		},
+		REQUIRES: {
+			GREATER: { 
+				POPULATION: 180
+			}
+		}
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			PARASITIC_EVOLUTION
+		],
+		ADD: [
+			PARASITIC_EVOLUTION
+		]
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BATTLE_PIERCE>MUL: 1.8,
+					BATTLE_DAMAGE>MUL: 1.6,
+					PHYSICS_DISEASE_RESISTANCE>MUL: 1.8,
+					RATES_REPRODUCTION>MUL: 1.5
+				}
+			}
+		]
+	},
+},
+
+HIVE_MIND_SYNCHRONIZATION: {
+	ICON: 32->KNOWLEDGE->2,
+	DURATION: {
+		DAYS: 6.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: { *: 1.0 },
+		TERRAIN: { *: 1.0 },
+		RACE: { 
+			*: 0,
+			GARTHIMI: 1.0
+		},
+		REQUIRES: {
+			GREATER: { 
+				POPULATION: 220,
+				ROOM_TEMPLE_SHMALOR_AMOUNT: 1
+			}
+		}
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			HIVE_MIND_SYNCHRONIZATION
+		],
+		ADD: [
+			HIVE_MIND_SYNCHRONIZATION
+		]
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					RATES_ADMINISTRATION>MUL: 2.0,
+					BEHAVIOUR_DISCIPLINE>MUL: 1.8,
+					BEHAVIOUR_LOYALTY>MUL: 1.8,
+					BEHAVIOUR_INTELLIGENCE>MUL: 1.6,
+					BEHAVIOUR_SANITY>MUL: 0.8
+				}
+			}
+		]
+	},
+},
+
+VOID_ENERGY_HARVESTING: {
+	ICON: 32->INDUSTRY->2,
+	DURATION: {
+		DAYS: 7.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: { *: 1.0 },
+		TERRAIN: { *: 1.0 },
+		RACE: { 
+			*: 0,
+			GARTHIMI: 1.0
+		},
+		REQUIRES: {
+			GREATER: { 
+				POPULATION: 270
+			}
+		}
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			VOID_ENERGY_HARVESTING
+		],
+		ADD: [
+			VOID_ENERGY_HARVESTING
+		]
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					RATES_INDUSTRY>MUL: 2.2,
+					RATES_MINING>MUL: 1.8,
+					RATES_ENGINEERING>MUL: 1.7,
+					RATES_CONSTRUCTION>MUL: 1.6,
+					BEHAVIOUR_SANITY>MUL: 0.8
+				}
+			}
+		]
+	},
+},
+
+EXTRADIMENSIONAL_HUNTING: {
+	ICON: 32->BATTLE->3,
+	DURATION: {
+		DAYS: 6.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: { *: 1.0 },
+		TERRAIN: { *: 1.0 },
+		RACE: { 
+			*: 0,
+			GARTHIMI: 1.0
+		},
+		REQUIRES: {
+			GREATER: { 
+				POPULATION: 320
+			}
+		}
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			EXTRADIMENSIONAL_HUNTING
+		],
+		ADD: [
+			EXTRADIMENSIONAL_HUNTING
+		]
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BATTLE_DAMAGE>MUL: 2.0,
+					BATTLE_PIERCE>MUL: 1.8,
+					BATTLE_STEALTH>MUL: 1.8,
+					BATTLE_SPEED>MUL: 1.6,
+					BEHAVIOUR_SANITY>MUL: 0.7
+				}
+			}
+		]
+	},
+},
+
+SHMALOR_VOID_RITUAL: {
+	ICON: 32->DEATH->4,
+	DURATION: {
+		DAYS: 9.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: { *: 1.0 },
+		TERRAIN: { *: 1.0 },
+		RACE: { 
+			*: 0,
+			GARTHIMI: 1.0
+		},
+		REQUIRES: {
+			GREATER: { 
+				POPULATION: 400,
+				ROOM_TEMPLE_SHMALOR_AMOUNT: 3
+			}
+		}
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			SHMALOR_VOID_RITUAL
+		],
+		ADD: [
+			SHMALOR_VOID_RITUAL
+		]
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_SPIRITUAL>MUL: 2.2,
+					RATES_TEMPLE>MUL: 2.0,
+					BATTLE_DAMAGE>MUL: 1.8,
+					BATTLE_PIERCE>MUL: 1.8,
+					BEHAVIOUR_LOYALTY>MUL: 1.8,
+					RATES_REPRODUCTION>MUL: 1.8,
+					BEHAVIOUR_SANITY>MUL: 0.5
+				}
+			},
+			{
+				TYPE: SUBJECTS_ADD,
+				AMOUNTS: {
+					GARTHIMI: {
+						AMOUNT: 10,
+					},	
+				},
+				IMMIGRANT_TYPE: IMMIGRANT
+			}
+		]
+	},
+},
+
+VOID_GATE_MANIFESTATION: {
+	ICON: 32->KNOWLEDGE->3,
+	TEXT: "A temporary gate to the Endless Void has manifested within your settlement. This dimensional anomaly has allowed your Wormlings to draw power directly from their cosmic homeland, enhancing their abilities and accelerating their evolution.",
+	DURATION: {
+		DAYS: 10.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: { *: 1.0 },
+		TERRAIN: { *: 1.0 },
+		RACE: { 
+			*: 0,
+			GARTHIMI: 1.0
+		},
+		REQUIRES: {
+			GREATER: { 
+				POPULATION: 200,
+				ROOM_KNOWLEDGE_LIBRARY_AMOUNT: 1
+			}
+		}
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			VOID_GATE_MANIFESTATION
+		],
+		ADD: [
+			VOID_GATE_MANIFESTATION
+		]
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BATTLE_ATTACK>MUL: 1.7,
+					BATTLE_DEFENSE>MUL: 1.6,
+					KNOWLEDGE_GAIN>MUL: 1.5,
+					BEHAVIOUR_HAPPINESS>MUL: 1.4
+				}
+			}
+		]
+	},
+},
+
+ADVANCED_PARASITIC_TECHNIQUE: {
+	ICON: 32->HEALTH->2,
+	TEXT: "Your Wormlings have developed an advanced parasitic technique that allows for more efficient host infiltration and control. This evolution has enhanced their ability to manipulate and utilize host bodies for various purposes.",
+	DURATION: {
+		DAYS: 12.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: { *: 1.0 },
+		TERRAIN: { *: 1.0 },
+		RACE: { 
+			*: 0,
+			GARTHIMI: 1.0
+		},
+		REQUIRES: {
+			GREATER: { 
+				POPULATION: 180,
+				ROOM_HEALTH_HOSPITAL_AMOUNT: 1,
+				ROOM_DUNGEON_AMOUNT: 1
+			}
+		}
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			ADVANCED_PARASITIC_TECHNIQUE
+		],
+		ADD: [
+			ADVANCED_PARASITIC_TECHNIQUE
+		]
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					DIPLOMACY_ESPIONAGE>MUL: 1.8,
+					BATTLE_MORALE>MUL: 1.5,
+					BEHAVIOUR_DISCIPLINE>MUL: 1.4,
+					BEHAVIOUR_HAPPINESS>MUL: 1.3
+				}
+			}
+		]
+	},
+},
+
+SHMALOR_VOID_COMMUNION: {
+	ICON: 32->RELIGION->3,
+	TEXT: "Your Wormlings have performed a ritual to commune with Shmalor through the Endless Void. This communion has strengthened their connection to the queen of the Agonosh and granted them enhanced abilities through her cosmic power.",
+	DURATION: {
+		DAYS: 15.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: { *: 1.0 },
+		TERRAIN: { *: 1.0 },
+		RACE: { 
+			*: 0,
+			GARTHIMI: 1.0
+		},
+		REQUIRES: {
+			GREATER: { 
+				POPULATION: 220,
+				ROOM_TEMPLE_SHMALOR_AMOUNT: 1,
+				RELIGION_SHMALOR_F: 0.6
+			}
+		}
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			SHMALOR_VOID_COMMUNION
+		],
+		ADD: [
+			SHMALOR_VOID_COMMUNION
+		]
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_SPIRITUAL>MUL: 1.7,
+					BATTLE_ATTACK>MUL: 1.5,
+					BATTLE_DEFENSE>MUL: 1.4,
+					KNOWLEDGE_GAIN>MUL: 1.3
+				}
+			}
+		]
+	},
+},
+
+BIOLOGICAL_METAMORPHOSIS: {
+	ICON: 32->HEALTH->3,
+	TEXT: "Your Wormlings have undergone a collective biological metamorphosis, adapting their physical forms to better suit their environment. This evolution has enhanced their resilience and ability to thrive in various conditions.",
+	DURATION: {
+		DAYS: 14.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: { *: 1.0 },
+		TERRAIN: { *: 1.0 },
+		RACE: { 
+			*: 0,
+			GARTHIMI: 1.0
+		},
+		REQUIRES: {
+			GREATER: { 
+				POPULATION: 250,
+				ROOM_HEALTH_HOSPITAL_AMOUNT: 2
+			}
+		}
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			BIOLOGICAL_METAMORPHOSIS
+		],
+		ADD: [
+			BIOLOGICAL_METAMORPHOSIS
+		]
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_HEALTH>MUL: 1.8,
+					BATTLE_DEFENSE>MUL: 1.6,
+					BEHAVIOUR_HAPPINESS>MUL: 1.4,
+					BEHAVIOUR_DISCIPLINE>MUL: 1.3
+				}
+			}
+		]
+	},
+},
+
+COLLECTIVE_CONSCIOUSNESS_EXPANSION: {
+	ICON: 32->KNOWLEDGE->2,
+	TEXT: "The hive mind of your Wormlings has expanded, allowing for enhanced communication and coordination across your settlement. This collective consciousness has improved efficiency and unity among your citizens.",
+	DURATION: {
+		DAYS: 8.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: { *: 1.0 },
+		TERRAIN: { *: 1.0 },
+		RACE: { 
+			*: 0,
+			GARTHIMI: 1.0
+		},
+		REQUIRES: {
+			GREATER: { 
+				POPULATION: 150
+			}
+		}
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			COLLECTIVE_CONSCIOUSNESS_EXPANSION
+		],
+		ADD: [
+			COLLECTIVE_CONSCIOUSNESS_EXPANSION
+		]
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_DISCIPLINE>MUL: 1.7,
+					BEHAVIOUR_LOYALTY>MUL: 1.6,
+					KNOWLEDGE_GAIN>MUL: 1.5,
+					BEHAVIOUR_HAPPINESS>MUL: 1.3
+				}
+			}
+		]
+	},
+}

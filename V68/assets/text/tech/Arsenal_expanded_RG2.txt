@@ -1,0 +1,49 @@
+NAME: "Arsenal Expanded",
+TECHS: 
+{
+	ACCESORIES: 
+    {
+		NAME: "Accesories",
+        DESC: "Learn to produce banners and whetstones to boost morale or sharpen your troops' blades.",
+	},
+	AMMO: 
+    {
+		NAME: "Improved Arrows",
+        DESC: "Add stone and metal tips to arrows, making your archers better.",
+	},
+	ARMORY: 
+    {
+		NAME: "Armory",
+        DESC: "Your weaponsmiths got ideas for a more diverse arsenal.",
+	},
+	ARMORY_BOOST: 
+    {
+		NAME: "Armory boost",
+        DESC: "Improve production speed by using better tools.",
+	},
+	ARMORY_UPGRADE_1: 
+    {
+		NAME: "Armory (Refined)",
+        DESC: "Upgrade your armories with proper tools for the job.",
+	},
+	ARMORY_UPGRADE_2: 
+    {
+		NAME: "Armory (Advanced)",
+        DESC: "Upgrade your armories with advanced tools for the job.",
+	},
+	CROSSBOW: 
+    {
+		NAME: "Crossbow",
+        DESC: "Produce crossbows, meant to deal high damage at long ranges at the cost of a slow reload and expensive production.",
+	},
+	PUSHUP_GLOVES: 
+    {
+		NAME: "Pushup gloves",
+        DESC: "Produce pushup gloves.",
+	},
+	HEAVYSHIELD: 
+    {
+		NAME: "Heavy shield",
+        DESC: "Improve the design of your shields by making a metal version, harder, bigger, slower, stronger.",
+	},
+},

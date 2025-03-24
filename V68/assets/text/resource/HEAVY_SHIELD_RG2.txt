@@ -1,0 +1,3 @@
+NAME: "Heavy shield",
+NAMES: "Heavy shields",
+DESC: "Masterfully crafted bulwarks that provide exceptional protection in battle. Each shield bears its maker's mark and is said to remember every blow it has turned aside. The metal is folded hundreds of times during forging, creating layers that absorb and distribute impact rather than simply resisting it.",

@@ -1,0 +1,2 @@
+NAME: "The Incompetent",
+DESC: "Gained by leaving some things to be desired on the field of battle. Makes the other factions take pity on you and give you some slack.",

@@ -1,0 +1,119 @@
+ICON: {
+	BG: 24->race->TILAPI->0,
+	FG: 32->BG->0,
+	SHADOW: 1,
+},
+RESOURCES: [STONE,METAL,FABRIC,],
+AREA_COSTS: [0.2,0,0,],
+FLOOR: DIRT,
+MINI_COLOR: 0_255_255,
+REQUIRES: {
+	GREATER: {
+		POPULATION_TILAPI_CITIZEN_I: 20,
+	},
+},
+ITEMS: [
+	{
+		COSTS: [2,2,2,],
+		STATS: [1,0,0,],
+	},
+	{
+		COSTS: [5,5,5,],
+		STATS: [0,0,4,],
+	},
+],
+WORK: {
+	SHIFT_OFFSET: 0.125,
+	SOUND: FABRIC,
+	USES_TOOL: false,
+	FULLFILLMENT: 0.5,
+},
+INDUSTRY: {
+	IN: {
+		MEAT: 0.4,
+		WINE: 0.1,
+	},
+	OUT: {
+		
+	},
+},
+RACE: TILAPI,
+INCUBATION_DAYS: 10, 
+SPRITES: {
+	1x1_BABY: {
+		FPS: 4,
+		SHADOW_LENGTH: 1,
+		ROTATES: false,
+		FRAMES: [
+			NURSERY: 8,
+			NURSERY: 9,
+		],
+	},
+	1x1_CRIB_TOP: {
+		FPS: 0,
+		SHADOW_LENGTH: 3,
+		SHADOW_HEIGHT: 0,
+		ROTATES: true,
+		FRAMES: [
+			2xBED: 12,
+		],
+	},
+	1x1_CRIB_BOTTOM: {
+		FPS: 0,
+		SHADOW_LENGTH: 3,
+		SHADOW_HEIGHT: 0,
+		ROTATES: true,
+		FRAMES: [
+			2xBED: 13,
+		],
+	},
+	1x1_CRIB_TOP_FENCE: {
+		FPS: 0,
+		SHADOW_LENGTH: 2,
+		SHADOW_HEIGHT: 0,
+		ROTATES: true,
+		FRAMES: [
+			2xBED: 18,
+		],
+	},
+	1x1_CRIB_BOTTOM_FENCE: {
+		FPS: 0,
+		SHADOW_LENGTH: 2,
+		SHADOW_HEIGHT: 0,
+		ROTATES: true,
+		FRAMES: [
+			2xBED: 19,
+		],
+	},		
+	2x2_DECOR: {
+		FPS: 0,
+		SHADOW_LENGTH: 3,
+		SHADOW_HEIGHT: 0,
+		ROTATES: false,
+		FRAMES: [
+			CARPETS: 0,
+		],
+	},
+	1x1_TABLE: {
+		FPS: 0,
+		SHADOW_LENGTH: 3,
+		SHADOW_HEIGHT: 0,
+		ROTATES: false,
+		FRAMES: [
+			TABLES: 2,
+		],
+	},
+	1x1_CHAIR: {
+		FPS: 0,
+		SHADOW_LENGTH: 3,
+		SHADOW_HEIGHT: 0,
+		ROTATES: true,
+		FRAMES: [
+			CHAIRS: 2,
+		],
+	},
+},
+DESC: {
+	TEXT: "A harsh, unforgiving nursery for Hellspawn children. Built with stone and metal, it features small spikes and uncomfortable surfaces to begin teaching young Hellspawns the 'Pain's Embrace' doctrine from birth. They are fed raw meat and small amounts of wine to develop their taste for blood and strengthen their demonic nature in service to Aminion.",
+	REQUIRED: "Requires a population of at least 20 Hellspawn citizens.",
+},

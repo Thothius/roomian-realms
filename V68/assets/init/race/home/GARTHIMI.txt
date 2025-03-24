@@ -1,0 +1,343 @@
+CITIZEN: {
+	FLOORS: [
+		{
+			RESOURCES: {
+			
+			},
+			FLOOR: DIRT,
+		},
+		{
+			RESOURCES: {
+				STONE: 2,
+				GEM: 2,
+			},
+			FLOOR: STONE1,
+		},
+	],
+
+	BED_1x2: [
+		{
+			RESOURCES: {
+				
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 1,
+			SHADOW_HEIGHT: 0,
+			SHADOW_SPRITE: false,
+			FRAMES : [
+				BED: 0,
+			],
+		},
+		{
+			RESOURCES: {
+				GEM: 3,
+				STONE_CUT: 1,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			SHADOW_SPRITE: false,
+			FRAMES : [
+				BED: 1,
+			],
+		},
+		{
+			RESOURCES: {
+				GEM: 4,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 3,
+			SHADOW_HEIGHT: 0,
+			SHADOW_SPRITE: false,
+			FRAMES : [
+				BED: 2,
+			],
+		},
+	],
+
+	TABLE_COMBO: [
+		{
+			RESOURCES: {
+				STONE_CUT: 2,
+				GEM: 1,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 3,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				COMBO_TABLES: 0,
+				COMBO_TABLES: 1,
+			],
+		},
+	],
+
+	CARPET_COMBO: [
+		{
+			RESOURCES: {
+				GEM: 3,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				COMBO_CARPETS: 5,
+			],
+		},
+	],
+
+	NIGHTSTAND_1x1: [
+		{
+			RESOURCES: {
+				STONE_CUT: 2,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 1,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				TABLES: 2,
+			],
+		},
+		{
+			RESOURCES: {
+				GEM: 3,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				TABLES: 3,
+			],
+		},
+	],
+
+	STORAGE_1x1: [
+		{
+			RESOURCES: {
+				STONE_CUT: 2,
+				GEM: 1,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				STORAGE: 2,
+			],
+		},
+	],
+
+	CHAIR_1x1: [
+		{
+			RESOURCES: {
+				STONE_CUT: 2,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				CHAIRS: 0,
+				CHAIRS: 1,
+			],
+		},
+	],
+
+	NICKNACK_A_1x1: [
+		{
+			RESOURCES: {
+				GEM: 3,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				STORAGE: 1,
+			],
+		},
+	],
+
+	NICKNACK_B_1x1: [
+		{
+			RESOURCES: {
+				GEM: 4,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				STORAGE: 3,
+			],
+		},
+	],
+
+	NICKNACK_A_ONTOP_1x1: [
+		{
+			RESOURCES: {
+				GEM: 2,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 1,
+			SHADOW_HEIGHT: 0,
+			COLOR: [
+				{R: 100, G: 10, B: 100,},
+				{R: 10, G: 100, B: 100,},
+				{R: 100, G: 100, B: 10,},
+			],
+			FRAMES : [
+				TOP: 5,
+				TOP: 6,
+				TOP: 7,
+				TOP: 8,
+			],
+		},
+	],
+},
+
+SLAVE: {
+	FLOORS: [
+		{
+			RESOURCES: {
+			
+			},
+			FLOOR: DIRT,
+		},
+	],
+
+	BED_1x2: [
+		{
+			RESOURCES: {
+				
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 1,
+			SHADOW_HEIGHT: 0,
+			SHADOW_SPRITE: false,
+			FRAMES : [
+				BED: 0,
+			],
+		},
+	],
+
+	TABLE_COMBO: [
+		{
+			RESOURCES: {
+				STONE: 2,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 3,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				COMBO_TABLES: 0,
+				COMBO_TABLES: 1,
+			],
+		},
+	],
+
+	NIGHTSTAND_1x1: [
+		{
+			RESOURCES: {
+			
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 1,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				TABLES: 2,
+			],
+		},
+	],
+
+	STORAGE_1x1: [
+		{
+			RESOURCES: {
+				STONE: 2,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				STORAGE: 2,
+			],
+		},
+	],
+
+	CHAIR_1x1: [
+		{
+			RESOURCES: {
+			
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				CHAIRS: 0,
+				CHAIRS: 1,
+			],
+		},
+	],
+
+	NICKNACK_A_1x1: [
+		{
+			RESOURCES: {
+				STONE: 2,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				STORAGE: 1,
+			],
+		},
+	],
+
+	NICKNACK_B_1x1: [
+		{
+			RESOURCES: {
+				STONE: 2,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				STORAGE: 3,
+			],
+		},
+	],
+},
+
+NOBLE: {
+	FLOORS: [
+		{
+			RESOURCES: {
+			
+			},
+			FLOOR: STONE1,
+		},
+	],
+	BED_MASTER_2x2: [
+		{
+			RESOURCES: {
+			
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 4,
+			SHADOW_HEIGHT: 4,
+			ROTATES: true,
+			FRAMES : [
+				BEDS: 0,
+			],
+		},
+	],
+	STATUE_2x2: [ 
+		{
+			RESOURCES: {
+			
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 8,
+			SHADOW_HEIGHT: 8,
+			ROTATES: true,
+			FRAMES : [
+				MONUMENT: 1,
+			],
+		},
+	],
+},

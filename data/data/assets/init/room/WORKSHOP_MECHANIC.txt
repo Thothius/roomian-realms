@@ -1,0 +1,151 @@
+ICON: 32->WORKSHOP->4,
+RESOURCES: [STONE,FURNITURE,METAL,],
+AREA_COSTS: [0,0,0,],
+FLOOR: STONE1,
+MINI_COLOR: 226_195_38,
+ITEMS: [
+	{
+		COSTS: [1,0.5,0.25,],
+		STATS: [0,0,0,],
+	},
+	{
+		COSTS: [1,0.5,0.25,],
+		STATS: [1,0,1,],
+	},
+	{
+		COSTS: [1,0.5,0.25,],
+		STATS: [0,2,0,],
+	},
+],
+WORK: {
+	SHIFT_OFFSET: 0.325,
+	SOUND: impact->Metal*,
+	FULFILLMENT: 1.0,
+	ACCIDENTS_PER_YEAR: 0.025,
+},
+INDUSTRIES: [
+	{
+		INDUSTRY: {
+			IN: {
+				FURNITURE: 1.0,
+				METAL: 0.4,
+			},
+			OUT: {
+				MACHINERY: 0.25,
+			},
+		},
+	},
+],
+ENVIRONMENT_EMIT: {
+	_NOISE: {
+		VALUE: 1,
+		RADIUS: 1,
+	},
+},
+SPRITES: {
+	CHAIR_1X1: [
+		{
+			SHADOW_HEIGHT: 4,
+			FRAMES: [
+				CHAIRS: 10,
+				CHAIRS: 11,
+			],
+		},
+	], 
+	TABLE_COMBO: [
+		{
+			SHADOW_HEIGHT: 4,
+			COLOR: {R:180,G:180,B:180,},
+			FRAMES: [
+				COMBO_TABLES: 3,
+			],
+		},
+	],
+	TABLE_TOP_COMBO: [
+		{
+			TINT: true,
+			FRAMES: [
+				ONTOP: 0,
+			],
+		},
+	],
+	WORK_BELOW_1X1: [
+		{
+			SHADOW_LENGTH: 3,
+			TINT: true,
+			FPS: 5,
+			FRAMES: [ 
+				-,
+				-,
+				-,
+				-,
+				-,
+				-,
+				-,
+				WORK: 17,
+			],
+		},
+	],
+	WORK_ABOVE_1X1: [
+		{
+			SHADOW_LENGTH: 3,
+			TINT: true,
+			FPS: 5,
+			FRAMES: [
+				WORK: 2,
+				WORK: 3,
+				WORK: 4,
+				WORK: 5,
+				WORK: 6,
+				WORK: 7,
+				WORK: 9,
+				-,
+			],
+		},
+	],
+	TOOL_1X1: [
+		{
+			SHADOW_LENGTH: 2,
+			TINT: true,
+			ROTATES: false,
+			FRAMES: [
+				WORK: 11,
+				WORK: 12,
+				WORK: 13,
+				WORK: 14,
+				WORK: 15,
+			],
+		},
+	],
+	MISC_BELOW_1X1: [
+		{
+			SHADOW_LENGTH: 1,
+			TINT: true,
+			ROTATES: false,
+			FRAMES: [
+				STORAGE: 5,
+				STORAGE: 6,
+				STORAGE: 8,
+			],
+		},
+	],
+	MISC_ABOVE_1X1: [
+		{
+			SHADOW_LENGTH: 5,
+			TINT: true,
+			ROTATES: false,
+			FRAMES: [
+				WORK: 2,
+				WORK: 3,
+				WORK: 4,
+				WORK: 5,
+				WORK: 6,
+				WORK: 7,
+				WORK: 9,
+				WORK: 17,
+				WORK: 21,
+			],
+		},
+	],
+},
+

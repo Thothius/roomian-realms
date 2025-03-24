@@ -1,0 +1,3 @@
+NAME: "Plate Armour",
+NAMES: "Plate Armours",
+DESC: "Used to equip soldiers for battle. Protects against all physical attacks.",

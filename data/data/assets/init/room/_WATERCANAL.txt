@@ -1,0 +1,11 @@
+ICON: 32->WATER->1,
+RESOURCES: [STONE,],
+AREA_COSTS: [0,],
+MINI_COLOR: 226_195_38,
+ITEMS: [
+	{
+		COSTS: [4,],
+		STATS: [],
+	},
+],
+

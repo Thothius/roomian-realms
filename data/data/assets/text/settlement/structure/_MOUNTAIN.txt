@@ -1,0 +1,8 @@
+INFO: {
+	NAME: "Mountain",
+	NAMES: "Mountains",
+	DESC: "Mountain",
+},
+
+NAME_WALL: "Mountain",
+NAME_CEILING: "Cave",

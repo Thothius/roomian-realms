@@ -1,0 +1,53 @@
+ICON: 32->LAW->1,
+RESOURCES: [STONE,METAL,FURNITURE,],
+AREA_COSTS: [0,0,0,],
+FLOOR: STONE_MEDIUM_DARK,
+MINI_COLOR: 70_70_70,
+ITEMS: [
+	{
+		COSTS: [2,0.8,2,],
+		STATS: [1,],
+	},
+],
+WORK: {
+	SHIFT_OFFSET: 0.1,
+	SOUND: DUMMY,
+	USES_TOOL: false,
+	FULLFILLMENT: 0,
+},
+SPRITES: {
+	TABLE_COMBO: [
+		{	
+			TINT: true,
+			SHADOW_LENGTH: 6,
+			FRAMES: [
+				COMBO_TABLES: 8,
+			],
+		},
+	],
+	NICKNACK_1X1: [
+		{	
+			TINT: true,
+			SHADOW_LENGTH: 1,
+			ROTATES: false,
+			FRAMES: [
+				PRISON: 6,
+				PRISON: 7,
+				PRISON: 8,
+				PRISON: 9,
+				PRISON: 10,
+			],
+		},
+	],
+	BENCH_1X1: [
+		{	
+			COLOR: 80_70_60,
+			SHADOW_LENGTH: 4,
+			ROTATES: true,
+			FRAMES: [
+				STORAGE_B: 1,
+			],
+		},
+	],
+},
+

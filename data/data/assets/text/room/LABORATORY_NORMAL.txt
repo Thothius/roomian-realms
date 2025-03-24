@@ -1,0 +1,42 @@
+INFO: {
+	NAME: "Laboratory",
+	NAMES: "Laboratories",
+	DESC: "In a laboratory, scientists examine nature and gain knowledge, that can be spent on technologies. Each scientist contributes to your knowledge but must also maintain existing knowledge, leading to a cap in the amount of knowledge, that can be obtained. If laboratories stop functioning, knowledge will slowly be forgotten.",
+},
+
+BONUS: {
+	NAME: "Knowledge Production",
+	DESC: "Increases the knowledge production.",
+},
+
+WORK: {
+	TITLE: "Scientist",
+	VERB: "Doing science",
+},
+
+STATS: [
+	{
+		NAME: "Workers",
+		DESC: "The approximate knowledge that can be obtained.",
+	},
+	{
+		NAME: "Knowledge",
+		DESC: "The estimated maximum knowledge.",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Station",
+		DESC: "Workplace",
+	},
+	{
+		NAME: "Auxiliaries",
+		DESC: "Increases the efficiency of the room.",
+	},
+	{
+		NAME: "Auxiliaries",
+		DESC: "Increases the efficiency of the room.",
+	},
+],
+

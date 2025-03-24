@@ -1,0 +1,351 @@
+<!-- GARTHIMI (WORMLINGS) CARD -->
+<div class="race-card garthimi" data-religion="shmalor">
+    <div class="race-header">
+        <h3 class="race-name">Wormlings (GARTHIMI) <span class="toggle-btn" onclick="toggleFullView('garthimi')">🔍</span></h3>
+        <p class="race-subtitle">"The Breach"</p>
+    </div>
+    <div class="race-content">
+        <div class="race-tabs">
+            <button class="race-tab active" onclick="openTab(event, 'garthimi-stats', 'garthimi')">Stats</button>
+            <button class="race-tab" onclick="openTab(event, 'garthimi-abilities', 'garthimi')">Abilities</button>
+            <button class="race-tab" onclick="openTab(event, 'garthimi-lore', 'garthimi')">Lore</button>
+            <button class="race-tab" onclick="openTab(event, 'garthimi-strategy', 'garthimi')">Strategy</button>
+        </div>
+        
+        <!-- Stats Tab -->
+        <div id="garthimi-stats" class="tab-content active">
+            <div class="stat-grid">
+                <div class="stat-item">
+                    <span class="stat-label">Height/Width:</span>
+                    <span class="stat-value">3/6 units</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Adult Age:</span>
+                    <span class="stat-value">15 days</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Sleeps:</span>
+                    <span class="stat-value">No</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Lifespan:</span>
+                    <span class="stat-value tooltip">-95%<span class="tooltip-text">Average lifespan of only 1-2 years</span></span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Primary Religion:</span>
+                    <span class="stat-value religion-value">Shmalor (+1.8)</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Secondary Religion:</span>
+                    <span class="stat-value">Aminion (+0.3)</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Corpse Decay:</span>
+                    <span class="stat-value tooltip">Yes<span class="tooltip-text">Bodies decompose after death</span></span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Mercenary Potential:</span>
+                    <span class="stat-value">0.2</span>
+                </div>
+            </div>
+            
+            <h4 class="section-title">Physical Traits <span class="toggle-btn" onclick="toggleSection(this)">+</span></h4>
+            <div class="collapsible-content">
+                <div class="stat-grid">
+                    <div class="stat-item">
+                        <span class="stat-label">Health:</span>
+                        <span class="stat-value">+30%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Stamina:</span>
+                        <span class="stat-value">+60%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Speed:</span>
+                        <span class="stat-value">+20%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Disease Resistance:</span>
+                        <span class="stat-value">+0.8</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Heat Resistance:</span>
+                        <span class="stat-value">+0.5</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Cold Resistance:</span>
+                        <span class="stat-value">-0.3</span>
+                    </div>
+                </div>
+            </div>
+            
+            <h4 class="section-title">Combat Stats <span class="toggle-btn" onclick="toggleSection(this)">+</span></h4>
+            <div class="collapsible-content">
+                <div class="stat-grid">
+                    <div class="stat-item">
+                        <span class="stat-label">Morale:</span>
+                        <span class="stat-value">+40%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Offense:</span>
+                        <span class="stat-value">+10%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Defense:</span>
+                        <span class="stat-value">-10%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Pierce Attack:</span>
+                        <span class="stat-value">+1.0</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Slash Resistance:</span>
+                        <span class="stat-value">-20%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Blunt Resistance:</span>
+                        <span class="stat-value">+10%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Abilities Tab -->
+        <div id="garthimi-abilities" class="tab-content">
+            <h4 class="section-title">Key Abilities</h4>
+            <div class="stat-grid">
+                <div class="stat-item">
+                    <span class="stat-label tooltip">Farming<span class="tooltip-text">Exceptional agricultural efficiency</span></span>
+                    <span class="stat-value">+80%</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label tooltip">Reproduction<span class="tooltip-text">Extremely rapid population growth</span></span>
+                    <span class="stat-value">+100%</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label tooltip">Void Gateway<span class="tooltip-text">Enhanced ability to operate void technology</span></span>
+                    <span class="stat-value">+100%</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label tooltip">Void Communion<span class="tooltip-text">Special ability to communicate with void entities</span></span>
+                    <span class="stat-value">+150%</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label tooltip">Parasitic Infiltration<span class="tooltip-text">Ability to infiltrate other settlements</span></span>
+                    <span class="stat-value">+0.5</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label tooltip">Dimensional Manipulation<span class="tooltip-text">Limited ability to manipulate space</span></span>
+                    <span class="stat-value">+0.3</span>
+                </div>
+            </div>
+            
+            <h4 class="section-title">Rate Modifiers <span class="toggle-btn" onclick="toggleSection(this)">+</span></h4>
+            <div class="collapsible-content">
+                <div class="stat-grid">
+                    <div class="stat-item">
+                        <span class="stat-label">Farming:</span>
+                        <span class="stat-value">+80%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Pasture:</span>
+                        <span class="stat-value">+50%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Reproduction:</span>
+                        <span class="stat-value">+100%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Mining:</span>
+                        <span class="stat-value">-30%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Crafting:</span>
+                        <span class="stat-value">-40%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Research:</span>
+                        <span class="stat-value">-20%</span>
+                    </div>
+                </div>
+            </div>
+            
+            <h4 class="section-title">Room Preferences <span class="toggle-btn" onclick="toggleSection(this)">+</span></h4>
+            <div class="collapsible-content">
+                <div class="stat-grid">
+                    <div class="stat-item">
+                        <span class="stat-label">Nutrient Pool:</span>
+                        <span class="stat-value">+100%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Balti Pastures:</span>
+                        <span class="stat-value">+70%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Void Gateway:</span>
+                        <span class="stat-value">+100%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Farms:</span>
+                        <span class="stat-value">+80%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Workshops:</span>
+                        <span class="stat-value">-40%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Libraries:</span>
+                        <span class="stat-value">-20%</span>
+                    </div>
+                </div>
+            </div>
+            
+            <h4 class="section-title">Behavior Traits <span class="toggle-btn" onclick="toggleSection(this)">+</span></h4>
+            <div class="collapsible-content">
+                <div class="stat-grid">
+                    <div class="stat-item">
+                        <span class="stat-label">Collective Intelligence:</span>
+                        <span class="stat-value">High</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Aggression:</span>
+                        <span class="stat-value">Medium</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Territoriality:</span>
+                        <span class="stat-value">High</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Adaptability:</span>
+                        <span class="stat-value">Very High</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Individuality:</span>
+                        <span class="stat-value">Very Low</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Curiosity:</span>
+                        <span class="stat-value">Medium</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="pros-cons">
+                <div class="pros">
+                    <h4>Strengths</h4>
+                    <ul>
+                        <li>Rapid reproduction</li>
+                        <li>Exceptional farmers</li>
+                        <li>Disease resistant</li>
+                        <li>Collective intelligence</li>
+                        <li>Swarm fighters</li>
+                        <li>Void technology affinity</li>
+                    </ul>
+                </div>
+                <div class="cons">
+                    <h4>Weaknesses</h4>
+                    <ul>
+                        <li>Very short lifespan</li>
+                        <li>Poor with crafting</li>
+                        <li>Weak individual health</li>
+                        <li>Poor with scholarly pursuits</li>
+                        <li>Universally distrusted</li>
+                        <li>Vulnerable to slash damage</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Lore Tab -->
+        <div id="garthimi-lore" class="tab-content">
+            <div class="lore-section">
+                <p>Cosmic horrors from beyond reality who arrived through "The Breach," a dimensional tear that occurred during the first war of the gods. They exist as collective hive organisms that infest humanoid hosts, gradually transforming them into new Wormlings.</p>
+                
+                <p>The Wormlings worship Shmalor with fanatical devotion, believing her divine essence became the First Great Worm after her death. Their society is structured around five specialized castes:</p>
+                
+                <ul>
+                    <li><strong>Infiltrators:</strong> The scouts and spies who seek new hosts</li>
+                    <li><strong>Digesters:</strong> Specialized in breaking down organic matter</li>
+                    <li><strong>Cultivators:</strong> Agricultural specialists who tend the fields</li>
+                    <li><strong>Connectors:</strong> Maintain the psychic network between all Wormlings</li>
+                    <li><strong>Rememberers:</strong> Preserve the collective memory and knowledge</li>
+                </ul>
+                
+                <p>Their settlements center around sacred Nutrient Pools, where organic matter is processed and new Wormlings are born. Despite their horrifying nature, they maintain complex diplomatic relations with other races, viewing most as potential hosts rather than enemies or allies.</p>
+                
+                <p>The God-Emperor of the Endless Void is their ultimate deity, with Shmalor serving as his herald. They believe that when enough worlds have been consumed, the Breach will widen enough to allow the God-Emperor to enter this reality, beginning the Great Consumption.</p>
+            </div>
+            
+            <h4 class="section-title">Cultural Notes <span class="toggle-btn" onclick="toggleSection(this)">+</span></h4>
+            <div class="collapsible-content">
+                <ul>
+                    <li>Wormlings do not recognize individual identity, seeing themselves as cells in a greater organism</li>
+                    <li>They communicate primarily through pheromones and a limited form of telepathy</li>
+                    <li>Their architecture consists of organic structures grown rather than built</li>
+                    <li>They have no concept of art or beauty in the conventional sense</li>
+                    <li>Their "language" when communicating with other races is actually a collective approximation</li>
+                    <li>They are constantly evolving, with each generation adapting to new environments</li>
+                </ul>
+            </div>
+            
+            <h4 class="section-title">Historical Events <span class="toggle-btn" onclick="toggleSection(this)">+</span></h4>
+            <div class="collapsible-content">
+                <ul>
+                    <li><strong>The Breach Opening:</strong> Their arrival through a dimensional tear during the first war</li>
+                    <li><strong>The Great Hunger:</strong> A period when they consumed three entire kingdoms</li>
+                    <li><strong>The Burning Time:</strong> When humans attempted to eradicate them with fire</li>
+                    <li><strong>The Adaptation:</strong> Their evolution to resist fire and develop heat resistance</li>
+                    <li><strong>The Communion:</strong> First successful establishment of void technology</li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Strategy Tab -->
+        <div id="garthimi-strategy" class="tab-content">
+            <h4 class="section-title">Gameplay Approach</h4>
+            <p>Wormlings excel at rapid population growth and agricultural production. Their extremely short lifespan is offset by their exceptional reproduction rate, allowing them to quickly recover from disasters. They are best suited for agricultural settlements with a focus on Balti pastures and void technology.</p>
+            
+            <h4 class="section-title">Settlement Strategy <span class="toggle-btn" onclick="toggleSection(this)">+</span></h4>
+            <div class="collapsible-content">
+                <ul>
+                    <li><strong>Early Game:</strong> Focus on rapid expansion of farms and Nutrient Pools</li>
+                    <li><strong>Mid Game:</strong> Develop Balti pastures and begin void technology research</li>
+                    <li><strong>Late Game:</strong> Maximize void energy production and establish infiltration networks</li>
+                    <li><strong>Population Management:</strong> Expect and plan for rapid turnover due to short lifespans</li>
+                    <li><strong>Economy:</strong> Agricultural exports should be your primary income source</li>
+                </ul>
+            </div>
+            
+            <h4 class="section-title">Military Strategy <span class="toggle-btn" onclick="toggleSection(this)">+</span></h4>
+            <div class="collapsible-content">
+                <ul>
+                    <li><strong>Army Composition:</strong> Large numbers of light infantry with some ranged support</li>
+                    <li><strong>Tactics:</strong> Swarm tactics and overwhelming numbers</li>
+                    <li><strong>Strengths:</strong> Rapid replacement of losses, high morale</li>
+                    <li><strong>Weaknesses:</strong> Vulnerable to area-of-effect weapons and slash damage</li>
+                    <li><strong>Special:</strong> Can use infiltrators for sabotage and intelligence gathering</li>
+                </ul>
+            </div>
+            
+            <h4 class="section-title">Unique Buildings <span class="toggle-btn" onclick="toggleSection(this)">+</span></h4>
+            <div class="collapsible-content">
+                <ul>
+                    <li><strong>Nutrient Pool:</strong> Central reproduction and organic processing facility</li>
+                    <li><strong>Void Gateway (Communion Mode):</strong> Enhanced void energy production</li>
+                    <li><strong>Infiltrator Training Grounds:</strong> Produces specialized infiltration units</li>
+                    <li><strong>Collective Memory Chamber:</strong> Research bonus for void-related technologies</li>
+                </ul>
+            </div>
+            
+            <h4 class="section-title">Recommended Combinations <span class="toggle-btn" onclick="toggleSection(this)">+</span></h4>
+            <div class="collapsible-content">
+                <ul>
+                    <li><strong>With Bloodelves:</strong> Complementary void technology and religious alignment</li>
+                    <li><strong>With Finestorians:</strong> Their crafting abilities complement Wormling weaknesses</li>
+                    <li><strong>With Hellspawns:</strong> Compatible religious views and complementary military tactics</li>
+                    <li><strong>Avoid:</strong> Froggians and Satyrs due to religious conflicts</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

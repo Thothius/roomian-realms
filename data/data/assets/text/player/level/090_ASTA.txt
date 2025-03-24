@@ -1,0 +1,3 @@
+MALE: "Asta",
+FEMALE: "Asta",
+DESC: "As an Asta, or emperor, you're simply better than 99% of all noble houses of Syx.",

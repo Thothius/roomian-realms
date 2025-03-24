@@ -1,0 +1,126 @@
+NAME: "Cretonian",
+NAMES: "Cretonians",
+POSSESSIVE: "Cretonian",
+POSSESSIVES: "Cretonian",
+PRONOUN_HE: ["he", "she",],
+PRONOUN_HEC: ["He", "She",],
+PRONOUN_HIM: ["him", "her",],
+PRONOUN_HIMC: ["Him", "Her",],
+PRONOUN_HIS: ["his", "her",],
+PRONOUN_HISC: ["His", "Her",],
+PRONOUN_HIMSELF: ["himself", "herself",],
+PRONOUN_HIMSELFC: ["Himself", "Herself",],
+
+HELLO: [
+	"Sun, water and dirt!",
+	"Crator's blessings!",
+	"By the wisdom of the creator!",
+],
+GOODBYE: [
+	"May your tusks grow long",
+	"Until the sun never sets",
+	"Until the neverending day",
+	"Until the sun rises again",
+	"Until the great rains",
+	"May your harvest be bountiful",
+],
+CURSE: [
+	"by Crator's tusks!",
+	"by Morlak's shell!",
+	"gods beneath!",
+	"by Aminion the cursed!",
+	"Crator be damned!",
+	"Wilted day!",
+	"Spirit's curse!",
+],
+INSULT: [ 
+	"twoface",
+	"dimwit",
+	"onx brains",
+	"weakling",
+],
+INSULTING: [ 
+	"twofaced",
+	"dimwitted",
+	"onx brained",
+	"weak",
+	"cowardly",
+],
+LORD: [
+	"Chieftain",
+	"Elder",
+	"Foremost Chieftain",
+	"Leader",
+	"Spirit Guide",
+],
+CITY: [
+	"settlement",
+	"village",
+	"hamlet",
+	"plantation",
+	"sanctuary",
+	"garden",
+],
+OTHERS: [
+	"others",
+	"white-skins",
+	"otherlings",
+	"tuskless",
+],
+SELVES: [
+	"kin",
+	"tribesmen",
+	"caretakers",
+	"community",
+],
+SELF: [
+	"tribesman",
+	"caretaker",
+],
+CHILDREN: [
+	"children",
+],
+
+DESC: 
+"Cretonians excel at farming and thrive in temperate and warm climates, preferably close to water. They are vegetarians and prefer harmony and wooden structures.
+",
+DESC_LONG:
+"
+Cretonians are the children of Crator, god of growth. And from their creating father they have gained skills in farming. They are vegetarians and harmonious creatures. They are also peaceful and not fit for battle.
+Their favourite foods are Fruit, Vegetable, And Bread.
+They prefer wooden structures, harmony, and farming work.
+",
+
+ARMY_NAMES: [
+	"The Green Fighters",
+	"The Wrath of Wines",
+	"The Swords of Honth",
+	"The Hammers of Honth",
+	"The Muscles of Honth",
+	"The Protectors",
+	"The Fierce Tusks",
+	"The Brotherhood",
+	"The Tribe",
+	"The Strongest Tribe",
+	"The Band of Strongmen",
+	"The Wardens",
+	"The Great Tusks",
+	"The Tusks of Hotam",
+	"The Hammers of Hotam",
+],
+
+CHALLENGE: "Easy",
+
+PROS: [
+	"Excellent farmers",
+	"Peaceful and submissive",
+	"Easy to please",
+	"Worship at inexpensive Crator temples",
+],
+
+CONS: [
+	"Bad industrialists",
+	"Poor combat morale",
+	"Obsessed with food",
+],
+

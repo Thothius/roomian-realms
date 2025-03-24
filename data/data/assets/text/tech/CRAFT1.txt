@@ -1,0 +1,84 @@
+NAME: "Crude Crafting",
+TECHS: {
+	BASE0: {
+		NAME: "Basic Craftsmanship",
+		DESC: "",
+	},
+	TOOL0: {
+		NAME: "Crude Crafting Tools",
+		DESC: "",
+	},
+	END00: {
+		NAME: "High Crafting",
+		DESC: "",
+	},
+	CARP0: {
+		NAME: "Basic Carpentry Advancements",
+		DESC: "",
+	},
+	CARP1: {
+		NAME: "Advanced Carpenter",
+		DESC: "",
+	},
+	CARP2: {
+		NAME: "Advanced Carpentry Tools",
+		DESC: "",
+	},
+	CARP3: {
+		NAME: "Professional Carpentry",
+		DESC: "",
+	},
+	TAIL0: {
+		NAME: "Basic Tailoring Advancements",
+		DESC: "",
+	},
+	TAIL1: {
+		NAME: "Advanced Tailor",
+		DESC: "",
+	},
+	TAIL2: {
+		NAME: "Advanced Tailoring Tools",
+		DESC: "",
+	},
+	TAIL3: {
+		NAME: "Professional Tailoring",
+		DESC: "",
+	},
+	POTT0: {
+		NAME: "Basic Pot Making Advancements",
+		DESC: "",
+	},
+	POTT1: {
+		NAME: "Advanced Pottery",
+		DESC: "",
+	},
+	POTT2: {
+		NAME: "Advanced Pot Making Tools",
+		DESC: "",
+	},
+	POTT3: {
+		NAME: "Professional Pot Making",
+		DESC: "",
+	},
+	RATI0: {
+		NAME: "Basic Ration Making Advancements",
+		DESC: "",
+	},
+	RATI1: {
+		NAME: "Advanced Rationmaker",
+		DESC: "",
+	},
+	RATI2: {
+		NAME: "Advanced Ration Making Tools",
+		DESC: "",
+	},
+	RATI3: {
+		NAME: "Professional Ration Making",
+		DESC: "",
+	},
+	XCAR0: {
+		NAME: "Makeshift Weapons",
+		DESC: "",
+	},
+},
+

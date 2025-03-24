@@ -1,0 +1,34 @@
+INFO: {
+	NAME: "Army Supply Depot",
+	NAMES: "Army Supply Depots",
+	DESC: "Needed to supply armies on the world map.",
+	WIKI: {
+		CATEGORY: "Military",
+		NAME: "Army Supply Depot",
+		TEXT: "Conscripted armies on the world map need supplies to function. This room works as a warehouse and its workers will fetch resources and put them here for a caravan that will come along and fetch them. Battlegear is optional, and will only result in the battlegear level when fighting. The other supplies are mandatory, and without them armies will disband.",
+	},
+},
+
+WORK: {
+	TITLE: "Trader",
+	VERB: "Delivering Army supplies",
+},
+
+STATS: [
+	{
+		NAME: "Workers",
+		DESC: "The amount of workers that can be employed.",
+	},
+	{
+		NAME: "Storage",
+		DESC: "The amount of storage",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Crates",
+		DESC: "Where goods are stored.",
+	},
+],
+

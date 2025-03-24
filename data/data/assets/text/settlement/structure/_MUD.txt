@@ -1,0 +1,8 @@
+INFO: {
+	NAME: "Mud Building",
+	NAMES: "Mud Buildings",
+	DESC: "A very basic structure, made of mud, dirt and manure. Does not require any resources, but a lot of labour.",
+},
+
+NAME_WALL: "Mud Wall",
+NAME_CEILING: "Mud Ceiling",

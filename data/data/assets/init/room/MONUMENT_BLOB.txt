@@ -1,0 +1,53 @@
+ICON: 32->MONUMENT->3,
+RESOURCES: [CLAY,],
+AREA_COSTS: [0,],
+MINI_COLOR: 48_139_204,
+FLOOR: DARK2,
+SOLID: true,
+ITEMS: [
+	{
+		COSTS: [2,],
+		STATS: [],
+	},
+],
+STANDING: {
+	CITIZEN: 1,
+	NOBLE: 1,
+	SLAVE: 1,
+	PRIO: 22,
+	INVERTED: true,
+	MULTIPLIER: 1,
+},
+FULFILLMENT_BONUS: {
+	BEHAVIOUR_SUBMISSION>ADD: 0.2,
+},
+MAX_VALUE: 8,
+
+SPRITES: {
+	1x1: {
+		FPS: 6,
+		SHADOW_LENGTH: 4,
+		ROTATES: false,
+		FRAMES: [
+			ORGANIC_BLOB: 2,
+		],
+	},
+	2x2: {
+		FPS: 4,
+		FPS_INTERVAL: 0.2,
+		SHADOW_LENGTH: 8,
+		ROTATES: false,
+		FRAMES: [
+			ORGANIC_BLOB: 0,
+		],
+	},
+	FLOOR_COMBO: {
+		SHADOW_LENGTH: 0,
+		SHADOW_HEIGHT: 0,
+		COLOR: {R:100,G:100,B:100,},
+		FRAMES: [
+			FRAMES: 0,
+		],
+	},
+},
+

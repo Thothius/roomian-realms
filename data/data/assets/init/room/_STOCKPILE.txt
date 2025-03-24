@@ -1,0 +1,135 @@
+ICON: 32->LOGISTICS->1,
+RESOURCES: [WOOD,FURNITURE,POTTERY,STONE_CUT,],
+AREA_COSTS: [0,0,0,0,],
+FLOOR: [DIRT,WOOD_SQUARE,STONE_MEDIUM_DARK,],
+MINI_COLOR: 61_174_255,
+WORK: {
+	SHIFT_OFFSET: 0.25,
+	SOUND: DUMMY,
+	USES_TOOL: true,
+	FULFILLMENT: 0.5,
+},
+ITEMS: [
+	{
+		COSTS: [1,1,1,1,],
+		STATS: [1,],
+	},
+],
+UPGRADES: [
+	{
+		RESOURCE_MASK: [1,0,0,0,],
+		BOOST: 81,
+	},
+	{
+		RESOURCE_MASK: [2,1,0,0,],
+		BOOST: 301,
+	},
+	{
+		RESOURCE_MASK: [2,2,1,1,],
+		BOOST: 501,
+	},
+],
+SPRITES: {
+	CRATE_BOTTOM_1X1: [
+		{	
+			ROTATES: false,
+			TINT: true,
+			SHADOW_LENGTH: 2,
+			FRAMES: [
+				STORAGE: 5,
+			],
+		},
+		{	
+			ROTATES: false,
+			TINT: true,
+			SHADOW_LENGTH: 6,
+			FRAMES: [
+				STORAGE: 6,
+			],
+		},
+		{	
+			ROTATES: false,
+			TINT: true,
+			SHADOW_LENGTH: 6,
+			FRAMES: [
+				STORAGE: 8,	
+			],
+		},
+	],
+	CRATE_TOP_1X1: [
+		{	
+			FRAMES: [
+				
+			],
+		},
+		{	
+			ROTATES: false,
+			TINT: true,
+			SHADOW_LENGTH: 3,
+			FRAMES: [
+				STORAGE: 7,
+			],
+		},
+		{	
+			ROTATES: false,
+			TINT: true,
+			SHADOW_LENGTH: 3,
+			FRAMES: [
+				STORAGE: 9,	
+			],
+		},
+	],
+	CRATE_TOP_FOOD_1X1: [
+		{	
+			FRAMES: [
+				
+			],
+		},
+		{	
+			ROTATES: false,
+			TINT: true,
+			SHADOW_LENGTH: 3,
+			FRAMES: [
+				BASIN: 13,
+			],
+		},
+		{	
+			ROTATES: false,
+			TINT: true,
+			SHADOW_LENGTH: 3,
+			FRAMES: [
+				BASIN: 14,	
+			],
+		},
+	],
+	MISC_1X1: [
+		{	
+			TINT: true,
+			SHADOW_LENGTH: 0,
+			FRAMES: [
+				STORAGE: 0,
+				STORAGE: 1,
+			],
+		},
+		{	
+			TINT: true,
+			SHADOW_LENGTH: 0,
+			FRAMES: [
+				STORAGE: 0,
+				STORAGE: 1,
+				STORAGE: 2,
+			],
+		},
+		{	
+			TINT: true,
+			SHADOW_LENGTH: 0,
+			FRAMES: [
+				STORAGE: 0,
+				STORAGE: 1,
+				STORAGE: 2,
+				STORAGE: 13,
+			],
+		},
+	],
+},
+

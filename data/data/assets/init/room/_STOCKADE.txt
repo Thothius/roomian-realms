@@ -1,0 +1,97 @@
+ICON: 32->LAW->5,
+RESOURCES: [WOOD,STONE,],
+AREA_COSTS: [0.2,0.2,],
+MINI_COLOR: 70_70_70,
+FLOOR: DIRT,
+ITEMS: [
+	{
+		COSTS: [3,3,],
+		STATS: [0,0,],
+	},
+],
+WORK: {
+	SHIFT_OFFSET: 0.1,
+	SOUND: DUMMY,
+	USES_TOOL: false,
+	FULFILLMENT: 0.25,
+},
+SPRITES: {
+	OPENING_1X1: [
+		{
+			ROTATES: true,
+			SHADOW_HEIGHT: 8,
+			SHADOW_LENGTH: 0,
+			TINT: false,
+			FRAMES: [
+				PRISON: 1,
+			],
+		},
+	],
+	WALL_1X1: [
+		{
+			SHADOW_LENGTH: 10,
+			FRAMES: [
+				PALLISADE: 1,
+			],		
+		},
+	],
+	WALL_CORNER_1X1: [
+		{
+			SHADOW_LENGTH: 10,
+			FRAMES: [
+				PALLISADE: 0,
+			],		
+		},
+	],
+	CANDLE_SHELF_1X1: [
+		{
+			ROTATES: true,
+			SHADOW_HEIGHT: 4,
+			FRAMES: [
+				SHELVES: 2,
+				SHELVES: 3,
+			],		
+		},
+	],
+	LATRINE_EMPTY_1X1: [
+		{
+			ROTATES: false,
+			SHADOW_LENGTH: 3,
+			FRAMES: [
+				PRISON: 5,
+			],		
+		},
+	],
+	LATRINE_FULL_1X1: [
+		{
+			ROTATES: false,
+			SHADOW_LENGTH: 3,
+			FRAMES: [
+				PRISON: 6,
+			],		
+		},
+	],
+	FOOD_1X1: [
+		{
+			ROTATES: false,
+			SHADOW_LENGTH: 2,
+			FRAMES: [
+				PRISON: 8,
+			],		
+		},
+	],
+	MISC_1X1: [
+		{
+			ROTATES: false,
+			SHADOW_LENGTH: 2,
+			FRAMES: [
+				PRISON: 7,
+				PRISON: 7,
+				PRISON: 7,
+				DEATH: 3,
+			],		
+		},
+	],
+	
+},
+

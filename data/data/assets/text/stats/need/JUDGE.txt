@@ -1,0 +1,2 @@
+NAME_NEED: "Jury Duty",
+NAME_RATE: "Jury Duty",

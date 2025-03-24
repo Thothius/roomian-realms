@@ -1,0 +1,12 @@
+NAME: "Honourable",
+TITLE: "Defender of Honour",
+DESC: "Has an integrity of stone, and will stick by their word.",
+
+BIO_DESC: [
+	"Is described as always making right by others.", 
+	"{HEC} takes care to stick to their word and has an untroubled conscience.",
+	"{FRIEND_NAME} has grown to rely on {NAME} because of {HIS} great dependability.",
+	"Never goes back on {HIS} word.",
+	"{HEC} keeps {HIS} word even if it puts {HIM} at a disadvantage.",
+	"Believes the most important thing in life is honour.",
+],

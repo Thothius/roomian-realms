@@ -1,0 +1,54 @@
+ICON: 32->HOME->0,
+TYPE: LIVING,
+RESOURCES: [STONE_CUT,FURNITURE,],
+AREA_COSTS: [0,0,],
+MINI_COLOR: 120_120_120,
+FLOOR: DIRT,
+ITEMS: [
+	{
+		COSTS: [3,3,],
+		STATS: [3,],
+	},
+	{
+		COSTS: [5,5,],
+		STATS: [5,],
+	},
+	{
+		COSTS: [10,10,],
+		STATS: [10,],
+	},
+],
+UPGRADES: [
+	{
+		RESOURCE_MASK: [0,0,],
+		BOOST: 0,
+	},
+	{
+		RESOURCE_MASK: [1,1,],
+		BOOST: 0,
+	},
+	{
+		RESOURCE_MASK: [2,2,],
+		BOOST: 0,
+	},
+],
+SPRITES: {
+	DOWN_1X1: {
+		RESOURCES: { },
+		ROTATES: true,
+		SHADOW_LENGTH: 0,
+		SHADOW_HEIGHT: 0,
+		FRAMES : [
+			STAIRS: 0,
+		],
+	},
+	UP_1X1: {
+		RESOURCES: { },
+		ROTATES: true,
+		SHADOW_LENGTH: 4,
+		SHADOW_HEIGHT: 0,
+		FRAMES : [
+			STAIRS: 1,
+		],
+	},
+},

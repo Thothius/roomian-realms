@@ -1,0 +1,329 @@
+PLAYABLE: true,
+PROPERTIES: {
+	HEIGHT: 7,
+	WIDTH: 7,
+	ADULT_AT_DAY: 90,
+	CORPSE_DECAY: true,
+	SLEEPS: true,
+	RAID_MERCINARY: 0.3,
+},
+BEHAVIOUR: {
+	SKINNY_DIPS: 0.8,
+	SLAVE_DRIVER: 0.1,
+	SLAVER: 0.1,
+	EXECUTION_PERFORM: 0.2,
+	FOREST_LOVER: 1.0,
+	BLOODLUST: 0.4,
+	CRUELTY: 0.3,
+	SUBMISSION: 0.7,
+	DISCIPLINE: 0.9,
+	LOYALTY: 1.0,
+	PACIFISM: 0.5,
+	HEDONISM: 0.9,
+	RITUALISTIC: 0.8,
+	SPIRITUAL: 0.9,
+	INTELLECTUAL: 0.7,
+},
+BIO_FILE: Normal,
+OPINION_FILE_SCARED: Normal,
+OPINION_FILE_NORMAL: Normal,
+OPINION_FILE_CONFIDENT: Normal,
+KING_FILE: Normal,
+WORLD_NAME_FILE: Misc,
+RAID_TEXT_FILE: Normal,
+RAIDER_NAME_FILE: Normal,
+HOME: ARGONOSH,
+PREFERRED: {
+	FOOD: [
+		FRUIT,
+		VEGETABLE,
+		MUSHROOM,
+		MEAT,
+	],
+	DRINK: [
+		ALCO_WINE,
+		ALCO_BEER,
+	],
+	FAVORITE_DRINK: ALCO_WINE,
+	STRUCTURE: {
+		MOUNTAIN: 0.1,
+		STONE: 0,
+		GRAND: 0.1,
+		WOOD: 1.0,
+		OUTDOORS: 1.0,
+	},
+	ROAD: {
+		*: 0.1,
+		DIRT: 0.9,
+		NATURE1: 1.0,
+		NATURE2: 1.0,
+	},
+	WORK: {
+		HUNTER_NORMAL: 1.0,
+		PASTURE_AUR: 1.0,
+		PASTURE_ENT: 1.0,
+		PASTURE_ONX: 1.0,
+		PASTURE_GLOBDIEN: 1.0,
+		FARM_HERB: 0.7,
+		FARM*: 1.0,
+		ORCHARD*: 1.0,
+		ADMIN_NORMAL: 0,
+		WORKSHOP_BOWYER: 1.0,
+		WOODCUTTER: 1.0,
+		FORESTER: 1.0,
+		BUTCHER: 0.7,
+		WORKSHOP_ARMORY_RG2: 0.7,
+	},
+	OTHER_RACES: {
+		DONDORIAN: 0.5,
+		GARTHIMI: 0.2,
+		HUMAN: 0.6,
+		ARGONOSH: 1.0,
+		CANTOR: 0.2,
+		CRETONIAN: 0.7,
+		TILAPI: 0.1,
+		Q_AMEVIA: 0.9,
+	},
+	CLIMATE: {
+		COLD: 0.4,
+		TEMPERATE: 1.0,
+		HOT: 0.6,
+	},
+	TERRAIN: {
+		MOUNTAIN: 0.01,
+		FOREST: 1.0,
+		NONE: 0.01,
+		WET: 0.1,
+	},
+},
+POPULATION: {
+	MAX: 0.9,
+	GROWTH: 0.05,
+	IMMIGRATION_RATE: 0.7,
+	CLIMATE: {
+		COLD: 0.4,
+		TEMPERATE: 1.0,
+		HOT: 0.6,
+	},
+	TERRAIN: {
+		MOUNTAIN: 0.01,
+		FOREST: 1.0,
+		NONE: 0.25,
+		WET: 0.25,
+	},
+},
+TRAITS: {
+	FIGHTER: 0.2,
+	SPRINTER: 0.7,
+	GLUTTON: 0,
+	NIMBLE: 0.8,
+	FORESTER: 0.9,
+	HUNTER: 0.8,
+	ARCHER: 0.8,
+},
+RESOURCE: {
+	MEAT: 15,
+	LEATHER: 15,
+	HIDE: 10,
+},
+STATS: {
+	ACCESS: {
+		CITIZEN: 0.4,
+	},
+	BATTLE_ARCHERY_VANILLA: {
+		CITIZEN: 1.0,
+	},
+	BATTLE_PROWESS: {
+		CITIZEN: 1.0,
+	},
+	ACCESS_SHAPE_ROUND: {
+		SLAVE: 0.7,
+		CITIZEN: 1.0,
+		NOBLE: 1.0,
+		MULTIPLIER: 1.0,
+	},
+	POPULATION_SLAVES_SELF: {
+		INVERTED: false,
+		CITIZEN: 0.5,
+	},
+	POPULATION_SLAVES_OTHER: {
+		CITIZEN: 0.5,
+	},
+	SERVICE_TAVERN_NORMAL: {
+		CITIZEN: 1.0,
+	},
+	ENVIRONMENT_CLIMATE: {
+		CITIZEN: 1.0,
+	},
+	EQUIP_CIVIC_CLOTHES: {
+		NOBLE: 1.0,
+		SLAVE: 0.8,
+		CITIZEN: 1.0,
+	},
+	EQUIP_BATTLE_ARMOUR_LEATHER: {
+		CITIZEN: 1.0,
+	},
+	EQUIP_BATTLE_WEAPON_SHORT: {
+		CITIZEN: 1.0,
+	},
+	FOOD_STARVATION: {
+		CITIZEN: 1.0,
+		INVERTED: true,
+		MULTIPLIER: 1.0,
+	},
+	FOOD_FOOD_PREFFERENCE: {
+		CITIZEN: 1.0,
+	},
+	FOOD_FOOD_DAYS: {
+		CITIZEN: 1.0,
+		MULTIPLIER: 0.8,
+	},
+	FOOD_FOOD_RATIONS: {
+		CITIZEN: 1.0,
+	},
+	FOOD_DRINK_RATIONS: {
+		CITIZEN: 1.0,
+	},
+	BURIAL_GRAVEYARD_NORMAL: {
+		CITIZEN: 1.0,
+	},
+	BURIAL_TOMB_NORMAL: {
+		CITIZEN: 0.5,
+	},
+},
+SPRITE_FILE: ARGONOSH,
+PORTRAIT_FILE: ARGONOSH,
+ICON_SMALL: 24->race->Argonosh->0,
+ICON_BIG: 32->race->Argonosh->0,
+WORLD_BUILDING_OVERRIDE: {
+	
+},
+COMPATIBILITY: {
+	V68: true,
+	CANTOR: 0.2,
+	ARGONOSH: 1.0,
+	DONDORIAN: 0.5,
+	GARTHIMI: 0.2,
+	TILAPI: 0.1,
+	CRETONIAN: 0.7,
+	Q_AMEVIA: 0.9,
+	HUMAN: 0.6,
+},
+BOOST: {
+	RELIGION_CRATOR>ADD: 0.2,
+	RELIGION_AMINION>ADD: -0.5,
+	RELIGION_ATHURI>ADD: 1.5,
+	RELIGION_SHMALOR>ADD: 0.3,
+	
+	BATTLE_ARCHERY>MUL: 1.8,
+	BATTLE_RANGED_BOW>MUL: 1.7,
+	BATTLE_DEFENCE>MUL: 0.9,
+	BATTLE_OFFENCE>MUL: 0.8,
+	BATTLE_MORALE>MUL: 1.3,
+	BATTLE_SPEED>MUL: 1.5,
+	BATTLE_PIERCE>MUL: 1.5,
+	BATTLE_BLUNT>MUL: 0.7,
+	BATTLE_SLASH>MUL: 0.8,
+	BATTLE_DODGE>MUL: 1.6,
+	BATTLE_PIERCE_ATTACK>ADD: 2.0,
+	BATTLE_PIERCE_DEFENCE>ADD: 1.0,
+	
+	PHYSICS_RESISTANCE_COLD>ADD: 0.2,
+	PHYSICS_RESISTANCE_HOT>ADD: 0.1,
+	PHYSICS_RESISTANCE_FIRE>ADD: -0.3,
+	PHYSICS_MASS>MUL: 0.9,
+	PHYSICS_SPEED>MUL: 1.5,
+	PHYSICS_STAMINA>MUL: 1.4,
+	PHYSICS_DEATH_AGE>MUL: 1.5,
+	PHYSICS_HEALTH>MUL: 1.1,
+	PHYSICS_NIGHT_VISION>ADD: 0.5,
+	
+	ROOM_FARM>MUL: 0.7,
+	ROOM_ORCHARD>MUL: 1.4,
+	ROOM_PASTURE>MUL: 0.8,
+	ROOM_WOODCUTTER>MUL: 1.5,
+	ROOM_HUNTER>MUL: 1.7,
+	ROOM_FISHERY>MUL: 1.0,
+	
+	ROOM_WORKSHOP_BOWYER>MUL: 1.6,
+	ROOM_WORKSHOP_APOTHECARY>MUL: 1.5,
+	ROOM_WORKSHOP_TEXTILE>MUL: 1.3,
+	ROOM_WORKSHOP_CARPENTER>MUL: 1.2,
+	
+	# Void Building Preferences
+	ROOM_MINE_VOID_ORE_RG2>MUL: 0.7,
+	ROOM_VOID_CRYSTAL_REFINERY_RG2>MUL: 0.9,
+	ROOM_VOID_NEXUS_RG2>MUL: 1.2,
+	ROOM_VOID_AMPLIFIER_RG2>MUL: 1.3,
+	ROOM_VOID_GATEWAY_RG2>MUL: 1.1,
+	
+	ROOM_UNIVERSITY>MUL: 0.6,
+	ROOM_LIBRARY>MUL: 0.7,
+	ROOM_LABORATORY>MUL: 0.6,
+	ROOM_ADMIN_NORMAL>MUL: 0.5,
+	
+	ROOM_BARRACKS>MUL: 0.7,
+	ROOM_ARCHERY>MUL: 1.8,
+	ROOM_ARCHERY_CROSSBOW_RG2>MUL: 0.5,
+	
+	ROOM_TAVERN_NORMAL>MUL: 1.3,
+	ROOM_TEMPLE>MUL: 1.4,
+	
+	BEHAVIOUR_SANITY>MUL: 1.5,
+	BEHAVIOUR_LAWFULNESS>MUL: 0.9,
+	BEHAVIOUR_SUBMISSION>MUL: 0.6,
+	BEHAVIOUR_FERAL>ADD: 0.4,
+	
+	RATES_REPRODUCTION>MUL: 1.3,
+	RATES_HUNGER>MUL: 1.2,
+	RATES_THIRST>MUL: 1.1,
+	RATES_TEMPLE>MUL: 1.3,
+	
+	PHYSICS_NIGHT_VISION>ADD: 0.5,
+	FOREST_AFFINITY>MUL: 1.7,
+	LUNAR_INFLUENCE>ADD: 0.6,
+	HERBALISM>ADD: 0.5,
+	MATRIARCHAL_LEADERSHIP>ADD: 0.4,
+	
+	WORLD_BUILDING_AGRICULTURE>MUL: 0.7,
+	WORLD_BUILDING_PASTURE>MUL: 0.8,
+	WORLD_BUILDING_MINE>MUL: 0.6,
+	WORLD_POINT_WORKFORCE>MUL: 1.1,
+},
+DESC_INFO: {
+	DIFFICULTY: 1.0,
+	DIFFICULTY_TEXT: "Forest-dwelling hedonists with exceptional archery skills and natural affinity for woodland environments.",
+	NAME: "Satyr",
+	NAMES: "Satyrs",
+	POSSESSIVE: "Satyr",
+	POSSESSIVES: "Satyr",
+	LORE: "The Satyrs are masters of the forest, moving through dense woodland with unparalleled grace and speed. Their natural affinity for archery and woodland combat makes them formidable defenders of their forest territories. Their society celebrates pleasure and freedom, with elaborate festivals and rituals dedicated to wine, music, and dance.
+
+Satyr culture revolves around the balance between hedonistic pursuits and fierce protection of their woodland homes. Their warriors are known for their hit-and-run tactics, using the forest canopy to rain arrows upon enemies before melting back into the trees. Despite their love of pleasure, they are not to be underestimated in battle, as their knowledge of forest terrain gives them a significant advantage against invaders.
+
+However, beneath their seemingly peaceful exterior lies a darker aspect of Satyr nature that few outsiders witness and survive to speak of—the dreaded 'Wild Hunt.' During the three nights of the full moon, particularly in autumn and winter, a primal bloodlust awakens within them. Their eyes glow with an eerie amber light, their movements become feral, and they gather in hunting packs led by the most ferocious female warriors, known as 'Moonrage Matrons.' These hunts target any non-Satyrs unfortunate enough to be caught in their forests, regardless of prior alliances or treaties.
+
+During the Wild Hunt, Satyrs undergo a terrifying transformation—their normally melodious voices become guttural howls, their graceful movements turn predatory, and they paint their bodies with mixtures of berry juice and blood that create disturbing patterns visible only by moonlight. They employ specially crafted 'Moonbane' arrows tipped with a neurotoxin that paralyzes victims while leaving them fully conscious and aware. Captured prey are brought back to ancient stone circles deep within the forest, where they become the centerpiece of frenzied rituals that last until dawn. What happens during these rituals is unknown, as no outsider has ever returned from one, though distant screams can be heard for miles around.
+
+The morning after a Wild Hunt, Satyrs appear to have no memory of their actions, or perhaps choose to maintain a collective silence about them. This duality in their nature—peaceful and pleasure-loving by day, predatory and merciless during the full moon—has led to complex and often strained relations with other races. Trading parties and diplomatic missions to Satyr territories are careful to schedule their visits during the new moon, and wise travelers avoid Satyr forests entirely during the full moon.
+
+Unlike many other races, Satyr society is matriarchal, with female leaders known as 'Grove Mothers' guiding their communities with wisdom and foresight. They value isolation and defense rather than aggression, preferring to repel invaders rather than expand their territories. When forced to fight outside of the Wild Hunt, they prefer non-lethal methods when possible, using their superior knowledge of forest herbs to create paralyzing poisons and disorienting concoctions.
+
+The Satyrs maintain complex relationships with other races based on their respect for nature and freedom. They share a deep spiritual connection with the Froggians, both races valuing harmony and peaceful coexistence, though even Froggians know to avoid Satyr territories during the full moon. They respect the Pasunkas for their discipline and spiritual nature, though they find their rigid lifestyle somewhat confining. They maintain cautious relations with the Northmen and Finestorians, appreciating their craftsmanship but wary of their exploitation of natural resources. They view the Bloodelves and Hellspawns with deep distrust, seeing their cruelty as an abomination against the natural order, though some whisper that captured Bloodelves and Hellspawns are the most prized quarry during the Wild Hunt.
+
+Their devotion to Athuri, the leader of the Astari, is expressed through their reverence for nature and the cycles of life, which they see as the divine manifestation of balance and harmony. However, some scholars suggest that the Wild Hunt may be a vestige of an older, darker faith that predates their conversion to Athuri worship—perhaps explaining why these hunts occur during the full moon, when Athuri's celestial influence is said to be at its weakest.",
+	PROS: [
+		"Exceptional archers and forest dwellers",
+		"Enhanced strength during full moons",
+		"Superior herbalism and healing",
+		"Excellent forest management",
+		"Strong defensive capabilities",
+	],
+	CONS: [
+		"Weakened during new moons",
+		"Territorial and isolationist",
+		"Limited mining and metallurgy",
+		"Struggle in urban environments",
+		"Vulnerable to fire-based attacks",
+	],
+},

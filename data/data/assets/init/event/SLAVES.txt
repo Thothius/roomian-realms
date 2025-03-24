@@ -1,0 +1,840 @@
+SLAVE_DRUGS: {
+
+	DURATION: {
+		DAYS: 1.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULTAION_SLAVE_F: 0.2,
+				GOVERN_RICHES: 0.10,
+			},
+		},
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			SLAVE_DRUGS_NO,
+		],
+	},
+	
+	SELECTION: {
+		SUBJECTS: {
+			USE_AS_ICON: true,
+			
+			MAX_AMOUNT: {
+				RELATIVE: 0.04,
+			},
+			
+			FILTERS: [
+				{
+					EQUAL: {
+						CLASS_SLAVE: 1,
+					},
+				},
+			],
+		},		
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: SLAVE_DRUGS_YES,
+				},
+				{
+					TYPE: SUBJECTS_KILL,
+					AMOUNTS: {
+						*: {
+							RELATIVE: 0.04,
+						},	
+					},
+					DAMAGE: false,
+					DEATH_CAUSE: SLAYED,
+					USE_SELECTION: true,
+				},
+				{
+					TYPE: CREDITS,
+					PER_PERSON: -80,
+				},
+			],		
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: SLAVE_DRUGS_NO,
+				},
+			],		
+		},
+	],
+},
+
+SLAVE_DRUGS_YES: {
+	ICON: 32->LAW->1,
+	DURATION: {
+		DAYS: 16.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: SLAVE_DRUGS_YES_FOLLOW,
+				CLEAR_CONTEXT: true,
+			},
+		],
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				SUBJECTS: {
+					ROOM*>MUL: 1.2,
+					BEHAVIOUR_SUBMISSION>MUL: 3,
+				},
+			},
+		],
+	},
+},
+
+SLAVE_DRUGS_YES_FOLLOW: {	
+	ICON: 32->LAW->1,
+
+	SELECTION: {
+		SUBJECTS: {
+			USE_AS_ICON: false,
+			
+			MAX_AMOUNT: {
+				RELATIVE: 0.02,
+			},
+			
+			FILTERS: [
+				{
+					EQUAL: {
+						CLASS_SLAVE: 1,
+					},
+				},
+			],
+		},		
+	},
+
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: SUBJECTS_KILL,
+				AMOUNTS: {
+					*: {
+						RELATIVE: 0.02,
+					},	
+				},
+				DAMAGE: false,
+				DEATH_CAUSE: SLAYED,
+				USE_SELECTION: true,
+			},
+		],
+	},
+},
+
+SLAVE_DRUGS_NO: {
+	ICON: 32->LAW->1,
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: true,
+				SUBJECTS: {
+					BEHAVIOUR_SUBMISSION>MUL: 1.05,
+				},
+			},
+		],
+	},
+	
+	TAGS: {
+		ADD: [
+			SLAVE_DRUGS_NO,
+		],
+	},
+},
+
+SLAVE_HUNTER: {
+	ICON: 32->LAW->1,
+	DURATION: {
+		DAYS: 1.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: SLAVE_HUNTER_NO,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULTAION_SLAVE_F: 0.2,
+				POPULATION: 2500,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			SLAVE_HUNTER_YES,
+			SLAVE_HUNTER_NO,
+		],
+	},
+	
+	SELECTION: {
+		SUBJECTS: {
+			MAX_AMOUNT: {
+				RELATIVE: 0.01,
+			},
+			USE_AS_ICON: false,
+			FILTERS: [
+				{
+					EQUAL: {
+						CLASS_SLAVE: 1,
+					},
+				},
+			],
+		},		
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: SUBJECTS_KILL,
+				AMOUNTS: {
+					*: {
+						RELATIVE: 0.01,
+					},	
+				},
+				DAMAGE: false,
+				DEATH_CAUSE: SLAYED,
+				USE_SELECTION: true,
+			},
+		],
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: SLAVE_HUNTER_YES,
+					CLEAR_CONTEXT: true,
+				},
+			],		
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: SLAVE_HUNTER_NO,
+				},
+			],		
+		},
+	],
+},
+
+SLAVE_HUNTER_YES: {
+	ICON: 32->LAW->1,
+	DURATION: {
+		DAYS: 8.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: SLAVE_HUNTER_YES_FOLLOW,
+			},
+		],
+	},
+
+	SELECTION: {
+		SUBJECTS: {
+			MAX_AMOUNT: {
+				RELATIVE: 0.01,
+			},
+			USE_AS_ICON: false,
+			FILTERS: [
+				{
+					EQUAL: {
+						CLASS_SLAVE: 1,
+					},
+				},
+			],
+		},		
+	},
+	
+	TAGS: {
+		ADD: [
+			SLAVE_HUNTER_YES,
+		],
+	},	
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				SUBJECTS: {
+					BEHAVIOUR_SUBMISSION>MUL: 2,
+				},
+			},
+			{
+				TYPE: SUBJECTS_KILL,
+				AMOUNTS: {
+					*: {
+						RELATIVE: 0.015,
+					},	
+				},
+				DAMAGE: false,
+				DEATH_CAUSE: SLAYED,
+				USE_SELECTION: true,
+			},
+		],
+	},
+},
+
+SLAVE_HUNTER_YES_FOLLOW: {
+	ICON: 32->LAW->1,
+},
+
+SLAVE_HUNTER_NO: {
+	ICON: 32->LAW->1,
+
+	TAGS: {
+		ADD: [
+			SLAVE_HUNTER_NO,
+		],
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: true,
+				SUBJECTS: {
+					BEHAVIOUR_SUBMISSION>MUL: 1.05,
+				},
+			},
+		],
+	},
+},
+
+SLAVE_HUNTER_YES_FOLLOW_FOLLOW: {
+	ICON: 32->LAW->1,
+	DURATION: {
+		DAYS: 10.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULTAION_SLAVE_F: 0.2,
+				POPULATION: 2500,
+			},
+		},
+	},	
+	
+	TAGS: {
+		ALLOW: [
+			SLAVE_HUNTER_YES,
+		],
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},	
+	
+	SELECTION: {
+		SUBJECTS: {
+			USE_AS_ICON: false,
+			FILTERS: [
+				{
+					EQUAL: {
+						CLASS_SLAVE: 1,
+					},
+				},
+			],
+		},		
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				SUBJECTS: {
+					BEHAVIOUR_SUBMISSION>MUL: 2,
+				},
+			},
+		],
+	},	
+},
+
+SLAVE_TRADER: {
+	ICON: 32->LAW->1,
+	DURATION: {
+		DAYS: 1.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 500,
+				GOVERN_RICHES: 0.20,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},	
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: CREDITS,
+					PER_PERSON: -55,
+				},
+				{
+					TYPE: SUBJECTS_ADD,
+					AMOUNTS: {
+						CRETONIAN: {
+							PER_PERSON: 0.25,
+						},	
+					},
+					IMMIGRANT_TYPE: SLAVE,
+				},
+				{
+					TYPE: EVENT,
+					EVENT: SLAVE_TRADER_YES,
+				},
+			],		
+		},
+	],
+},
+
+SLAVE_TRADER_YES: {
+	ICON: 32->LAW->1,
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: OUTBREAK,
+				AMOUNT: 1,
+				DISEASE: PLAGUE,
+			},
+		],
+	},
+},
+
+SLAVE_TRADER_CANTOR: {
+	ICON: 32->LAW->1,
+	DURATION: {
+		DAYS: 1.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 500,
+				GOVERN_RICHES: 0.20,
+			},
+			LESS: {
+				POPULATION_CANTOR_CITIZEN_I: 1,
+				POPULATION_CRETONIAN_SLAVE_I: 1,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},	
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: CREDITS,
+					PER_PERSON: -25,
+				},
+				{
+					TYPE: EVENT,
+					EVENT: SLAVE_TRADER_CANTOR_YES,
+				},
+			],		
+		},
+	],
+},
+
+SLAVE_TRADER_CANTOR_YES: {
+	ICON: 32->LAW->1,
+	DURATION: {
+		DAYS: 8.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: SLAVE_TRADER_CANTOR_YES_FOLLOW,
+			},
+		],
+	},
+
+	SELECTION: {
+		SUBJECTS: {
+			MAX_AMOUNT: {
+				RELATIVE: 1,
+			},
+			
+			USE_AS_ICON: false,
+			
+			FILTERS: [
+				{
+					EQUAL: {
+						CLASS_SLAVE: 1,
+						RACE_CRETONIAN: 1,
+					},
+				},
+			],
+		},		
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: SUBJECTS_ADD,
+				AMOUNTS: {
+					CRETONIAN: {
+						PER_PERSON: 0.05,
+					},	
+				},
+				IMMIGRANT_TYPE: SLAVE,
+				HIDE_UI: true,
+			},
+			{
+				TYPE: COLOR,
+				COLOR: 0_211_255, 
+				USE_SELECTION: true,
+			},
+		],
+	},	
+},
+
+SLAVE_TRADER_CANTOR_YES_FOLLOW: {
+	ICON: 32->race->Cretonian->0,
+},
+
+CRETONIAN_LIBERATORS: {
+	ICON: 32->race->Cretonian->0,
+	DURATION: {
+		DAYS: 1.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: CRETONIAN_LIBERATORS_NO,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 2000,
+				POPULATION_CRETONIAN_SLAVE_I: 100,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},	
+	
+	SELECTION: {
+		SUBJECTS: {
+			USE_AS_ICON: false,
+			MAX_AMOUNT: {
+				RELATIVE: 0.95,
+			},
+			FILTERS: [
+				{
+					EQUAL: {
+						RACE_CRETONIAN: 1,
+						CLASS_SLAVE: 1,
+					},
+				},
+			],
+		},		
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: CRETONIAN_LIBERATORS_YES,
+				},
+				{
+					TYPE: SUBJECTS_KILL,
+					AMOUNTS: {
+						CRETONIAN: {
+							RELATIVE: 0.95,
+						},	
+					},
+					DAMAGE: false,
+					DEATH_CAUSE: EMMIGRATED,
+					USE_SELECTION: true,
+				},
+			],		
+		},
+	],
+},
+
+CRETONIAN_LIBERATORS_YES: {
+	ICON: 32->race->Cretonian->0,
+
+	SELECTION: {
+		SUBJECTS: {
+			USE_AS_ICON: false,
+			FILTERS: [
+				{
+					EQUAL: {
+						RACE_CRETONIAN: 1,
+						CLASS_SLAVE: 1,
+					},
+				},
+			],
+		},		
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: SUBJECTS_KILL,
+				AMOUNTS: {
+					CRETONIAN: {
+						RELATIVE: 1,
+					},	
+				},
+				HIDE_UI: true,
+				DAMAGE: false,
+				DEATH_CAUSE: EMMIGRATED,
+				USE_SELECTION: true,
+			},
+		],
+	},
+},
+
+CRETONIAN_LIBERATORS_NO: {
+	ICON: 32->race->Cretonian->0,
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: INVASION,
+				AMOUNT_FROM: 1,
+				AMOUNT_TO: 1,
+				RACE: CRETONIAN,
+			},
+		],
+	},
+},
+
+SLAVE_PLOT_FOILED: {
+	ICON: 32->LAW->1,
+	DURATION: {
+		DAYS: 8.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULTAION_SLAVE_I: 50,
+			},
+			LESS: {
+				LOYALTY_SLAVE: 0.9,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},	
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_SUBMISSION>MUL: 2,
+				},
+			},
+		],
+	},
+},
+
+SLAVE_RUMOR: {
+	ICON: 32->LAW->1,
+	DURATION: {
+		DAYS: 8.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: SLAVE_RUMOR_FOLLOW,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULTAION_SLAVE_I: 50,
+				POPULATION: 2000,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			SLAVE_RUMOR_YES,
+		],
+	},
+		
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_SUBMISSION>MUL: 0.7,
+				},
+			},
+		],
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: SLAVE_RUMOR_YES,
+				},
+				{
+					TYPE: CREDITS,
+					PER_PERSON: -350,
+				},
+			],		
+		},
+	],
+},
+
+SLAVE_RUMOR_FOLLOW: {
+	ICON: 32->LAW->1,
+},
+
+SLAVE_RUMOR_YES: {
+	ICON: 32->LAW->1,
+
+	TAGS: {
+		ADD: [
+			SLAVE_RUMOR_YES,
+		],
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: true,
+				PLAYER: {
+					BEHAVIOUR_SUBMISSION>MUL: 1.1,
+				},
+			},
+		],
+	},
+},

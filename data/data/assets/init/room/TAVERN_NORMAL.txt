@@ -1,0 +1,212 @@
+ICON: 32->SERVICE->5,
+RESOURCES: [WOOD,FURNITURE,FABRIC,POTTERY,],
+AREA_COSTS: [0,0,0,0,],
+FLOOR: [DIRT,WOOD,],
+MINI_COLOR: 198_106_0,
+ITEMS: [
+	{
+		COSTS: [2,2,1,2,],
+		STATS: [1,0,],
+	},
+	{
+		COSTS: [2,2,1,2,],
+		STATS: [0,2,],
+	},
+	{
+		COSTS: [0,0,2,0,],
+		STATS: [0,1,],
+	},
+],
+WORK: {
+	SHIFT_OFFSET: 0.65,
+	SOUND: DUMMY,
+	USES_TOOL: false,
+	FULFILLMENT: 0,
+},
+SERVICE: {
+	DEFAULT_ACCESS: 1.0,
+	DEFAULT_VALUE: 1.0,
+	STANDING: {
+		CITIZEN: 0.75,
+		SLAVE: 0,
+		NOBLE: 1,
+		PRIO: 2,
+	}, 
+	NEED: THIRST,
+	RADIUS: 160,
+},
+ENVIRONMENT_EMIT: {
+	_NOISE: {
+		VALUE: 1,
+		RADIUS: 1,
+	},
+},
+UPGRADES: [
+	{
+		RESOURCE_MASK: [1,1,1,0,],
+		BOOST: 0,
+	},
+	{
+		RESOURCE_MASK: [1,2,1,2,],
+		BOOST: 0.5,
+	},
+],
+SPRITES: {
+	TABLE_COMBO: [
+		{	
+			TINT: true,
+			SHADOW_HEIGHT: 5,
+			FRAMES: [
+				COMBO_TABLES: 8,	
+			],
+		},
+		{	
+			TINT: true,
+			SHADOW_HEIGHT: 5,
+			FRAMES: [
+				COMBO_TABLES: 0,
+				COMBO_TABLES: 1,	
+			],
+		},
+	],
+	CARPET_COMBO: [
+		{	
+			TINT: true,
+			FRAMES: [
+				COMBO_CARPETS: 5,	
+			],
+		},
+		{	
+			TINT: true,
+			FRAMES: [
+				COMBO_CARPETS: 0,
+				COMBO_CARPETS: 1,
+				COMBO_CARPETS: 2,
+				COMBO_CARPETS: 3,	
+			],
+		},
+	],
+	JUG_1X1: [
+		{	
+			TINT: true,
+			SHADOW_LENGTH: 2,
+			ROTATES: false,
+			FRAMES: [
+				BASIN: 11,	
+			],
+		},
+	],
+	JUG_FILL_1X1: [
+		{	
+			TINT: true,
+			SHADOW_LENGTH: 0,
+			ROTATES: false,
+			FRAMES: [
+				BASIN: 12,	
+			],
+		},
+	],
+	CHAIR_1X1: [
+		{	
+			TINT: true,
+			SHADOW_LENGTH: 4,
+			ROTATES: true,
+			FRAMES: [
+				CHAIRS: 0,
+				CHAIRS: 1,	
+			],
+		},
+		{	
+			TINT: true,
+			SHADOW_LENGTH: 4,
+			ROTATES: true,
+			FRAMES: [
+				CHAIRS: 3,
+				CHAIRS: 6,
+				CHAIRS: 7,	
+			],
+		},
+	],
+	TABLE_DECOR_1X1: [
+		{	
+			TINT: true,
+			SHADOW_LENGTH: 1,
+			ROTATES: true,
+			FRAMES: [
+				TOP: 5,
+				TOP: 7,
+				TOP: 8,
+			],
+		},
+		{	
+			TINT: true,
+			SHADOW_LENGTH: 1,
+			ROTATES: true,
+			FRAMES: [
+				TOP: 5,
+				TOP: 7,
+				TOP: 8,
+				TOP: 24,
+			],
+		},
+	],
+	MISC_DECOR_1X1: [
+		{	
+			TINT: true,
+			SHADOW_LENGTH: 1,
+			ROTATES: false,
+			FRAMES: [
+				TOP: 5,
+				TOP: 6,
+				TOP: 7,
+				TOP: 8,
+				TOP: 23,	
+			],
+		},
+	],
+	MISC_1X1: [
+		{	
+			TINT: true,
+			SHADOW_LENGTH: 3,
+			ROTATES: false,
+			FRAMES: [
+				STORAGE: 0,
+				STORAGE: 0,
+				STORAGE: 0,
+				STORAGE: 1,
+				STORAGE: 10,
+			],
+		},
+		{	
+			TINT: true,
+			SHADOW_LENGTH: 3,
+			ROTATES: false,
+			FRAMES: [
+				STORAGE: 0,
+				STORAGE: 1,
+				STORAGE: 4,
+				STORAGE: 13,
+			],
+		},
+	],
+	STORAGE_1X1: [
+		{	
+			TINT: true,
+			SHADOW_LENGTH: 3,
+			ROTATES: false,
+			FRAMES: [
+				STORAGE: 5,
+			],
+		},
+		{	
+			TINT: true,
+			SHADOW_LENGTH: 5,
+			ROTATES: false,
+			FRAMES: [
+				STORAGE: 6,
+				STORAGE: 7,
+			],
+		},
+	],
+},
+

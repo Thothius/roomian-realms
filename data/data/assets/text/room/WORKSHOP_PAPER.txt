@@ -1,0 +1,44 @@
+INFO: {
+	NAME: "Papermaker",
+	NAMES: "Papermakers",
+	DESC: "Workshop that makes Paper out of Wood.",
+},
+
+BONUS: {
+	NAME: "Paper Making",
+	DESC: "Increases effectiveness of Paper Workshops",
+},
+
+WORK: {
+	TITLE: "Papermaker",
+	VERB: "Making Paper",
+},
+
+STATS: [
+	{
+		NAME: "Workers",
+		DESC: "The amount of workers",
+	},
+	{
+		NAME: "Efficiency",
+		DESC: "Efficiency increases production",
+	},
+	{
+		
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Storage",
+		DESC: "The internal storage for produce.",
+	},
+	{
+		NAME: "Work Bench",
+		DESC: "Where subjects work",
+	},
+	{
+		NAME: "Auxiliary Station",
+		DESC: "Adds Efficiency to the room",
+	},
+],

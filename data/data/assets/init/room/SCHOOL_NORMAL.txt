@@ -1,0 +1,135 @@
+ICON: 32->KNOWLEDGE->2,
+RESOURCES: [WOOD,FURNITURE,PAPER,FABRIC,],
+AREA_COSTS: [0,0.0,0.0,0.0,],
+FLOOR: WOOD,
+MINI_COLOR: 134_184_184,
+LEARNING_SPEED: 0.006,
+ITEMS: [
+	{
+		COSTS: [0,2,1,0,],
+		STATS: [1,0,],
+	},
+	{
+		COSTS: [0,2,2,0,],
+		STATS: [0,1,],
+	},
+	{
+		COSTS: [0,0,0,1,],
+		STATS: [0,0.2,],
+	},
+],
+SERVICE: {
+	SOUND: work->Paper*,
+	DEFAULT_ACCESS: 1.0,
+	STANDING: {
+		
+	},
+},
+WORK: {
+	SHIFT_OFFSET: 0.125,
+	SOUND: work->Paper*,
+	USES_TOOL: false,
+	FULFILLMENT: 1.0,
+},
+INDUSTRY: {
+	IN: {
+		PAPER: 0.25,
+	},
+},
+SPRITES: {
+	
+	TABLE_1X1: [
+		{
+			ROTATES: true,	
+			TINT: true,
+			SHADOW_HEIGHT: 6,
+			SHADOW_LENGTH: 0,
+			FRAMES: [
+				TABLES: 6,
+			],
+		},
+	],
+	BOOK_1X1: [
+		{
+			ROTATES: true,	
+			TINT: true,
+			SHADOW_HEIGHT: 0,
+			SHADOW_LENGTH: 1,
+			FRAMES: [
+				TOP: 13,
+				TOP: 14,
+				PRISON: 2,
+			],
+		},
+	],
+	STOOL_1X1: [
+		{
+			ROTATES: true,	
+			TINT: true,
+			SHADOW_HEIGHT: 0,
+			SHADOW_LENGTH: 4,
+			FRAMES: [
+				CHAIRS: 0,
+				CHAIRS: 1,
+			],
+		},
+	],
+	SHELF_1X1: [
+		{
+			ROTATES: true,	
+			TINT: true,
+			SHADOW_HEIGHT: 0,
+			SHADOW_LENGTH: 7,
+			FRAMES: [
+				SHELVES: 0,
+			],
+		},
+	],
+	SHELF_TOP_1X1: [
+		{
+			ROTATES: true,	
+			TINT: true,
+			SHADOW_HEIGHT: 0,
+			SHADOW_LENGTH: 1,
+			FRAMES: [
+				TOP: 19,
+				TOP: 20,
+			],
+		},
+	],
+	TABLE_TOP_1X1: [
+		{
+			ROTATES: false,	
+			TINT: true,
+			SHADOW_HEIGHT: 0,
+			SHADOW_LENGTH: 2,
+			FRAMES: [
+				TOP: 11,
+				TOP: 12,
+				WORK: 35,
+				WORK: 36,
+				WORK: 37,
+				WORK: 38,
+				ANIMAL: 1,
+				ANIMAL: 2,
+				ANIMAL: 3,
+				ANIMAL: 4,
+			],
+		},
+	],
+	
+	CARPET_COMBO: [
+		{	
+			TINT: true,
+			FRAMES: [
+				COMBO_CARPETS: 0,
+				COMBO_CARPETS: 1,
+				COMBO_CARPETS: 2,
+				COMBO_CARPETS: 3,
+				COMBO_CARPETS: 5,	
+				COMBO_CARPETS: 6,	
+			],
+		},
+	],
+},
+

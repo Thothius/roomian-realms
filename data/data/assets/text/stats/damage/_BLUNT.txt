@@ -1,0 +1,13 @@
+NAME: "Blunt",
+ATTACK: {
+	NAME: "Blunt Damage",
+	DESC: "The strength of each attack.",
+},
+DEFENCE: {
+	NAME: "Blunt Absorption",
+	DESC: "The ability to absorb blunt damage.",
+},
+
+
+
+

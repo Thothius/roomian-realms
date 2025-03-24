@@ -1,0 +1,4 @@
+INFO: {
+	NAME: "Master of The Hunt",
+	DESC: "The Master of The Hunt ensures that all hunters retrieve everything they can from the animals they slay. Their hunting prowess and deeds also lend strength to the military's archers, skirmishers, and scouts, increasing their damage",
+},

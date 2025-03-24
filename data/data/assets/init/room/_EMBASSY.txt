@@ -1,0 +1,128 @@
+ICON: 32->INFRA->1,
+RESOURCES: [STONE_CUT,FABRIC,PAPER,],
+AREA_COSTS: [0,0,0,],
+FLOOR: STONE2,
+MINI_COLOR: 70_0_255,
+
+VALUE_DEGRADE_PER_YEAR: 0.2,
+VALUE_PER_WORKER: 1,
+VALUE_WORK_SPEED: 6,
+
+ITEMS: [
+	{
+		COSTS: [3,0,1,],
+		STATS: [1,0,],
+	},
+	{
+		COSTS: [3,1,1,],
+		STATS: [0,1.0,],
+	},
+	{
+		COSTS: [0,2,0,],
+		STATS: [0,0.5,],
+	},
+],
+WORK: {
+	SHIFT_OFFSET: 0.375,
+	USES_TOOL: false,
+	FULFILLMENT: 1.0,
+},
+INDUSTRY: {
+	IN: {
+		JEWELRY: 0.1,
+		FABRIC: 2,
+	},
+	EDUCATION_FACTOR: 0.5,
+},
+SPRITES: {
+	TABLE_TOP_1X1: [
+		{	
+			TINT: true,
+			SHADOW_LENGTH: 2,
+			ROTATES: true,
+			FRAMES: [
+				TOP: 5,
+				TOP: 7,
+				TOP: 8,
+				TOP: 11,
+				TOP: 13,
+				TOP: 24,	
+			],
+		},
+	],
+	DECOR_1X1: [
+		{	
+			TINT: true,
+			SHADOW_LENGTH: 2,
+			ROTATES: true,
+			FRAMES: [
+				TOP: 11,
+				TOP: 12,
+				TOP: 21,	
+				TOP: 22,
+				TOP: 19,
+				TOP: 20,
+				TOP: 19,
+				TOP: 20,
+				TOP: 19,
+				TOP: 20,
+			],
+		},
+	],
+
+	TABLE_COMBO: [
+		{	
+			TINT: true,
+			SHADOW_HEIGHT: 6,
+			FRAMES: [
+				COMBO_TABLES: 2,
+				COMBO_TABLES: 3,
+				COMBO_TABLES: 4,
+			],
+		},
+	],
+	TABLE_1X1: [
+		{	
+			TINT: true,
+			ROTATES: false,
+			SHADOW_HEIGHT: 6,
+			FRAMES: [
+				TABLES: 3,
+			],
+		},
+	],	
+	STOOL_1X1: [
+		{	
+			ROTATES: true,
+			TINT: true,
+			SHADOW_LENGTH: 4,
+			FRAMES: [
+				CHAIRS: 8,
+				CHAIRS: 9,
+			],
+		},
+	],
+	SHELF_1X1: [
+		{	
+			TINT: true,
+			ROTATES: true,
+			SHADOW_HEIGHT: 6,
+			FRAMES: [
+				SHELVES: 1,
+			],
+		},
+	],	
+	CARPET_COMBO: [
+		{
+			FPS: 0,
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 0,
+			FRAMES: [
+				COMBO_CARPETS: 4,
+			],
+		},
+	],
+	
+	
+},
+

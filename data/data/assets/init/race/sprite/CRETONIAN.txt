@@ -1,0 +1,835 @@
+SLEEP_FILE: Blanket,
+SPRITE_EXTRA_FILE: Normal,
+NAMESET_FILE_NOBLE: StdLastNoble,
+
+WORLD: {
+	TOWN: Cretonian,
+	TOWN_COLOR: 255_255_255,
+	VILLAGE: Normal,
+	VILLAGE_COLOR: 255_255_255,
+	OVERLAY: Cretonian,
+	OVERLAY_COLOR: 255_255_255,
+	WALL: Normal,
+	WALL_COLOR: 250_230_220,
+	WALL_VILLAGE: Village,
+	WALL_VILLAGE_COLOR: 250_230_220,
+	TERRAIN: Normal,
+	TERRAIN_COLOR: 140_110_100,
+	FARM: Farm,
+	FARM_COLOR: [
+		194_218_194,
+		180_180_180,
+		210_234_210,
+		202_222_202,
+		184_204_184,
+		196_216_196,
+		190_206_190,
+		202_220_202,
+		194_214_194,
+		192_216_192,
+		220_240_220,
+		194_206_194,
+		192_192_192,
+		196_204_196,
+		222_246_222,
+		208_232_208,
+	],
+},
+
+CROWN: {
+	FILE: CrownCretonian,
+	OFFX: 0,
+	OFFY: -5,
+},
+MERC: {
+	FILE: Helm,
+	OFFX: 0,
+	OFFY: -1,
+},
+RAIDER: [
+	{
+		FILE: RaidHat_H,
+		OFFX: 0,
+		OFFY: -6,
+	},
+	{
+		FILE: RaidHat_L,
+		OFFX: 0,
+		OFFY: -2,
+	},
+	{
+		FILE: RaidVail,
+		OFFX: 0,
+		OFFY: 22,
+	},
+	{
+		FILE: EyePatch,
+		OFFX: 0,
+		OFFY: 8,
+	},
+	{
+		FILE: Helm,
+		OFFX: 0,
+		OFFY: -1,
+	},
+],
+COLOR_CLOTHES: [
+	{R: 114, G: 101, B: 35,},
+	{R: 142, G: 126, B: 44,},
+	{R: 83, G: 181, B: 94,},
+	{R: 62, G: 135, B: 70,},
+	{R: 105, G: 125, B: 239,},
+	{R: 79, G: 94, B: 181,},
+	{R: 53, G: 64, B: 122,},
+	{R: 193, G: 77, B: 0,},
+],
+COLOR_BLOOD: {R: 255, G: 30, B: 30,},
+COLORS: {
+	SKIN_M: {
+		TURNS_WHITE_WHEN_DEAD: true,
+		TURNS_SICKLY: true,
+	    VALUES:{
+			GENERATE: 8,
+			FROM: 213_104_87,
+			TO: 207_96_90,
+	    },
+	},
+	SKIN_F: {
+		TURNS_WHITE_WHEN_DEAD: true,
+		TURNS_SICKLY: true,
+	    VALUES:{
+			GENERATE: 8,
+			FROM: 218_135_121,
+			TO: 223_127_99,
+	    },
+	},
+	HAIR: {
+		TURNS_GRAY_WHEN_OLD: true,
+		VALUES: [
+			{R: 173, G: 50, B: 50,},
+			{R: 175, G: 59, B: 52,},
+			{R: 177, G: 66, B: 53,},
+			{R: 181, G: 80, B: 56,},
+			{R: 185, G: 96, B: 60,},
+			{R: 192, G: 123, B: 66,},
+			{R: 193, G: 126, B: 67,},
+		],
+	},
+	JEWELLERY: {
+		VALUES: [
+			{R: 216, G: 202, B: 0,},
+			{R: 216, G: 163, B: 0,},
+			{R: 114, G: 66, B: 85,},
+			{R: 134, G: 133, B: 82,},
+			{R: 150, G: 150, B: 180,},
+			{R: 180, G: 150, B: 150,},
+		],
+	},
+	EYE: {
+		VALUES: [
+			{R: 10, G: 10, B: 10,},
+			{R: 15, G: 10, B: 10,},
+			{R: 20, G: 10, B: 10,},
+			{R: 25, G: 15, B: 10,},
+			{R: 10, G: 15, B: 10,},
+			{R: 15, G: 15, B: 10,},
+			{R: 20, G: 15, B: 10,},
+			{R: 25, G: 20, B: 10,},
+			{R: 10, G: 20, B: 10,},
+			{R: 15, G: 20, B: 10,},
+			{R: 20, G: 20, B: 10,},
+			{R: 25, G: 25, B: 10,},
+			{R: 10, G: 25, B: 10,},
+			{R: 15, G: 25, B: 10,},
+			{R: 20, G: 25, B: 10,},
+		],
+	},
+	PAINT_M: {
+		VALUES: [
+			{R: 99, G: 50, B: 35,},
+			{R: 92, G: 18, B: 14,},
+			{R: 98, G: 12, B: 16,},
+		],
+	},
+	PAINT_F: {
+		VALUES: [
+			{R: 10, G: 10, B: 200,},
+			{R: 100, G: 10, B: 200,},
+			{R: 10, G: 100, B: 200,},
+			{R: 200, G: 10, B: 200,},
+			{R: 10, G: 200, B: 200,},
+			{R: 10, G: 10, B: 100,},
+			{R: 100, G: 10, B: 100,},
+			{R: 10, G: 100, B: 100,},
+			{R: 100, G: 50, B: 200,},	
+		],
+	},
+	LIPS: {
+		VALUES: [
+			{R: 200, G: 100, B: 100,},
+		],
+	},
+	LEG: {
+		VALUES: [
+			{R: 80, G: 40, B: 20,},
+		],
+	},
+	ARMOUR: {
+		PICK_BY_STAT: EQUIP_BATTLE_ARMOUR_PLATE,
+
+		VALUES: [
+			090_090_080,
+			099_099_099,
+			168_168_180,
+			209_159_054,
+		],
+	},
+	ARMOUR_LEATHER: {
+		VALUES: [
+			96_071_058,
+			107_079_065,
+			117_086_071,
+			127_095_078,
+		],
+	},
+},
+CHILD: {
+	
+	COLOR_SKIN: SKIN_M,
+	COLOR_LEG: LEG,
+	
+	SPRITE_FILE: ChildHumanoid,
+	SPRITE_SKELLETON_FILE: Humanoid_small,
+	NAMESET_FILE_FIRST: StdFirst,
+	NAMESET_FILE_SURNAME: StdLast,
+	
+	ADDONS: [
+		{
+			BELOW_HEAD: false,
+			ADDON_INDEX: 0,
+			COLOR: HAIR,
+		},
+	],
+},
+TYPES: [
+
+	** M A L E S
+
+	{
+		OCCURRENCE: 0.5,
+		COLOR_SKIN: SKIN_M,
+		COLOR_LEG: LEG,
+		
+		PORTRAIT_FILE: Cretonian,
+		SPRITE_FILE: Cretonian,
+		SPRITE_SKELLETON_FILE: Humanoid,
+		NAMESET_FILE_FIRST: StdFirst,
+		NAMESET_FILE_SURNAME: StdLast,
+		
+	
+		ADDONS: [
+			{
+				BELOW_HEAD: false,
+				ADDON_INDEX: 2,
+				CONDITIONS: {
+					EQUAL: {
+						POPULATION_NOBLES_I: 1,
+					},
+				},
+				COLOR: HAIR,
+			},
+			{
+				BELOW_HEAD: false,
+				ADDON_INDEX: 3,
+				CONDITIONS: {
+					GREATER: {
+						RANDOM_1_F: 0.25,
+					},
+				},
+				COLOR: HAIR,
+			},
+			{
+				BELOW_HEAD: false,
+				ADDON_INDEX: 1,
+				CONDITIONS: {
+					GREATER: {
+						EQUIP_BATTLE_ARMOUR_PLATE_I: 0,
+					},
+				},
+				
+				COLOR: ARMOUR,
+			},
+			{
+				BELOW_HEAD: true,
+				ADDON_INDEX: 0,
+				CONDITIONS: {
+					GREATER: {
+						EQUIP_BATTLE_ARMOUR_LEATHER_I: 0,
+					},
+				},
+				
+				COLOR: ARMOUR_LEATHER,
+			},
+		],
+	
+		FACE: [
+			**Chest
+			{
+				FRAMES: [
+					Chest: 16,
+					Chest: 17,
+				],
+				COLOR: SKIN_M,
+				STAINS: false,
+				OFF_Y: 2,
+			},
+			**Noble
+			{
+				CONDITIONS: {
+					EQUAL: {
+						POPULATION_NOBLES_I: 1,
+					},
+				},
+				FRAMES: [
+					Cloak: 3,
+				],
+				OFF_Y: 2,
+				STAINS: false,
+			},
+			**Ears
+			{
+				FRAMES: [
+					Ears: 12,
+					Ears: 13,
+					Ears: 14,
+					Ears: 15,	
+				],
+				COLOR: SKIN_M,
+				**OFF_Y: 1,
+			},
+			**Feature Ears
+			{
+				CONDITIONS: {
+					GREATER: {
+						RANDOM_1_F: 0.2,
+					},
+				},
+				FRAMES: [
+					Feature: 32,
+					Feature: 33,
+					Feature: 34,
+					Feature: 35,
+				],
+				**OFF_Y: 1,
+				COLOR: JEWELLERY,
+				STAINS: false,
+			},
+			**Skull
+			{
+				FRAMES: [
+					Skull: 36,
+					Skull: 37,
+					Skull: 38,
+					Skull: 39,
+				],
+				**OFF_Y: 1,
+				COLOR: SKIN_M,
+			},
+			**Wrinkles
+			{
+				CONDITIONS: {
+					GREATER: {
+						POPULATION_AGE_F: 0.75,
+						**AGE_DAYS_I: 100,
+					},
+				},
+				FRAMES: [
+					Wrinkles: 12,
+					Wrinkles: 13,
+					Wrinkles: 14,
+					Wrinkles: 15,
+				],
+				STAINS: false,
+				COLOR: SKIN_M,
+				**OFF_Y: 1,
+			},
+			**Mouth
+			{
+				FRAMES: [
+					Mouth: 28,
+					Mouth: 29,
+					Mouth: 30,
+					Mouth: 31,
+				],
+				STAINS: false,
+				COLOR: SKIN_M,
+				**OFF_Y: 1,
+			},
+			**Mustache
+			{
+				CONDITIONS: {
+					GREATER: {
+						POPULATION_AGE_F: 0.15,
+						**AGE_DAYS_I: 20,
+					},
+				},
+				FRAMES: [
+					Mustache: 20,
+					Mustache: 21,
+					Mustache: 22,
+					Mustache: 23,		
+				],
+				**OFF_Y: 1,
+				STAINS: false,
+				COLOR: HAIR,
+			},
+			**Beards
+			{
+				CONDITIONS: {
+					GREATER: {
+						RANDOM_3_F: 0.95,
+					},
+				},
+				FRAMES: [
+					Beard: 24,
+					Beard: 25,
+					**Beard: 26,
+					Beard: 27,
+				],
+				**OFF_Y: 4,
+				STAINS: false,
+				COLOR: HAIR,
+			},
+			**Nose
+			{
+				FRAMES: [
+					Nose: 24,
+					Nose: 25,
+					Nose: 26,
+					Nose: 28,
+					Nose: 30,
+					Nose: 31,
+				],
+				**OFF_Y: 1,
+				COLOR: SKIN_M,
+				**OPACITY: 0,
+			},
+			**Warpaint
+			{
+				CONDITIONS: {
+					GREATER: {
+						RANDOM_4_F: 0.65,
+					},
+				},
+				 FRAMES: [
+					Makeup: 14,	
+					Makeup: 20,	
+					Makeup: 22,
+					Makeup: 24,
+					Makeup: 35,
+					Makeup: 62,
+					Makeup: 63,
+					Makeup: 65,
+	
+				],
+				**OFF_Y: 1,
+				COLOR: PAINT_M,
+			},	
+			**tusks
+			{
+				FRAMES: [
+					Mouth: 32,
+					Mouth: 33,
+					Mouth: 34,
+					Mouth: 35,
+					Mouth: 36,
+					Mouth: 37,
+				],
+				STAINS: false,
+				**OFF_Y: 1,
+			},
+			**Eyes
+			{
+				CONDITIONS: {
+					EQUAL: {
+						APPEARANCE_DEAD_I: 0,
+					},
+				},
+				FRAMES: [
+					Eyes: 20,
+					Eyes: 21,
+					Eyes: 22,
+					Eyes: 23,
+				],
+				**OFF_Y: 1,
+				FRAME_RANDOM: 8,
+				STAINS: false,
+			},
+			**Eyes Iris
+			{
+				CONDITIONS: {
+					EQUAL: {
+						APPEARANCE_DEAD_I: 0,
+					},
+				},
+				FRAMES: [
+					Eyes: 2,
+				],
+				**OFF_Y: 1,
+				COLOR: EYE,
+				STAINS: false,
+			},
+            **Eyes Shut
+            {
+                CONDITIONS: {
+                    EQUAL: {
+                        APPEARANCE_DEAD_I: 1,
+                    },
+                },
+                FRAMES: [
+                    Eyes: 20,
+                    Eyes: 21,
+                    Eyes: 22,
+                    Eyes: 23,
+                ],
+                **OFF_Y: 1,
+				FRAME_RANDOM: 8,
+                STAINS: true,
+                COLOR: SKIN_M,
+            },
+			**Eyebrows
+			{
+				FRAMES: [
+					Eyebrow: 24,
+					Eyebrow: 25,
+					Eyebrow: 26,
+					Eyebrow: 28,
+					Eyebrow: 29,
+					Eyebrow: 30,
+				],
+				**OFF_Y: 1,
+				COLOR: HAIR,
+			},
+			**Feature Eyebrow
+			{
+				CONDITIONS: {
+					GREATER: {
+						RANDOM_4_F: 0.35,
+					},
+				},
+				FRAMES: [
+					Feature: 40,
+					Feature: 41,
+					Feature: 42,
+					Feature: 43,
+				],
+				**OFF_Y: 1,
+				COLOR: JEWELLERY,
+				STAINS: false,
+			},
+			**Hair
+			{
+				CONDITIONS: {
+					GREATER: {
+						RANDOM_5_F: 0.3,
+					},
+				},
+				FRAMES: [
+					Hair: 48,
+					Hair: 49,
+					Hair: 50,
+					Hair: 54,
+					Hair: 55,
+				],
+				OFF_Y: -3,
+				COLOR: HAIR,
+				STAINS: false,
+			},
+		],
+		
+		
+		
+	},
+	
+	** F E M A L E S
+	
+	{
+		OCCURRENCE: 0.5,
+		COLOR_SKIN: SKIN_F,
+		COLOR_LEG: LEG,
+		
+		PORTRAIT_FILE: Cretonian,
+		SPRITE_FILE: Cretonian,
+		SPRITE_SKELLETON_FILE: Humanoid,
+		NAMESET_FILE_FIRST: StdFemaleFirst,
+		NAMESET_FILE_SURNAME: StdLast,
+	
+		ADDONS: [
+			{
+				BELOW_HEAD: false,
+				ADDON_INDEX: 3,
+				CONDITIONS: {
+					GREATER: {
+						RANDOM_1_F: 0.1,
+					},
+				},
+				COLOR: HAIR,
+			},
+			{
+				BELOW_HEAD: false,
+				ADDON_INDEX: 2,
+				CONDITIONS: {
+					EQUAL: {
+						POPULATION_NOBLES_I: 1,
+					},
+				},
+			},
+			{
+				BELOW_HEAD: false,
+				ADDON_INDEX: 1,
+				CONDITIONS: {
+					GREATER: {
+						EQUIP_BATTLE_ARMOUR_PLATE_I: 0,
+					},
+				},
+				
+				COLOR: ARMOUR,
+			},
+			{
+				BELOW_HEAD: true,
+				ADDON_INDEX: 0,
+				CONDITIONS: {
+					GREATER: {
+						EQUIP_BATTLE_ARMOUR_LEATHER_I: 0,
+					},
+				},
+				
+				COLOR: ARMOUR_LEATHER,
+			},
+		],
+
+		FACE: [
+			**Chest
+			{
+				FRAMES: [
+					Chest: 18,
+					Chest: 19,	
+				],
+				COLOR: SKIN_F,
+				STAINS: false,
+				OFF_Y: 2,
+			},
+			**Noble
+			{
+				CONDITIONS: {
+					EQUAL: {
+						POPULATION_NOBLES_I: 1,
+					},
+				},
+				FRAMES: [
+					Cloak: 3,
+				],
+				OFF_Y: 2,
+				STAINS: false,
+			},
+			**Ears
+			{
+				FRAMES: [
+					Ears: 16,
+					Ears: 17,
+					Ears: 18,
+					Ears: 19,	
+				],
+				COLOR: SKIN_F,
+				**OFF_Y: 1,
+			},
+			**Skull
+			{
+				FRAMES: [
+					Skull: 40,
+					Skull: 41,
+					Skull: 42,
+					Skull: 43,				
+				],
+				**OFF_Y: 1,
+				COLOR: SKIN_F,
+			},
+			**Wrinkles
+			{
+				CONDITIONS: {
+					GREATER: {
+						POPULATION_AGE_F: 0.75,
+						**AGE_DAYS_I: 100,
+					},
+				},
+				FRAMES: [
+					Wrinkles: 12,
+					Wrinkles: 13,
+					Wrinkles: 14,
+					Wrinkles: 15,
+				],
+				STAINS: false,
+				COLOR: SKIN_F,
+				**OFF_Y: 1,
+			},
+			**Mouth
+			{
+				FRAMES: [
+					Mouth: 28,
+					Mouth: 29,
+					Mouth: 30,
+					Mouth: 31,
+				],
+				STAINS: false,
+				COLOR: SKIN_F,
+				**OFF_Y: 1,
+			},
+			**tusks
+			{
+				FRAMES: [
+					Mouth: 38,
+					Mouth: 39,
+					Mouth: 40,
+					Mouth: 41,
+					Mouth: 42,
+					Mouth: 43,
+				],
+				STAINS: false,
+				**OFF_Y: 1,
+			},
+			**Nose
+			{
+				FRAMES: [
+					Nose: 24,
+					Nose: 25,
+					Nose: 26,
+					Nose: 27,
+					Nose: 29,
+					Nose: 31,
+				],
+				OFF_Y: -1,
+				COLOR: SKIN_F,
+				**OPACITY: 0,
+			},
+			**Makeup
+			{
+				CONDITIONS: {
+					GREATER: {
+						RANDOM_2_F: 0.2,
+					},
+				},
+				 FRAMES: [
+					Makeup: 0,
+					Makeup: 1,
+					Makeup: 2,
+				],
+				**OFF_Y: 1,
+			},	
+			**Warpaint
+			{
+				 FRAMES: [
+					Makeup: 16,
+					Makeup: 17,
+					Makeup: 18,
+					Makeup: 19,		
+				],
+				**OFF_Y: 1,
+				COLOR: PAINT_F,
+			},	
+			**Eyes
+			{
+				CONDITIONS: {
+					EQUAL: {
+						APPEARANCE_DEAD_I: 0,
+					},
+				},
+				FRAMES: [
+					Eyes: 24,
+					Eyes: 25,
+					Eyes: 26,
+					Eyes: 27,
+				],
+				**OFF_Y: 1,
+				FRAME_RANDOM: 8,
+				STAINS: false,
+			},
+			**Eyes Iris
+			{
+				CONDITIONS: {
+					EQUAL: {
+						APPEARANCE_DEAD_I: 0,
+					},
+				},
+				FRAMES: [
+					Eyes: 3,
+				],
+				**OFF_Y: 1,
+				COLOR: EYE,
+				STAINS: false,
+			},
+            **Eyes Shut
+            {
+                CONDITIONS: {
+                    EQUAL: {
+                        APPEARANCE_DEAD_I: 1,
+                    },
+                },
+                FRAMES: [
+                    Eyes: 24,
+                    Eyes: 25,
+                    Eyes: 26,
+                    Eyes: 27,
+                ],
+                **OFF_Y: 1,
+				FRAME_RANDOM: 8,
+                STAINS: true,
+                COLOR: SKIN_F,
+            },
+			**Eyebrows
+			{
+				FRAMES: [
+					Eyebrow: 0,
+					Eyebrow: 2,
+					Eyebrow: 9,	
+					Eyebrow: 24,
+					Eyebrow: 27,
+					Eyebrow: 28,
+					Eyebrow: 29,
+					Eyebrow: 30,
+					Eyebrow: 31,
+				],
+				**OFF_Y: 1,
+				COLOR: HAIR,
+			},
+			**Feature Eyebrow
+			{
+				CONDITIONS: {
+					GREATER: {
+						RANDOM_3_F: 0.35,
+					},
+				},
+				FRAMES: [
+					Feature: 40,
+					Feature: 41,
+					Feature: 42,
+					Feature: 43,
+				],
+				**OFF_Y: 1,
+				COLOR: JEWELLERY,
+				STAINS: false,
+			},
+			**Hair
+			{
+				FRAMES: [
+					Hair: 51,
+					Hair: 52,
+					Hair: 53,
+				],
+				OFF_Y: -3,
+				COLOR: HAIR,
+				STAINS: false,
+			},
+		],
+	},
+],
+

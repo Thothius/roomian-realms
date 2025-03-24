@@ -1,0 +1,79 @@
+SPEED: {
+	NAME: "Speed",
+	DESC: "In the world of Syx, things take time. Tasks like construction and clearing are completed in days, not minutes. Luckily, you can use this ancient contraption to speed up the passage of time. You can also use the 1, 2, 3, and 4 buttons.",
+	GOAL: "Make 10 seconds pass.",
+},
+
+OUT_OF_RES: {
+	NAME: "",
+	DESC: "",
+	GOAL: "",
+},
+
+OUT_OF_RES2: {
+	NAME: "Construction Materials",
+	DESC: "Cursed be the Lord of Chaos! You have run out of construction materials. I trust you're not building too large buildings? You must now fell some trees and mine some rock. There should be some close by. Use the terraform tool at the bottom panel for it.",
+	GOAL: "",
+},
+
+OUT_OF_FOOD: {
+	NAME: "Food stores finished",
+	DESC: "We have run out of food! You are taking very long to get things done, are you playing about with the speed contraption? Make sure that your subjects work on achieving our goals at all times, and that you do not assign too monumental of tasks, or we will all die of high age.
+	
+	Here, I have some extra rations in my pocket to let us last a little longer. Now go on and continue our work.
+	",
+	GOAL: "",
+},
+
+OUT_OF_FOOD2: {
+	NAME: "Food stores done",
+	DESC: "Gods beneath! We have run out of food. This can be catastrophic. Soon our people will starve and die. Quickly now, use the tools I have shown you to either hunt or forage to replenish our stores!
+	",
+	GOAL: "Harvest some food.",
+},
+
+GAME_OVER: {
+	NAME: "Failure",
+	DESC: "I'm not sure how you did it, but you've managed to kill off a big number of our brothers and sisters. I'm afraid I can't help you any further, and I'd recommend you restart this tutorial.",
+	GOAL: "You've failed. Start over.",
+},
+
+OVERBUILD: {
+	NAME: "Construction!",
+	
+	DESC: 
+	"What are you, the king of Suma? Even my daftest of nephews can see that you are building too big and too much. Being overly ambitious will lead to nothing getting done. 
+	
+	You must remove some of this mess and try again. You'll find the tool to remove the room down here.",
+	GOAL: "Remove construction plans for rooms that are too plentiful or big.",
+},
+
+OVERWORK: {
+	NAME: "Relax",
+	
+	DESC: 
+	"Careful with how many tasks you give to your subjects. As Ruthgard said: 'if there is too much to do, nothing gets done.' You should cancel some of your current tasks.",
+	GOAL: "Remove some jobs to get to manageable levels.",
+},
+
+OVERJOB: {
+	NAME: "Employment",
+	
+	DESC: 
+	"Your subjects are busy. This is good. But at this moment, there is no one left which can dedicate themselves to pure odd-work, such as construction, hunting or building. 
+	
+	You should regulate your workers by clicking each room and decrease the number of employees. Chances are they are not needed there in any case.",
+	GOAL: "Free up some employees in rooms to get some odd-jobbers.",
+},
+
+DEATH: {
+	NAME: "Death",
+	DESC: "One of our brethren has now joined Crator in the palace of Erebert. Our numbers are dwindling. But fear not, I have some relatives not far from here. They are not of the best of stock, but they will do. I will send for them now to come and replenish our numbers.",
+	GOAL: "Wait for new arrivals of Cretonians.",
+},
+
+HARVEST: {
+	NAME: "Harvest",
+	DESC: "Ah, it's the time of year when the wild crops are ripe. These crops will replenish our food stores. You can find these patches of edibles on the minimap (zoom out), but I have directed your view on the closest one. Order our men to harvest some.",
+	GOAL: "Harvest some wild crops.",
+},

@@ -1,0 +1,10 @@
+WIKI: {
+		CATEGORY: "Economy",
+		NAME: "Tourism",
+		CATEGORIES: [],
+		TEXT: "
+Some races can visit your city in the form of tourists. Tourists will want to stay at an inn, and will only appear if you have one available. 
+
+They are attracted by industries that the race likes working in. Big and impressive industries attracts more tourists. At the end of their stay the tourist might give you some coins, which can be a good source of income. They'll also leave you a review.
+",
+},

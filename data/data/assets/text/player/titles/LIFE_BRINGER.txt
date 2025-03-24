@@ -1,0 +1,2 @@
+NAME: "Lifebringer",
+DESC: "Cure a lot of people in the hospital.",

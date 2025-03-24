@@ -1,0 +1,323 @@
+BANDITS: {
+	NAME: "Bandits try to extort you",
+	DESC: "A decision awaits.",
+	MESSAGE: [
+		"Administrative incompetence allowed the formation of a bandit group in {PLAYER_RND_REGION_CLOSE} and now they have arrived at your doorstep. They want denari to leave your realm and cause problems for {PLAYER_RND_FACTION_CLOSE}. Refusal would likely see them make the roads a lot more dangerous for a time.",
+	],
+	CHOICES: [
+		"Pay them",
+		"Get paid",
+	],
+},
+
+BANDITS_NO: {
+	NAME: "Bandits try to extort you",
+	DESC: "Until the bandit problem is dealt with, trade and taxes suffer",
+	MESSAGE: [
+		"Unsurprisingly, the bandits immediately start robbing caravans and your tax officials. They will likely get caught or retire soon but until then, they will make the roads unsafe.",
+	],
+},
+
+BANDITS_MAYBE: {
+	NAME: "Extorted bandits",
+	DESC: "Bandits avoid your lands.",
+	MESSAGE: [
+		"It seems the bandits finally took the time to find out a few basic things about you because your demand, which could be summarized as 'Your money or your life' was quickly met.
+		 
+		Reports indicate that they decided to try their luck somewhere else.",
+	],
+},
+
+FOREIGN_NOBLE: {
+	NAME: "A foreign noble demands recompense",
+	DESC: "A decision awaits.",
+	MESSAGE: [
+		"A noble from {PLAYER_RND_FACTION_FAR} claims he and his retinue were assaulted by bandits on your roads. While the security of the roads is your responsibility as the lord of this land, rarely do victims of banditry actually try to extract recompense for things like this, especially not a fifth of your treasury. Refusing should cause no immediate issues, the noble's retinue is too small to threaten you.
+		
+		As you have been so recently informed, you have a bandit problem; perhaps the quarrelsome noble will fall prey to them once more and never return to his homeland to make trouble for you there.",
+	],
+	CHOICES: [
+		"Pay him",
+		"Arrange for him to meet more 'bandits'",
+	],
+},
+
+FOREIGN_NOBLE_NO: {
+	NAME: "Noble departs",
+	DESC: "",	
+	MESSAGE: [
+		"The noble departs but not before sending several threatening messages. Only time will tell if there is any substance to these threats.",
+	],
+},
+
+FOREIGN_NOBLE_MAYBE: {
+	NAME: "Bandits strike again",
+	DESC: "Traders avoid your lands.",	
+	MESSAGE: [
+		"Tragically, the bandits struck again. It is a minor miracle that no one suspects foul play. However, merchants have heard of bandits besting a fully-armed noble retinue in your lands and are reluctant to trade with you.",
+	],
+},
+
+FOREIGN_NOBLE_NO_FOLLOW: {
+	NAME: "Noble returns",
+	DESC: "",	
+	MESSAGE: [
+		"An army lead by a familiar noble moves to attack your demesne. It seems that the dispute about banditry was not forgotten by at least one of the parties and he wants to get the denari 'owed' by force.",
+	],
+},
+
+CRETONIAN_PRINCE: {
+	NAME: "Cretonian Prince",
+	DESC: "",
+	
+	MESSAGE: [
+		"You received a letter bearing the crest of {PLAYER_RND_REGION_FAR}.
+		
+		'Your Majesty, I am prince Horum Goldtusk, the last surviving member of my house. Due to political machinations, my estates were seized and I had to flee for my life. I have stashed large amounts of valuables in an abandoned mine on my former lands but I require funds to hire peons to move them to safety. If you could send me a small sum of denari to facilitate that, I would send you ten times as much money once I am safe again. Awaiting your response, Horum Goldtusk.'",
+	],
+	CHOICES: [
+		"Send money",
+	],
+},
+
+CRETONIAN_PRINCE_YES: {
+	NAME: "Money sent",
+	DESC: "",
+	MESSAGE: [
+		"You sent the money but even after a long time waiting, no response from Horum Goldtusk arrived. Your advisors think that you have fallen victim to a scam.", 
+	],
+},
+
+CRETONIAN_PRINCE_YES_FOLLOW: {
+	NAME: "A letter from the Cretonian prince",
+	DESC: "",
+	MESSAGE: [
+		"Your advisors are absolutely flabbergasted when chests of coins, bearing the crest of the Cretonian prince you had lent money to, arrive in your court. A letter was delivered alongside the chests:
+		
+		'Dear {PLAYER_FACTION_RULER},
+		
+		your timely assistance most certainly saved my life. I am sending you some denari as a token of my appreciation. I am sorry about the delay.
+		
+		Forever thankful,
+		Horum Goldtusk'",
+	],
+},
+
+CRETONIAN_PRINCE_YES_FOLLOW_FOLLOW: {
+	NAME: "Another letter from the Cretonian prince",
+	DESC: "",
+	MESSAGE: [
+		"Horum Goldtusk once again sent you gifts to show his appreciation. Your advisors are showing uncharacteristic signs of annoyance at your good fortune.",
+	],
+},
+
+CORRUPTION: {
+	NAME: "Corruption uncovered",
+	DESC: "Your administrators are still working on replacing regional overseers.",
+	MESSAGE: [
+		"The expected small scale corruption of your regional representatives has evolved into something far worse: organized corruption. Apparently, many regions worked together to obfuscate their actual production capabilities. After the plot was uncovered, the ones responsible have been swiftly dealt with, but this left your bureaucracy in shambles for the foreseeable future.
+		
+		There is one upside to this: by studying how this deception happened in detail your administrators were able to improve your bureaucracy, making corruption slightly more difficult in the future.",
+	],
+},
+
+KIDNAPPING_TILAPI: {
+	NAME: "Security concern",
+	DESC: "A decision awaits.",
+	
+	MESSAGE: [
+		"It has come to your attention that the patrol routes of your guards have shifted over time to be closer to the centres of population to combat the relative lawlessness of your capital. The visibility deters crime, but the outskirts of your capital have become rather unsafe.
+		 
+		Changing the patrol routes would safeguard against outside threats at the cost of lowering the perceived safety.",	
+	],
+	CHOICES: [
+		"Change routes",
+		"Do nothing",
+	],
+},
+
+KIDNAPPING_TILAPI_YES: {
+	NAME: "Changed patrol routes",
+	DESC: "Your guards are spread thin.",
+	
+	MESSAGE: [
+		"The perceived safety of your capital has lowered somewhat, but the sudden change of patrol routes did catch some smugglers unaware. The confiscated goods have been sold for a decent sum.",	
+	],
+},
+
+KIDNAPPING_TILAPI_NO_FOLLOW: {
+	NAME: "Kidnapping",
+	DESC: "",
+	
+	MESSAGE: [
+		"A small force snuck into the city, deftly avoiding our insufficient security, and abducted children and caretakers. A few guards were killed by precisely placed arrows and the trail of the kidnappers ends in the nearby forest.",
+	],
+},
+
+KIDNAPPING_GARTHIMI: {
+	NAME: "Sinkholes",
+	DESC: "A decision awaits.",
+	MESSAGE: [
+		"Your janitors are reporting that they have fixed an unusually high amount of sinkholes recently. Some even caused damage to foundations. Repairing them the usual way only works for a short time, and they reappear within a week.
+		 
+		Reinforcing these areas would be a costly but lasting solution, but the unusual problem may resolve on its own, and it is not impacting maintenance work to a significant degree.",
+	],
+},
+
+KIDNAPPING_GARTHIMI_YES: {
+	NAME: "Repairs",
+	DESC: "Your infrastructure is immaculately maintained.",
+	MESSAGE: [
+		"The reinforcements proved sufficient, and no more sinkholes were reported. There was an unexpected effect - your subjects move with greater alacricity through your streets because they trust the ground beneath their feet again.",
+	],
+},
+
+KIDNAPPING_GARTHIMI_NO: {
+	NAME: "Sinkholes disappeared",
+	DESC: "",
+	MESSAGE: [
+		"The unusual sinkholes stopped reappearing shortly after your decision. It seems the problem resolved itself, but the cause of it remains a mystery.",
+	],
+},
+
+KIDNAPPING_GARTHIMI_NO_FOLLOW: {
+	NAME: "Kidnapping",
+	DESC: "",
+	MESSAGE: [
+		"A large number of children were abducted, and a few unlucky bystanders were killed. The whole thing was only noticed in the morning; the kidnappers stealthily eliminated nearby guards, preventing them from raising an alarm. The trail of footprints and discarded toys ends in a hole in the middle of a cellar. The spot was previously occupied by one of the unusual sinkholes, which plagued your city briefly.",
+	],
+},
+
+
+TOURIST_GARTHIMI: {
+	NAME: "Tourist returns",
+	DESC: "A decision awaits.",	
+	MESSAGE: [
+		"Your guards present you with several people that have caused a small fight near one of your markets. One party is a recently returned Garthimi tourist, {SUBJECT1_NAME}, and the others were sent by a human lord of {PLAYER_RND_REGION_FAR} to capture the serial killer they call the 'Hungry Hunter', who killed and ate about a dozen people, some of them city officials, and scattered their half-eaten remains over their city. Your subject is a bit surprised about this, mentioning that {SUBJECT1_HE} just wanted to 'help out' by getting rid of some of the more corrupt elements of the 'human hive'. The half-eaten bodies were intended as a meal for whoever found them. Do you want to hand {SUBJECT1_HIM} over?",
+	],
+	CHOICES: [
+		"Hand it over",
+		"Refuse",
+		"Enslave them",
+	],
+},
+
+TOURIST_GARTHIMI_YES: {
+	SUBJECT: "Still tries to make sense of your recent decision.",
+	NAME: "Tourist handed over",
+	DESC: "Handing over the tourist confused your subjects greatly, but foreign diplomacy is a bit easier now.",	
+	MESSAGE: [
+		"Your subject understands that protecting {SUBJECT1_HIM} would cause trouble for the hive and leaves willingly with the humans, but the event still causes a ripple of discord in the hive. Many do not understand your decision.",	
+	],
+},
+
+TOURIST_GARTHIMI_NO: {
+	SUBJECT: "Loves the stories of the tourist",
+	NAME: "Tourist accepted back",
+	DESC: "The tourist and their exploits are still talked about in your hive.",
+	MESSAGE: [
+		"Your refusal does not surprise the guards and they leave your city quickly, lest they too be judged as hindering a hive. The diplomatic consequences of this should be minimal, because most cities on Syx know what to expect when they allow Garthimi tourists. Some nobles even invite Garthimi to their demesnes to get rid of rivals. Your Garthimi subjects love the story of one of their own visiting something as exotic as a human city and even helping them solve local problems.",	
+	],
+},
+
+TOURIST_GARTHIMI_MAYBE: {
+	SUBJECT: "Loves the stories of the tourist",
+	NAME: "Tourist accepted back",
+	DESC: "The tourist and their exploits are still talked about in your hive.",
+	MESSAGE: [
+		"Your refusal does not surprise the guards and they try to leave immediately without arguing about it. They did not make it far before being captured and enslaved. The diplomatic consequences of this should be minimal, because most cities on Syx know what to expect when they allow Garthimi tourists. Some nobles even invite Garthimi to their demesnes to get rid of rivals. Your Garthimi subjects love the story of one of their own visiting something as exotic as a human city and even helping them solve local problems.",	
+	],
+},
+
+MERCHANT_QUARREL: {
+	NAME: "Quarrelsome merchant",
+	DESC: "A decision awaits.",
+	MESSAGE: [
+		"An influential merchant is feuding with one of your subjects. According to him, your citizen has gravely insulted him, his house, his gods and even his ancestors going back three generations. As is usual for these things, the demanded recompense for these likely fictitious offenses is death. Your savvy subject made the details of the conflict public, which means siding with the merchant will not reflect well on you. On the other hand, a bribe has been promised for swift 'justice'.
+		 
+		Do you want to hand your subject over?",
+	],
+	CHOICES: [
+		"Accept bribe",
+		"Refuse publicly",
+	],
+},
+
+MERCHANT_QUARREL_YES: {
+	NAME: "Bribe accepted",
+	DESC: "Your unpopular decision still causes unrest.",
+	MESSAGE: [
+		"Predictably, having one of your subjects executed at the whims of a foreigner is not well received. However, your speakers are already working on discrediting your late subject. Within a few seasons at most, your decision will look utterly justified.",
+	],
+},
+
+MERCHANT_QUARREL_NO: {
+	NAME: "Bribe refused",
+	DESC: "Your incorruptibility and strength of character are much talked about.",
+	MESSAGE: [
+		"Your public refusal is received well by your subjects, especially after you leaked the details of the offered bribe. Surprisingly, you receive no trouble from the merchant.",
+	],
+},
+
+ARGONOSH_SPY: {
+	NAME: "",
+	DESC: "Something is happening.",
+},
+
+ARGONOSH_SPY_FOLLOW: {
+	NAME: "Odd tourist",
+	DESC: "A decision awaits.",
+	MESSAGE: [
+		"A strange tourist recently showed up in your city. While they are very polite, if a bit terse, the problem lies in their appearance. The scarred, many limbed, hulking figure of an Argonosh browsing your city's markets and eating comically tiny portions of food among other visitors is causing quite a stir.
+		 
+		Due to it sticking out so much, your guards were quickly able to notice that it spent a lot of time watching your training grounds. It also did a strange dance while doing so, which looked suspiciously like counting on too many appendages.
+		 
+		You could steer it away from the more militarily sensitive areas, or just get rid of it.",
+	],
+	CHOICES: [
+		"Throw it out of the city",
+		"Let it continue",
+		"Steer it towards the markets",
+	],
+},
+
+ARGONOSH_SPY_FOLLOW_YES: {
+	
+},
+
+ARGONOSH_SPY_FOLLOW_NO_FOLLOW: {
+	NAME: "Argonosh attack",
+	DESC: "",
+	MESSAGE: [
+		"An army composed of the enigmatic Argonosh has been sighted on your borders.",
+	],
+},
+
+ARGONOSH_SPY_FOLLOW_NO: {
+	NAME: "Tourist stays",
+	DESC: "",
+	MESSAGE: [
+		"Its behaviour remains unchanged. It could just be the weirdest tourist to ever visit your city, but only time will tell.",
+	],
+},
+
+ARGONOSH_SPY_FOLLOW_MAYBE: {
+	NAME: "Tourist distracted",
+	DESC: "",
+	MESSAGE: [
+		"After several unsubtle suggestions to stay in the market area, the Argonosh finally stopped behaving suspiciously. That may be partly due to it being utterly fascinated by the regional fabric. It spent the rest of its stay asking about it and bothering the merchants.",
+	],
+},
+
+ARGONOSH_SPY_FOLLOW_MAYBE_FOLLOW_FOLLOW: {
+	NAME: "Odd merchant",
+	DESC: "A decision awaits.",
+	MESSAGE: [
+		"A merchant by the name of {SUBJECT1_NAME} offers to buy large amounts of fabric. It is also an Argonosh. Presumably, the 'tourist' told them about it.
+		 
+		The manner of payment would be a mix of denari and meat of uncertain provenance. The offer is very generous, probably due to Argonosh rarely engaging in trade.",
+	],
+	CHOICES: [
+		"Sell fabric",
+	],
+},

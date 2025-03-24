@@ -1,0 +1,62 @@
+ICON: 32->DEATH->0,
+RESOURCES: [WOOD,STONE,],
+AREA_COSTS: [0,0,],
+FLOOR: STONE_MEDIUM_DARK,
+MINI_COLOR: 74_119_14,
+ITEMS: [
+	{
+		COSTS: [1,1,],
+		STATS: [1,0,],
+	},
+	{
+		COSTS: [1,0,],
+		STATS: [0,0.7,],
+	},
+],
+WORK: {
+	SHIFT_OFFSET: 0.125,
+	SOUND: gore->Squish*,
+	USES_TOOL: true,
+	FULFILLMENT: 0.0,
+},
+SPRITES: {
+	TABLE_COMBO: [
+		{	
+			TINT: true,
+			SHADOW_LENGTH: 6,
+			FRAMES: [
+				COMBO_TABLES: 1,
+			],
+		},
+	],
+	
+	ON_TABLE_1X1: [
+		{	
+			TINT: true,
+			SHADOW_LENGTH: 3,
+			ROTATES: false,
+			FRAMES: [
+				TOP: 0,
+				TOP: 1,
+				DEATH: 0,
+				DEATH: 1,
+				DEATH: 2,
+			],
+		},
+	],
+	
+	MISC_1X1: [
+		{	
+			TINT: true,
+			SHADOW_LENGTH: 3,
+			ROTATES: false,
+			FRAMES: [
+				STORAGE: 0,
+				STORAGE: 1,
+				STORAGE: 2,
+				STORAGE: 10,
+			],
+		},
+	],
+},
+

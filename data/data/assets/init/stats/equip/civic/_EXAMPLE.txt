@@ -1,0 +1,26 @@
+**three folders exist where this can be put. 
+**MILITARY: Only used by soldiers and divisions
+**CIVIC: Used by citizens and slaves.
+**WORK. Only used by certain work places, as defined by the rooms themselves.  
+
+**the name of the resource file
+RESOURCE: ARMOUR,
+
+**The initial maximum equip level. Can be increased by technologies.
+MAX_AMOUNT: 8,
+
+**How much that new immigrants are carrying
+ARRIVAL_AMOUNT: 0,
+
+**How much is worn each year for each equipped item.
+WEAR_RATE: 0.1,
+
+**What pre-setting this comes with
+DEFAULT_TARGET: 1,
+
+**A general standing clause. Note that this is only used with "CIVIC", as otherwise, no civilians will be able to equip it.
+STANDING: {
+	CITIZEN: 1.5,
+	SLAVE: 0.5,
+	NOBLE: 2,
+},

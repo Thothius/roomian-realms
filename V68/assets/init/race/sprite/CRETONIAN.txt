@@ -1,0 +1,386 @@
+SLEEP_FILE: Blanket,
+SPRITE_EXTRA_FILE: Normal,
+NAMESET_FILE_NOBLE: PasunkaLastNoble,
+
+WORLD: {
+	TOWN: Cretonian,
+	TOWN_COLOR: 255_255_255,
+	VILLAGE: Normal,
+	VILLAGE_COLOR: 255_255_255,
+	OVERLAY: Cretonian,
+	OVERLAY_COLOR: 255_255_255,
+	WALL: Normal,
+	WALL_COLOR: 250_230_220,
+	WALL_VILLAGE: Village,
+	WALL_VILLAGE_COLOR: 250_230_220,
+	TERRAIN: Normal,
+	TERRAIN_COLOR: 140_110_100,
+	FARM: Farm,
+	FARM_COLOR: [
+		194_218_194,
+		180_180_180,
+		210_234_210,
+		202_222_202,
+		184_204_184,
+		196_216_196,
+		190_206_190,
+		202_220_202,
+		194_214_194,
+		192_216_192,
+		220_240_220,
+		194_206_194,
+		192_192_192,
+		196_204_196,
+		222_246_222,
+		208_232_208,
+	],
+},
+
+CROWN: {
+	FILE: CrownHuman,
+	OFFX: 0,
+	OFFY: -7,
+},
+MERC: {
+	FILE: Helm,
+	OFFX: 0,
+	OFFY: 0,
+},
+RAIDER: [
+	{
+		FILE: RaidHat_H,
+		OFFX: 0,
+		OFFY: -6,
+	},
+	{
+		FILE: RaidHat_L,
+		OFFX: 0,
+		OFFY: 0,
+	},
+	{
+		FILE: RaidVail,
+		OFFX: 0,
+		OFFY: 24,
+	},
+	{
+		FILE: EyePatch,
+		OFFX: 0,
+		OFFY: 8,
+	},
+	{
+		FILE: RaidTattoo,
+		OFFX: 0,
+		OFFY: 8,
+	},
+],
+COLOR_CLOTHES: [
+	{R: 255, G: 255, B: 255,},
+	{R: 240, G: 240, B: 240,},
+	{R: 225, G: 225, B: 225,},
+	{R: 210, G: 210, B: 210,},
+	{R: 200, G: 50, B: 50,},
+	{R: 220, G: 70, B: 70,},
+	{R: 240, G: 90, B: 90,},
+	{R: 255, G: 110, B: 110,},
+	{R: 200, G: 160, B: 60,},
+	{R: 220, G: 180, B: 80,},
+	{R: 240, G: 200, B: 100,},
+],
+COLOR_BLOOD: {R: 180, G: 50, B: 50,},
+COLORS: {
+    	SKIN: {
+		TURNS_WHITE_WHEN_DEAD: true,
+		RANDOM_SEED: 1,
+		VALUES: [
+			{R: 200, G: 160, B: 120,},
+			{R: 220, G: 180, B: 140,},
+			{R: 180, G: 140, B: 100,},
+			{R: 240, G: 200, B: 160,},
+			{R: 210, G: 170, B: 130,},
+		],
+	},
+    HAIR: {
+        VALUES: [
+            {R: 245, G: 226, B: 122,},
+            {R: 215, G: 204, B: 136,},
+            {R: 198, G: 192, B: 154,},
+            {R: 230, G: 225, B: 191,},
+            {R: 223, G: 194, B: 125,},
+        ],
+    },
+    JEWELRY: {
+        VALUES: [
+            {R: 216, G: 202, B: 0,},
+            {R: 216, G: 163, B: 0,},
+            {R: 114, G: 66, B: 85,},
+            {R: 134, G: 133, B: 82,},
+            {R: 150, G: 150, B: 180,},
+            {R: 180, G: 150, B: 150,},
+        ],
+    },
+    EYE: {
+        VALUES: [
+	    {R: 128, G: 173, B: 206,},
+	    {R: 104, G: 141, B: 168,},
+	    {R: 142, G: 193, B: 229,},
+            {R: 75, G: 196, B: 23,},
+            {R: 9, G: 110, B: 183,},
+            {R: 142, G: 196, B: 222,},
+            {R: 162, G: 151, B: 131,},
+            {R: 120, G: 40, B: 160,},
+            {R: 100, G: 20, B: 140,},
+            {R: 140, G: 60, B: 180,},
+        ],
+    },
+    PAINT: {
+        VALUES: [
+            {R: 10, G: 10, B: 200,},
+            {R: 100, G: 10, B: 200,},
+            {R: 10, G: 100, B: 200,},
+            {R: 200, G: 10, B: 200,},
+            {R: 10, G: 200, B: 200,},
+            {R: 10, G: 10, B: 100,},
+            {R: 100, G: 10, B: 100,},
+            {R: 10, G: 100, B: 100,},
+            {R: 100, G: 50, B: 200,},
+        ],
+    },
+    LIPS: {
+        VALUES: [
+            {R: 200, G: 100, B: 100,},
+        ],
+    },
+    LEG: {
+        VALUES: [
+            {R: 80, G: 40, B: 20,},
+        ],
+    },
+    ARMOUR: {
+        PICK_BY_STAT: EQUIP_BATTLE_ARMOUR_PLATE,
+
+        VALUES: [
+            090_090_080,
+            099_099_099,
+            168_168_180,
+            209_159_054,
+        ],
+    },
+    ARMOUR_LEATHER: {
+        VALUES: [
+            96_071_058,
+            107_079_065,
+            117_086_071,
+            127_095_078,
+        ],
+    },
+},
+CHILD: {
+    OCCURRENCE_EXTRA1: 0,
+    OCCURRENCE_EXTRA2: 1.0,
+    COLOR_SKIN: SKIN,
+    COLOR_LEG: LEG,
+    COLOR_EXTRA1: HAIR,
+    COLOR_EXTRA2: HAIR,
+
+    SPRITE_FILE: Cretonian,
+    SPRITE_SKELLETON_FILE: Humanoid_small,
+    NAMESET_FILE_FIRST: PasunkaFirst_M,
+    NAMESET_FILE_SURNAME: PasunkaLast,
+},
+TYPES: [
+
+	** M A L E S
+	
+	{
+		CHANCE: 0.5,
+		COLOR_SKIN: SKIN,
+		COLOR_LEG: LEG,
+		
+		SPRITE_FILE: Cretonian,
+		SPRITE_SKELLETON_FILE: Humanoid,
+		NAMESET_FILE_FIRST: PasunkaFirst_M,
+		NAMESET_FILE_SURNAME: PasunkaLast,
+		NAMESET_FILE_NOBLE: PasunkaLastNoble,
+		PORTRAIT_FILE: Cretonian,
+	
+		ADDONS: [
+	
+			{
+				BELOW_HEAD: true,
+				ADDON_INDEX: 4,
+				CONDITIONS: {
+					GREATER: {
+						RANDOM_1_F: 0.1,
+					},
+				},
+				COLOR: HAIR,
+			},
+			{
+				BELOW_HEAD: false,
+				ADDON_INDEX: 2,
+				CONDITIONS: {
+					EQUAL: {
+						POPULATION_NOBLES_I: 1,
+					},
+				},
+			},
+			{
+				BELOW_HEAD: false,
+				ADDON_INDEX: 3,
+				CONDITIONS: {
+					GREATER: {
+						RANDOM_2_F: 0.25,
+					},
+				},
+				COLOR: HAIR,
+			},
+			{
+				BELOW_HEAD: false,
+				ADDON_INDEX: 0,
+				CONDITIONS: {
+					GREATER: {
+						EQUIP_BATTLE_ARMOUR_PLATE_I: 0,
+					},
+				},
+				COLOR: ARMOUR,
+			},
+			{
+				BELOW_HEAD: true,
+				ADDON_INDEX: 0,
+				CONDITIONS: {
+					GREATER: {
+						EQUIP_BATTLE_ARMOUR_LEATHER_I: 0,
+					},
+				},
+				COLOR: ARMOUR_LEATHER,
+			},
+		],
+		
+		FACE: [
+			**PORTRAIT
+			{
+				FRAMES: [
+					Cretonian: 0,
+					Cretonian: 1,
+					Cretonian: 2,
+					Cretonian: 3,
+					Cretonian: 4,
+					Cretonian: 5,
+					Cretonian: 6,
+					Cretonian: 7,
+					Cretonian: 8,
+					Cretonian: 9,
+					Cretonian: 10,
+					Cretonian: 11,
+					Cretonian: 12,
+					Cretonian: 13,
+					Cretonian: 14,
+					Cretonian: 15,
+					Cretonian: 17,
+					Cretonian: 18,
+					Cretonian: 19,
+					Cretonian: 20,
+					Cretonian: 21,
+					Cretonian: 22,
+					Cretonian: 23,
+					Cretonian: 24,
+					Cretonian: 25,
+					Cretonian: 26,
+					Cretonian: 27,
+					Cretonian: 28,
+					Cretonian: 29,
+					Cretonian: 30,
+					Cretonian: 31,
+					Cretonian: 32,
+					Cretonian: 33,
+					Cretonian: 34,
+					Cretonian: 35,
+					Cretonian: 36,
+					Cretonian: 37,
+					Cretonian: 38,
+					Cretonian: 39,
+				],
+				STAINS: false,
+				OFF_Y: 1,
+			},
+		],
+	},
+	
+	** F E M A L E S
+	
+	{
+		CHANCE: 0.5,
+		COLOR_SKIN: SKIN,
+		COLOR_LEG: LEG,
+		
+		SPRITE_FILE: Cretonian,
+		SPRITE_SKELLETON_FILE: Humanoid,
+		NAMESET_FILE_FIRST: PasunkaFirst_F,
+		NAMESET_FILE_SURNAME: PasunkaLast,
+		NAMESET_FILE_NOBLE: PasunkaLastNoble,
+		PORTRAIT_FILE: Cretonian,
+	
+		ADDONS: [
+			{
+				BELOW_HEAD: true,
+				ADDON_INDEX: 4,
+				CONDITIONS: {
+					GREATER: {
+						RANDOM_1_F: 0.1,
+					},
+				},
+				COLOR: HAIR,
+			},
+			{
+				BELOW_HEAD: false,
+				ADDON_INDEX: 2,
+				CONDITIONS: {
+					EQUAL: {
+						POPULATION_NOBLES_I: 1,
+					},
+				},
+			},
+			{
+				BELOW_HEAD: false,
+				ADDON_INDEX: 3,
+				CONDITIONS: {
+					GREATER: {
+						RANDOM_2_F: 0.25,
+					},
+				},
+				COLOR: HAIR,
+			},
+			{
+				BELOW_HEAD: false,
+				ADDON_INDEX: 0,
+				CONDITIONS: {
+					GREATER: {
+						EQUIP_BATTLE_ARMOUR_PLATE_I: 0,
+					},
+				},
+				COLOR: ARMOUR,
+			},
+			{
+				BELOW_HEAD: true,
+				ADDON_INDEX: 0,
+				CONDITIONS: {
+					GREATER: {
+						EQUIP_BATTLE_ARMOUR_LEATHER_I: 0,
+					},
+				},
+				COLOR: ARMOUR_LEATHER,
+			},
+		],
+	
+		FACE: [
+			**PORTRAIT
+			{
+				FRAMES: [
+					Cretonian: 16,
+				],
+				STAINS: false,
+				OFF_Y: 1,
+			},
+		],
+	},
+],

@@ -1,0 +1,4 @@
+INFO: {
+	NAME: "Master of Refinery",
+	DESC: "The Master of Refinery is an expert in refining raw materials into intermediate goods. From forges to weavers, they know how to reduce waste",
+},

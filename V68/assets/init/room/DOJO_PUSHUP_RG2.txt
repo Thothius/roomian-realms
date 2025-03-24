@@ -1,0 +1,118 @@
+ICON: {
+	BG: 24->race->Cretonian->0,
+	FG: 32->SERVICE->8,
+	SHADOW: 1,
+},
+RESOURCES: [STONE,FURNITURE,FABRIC,],
+AREA_COSTS: [0.3,0,0,],
+FLOOR: STONE_MEDIUM_DARK,
+MINI_COLOR: 200_200_200,
+REQUIRES: {
+	GREATER: {
+		POPULATION_CRETONIAN_CITIZEN_I: 15,
+	},
+},
+ITEMS: [
+	{
+		COSTS: [2,0,0,],	** Training Area
+		STATS: [0,0,0,],
+	},
+	{
+		COSTS: [1,2,1,],	** Meditation Spot
+		STATS: [1,0,1,],
+	},
+	{
+		COSTS: [0,1,2,],	** Efficiency
+		STATS: [0,2,0,],
+	},
+],
+UPGRADES: [
+	{
+		RESOURCE_MASK: [1,1,1,],
+		BOOST: 0,
+	},
+	{
+		RESOURCE_MASK: [2,2,1,],
+		BOOST: 0.5,
+	},
+	{
+		RESOURCE_MASK: [3,3,2,],
+		BOOST: 1.0,
+	},
+],
+WORK: {
+	SHIFT_OFFSET: 0.5,
+	SOUND: impact->Stone*,
+	ACCIDENTS_PER_YEAR: 0.01,
+	FULFILLMENT: 1.5,
+},
+INDUSTRIES: [
+	{
+		INDUSTRY: {
+			IN: {
+				STONE: 0.2,
+			},
+			OUT: {
+				HAPPINESS: 2.0,
+				HEALTH: 0.3,
+			},
+		},
+	},
+],
+ENVIRONMENT_EMIT: {
+	_NOISE: {
+		AMOUNT: 0.5,
+		RADIUS: 16,
+	},
+},
+SPRITES: {
+	DOJO_FLOOR_1X1: [
+		{	
+			ROTATES: false,
+			TINT: true,
+			SHADOW_LENGTH: 0,
+			FRAMES: [
+				CARPETS: 2,	
+			],
+		},
+	],
+	DOJO_STONE_1X1: [
+		{	
+			ROTATES: true,
+			TINT: true,
+			SHADOW_LENGTH: 2,
+			FRAMES: [
+				TABLES: 8,	
+			],
+		},
+	],
+	DOJO_MEDITATION_1X1: [
+		{	
+			ROTATES: true,
+			TINT: true,
+			SHADOW_LENGTH: 1,
+			FRAMES: [
+				CHAIRS: 5,	
+			],
+		},
+	],
+	DOJO_BANNER_1X1: [
+		{	
+			ROTATES: true,
+			TINT: true,
+			SHADOW_LENGTH: 3,
+			FRAMES: [
+				DECOR: 12,	
+			],
+		},
+	],
+},
+RACE: CRETONIAN,
+BOOSTS: {
+	CRETONIAN: {
+		PHYSICS_STAMINA>MUL: 0.05,
+		PHYSICS_HEALTH>MUL: 0.03,
+		BEHAVIOUR_DISCIPLINED>ADD: 0.05,
+	},
+},
+DESCRIPTION: "A specialized training facility for Pasunkas where they practice their Push-up Taijutsu. The intense training breaks stone slabs, requiring regular replacement. Pasunkas who train here gain increased stamina, health, and discipline while experiencing greater happiness from following their cultural traditions."

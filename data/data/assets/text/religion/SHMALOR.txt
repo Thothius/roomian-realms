@@ -1,0 +1,8 @@
+NAME: "Shmalorism",
+DEITY: "Shmalor",
+DESC: "Followers of Shmalor, the great queen of the Argonosh.",
+WIKI: {
+	NAME: "Shmalorism",
+	CATEGORY: "Religion",
+	TEXT: "Shmalor is one Aminion's creatures that survived the war of the Astarii. When she was created, Aminion gave her a little bit of himself.",
+},

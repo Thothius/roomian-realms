@@ -1,0 +1,3 @@
+MALE: "Sorax Ray",
+FEMALE: "Sorax Ray",
+DESC: "Who would have thought, you now hold the title of high king!",

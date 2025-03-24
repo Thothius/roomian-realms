@@ -1,0 +1,342 @@
+SLEEP_FILE: Blanket,
+SPRITE_EXTRA_FILE: Normal,
+NAMESET_FILE_NOBLE: TilapiLastNoble,
+
+WORLD: {
+	TOWN: Normal,
+	TOWN_COLOR: 225_160_80,
+	VILLAGE: Normal,
+	VILLAGE_COLOR: 225_160_80,
+	OVERLAY: Tilapi,
+	OVERLAY_COLOR: 255_255_255,
+	WALL: Normal,
+	WALL_COLOR: 240_240_220,
+	WALL_VILLAGE: Village,
+	WALL_VILLAGE_COLOR: 240_240_220,
+	TERRAIN: Normal,
+	TERRAIN_COLOR: 140_110_100,
+	FARM: Farm,
+	FARM_COLOR: [
+		194_218_194,
+		180_180_180,
+		210_234_210,
+		202_222_202,
+		184_204_184,
+		196_216_196,
+		190_206_190,
+		202_220_202,
+		194_214_194,
+		192_216_192,
+		220_240_220,
+		194_206_194,
+		192_192_192,
+		196_204_196,
+		222_246_222,
+		208_232_208,
+	],
+},
+
+CROWN: {
+	FILE: CrownHuman,
+	OFFX: 0,
+	OFFY: -7,
+},
+MERC: {
+	FILE: Helm,
+	OFFX: 0,
+	OFFY: 0,
+},
+RAIDER: [
+	{
+		FILE: RaidHat_H,
+		OFFX: 0,
+		OFFY: -6,
+	},
+	{
+		FILE: RaidHat_L,
+		OFFX: 0,
+		OFFY: 0,
+	},
+	{
+		FILE: RaidVail,
+		OFFX: 0,
+		OFFY: 24,
+	},
+	{
+		FILE: EyePatch,
+		OFFX: 0,
+		OFFY: 8,
+	},
+	{
+		FILE: RaidTattoo,
+		OFFX: 0,
+		OFFY: 8,
+	},
+],
+COLOR_CLOTHES: [
+	{R: 20, G: 0, B: 30,},   
+	{R: 40, G: 0, B: 60,},    
+	{R: 60, G: 0, B: 90,},   
+	{R: 80, G: 0, B: 120,},   
+	{R: 100, G: 0, B: 150,},    
+	{R: 220, G: 120, B: 20,},  
+	{R: 240, G: 140, B: 30,},    
+	{R: 255, G: 160, B: 40,},
+],
+COLOR_BLOOD: {R: 255, G: 100, B: 0,},
+COLORS: {
+  SKIN: {
+    TURNS_WHITE_WHEN_DEAD: true,
+    RANDOM_SEED: 1,
+    VALUES: [
+      {R: 200, G: 60, B: 60,},
+      {R: 220, G: 80, B: 80,},
+      {R: 180, G: 40, B: 40,},
+      {R: 240, G: 100, B: 100,},
+      {R: 160, G: 20, B: 20,},
+    ],
+  },
+  HAIR: {
+    GENERATE_RANDOMIZE: 0.5,
+    TURNS_GRAY_WHEN_OLD: true,
+    VALUES: [
+      {R: 220, G: 80, B: 40,},
+      {R: 96, G: 100, B: 177,},
+      {R: 32, G: 104, B: 43,},
+      {R: 126, G: 49, B: 139,},
+    ],
+  },
+  EYE: {
+    GENERATE_RANDOMIZE: 0.2,
+    VALUES: [
+      {R: 0, G: 186, B: 0,},
+    ],
+  },
+  LEG: {
+    VALUES: [
+      {R: 80, G: 40, B: 20,},
+    ],
+  },
+  LIPS: {
+    GENERATE_RANDOMIZE: 0.2,
+    VALUES: [
+      {R: 255, G: 150, B: 150,},
+    ],
+  },
+  ARMOUR: {
+    PICK_BY_STAT: EQUIP_BATTLE_ARMOUR_PLATE,
+    VALUES: [
+      090_090_080,
+      099_099_099,
+      168_168_180,
+      209_159_054,
+    ],
+  },
+  ARMOUR_LEATHER: {
+    VALUES: [
+      96_071_058,
+      107_079_065,
+      117_086_071,
+      127_095_078,
+    ],
+  },
+},
+CHILD: {
+	COLOR_SKIN: SKIN,
+	COLOR_LEG: LEG,
+	
+	SPRITE_FILE: ChildHumanoid,
+	SPRITE_SKELLETON_FILE: Humanoid_small,
+	NAMESET_FILE_FIRST: HellspawnFirst_M,
+	NAMESET_FILE_SURNAME: HellspawnLast,
+	
+	ADDONS: [
+		{
+			BELOW_HEAD: false,
+			ADDON_INDEX: 4,
+			COLOR: HAIR,
+		},
+	],
+},
+TYPES: [
+	{
+		OCCURRENCE: 1.0,
+		COLOR_SKIN: SKIN,
+		COLOR_LEG: LEG,
+		
+		SPRITE_FILE: Tilapi,
+		SPRITE_SKELLETON_FILE: Humanoid,
+		NAMESET_FILE_FIRST: TilapiFirst_M,
+		NAMESET_FILE_SURNAME: HellspawnLast,
+		NAMESET_FILE_NOBLE: TilapiLastNoble,
+		PORTRAIT_FILE: Tilapi,
+	
+		ADDONS: [
+			{
+				BELOW_HEAD: false,
+				ADDON_INDEX: 2,
+				CONDITIONS: {
+					EQUAL: {
+						POPULATION_NOBLES_I: 1,
+					},
+				},
+			},
+			{
+				BELOW_HEAD: false,
+				ADDON_INDEX: 4,
+				COLOR: HAIR,
+			},
+			{
+				BELOW_HEAD: false,
+				ADDON_INDEX: 1,
+				CONDITIONS: {
+					GREATER: {
+						EQUIP_BATTLE_ARMOUR_PLATE_I: 0,
+					},
+				},
+				
+				COLOR: ARMOUR,
+			},
+			{
+				BELOW_HEAD: true,
+				ADDON_INDEX: 0,
+				CONDITIONS: {
+					GREATER: {
+						EQUIP_BATTLE_ARMOUR_LEATHER_I: 0,
+					},
+				},
+				
+				COLOR: ARMOUR_LEATHER,
+			},
+		],
+	
+		FACE: [
+			**PORTRAIT
+			{
+				FRAMES: [
+					Tilapi:0,
+					Tilapi:1,
+					Tilapi:2,
+					Tilapi:3,
+					Tilapi:4,
+					Tilapi:5,
+					Tilapi:6,
+					Tilapi:7,
+					Tilapi:8,
+					Tilapi:9,
+					Tilapi:10,
+					Tilapi:11,
+					Tilapi:12,
+					Tilapi:13,
+					Tilapi:14,
+					Tilapi:15,
+					Tilapi:16,
+					Tilapi:17,
+					Tilapi:18,
+					Tilapi:19,
+					Tilapi:20,
+					Tilapi:21,
+				],
+				STAINS: false,
+				OFF_Y: 1,
+			},
+		],
+	},
+	
+	** F E M A L E S
+	
+	{
+		CHANCE: 0.5,
+		COLOR_SKIN: SKIN,
+		COLOR_LEG: LEG,
+		
+		SPRITE_FILE: Tilapi,
+		SPRITE_SKELLETON_FILE: Humanoid,
+		NAMESET_FILE_FIRST: TilapiFirst_F,
+		NAMESET_FILE_SURNAME: HellspawnLast,
+		NAMESET_FILE_NOBLE: TilapiLastNoble,
+		PORTRAIT_FILE: Tilapi,
+	
+		ADDONS: [
+			{
+				BELOW_HEAD: true,
+				ADDON_INDEX: 4,
+				CONDITIONS: {
+					GREATER: {
+						RANDOM_1_F: 0.1,
+					},
+				},
+				COLOR: HAIR,
+			},
+			{
+				BELOW_HEAD: false,
+				ADDON_INDEX: 2,
+				CONDITIONS: {
+					EQUAL: {
+						POPULATION_NOBLES_I: 1,
+					},
+				},
+			},
+			{
+				BELOW_HEAD: false,
+				ADDON_INDEX: 3,
+				CONDITIONS: {
+					GREATER: {
+						RANDOM_2_F: 0.5,
+					},
+				},
+				COLOR: HAIR,
+			},
+			{
+				BELOW_HEAD: false,
+				ADDON_INDEX: 1,
+				CONDITIONS: {
+					GREATER: {
+						EQUIP_BATTLE_ARMOUR_PLATE_I: 0,
+					},
+				},
+				
+				COLOR: ARMOUR,
+			},
+			{
+				BELOW_HEAD: true,
+				ADDON_INDEX: 0,
+				CONDITIONS: {
+					GREATER: {
+						EQUIP_BATTLE_ARMOUR_LEATHER_I: 0,
+					},
+				},
+				
+				COLOR: ARMOUR_LEATHER,
+			},
+		],
+	
+		FACE: [
+			**PORTRAIT
+			{
+				FRAMES: [
+					Tilapi:22,
+					Tilapi:23,
+					Tilapi:24,
+					Tilapi:25,
+					Tilapi:26,
+					Tilapi:27,
+					Tilapi:28,
+					Tilapi:29,
+					Tilapi:30,
+					Tilapi:31,
+					Tilapi:32,
+					Tilapi:33,
+					Tilapi:34,
+					Tilapi:35,
+					Tilapi:36,
+					Tilapi:37,
+					Tilapi:38,
+					Tilapi:39,
+				],
+				STAINS: false,
+				OFF_Y: 1,
+			},
+		],
+	},
+],

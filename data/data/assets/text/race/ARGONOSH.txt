@@ -1,0 +1,95 @@
+NAME: "Argonosh",
+NAMES: "Argonosh",
+POSSESSIVE: "Argononian",
+POSSESSIVES: "Argononian",
+PRONOUN_HE: ["he", "she",],
+PRONOUN_HEC: ["He", "She",],
+PRONOUN_HIM: ["it",],
+PRONOUN_HIMC: ["Its",],
+PRONOUN_HIS: ["his", "her",],
+PRONOUN_HISC: ["His", "Her",],
+PRONOUN_HIMSELF: ["himself", "herself",],
+PRONOUN_HIMSELFC: ["Himself", "Herself",],
+HELLO: [
+	"Blood of the innocent",
+	"Aminion's blessings",
+	"Claws cut deep",
+],
+GOODBYE: [
+	"May your claws grow sharp",
+	"May you taste a lot of flesh",
+	"Aminion be blessed",
+	"May your shell grow thick",
+	"May you conquer your enemies and eat them",
+	"May Aminion give you strength",
+],
+CURSE: [
+	"Brood of Harack!",
+	"By Morlak's shell!",
+	"gods beneath!",
+	"Morlak have mercy!",
+	"By the abyss!",
+],
+INSULT: [
+	"spawn of a Balicrawler", 
+	"Balitcrawler fornicator",
+	"Fleshbag",
+],
+INSULTING: [
+	"soft-skinned", 
+	"vomit-faced",
+	"ugly-faced",
+	"clawless",
+],
+LORD: [
+	"Queen",
+	"Hive Master",
+	"Brood Herder",
+],
+CITY: [
+	"hive",
+],
+OTHERS: [
+	"soft-skins",
+],
+SELVES: [
+	"brood",
+	"spawn",
+],
+SELF: [
+	"sibling",
+	"hatch-brother",
+],
+CHILDREN: [
+	"spawn",
+],
+
+DESC: 
+"The Argonosh are a very ancient race, created by Aminion during the first war of the gods. They are heavy, fast and deadly. They do not need much, but should also be kept from work."
+",
+DESC_LONG:
+"During the first war of the gods, Aminion - the evil one, created the great queen of the Argonosh - Shmalor, to do his bidding. She, and her spawn served as shock troops in his armies. These creatures were as tall and wide as a longhouse and devastating to the Astarii alliance. After Aminion's imprisonment and the slaying of Shmalor, what remained of the great Argonosh retreated back into their burrows. Their blood watered down over generations, and the Argonosh living today are nothing like those of old. They are however a formidable force on the battlefield, should you manage to attract them to your cause.
+.
+",
+
+
+ARMY_NAMES: [
+	"The Spawns of Shneda",
+	"The Horde of Aminion",
+	"The Horde of Gnosh",
+	"The Conquerors of the Ethen Hills",
+	"The Whips of Aminion",
+	"The Deadly Fangs",
+	"The Destroyers of Mendive",
+	"The Original Slashers",
+	"The Pain of Men.",
+	"The Superslayers",
+	"The Superfighters",
+	"The Nightmare Hatchlings",
+	"The Deathbringers",
+	"The Sharpests Claws",
+	"The Deadly Killers",
+	"The Swift Despatchers",
+	"The Super Killers",
+	"The Nightmare Creatures",
+],

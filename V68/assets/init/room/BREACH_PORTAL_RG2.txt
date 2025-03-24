@@ -1,0 +1,124 @@
+ICON: 32->MAGIC->5,
+RESOURCES: [STONE,FURNITURE,GEM,],
+AREA_COSTS: [0.5,0,0,],
+FLOOR: STONE_DARK,
+MINI_COLOR: 100_0_100,
+REQUIRES: {
+	GREATER: {
+		POPULATION_GARTHIMI_CITIZEN_I: 20,
+	},
+},
+
+ITEMS: [
+	{
+		COSTS: [3,0,0,],	** Portal Frame
+		STATS: [0,0,0,],
+	},
+	{
+		COSTS: [1,2,2,],	** Dimensional Anchor
+		STATS: [1,0,1,],
+	},
+	{
+		COSTS: [0,1,3,],	** Efficiency
+		STATS: [0,2,0,],
+	},
+],
+UPGRADES: [
+	{
+		RESOURCE_MASK: [1,1,1,],
+		BOOST: 0,
+	},
+	{
+		RESOURCE_MASK: [2,2,2,],
+		BOOST: 0.5,
+	},
+	{
+		RESOURCE_MASK: [3,3,3,],
+		BOOST: 1.0,
+	},
+],
+WORK: {
+	SHIFT_OFFSET: 0.8,
+	SOUND: work->Magic*,
+	ACCIDENTS_PER_YEAR: 0.05,
+	FULFILLMENT: 3.0,
+},
+INDUSTRIES: [
+	{
+		INDUSTRY: {
+			IN: {
+				GEM: 0.5,
+				SLAVE: 0.05,
+			},
+			OUT: {
+				HAPPINESS: 5.0,
+				KNOWLEDGE: 0.3,
+			},
+		},
+	},
+],
+ENVIRONMENT_EMIT: {
+	_NOISE: {
+		AMOUNT: 0.3,
+		RADIUS: 24,
+	},
+	_RELIGION: {
+		AMOUNT: 0.5,
+		RADIUS: 32,
+		RELIGION: SHMALOR,
+	},
+},
+SPRITES: {
+	BREACH_PORTAL_2X2: [
+		{	
+			ROTATES: false,
+			TINT: true,
+			SHADOW_LENGTH: 0,
+			FRAMES: [
+				CARPETS: 3,	
+			],
+		},
+	],
+	BREACH_PILLAR_1X1: [
+		{	
+			ROTATES: true,
+			TINT: true,
+			SHADOW_LENGTH: 4,
+			FRAMES: [
+				PILLARS: 2,	
+			],
+		},
+	],
+	BREACH_CRYSTAL_1X1: [
+		{	
+			ROTATES: true,
+			TINT: true,
+			SHADOW_LENGTH: 2,
+			FRAMES: [
+				DECOR: 16,	
+			],
+		},
+	],
+	BREACH_RUNES_1X1: [
+		{	
+			ROTATES: false,
+			TINT: true,
+			SHADOW_LENGTH: 0,
+			FRAMES: [
+				FLOOR: 8,	
+			],
+		},
+	],
+},
+BOOSTS: {
+	GARTHIMI: {
+		PARASITIC_INFILTRATION>ADD: 0.2,
+		DIMENSIONAL_MANIPULATION>ADD: 0.2,
+		BEHAVIOUR_SANITY>MUL: 0.2,
+	},
+	OTHER: {
+		HAPPINESS>ADD: -0.1,
+		BEHAVIOUR_SANITY>MUL: -0.1,
+	},
+},
+DESCRIPTION: "A dimensional gateway that connects to The Breach, the cosmic void from which the Wormlings originated. The portal requires gems and occasional slave sacrifices to maintain but provides immense happiness and knowledge to Wormlings. It enhances their parasitic and dimensional abilities while increasing their mental resilience. The alien nature of the portal causes significant discomfort and sanity loss to other races.",

@@ -1,0 +1,28 @@
+INFO: {
+	NAME: "House",
+	NAMES: "Houses",
+	DESC: "Essential service where your subjects sleep and spend much of their time. Comes in different sizes and can be upgraded to accomodate more inhabitants. Subjects can upgrade their homes with resources, if you allow them.",
+},
+
+STATS: [
+	{
+		NAME: "Residents",
+		DESC: "Number of possible residents.",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Apartment",
+		DESC: "Small and private housing. Not as space efficient as the other options.",
+	},
+	{
+		NAME: "House",
+		DESC: "A larger structure for more residents.",
+	},
+	{
+		NAME: "Longhouse",
+		DESC: "A great structure to house a lot of residents.",
+	},
+
+],

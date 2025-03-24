@@ -1,0 +1,54 @@
+INFO: {
+	NAME: "Administration",
+	NAMES: "Administrations",
+	DESC: "Administrators boost your whole city. The amount of boost is related to how many admins you have and your population.",
+	WIKI: {
+		CATEGORY: "Administration",
+		NAME: "Administration room",
+		TEXT: "In the administration room, clerks use paper to write important letters and decrees. Administrators boost your whole city. The amount of boost is related to how many admins you have and your population. Administration needs to be maintained and new points produced continuously, or else your realm will fall apart.",
+	},
+},
+
+BOOST_NAME: "Overhead",
+UNLOCK_MESS: "Our city is now great. In fact it is so great and big that some of our productivity is in danger of declining due to overhead. And this overhead is only expected to grow. But fear not, great ruler. We can remain productive by specialising subject into the field of administration. And with diligent work, we might actually stand to benefit. My lord, allow me to present you with the Administration Room!",
+
+BONUS: {
+	NAME: "Administration Boost",
+	DESC: "Increases the Administration production.",
+},
+
+WORK: {
+	TITLE: "Clerk",
+	VERB: "Administering",
+},
+
+STATS: [
+	{
+		NAME: "",
+		DESC: "",
+	},
+	{
+		NAME: "Capacity",
+		DESC: "A rough estimate of how much administration that can be produced and stored.",
+	},
+	{
+		NAME: "Efficiency",
+		DESC: "The efficiency greatly improves administration production.",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Clerk Station",
+		DESC: "Where clerks work.",
+	},
+	{
+		NAME: "Shelf",
+		DESC: "Increases the efficiency of the room.",
+	},
+	{
+		NAME: "Carpet",
+		DESC: "Also increases the efficiency of the room.",
+	},
+],
+

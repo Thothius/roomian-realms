@@ -1,0 +1,3 @@
+NAME: "Coal",
+NAMES: "Coal",
+DESC: "Coal is a fuel used in various industries and services.",

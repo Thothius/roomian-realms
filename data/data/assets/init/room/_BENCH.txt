@@ -1,0 +1,45 @@
+ICON: 32->MONUMENT->0,
+TYPE: BENCH,
+RESOURCES: [STONE,FURNITURE,STONE_CUT,],
+
+UPGRADES: [
+	{
+		RESOURCE_MASK: [1,1,0,0,],
+		BOOST: 0,
+	},
+	{
+		RESOURCE_MASK: [1,1,1,1,],
+		BOOST: 1.0,
+	},
+],
+
+AREA_COSTS: [0,0,0,],
+FLOOR: [STONE1,STONE2,],
+MINI_COLOR: 255_200_0,
+ITEMS: [
+	{
+		COSTS: [1,1,1,],
+		STATS: [],
+	},
+],
+SPRITES: {
+	BENCH_1X1: [
+		{
+			ROTATES: true,
+			SHADOW_HEIGHT: 4,
+			TINT: true,
+			FRAMES: [
+				CHAIRS: 15,
+			],
+		},
+		{
+			ROTATES: true,
+			SHADOW_HEIGHT: 4,
+			TINT: true,
+			FRAMES: [
+				CHAIRS: 12,
+			],
+		},
+	],
+},
+

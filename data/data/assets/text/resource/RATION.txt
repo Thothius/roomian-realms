@@ -1,0 +1,3 @@
+NAME: "Ration",
+NAMES: "Rations",
+DESC: "Rations are preserved food, used primarily by the army. It can also be eaten by subjects as is.",

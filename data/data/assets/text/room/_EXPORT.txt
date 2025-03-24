@@ -1,0 +1,30 @@
+INFO: {
+	NAME: "Export Depot",
+	NAMES: "Export Depots",
+	DESC: "Allows you to sell goods.",
+	WIKI: {
+		CATEGORY: "Trade",
+		NAME: "Export Depot",
+		TEXT: "Stores goods according to the amount of crates that are designated. Can be manned by deliverymen, who can carry much more goods than any other worker. Orders can be issued to fetch or to store goods. Fetch will have your deliverymen transfer goods from other stockpiles that are not fetching or storing the same good. Storing goods prevents withdrawal, though they can still disappear if taken by thieves or starving subjects.",
+	},
+},
+
+WORK: {
+	TITLE: "Trader",
+	VERB: "Delivering Goods",
+},
+
+STATS: [
+	{
+		NAME: "Crates",
+		DESC: "The amount of crates that will be used for storage.",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Crates",
+		DESC: "Where goods are stored.",
+	},
+],
+

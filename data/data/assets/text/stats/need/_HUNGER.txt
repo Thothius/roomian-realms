@@ -1,0 +1,2 @@
+NAME_NEED: "Food",
+NAME_RATE: "Hunger",

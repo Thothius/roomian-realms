@@ -1,0 +1,2 @@
+NAME: "Vision Fever",
+DESC: "This rarely fatal disease will inflict fevers and terrible visions upon its victims. While the contents of the visions is unknown due to the afflicted being mostly incoherent, those with enough strength left to move will seek out shrines and temples to commune with their gods. Perhaps it is fortunate that no one can remember a thing after being cured.",

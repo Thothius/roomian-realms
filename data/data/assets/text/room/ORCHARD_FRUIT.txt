@@ -1,0 +1,42 @@
+INFO: {
+	NAME: "Fruit Orchard",
+	NAMES: "Fruit Orchards",
+	DESC: "Grows fruit. Takes a long time to get productive, and is sensitive to lack of labor and events. Produces more than farms of the same size after the investment though, and is less reliant on fertility",
+},
+
+BONUS: {
+	NAME: "Fruit Orchard",
+	DESC: "Increases production of Fruit Orchards.",
+},
+
+WORK: {
+	TITLE: "Orchard Worker",
+	VERB: "Tending to orchard",
+},
+
+ITEMS: [
+	{
+		NAME: "Tree",
+		DESC: "Where fruit is grown.",
+	},
+],
+
+STATS: [
+	{
+		NAME: "Fertility",
+		DESC: "The fertility of the farmland",
+	},
+	{
+		NAME: "Farmers",
+		DESC: "The amount of Farmers needed",
+	},
+	{
+		NAME: "",
+		DESC: "",
+	},
+	{
+		NAME: "Yearly Output",
+		DESC: "An estimate of how much this orchard will output if well worked during a year. Not including bonuses, or irrigation",
+	},
+
+],

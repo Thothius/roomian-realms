@@ -1,0 +1,90 @@
+ICON: {
+	BG: 32->BG->7,
+	FG: 24->resource->Fruit->0,
+	SHADOW: 2,
+	OFFX: 4,
+	OFFY: 4,
+},
+RESOURCES: [FRUIT,],
+AREA_COSTS: [0,],
+MINI_COLOR: 74_119_14,
+MINI_COLOR_PATTERN: [
+	"000000",
+	"009900",
+	"094490",
+	"094490",
+	"009900",
+	"009900",
+	"009900",
+],
+INDOORS: false,
+EXTRA_RESOURCE: WOOD,
+EXTRA_RESOURCE_AMOUNT: 8,
+DAYS_TILL_GROWTH: 64,
+RIPE_AT_PART_OF_YEAR: 0.60,
+ITEMS: [
+	{
+		COSTS: [4,],
+		STATS: [0,1,1,0,],
+	},
+],
+INDUSTRY: {
+	OUT: {
+		FRUIT: 2.45,
+	},
+},
+WORK: {
+	SHIFT_OFFSET: 0.125,
+	SOUND: impact->Dig*,
+	USES_TOOL: true,
+	FULFILLMENT: 0,
+},
+SPRITES: {
+	EDGE_COMBO: [
+		{
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES: [
+				FRAMES: 1,
+			],
+		},
+	],
+	
+	TREE_1X1: [
+		{
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 8,
+			ROTATES: false,
+			FRAMES: [
+				_TREE: 0,
+			],
+		},
+	],
+	TREE_2X2: [
+		{
+			SHADOW_LENGTH: 4,
+			SHADOW_HEIGHT: 16,
+			ROTATES: false,
+			FRAMES: [
+				_TREE: 0,
+			],
+		},
+	],
+	FRUIT_1X1: [
+		{
+			ROTATES: false,
+			COLOR: {
+				GENERATE: 16,
+				FROM: 180_80_20,
+				TO: 200_100_020,
+			},
+			FRAMES: [
+				ORCHARD: 0,
+				ORCHARD: 1,
+				ORCHARD: 2,
+				ORCHARD: 3,
+			],
+		},
+	],
+},
+

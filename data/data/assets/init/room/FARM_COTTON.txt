@@ -1,0 +1,39 @@
+ICON: {
+	BG: 32->BG->3,
+	FG: 24->resource->Cotton->0,
+	SHADOW: 2,
+},
+GROWABLE: COTTON,
+RESOURCES: [COTTON,],
+AREA_COSTS: [0.1,],
+MINI_COLOR: 100_119_14,
+MINI_COLOR_PATTERN: [
+	"44444444",
+	"99999999",
+	"00000000",
+	"44444444",
+],
+INDOORS: false,
+EXPERIENCE_BONUS: {
+	MAX_EMPLOYEES: 400,
+	BONUS: 1.5,
+},
+INDUSTRY: {
+	OUT: {
+		COTTON: 3,
+	},
+},
+WORK: {
+	SHIFT_OFFSET: 0.125,
+	SOUND: impact->Dig*,
+	USES_TOOL: true,
+	FULFILLMENT: 0,
+},
+BONUS: {
+	CLIMATE: {
+		COLD: 0.5,
+		TEMPERATE: 1,
+		HOT: 1.5,
+	},
+},
+

@@ -1,0 +1,264 @@
+DESC_LONG: "Satyrs are a predominantly female race whose graceful bodies move through forest terrain with ethereal elegance. Females possess delicate features with eyes that shift colors with the seasons, and small horns adorned with wooden jewelry. Males, comprising only one-fifth of their population, display more prominent horns. Both sexes have deer-like lower bodies with hooves that move silently through their groves.
+
+Their society is structured around the 'Sylvan Sisterhood' - a matriarchal order governing through the 'Wild Hunt' ritual where the most talented prove their worth through feats of archery and woodland navigation. Their settlements are hidden within ancient forests, with living structures carefully grown rather than built.
+
+Satyrs are formidable defenders with unmatched archery skills, striking from perfect concealment before vanishing into the forest. Their knowledge of toxic plants makes them feared, as victims often perish from seemingly minor wounds hours after an encounter.
+
+They approach outsiders with caution and suspicion, valuing isolation and the sanctity of their forest homes above all else. Within their society, they display fierce independence coupled with submission to their elders and the natural order.",
+
+NAME: "Satyr",
+NAMES: "Satyrs",
+POSSESSIVE: "Satyr",
+POSSESSIVES: "Satyr",
+PRONOUN_HE: ["she", "he",],
+PRONOUN_HEC: ["She", "He",],
+PRONOUN_HIM: ["her", "him",],
+PRONOUN_HIMC: ["Her", "Him",],
+PRONOUN_HIS: ["her", "his",],
+PRONOUN_HISC: ["Her", "His",],
+PRONOUN_HIMSELF: ["herself", "himself",],
+PRONOUN_HIMSELFC: ["Herself", "Himself",],
+
+HELLO: [
+	"The forest whispers your presence",
+	"Our trees have sensed your approach",
+	"Step lightly among our roots, outsider",
+	"The Sisterhood acknowledges you... for now",
+	"Your presence disturbs our sanctuary",
+	"Speak softly, the grove listens",
+	"We permit your presence, briefly",
+	"The Wild Hunt pauses to observe you",
+],
+
+GOODBYE: [
+	"Return to your stone world",
+	"The forest will guide you out",
+	"May you remember nothing of our paths",
+	"The trees will close behind you",
+	"Our secrets leave with you at your peril",
+	"The Sisterhood watches your departure",
+	"The wood remembers your scent",
+],
+
+CURSE: [
+	"Rootless wanderer!",
+	"Bark-stripper!",
+	"Grove-defiler!",
+	"Sap-spiller!",
+	"Wood-burner!",
+	"Leaf-trampler!",
+	"Sylvan betrayer!",
+	"Hooves of shame!",
+	"Antler's break!",
+],
+
+INSULT: [
+	"tree-killer", 
+	"secret-seeker",
+	"forest-burner",
+	"stone-dweller",
+	"grove-trespasser",
+	"wood-blind",
+	"nature-deaf",
+	"root-cutter",
+	"leaf-trampler",
+	"sylvan-blind",
+	"harmony-breaker",
+	"dryad-shunned",
+	"secret-stealer",
+],
+
+INSULTING: [
+	"tree-killing", 
+	"secret-seeking",
+	"forest-burning",
+	"stone-dwelling",
+	"grove-trespassing",
+	"wood-blind",
+	"nature-deaf",
+	"root-cutting",
+	"leaf-trampling",
+	"sylvan-blind",
+	"harmony-breaking",
+	"dryad-shunned",
+	"secret-stealing",
+],
+
+LORD: [
+	"Grove Mother",
+	"Sylvan Matriarch",
+	"Wood Weaver",
+	"Secret Keeper",
+	"Forest Heart",
+	"Vine Empress",
+	"Elder Sister",
+	"Root Sage",
+	"Woodland Mistress",
+	"Leaf Speaker",
+	"Sylvan Sovereign",
+	"Bramble Queen",
+	"Dryad's Chosen",
+	"Nature's Voice",
+	"Wooden Crown",
+	"Wild Hunt Mistress",
+],
+
+OTHERS: [
+	"the destructive ones",
+	"stone-dwellers",
+	"forest-blind",
+	"wood-burners",
+	"the unworthy",
+	"secret-seekers",
+	"harmony-breakers",
+],
+
+SELVES: [
+	"forest daughters",
+	"wood sisters",
+	"secret keepers",
+	"nature's chosen",
+	"sylvan guardians",
+	"grove protectors",
+],
+
+SELF: [
+	"forest daughter",
+	"wood sister",
+	"secret keeper",
+	"nature's chosen",
+	"sylvan guardian",
+	"grove protector",
+],
+
+CHILDREN: [
+	"saplings",
+	"young shoots",
+	"fawns",
+	"little leaves",
+	"future guardians",
+],
+
+DESC: "Forest-dwelling race with deer-like lower bodies and matriarchal society. Masters of archery, herbalism, and woodland stealth. Their culture centers on the Wild Hunt ritual during full moons, when they transform from peaceful isolationists into fearsome hunters.",
+
+ARMY_NAMES: [
+	"The Sylvan Sentinels",
+	"Wooden Arrows",
+	"Secret Guardians",
+	"Forest's Vengeance",
+	"Nature's Wrath",
+	"Silent Defenders",
+	"Vine Entanglers",
+	"The Hidden Ones",
+	"Deadly Bloom Brigade",
+	"Moonlight Stalkers",
+	"The Verdant Veil",
+	"Thorn and Root Guard",
+	"The Whispering Death",
+	"Leaf Shadow Archers",
+	"Grove Protectors",
+	"The Poison Bloom",
+	"Forest's Daughters",
+	"The Silent Leaves",
+	"Sylvan Shadows",
+	"Dryad's Defenders",
+	"Wood Wraiths",
+	"Canopy Guardians",
+	"Moonlit Huntresses",
+	"Deadly Beauties",
+	"Woodland Spirits",
+	"The Wild Hunt",
+	"Impossible Shot Brigade",
+],
+
+CITY: [
+	"grove",
+	"wood-haven",
+	"forest-heart",
+	"secret-sanctuary",
+	"hidden-realm",
+	"leaf-haven",
+	"vine-embrace",
+	"sylvan-refuge",
+	"dryad's-embrace",
+	"root-haven",
+	"canopy-realm",
+	"moonlit-sanctuary",
+],
+
+PROS: [
+    "Exceptional beauty and grace",
+    "Unmatched archery and ranged combat",
+    "Superior woodcraft and forestry",
+    "Heightened resistance to diseases",
+],
+
+CONS: [
+    "Isolationist tendencies",
+    "Submissive to authority",
+    "Distrustful of outsiders",
+    "Dependent on forest environments",
+    "Low male population",
+],
+
+HISTORY: "The Satyrs trace their origins to the mythical Age of Awakening, when the First Trees—sentient ancients that once walked the land—sought guardians for the forests after the Great Sundering threatened all natural life. According to sacred wood-songs preserved in living memory trees, the First Trees selected the most graceful and perceptive females from primitive humanoid tribes, blessing them with aspects of deer and infusing them with forest essence. This transformation created the first Satyrs—beings with an innate connection to woodland magic and extraordinary physical abilities.
+
+The Wild Hunt began not as a selection ritual but as a desperate defense against the encroaching Hellspawn during the Burning Times, when demonic forces sought to consume the ancient forests. Led by the legendary huntress Sylvariel Dawnhoof, whose arrows could pierce demon-hide at impossible distances, the early Satyrs developed their unmatched archery skills through necessity. As males proved more susceptible to demonic corruption, female Satyrs gradually assumed all leadership positions, establishing the Sylvan Sisterhood as both government and spiritual authority.
+
+Their chronicles, preserved through a technique called 'heartwood inscription' known only to their eldest Wood Weavers, tell of their golden age when they maintained a tentative alliance with the wisdom-seeking Froggians, sharing botanical knowledge while receiving aquatic secrets in return. This changed dramatically after the 'Great Burning'—a catastrophic series of forest fires deliberately set by expanding human kingdoms that destroyed many of their ancient groves and sacred sites. Since then, they have retreated deeper into the remaining old-growth forests, becoming increasingly secretive and isolationist, sharing their knowledge and beauty only with those few outsiders who prove themselves worthy through years of demonstrated respect for nature. The Wild Hunt evolved from a defensive necessity into the complex selection ritual it is today, ensuring only the most talented archers and wisest females lead their society, preserving their exceptional abilities despite their small population.",
+
+CULTURE: "Satyr culture revolves around the sacred concept of 'Verdant Harmony'—the belief that all life exists in a delicate balance that must be preserved through careful stewardship. Their calendar follows the 'Eight Seasons' rather than four, recognizing subtle transitions that other races overlook, with each season dedicated to different aspects of forest cultivation and protection.
+
+The Wild Hunt, their most sacred cultural institution, occurs during the 'Crimson Leaf' season—a time when the forest's energy is most potent. Young Satyrs demonstrate their worthiness through increasingly difficult trials of archery, stealth, and woodland wisdom. The most extraordinary feat, achieved by only a handful in each generation, is the 'Impossible Shot'—striking a falling leaf at extreme distance while blindfolded, guided only by the whispers of the forest itself. Those who accomplish this are marked with living tattoos of flowering vines that actually bloom during moments of great focus or emotion.
+
+Young Satyrs undergo the 'Rooting Ceremony' where they bond with a specific tree that will grow alongside them throughout their lives. This bond is so profound that injuries to their bonded tree cause physical pain to the Satyr, while the tree's growth reflects their emotional state. The 'Blooming Ritual' marks their transition to adulthood through the crafting of their first bow, carved from a branch freely given by their bonded tree and imbued with their essence through a three-day meditation.
+
+Their artistic expression centers around 'living art'—sculptures that continue to grow and change over decades, musical instruments that adapt their tones to the seasons, and poetry that can only be fully understood when recited beneath specific constellations. Their most treasured possessions are 'heartwood tokens'—small pieces of living wood containing memories of significant events that can be experienced by those who know how to listen to the wood's whispers. These tokens form the basis of their historical records, with the oldest dating back to the Age of Awakening itself.",
+
+GOVERNMENT: "Satyr society is structured around a matriarchal hierarchy where leadership positions are earned through demonstrated wisdom, connection to nature, and woodcrafting skill. The highest authority, the Grove Mother, is chosen from among the eldest and wisest females based on her ability to communicate with the forest itself. Decisions are made through the Sylvan Council system where representatives from different groves provide input based on their specialized knowledge of different aspects of forest life. These councils convene in secret clearings during specific lunar phases, believing that the moon's influence enhances their connection to the natural world. Leadership transitions are peaceful and ceremonial, with power passing from one Grove Mother to her chosen successor through a ritual involving the transfer of a living wooden crown that continues to grow and change with each leader. Satyr law emphasizes harmony with nature, protection of secrets, and minimal contact with outsiders, with transgressors often subjected to exile to the edges of their territories where they must serve as the first line of defense against intruders.",
+
+MILITARY: "Though preferring isolation to conflict, Satyrs have developed formidable defensive capabilities centered around what they call the 'Three Whispers of Protection': perfect stealth, unmatched archery, and communion with the forest itself. Their defenders, predominantly female, train from childhood in the 'Way of the Silent Leaf'—a martial discipline that teaches them to move without disturbing a single dewdrop or creating the faintest sound.
+
+The Wild Hunt not only selects their leaders but also identifies their most gifted warriors, who join the elite 'Moonshade Sentinels'—archers capable of striking targets through dense foliage at ranges that seem impossible to other races. These exceptional huntresses use bows crafted through the sacred 'Seven-Year Binding'—a process where the bow is grown rather than carved, resulting in weapons that are partially alive and respond to their wielder's thoughts. Their arrows, tipped with crystallized tree sap and blessed under specific lunar phases, can pierce armor that would turn aside conventional projectiles.
+
+Elite Satyr guardians, known as 'Wood Wraiths,' undergo the mysterious 'Bark Embrace' ritual where their skin temporarily takes on properties of tree bark, allowing them to remain motionless for days while becoming virtually indistinguishable from the trees themselves. In this state, they enter a trance where they can sense disturbances in the forest from miles away before striking with deadly accuracy.
+
+Their defensive strategy employs the 'Verdant Veil'—an elaborate system of false trails, hidden pitfalls, and hallucinogenic pollen traps that confuse and disorient intruders. Most remarkable is their ability to communicate with and direct the forest itself—ancient trees will subtly shift their roots to trip invaders, vines will mysteriously tighten around weapons, and dense fog will materialize to obscure vision. Satyr defensive formations emphasize what they call the 'Scattered Stars' approach—complete concealment and coordinated ranged attacks from multiple directions, leaving enemies uncertain of the true size of the force they face.
+
+Despite their deadly efficiency when threatened, they follow the 'Code of Merciful Defense,' preferring to escort lost travelers out of their territories rather than harm them—though few outsiders ever realize they were being guided. As their military proverb states: 'The arrow that never flies may be the most powerful of all.'",
+
+TECHNOLOGY: "Satyr technology represents the perfect fusion of natural materials and sophisticated botanical manipulation, with wood as the foundation of all their creations. Unlike other races who force materials to their will, Satyrs practice 'Harmonic Crafting'—a philosophy that works with the natural properties and inherent magic of living materials.
+
+Their most remarkable achievements are their 'Soulbound Bows'—living works of art created through a secret process that bonds wood, sinew, and botanical compounds into weapons of unparalleled power and precision. These bows, which continue to grow and strengthen with their wielders, are capable of launching arrows with such force and accuracy that they can pierce armor at distances other races consider impossible. Each bow develops unique properties reflecting its wielder's personality—some producing arrows that curve around obstacles, others whose projectiles leave trails of purifying light that cleanses corruption.
+
+They have perfected 'Arboreal Architecture'—methods for growing rather than building structures, guiding living trees into intricate dwellings that continue to flourish and strengthen over generations. Their most sacred grove-cities feature 'Singing Spires'—hollow chambers within ancient trees that produce haunting melodies when seasonal winds pass through them, creating natural warning systems and mood-altering harmonies that promote healing and clarity of thought.
+
+Their woodworking techniques include 'Whispercraft'—the ability to shape wood through communion rather than carving, resulting in items of such beauty and durability that they are highly prized by those few outsiders fortunate enough to obtain them. Satyr settlements feature sophisticated 'Rootway Networks'—water management systems that work in harmony with natural forest hydrology, purifying water while distributing nutrients to surrounding plant life.
+
+Their defensive perimeters incorporate 'Sentinel Flora'—living plants with unusual properties cultivated through centuries of careful breeding: thorns that induce peaceful sleep rather than pain, flowers that temporarily cloud memory of paths taken, and vines that respond to unfamiliar presence by releasing warning pheromones detectable only by Satyrs.
+
+Their most impressive technological achievements are their 'Verdant Sentinels'—wooden items imbued with a form of consciousness through the sacred 'Awakening Ritual,' capable of limited growth and adaptation to their users' needs. These sentient tools can warn of danger, adjust their properties based on circumstances, and even sacrifice themselves to protect their Satyr companions. They have also pioneered techniques for communicating over vast distances using 'Whisperleaf Networks'—specially cultivated plants that transmit vibrations from one grove to another, allowing their scattered communities to remain connected despite their isolation.",
+
+RELIGION: "The Wood Worship is central to Satyr spiritual life, though they would never use such a term with outsiders, referring to it simply as 'The Way' when forced to discuss it at all. They revere the spirits they believe dwell within all trees and plants, with particular veneration for ancient groves that have stood for centuries. Rather than building temples, they identify naturally occurring sacred spaces within the forest—perfect circles of trees, unusually shaped rock formations embraced by roots, or clearings where rare flowers bloom. Their spiritual practices involve communion with these natural features through ritual dances, offerings of carefully cultivated forest fruits, and the crafting of wooden tokens that are reverently returned to the soil to decompose and nourish new growth. Satyr priestesses, known as Root Speakers, enter meditative states by touching their foreheads to ancient trees, believing this allows them to access the collective wisdom of the forest itself. Their spiritual calendar follows the growth cycles of different trees and plants, with major ceremonies coinciding with significant natural events like the first bloom of spring or the autumn seed-fall. Satyrs believe that upon death, their spirits return to the forest, with the most worthy being reborn in the wood of sacred trees, continuing to guide and protect their people. Their funeral rites involve planting a seedling over the deceased's heart, ensuring that their essence nurtures new life.",
+
+RELATIONS: "The Satyrs maintain what they call the 'Verdant Accord'—a complex system of relationships with other races based on respect for nature and recognition of boundaries. Their interactions are guided by the ancient principle of 'Measured Trust,' offering cooperation proportional to demonstrated respect for their values.
+
+With the scholarly Froggians, they maintain the 'Wetwood Alliance'—a cautious friendship built on mutual respect for knowledge and preservation. The two races occasionally exchange emissaries, with Satyrs sharing botanical wisdom while receiving aquatic secrets in return. This relationship has endured for centuries, though it remains limited by the Satyrs' reluctance to allow outsiders deep into their territories.
+
+Toward the industrious Finestorians, Satyrs hold 'Guarded Appreciation'—acknowledging their crafting skills while remaining wary of their mining practices. They engage in limited trade, exchanging rare woods and plant-based medicines for metal tools crafted specifically to minimize harm to living trees. Their diplomatic communications often include subtle warnings about expanding too aggressively into forested regions.
+
+The pragmatic Northmen are viewed with 'Frost-Touched Caution'—respected for their trading acumen but distrusted for their ambitious expansion. Satyr diplomats approach these interactions with careful preparation, wearing special wooden masks that conceal their true emotions while engaging in precisely calculated exchanges designed to protect their interests without revealing their secrets.
+
+For the corrupting Hellspawns, Satyrs maintain 'Eternal Vigilance'—a state of perpetual readiness against what they consider the embodiment of forest destruction. Ancient Satyr texts speak of the 'Burning Times' when demonic forces nearly consumed their ancestral groves, creating a deep-seated cultural memory that manifests as their most aggressive defensive posture.
+
+The predatory Bloodelves are approached with 'Moonlit Wariness'—a complex stance that acknowledges their shared appreciation for beauty and grace while rejecting their exploitative practices. Satyr diplomats meeting with Bloodelves carry special protective amulets of purified heartwood believed to resist blood-magic influence.
+
+The parasitic Wormlings are treated with 'Compassionate Quarantine'—viewed not as enemies but as a natural force that must be contained rather than destroyed. Satyrs maintain special barrier groves of fungus-resistant trees around known Wormling territories, believing that even these disturbing entities have a role in the greater balance.
+
+Toward the disciplined Pasunkas, they hold 'Respectful Distance'—appreciating their spiritual connection to nature while remaining skeptical of their more rigid philosophies. Occasional exchanges of meditation techniques occur at neutral meeting grounds, though true integration between their cultures remains rare.",
+
+HOME: "ARGONOSH",
+
+COMPATIBILITY: {
+	V68: true,
+}

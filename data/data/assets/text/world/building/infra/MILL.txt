@@ -1,0 +1,6 @@
+NAME: "Windmill",
+DESC: "A windmill produces power that can boost industries.",
+
+LEVELS: [
+
+],

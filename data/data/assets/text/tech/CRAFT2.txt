@@ -1,0 +1,124 @@
+NAME: "Fine Crafts",
+TECHS: {
+	BASE0: {
+		NAME: "Fine Craftsmanship",
+		DESC: "",
+	},
+	TOOL0: {
+		NAME: "Fine Crafting Tools",
+		DESC: "",
+	},
+	END00: {
+		NAME: "High Fine Crafting",
+		DESC: "",
+	},
+	BOWY0: {
+		NAME: "Bowyer",
+		DESC: "",
+	},
+	BOWY1: {
+		NAME: "Basic Bow Making Advancements",
+		DESC: "",
+	},
+	BOWY2: {
+		NAME: "Advanced Bow Making Tools",
+		DESC: "",
+	},
+	BOWY3: {
+		NAME: "Professional Bow Making",
+		DESC: "",
+	},
+	PAPE0: {
+		NAME: "Papermaker",
+		DESC: "",
+	},
+	PAPE1: {
+		NAME: "Basic Paper Making Advancements",
+		DESC: "",
+	},
+	PAPE2: {
+		NAME: "Advanced Paper Making Tools",
+		DESC: "",
+	},
+	PAPE3: {
+		NAME: "Professional Paper Making",
+		DESC: "",
+	},
+	SMIT0: {
+		NAME: "Smithy",
+		DESC: "",
+	},
+	SMIT1: {
+		NAME: "Basic Smithing Advancements",
+		DESC: "",
+	},
+	SMIT2: {
+		NAME: "Advanced Smithing Tools",
+		DESC: "",
+	},
+	SMIT3: {
+		NAME: "Professional Smithing",
+		DESC: "",
+	},
+	MASO0: {
+		NAME: "Masonry",
+		DESC: "",
+	},
+	MASO1: {
+		NAME: "Basic Masonry Advancements",
+		DESC: "",
+	},
+	MASO2: {
+		NAME: "Advanced Masonry Tools",
+		DESC: "",
+	},
+	MASO3: {
+		NAME: "Professional Masonry",
+		DESC: "",
+	},
+	JEWE0: {
+		NAME: "Jeweller",
+		DESC: "",
+	},
+	JEWE1: {
+		NAME: "Basic Jewelling Advancements",
+		DESC: "",
+	},
+	JEWE2: {
+		NAME: "Advanced Jewelling Tools",
+		DESC: "",
+	},
+	JEWE3: {
+		NAME: "Professional Jewelling",
+		DESC: "",
+	},
+	MECH0: {
+		NAME: "Mechanic",
+		DESC: "",
+	},
+	MECH1: {
+		NAME: "Basic Machine Making Advancements",
+		DESC: "",
+	},
+	MECH2: {
+		NAME: "Advanced Machine Making Tools",
+		DESC: "",
+	},
+	MECH3: {
+		NAME: "Professional Machine Making",
+		DESC: "",
+	},
+	XCAR0: {
+		NAME: "Makeshift Weapons",
+		DESC: "",
+	},
+	XSMI0: {
+		NAME: "Full Plate Armour",
+		DESC: "",
+	},
+	XSMI1: {
+		NAME: "Falcata",
+		DESC: "",
+	},
+},
+

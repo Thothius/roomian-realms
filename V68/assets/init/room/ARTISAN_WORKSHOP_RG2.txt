@@ -1,0 +1,129 @@
+ICON: 32->WORKSHOP->9,
+RESOURCES: [WOOD,STONE,METAL,FABRIC],
+AREA_COSTS: [0.3,0.3,0,0],
+FLOOR: [WOOD,STONE_MEDIUM],
+MINI_COLOR: 180_150_120,
+ITEMS: [
+	{
+		COSTS: [2,2,1,1],	** Workbenches
+		STATS: [1,0,0],
+	},
+	{
+		COSTS: [2,0,2,2],	** Specialized Tools
+		STATS: [0,2,0],
+	},
+	{
+		COSTS: [1,1,0,2],	** Material Storage
+		STATS: [0,0,2],
+	},
+],
+UPGRADES: [
+	{
+		RESOURCE_MASK: [1,1,1,1],
+		BOOST: 0,
+	},
+	{
+		RESOURCE_MASK: [2,2,2,2],
+		BOOST: 0.5,
+	},
+	{
+		RESOURCE_MASK: [3,3,3,3],
+		BOOST: 1.0,
+	},
+],
+WORK: {
+	SHIFT_OFFSET: 0.25,
+	SOUND: work->Hammer*,
+	ACCIDENTS_PER_YEAR: 0.02,
+	FULFILLMENT: 1.2,
+},
+INDUSTRIES: [
+	{
+		INDUSTRY: {
+			IN: {
+				WOOD: 0.5,
+				METAL: 0.5,
+				FABRIC: 0.5,
+				GEM: 0.2,
+			},
+			OUT: {
+				JEWELRY: 0.5,
+				LUXURY: 0.5,
+			},
+		},
+	},
+],
+ENVIRONMENT_EMIT: {
+	_NOISE: {
+		VALUE: 1,
+		RADIUS: 1,
+	},
+},
+BOOSTS: {
+	DONDORIAN: {
+		HAPPINESS>ADD: 0.02,
+		ROOM_WORKSHOP*>MUL: 0.05,
+	},
+	HUMAN: {
+		HAPPINESS>ADD: 0.01,
+		ROOM_WORKSHOP*>MUL: 0.02,
+	},
+},
+SPRITES: {
+	TABLE_COMBO: [
+		{	
+			TINT: true,
+			SHADOW_HEIGHT: 5,
+			FRAMES: [
+				COMBO_TABLES: 8,	
+			],
+		},
+	],
+	CHAIR_1X1: [
+		{	
+			TINT: true,
+			SHADOW_LENGTH: 4,
+			ROTATES: true,
+			FRAMES: [
+				CHAIRS: 0,
+				CHAIRS: 1,	
+			],
+		},
+	],
+	WORKBENCH_2X1: [
+		{
+			TINT: true,
+			SHADOW_LENGTH: 6,
+			ROTATES: true,
+			FRAMES: [
+				WORKBENCH: 0,
+				WORKBENCH: 1,
+			],
+		},
+	],
+	TOOLS_1X1: [
+		{
+			TINT: true,
+			SHADOW_LENGTH: 2,
+			ROTATES: false,
+			FRAMES: [
+				TOOLS: 0,
+				TOOLS: 1,
+				TOOLS: 2,
+			],
+		},
+	],
+	STORAGE_1X1: [
+		{	
+			TINT: true,
+			SHADOW_LENGTH: 3,
+			ROTATES: false,
+			FRAMES: [
+				STORAGE: 0,
+				STORAGE: 1,
+				STORAGE: 4,
+			],
+		},
+	],
+},
+DESCRIPTION: "A versatile workshop where skilled artisans create luxury goods and jewelry from various materials. The workshop combines multiple crafting disciplines, allowing for the creation of high-value items that satisfy the desires of nobles and wealthy citizens. Finestorians and Northmen find particular satisfaction working here due to their cultural affinity for craftsmanship."

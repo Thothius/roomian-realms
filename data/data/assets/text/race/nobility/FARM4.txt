@@ -1,0 +1,4 @@
+INFO: {
+	NAME: "Master of Textiles",
+	DESC: "The Master of Textiles is a noble who specializes in boosting the production of the finest fabrics, silks, and other materials",
+},

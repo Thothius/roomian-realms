@@ -1,0 +1,2 @@
+NAME: "The Wise",
+DESC: "Gained by being a knowledge nerd. Increases knowledge and education rates.",

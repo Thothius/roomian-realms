@@ -1,0 +1,107 @@
+ICON: 32->LAW->0,
+RESOURCES: [STONE,METAL,],
+AREA_COSTS: [0,0,],
+MINI_COLOR: 70_70_70,
+FLOOR2: STONE1,
+FLOOR: STONE_MEDIUM_DARK,
+ITEMS: [
+	{
+		COSTS: [0,8,],
+		STATS: [4,1,],
+	},
+],
+WORK: {
+	SHIFT_OFFSET: 0.1,
+	SOUND: DUMMY,
+	USES_TOOL: false,
+	FULFILLMENT: 0.5,
+},
+SPRITES: {
+	BARS_1X1: [
+		{
+			ROTATES: true,
+			SHADOW_HEIGHT: 2,
+			SHADOW_LENGTH: 0,
+			TINT: false,
+			FRAMES: [
+				PRISON: 0,
+			],
+		},
+	],
+	OPENING_1X1: [
+		{
+			ROTATES: true,
+			SHADOW_HEIGHT: 0,
+			SHADOW_LENGTH: 0,
+			TINT: false,
+			FRAMES: [
+				PRISON: 1,
+			],
+		},
+	],
+	WALLS_COMBO: [
+		{
+			FRAMES: [
+				_COMBO_WALLS: 0,
+			],		
+		},
+	],
+	CANDLE_SHELF_1X1: [
+		{
+			ROTATES: true,
+			SHADOW_HEIGHT: 4,
+			FRAMES: [
+				SHELVES: 2,
+				SHELVES: 3,
+			],		
+		},
+	],
+	LATRINE_EMPTY_1X1: [
+		{
+			ROTATES: false,
+			SHADOW_LENGTH: 3,
+			FRAMES: [
+				PRISON: 5,
+			],		
+		},
+	],
+	LATRINE_FULL_1X1: [
+		{
+			ROTATES: false,
+			SHADOW_LENGTH: 3,
+			FRAMES: [
+				PRISON: 6,
+			],		
+		},
+	],
+	FOOD_1X1: [
+		{
+			ROTATES: false,
+			SHADOW_LENGTH: 2,
+			FRAMES: [
+				PRISON: 8,
+			],		
+		},
+	],
+	MISC_1X1: [
+		{
+			ROTATES: false,
+			SHADOW_LENGTH: 2,
+			FRAMES: [
+				PRISON: 7,
+				PRISON: 7,
+				PRISON: 7,
+				DEATH: 3,
+				-,
+				-,
+				-,
+				-,
+				-,
+				-,
+				-,
+			],		
+		},
+	],
+	
+},
+

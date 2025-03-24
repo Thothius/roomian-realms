@@ -1,0 +1,13 @@
+MINIMAP: {
+	TREE: {R:58, G:104, B:26,},
+	WATER: {R:60, G:80, B:100,},
+	WATER_DEEP: {R:45, G:65, B:82,},
+	ROCK: {R:63, G:53, B:53,},
+	GROWABLE: {R:255, G:216, B:10,},
+	MOUNTAIN: {R:63, G:56, B:42,},
+},
+
+WATER: {
+	NORMAL: {R:60, G:150, B:200,},
+	WINTER: {R:60, G:140, B:160,},
+},

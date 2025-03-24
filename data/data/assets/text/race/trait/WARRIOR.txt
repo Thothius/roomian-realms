@@ -1,0 +1,12 @@
+NAME: "Warlike",
+TITLE: "The Conqueror",
+DESC: "A seeker of glory who will eagerly find or create a conflict for a chance of battle.",
+
+BIO_DESC: [
+	"Dreams of glory on the field of battle. 'Give me a sword milord, and I will bring honor and glory to your name.'", 
+	"Spent much of their childhood fighting with sticks and playing soldier.", 
+	"{HEC} thinks {HE} is well suited for battle and is convinced {HE} will survive.", 
+	"{NAME} loves the straightforwardness of open conflict.", 
+	"Is drawn to mastering combat skills.", 
+	"Sometimes takes {HIS} top off outside his house to do some sparring. Sometimes {HE} gets and audience.",
+],

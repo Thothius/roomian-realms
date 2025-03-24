@@ -1,0 +1,202 @@
+TREE: 
+{
+	0: [_____,ARMORY,_____,_____,],
+	1: [ARMORY_UPGRADE_1,CROSSBOW,ARMORY_BOOST,HEAVYSHIELD,],
+	2: [ARMORY_UPGRADE_2,AMMO,ACCESORIES,_____,],
+},
+TECHS: 
+{
+	ACCESORIES: 
+    {
+		COSTS: 
+        {
+			CIVIC_INNOVATION: 15,
+		},
+        REQUIRES_TECH_LEVEL: 
+        {
+            ARMORY_BOOST: 1,
+        },
+        REQUIRES: 
+        {
+            GREATER:
+            {
+                POPULTAION_CITIZEN_I: 350,	** Requires 350 citizens
+            },	
+        },
+		UNLOCKS_FACTION: 
+        [
+			ROOM_WORKSHOP_ARMORY_RG2_RECIPE_7,		** unlock banner recipe
+            ROOM_WORKSHOP_ARMORY_RG2_RECIPE_8,		** unlock whetstone recipe
+		],
+        BOOST: 
+        {
+            ROOM_WORKSHOP_ARMORY_RG2>ADD: 0.1,
+        },
+	},
+	AMMO: 
+    {
+		COSTS: 
+        {
+			CIVIC_INNOVATION: 15,
+		},
+        REQUIRES_TECH_LEVEL: 
+        {
+            CROSSBOW: 1,
+        },
+        REQUIRES: 
+        {
+            GREATER:
+            {
+                POPULTAION_CITIZEN_I: 350,	** Requires 350 citizens
+            },	
+        },
+		UNLOCKS_FACTION: 
+        [
+			ROOM_WORKSHOP_ARMORY_RG2_RECIPE_5,		** unlock stone arrow recipe
+            ROOM_WORKSHOP_ARMORY_RG2_RECIPE_6,		** unlock metal arrow recipe
+		],
+        BOOST: 
+        {
+            ROOM_WORKSHOP_ARMORY_RG2>ADD: 0.1,
+        },
+	},	
+	ARMORY: 
+    {
+		COSTS: 
+        {
+			CIVIC_INNOVATION: 20,
+		},
+        REQUIRES: 
+        {
+            GREATER:
+            {
+                POPULTAION_CITIZEN_I: 350,	** Requires 350 citizens
+            },	
+        },
+		UNLOCKS_FACTION: 
+        [
+			ROOM_WORKSHOP_ARMORY_RG2,	** Unlock the room to craft the items added by the mod
+            ROOM_ARCHERY_CROSSBOW_RANGE_RG2,	** Unlock crossbow range
+		],
+	},
+    ARMORY_BOOST: 
+    {
+        LEVEL_MAX: 4,
+        LEVEL_COST_INC: 4,
+		COSTS: 
+        {
+			CIVIC_INNOVATION: 23,
+		},
+        REQUIRES: 
+        {
+            GREATER:
+            {
+                POPULTAION_CITIZEN_I: 350,	** Requires 350 citizens
+            },	
+        },
+        REQUIRES_TECH_LEVEL: 
+        {
+            ARMORY: 1,	** Requieres armory tech researched
+        },
+		BOOST: 
+        {
+            ROOM_WORKSHOP_ARMORY_RG2>ADD: 0.15,
+        },
+	},
+	ARMORY_UPGRADE_1: 
+    {
+		COSTS: 
+        {
+			CIVIC_INNOVATION: 33,
+		},
+        REQUIRES_TECH_LEVEL: 
+        {
+            ARMORY: 1,
+        },
+        REQUIRES: 
+        {
+            GREATER:
+            {
+                POPULTAION_CITIZEN_I: 650,	** Requieres 650 citizens
+            },	
+        },
+		UNLOCKS_FACTION: 
+        [
+			ROOM_WORKSHOP_ARMORY_RG2_UPGRADE_1,
+		],
+	},
+	ARMORY_UPGRADE_2: 
+    {
+		COSTS: 
+        {
+			CIVIC_INNOVATION: 50,
+		},
+        REQUIRES_TECH_LEVEL: 
+        {
+            ARMORY_UPGRADE_1: 1,
+        },
+        REQUIRES: 
+        {
+            GREATER:
+            {
+                POPULTAION_CITIZEN_I: 950,	** Requieres 950 citizens
+            },	
+        },
+		UNLOCKS_FACTION: 
+        [
+			ROOM_WORKSHOP_ARMORY_RG2_UPGRADE_2,
+		],
+	},
+	CROSSBOW: 
+    {
+		COSTS: 
+        {
+			CIVIC_INNOVATION: 25,
+		},
+        REQUIRES_TECH_LEVEL: 
+        {
+            ARMORY: 1,
+        },
+        REQUIRES: 
+        {
+            GREATER:
+            {
+                POPULTAION_CITIZEN_I: 350,	** Requires 350 citizens
+            },	
+        },
+		UNLOCKS_FACTION: 
+        [
+			ROOM_WORKSHOP_ARMORY_RG2_RECIPE_1,		** unlock crossbow recipe
+		],
+        BOOST: 
+        {
+            ROOM_WORKSHOP_ARMORY_RG2>ADD: 0.1,
+        },
+	},
+	HEAVYSHIELD: 
+    {
+		COSTS: 
+        {
+			CIVIC_INNOVATION: 18,
+		},
+        REQUIRES_TECH_LEVEL: 
+        {
+            ARMORY: 1,
+        },
+        REQUIRES: 
+        {
+            GREATER:
+            {
+                POPULTAION_CITIZEN_I: 350,	** Requires 350 citizens
+            },	
+        },
+		UNLOCKS_FACTION: 
+        [
+			ROOM_WORKSHOP_ARMORY_RG2_RECIPE_4,		** unlock heavy shield recipe
+		],
+        BOOST: 
+        {
+            ROOM_WORKSHOP_ARMORY_RG2>ADD: 0.1,
+        },
+	},
+}, 

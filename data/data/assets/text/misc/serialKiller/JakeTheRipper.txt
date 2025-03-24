@@ -1,0 +1,10 @@
+NAME: "Jake the Invincible",
+METHOD: "eyes removed",
+
+MESSAGES: [
+	"Today I have saved a soul. I will take many souls before my great work is complete. Please mortals, do not even attempt to stop me in my work, you are like mere flies, and only a slight annoyance. I am beyond any of you. I am Jake the invincible.",
+	"With each soul I harvest, I grow stronger. You impotent men with your foolish notions and naive ideas have no means of stopping me. Stay away and don't meddle with my work, or you risk angering me.",
+	"You must be asking yourselves by now, why am I doing this. Well, I am simply continuing the work of my forefathers, who were betrayed in the age of Baath. I am feeding Torihm, the drowned god of the underworld. Once he is fed in full, he will awaken and together we will rule this world and the pitiful people within.",
+	"This one was tricky, and nearly got away, or so he thought. In the end, I was one step ahead all along. I must admit, I took pleasure this time. The eyes, I will keep as a souvenir.",
+	"Five was asked, and five has been delivered. Now I will take my place at the side of my master. There was nothing you could have done to stop me, do not feel bad about it. I shall see you soon, I will treat you kindly as my slave.",
+],

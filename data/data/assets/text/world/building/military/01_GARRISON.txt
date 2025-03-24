@@ -1,0 +1,11 @@
+NAME: "Garrison",
+DESC: "Garrison adds soldiers for protection and public order of your region.",
+CATEGORY: "Infrastructure",
+
+LEVELS: [
+	"Guard Post",
+	"Palisades",
+	"Trenches",
+	"Stone Walls",
+	"Keep",
+],

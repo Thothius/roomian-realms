@@ -1,0 +1,45 @@
+INFO: {
+	NAME: "Globdien Pasture",
+	NAMES: "Globdien Pastures",
+	DESC: "Breeds Globdiens that will produce meat and eggs. Livestock is needed to populate pastures. Fertility affects how many animals a pasture can hold. Unlike farms, the amount produced per worker is unchanged by fertility.",
+},
+
+BONUS: {
+	NAME: "Globdien Breeding",
+	DESC: "Makes Globdiens fatter and plumper",
+},
+
+WORK: {
+	TITLE: "Herder",
+	VERB: "Herding",
+},
+
+STATS: [
+	{
+		NAME: "Workers",
+		DESC: "The amount of workers that will be needed to cover the current output.",
+	},
+	{
+		NAME: "Output",
+		DESC: "The average amount of resources this pasture will yield daily. This depends on size of the pasture, and the base fertility of the soil.",
+	},
+	{
+		NAME: "",
+		DESC: "",
+	},
+	{
+		NAME: "",
+		DESC: "",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Gate",
+		DESC: "Entrance and resource storage for pasture.",
+	},
+	{
+		NAME: "Hut",
+		DESC: "Small huts and shacks where the cattle can relax.",
+	},
+],

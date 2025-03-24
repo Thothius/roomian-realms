@@ -1,0 +1,54 @@
+INFO: {
+	NAME: "Bathhouse",
+	NAMES: "Bathhouses",
+	DESC: "Where subjects can get clean and relax.",
+	WIKI: {
+		CATEGORY: "Service",
+		NAME: "Bathhouses",
+		TEXT: "Bathhouses allow your subjects to bathe. This helps them get clean and relaxes them. Bathing in a bathhouse is far more comforting than bathing in a lake or river.",
+		KEY: "BARRACKS",
+		LINKS: [],
+	},
+},
+
+HEATING: "Heating",
+HEATING_DESC: "Current Heating of the basins. Make sure coal is nearby",
+HEATING_PROBLEM: "Low heating decreases the experience!",
+WATER_PROBLEM: "A bath need access to fresh water to function properly.",
+WORK: {
+	TITLE: "Basin Operator",
+	VERB: "Pouring Bath",
+},
+
+STATS: [
+	{
+		NAME: "Baths",
+		DESC: "Available bathing spots",
+	},
+	{
+		NAME: "Relaxation",
+		DESC: "Where people can relax afterwards.",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Basin",
+		DESC: "Increases bathing spots",
+	},
+	{
+		NAME: "Benches",
+		DESC: "Adds Relaxation to the room.",
+	},
+],
+
+SERVICE: {
+	VERB: "Bathing",
+	MORE: [
+		"Let me think my {RACE_LORD}... Ah yes, more baths would be very good. Warm water and relaxing conversation.",
+		"Warm water and relaxing conversation is something me and my fellow {RACES} miss a lot.",
+		"I have not felt clean in quite some time. I could just melt away in a basin of hot water.",
+		"Some hot baths to soak in after work would be heavenly.",
+	],
+},
+

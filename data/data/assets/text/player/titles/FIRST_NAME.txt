@@ -1,0 +1,2 @@
+NAME: "First of Their Name",
+DESC: "Gained by having a lot of happy people and increases your starting population and supplies in a new game.",

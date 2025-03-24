@@ -1,0 +1,5 @@
+DECAY: misc->Decay*,
+PAIN: human->pain*,
+SICK: human->pain*,
+SLEEP: human->Sleep*,
+EXPLODE: gore->Squish_000,

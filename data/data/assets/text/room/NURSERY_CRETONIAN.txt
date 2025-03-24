@@ -1,0 +1,44 @@
+INFO: {
+	NAME: "Cretonian Breeder",
+	NAMES: "Cretonian Breeders",
+	DESC: "A place where Cretonian cubs are born and brought up. Each station is capable of bringing one up and needs vegetables to operate, else the cub will starve.",
+},
+
+
+BONUS: {
+	NAME: "Cretonian Breeders",
+	DESC: "Increases the rate at which Cretonians are produced in Cretonian Breeders.",
+},
+
+STATS: [
+
+	{
+		NAME: "Cribs",
+		DESC: "Amount of Cribs",
+	},
+	{
+		
+	},
+	{
+		NAME: "Efficiency",
+		DESC: "Increases birth rate.",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Crib",
+		DESC: "",
+	},
+	{
+		NAME: "Huts",
+		DESC: "Increases efficiency.",
+	},
+],
+
+WORK: {
+	TITLE: "Cretonian Breeder",
+	VERB: "Tending to children.",
+},
+
+

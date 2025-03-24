@@ -1,0 +1,99 @@
+HUNTER_GOOD: {
+	NAME: "Animal migration",
+	DESC: "Your hunters do not have to look far to find game.",
+	MESSAGE: [
+		"Lots of game animals are passing your village while migrating. They might be fleeing a natural disaster or something else but the why does not matter much to your hunters.",
+	],
+},
+
+HUNTER_BAD: {
+	NAME: "Struggling hunters",
+	DESC: "The animals are spooked.",
+	MESSAGE: [
+		"Something has spooked the animals in the region. Your hunters do not know what the cause is, but the increased wariness makes hunting them more difficult.",
+	],
+},
+
+MEAT_GONE: {
+	NAME: "Stored meat is missing",
+	DESC: "A decision awaits.",
+	MESSAGE: [
+		"Something big broke into your meat storage, and ate or befouled about half of it. While your villagers will secure the storage rooms better from now on, there is the matter of whether or not you want to send out some hunters after the mysterious animal.
+		 
+		Judging by the destruction, this could be a very dangerous task, but hunting it down would likely stock up your diminished food reserves.",
+	],
+	CHOICES: [
+	"Hunt it down",
+	],
+},
+
+
+MEAT_GONE_YES: {
+	NAME: "Beast hunted down",
+	DESC: "",
+	MESSAGE: [
+		"The bravest villagers volunteered themselves, and followed the tracks the beast had left. An animal of that size, that did not care about obscuring its tracks made your hunters nervous, but they eventually tracked it down. 
+		
+		It was a half-wild Entelodont of monstrous proportions. 
+		
+		Unfortunately, the hunt did not go smoothly, and some villagers never made it back. The survivors did not offer any details, but the bloody tusks of the beast spoke for themselves.",
+	],
+},
+
+TRAVELLERS_FRIENDLY: {
+	NAME: "Friendly Travelers",
+	DESC: "Your villagers enjoy the company.",
+	MESSAGE: [
+		"A large caravan of migrants camps nearby. They seem friendly enough and even share their food. Perhaps some of them might be convinced to stay in your village.",
+	],
+},
+
+SETTLEMENT_RUIN: {
+	NAME: "Nearby ruins",
+	DESC: "",
+	MESSAGE: [
+		"It appears someone once tried to settle here, your people found a small abandoned outpost nearby. Not much of use remained after so long except for the pottery which was relatively intact. Judging by the pictures adorning some of the jugs, the culture of your predecessors is extinct. Hopefully your settlement will stand the test of time better.",
+	],
+},
+
+INVITATION: {
+	NAME: "Travelers",
+	DESC: "A decision awaits.",
+	MESSAGE: [
+		"A wagon with a huge keg of piva entered your village. According to the sorry lot driving it, they escaped an ambush on their caravan. The keg is riddled with arrows and slowly leaking its contents so they offer to share it if they can stay the night.",
+	],
+},
+
+INVITATION_YES: {
+	NAME: "Revelry",
+	DESC: "Despite the hangover, your subjects are remembering the impromptu festival fondly.",
+	MESSAGE: [
+		"Your subjects and their new friends quickly managed to drink the whole keg, leading to a night of revelry. Alcohol is pretty rare in smaller villages and few abstained. The next morning, the drivers went back on the road to search for other survivors of the attack. 6 of your villagers joined them, driven by a thirst for adventure.",
+	],
+},
+
+ROGUE_SMILODON: {
+	NAME: "Stalking smilodon",
+	DESC: "The beast is lurking nearby and waits for its chance.",
+	MESSAGE: [
+		"A smilodon was seen stalking your villagers. Usually these beasts avoid civilization, but your settlement does not seem to qualify yet. A hunter should be able to track it down and kill it before it causes harm.",
+	],
+},
+
+ROGUE_SMILODON_YES: {
+	NAME: "A successful hunt",
+	DESC: "A lot of game returns to the area.",
+	MESSAGE: [
+		"Your hunter tracked the smilodon to its lair and after studying its habits, killed it in an ambush. The lair was full of half eaten carcasses and the belongings of unfortunate travelers. The money is now in your treasury and your hunter reports that game wandered in from a nearby region.",
+	],
+},
+
+ROGUE_SMILODON_NO: {
+	NAME: "Smilodon rampage",
+	DESC: "",
+	MESSAGE: [
+		"The smilodon finally made its move. The unnaturally large specimen stalked into your village but was surprised by a whole work party stumbling upon it. What followed was a brutal fight that killed many. The smilodon survived and managed to flee but it is unlikely to survive its wounds.
+		
+		No one is particularly keen on going after it to make sure though.",
+	],
+},

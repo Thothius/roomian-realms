@@ -1,0 +1,3 @@
+NAME: "Falcata",
+NAMES: "Falcatas",
+DESC: "A short sword, causing lots of pierce damage.",

@@ -1,0 +1,188 @@
+ICON: 32->SERVICE->8,
+RESOURCES: [WOOD,FURNITURE,POTTERY,STONE_CUT,],
+AREA_COSTS: [0,0,0,0,],
+FLOOR: [DIRT,STONE2,DECOR1,],
+MINI_COLOR: 198_106_0,
+
+USAGE: 1.0,
+
+ITEMS: [
+	{
+		COSTS: [2,1,1,2,],
+		STATS: [1,0.075,],
+	},
+],
+WORK: {
+	SHIFT_OFFSET: 0.65,
+	SOUND: DUMMY,
+	USES_TOOL: false,
+	FULFILLMENT: 0,
+},
+SERVICE: {
+	STANDING: {
+		CITIZEN: 3.5,
+		SLAVE: 2.5,
+		NOBLE: 0.5,
+		PRIO: 100,
+	},
+	RADIUS: 100,
+},
+UPGRADES: [
+	{
+		RESOURCE_MASK: [1,0,0,0,],
+		BOOST: 0,
+	},
+	{
+		RESOURCE_MASK: [1,2,1,0,],
+		BOOST: 1.0,
+	},
+	{
+		RESOURCE_MASK: [1,3,2,2,],
+		BOOST: 1.0,
+	},
+],
+SPRITES: {
+	CARPET_COMBO: [
+		{	
+			COLOR: 120_120_120,
+			ROTATES: true,
+			FRAMES: [
+				COMBO_CARPETS: 7,
+			],
+		},
+		{	
+			ROTATES: true,
+			FRAMES: [
+				COMBO_CARPETS: 8,
+			],
+		},
+	],
+	STALL_BOTTOM_1X1: [
+		{	
+			ROTATES: true,
+			SHADOW_LENGTH: 4,
+			FRAMES: [
+				STORAGE_B: 2,
+			],
+		},
+		{	
+			ROTATES: true,
+			SHADOW_LENGTH: 4,
+			FRAMES: [
+				STORAGE_B: 2,
+			],
+		},
+		{	
+			ROTATES: true,
+			SHADOW_LENGTH: 4,
+			FRAMES: [
+				STORAGE_B: 1,
+			],
+		},
+	],
+	STALL_TOP_1X1: [
+		{	
+			ROTATES: true,
+			SHADOW_HEIGHT: 4,
+			FRAMES: [
+				STORAGE_B: 3,
+			],
+		},
+		{	
+			ROTATES: true,
+			SHADOW_HEIGHT: 4,
+			FRAMES: [
+				STORAGE_B: 4,
+			],
+		},
+		{	
+			ROTATES: true,
+			SHADOW_HEIGHT: 4,
+			FRAMES: [
+				STORAGE_B: 5,
+			],
+		},
+	],
+
+	CRATE_BOTTOM_A_1X1: [
+		{	
+			ROTATES: false,
+			COLOR: [
+				85_70_70,
+			],
+			SHADOW_LENGTH: 0,
+			FRAMES: [
+				BASIN: 8,
+			],
+		},
+	],
+	CRATE_BOTTOM_B_1X1: [
+		{	
+			ROTATES: false,
+			TINT: true,
+			SHADOW_LENGTH: 2,
+			FRAMES: [
+				BASIN: 13,
+			],
+		},
+	],
+	CRATE_TOP_1X1: [
+		{	
+			ROTATES: false,
+			TINT: true,
+			SHADOW_LENGTH: 5,
+			COLOR: 120_120_120,
+			FRAMES: [
+				BASIN: 14,
+			],
+		},
+		{	
+			ROTATES: false,
+			TINT: true,
+			SHADOW_LENGTH: 5,
+			COLOR: 72_171_82,
+			
+			FRAMES: [
+				BASIN: 14,
+			],
+		},
+	],
+	MISC_BOTTOM_1X1: [
+		{	
+			ROTATES: false,
+			TINT: true,
+			SHADOW_LENGTH: 1,
+			FRAMES: [
+				STORAGE: 5,
+			],
+		},
+		{	
+			ROTATES: false,
+			TINT: true,
+			SHADOW_LENGTH: 1,
+			FRAMES: [
+				STORAGE: 8,
+			],
+		},
+	],
+	MISC_1X1: [
+		{	
+			TINT: true,
+			SHADOW_LENGTH: 6,
+			FRAMES: [
+				STORAGE: 0,
+				STORAGE: 1,
+				STORAGE: 10,
+			],
+		},
+		{	
+			TINT: true,
+			SHADOW_LENGTH: 6,
+			FRAMES: [
+				STORAGE: 4,
+				STORAGE: 13,
+			],
+		},
+	],
+},
+

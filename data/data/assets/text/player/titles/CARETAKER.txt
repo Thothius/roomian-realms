@@ -1,0 +1,2 @@
+NAME: "The Caretaker",
+DESC: "Gained by having proper access to hospitals. Increases health.",

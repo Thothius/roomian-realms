@@ -1,0 +1,4 @@
+INFO: {
+	NAME: "Master Baiter",
+	DESC: "The Master Baiter is the master of the fishing guild. Their incredible knowledge of the bounties of the sea allows them to tremendously boost fishing output.",
+},

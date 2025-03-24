@@ -1,0 +1,764 @@
+# RACE MODDING GUIDE FOR SONGS OF SYX
+
+## BASIC RACE CONFIGURATION
+
+### PLAYABLE
+- PLAYABLE: true/false - Determines if the race can be selected by the player
+
+### PHYSICAL PROPERTIES
+- PROPERTIES: {
+  - HEIGHT: 5-12 - Physical height of race (affects sprite size)
+  - WIDTH: 7-10 - Physical width of race (affects sprite size)
+  - ADULT_AT_DAY: 0-100 - Days until a child becomes an adult
+  - CORPSE_DECAY: true/false - Whether corpses decay or remain
+  - SLEEPS: true/false - Whether the race needs to sleep
+  - SLAVE_PRICE: 40-200 - Base price for slaves of this race
+  - RAID_MERCINARY: 0.1-1.0 - Likelihood to appear as mercenaries
+}
+
+### BEHAVIORAL TRAITS
+- BEHAVIOUR: {
+  - SKINNY_DIPS: 0.0-1.0 - Tendency to bathe in water
+  - CORRUPTION: 0.0-1.0 - Susceptibility to corruption
+  - GREED: 0.0-1.0 - Desire for wealth and possessions
+  - DISCIPLINE: 0.0-1.0 - Ability to follow orders and regulations
+  - LOYALTY: 0.0-1.0 - Faithfulness to their faction
+  - CRAFTSMANSHIP: 0.0-1.0 - Skill in creating items
+  - SLAVE_DRIVER: 0.0-1.0 - Willingness to drive slaves hard
+  - SLAVER: 0.0-1.0 - Tendency to enslave others
+  - PRAGMATIC: 0.0-1.0 - Practical approach to problems
+  - OPPORTUNIST: 0.0-1.0 - Tendency to take advantage of situations
+  - INDUSTRIOUS: 0.0-1.0 - Work ethic and productivity
+  - INTELLECTUAL: 0.0-1.0 - Interest in learning and knowledge
+  - LAWFULNESS: 0.0-1.0 - Respect for laws and regulations
+  - BLOODLUST: 0.0-1.0 - Desire for violence and combat
+  - CRUELTY: 0.0-1.0 - Tendency to be cruel to others
+  - SUBMISSION: 0.0-1.0 - Willingness to submit to authority
+  - PACIFISM: 0.0-1.0 - Preference for peaceful solutions
+  - HEDONISM: 0.0-1.0 - Pursuit of pleasure
+  - RITUALISTIC: 0.0-1.0 - Adherence to rituals and traditions
+  - SPIRITUAL: 0.0-1.0 - Connection to spiritual matters
+  - AMPHIBIOUS: 0.0-1.0 - Comfort in water environments
+  - FOREST_LOVER: 0.0-1.0 - Preference for forested areas
+  - EXECUTION_PERFORM: 0.0-1.0 - Willingness to perform executions
+}
+
+### FILE REFERENCES
+- BIO_FILE: Normal/Custom - Biography file reference
+- BIO_FILE_SPECIFIC: RaceName - Race-specific biography file
+- OPINION_FILE_SCARED: Normal/Custom - Opinions when scared
+- OPINION_FILE_NORMAL: Normal/Custom - Normal opinions
+- OPINION_FILE_CONFIDENT: Normal/Custom - Opinions when confident
+- KING_FILE: Normal/Custom - King-related text
+- WORLD_NAME_FILE: Misc/Custom - World naming conventions
+- RAID_TEXT_FILE: Normal/Custom - Raid-related text
+- RAIDER_NAME_FILE: Normal/Custom - Raider naming conventions
+
+### HOME AND TECH
+- HOME: RACENAME - Reference to home building type
+- TECH: [*] - Available technologies (usually all)
+
+## PREFERENCES
+
+### FOOD AND DRINK
+- PREFERRED: {
+  - FOOD: [ ] - List of preferred foods in order of preference
+    - MEAT, FISH, BREAD, CHEESE, FRUIT, VEGETABLE, GRAIN, MUSHROOM, EGG
+  - DRINK: [ ] - List of preferred drinks in order of preference
+    - WATER, ALCO_BEER, ALCO_MEAD, ALCO_WINE, *
+  - FAVORITE_DRINK: WATER/ALCO_BEER/etc. - Most preferred drink
+}
+
+### ENVIRONMENT PREFERENCES
+- STRUCTURE: {
+  - MOUNTAIN: 0.0-1.0 - Preference for mountainous areas
+  - STONE: 0.0-1.0 - Preference for stone structures
+  - GRAND: 0.0-1.0 - Preference for grand buildings
+  - WOOD: 0.0-1.0 - Preference for wooden structures
+  - OUTDOORS: 0.0-1.0 - Preference for outdoor areas
+}
+
+### ROAD PREFERENCES
+- ROAD: {
+  - *: 0.0-1.0 - Default preference for all road types
+  - DIRT: 0.0-1.0 - Preference for dirt roads
+  - STONE1: 0.0-1.0 - Preference for basic stone roads
+  - STONE2: 0.0-1.0 - Preference for better stone roads
+  - DECOR1: 0.0-1.0 - Preference for decorated stone roads
+  - DECOR2: 0.0-1.0 - Preference for highly decorated roads
+  - NATURE1: 0.0-1.0 - Preference for natural paths
+  - NATURE2: 0.0-1.0 - Preference for enhanced natural paths
+  - DARK1: 0.0-1.0 - Preference for dark stone roads
+  - DARK2: 0.0-1.0 - Preference for enhanced dark stone roads
+  - DARK3: 0.0-1.0 - Preference for highly decorated dark roads
+}
+
+### POOL PREFERENCES
+- POOL: {
+  - POOL_STONE: 0.0-1.0 - Preference for stone pools
+  - POOL_POND: 0.0-1.0 - Preference for natural ponds
+  - POOL_MOAT: 0.0-1.0 - Preference for moats
+}
+
+### WORK PREFERENCES
+- WORK: {
+  - WORKSHOP_*: 0.0-1.0 - Preference for workshop types
+  - MINE_*: 0.0-1.0 - Preference for mine types
+  - FARM_*: 0.0-1.0 - Preference for farm types
+  - PASTURE_*: 0.0-1.0 - Preference for pasture types
+  - ADMIN_NORMAL: 0.0-1.0 - Preference for administrative work
+  - MILITARY_*: 0.0-1.0 - Preference for military roles
+  - SERVICE_*: 0.0-1.0 - Preference for service jobs
+  - LIBRARY_NORMAL: 0.0-1.0 - Preference for library work
+  - LABORATORY_NORMAL: 0.0-1.0 - Preference for laboratory work
+  - UNIVERSITY_NORMAL: 0.0-1.0 - Preference for university work
+  - NURSERY_*: 0.0-1.0 - Preference for nursery work
+  - _CANNIBAL: 0.0-1.0 - Preference for cannibalism (evil races)
+  - _EXECUTION: 0.0-1.0 - Preference for execution duties
+  - _SLAVER: 0.0-1.0 - Preference for slaver duties
+}
+
+### RACIAL RELATIONS
+- OTHER_RACES: {
+  - *: 0.0-1.0 - Default compatibility with all races
+  - RACENAME: 0.0-1.0 - Compatibility with specific races
+    - Values below 0.5 indicate dislike/intolerance
+    - Values above 0.5 indicate acceptance/preference
+    - 0.0 indicates complete intolerance
+    - 1.0 indicates complete acceptance
+}
+- OTHER_RACES_REVERSE: {
+  - *: 0.0-1.0 - How other races view this race by default
+  - RACENAME: 0.0-1.0 - How specific races view this race
+}
+
+### WORLD BUILDING PREFERENCES
+- WORLD_BUILDING: {
+  - CIVIC_L_TAVERN: 0.0-2.0 - Preference for taverns in world generation
+  - CIVIC_L_ARENA: 0.0-2.0 - Preference for arenas in world generation
+  - CIVIC_L_STANDS: 0.0-2.0 - Preference for stands in world generation
+}
+
+## POPULATION SETTINGS
+
+### GROWTH AND IMMIGRATION
+- POPULATION: {
+  - MAX: 0.0-1.0 - Maximum population multiplier
+  - PREFERRED: 0.0-1.0 - Preferred population level
+  - PREFERRED_NOBLE: 0.0-1.0 - Preferred noble population
+  - PREFERRED_SLAVE: 0.0-1.0 - Preferred slave population
+  - PREFERRED_CITIZEN: 0.0-1.0 - Preferred citizen population
+  - GROWTH: 0.01-0.2 - Natural population growth rate
+  - IMMIGRATION_RATE: 0.1-1.0 - Rate of immigration
+}
+
+### CLIMATE AND TERRAIN PREFERENCES
+- CLIMATE: {
+  - COLD: 0.0-1.0 - Preference for cold climates
+  - TEMPERATE: 0.0-1.0 - Preference for temperate climates
+  - HOT: 0.0-1.0 - Preference for hot climates
+}
+- TERRAIN: {
+  - MOUNTAIN: 0.0-5.5 - Preference for mountainous terrain
+  - FOREST: 0.0-2.5 - Preference for forested terrain
+  - NONE: 0.0-1.2 - Preference for open terrain
+  - WET: 0.0-1.0 - Preference for wet terrain
+}
+
+## TRAITS AND RESOURCES
+
+### RACIAL TRAITS
+- TRAITS: {
+  - FIGHTER: 0.0-1.0 - Combat ability
+  - GLUTTON: 0.0-1.0 - Food consumption
+  - GREEDY: 0.0-1.0 - Desire for wealth
+  - CORRUPT: 0.0-1.0 - Tendency toward corruption
+  - HUNTER: 0.0-1.0 - Hunting ability
+  - STRONG: 0.0-1.0 - Physical strength
+  - TOUGH: 0.0-1.0 - Physical resilience
+  - BRAVE: 0.0-1.0 - Courage in battle
+  - HONORABLE: 0.0-1.0 - Sense of honor
+  - CRAFTY: 0.0-1.0 - Craftiness and cunning
+  - INTELLECTUAL: 0.0-1.0 - Intelligence
+  - PEACEFUL: 0.0-1.0 - Preference for peace
+  - SPRINTER: 0.0-1.0 - Movement speed
+}
+
+### RESOURCES FROM BUTCHERING
+- RESOURCE: {
+  - MEAT: 5-50 - Amount of meat obtained
+  - LEATHER: 5-25 - Amount of leather obtained
+  - COTTON: 0-20 - Amount of cotton obtained
+}
+- RESOURCE_GROOMING: {
+  - COTTON: 0-1 - Cotton from grooming
+}
+
+### MILITARY EQUIPMENT
+- MILITARY_EQUIPMENT_EFFICIENCY: {
+  - *: 0.0-2.0 - Default efficiency with all equipment
+  - EQUIPMENT_TYPE: 0.0-2.0 - Efficiency with specific equipment
+}
+
+## HAPPINESS AND SATISFACTION
+
+### STAT MODIFIERS
+- STATS: {
+  - CATEGORY_SUBCATEGORY: {
+    - CITIZEN: 0.0-3.5 - Effect on citizens
+    - SLAVE: 0.0-1.5 - Effect on slaves
+    - NOBLE: 0.0-3.0 - Effect on nobles
+    - MULTIPLIER: 0.0-16.0 - Strength of the effect
+    - PRIO: 0.0-100000.0 - Priority of the effect
+    - INVERTED: true/false - Whether effect is inverted
+    - DISMISS: true/false - Whether effect can be dismissed
+  }
+}
+
+### CATEGORIES INCLUDE:
+- SERVICE_* - Services like taverns, baths, etc.
+- STORED_* - Stored resources like gems, stone, meat, etc.
+- ACCESS_* - Access to various features
+  - ACCESS_LIGHT - Access to light (some races prefer darkness)
+  - ACCESS_NOISE - Sensitivity to noise
+  - ACCESS_SPACE - Need for personal space
+  - ACCESS_SHAPE_ROUND - Preference for round shapes
+  - ACCESS_SHAPE_SQUARE - Preference for square shapes
+  - ACCESS_DREAD - Sensitivity to dread
+  - ACCESS_HARMONY - Appreciation of harmony
+- BATTLE_* - Battle-related stats
+  - BATTLE_BARRACKS_VANILLA - Satisfaction from barracks
+  - BATTLE_SOLDIERS - Satisfaction from military presence
+  - BATTLE_CHIVALRY - Appreciation of chivalrous combat
+  - BATTLE_ARCHERY_VANILLA - Satisfaction from archery ranges
+- POPULATION_* - Population-related stats
+  - POPULATION_SLAVES_SELF - Reaction to being enslaved
+  - POPULATION_SLAVES_OTHER - Reaction to other races being enslaved
+  - POPULATION_IMMIGRANTS - Reaction to immigrants
+  - POPULATION_WRONGFUL_DEATHS - Reaction to wrongful deaths
+  - POPULATION_FORMER_SLAVES - Reaction to former slaves
+- LAW_* - Law-related stats
+  - LAW_EXILE - Reaction to exile punishment
+  - LAW_PRISON - Reaction to prison punishment
+  - LAW_STOCKS - Reaction to stocks punishment
+  - LAW_EXECUTION - Reaction to execution punishment
+  - LAW_ARENA - Reaction to arena punishment
+  - LAW_ENSLAVED - Reaction to enslavement punishment
+  - LAW_PARDONED - Reaction to pardons
+  - LAW_JUDGEMENT - Reaction to judgements
+- ENVIRONMENT_* - Environmental factors
+  - ENVIRONMENT_UNBURRIED - Reaction to unburied corpses
+  - ENVIRONMENT_CANNIBALISM - Reaction to cannibalism
+- FOOD_* - Food-related stats
+  - FOOD_STARVATION - Reaction to starvation
+  - FOOD_FOOD_PREFFERENCE - Satisfaction from preferred food
+  - FOOD_FOOD_DAYS - Food storage satisfaction
+  - FOOD_FOOD_RATIONS - Reaction to food rationing
+  - FOOD_DRINK_RATIONS - Reaction to drink rationing
+- BURIAL_* - Burial-related stats
+  - BURIAL_TOMB_NORMAL - Satisfaction from proper burial
+- EDUCATION_* - Education-related stats
+  - EDUCATION_EDUCATION - Value placed on education
+- HOME_* - Home-related stats
+  - HOME_FURNITURE - Satisfaction from home furniture
+- MONUMENTS_* - Monument-related stats
+  - MONUMENTS_MONUMENT_PILLAR - Satisfaction from pillars
+  - MONUMENTS_MONUMENT_STATUE - Satisfaction from statues
+  - MONUMENTS_MONUMENT_FLOWER - Satisfaction from flowers
+  - MONUMENTS_MONUMENT_TREE - Satisfaction from trees
+  - MONUMENTS_MONUMENT_BLOB - Satisfaction from blob monuments
+  - MONUMENTS_MONUMENT_TORCH - Satisfaction from torches
+
+### STARTING STATS
+- STATS_ON_SPAWN: {
+  - STAT_CATEGORY: 0.0-1.0 - Starting value for stat
+}
+
+## RACIAL BONUSES AND PENALTIES
+
+### BOOST MODIFIERS
+- BOOST: {
+  - CATEGORY_SUBCATEGORY>ADD: -1.0-1.0 - Flat bonus/penalty
+  - CATEGORY_SUBCATEGORY>MUL: 0.0-2.0 - Percentage multiplier
+}
+
+### BOOST CATEGORIES:
+- RELIGION_* - Religious preferences
+  - RELIGION_ATHURI - Preference for Athuri religion
+  - RELIGION_CRATOR - Preference for Crator religion
+  - RELIGION_AMINION - Preference for Aminion religion
+  - RELIGION_SHMALOR - Preference for Shmalor religion
+- PHYSICS_* - Physical attributes
+  - PHYSICS_RESISTANCE_COLD - Resistance to cold
+  - PHYSICS_RESISTANCE_HOT - Resistance to heat
+  - PHYSICS_DEATH_AGE - Lifespan multiplier
+  - PHYSICS_MASS - Body mass
+  - PHYSICS_SPEED - Movement speed
+  - PHYSICS_SOILING - Rate of becoming dirty
+- ROOM_* - Room efficiency
+  - ROOM_MINE* - Mining efficiency
+  - ROOM_REFINER* - Refining efficiency
+  - ROOM_WORKSHOP* - Workshop efficiency
+  - ROOM_FARM* - Farming efficiency
+  - ROOM_ORCHARD* - Orchard efficiency
+  - ROOM_PASTURE* - Pasture efficiency
+  - ROOM_WOODCUTTER - Woodcutting efficiency
+  - ROOM_HUNTER - Hunting efficiency
+  - ROOM_FISHERY - Fishing efficiency
+  - ROOM_LIBRARY_NORMAL - Library efficiency
+  - ROOM_ADMIN_NORMAL - Administration efficiency
+  - ROOM_LABORATORY_NORMAL - Laboratory efficiency
+  - ROOM_UNIVERSITY* - University efficiency
+  - ROOM_STOCKPILE - Stockpile capacity
+- BATTLE_* - Combat abilities
+  - BATTLE_BLUNT - Blunt weapon skill
+  - BATTLE_SLASH - Slash weapon skill
+  - BATTLE_PIERCE - Pierce weapon skill
+  - BATTLE_DEFENCE - Defensive skill
+  - BATTLE_OFFENCE - Offensive skill
+  - BATTLE_MORALE - Combat morale
+  - BATTLE_SPEED - Combat speed
+  - BATTLE_DODGE - Dodge ability
+  - BATTLE_ARMOUR_PLATE - Armor effectiveness
+  - BATTLE_RANGED_BOW - Bow skill
+  - BATTLE_BLUNT_ATTACK - Blunt attack bonus
+- BEHAVIOUR_* - Behavioral traits
+  - BEHAVIOUR_SUBMISSION - Submission tendency
+  - BEHAVIOUR_LAWFULNESS - Law-abiding tendency
+  - BEHAVIOUR_SANITY - Mental stability
+- WORLD_BUILDING_* - World generation
+  - WORLD_BUILDING_AGRICULTURE* - Agricultural development
+  - WORLD_BUILDING_PASTURE* - Pasture development
+  - WORLD_BUILDING_MINE* - Mining development
+- RATES_* - Various rate modifiers
+  - RATES_MASSAGE - Massage effectiveness
+  - RATES_EXECUTION - Execution frequency
+  - RATES_HUNGER - Hunger rate
+- CIVIC_* - Civic-related modifiers
+  - CIVIC_MAINTENANCE - Maintenance cost
+
+## VISUAL APPEARANCE
+
+### SPRITE CONFIGURATION
+- SPRITE_FILE: RACENAME - Reference to sprite configuration file
+- ICON_SMALL: path - Small icon reference
+- ICON_BIG: path - Large icon reference
+
+### ROOM FLOOR OVERRIDES
+- ROOM_FLOOR_OVERRIDE: {
+  - ROOM_TYPE: [FLOOR_TYPES] - Floor types for specific rooms
+}
+
+## TOURIST SETTINGS
+- TOURIST: {
+  - OCCURENCE: 0.0-1.0 - Frequency of tourists
+  - CREDITS: 0.0-2.0 - Credits brought by tourists
+  - TOURIST_TEXT_FILE: NORMAL/CUSTOM - Tourist text file
+}
+
+## COMPATIBILITY
+- COMPATIBILITY: {
+  - DESCRIPTION - Text describing compatibility with other races
+}
+
+## BIO AND TEXT FILES
+
+### BIO FILES
+Bio files contain the textual information about your race, including descriptions, naming conventions, and cultural details. These are stored in the `assets/init/race/bio` directory.
+
+#### STANDARD BIO FILE STRUCTURE
+```
+RACE_NAME: {
+    NAME: "Race Name",
+    NAMES: "Race Names",
+    CITIZEN: {
+        MALE: {
+            NAME: "Male Name",
+            NAMES: "Male Names",
+        },
+        FEMALE: {
+            NAME: "Female Name",
+            NAMES: "Female Names",
+        },
+    },
+    NOBLE: {
+        MALE: {
+            NAME: "Noble Male Name",
+            NAMES: "Noble Male Names",
+        },
+        FEMALE: {
+            NAME: "Noble Female Name",
+            NAMES: "Noble Female Names",
+        },
+    },
+    SLAVE: {
+        MALE: {
+            NAME: "Slave Male Name",
+            NAMES: "Slave Male Names",
+        },
+        FEMALE: {
+            NAME: "Slave Female Name",
+            NAMES: "Slave Female Names",
+        },
+    },
+    DESCRIPTION: "A detailed description of the race, their history, culture, and notable characteristics.",
+}
+```
+
+#### NAMING CONVENTIONS
+- First names are defined in the bio file
+- Last names can be defined in the bio file or use a standard set:
+  - NAMESET_FILE: StdLast - Standard last names
+  - NAMESET_FILE_NOBLE: StdLastNoble - Noble last names
+  - You can create custom name sets in the `assets/init/race/names` directory
+
+#### DESCRIPTION WRITING TIPS
+1. Include origin and history of the race
+2. Describe physical characteristics
+3. Explain cultural values and social structure
+4. Mention religious preferences and beliefs
+5. Note special abilities or weaknesses
+6. Describe relationships with other races
+7. Include any unique customs or traditions
+
+### OPINION FILES
+Opinion files contain the text that appears when citizens express their opinions. These can be customized for each race to reflect their unique perspective.
+
+#### OPINION FILE STRUCTURE
+Opinion files are organized by emotional state:
+- OPINION_FILE_SCARED: Opinions when scared or threatened
+- OPINION_FILE_NORMAL: Everyday opinions
+- OPINION_FILE_CONFIDENT: Opinions when confident or happy
+
+Each file contains entries like:
+```
+CATEGORY_NAME: [
+    "Opinion text 1",
+    "Opinion text 2",
+    "Opinion text 3",
+],
+```
+
+#### COMMON OPINION CATEGORIES
+- GENERAL: General opinions about life
+- HAPPINESS: Comments about happiness level
+- FOOD: Opinions about food
+- DRINK: Opinions about drink
+- RELIGION: Religious comments
+- WORK: Opinions about jobs and work
+- HOUSING: Comments about living conditions
+- ENTERTAINMENT: Opinions about entertainment
+- CRIME: Comments about crime and punishment
+
+### WORLD NAMING
+The WORLD_NAME_FILE determines how this race names geographical features in the world:
+- Mountains
+- Forests
+- Rivers
+- Regions
+- Settlements
+
+Custom naming patterns can create a more immersive experience that reflects the race's culture and language style.
+
+### TOURIST AND RAID TEXT
+- TOURIST_TEXT_FILE: Determines what tourists of this race say when visiting
+- RAID_TEXT_FILE: Contains text for raid events involving this race
+- RAIDER_NAME_FILE: Naming conventions for raiders of this race
+
+## FILE STRUCTURE FOR RACE MODS
+
+For a complete race mod, you should include the following files:
+
+1. **Main Race File**: `RACENAME.txt` in `assets/init/race/`
+   - Contains all race properties, preferences, and stats
+
+2. **Sprite Configuration**: `RACENAME.txt` in `assets/init/race/sprite/`
+   - Defines visual appearance of the race
+
+3. **Home Configuration**: `RACENAME.txt` in `assets/init/race/home/`
+   - Defines housing options for the race
+
+4. **Bio File**: Custom bio file in `assets/init/race/bio/`
+   - Contains names and description
+
+5. **Optional Files**:
+   - Custom opinion files in `assets/init/race/opinion/`
+   - Custom name sets in `assets/init/race/names/`
+   - Custom world naming in `assets/init/race/worldname/`
+   - Custom king text in `assets/init/race/king/`
+   - Custom raid text in `assets/init/race/raid/`
+
+When creating a race mod, ensure all these files are properly referenced in the main race file.
+
+## SPRITE CONFIGURATION (in sprite/RACENAME.txt)
+
+### WORLD APPEARANCE
+- WORLD: {
+  - TOWN: SpriteName - Town sprite
+  - TOWN_COLOR: RGB_Values - Town color
+  - VILLAGE: SpriteName - Village sprite
+  - VILLAGE_COLOR: RGB_Values - Village color
+  - OVERLAY: SpriteName - Overlay sprite
+  - OVERLAY_COLOR: RGB_Values - Overlay color
+  - WALL: SpriteName - Wall sprite
+  - WALL_COLOR: RGB_Values - Wall color
+  - WALL_VILLAGE: SpriteName - Village wall sprite
+  - WALL_VILLAGE_COLOR: RGB_Values - Village wall color
+  - TERRAIN: SpriteName - Terrain sprite
+  - TERRAIN_COLOR: RGB_Values - Terrain color
+  - FARM: SpriteName - Farm sprite
+  - FARM_COLOR: [RGB_Values] - Farm colors (multiple options)
+}
+
+### SPECIAL SPRITES
+- CROWN: { - Crown for rulers
+  - FILE: SpriteName
+  - OFFX: X_Offset
+  - OFFY: Y_Offset
+}
+- MERC: { - Mercenary headgear
+  - FILE: SpriteName
+  - OFFX: X_Offset
+  - OFFY: Y_Offset
+}
+- RAIDER: [ - Raider headgear options
+  - {
+    - FILE: SpriteName
+    - OFFX: X_Offset
+    - OFFY: Y_Offset
+  }
+]
+- SLEEP_FILE: SpriteName - Sleeping sprite
+
+### COLORS
+- COLOR_CLOTHES: [ - Clothing color options
+  - {R: Red, G: Green, B: Blue}
+]
+- COLOR_BLOOD: {R: Red, G: Green, B: Blue} - Blood color
+- COLORS: {
+  - SKIN: {
+    - TURNS_WHITE_WHEN_DEAD: true/false
+    - VALUES: [ - Skin color options
+      - {R: Red, G: Green, B: Blue}
+    ]
+  }
+  - FEATURE: { - Facial feature colors
+    - TURNS_WHITE_WHEN_DEAD: true/false
+    - VALUES: [
+      - {R: Red, G: Green, B: Blue}
+    ]
+  }
+  - HAIR: { - Hair colors
+    - TURNS_GRAY_WHEN_OLD: true/false
+    - VALUES: [
+      - {R: Red, G: Green, B: Blue}
+    ]
+  }
+  - EYE: { - Eye colors
+    - VALUES: [
+      - {R: Red, G: Green, B: Blue}
+    ]
+  }
+  - LEG: { - Leg colors
+    - VALUES: [
+      - {R: Red, G: Green, B: Blue}
+    ]
+  }
+  - LIPS: { - Lip colors
+    - VALUES: [
+      - {R: Red, G: Green, B: Blue}
+    ]
+  }
+  - ARMOUR: { - Armor colors
+    - PICK_BY_STAT: STAT_NAME
+    - VALUES: [
+      - RGB_Values
+    ]
+  }
+}
+
+### CHARACTER TYPES
+- TYPES: [ - Different character types (male, female, etc.)
+  - {
+    - OCCURRENCE: 0.0-1.0 - Frequency of this type
+    - COLOR_SKIN: ColorSet - Skin color reference
+    - COLOR_LEG: ColorSet - Leg color reference
+    - FACE: [ - Facial features
+      - {
+        - FRAMES: [ - Sprite frames
+          - SpriteName: FrameNumber
+        ]
+      }
+    ]
+  }
+]
+
+## HOME CONFIGURATION (in home/RACENAME.txt)
+
+### CITIZEN HOMES
+- CITIZEN: {
+  - FLOORS: [ - Floor options
+    - {
+      - RESOURCES: { - Required resources
+        - ResourceName: Amount
+      }
+      - FLOOR: FloorType - Floor type
+    }
+  ]
+  - BED_1x1_TOP: [ - Bed top options
+    - {
+      - RESOURCES: { - Required resources
+        - ResourceName: Amount
+      }
+      - FPS: Frames_Per_Second
+      - SHADOW_LENGTH: Length
+      - SHADOW_HEIGHT: Height
+      - FRAMES: [ - Sprite frames
+        - SpriteName: FrameNumber
+      ]
+    }
+  ]
+  - BED_1x1_BOTTOM: [ - Bed bottom options
+    - Similar to BED_1x1_TOP
+  ]
+  - TABLE_COMBO: [ - Table options
+    - Similar structure to beds
+  ]
+  - CARPET_COMBO: [ - Carpet options
+    - Similar structure to beds
+  ]
+  - NIGHTSTAND_1x1: [ - Nightstand options
+    - Similar structure to beds
+  ]
+  - STORAGE_1x1: [ - Storage options
+    - Similar structure to beds
+  ]
+  - CHAIR_1x1: [ - Chair options
+    - Similar structure to beds
+  ]
+}
+
+### SLAVE HOMES
+- SLAVE: {
+  - Similar structure to CITIZEN but with fewer/simpler options
+}
+
+## NOTES ON BALANCING RACES
+
+1. MORAL ALIGNMENT
+   - Good races: Higher PACIFISM, LOYALTY, LAWFULNESS, lower BLOODLUST, CRUELTY
+     - Examples: Satyrs (ARGONOSH), Froggians (Q_AMEVIA)
+     - Religious preference: Temple of Athuri
+     - Work preferences: Intellectual, farming, crafting
+     - Behavioral traits: Peaceful, honorable, intellectual
+   
+   - Neutral races: Balanced traits, moderate values
+     - Examples: Finestorians (DONDORIAN), Northmen (HUMAN)
+     - Religious preference: Temple of Crator
+     - Work preferences: Mining, refining, trading
+     - Behavioral traits: Pragmatic, industrious, disciplined
+   
+   - Evil races: Higher BLOODLUST, CRUELTY, SLAVER, lower LAWFULNESS, LOYALTY
+     - Examples: Hellspawns (TILAPI), Bloodelves (CANTOR)
+     - Religious preference: Temple of Aminion
+     - Work preferences: Hunting, slaving, execution
+     - Behavioral traits: Cruel, opportunistic, bloodthirsty
+   
+   - Special case: Wormlings (GARTHIMI)
+     - Religious preference: Temple of Shmalor
+     - Work preferences: Mining, cannibalism
+     - Behavioral traits: Alien, parasitic
+
+2. RELIGIOUS PREFERENCES
+   - Temple of Athuri: Preferred by good races (Satyrs, Froggians)
+   - Temple of Crator: Preferred by neutral races (Finestorians, Northmen)
+   - Temple of Aminion: Preferred by evil races (Hellspawns, Bloodelves)
+   - Temple of Shmalor: Specialized following (Wormlings, some Bloodelves)
+
+3. WORK SPECIALIZATION
+   - Each race should excel in certain work types (1.0+) and be poor at others (<1.0)
+   - Balance industrial vs. agricultural abilities
+   - Consider racial lore when setting work preferences
+   - Examples:
+     - Finestorians: Mining, refining, crafting
+     - Humans: Farming, administration, education
+     - Garthimi: Mining, hunting, cannibalism
+     - Tilapi: Hunting, pastures, orchards
+
+4. COMBAT BALANCE
+   - Strong races: Higher BATTLE_* boosts, FIGHTER trait
+   - Weak races: Lower combat stats but better in other areas
+   - Consider weapon specializations (blunt, slash, pierce)
+   - Examples:
+     - Finestorians: Strong with blunt weapons, good defense
+     - Humans: Balanced combat abilities
+     - Tilapi: Fast, good with ranged weapons
+     - Garthimi: Unusual combat style, arena fighters
+
+5. ENVIRONMENTAL ADAPTATION
+   - Climate preferences should match racial lore
+   - Terrain preferences affect settlement patterns
+   - Consider special traits like AMPHIBIOUS for unique gameplay
+   - Examples:
+     - Finestorians: Mountain dwellers, cold-resistant
+     - Humans: Prefer open terrain, temperate climate
+     - Tilapi: Forest dwellers
+     - Q_Amevia: Amphibious, prefer wet terrain
+
+6. GROWTH AND EXPANSION
+   - Higher GROWTH and IMMIGRATION_RATE for faster expansion
+   - Lower values for slower, more controlled growth
+   - Balance with MAX population to prevent overpowering
+   - Examples:
+     - Garthimi: Very high growth rate (0.2) but limited acceptance
+     - Humans: Moderate growth (0.075) with good immigration
+     - Finestorians: Slow growth but steady
+
+7. COMPATIBILITY WITH OTHER RACES
+   - Values below 0.5 create tension and conflict
+   - Values above 0.5 promote harmony
+   - Consider historical relationships in lore
+   - Examples:
+     - Tilapi: Hostile to humans and Finestorians (0.0)
+     - Humans: Generally accepting of most races (0.75)
+     - Garthimi: Extremely xenophobic (0.02) except to a few races
+
+8. UNIQUE RACIAL IDENTITY
+   - Each race should have distinctive strengths and weaknesses
+   - Avoid making any race superior in all aspects
+   - Create meaningful trade-offs in abilities
+   - Examples:
+     - Finestorians: Excellent crafters but poor farmers
+     - Humans: Good at education but shorter lifespan
+     - Tilapi: Fast and good hunters but poor miners
+     - Q_Amevia: Intellectual but physically weaker
+
+## AVAILABLE ROOM TYPES FOR REFERENCES
+
+### CORE ROOMS
+ADMIN_NORMAL, BARRACKS_VANILLA, EATERY_NORMAL, FARM_*, MARKET_NORMAL, 
+MINE_*, NURSERY_*, REFINER_*, STOCKPILE, WORKSHOP_*
+
+### MILITARY
+ARCHERY_CROSSBOW_RANGE_RG2, ARCHERY_VANILLA, ARTILLERY_CATAPULT, 
+BARRACKS_VANILLA, MILITARY_SUPPLY
+
+### SERVICES
+BATH_NORMAL, HOSPITAL, INN, LAVATORY_NORMAL, LIBRARY_NORMAL, 
+PLEASURE_NORMAL, TAVERN_NORMAL, UNIVERSITY_NORMAL, WELL_NORMAL
+
+### RELIGIOUS
+SHRINE_AMINION, SHRINE_ATHURI, SHRINE_CRATOR, SHRINE_SHMALOR,
+TEMPLE_AMINION, TEMPLE_ATHURI, TEMPLE_CRATOR, TEMPLE_SHMALOR
+
+### ENTERTAINMENT AND CULTURE
+FIGHTPIT_NORMAL, MONUMENT_*, SPEAKER_NORMAL, STAGE_NORMAL
+
+### JUSTICE AND CONTROL
+ASYLUM, EXECUTION, PRISON, STOCKS
+
+### INFRASTRUCTURE
+BENCH, EXPORT, IMPORT, TRANSPORT, WATERCANAL, WATERDRAIN, WATERPUMP
+
+### WORKERS
+BUILDER, CONSTRUCTION, HAULER, JANITOR, PLACEMENT, SLAVER, WOODCUTTER

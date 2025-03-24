@@ -1,0 +1,7 @@
+NAME: "Law",
+DESC: "Keeps your subjects minds off potential rebellions",
+
+LEVELS: [
+	"Public Stocks",
+	"Gallows",
+],

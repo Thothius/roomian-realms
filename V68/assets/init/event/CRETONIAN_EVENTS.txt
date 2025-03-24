@@ -1,0 +1,731 @@
+THOUSAND_PUSH_CEREMONY: {
+	ICON: 32->WORK->0,
+	DURATION: {
+		DAYS: 5.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: { *: 1.0 },
+		TERRAIN: { *: 1.0 },
+		RACE: { 
+			*: 0,
+			CRETONIAN: 1.0
+		},
+		REQUIRES: {
+			GREATER: { 
+				POPULATION: 200,
+				ROOM_BARRACKS_AMOUNT: 2
+			}
+		}
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			THOUSAND_PUSH_CEREMONY
+		],
+		ADD: [
+			THOUSAND_PUSH_CEREMONY
+		]
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BATTLE_BLUNT>MUL: 1.5,
+					BATTLE_MORALE>MUL: 1.3,
+					PHYSICS_STAMINA>MUL: 1.5,
+					BEHAVIOUR_DISCIPLINE>MUL: 1.5,
+					BEHAVIOUR_HAPPINESS>MUL: 1.2
+				}
+			}
+		]
+	},
+},
+
+HORN_RESONANCE_RITUAL: {
+	ICON: 32->SEASONS->0,
+	DURATION: {
+		DAYS: 3.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: { *: 1.0 },
+		TERRAIN: { *: 1.0 },
+		RACE: { 
+			*: 0,
+			CRETONIAN: 1.0
+		},
+		REQUIRES: {
+			GREATER: { 
+				POPULATION: 150,
+				ROOM_TEMPLE_CRATOR_AMOUNT: 1
+			}
+		}
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			HORN_RESONANCE_RITUAL
+		],
+		ADD: [
+			HORN_RESONANCE_RITUAL
+		]
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BATTLE_INTIMIDATION>MUL: 1.5,
+					BEHAVIOUR_LOYALTY>MUL: 1.3,
+					BEHAVIOUR_SPIRITUAL>MUL: 1.5,
+					RATES_TEMPLE>MUL: 1.5
+				}
+			}
+		]
+	},
+},
+
+TAIJUTSU_TOURNAMENT: {
+	ICON: 32->BATTLE->0,
+	DURATION: {
+		DAYS: 4.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: { *: 1.0 },
+		TERRAIN: { *: 1.0 },
+		RACE: { 
+			*: 0,
+			CRETONIAN: 1.0
+		},
+		REQUIRES: {
+			GREATER: { 
+				POPULATION: 250
+			}
+		}
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			TAIJUTSU_TOURNAMENT
+		],
+		ADD: [
+			TAIJUTSU_TOURNAMENT
+		]
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BATTLE_DODGE>MUL: 1.4,
+					BATTLE_SPEED>MUL: 1.3,
+					BEHAVIOUR_HAPPINESS>MUL: 1.3,
+					RATES_ENTERTAINMENT>MUL: 2.0
+				}
+			}
+		]
+	},
+},
+
+MEDITATION_TRANCE: {
+	ICON: 32->SERVICE->2,
+	DURATION: {
+		DAYS: 6.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: { *: 1.0 },
+		TERRAIN: { *: 1.0 },
+		RACE: { 
+			*: 0,
+			CRETONIAN: 1.0
+		},
+		REQUIRES: {
+			GREATER: { 
+				POPULATION: 100
+			}
+		}
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			MEDITATION_TRANCE
+		],
+		ADD: [
+			MEDITATION_TRANCE
+		]
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_SANITY>MUL: 1.5,
+					BEHAVIOUR_DISCIPLINE>MUL: 1.4,
+					RATES_CRIME>MUL: 0.5,
+					RATES_REST>MUL: 1.5
+				}
+			}
+		]
+	},
+},
+
+PUSH_UP_MASTER_VISIT: {
+	ICON: 32->WORK->1,
+	DURATION: {
+		DAYS: 7.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: { *: 1.0 },
+		TERRAIN: { *: 1.0 },
+		RACE: { 
+			*: 0,
+			CRETONIAN: 1.0
+		},
+		REQUIRES: {
+			GREATER: { 
+				POPULATION: 300
+			}
+		}
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			PUSH_UP_MASTER_VISIT
+		],
+		ADD: [
+			PUSH_UP_MASTER_VISIT
+		]
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BATTLE_BLUNT>MUL: 1.3,
+					BATTLE_PIERCE>MUL: 1.3,
+					BATTLE_SLASH>MUL: 1.3,
+					BEHAVIOUR_LOYALTY>MUL: 1.4,
+					BEHAVIOUR_DISCIPLINE>MUL: 1.5
+				}
+			},
+			{
+				TYPE: SUBJECTS_ADD,
+				AMOUNTS: {
+					CRETONIAN: {
+						AMOUNT: 5,
+					},	
+				},
+				IMMIGRANT_TYPE: IMMIGRANT
+			}
+		]
+	},
+},
+
+BALANCED_STANCE_TRAINING: {
+	ICON: 32->BATTLE->1,
+	DURATION: {
+		DAYS: 5.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: { *: 1.0 },
+		TERRAIN: { *: 1.0 },
+		RACE: { 
+			*: 0,
+			CRETONIAN: 1.0
+		},
+		REQUIRES: {
+			GREATER: { 
+				POPULATION: 180,
+				ROOM_BARRACKS_AMOUNT: 1
+			}
+		}
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			BALANCED_STANCE_TRAINING
+		],
+		ADD: [
+			BALANCED_STANCE_TRAINING
+		]
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BATTLE_DEFENSE>MUL: 1.8,
+					BATTLE_DODGE>MUL: 1.6,
+					PHYSICS_STAMINA>MUL: 1.5,
+					BEHAVIOUR_DISCIPLINE>MUL: 1.4
+				}
+			}
+		]
+	},
+},
+
+CRATOR_HORN_BLESSING: {
+	ICON: 32->RELIGION->0,
+	DURATION: {
+		DAYS: 6.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: { *: 1.0 },
+		TERRAIN: { *: 1.0 },
+		RACE: { 
+			*: 0,
+			CRETONIAN: 1.0
+		},
+		REQUIRES: {
+			GREATER: { 
+				POPULATION: 220,
+				ROOM_TEMPLE_CRATOR_AMOUNT: 2
+			}
+		}
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			CRATOR_HORN_BLESSING
+		],
+		ADD: [
+			CRATOR_HORN_BLESSING
+		]
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_SPIRITUAL>MUL: 2.0,
+					RATES_TEMPLE>MUL: 1.8,
+					BATTLE_INTIMIDATION>MUL: 1.6,
+					BEHAVIOUR_LOYALTY>MUL: 1.5,
+					BEHAVIOUR_HAPPINESS>MUL: 1.4
+				}
+			}
+		]
+	},
+},
+
+MARTIAL_PHILOSOPHY_LECTURE: {
+	ICON: 32->CULTURE->0,
+	DURATION: {
+		DAYS: 4.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: { *: 1.0 },
+		TERRAIN: { *: 1.0 },
+		RACE: { 
+			*: 0,
+			CRETONIAN: 1.0
+		},
+		REQUIRES: {
+			GREATER: { 
+				POPULATION: 250,
+				ROOM_LIBRARY_AMOUNT: 1
+			}
+		}
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			MARTIAL_PHILOSOPHY_LECTURE
+		],
+		ADD: [
+			MARTIAL_PHILOSOPHY_LECTURE
+		]
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					RATES_KNOWLEDGE>MUL: 2.0,
+					BEHAVIOUR_DISCIPLINE>MUL: 1.8,
+					BEHAVIOUR_SANITY>MUL: 1.6,
+					BEHAVIOUR_HAPPINESS>MUL: 1.4
+				}
+			}
+		]
+	},
+},
+
+COMMUNAL_TRAINING_SESSION: {
+	ICON: 32->WORK->2,
+	DURATION: {
+		DAYS: 7.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: { *: 1.0 },
+		TERRAIN: { *: 1.0 },
+		RACE: { 
+			*: 0,
+			CRETONIAN: 1.0
+		},
+		REQUIRES: {
+			GREATER: { 
+				POPULATION: 280
+			}
+		}
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			COMMUNAL_TRAINING_SESSION
+		],
+		ADD: [
+			COMMUNAL_TRAINING_SESSION
+		]
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					RATES_WORK>MUL: 1.8,
+					PHYSICS_STAMINA>MUL: 1.6,
+					BEHAVIOUR_HAPPINESS>MUL: 1.5,
+					BEHAVIOUR_LOYALTY>MUL: 1.4
+				}
+			}
+		]
+	},
+},
+
+PUSH_UP_TAIJUTSU_MASTERY: {
+	ICON: 32->BATTLE->2,
+	DURATION: {
+		DAYS: 8.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: { *: 1.0 },
+		TERRAIN: { *: 1.0 },
+		RACE: { 
+			*: 0,
+			CRETONIAN: 1.0
+		},
+		REQUIRES: {
+			GREATER: { 
+				POPULATION: 350,
+				ROOM_BARRACKS_AMOUNT: 3,
+				ROOM_TEMPLE_CRATOR_AMOUNT: 1
+			}
+		}
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			PUSH_UP_TAIJUTSU_MASTERY
+		],
+		ADD: [
+			PUSH_UP_TAIJUTSU_MASTERY
+		]
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BATTLE_BLUNT>MUL: 2.0,
+					BATTLE_DODGE>MUL: 2.0,
+					BATTLE_DEFENSE>MUL: 1.8,
+					BATTLE_SPEED>MUL: 1.8,
+					PHYSICS_STAMINA>MUL: 1.8,
+					BEHAVIOUR_DISCIPLINE>MUL: 1.6,
+					BEHAVIOUR_SPIRITUAL>MUL: 1.6,
+					BEHAVIOUR_LOYALTY>MUL: 1.5
+				}
+			},
+			{
+				TYPE: SUBJECTS_ADD,
+				AMOUNTS: {
+					CRETONIAN: {
+						AMOUNT: 8,
+					},	
+				},
+				IMMIGRANT_TYPE: IMMIGRANT
+			}
+		]
+	},
+},
+
+HORN_RESONANCE_HARMONY: {
+	ICON: 32->ENTERTAINMENT->1,
+	TEXT: "Your Pasunkas have achieved a perfect harmony in their horn resonance techniques. This synchronized resonance has enhanced their spiritual connection and improved their physical and mental capabilities.",
+	DURATION: {
+		DAYS: 10.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: { *: 1.0 },
+		TERRAIN: { *: 1.0 },
+		RACE: { 
+			*: 0,
+			CRETONIAN: 1.0
+		},
+		REQUIRES: {
+			GREATER: { 
+				POPULATION: 200,
+				ROOM_ENTERTAINMENT_TAVERN_AMOUNT: 1
+			}
+		}
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			HORN_RESONANCE_HARMONY
+		],
+		ADD: [
+			HORN_RESONANCE_HARMONY
+		]
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_DISCIPLINE>MUL: 1.7,
+					BEHAVIOUR_SPIRITUAL>MUL: 1.6,
+					BATTLE_MORALE>MUL: 1.5,
+					BEHAVIOUR_HAPPINESS>MUL: 1.4
+				}
+			}
+		]
+	},
+},
+
+THOUSAND_PUSH_ENLIGHTENMENT: {
+	ICON: 32->BATTLE->1,
+	TEXT: "A group of your Pasunkas warriors has achieved enlightenment through the Thousand-Push discipline. This spiritual and physical breakthrough has inspired others and enhanced the martial prowess of your settlement.",
+	DURATION: {
+		DAYS: 12.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: { *: 1.0 },
+		TERRAIN: { *: 1.0 },
+		RACE: { 
+			*: 0,
+			CRETONIAN: 1.0
+		},
+		REQUIRES: {
+			GREATER: { 
+				POPULATION: 180,
+				ROOM_MILITARY_BARRACKS_AMOUNT: 2
+			}
+		}
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			THOUSAND_PUSH_ENLIGHTENMENT
+		],
+		ADD: [
+			THOUSAND_PUSH_ENLIGHTENMENT
+		]
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BATTLE_ATTACK>MUL: 1.7,
+					BATTLE_DEFENSE>MUL: 1.6,
+					BEHAVIOUR_DISCIPLINE>MUL: 1.5,
+					BEHAVIOUR_LOYALTY>MUL: 1.4
+				}
+			}
+		]
+	},
+},
+
+CRATOR_DISCIPLINE_BLESSING: {
+	ICON: 32->RELIGION->0,
+	TEXT: "Crator Astari has bestowed a blessing upon your Pasunkas, recognizing their disciplined lifestyle and martial philosophy. This divine favor has enhanced their spiritual connection and physical capabilities.",
+	DURATION: {
+		DAYS: 15.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: { *: 1.0 },
+		TERRAIN: { *: 1.0 },
+		RACE: { 
+			*: 0,
+			CRETONIAN: 1.0
+		},
+		REQUIRES: {
+			GREATER: { 
+				POPULATION: 220,
+				ROOM_TEMPLE_CRATOR_AMOUNT: 1,
+				RELIGION_CRATOR_F: 0.6
+			}
+		}
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			CRATOR_DISCIPLINE_BLESSING
+		],
+		ADD: [
+			CRATOR_DISCIPLINE_BLESSING
+		]
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_SPIRITUAL>MUL: 1.7,
+					BEHAVIOUR_DISCIPLINE>MUL: 1.6,
+					BATTLE_ATTACK>MUL: 1.4,
+					BATTLE_DEFENSE>MUL: 1.3
+				}
+			}
+		]
+	},
+},
+
+MARTIAL_ARTS_INNOVATION: {
+	ICON: 32->BATTLE->2,
+	TEXT: "Your Pasunkas martial artists have developed a new technique that combines their traditional Taijutsu with innovative combat strategies. This advancement has enhanced their fighting capabilities and inspired a new generation of warriors.",
+	DURATION: {
+		DAYS: 14.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: { *: 1.0 },
+		TERRAIN: { *: 1.0 },
+		RACE: { 
+			*: 0,
+			CRETONIAN: 1.0
+		},
+		REQUIRES: {
+			GREATER: { 
+				POPULATION: 250,
+				ROOM_MILITARY_BARRACKS_AMOUNT: 3
+			}
+		}
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			MARTIAL_ARTS_INNOVATION
+		],
+		ADD: [
+			MARTIAL_ARTS_INNOVATION
+		]
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BATTLE_ATTACK>MUL: 1.8,
+					BATTLE_DEFENSE>MUL: 1.5,
+					KNOWLEDGE_GAIN_MILITARY>MUL: 1.4,
+					BEHAVIOUR_HAPPINESS>MUL: 1.3
+				}
+			}
+		]
+	},
+},
+
+BALANCED_HARMONY_MEDITATION: {
+	ICON: 32->HEALTH->0,
+	TEXT: "Your Pasunkas have engaged in a collective meditation focused on achieving balanced harmony between body and spirit. This practice has enhanced their mental clarity, physical health, and social cohesion.",
+	DURATION: {
+		DAYS: 8.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: { *: 1.0 },
+		TERRAIN: { *: 1.0 },
+		RACE: { 
+			*: 0,
+			CRETONIAN: 1.0
+		},
+		REQUIRES: {
+			GREATER: { 
+				POPULATION: 150
+			}
+		}
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			BALANCED_HARMONY_MEDITATION
+		],
+		ADD: [
+			BALANCED_HARMONY_MEDITATION
+		]
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_HEALTH>MUL: 1.6,
+					BEHAVIOUR_HAPPINESS>MUL: 1.5,
+					BEHAVIOUR_DISCIPLINE>MUL: 1.4,
+					BEHAVIOUR_LOYALTY>MUL: 1.3
+				}
+			}
+		]
+	},
+}

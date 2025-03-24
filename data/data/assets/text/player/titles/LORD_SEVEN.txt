@@ -1,0 +1,2 @@
+NAME: "Lord of the Seven Kingdoms",
+DESC: "Control 7 regions to gain this ancient and prestigious title.",

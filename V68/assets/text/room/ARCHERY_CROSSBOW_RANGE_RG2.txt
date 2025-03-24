@@ -1,0 +1,29 @@
+INFO: {
+	NAME: "Crossbow range",
+	NAMES: "Crossbow ranges",
+	DESC: "Train your soldiers to improve their crossbow skills.",
+},
+
+STATS: [
+	{
+		NAME: "Capacity",
+		DESC: "The amount of soldiers this room can train",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Training Targets",
+		DESC: "Increases the amount of soldiers this room can train.",
+	},
+],
+
+EMPLOYMENT: {
+	TITLE: "Conscript",
+	VERB: "Training",
+},
+
+TRAINING: {
+	NAME: "Crossbow Training",
+	DESC: "Crossbow training, honed at the Crossbow Range. Increases crossbow skill.",
+},

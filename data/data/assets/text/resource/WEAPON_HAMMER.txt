@@ -1,0 +1,3 @@
+NAME: "Warhammer",
+NAMES: "Warhammers",
+DESC: "A brute force weapon that causes blunt damage and some pierce.",

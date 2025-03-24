@@ -1,0 +1,9 @@
+
+NAME: "Quarantine",
+DESC: "Enforce a quarantine to significantly increase sanitation.",
+
+LEVELS: [
+	"Quarantine",
+	"Super Quarantine",
+],
+

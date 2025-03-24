@@ -1,0 +1,215 @@
+** string can be added to each array. Up to 32 strings per array. 
+** the strings are inserted with the following. Note that some can be null if put in the wrong strings:
+** {NAME} = name of subject
+** {AGE} = age in years
+** {RACE} = race singular
+** {RACES} = race plural
+** {RACE_POSSESSIVE} = Possessive such as 'Cretonian'
+** {CLASS} = eg slave
+** {HEALTH} = poor|good|excellent, based on the health stat.
+** {TRAITS} = a string of traits
+** {RND_REGION} = a random region of the world.
+** {HOME_TYPE} = type of home
+** {HOME_LOCATION} = north west, etc.
+** {HOME_MATES} = people that subject shares house with.
+** {DIVISION} = signed up division.
+** {FRIEND_NAME} = name of friend.
+** {FRIEND_LOC} = north west, etc.
+** {FRIEND_RACE} = name of friend race
+** {FRIEND_TITLE} = name of friend race
+** {WORKPLACE} = name of workplace
+** {RND_PROFESSION} = something with high work pref.
+** {RELIGION} = what religion "athurism"
+** {RELIGION_GOD} = the gods name
+** {HE} = pronoun he/she
+** {HEC} = pronoun capital He/She
+** {HIS} = pronoun his/hers
+** {HISC} = pronoun capital His/Hers
+** {HIM} = pronoun him/her
+** {HIMC} = pronoun capital Him/Her
+** {HIMSELF} = pronoun himself/herself
+** {HIMSELFC} =  pronoun Himself/Herself
+** {YOU} = milord, great king, etc.
+** {CITY} = City, hive, hold, etc.
+
+**Will be bundled with INFO_TITLE hence the comma, 
+INFO_GENERAL: [
+	"{NAME} is a {AGE} year old {RACIAN} {CLASS},",
+	"{NAME}, age {AGE}, is a reliable {RACIAN} {CLASS},",
+	"{NAME}, a {AGE} year old, dreamy {RACIAN} {CLASS},",
+	"{NAME}, a {AGE} year old is a stout {RACIAN} {CLASS},",
+	"{NAME}, age: {AGE}. A {RACIAN} {CLASS},",
+],
+
+INFO_OTHER: [
+	"{NAME} is a {AGE} year old {RACIAN} {TITLE}, weighing {WEIGHT} stones, and stands {HEIGHT} tathe tall.",
+],
+
+** 0 = title
+INFO_TITLE: [
+	"doing everything possible to serve you best as a {TITLE}.",
+	"proudly serving you as a {TITLE}.",
+	"serving your grace as a {TITLE}.",
+	"serving, at your pleasure, as a {TITLE}.",
+],
+
+INFO_GENERAL2: [
+	"{HEC} is in {HEALTH} health, weighs an impressive {WEIGHT} stones, and stands {HEIGHT} tathe tall.",
+	"{HISC} general health is {HEALTH}, recorded weight: {WEIGHT}, and height: {HEIGHT} tathe.",
+	"{HISC} general health is {HEALTH}, height: {HEIGHT} tathe, but has declined being measured for weight.",
+	"Height: {HEIGHT} tathe, weight: {WEIGHT} stones.",
+],
+
+INFO_GENERAL3: [
+	"A follower of {RELIGION_GOD}.",
+	"Follows and worships {RELIGION_GOD}.",
+	"The god of his kin is {RELIGION_GOD}.",
+	"{HE} is a follower of {RELIGION}.",
+],
+
+ORIGIN_NATIVE: [
+	"Is native to the {RACE_CITY}.",
+	"Was born here.",
+	"Born and raised in your mighty {RACE_CITY}.",
+	"{HE} was proudly born and raised in our great {RACE_CITY}.",
+],
+
+ORIGIN_IMMI: [
+	"Has immigrated to your city. Originates from a village in the region of {RND_REGION}.",
+	"Originally from the region of {RND_REGION}.",
+	"Was born in a foreign land.",
+	"{NAME} has roots from {RND_REGION}.",
+],
+ORIGIN_FREED: [
+	"Was a former slave until freed by your grace. Is forever thankful.",
+	"{HE} used to be a faithful slave until the fine day when {HIS} {RACE_LORD} saw it fit to free {HIM}..",
+	"Was once a slave.",
+	"As a former slave {HE} is doing {HIS} best to make it up to your generosity.",
+],
+ORIGIN_PAROLE: [
+	"Had some unfortunate encounters with our law enforcement in the past, but has since then tried to make up for it.",
+	"Is a convicted felon, but pleads innocence to this day.",
+	"Has a violent past, but claims to be a reborn and pure {RACE} these days.",
+	"Once got arrested. Would prefer not to talk about it.",
+],
+ORIGIN_SOLDIER: [
+	"Had served on one of your military campaigns abroad. Now looking forward to a civilian life.",
+	"{NAME} is a veteran and has proudly served you abroad.",
+	"{NAME} has many scars from military service. {HEC} wears them proudly.",
+	"Has served his {RACE_LORD} proudly in the military.",
+],
+ORIGIN_INSANE: [
+	"Had a bit of a stressful incident once, but the good chaps in the asylum really worked wonders.",
+	"{HEC} used to be clinically insane, but was cured through the wonders of {RELIGION_GOD}.",
+	"Has just been released from the asylum.",
+	"{NAME} is fresh out of the Asylum. Apparently {HE} still hears voices, but it's nothing serious.",
+],
+
+HOME: [
+	"Resides in a humble {HOME_TYPE} in the {HOME_LOCATION} part of the {RACE_CITY}, together with {HOME_MATES}.",
+	"{HEC} lives a {HOME_TYPE}, together with {HOME_MATES}.",
+	"{HEC} along with {HOME_MATES} live in the {HOME_LOCATION} part of the {RACE_CITY}.",
+	"{HE} lives in the {HOME_LOCATION} part of the {RACE_CITY}.",
+],
+
+HOME_ALONE: [
+	"Resides alone in a humble {HOME_TYPE} in the {HOME_LOCATION} part of the city.",
+	"{HEC} lives a {HOME_TYPE}.",
+	"{HEC} lives in the {HOME_LOCATION} part of the {RACE_CITY}.",
+],
+
+HOME_NONE_WORK: [
+	"Has not been able to find a place to live in proximity to its workplace.",
+],
+
+HOME_NONE: [
+	"Has not been able to find a place to live in your city.",
+],
+
+HOME_NONE_SEARCH: [
+	"Has not yet been shopping for a home, but will look for one soon.",
+],
+
+HOME_NOBLE: [
+	"Resides in {HOME} in the {HOME_LOCATION} part of the city.",
+],
+
+DIVISION: [
+	"Serves as a soldier in division: {DIVISION}, ready to answer your call.",
+],
+
+DIVISION_RECRUIT: [
+	"Is training to join division {DIVISION}.",
+],
+
+DIVISION_NONE: [
+	"Is not enlisted in our armed forces.",
+],
+
+WORK_NOBLE: [
+	"Busy inspecting the responsibilities your majesty has appointed it with.",
+],
+
+WORK_EMPLOYED: [
+	"Working hard for your majesty in {WORKPLACE}. Efficiency is one of its main priorities.",
+],
+
+WORK_UNEMPLOYED: [
+	"Has no workplace to go to, but is ready and able to take on any odd job your majesty sees fit.",
+],
+
+WORK_LEISURE: [
+	"Work day is over, over at {WORKPLACE} and this subject is currently enjoying its leisure time, that your majesty is so generously providing.",
+],
+
+FRIEND: [
+	"Reportedly spends a lot of time with {FRIEND_NAME}, a {FRIEND_RACE} {FRIEND_TITLE} in the {FRIEND_LOC} part of the city.",
+	"{HISC} best friend is named {FRIEND_NAME}, and lives in the {FRIEND_LOC} part of the city.",
+],
+
+FRIEND_ENEMY: [
+	"Has a ongoing feud with {FRIEND_NAME}, a {FRIEND_RACE} {FRIEND_TITLE}, last seen in the {FRIEND_LOC} part of the city.",
+	"Is a mortal enemy of {FRIEND_NAME}, a {FRIEND_RACE} {FRIEND_TITLE}, residing in the {FRIEND_LOC} part of the city.",
+],
+
+FRIEND_OTHER: [
+	"Has an uncanny relationship with a {ANIMAL_FRIEND_NAME}",
+],
+
+DREAMS: [
+    "Has always dreamt of being a {RND_PROFESSION}.",
+    "Always aspired to be a {RND_PROFESSION}",
+    "Can hear the voices of the gods, and is renowned for seeing into the future.",
+],
+
+DREAMS_CHILD: [
+    "Likes to play.",
+],
+
+TRAIT: {
+	
+},
+
+HAPPY: [
+	"Pleased with the city. Demands:",
+],
+HAPPY_SOSO: [
+	"Displeased with the city. Demands:",
+],
+HAPPY_NO: [
+	"Furious about your rule. Demands:",
+],
+NOTHING: [
+	"For the time being, nothing.",
+],
+FUNNY: [
+	"Show the gods more respect. Straighten your back, chin up.",
+],
+
+STATS_MORE: {
+
+},
+
+STATS_LESS: {
+
+},

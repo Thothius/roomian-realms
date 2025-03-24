@@ -1,0 +1,28 @@
+NAME: "Orchards",
+TECHS: {
+	OBAS0: {
+		NAME: "Basic Orchards",
+		DESC: "",
+	},
+	TOOL0: {
+		NAME: "Orchard Tools",
+		DESC: "",
+	},
+	OFRU0: {
+		NAME: "Fruit Tree Revolution",
+		DESC: "",
+	},
+	OFRU1: {
+		NAME: "Fruit Tree Advancements",
+		DESC: "",
+	},
+	OFRU2: {
+		NAME: "Specialized Fruit Tools",
+		DESC: "",
+	},
+	INDU0: {
+		NAME: "Tree Specialists",
+		DESC: "",
+	},
+},
+

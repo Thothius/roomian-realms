@@ -1,0 +1,16 @@
+NAME: "Cunning",
+TITLE: "The Cunning",
+DESC: "Has a pragmatic approach to honour and is not hindered by scruples when making plans and decisions.",
+
+BIO_DESC: [
+	"A friend, {FRIEND_NAME}, reports that {NAME} never repays his debts.", 
+	"{HEC} is not above using underhanded tricks to get ahead.",
+	"{NAME} values the ends much higher than the means.",
+	"Everyone knows {NAME} fights dirty and keep away from {HIM} in the streets.",
+	"Is sly for a {RACE}.",
+	"Rarely tells his friends what {HE} is really thinking.",
+	"Often schemes to attain minor advantages.",
+	"Is not to be trusted when {HE} is not working.",
+	"{NAME} values the ends much higher than the means.",
+	"Will immediately gossip about things that {HE} have been confided with.",
+],

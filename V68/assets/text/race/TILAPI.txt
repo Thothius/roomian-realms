@@ -1,0 +1,355 @@
+DESC_LONG: "Hellspawns are terrifying manifestations of chaos and destruction, born during the cataclysmic Void Breach when the barriers between realms shattered and infernal essence poured into the mortal world. Their appearance varies widely—some resemble humanoids with crimson skin, twisted horns, and bat-like wings, while others take more monstrous forms with multiple limbs, exposed musculature, or bodies perpetually wreathed in ghostly fire. What unites them all is the unmistakable aura of dread they project, their brutish demeanor, and the supernatural resilience that allows them to endure conditions that would destroy most mortal beings.
+
+Their society, if it can be called that, is built upon the 'Dominion Hierarchy'—a brutal system where authority is earned through displays of cruelty and strength. Those who can inflict the greatest pain and destruction rise to positions of power, with leadership constantly challenged through ritual combat in the 'Crucibles of Ascension'—arenas where aspirants battle not just their opponents but also summoned abyssal entities. Hellspawn settlements are architectural nightmares of crudely constructed obsidian spires, chains, and perpetually burning pyres that serve both as light sources and places of worship. The air is thick with sulfurous fumes and the distant sounds of agony from countless slaves—a constant reminder of their cruel nature.
+
+In warfare, Hellspawns are terrifying opponents who seem to draw strength from carnage and destruction. Their fighting style is direct and brutal, relying on overwhelming force rather than finesse or strategy. They prefer heavy, devastating weapons designed to maximize suffering rather than deliver quick deaths—massive hammers, serrated blades, and spiked maces that tear flesh and prolong the victim's torment. Their primitive armor, forged in hellfire and quenched in the blood of sacrifices, is adorned with the preserved faces of worthy opponents. Most fearsome are the 'Soulforged Weapons'—terrible instruments of war that contain trapped spirits of powerful enemies, allowing the wielder to draw upon their strength and knowledge while subjecting the imprisoned soul to eternal torment.
+
+Hellspawns approach diplomacy as an extension of intimidation—they respect only strength and submission. They harbor a deep hatred for all other races, viewing them as either threats to be destroyed or potential slaves to be broken. The sole exception to this hatred are the Bloodelves, whom they regard with a wary respect due to their shared appreciation for suffering and darkness. As their ancient proverb states: 'Strength crushes, fire consumes, and the weak serve or perish.'",
+NAME: "Hellspawn",
+NAMES: "Hellspawns",
+POSSESSIVE: "Hellspawn",
+POSSESSIVES: "Hellspawn",
+DESC: "Born from the fires of the abyss, Hellspawns are demonic entities that embody chaos and destruction. Their skin ranges from deep crimson to obsidian black, often marked with glowing runes and adorned with bony protrusions. They thrive in extreme heat and draw power from darkness, making them formidable warriors who can channel agony into strength. Hellspawns respect power and pain in equal measure, forming blood pacts rather than traditional alliances.",
+PRONOUN_HE: ["it", "he", "she",],
+PRONOUN_HEC: ["It", "He", "She",],
+PRONOUN_HIM: ["it", "him", "her",],
+PRONOUN_HIMC: ["It", "Him", "Her",],
+PRONOUN_HIS: ["its", "his", "her",],
+PRONOUN_HISC: ["Its", "His", "Her",],
+PRONOUN_HIMSELF: ["itself", "himself", "herself",],
+PRONOUN_HIMSELFC: ["Itself", "Himself", "Herself",],
+
+HELLO: [
+	"Your suffering intrigues us",
+	"Pain awaits, mortal",
+	"Your soul smells... delicious",
+	"We sense your fear... good",
+	"The abyss watches through our eyes",
+	"Your agony will be exquisite",
+	"Your torment shall feed us",
+	"Scream for us, mortal",
+	"Your flesh is but a canvas",
+	"The chains of the damned await",
+	"Submit to eternal torment",
+	"Your suffering shall be legendary",
+],
+GOODBYE: [
+	"Pain eternal",
+	"The abyss claims all",
+	"Suffer well",
+	"Your torment awaits",
+	"We shall meet in fire",
+	"The chains will find you",
+	"Your screams will echo",
+	"Darkness consumes all",
+	"Your soul is marked",
+	"The pain never ends",
+	"Hellfire follows",
+	"Your suffering pleases us",
+],
+CURSE: [
+	"By the eternal flames!",
+	"Chains of torment!",
+	"Abyssal darkness!",
+	"Blood and agony!",
+	"Suffering incarnate!",
+	"Unholy damnation!",
+	"Writhing souls!",
+	"Endless torment!",
+	"Burning flesh!",
+	"Hellfire consume you!",
+	"Wailing abyss!",
+	"Torturous eternity!",
+],
+INSULT: [ 
+	"pain-resistant weakling",
+	"flame-fearing mortal",
+	"torment-intolerant flesh-bag",
+	"suffering-ignorant waste",
+	"agony-fleeing coward",
+	"chain-deserving soul",
+	"screaming disappointment",
+	"torture-unworthy flesh",
+	"pain-threshold embarrassment",
+	"abyss-rejected failure",
+	"hellfire-immune insect",
+	"suffering-resistant disgrace",
+],
+INSULTING: [
+	"pain-ignorant",
+	"flame-repelled",
+	"torment-avoiding",
+	"suffering-fleeing",
+	"agony-fearing",
+	"chain-deserving",
+	"scream-lacking",
+	"torture-resistant",
+	"pain-threshold-tiny",
+	"abyss-rejected",
+	"hellfire-immune",
+	"suffering-inadequate",
+],
+LORD: [
+	"Torment Sovereign",
+	"Abyssal Lord",
+	"Pain Master",
+	"Hellfire King",
+	"Blood Harvester",
+	"Agony Prince",
+	"Infernal Overlord",
+	"Shadow Dominator",
+	"Brimstone Monarch",
+	"Soul Collector",
+],
+CITY: [
+	"pain-citadel",
+	"torment-forge",
+	"hellfire-haven",
+	"abyssal-spire",
+	"suffering-pit",
+	"obsidian-vault",
+	"brimstone-hold",
+	"shadow-dominion",
+	"infernal-crucible",
+	"agony-nexus",
+],
+OTHERS: [
+	"mortal-weaklings",
+	"soul-vessels",
+	"pain-ignorant",
+	"flame-fearing",
+	"torture-unworthy",
+	"suffering-blind",
+	"chain-deserving",
+	"agony-resistant",
+	"shadow-fleeing",
+	"torment-fodder",
+],
+SELVES: [
+	"flame-born",
+	"torment-blessed",
+	"pain-children",
+	"abyss-touched",
+	"shadow-favored",
+	"suffering-enlightened",
+	"hellfire-kindred",
+	"darkness-bound",
+	"brimstone-forged",
+	"agony-embracers",
+],
+SELF: [
+	"flame-born",
+	"torment-blessed",
+	"pain-child",
+	"abyss-touched",
+	"shadow-favored",
+	"suffering-enlightened",
+	"hellfire-kin",
+	"darkness-bound",
+	"brimstone-forged",
+	"agony-embracer",
+],
+CHILDREN: [
+	"flame-spawn",
+	"torment-seeds",
+	"pain-offspring",
+	"shadow-young",
+	"hellfire-cubs",
+	"abyssal-young",
+	"brimstone-offspring",
+	"agony-bearers",
+	"darkness-scions",
+	"suffering-heirs",
+],
+TITLE_NOBLE: [
+	"Torment",
+	"Agony",
+	"Pain",
+	"Suffering",
+	"Hellfire",
+	"Abyssal",
+	"Brimstone",
+	"Infernal",
+	"Damnation",
+	"Shadow",
+	"Flame",
+	"Torture",
+],
+TITLE_KING: [
+	"Overlord of Agony",
+	"Pain Sovereign",
+	"Torment Emperor",
+	"Hellfire Monarch",
+	"Abyssal Ruler",
+	"Suffering Archon",
+	"Damnation Lord",
+	"Infernal Majesty",
+	"Shadow Dominion",
+	"Supreme Torturer",
+	"Brimstone Imperator",
+	"Flame Tyrant",
+],
+TITLE_COMMANDER: [
+	"Pain Marshal",
+	"Agony General",
+	"Torment Captain",
+	"Suffering Commander",
+	"Hellfire Warmaster",
+	"Abyssal Strategist",
+	"Shadow Tactician",
+	"Blood Warlord",
+	"Infernal Executor",
+	"Chain Commander",
+	"Damnation Officer",
+	"Flame Battalioner",
+],
+ARMY_NAMES: [
+	"Pain Legion",
+	"Torment Brigade",
+	"Agony Corps",
+	"Hellfire Battalion",
+	"Abyssal Regiment",
+	"Shadow Warband",
+	"Suffering Cavalry",
+	"Infernal Vanguard",
+	"Brimstone Destroyers",
+	"Damnation Horde",
+	"Chains of Annihilation",
+	"Blood Harvesters",
+],
+CITY_NAMES: [
+	"Agonython",
+	"Tormentar",
+	"Hellforge",
+	"Abyssalheim",
+	"Painopolis",
+	"Suffergrad",
+	"Damnationville",
+	"Infernus",
+	"Brimstonehaven",
+	"Shadowkeep",
+	"Burningreach",
+],
+FIRST_NAMES: [
+	"Agony",
+	"Torment",
+	"Pain",
+	"Suffer",
+	"Flame",
+	"Ash",
+	"Scorch",
+	"Sear",
+	"Burn",
+	"Singe",
+	"Smolder",
+	"Blaze",
+	"Char",
+	"Ember",
+	"Hellion",
+	"Molten",
+	"Scream",
+	"Wail",
+	"Anguish",
+	"Misery",
+	"Despair",
+	"Dread",
+	"Horror",
+],
+LAST_NAMES: [
+	"Hellbringer",
+	"Soulreaper",
+	"Fleshrender",
+	"Painweaver",
+	"Blooddrinker",
+	"Ashwalker",
+	"Chaintormentor",
+	"Flamekindler",
+	"Abysswalker",
+	"Doomharbinger",
+	"Griefmaster",
+	"Agonysmith",
+	"Hellforged",
+	"Brimstoneborn",
+	"Shadowtouched",
+	"Flametongue",
+	"Painbringer",
+	"Soulscarred",
+],
+LORE: "The Hellspawns are not born but forged in the eternal fires of the abyss. Their crimson skin, reminiscent of freshly spilled blood, is constantly hot to the touch and occasionally emits wisps of sulfurous smoke when they experience strong emotions. Their society is built upon brute force and dominance—those who can inflict the most suffering while demonstrating the greatest strength rise to positions of authority.
+
+Unlike other races who value knowledge or craftsmanship, Hellspawns prize only strength and the ability to dominate others. Their technological development is extremely limited, relying on primitive methods and slave labor to accomplish even basic tasks. What they lack in innovation, they make up for in brute force and numbers, often enslaving other races to perform tasks requiring finesse or intelligence. The most important social ritual in their culture is the 'Binding of Chains,' where newly captured slaves are branded and broken before the tribe, cementing the Hellspawn's position in the hierarchy based on how many slaves they control.
+
+Hellspawns harbor an intense hatred for all other races, seeing them as either threats to be eliminated or resources to be exploited. The only exception to this universal hatred is their unusual tolerance for Bloodelves, whose appreciation for darkness and suffering resonates with Hellspawn sensibilities. This rare alliance is pragmatic rather than friendly—Hellspawns provide muscle and intimidation, while Bloodelves offer strategic guidance and magical knowledge that the brutish Hellspawns could never develop on their own. Their favorite saying, bellowed during raids and conquests, translates roughly to 'The strong rule, the weak serve, and the dead no longer matter.'",
+HISTORY: "Hellspawns emerged during the catastrophic 'Void Breach' approximately two millennia ago, when the mad sorcerer Malakor attempted to harness powers beyond mortal comprehension. His ritual tore open the barriers between realms, allowing infernal energies to pour into the world and corrupt those caught in the initial blast. The first Hellspawns were transformed humans, elves, and other mortal races whose bodies and souls were twisted by exposure to these chaotic energies.
+
+In the aftermath of the Breach, these newly-formed Hellspawns gathered under the leadership of Vex'tharion the Worldscorcher—a former elven archmage whose ambition had been amplified a thousandfold by his transformation. He established the first Dominion Hierarchy and led the early Hellspawns on a devastating campaign known as the 'Crimson Conquest,' laying waste to kingdoms that had once been their homes and enslaving former kin without remorse or recognition.
+
+Their expansion was finally halted during the 'War of Purging Flame' when an alliance of Satyrs, Froggians, and other races developed specialized weapons capable of banishing Hellspawn essence back to the void. Though defeated, the Hellspawns were not destroyed—they retreated to volcanic regions and blighted lands where the barrier between realms remained thin, establishing fortress-cities from which they continued to launch raids and spread corruption.
+
+Over centuries, Hellspawn society evolved into distinct 'Dominion Castes,' each claiming descent from one of Vex'tharion's original lieutenants and specializing in different aspects of destruction. The Ashbringer Caste focuses on physical warfare, the Soulrender Caste specializes in torment and slave-breaking, while the Voidcaller Caste maintains what passes for religious practices—rituals designed to further weaken the barriers between realms and eventually trigger a second, more complete Void Breach that would transform the entire world into an extension of the infernal realms.",
+CULTURE: "Hellspawn culture, a twisted mockery of civilization, revolves around what they call the 'Three Pillars of Dominion': strength through cruelty, power through destruction, and immortality through terror. Their social interactions are defined by constant displays of dominance, with elaborate rituals of submission required when addressing superiors—failure to properly debase oneself often results in immediate punishment or death.
+
+Their most sacred ceremony is the 'Ascension Crucible'—a brutal tournament held when leadership positions become available through death or rare retirement. Aspirants battle not only each other but also summoned abyssal entities, with victory achieved not merely by killing opponents but by inflicting the most creative forms of suffering before the final blow. The victor earns the right to consume the heart of their predecessor, absorbing a portion of their power and memories in a cannibalistic ritual that preserves a twisted form of continuity in their leadership.
+
+Hellspawn art, if it can be called such, focuses exclusively on depicting suffering and dominance. Their architecture incorporates the bones and sometimes still-living bodies of slaves into load-bearing structures, creating buildings that literally groan and weep. Their music consists of discordant rhythms punctuated by the screams of tortured captives, believed to momentarily thin the barriers between realms and allow communion with infernal entities.
+
+Despite their chaotic nature, Hellspawns maintain a complex system of identifying marks—ritual scarification, horn modifications, and trophy collections—that indicate an individual's rank, achievements, and caste affiliation. These markers are taken extremely seriously, with unauthorized displays punishable by having one's skin flayed and replaced with that of a slave, forcing the offender to wear the 'garment of shame' until they can earn redemption through exceptional acts of cruelty or conquest.",
+GOVERNMENT: "Hellspawn governance operates through the 'Dominion Hierarchy'—a brutally efficient system where authority flows from the Worldscorcher (supreme ruler) down through Dominion Lords, Crucible Masters, and Slave Drivers. Each position is earned through displays of strength, cruelty, and the ability to inspire fear in both enemies and subordinates.
+
+The current Worldscorcher, Kaz'gorath the Everburning, rules from the obsidian fortress of Doomspire—a massive structure built atop an active volcano that serves as both palace and temple to infernal powers. His word is absolute, though ambitious underlings constantly plot to challenge his rule through the ritualized 'Path of Ascension'—a series of trials culminating in direct combat with the current ruler.
+
+Below the Worldscorcher, six Dominion Lords each control a major Hellspawn territory and command significant military forces. These Lords maintain their own courts of sycophants, torturers, and elite warriors, creating a system of competing power centers that the Worldscorcher carefully manipulates to prevent any single Lord from becoming powerful enough to challenge him directly.
+
+Law among Hellspawns is simple but strictly enforced: strength rules, weakness serves, and failure is punished. Disputes between equals are settled through combat in the 'Pits of Resolution,' while crimes against superiors often result in creative punishments designed to maximize suffering while preserving the offender's ability to serve. Their concept of justice has nothing to do with fairness or truth—only with maintaining the strict hierarchical order that defines their society.",
+MILITARY: "Hellspawn military might is built upon three terrible foundations: overwhelming numbers of expendable troops, elite shock warriors with supernatural abilities, and the psychological impact of their mere presence on the battlefield. Their armies are organized into 'Devastation Legions'—massive forces combining slave infantry as cannon fodder with Hellspawn elites who lead from the front, demonstrating the cruelty expected from their subordinates.
+
+Their most feared warriors are the 'Infernal Champions'—veterans who have undergone the excruciating 'Voidforging' ritual where their bodies are partially unmade and reforged with pure infernal essence. These monstrosities can ignite their weapons with hellfire, temporarily grow additional limbs for combat advantage, or even briefly phase through solid objects to bypass defenses. Each Champion bears unique mutations reflecting their personal path to power—some develop acidic blood that sprays enemies when they're wounded, others can exhale clouds of brimstone that choke and disorient opponents.
+
+Hellspawn siege engines are nightmarish combinations of dark magic and brutal engineering. Their 'Soulcrusher' battering rams contain the bound spirits of conquered city defenders, forced to attack their former homes. 'Brimstone Catapults' hurl projectiles that explode into clouds of hallucinogenic gas, causing defenders to turn on each other in fits of paranoia and rage. Most terrifying are the 'Void Breakers'—massive constructs that tear temporary holes in reality, allowing smaller versions of the original Void Breach to occur within enemy fortifications.
+
+Their battle tactics emphasize psychological warfare alongside physical destruction. Before major assaults, they conduct 'Terror Raids' where small forces target civilian populations, taking captives for public torture rather than simply killing them. During sieges, they catapult still-living prisoners—often mutilated but kept alive through cruel magic—over walls to demoralize defenders. Their war doctrine, 'The Breaking of Will,' holds that conquering the mind through fear is more effective than merely defeating the body.",
+TECHNOLOGY: "Hellspawn technology represents the dark mirror of innovation—advancement driven by the desire to inflict greater suffering rather than improve quality of life. Their crafting techniques combine brutal practicality with malevolent creativity, producing tools and weapons that are as psychologically devastating as they are physically destructive.
+
+Their metallurgy, called 'Painforging,' involves quenching heated metal in the blood of slaves selected for their capacity to experience extreme suffering. Hellspawn smiths believe this process infuses the metal with the essence of pain itself, creating weapons that cause wounds which resist healing and continue to burn with phantom agony long after the initial injury. Their most prized creations are 'Soulbound Weapons'—items containing trapped spirits of worthy opponents who are forced to enhance the weapon's effectiveness while experiencing eternal torment.
+
+Hellspawn architecture emphasizes intimidation through scale and cruelty through function. Their fortresses feature 'Screaming Walls'—defensive structures incorporating still-living captives entombed within the masonry, their exposed faces magically preserved and enchanted to shriek warnings when enemies approach. Interior spaces are designed with irregular angles and disorienting proportions believed to gradually erode the sanity of non-Hellspawn occupants.
+
+Their most disturbing technological achievement is 'Fleshcrafting'—the ability to reshape living bodies through a combination of surgery, alchemy, and dark magic. This practice allows them to create specialized slaves modified for specific purposes: messengers with multiple mouths for delivering complex information, laborers with additional limbs for increased productivity, or living furniture capable of adjusting to provide perfect comfort to their masters while experiencing constant pain themselves.",
+RELIGION: "Hellspawn religious practices center around the 'Doctrine of Eternal Flame'—the belief that the world was originally an infernal realm that was wrongfully 'stolen' and cooled by lesser beings, and that their divine purpose is to return it to its 'proper' state of perpetual fire and torment. Their worship focuses on entities they call the 'Seven Burning Thrones'—primordial beings of pure chaos and destruction that supposedly rule the infernal realms and granted the first Hellspawns their power during the Void Breach.
+
+Religious authority rests with the Voidcaller Caste—Hellspawns who claim the ability to communicate with these infernal entities through elaborate rituals involving blood sacrifice, self-mutilation, and the burning of rare substances harvested from the deepest parts of the world. These rituals are conducted in 'Cathedrals of Ash'—massive structures built around perpetually burning pits that supposedly connect directly to the infernal realms.
+
+The central religious ceremony is the 'Convergence of Flames'—a massive gathering held once every thirteen years where Hellspawns from all territories bring their most valuable slaves as offerings. These unfortunates are subjected to increasingly elaborate torments designed to thin the barriers between realms, culminating in mass immolation that supposedly allows the Seven Burning Thrones to briefly manifest in the mortal world and issue new commandments to their followers.
+
+Hellspawns believe that upon death, their essence returns to the infernal realms where they are judged by the Seven Burning Thrones based on the suffering they inflicted during life. Those who spread exceptional pain and destruction are reborn as greater demons, while those who failed to uphold the Doctrine of Eternal Flame are condemned to serve as lesser entities, tortured for eternity by the very beings they once worshipped.",
+RELATIONS: "Hellspawn diplomatic philosophy is encapsulated in their concept of 'The Three Responses': subjugate the weak, destroy the strong, and corrupt the worthy. They view all other races through this lens, categorizing them based on their potential value as slaves, threats to Hellspawn dominance, or candidates for corruption into allies.
+
+With the Satyrs, they maintain 'Burning Enmity'—a state of perpetual hostility dating back to the War of Purging Flame when Satyr archers developed arrows capable of banishing Hellspawn essence. They conduct regular raids into forest territories, specifically targeting ancient groves for destruction out of spite for the reverence Satyrs hold for such places.
+
+Toward the scholarly Froggians, they hold 'Contemptuous Dismissal'—viewing their physical weakness and pacifist tendencies as signs of a race destined for eventual enslavement. However, they maintain a healthy fear of Froggian alchemical knowledge, having experienced the effectiveness of their specialized anti-Hellspawn compounds during past conflicts.
+
+The industrious Finestorians are approached with 'Wary Respect'—their crafting skills and physical resilience marking them as dangerous opponents but potentially valuable slaves if captured. Hellspawn raiders specifically target Finestorian settlements for their metalwork, which they cannot replicate despite their own brutal crafting techniques.
+
+For the pragmatic Northmen, Hellspawns maintain 'Calculated Engagement'—recognizing their trading networks as potential vectors for spreading corruption to distant lands. They occasionally allow limited commerce through intermediaries, using these connections to identify vulnerable communities for future raids while spreading rumors designed to sow distrust among potential allies.
+
+With the predatory Bloodelves, they have established 'The Crimson Accord'—a rare formal agreement based on mutual appreciation for suffering and domination. The two races occasionally exchange slaves, knowledge, and even conduct joint raids against particularly challenging targets, though both sides remain perpetually suspicious of betrayal.
+
+The parasitic Wormlings are viewed with 'Disgusted Fascination'—their methods of corruption and body horror resonating with Hellspawn sensibilities while their lack of proper hierarchy offends Hellspawn social order. Some Voidcallers study Wormling biology, seeking ways to incorporate their parasitic abilities into Hellspawn fleshcrafting techniques.
+
+Toward the disciplined Pasunkas, they hold 'Targeted Malice'—finding their spiritual balance and self-control particularly offensive to Hellspawn chaos. When capturing Pasunka warriors, they subject them to specialized torments designed to break their mental discipline and force them to violate their own deeply-held principles before death.",
+
+
+PROS: [
+	"Supernatural strength and resilience",
+	"Fire and heat affinity",
+	"Intimidation aura",
+	"Regenerative abilities",
+	"Innate destructive capabilities",
+],
+CONS: [
+	"Poor at mining and farming",
+	"Weak cold resistance",
+	"Higher food consumption",
+	"Less effective with scholarly pursuits",
+	"Chaotic nature reduces cooperation",
+],

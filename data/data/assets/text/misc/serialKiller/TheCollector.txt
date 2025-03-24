@@ -1,0 +1,10 @@
+NAME: "The Collector",
+METHOD: "hearts removed",
+
+MESSAGES: [
+	"You should have stayed out of my way. Now your organs will never see the light of day again. But don't worry, they'll be put to good use in my collection.",
+	"Another one added to the collection. You shouldn't have resisted me. Now your organs will never serve their original purpose.",
+	"You thought you could escape me? You were wrong. Your organs will join the others in my collection, whether you like it or not.",
+	"I warned you, but you didn't listen. Now your organs are mine to do with as I please. Consider this a lesson to all those who dare to cross the Collector.",
+	"One more set of organs added to my collection. You should have just minded your own business and stayed away.",
+],

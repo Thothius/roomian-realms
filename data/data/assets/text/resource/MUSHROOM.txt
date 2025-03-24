@@ -1,0 +1,3 @@
+NAME: "Mushroom",
+NAMES: "Mushrooms",
+DESC: "Mushrooms are a food source.",

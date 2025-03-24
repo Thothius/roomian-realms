@@ -1,0 +1,1410 @@
+BANDITS: {
+	ICON: 24->resource->Weapon_short->0,
+	DURATION: {
+		DAYS: 1.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: BANDITS_NO,
+			},
+		],
+	},
+
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 1000,
+				WORLD_REGIONS: 2,
+				GOVERN_RICHES: 0.20,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},
+
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: BANDITS_YES,
+				},
+				{
+					TYPE: CREDITS,
+					PER_PERSON: -50,
+				},
+			],		
+		},
+		{
+			REQUIRES: {
+				GREATER: {
+					BATTLE_CRUELTY: 0.9,
+					BATTLE_PROWESS: 0.9,
+				},		
+			},
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: BANDITS_MAYBE,
+				},
+				{
+					TYPE: CREDITS,
+					PER_PERSON: 50,
+				},
+			],		
+		},
+	],
+},
+
+BANDITS_YES: {
+	ICON: 24->resource->Weapon_short->0,
+},
+
+BANDITS_NO: {
+	ICON: 24->resource->Weapon_short->0,
+	DURATION: {
+		DAYS: 8.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					WORLD_RESOURCE_PRODUCTION*>MUL: 0.8,
+					WORLD_TAX_INCOME>MUL: 0.8,
+					WORLD_PROXIMITY>MUL: 0.6,
+				},
+			},
+		],
+	},
+},
+
+BANDITS_MAYBE: {
+	ICON: 24->resource->Weapon_short->0,
+	DURATION: {
+		DAYS: 8.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					WORLD_RESOURCE_PRODUCTION*>MUL: 1.1,
+					WORLD_TAX_INCOME>MUL: 1.1,
+					WORLD_PROXIMITY>MUL: 1.1,
+				},
+			},
+		],
+	},
+},
+
+FOREIGN_NOBLE: {
+	ICON: 24->resource->Jewelry->0,
+	DURATION: {
+		DAYS: 1.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: FOREIGN_NOBLE_NO,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 2000,
+			},
+			LESS: {
+				LAW_LAW: 0.8,
+			},
+		},
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			FOREIGN_NOBLE_NO,
+		],
+	},	
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: FOREIGN_NOBLE_YES,
+				},
+				{
+					TYPE: CREDITS,
+					RELATIVE: -0.2,
+				},
+			],		
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: FOREIGN_NOBLE_MAYBE,
+				},
+			],		
+		},
+	],
+},
+
+FOREIGN_NOBLE_YES: {
+	ICON: 24->resource->Jewelry->0,
+},
+
+FOREIGN_NOBLE_NO: {
+	ICON: 24->resource->Jewelry->0,
+	TAGS: {
+		ADD: [
+			FOREIGN_NOBLE_NO,
+		],
+	},
+},
+
+FOREIGN_NOBLE_NO_FOLLOW: {
+	ICON: 24->resource->Jewelry->0,
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 10,
+			},
+		},
+	},
+	
+	TAGS: {
+		REMOVE: [
+			FOREIGN_NOBLE_NO,
+		],
+		ALLOW: [
+			FOREIGN_NOBLE_NO,
+		],
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},	
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: INVASION,
+				AMOUNT_FROM: 1,
+				AMOUNT_TO: 1.2,
+				RACE: HUMAN,
+			},
+		],
+	},
+},
+
+FOREIGN_NOBLE_MAYBE: {
+	ICON: 24->resource->Jewelry->0,
+
+	DURATION: {
+		DAYS: 4.0,
+	},
+
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					WORLD_PROXIMITY>MUL: 0.5,
+				},
+			},
+		],
+	},
+},
+
+CRETONIAN_PRINCE: {
+	ICON: 32->THRONE->0,
+	DURATION: {
+		DAYS: 1.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 1000,
+				GOVERN_RICHES: 0.10,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			CRETONIAN_PRINCE_YES,
+		],
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: CREDITS,
+					PER_PERSON: -20,
+				},
+				{
+					TYPE: EVENT,
+					EVENT: CRETONIAN_PRINCE_YES,
+				},
+			],		
+		},
+	],
+},
+
+CRETONIAN_PRINCE_YES: {
+	ICON: 32->THRONE->0,
+	TAGS: {
+		ADD: [
+			CRETONIAN_PRINCE_YES,
+		],
+	},	
+},
+
+CRETONIAN_PRINCE_YES_FOLLOW: {
+	ICON: 32->THRONE->0,
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 10,
+			},
+		},
+	},
+
+	TAGS: {
+		ADD: [
+			CRETONIAN_PRINCE_YES_FOLLOW,
+		],
+		ALLOW: [
+			CRETONIAN_PRINCE_YES,
+		],
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			CRETONIAN_PRINCE_YES_FOLLOW,
+		],
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: CREDITS,
+				PER_PERSON: 60,
+			},
+		],
+	},
+},
+
+CRETONIAN_PRINCE_YES_FOLLOW_FOLLOW: {
+	ICON: 32->THRONE->0,
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 10,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW: [
+			CRETONIAN_PRINCE_YES_FOLLOW,
+		],
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: CREDITS,
+				PER_PERSON: 30,
+			},
+		],
+	},
+},
+
+CORRUPTION: {
+	ICON: 32->INFRA->0,
+	DURATION: {
+		DAYS: 6.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 0.1,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				WORLD_REGIONS: 5,
+				POPULATION: 2000,
+			},
+		},
+		MAX_SPAWNS: 1,
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					WORLD_TAX_INCOME>MUL: 0.7,
+					WORLD_RESOURCE_PRODUCTION*>MUL: 0.7,
+				},
+			},
+			{
+				TYPE: BOOST,
+				PERMANENT: true,
+				PLAYER: {
+					WORLD_TAX_INCOME>ADD: 0.05,
+					WORLD_RESOURCE_PRODUCTION*>ADD: 0.05,
+				},
+			},
+		],
+	},
+},
+
+KIDNAPPING_TILAPI: {
+	ICON: 32->TRAINING->2,
+	DURATION: {
+		DAYS: 1.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: KIDNAPPING_TILAPI_NO,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 0,
+			FOREST: 1,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 500,
+				POPULTAION_CHILD_I: 20,
+			},
+			EQUAL: {
+				POPULATION_TILAPI_CITIZEN_F: 0,
+			},
+			LESS: {
+				LAW_LAW: 0.6,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			KIDNAPPING_TILAPI_NO,
+		],
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: KIDNAPPING_TILAPI_YES,
+				},
+			],		
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: KIDNAPPING_TILAPI_NO,
+				},
+			],		
+		},
+	],
+},
+
+KIDNAPPING_TILAPI_YES: {
+	ICON: 32->TRAINING->2,
+	DURATION: {
+		DAYS: 8.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					CIVIC_LAW>MUL: 0.8,
+				},
+			},
+			{
+				TYPE: CREDITS,
+				PER_PERSON: 50,
+			},
+		],
+	},
+},
+
+KIDNAPPING_TILAPI_NO: {
+	ICON: 32->TRAINING->2,
+	TAGS: {
+		ADD: [
+			KIDNAPPING_TILAPI_NO,
+		],
+	},
+},
+
+KIDNAPPING_TILAPI_NO_FOLLOW: {
+	ICON: 32->race->Tilapi->0,
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 10.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 500,
+				POPULTAION_CHILD_I: 20,
+				WORK_WORK_TIME: 0.7,
+			},
+			EQUAL: {
+				POPULATION_TILAPI_CITIZEN_F: 0,
+			},
+			LESS: {
+				LAW_LAW: 0.6,
+			},
+		},
+	},
+
+	TAGS: {
+		REMOVE: [
+			KIDNAPPING_TILAPI_NO,
+		],
+		ALLOW: [
+			KIDNAPPING_TILAPI_NO,
+		],
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},
+	
+	SELECTION: {
+		SUBJECTS: {
+			MAX_AMOUNT: {
+				RELATIVE: 0.5,
+			},
+			
+			USE_AS_ICON: false,
+			
+			FILTERS: [
+				{
+					EQUAL: {
+						CLASS_CHILD: 1,
+					},
+				},
+			],
+		},		
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: SUBJECTS_KILL,
+				AMOUNTS: {
+					*: {
+						RELATIVE: 1,
+					},	
+				},
+				DAMAGE: false,
+				DEATH_CAUSE: OTHER,
+				USE_SELECTION: true,
+			},
+			{
+				TYPE: SUBJECTS_KILL,
+				AMOUNTS: {
+					*: {
+						PER_PERSON: 0.006,
+					},	
+				},
+				DAMAGE: true,
+				DEATH_CAUSE: SLAYED,
+				USE_SELECTION: false,
+			},
+		],
+	},
+},
+
+KIDNAPPING_GARTHIMI: {
+	ICON: 32->WORK->5,
+	DURATION: {
+		DAYS: 1.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: KIDNAPPING_GARTHIMI_NO,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+			COLD: 0,
+		},
+		TERRAIN: {
+			*: 0,
+			MOUNTAIN: 1,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 500,
+				POPULTAION_CHILD_I: 20,
+			},
+			EQUAL: {
+				POPULATION_GARTHIMI_CITIZEN_F: 0,
+			},
+			LESS: {
+				LAW_LAW: 0.6,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			KIDNAPPING_GARTHIMI_NO,
+		],
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: KIDNAPPING_GARTHIMI_YES,
+				},
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						WOOD: {
+							PER_PERSON: 0.05,
+						},	
+					},
+				},
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						STONE: {
+							PER_PERSON: 0.05,
+						},	
+					},
+				},
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						METAL: {
+							PER_PERSON: 0.01,
+						},	
+					},
+				},
+			],		
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: KIDNAPPING_GARTHIMI_NO,
+				},
+			],		
+		},
+	],
+},
+
+KIDNAPPING_GARTHIMI_YES: {
+	ICON: 32->WORK->5,
+	DURATION: {
+		DAYS: 8.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					PHYSICS_SPEED>MUL: 1.15,
+				},
+			},
+		],
+	},
+},
+
+KIDNAPPING_GARTHIMI_NO: {
+	ICON: 32->WORK->5,
+	TAGS: {
+		ADD: [
+			KIDNAPPING_GARTHIMI_NO,
+		],
+	},
+},
+
+KIDNAPPING_GARTHIMI_NO_FOLLOW: {
+	ICON: 32->race->Garthimi->0,
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 10.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 500,
+				POPULTAION_CHILD_I: 20,
+				WORK_WORK_TIME: 0.7,
+			},
+			EQUAL: {
+				POPULATION_GARTHIMI_CITIZEN_F: 0,
+			},
+			LESS: {
+				LAW_LAW: 0.6,
+			},
+		},
+	},
+	
+	TAGS: {
+		REMOVE: [
+			KIDNAPPING_GARTHIMI_NO,
+		],
+		ALLOW: [
+			KIDNAPPING_GARTHIMI_NO,
+		],
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},	
+	
+	SELECTION: {
+		SUBJECTS: {
+			MAX_AMOUNT: {
+				RELATIVE: 0.5,
+			},
+			
+			USE_AS_ICON: false,
+			
+			FILTERS: [
+				{
+					EQUAL: {
+						CLASS_CHILD: 1,
+					},
+				},
+			],
+		},		
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: SUBJECTS_KILL,
+				AMOUNTS: {
+					*: {
+						RELATIVE: 1,
+					},	
+				},
+				DAMAGE: false,
+				DEATH_CAUSE: OTHER,
+				USE_SELECTION: true,
+			},
+			{
+				TYPE: SUBJECTS_KILL,
+				AMOUNTS: {
+					*: {
+						PER_PERSON: 0.006,
+					},	
+				},
+				DAMAGE: true,
+				DEATH_CAUSE: SLAYED,
+				USE_SELECTION: false,
+			},
+		],
+	},
+},
+
+TOURIST_GARTHIMI: {
+	DURATION: {
+		DAYS: 1.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: TOURIST_GARTHIMI_NO,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 1000,
+				FACTION_IS_GARTHIMI_I: 0,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},
+	
+	SELECTION: {
+		SUBJECTS: {
+			USE_AS_ICON: true,
+			MAX_AMOUNT: {
+				AMOUNT: 1.0,
+			},
+			FILTERS: [
+				{
+					EQUAL: {
+						RACE_IS_PLAYER: 1,
+						CLASS_CITIZEN: 1,
+					},
+				},
+			],
+		},
+		ON_FAIL: {
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: TOURIST_GARTHIMI_NO,
+				},
+			],
+		},		
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: TOURIST_GARTHIMI_YES,
+				},
+				{
+					TYPE: SUBJECTS_KILL,
+					AMOUNTS: {
+						GARTHIMI: {
+							AMOUNT: 1,
+						},	
+					},
+					DAMAGE: false,
+					DEATH_CAUSE: EMMIGRATED,
+					USE_SELECTION: true,
+				},
+			],		
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: TOURIST_GARTHIMI_NO,
+				},
+			],		
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: TOURIST_GARTHIMI_MAYBE,
+				},
+			],		
+		},
+	],
+},
+
+TOURIST_GARTHIMI_YES: {
+	ICON: 24->resource->Weapon_short->0,
+	DURATION: {
+		DAYS: 8.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_HAPPINESS>MUL: 0.8,
+					CIVIC_OPINION>MUL: 1.1,
+				},
+			},
+		],
+	},
+},
+
+TOURIST_GARTHIMI_NO: {
+	ICON: 24->resource->Weapon_short->0,
+	DURATION: {
+		DAYS: 8.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_HAPPINESS>MUL: 1.2,
+					CIVIC_OPINION>MUL: 0.95,
+				},
+			},
+		],
+	},
+},
+
+TOURIST_GARTHIMI_MAYBE: {
+	ICON: 24->resource->Weapon_short->0,
+	DURATION: {
+		DAYS: 8.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_HAPPINESS>MUL: 1.2,
+					CIVIC_OPINION>MUL: 0.95,
+				},
+			},
+			{
+				TYPE: SUBJECTS_ADD,
+				AMOUNTS: {
+					HUMAN: {
+						AMOUNT: 4,
+					},	
+				},
+				IMMIGRANT_TYPE: SLAVE,
+			},
+		],
+	},
+},
+	
+MERCHANT_QUARREL: {
+	ICON: 32->THRONE->0,
+	DURATION: {
+		DAYS: 1.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: MERCHANT_QUARREL_NO,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 1000,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},
+	
+	SELECTION: {
+		SUBJECTS: {
+			MAX_AMOUNT: {
+				AMOUNT: 1.0,
+			},
+			
+			USE_AS_ICON: true,
+			
+			FILTERS: [
+				{
+					EQUAL: {
+						CLASS_CITIZEN: 1,
+					},
+				},
+			],
+		},		
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: SUBJECTS_KILL,
+					AMOUNTS: {
+						*: {
+							AMOUNT: 1,
+						},	
+					},
+					DAMAGE: false,
+					DEATH_CAUSE: SLAYED,
+					USE_SELECTION: true,
+				},
+				{
+					TYPE: CREDITS,
+					PER_PERSON: 150,
+				},
+				{
+					TYPE: EVENT,
+					EVENT: MERCHANT_QUARREL_YES,
+				},
+			],		
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: MERCHANT_QUARREL_NO,
+				},
+			],		
+		},
+	],
+},
+
+MERCHANT_QUARREL_YES: {
+	ICON: 32->THRONE->0,
+	DURATION: {
+		DAYS: 8.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_HAPPINESS>ADD: -0.2,
+				},
+			},
+		],
+	},
+},
+
+MERCHANT_QUARREL_NO: {
+	ICON: 32->THRONE->0,
+	DURATION: {
+		DAYS: 8.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_HAPPINESS>ADD: 0.1,
+				},
+			},
+		],
+	},
+},
+
+ARGONOSH_SPY: {
+	DURATION: {
+		DAYS: 0.2,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: ARGONOSH_SPY_FOLLOW,
+				CLEAR_CONTEXT: true,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+			COLD: 0.25,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 1000,
+			},
+			LESS: {
+				FACTION_IS_GARTHIMI_I: 1,
+				BOOST_RELIGION_SHMALOR_CITY: 0.5,
+				BOOST_RELIGION_AMINION_CITY: 0.5,
+				POPULATION_ARGONOSH_CITIZEN_I: 1,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			ARGONOSH_SPY_FOLLOW_MAYBE,	
+			ARGONOSH_SPY_FOLLOW_NO,
+		],
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: SUBJECTS_ADD,
+				AMOUNTS: {
+					ARGONOSH: {
+						AMOUNT: 1,
+					},	
+				},
+				IMMIGRANT_TYPE: TOURIST,
+			},
+		],
+	},
+},
+
+ARGONOSH_SPY_FOLLOW: {
+	DURATION: {
+		DAYS: 1.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: ARGONOSH_SPY_FOLLOW_NO,
+			},
+		],
+	},
+	
+	SELECTION: {
+		SUBJECTS: {
+			
+			USE_AS_ICON: true,
+			MIN_AMOUNT: {
+				AMOUNT: 1.0,
+			},			
+			FILTERS: [
+				{
+					EQUAL: {
+						RACE_ARGONOSH: 1,
+						TYPE_TOURIST: 1,
+					},
+				},
+			],
+		},		
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: ARGONOSH_SPY_FOLLOW_YES,
+				},
+				{
+					TYPE: SUBJECTS_KILL,
+					AMOUNTS: {
+						ARGONOSH: {
+							AMOUNT: 1,
+						},	
+					},
+					DAMAGE: false,
+					DEATH_CAUSE: EMMIGRATED,
+					USE_SELECTION: true,
+				},
+			],		
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: ARGONOSH_SPY_FOLLOW_NO,
+				},
+			],		
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: ARGONOSH_SPY_FOLLOW_MAYBE,
+				},
+			],		
+		},
+	],
+},
+
+ARGONOSH_SPY_FOLLOW_YES: {
+	ICON: 32->race->Argonosh->0,
+},
+
+ARGONOSH_SPY_FOLLOW_NO: {
+	ICON: 32->race->Argonosh->0,
+	TAGS: {
+		ADD: [
+			ARGONOSH_SPY_FOLLOW_NO,
+		],
+	},
+},
+
+ARGONOSH_SPY_FOLLOW_NO_FOLLOW: {
+	ICON: 32->race->Argonosh->0,
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+	},
+	
+	TAGS: {
+		REMOVE: [
+			ARGONOSH_SPY_FOLLOW_NO,
+		],
+		ALLOW: [
+			ARGONOSH_SPY_FOLLOW_NO,
+		],
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: INVASION,
+				AMOUNT_FROM: 1,
+				AMOUNT_TO: 1,
+				RACE: ARGONOSH,
+			},
+		],
+	},
+},
+
+ARGONOSH_SPY_FOLLOW_MAYBE: {
+	ICON: 32->race->Argonosh->0,
+	TAGS: {
+		ADD: [
+			ARGONOSH_SPY_FOLLOW_MAYBE,
+		],
+	},
+},
+
+ARGONOSH_SPY_FOLLOW_MAYBE_FOLLOW: {
+	ICON: 32->race->Argonosh->0,
+	DURATION: {
+		DAYS: 0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: ARGONOSH_SPY_FOLLOW_MAYBE_FOLLOW_FOLLOW,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+	},
+	
+	TAGS: {
+		ALLOW: [
+			ARGONOSH_SPY_FOLLOW_MAYBE,
+		],
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},	
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: SUBJECTS_ADD,
+				AMOUNTS: {
+					ARGONOSH: {
+						AMOUNT: 1,
+					},	
+				},
+				IMMIGRANT_TYPE: TOURIST,
+			},
+		],
+	},
+},
+
+ARGONOSH_SPY_FOLLOW_MAYBE_FOLLOW_FOLLOW: {
+	ICON: 32->race->Argonosh->0,
+	DURATION: {
+		DAYS: 4.0,
+	},
+	
+	SELECTION: {
+		SUBJECTS: {
+			MAX_AMOUNT: {
+				AMOUNT: 1.0,
+			},
+			
+			USE_AS_ICON: true,
+			
+			FILTERS: [
+				{
+					EQUAL: {
+						RACE_ARGONOSH: 1,
+						TYPE_TOURIST: 1,
+					},
+				},
+			],
+		},		
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						FABRIC: {
+							PER_PERSON: -0.4,
+						},	
+						MEAT: {
+							PER_PERSON: 0.8,
+						},	
+					},
+				},
+				{
+					TYPE: CREDITS,
+					PER_PERSON: 40,
+				},
+			],		
+		},
+	],
+},

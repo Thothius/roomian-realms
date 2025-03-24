@@ -1,0 +1,35 @@
+INFO: {
+	NAME: "Fruit Farm",
+	NAMES: "Fruit Farms",
+	DESC: "Grows fruit.",
+},
+
+BONUS: {
+	NAME: "Fruit Farming",
+	DESC: "Increases production of Fruit farming.",
+},
+
+WORK: {
+	TITLE: "Fruit Farmer",
+	VERB: "Farming",
+},
+
+STATS: [
+	{
+		NAME: "Fertility",
+		DESC: "The fertility of the farmland",
+	},
+	{
+		NAME: "Farmers",
+		DESC: "The amount of Farmers needed",
+	},
+	{
+		NAME: "",
+		DESC: "",
+	},
+	{
+		NAME: "Yearly Output",
+		DESC: "An estimate of how much this farm will output if well worked during a year. Not including bonuses, or irrigation",
+	},
+
+],

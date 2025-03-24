@@ -1,0 +1,42 @@
+INFO: {
+	NAME: "Wormling Nursery",
+	NAMES: "Wormling Nurseries",
+	DESC: "A disturbing chamber where Wormling young develop within host bodies. Each station processes one host and requires meat to sustain the parasitic transformation, or the developing colony will perish.",
+},
+
+
+BONUS: {
+	NAME: "Wormling development",
+	DESC: "Increases the rate at which Wormlings develop within host bodies.",
+},
+
+STATS: [
+
+	{
+		NAME: "Incubation Pods",
+		DESC: "Number of active incubation pods",
+	},
+	{
+		
+	},
+	{
+		NAME: "Efficiency",
+		DESC: "Increases development rate.",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Incubation Pod",
+		DESC: "",
+	},
+	{
+		NAME: "Enzymatic Enrichments",
+		DESC: "Increases efficiency through specialized compounds that speed development.",
+	},
+],
+
+WORK: {
+	TITLE: "Colony Overseer",
+	VERB: "Tending to developing colonies",
+},

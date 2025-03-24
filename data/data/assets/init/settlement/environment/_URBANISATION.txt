@@ -1,0 +1,5 @@
+DECLINE_VALUE: 1.0,
+ICON: 16->Env->4,
+STANDING: {
+	
+},

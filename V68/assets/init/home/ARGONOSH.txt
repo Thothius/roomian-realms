@@ -1,0 +1,192 @@
+SLAVE: {
+	FLOORS: [
+		{
+			RESOURCES: {
+			
+			},
+			FLOOR: DARK1,
+		},
+	],
+
+	BED_1x1_TOP: [
+		{
+			RESOURCES: {
+				
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				2xBED: 20,
+			],
+		},
+	],
+	
+	BED_1x1_BOTTOM: [
+		{
+			RESOURCES: {
+				
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				2xBED: 21,
+			],
+		},
+	],
+
+	NIGHTSTAND_1x1: [
+		{
+			RESOURCES: {
+				STONE: 2,
+			},
+			COLOR: {R: 120, G: 100, B:100,},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				TABLES: 2,
+			],
+		},
+	],
+	STORAGE_1x1: [
+		{
+			RESOURCES: {
+				STONE_CUT: 2,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				TEMPLE_DECOR: 3,
+				TEMPLE_DECOR: 0,
+			],
+		},
+	],
+
+},
+
+CITIZEN: {
+	FLOORS: [
+		{
+			RESOURCES: {
+			
+			},
+			FLOOR: DARK2,
+		},
+	],
+
+	BED_1x1_TOP: [
+		{
+			RESOURCES: {
+				
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				2xBED: 20,
+			],
+		},
+	],
+	
+	BED_1x1_BOTTOM: [
+		{
+			RESOURCES: {
+				
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				2xBED: 21,
+			],
+		},
+	],
+
+	NIGHTSTAND_1x1: [
+		{
+			RESOURCES: {
+				CLAY: 1,
+			},
+			COLOR: {R: 120, G: 100, B:100,},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				TABLES: 2,
+			],
+		},
+	],
+	STORAGE_1x1: [
+		{
+			RESOURCES: {
+				STONE_CUT: 1,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				TEMPLE_DECOR: 3,
+				TEMPLE_DECOR: 0,
+			],
+		},
+	],
+	NICKNACK_A_1x1: [
+		{
+			RESOURCES: {
+				CLAY: 5,			
+				STONE_CUT: 3,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				TEMPLE_DECOR: 3,
+				TEMPLE_DECOR: 0,
+			],
+		},
+	],
+
+},
+
+NOBLE: {
+	FLOORS: [
+		{
+			RESOURCES: {
+			
+			},
+			FLOOR: DARK3,
+		},
+	],
+	BED_MASTER_2x2: [
+		{
+			RESOURCES: {
+			
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 4,
+			SHADOW_HEIGHT: 4,
+			ROTATES: true,
+			FRAMES : [
+				BEDS: 0,
+			],
+		},
+	],
+	STATUE_2x2: [ 
+		{
+			RESOURCES: {
+			
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 8,
+			SHADOW_HEIGHT: 8,
+			ROTATES: true,
+			FRAMES : [
+				MONUMENT: 1,
+			],
+		},
+	],
+},
+

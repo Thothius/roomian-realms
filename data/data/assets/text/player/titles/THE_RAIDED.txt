@@ -1,0 +1,2 @@
+NAME: "Protector of the Realm",
+DESC: "Gained by defending against invasions.",

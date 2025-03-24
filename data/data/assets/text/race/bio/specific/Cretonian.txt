@@ -1,0 +1,62 @@
+DREAMS: [
+	"{HIS} favourite verse from the Summerion is the one where the sand turns to grain and rocks to cabbages for his ancestor Crack Mountainbelly.",
+	"Is sure that the spirits want them to be a {RND_PROFESSION}.",
+	"Rubs {HIS} belly every night with Rax oil. Believes this increases is size and roundness.",
+	"Has a great fondness for some of the more obscure herbs of the forests.",
+    "Knows of some mushrooms, that allow visiting the spirit world after ingestion.",
+    "Is secretly a meat eater and loves the taste of entelodont.",	
+	"Feels {HIS} impressive physique is the result of falling into a pot of stew as a youngling and eating {HIS} way out.",
+	"Likes to pull up {HIS} tunic and splash his stomach with water to attract the opposite sex while visiting wells",
+	"Tried everything to get {HIS} tusks to grow neater, but gave up recently.",
+	"Can whistle impressively well through {HIS} nose.",
+	"Likes to talk about the weather.",
+],
+
+TRAIT: {
+	HONEST: [
+		"Like most Cretonians, {NAME} is blunt in {HIS} intentions and does not deceive.",
+	], 
+	PROUD: [
+		"Spends a long time each day polishing {HIS} tusks to perfection.", 
+		"Takes personal offenses very seriously. Once challenged a fellow Cretonian to a contest for commenting about {HIS} tusks. Bears the faint scars caused by his opponent's tusks with pride.", 
+	], 
+	WARRIOR: [
+		"Contrary to most Cretonians {HE} relishes the idea of defending {HIS} kin by force.", 
+		"Is not afraid to use {HIS} tusks in a more martial way.", 
+	],  
+},
+
+HAPPY: [
+    "Seemed excited at the idea of an even better {RACE_CITY} and told you of these things:",
+    "Praises the 'vibes' of your {RACE_CITY} and wants these things:",
+    "Loves being in your {RACE_CITY} and thinks you should relax a bit. Eventually offered these suggestions:",
+    "Wants for nothing in your {RACE_CITY}, but has heard someone desire these things:",
+],
+HAPPY_SOSO: [
+    "Feels that a few things are preventing the {RACE_CITY} from being a relaxing place:",
+    "Is mostly content, but was quick to mention:",
+    "Overall likes it in your {RACE_CITY}, but offered these suggestions to make it more harmonious:",
+    "Thinks your {RACE_CITY} is a decent place to live and mentioned needing the following:",
+],
+HAPPY_NO: [
+    "Mentions constantly feeling stressed in your {RACE_CITY} and offered these suggestions:",
+    "Considers your {RACE_CITY} to be unsuitable for Cretonians and the spirits of the land:",
+    "Is disappointed by your {RACE_CITY} and considers leaving:",    
+    "Morosely tells you of several things 'harshing their vibes':",    
+],
+NOTHING: [
+    "You have done it! This is the resurrection of Cretonia we have dreamed about!",
+],
+FUNNY: [
+    "I know you compared us to entelodonts.",
+    "We can supposedly become a warlike and savage people if we are living in the wilds for too long, which kind of makes sense. Why are the wild ones green though?",
+    "Hey, you know what this settlement is missing? Modded in 'medicinal' herbs. Think about it that's all I ask.",
+],
+
+STATS_MORE: {
+	
+},
+
+STATS_LESS: {
+
+},

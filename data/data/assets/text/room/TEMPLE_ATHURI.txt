@@ -1,0 +1,73 @@
+INFO: {
+	NAME: "Temple of Athuri",
+	NAMES: "Temples of Athuri",
+	DESC: "Athuri Astarii, the leader and greatest of the Astarii. Defeated his brother Aminion in both wars against him. Accepts Sithilon as offerings.",
+	WIKI: {
+		CATEGORY: "Religion",
+		NAME: "Athuri",
+		TEXT: "Athuri Astarii, the leader and greatest of the Astarii.",
+		CATEGORIES: [],
+	},
+},
+
+STATS: [
+	{
+		NAME: "Priests",
+		DESC: "The amount of priests needed.",
+	},
+	{
+		NAME: "Worshippers",
+		DESC: "The capacity of worshippers that will be available.",
+	},
+	{
+		NAME: "Decoration",
+		DESC: "The amount of decoration. Will boost the temple efficiency.",
+	},
+	{
+		NAME: "Grandeur",
+		DESC: "The sheer size of the room. The gods like it big. Will boost the temple efficiency.",
+	},
+	{
+		NAME: "Space",
+		DESC: "No one likes a cluttered temple. This is the area divided by the amount of worshippers. Will boost the temple efficiency.",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Altar",
+		DESC: "The place of rituals. Adds Priest and worshipper capacity.",
+	},
+	{
+		NAME: "Decorations",
+		DESC: "Shrines and decorations honoring the deity. Increases decoration.",
+	},
+	{
+		NAME: "Torch",
+		DESC: "A torch. Increases decoration.",
+	},
+	{
+		NAME: "Relief",
+		DESC: "A relief that increases decoration.",
+	},
+	{
+		NAME: "Pathway",
+		DESC: "Pathways to increase decoration.",
+	},
+],
+
+WORK: {
+	TITLE: "Priest",
+	VERB: "Worshipping",
+},
+
+SERVICE: {
+	NAME: "Temple",
+	NAMES: "Temples",
+	VERB: "Worshipping",
+},
+
+RELIGION: {
+	NAME: "Athurism",
+	DESC: "Followers of Athuri, the greatest of the Astari. Promotes enlightenment and productivity. His temples accept Sithilon offerings",
+},

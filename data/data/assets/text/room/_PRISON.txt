@@ -1,0 +1,34 @@
+INFO: {
+	NAME: "Dungeon",
+	NAMES: "Dungeons",
+	DESC: "Where caught criminals and other prisoners are taken for storage. After a few years time, they come back out as useful subjects again. The jailers will bring the prisoners food and clean their latrines. Make sure prisons are well manned and maintained, or it will count towards your cruelty. Occasionally a prisoner might escape.",
+	WIKI: {
+		CATEGORY: "Law",
+		NAME: "Prisons",
+		TEXT: "Where caught criminals and other prisoners are taken for storage. After a few years time, they come back out as useful subjects again. The jailers will bring the prisoners food and clean their latrines. Make sure prisons are well manned and maintained, or it will count towards your cruelty. Occasionally a prisoner might escape.",
+		CATEGORIES: [],
+	},
+},
+
+WORK: {
+	TITLE: "Turnkey",
+	VERB: "Tending to prisoners",
+},
+
+STATS: [
+	{
+		NAME: "Prisoners",
+		DESC: "Prisoner Capacity.",
+	},
+	{
+		NAME: "Guards",
+		DESC: "The amount of guards needed.",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Cells",
+		DESC: "Allows for prisoners to be stored.",
+	},
+],

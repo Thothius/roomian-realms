@@ -1,0 +1,305 @@
+SLAVE: {
+	FLOORS: [
+		{
+			RESOURCES: {
+			
+			},
+			FLOOR: DARK1,
+		},
+	],
+
+	BED_1x1_TOP: [
+		{
+			RESOURCES: {
+				
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				2xBED: 20,
+			],
+		},
+	],
+	
+	BED_1x1_BOTTOM: [
+		{
+			RESOURCES: {
+				
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				2xBED: 21,
+			],
+		},
+	],
+},
+
+CITIZEN: {
+	FLOORS: [
+		{
+			RESOURCES: {
+				WOOD: 0.5,
+			},
+			FLOOR: WOOD1,
+		},
+		{
+			RESOURCES: {
+				STONE: 0.5,
+			},
+			FLOOR: STONE1,
+		},
+	],
+
+	BED_1x1_TOP: [
+		{
+			RESOURCES: {
+				WOOD: 2,
+				TEXTILE: 1,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				FURNITURE_BEDS: 0,
+			],
+		},
+	],
+	
+	BED_1x1_BOTTOM: [
+		{
+			RESOURCES: {
+				WOOD: 2,
+				TEXTILE: 1,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				FURNITURE_BEDS: 1,
+			],
+		},
+	],
+	
+	STORAGE_AREA: [
+		{
+			RESOURCES: {
+				WOOD: 2,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				FURNITURE_STORAGE: 0,
+			],
+		},
+	],
+	
+	SHRINE: [
+		{
+			RESOURCES: {
+				WOOD: 2,
+				STONE: 1,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				FURNITURE_SHRINE: 0,
+			],
+		},
+	],
+	
+	TABLE_1x1: [
+		{
+			RESOURCES: {
+				WOOD: 2,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				FURNITURE_TABLE: 0,
+			],
+		},
+	],
+	
+	CHAIR: [
+		{
+			RESOURCES: {
+				WOOD: 1,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				FURNITURE_CHAIR: 0,
+			],
+		},
+	],
+	
+	MISC_1x1: [
+		{
+			RESOURCES: {
+				WOOD: 1,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				FURNITURE_MISC: 0,
+			],
+		},
+	],
+	
+	MISC_2x2: [
+		{
+			RESOURCES: {
+				WOOD: 3,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				FURNITURE_MISC: 1,
+			],
+		},
+	],
+},
+
+NOBLE: {
+	FLOORS: [
+		{
+			RESOURCES: {
+				STONE: 0.5,
+				MARBLE: 0.5,
+			},
+			FLOOR: MARBLE1,
+		},
+	],
+
+	BED_1x1_TOP: [
+		{
+			RESOURCES: {
+				WOOD: 2,
+				TEXTILE: 2,
+				GOLD: 1,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				FURNITURE_BEDS: 2,
+			],
+		},
+	],
+	
+	BED_1x1_BOTTOM: [
+		{
+			RESOURCES: {
+				WOOD: 2,
+				TEXTILE: 2,
+				GOLD: 1,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				FURNITURE_BEDS: 3,
+			],
+		},
+	],
+	
+	STORAGE_AREA: [
+		{
+			RESOURCES: {
+				WOOD: 2,
+				GOLD: 1,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				FURNITURE_STORAGE: 1,
+			],
+		},
+	],
+	
+	SHRINE: [
+		{
+			RESOURCES: {
+				WOOD: 2,
+				STONE: 1,
+				GOLD: 1,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				FURNITURE_SHRINE: 1,
+			],
+		},
+	],
+	
+	TABLE_1x1: [
+		{
+			RESOURCES: {
+				WOOD: 2,
+				GOLD: 1,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				FURNITURE_TABLE: 1,
+			],
+		},
+	],
+	
+	CHAIR: [
+		{
+			RESOURCES: {
+				WOOD: 1,
+				TEXTILE: 1,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				FURNITURE_CHAIR: 1,
+			],
+		},
+	],
+	
+	MISC_1x1: [
+		{
+			RESOURCES: {
+				WOOD: 1,
+				GOLD: 1,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				FURNITURE_MISC: 2,
+			],
+		},
+	],
+	
+	MISC_2x2: [
+		{
+			RESOURCES: {
+				WOOD: 3,
+				GOLD: 1,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				FURNITURE_MISC: 3,
+			],
+		},
+	],
+},

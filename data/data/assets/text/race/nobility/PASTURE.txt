@@ -1,0 +1,4 @@
+INFO: {
+	NAME: "Master of Livestock",
+	DESC: "The Master of Livestock keeps track of the pastures and is in charge of the livestock breeding program to ensure all the animals keep up with the needs of the city",
+},

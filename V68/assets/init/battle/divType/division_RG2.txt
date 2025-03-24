@@ -1,0 +1,185 @@
+**one can modify this file, or add additional files if you add trainings or equipment. This is for the army composition of AI armies
+TYPES: [
+	
+	{
+		OCCURENCE: 0.5,
+		TRAININGS: [
+			BARRACKS_VANILLA,
+		],
+		EQUIPMENT: {
+				** Morning star
+			0: [
+				BATTLE_ARMOUR_PLATE,
+				BATTLE_MORNINGSTAR_RG2,	
+				BATTLE_HEAVY_SHIELD_RG2,	
+			],
+			1: [
+				BATTLE_ARMOUR_PLATE,
+				BATTLE_MORNINGSTAR_RG2,	
+				BATTLE_WEAPON_SHIELD,
+			],
+			2: [
+				BATTLE_ARMOUR_PLATE,
+				BATTLE_MORNINGSTAR_RG2,
+			],
+			3: [
+				BATTLE_ARMOUR_LEATHER,
+				BATTLE_MORNINGSTAR_RG2,
+				BATTLE_WEAPON_SHIELD,
+				BATTLE_BANNER_RG2,
+			],
+			4: [
+				BATTLE_ARMOUR_LEATHER,
+				BATTLE_MORNINGSTAR_RG2,	
+				BATTLE_WEAPON_SHIELD,
+				BATTLE_WHETSTONE_RG2,
+			],
+			5: [
+				BATTLE_ARMOUR_LEATHER,
+				BATTLE_MORNINGSTAR_RG2,	
+			],
+				** Pike
+			6: [
+				BATTLE_ARMOUR_LEATHER,
+				BATTLE_PIKE_RG2,
+				BATTLE_WHETSTONE_RG2,
+			],
+			7: [
+				BATTLE_ARMOUR_PLATE,
+				BATTLE_PIKE_RG2,
+				BATTLE_BANNER_RG2,
+			],
+			8: [
+				BATTLE_ARMOUR_PLATE,
+				BATTLE_PIKE_RG2,
+				BATTLE_WHETSTONE_RG2,
+			],
+			9: [
+				BATTLE_ARMOUR_LEATHER,
+				BATTLE_PIKE_RG2,
+				BATTLE_BANNER_RG2,
+			],
+			10: [
+				BATTLE_ARMOUR_PLATE,
+				BATTLE_PIKE_RG2,
+			],
+			11: [
+				BATTLE_ARMOUR_LEATHER,
+				BATTLE_PIKE_RG2,
+			],
+				** Dagger
+			12: [
+				BATTLE_ARMOUR_LEATHER,
+				BATTLE_DAGGER_RG2,
+				BATTLE_WHETSTONE_RG2,
+			],
+			13: [
+				BATTLE_ARMOUR_LEATHER,
+				BATTLE_DAGGER_RG2,
+				BATTLE_WEAPON_SHIELD,
+			],
+			14: [
+				BATTLE_ARMOUR_LEATHER,
+				BATTLE_DAGGER_RG2,
+			],
+
+			** Additions to vanilla divisions, doesnt replace vanilla's file
+				** Short sword
+			15: [
+				BATTLE_ARMOUR_PLATE,
+				BATTLE_WEAPON_SHORT,	
+				BATTLE_HEAVY_SHIELD_RG2,
+				BATTLE_BANNER_RG2,	
+			],
+			16: [
+				BATTLE_ARMOUR_LEATHER,
+				BATTLE_WEAPON_SHORT,	
+				BATTLE_WEAPON_SHIELD,
+				BATTLE_WHETSTONE_RG2,	
+			],
+				** Warhammer
+			17: [
+				BATTLE_ARMOUR_LEATHER,
+				BATTLE_WEAPON_HAMMER,
+				BATTLE_BANNER_RG2,
+			],
+			18: [
+				BATTLE_ARMOUR_PLATE,
+				BATTLE_WEAPON_HAMMER,
+				BATTLE_BANNER_RG2,
+			],
+				** Flanx
+			19: [
+				BATTLE_ARMOUR_LEATHER,
+				BATTLE_WEAPON_SLASH,
+				BATTLE_BANNER_RG2,	
+			],
+			20: [
+				BATTLE_ARMOUR_PLATE,
+				BATTLE_WEAPON_SLASH,
+				BATTLE_WHETSTONE_RG2,	
+			],
+			21: [
+				BATTLE_ARMOUR_LEATHER,
+				BATTLE_PUSHUP_GLOVES_RG2,
+				BATTLE_BANNER_RG2,
+			],
+			22: [
+				BATTLE_ARMOUR_LEATHER,
+				BATTLE_PUSHUP_GLOVES_RG2,
+				BATTLE_WHETSTONE_RG2,
+			],
+		},
+	},
+	{
+		OCCURENCE: 0.25,
+		TRAININGS: [
+			ARCHERY_VANILLA,
+		],
+		EQUIPMENT: {
+			0: [
+				BATTLE_ARMOUR_LEATHER,
+				RANGED_CROSSBOW_RG2,
+				BATTLE_DAGGER_RG2,
+			],
+			1: [
+				BATTLE_ARMOUR_LEATHER,
+				RANGED_CROSSBOW_RG2,
+			],
+		},
+	},
+	{
+		OCCURENCE: 0.1,
+		TRAININGS: [
+			ARCHERY_VANILLA,
+			BARRACKS_VANILLA,
+		],
+		EQUIPMENT: {
+			0: [
+				BATTLE_ARMOUR_LEATHER,
+				RANGED_CROSSBOW_RG2,
+				BATTLE_STONE_ARROW_RG2,
+				BATTLE_DAGGER_RG2,
+			],
+			1: [
+				BATTLE_ARMOUR_LEATHER,
+				RANGED_CROSSBOW_RG2,	
+				BATTLE_METAL_ARROW_RG2,
+			],
+
+			** Additions to vanilla divisions, doesnt replace vanilla's file
+
+			2: [
+				BATTLE_ARMOUR_PLATE,
+				RANGED_BOW,
+				BATTLE_METAL_ARROW_RG2,
+			],
+			3: [
+				BATTLE_ARMOUR_LEATHER,
+				RANGED_BOW,	
+				BATTLE_STONE_ARROW_RG2,
+				BATTLE_DAGGER_RG2,
+			],
+		},
+	},
+],

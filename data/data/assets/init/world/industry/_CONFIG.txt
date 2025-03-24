@@ -1,0 +1,18 @@
+OUTPUT_PER_POINT: 10,
+
+GENERATE: {
+	FARMS: [
+		*,
+	},
+	ORCHARDS: [
+		*,
+	},
+	MINES: [
+		*,
+	],
+	FISHERY: [
+		*,
+	],
+	WOODCUTTER: true,
+},
+

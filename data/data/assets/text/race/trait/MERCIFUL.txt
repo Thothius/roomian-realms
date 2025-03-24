@@ -1,0 +1,12 @@
+NAME: "Merciful",
+TITLE: "The Merciful",
+DESC: "Some call it weakness, but others call it chivalry. Values life and will choose life when possible.",
+
+BIO_DESC: [
+	"Once took a Dinoris chick home, which had been run over by a transport cart. Tried to nurse it back to health, but it sadly died. {NAME} has never quite been the same since.", 
+	"Once did all the errands, cooking and cleaning for {HIS} elderly neighbour and never asked for anything in return.",
+	"Used to have a shelter with injured animals in {HIS} house, until a Garthimi came an ate them.",
+	"Thinks that if a criminal repents, they should be given another chance.",
+	"Thinks that life is a gift from the Astari, and it's a great sin to take that of another.",
+	"Has the complete collection of the burnt preacher at home. Follows his philosophy.",
+],

@@ -1,0 +1,3 @@
+NAME: "Crossbow",
+NAMES: "Crossbows",
+DESC: "Precision weapons that require little physical strength but great patience. The distinctive 'thrum' of a crossbow volley is often the last sound many hear before joining the dead. Some artificers enhance their bolts with secretive alchemical compounds that cause wounds to fester and resist healing.",

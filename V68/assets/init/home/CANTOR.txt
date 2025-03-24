@@ -1,0 +1,465 @@
+SLAVE: {
+	FLOORS: [
+		{
+			RESOURCES: {
+			
+			},
+			FLOOR: DIRT,
+		},
+		{
+			RESOURCES: {
+				STONE: 2,
+			},
+			FLOOR: STONE1,
+		},
+		{
+			RESOURCES: {
+				STONE_CUT: 2,
+			},
+			FLOOR: STONE2,
+		},
+		{
+			RESOURCES: {
+				STONE_CUT: 5,
+			},
+			FLOOR: STONE3,
+		},
+	],
+
+	BED_1x1_TOP: [
+		{
+			RESOURCES: {
+				
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 1,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				2xBED: 0,
+			],
+		},
+		{
+			RESOURCES: {
+				STONE_CUT: 4,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				2xBED: 8,
+			],
+		},
+
+	],
+	
+	BED_1x1_BOTTOM: [
+		{
+			RESOURCES: {
+				
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 1,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				2xBED: 1,
+			],
+		},
+		{
+			RESOURCES: {
+				STONE_CUT: 4,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				2xBED: 9,
+			],
+		},
+
+	],
+
+	TABLE_COMBO: [
+		{
+			RESOURCES: {
+				WOOD: 2,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 3,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				COMBO_TABLES: 0,
+				COMBO_TABLES: 1,
+			],
+		},
+
+	],
+	NIGHTSTAND_1x1: [
+		{
+			RESOURCES: {
+			
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 1,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				TABLES: 2,
+			],
+		},
+
+	],
+	STORAGE_1x1: [
+		{
+			RESOURCES: {
+				FURNITURE: 2,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				STORAGE: 2,
+			],
+		},
+	],
+	CHAIR_1x1: [
+		{
+			RESOURCES: {
+				
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				CHAIRS: 0,
+				CHAIRS: 1,
+			],
+		},
+
+	],
+
+	NICKNACK_B_1x1: [
+		{
+			RESOURCES: {
+				STONE_CUT: 2,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				STORAGE: 3,
+			],
+		},
+	],
+},
+
+CITIZEN: {
+	FLOORS: [
+		{
+			RESOURCES: {
+			
+			},
+			FLOOR: DIRT,
+		},
+		{
+			RESOURCES: {
+				STONE: 2,
+			},
+			FLOOR: STONE1,
+		},
+		{
+			RESOURCES: {
+				STONE_CUT: 2,
+			},
+			FLOOR: STONE2,
+		},
+		{
+			RESOURCES: {
+				STONE_CUT: 5,
+			},
+			FLOOR: STONE3,
+		},
+	],
+
+	BED_1x1_TOP: [
+		{
+			RESOURCES: {
+				
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 1,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				2xBED: 0,
+			],
+		},
+		{
+			RESOURCES: {
+				STONE_CUT: 4,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				2xBED: 8,
+			],
+		},
+		{
+			RESOURCES: {
+				STONE_CUT: 6,
+				GEM: 2,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 3,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				2xBED: 10,
+			],
+		},
+	],
+	BED_1x1_BOTTOM: [
+		{
+			RESOURCES: {
+				
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 1,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				2xBED: 1,
+			],
+		},
+		{
+			RESOURCES: {
+				STONE_CUT: 4,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				2xBED: 9,
+			],
+		},
+		{
+			RESOURCES: {
+				STONE_CUT: 6,
+				GEM: 2,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 3,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				2xBED: 11,
+			],
+		},
+	],
+	CARPET_COMBO: [
+		{
+			RESOURCES: {
+				STONE_CUT: 6,
+				GEM: 4,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				COMBO_CARPETS: 5,
+			],
+		},
+	],
+	TABLE_COMBO: [
+		{
+			RESOURCES: {
+				WOOD: 2,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 3,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				COMBO_TABLES: 0,
+				COMBO_TABLES: 1,
+			],
+		},
+		{
+			RESOURCES: {
+				STONE_CUT: 2,
+				GEM: 1,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 3,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				COMBO_TABLES: 2,
+			],
+		},
+	],
+	NIGHTSTAND_1x1: [
+		{
+			RESOURCES: {
+			
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 1,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				TABLES: 2,
+			],
+		},
+		{
+			RESOURCES: {
+				STONE_CUT: 5,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				TABLES: 3,
+			],
+		},
+	],
+	STORAGE_1x1: [
+		{
+			RESOURCES: {
+				FURNITURE: 2,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				STORAGE: 2,
+			],
+		},
+		{
+			RESOURCES: {
+				GEM: 1,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				STORAGE: 3,
+			],
+		},
+	],
+	CHAIR_1x1: [
+		{
+			RESOURCES: {
+				
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				CHAIRS: 0,
+				CHAIRS: 1,
+			],
+		},
+		{
+			RESOURCES: {
+				FURNITURE: 3,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				CHAIRS: 2,
+				CHAIRS: 3,
+			],
+		},
+		{
+			RESOURCES: {
+				STONE_CUT: 4,
+				GEM: 3,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				CHAIRS: 4,
+				CHAIRS: 5,
+			],
+		},
+	],
+	NICKNACK_A_1x1: [
+		{
+			RESOURCES: {
+				GEM: 1,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				TABLES: 3,
+			],
+		},
+	],
+	NICKNACK_A_ONTOP_1x1: [
+		{
+			RESOURCES: {
+				GEM: 1,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 1,
+			SHADOW_HEIGHT: 0,
+			COLOR: [
+				{R: 200, G: 10, B: 10,},
+				{R: 10, G: 200, B: 10,},
+				{R: 10, G: 10, B: 200,},
+			],
+			FRAMES : [
+				TOP: 9,
+			],
+		},
+	],
+	NICKNACK_B_1x1: [
+		{
+			RESOURCES: {
+				STONE_CUT: 2,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				STORAGE: 3,
+			],
+		},
+	],
+},
+
+NOBLE: {
+	FLOORS: [
+		{
+			RESOURCES: {
+			
+			},
+			FLOOR: STONE_BRICK,
+		},
+	],
+	BED_MASTER_2x2: [
+		{
+			RESOURCES: {
+			
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 4,
+			SHADOW_HEIGHT: 4,
+			ROTATES: true,
+			FRAMES : [
+				BEDS: 0,
+			],
+		},
+	],
+	STATUE_2x2: [ 
+		{
+			RESOURCES: {
+			
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 8,
+			SHADOW_HEIGHT: 8,
+			ROTATES: true,
+			FRAMES : [
+				MONUMENT: 1,
+			],
+		},
+	],
+},
+

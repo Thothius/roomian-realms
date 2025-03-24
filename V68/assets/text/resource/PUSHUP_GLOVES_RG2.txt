@@ -1,0 +1,3 @@
+NAME: "Pushup Glove",
+NAMES: "Pushup Gloves",
+DESC: "Specialized combat gloves used by disciplined martial artists. These reinforced hand coverings feature stone plates embedded in the knuckles, allowing for devastating blunt force strikes while maintaining dexterity. Each pair is said to be broken in through thousands of push-ups, imbuing them with the focused discipline of their creator.",

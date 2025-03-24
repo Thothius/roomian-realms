@@ -1,0 +1,15 @@
+# Ignore temporary files
+*.tmp
+*.bak
+
+# Ignore OS specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE files
+.idea/
+.vscode/
+*.sublime-*
+
+# Ignore log files
+*.log

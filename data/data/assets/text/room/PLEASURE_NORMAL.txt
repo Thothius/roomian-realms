@@ -1,0 +1,50 @@
+INFO: {
+	NAME: "Massage Parlour",
+	NAMES: "Massage Parlours",
+	DESC: "A good massage will relax your subjects and blow off some steam, that could otherwise be directed at you.",
+},
+
+WORK: {
+	TITLE: "Masseuse",
+	VERB: "Servinga  a client",
+},
+
+ITEMS: [
+	{
+		NAME: "Booth",
+		DESC: "Where clients are served.",
+	},
+	{
+		NAME: "Decorations",
+		DESC: "Improve the quality of the room.",
+	},
+	{
+		NAME: "Carpets",
+		DESC: "Improve the quality of the room.",
+	},
+],
+
+STATS: [
+	{
+		NAME: "Clients",
+		DESC: "Clients that can be served.",
+	},
+	{
+		NAME: "Coziness",
+		DESC: "Coziness of the room. Keep this at 100%.",
+	},
+	{
+		NAME: "Workers",
+		DESC: "Number of workers that will be required.",
+	},
+],
+
+SERVICE: {
+	VERB: "Getting a 'massage'",
+	MORE: [
+		"Do you plan to build some massage parlors? Asking for a friend.",
+		"I have this 'crick' in my 'neck' my {RACE_LORD}. Perhaps you could find it in your heart to build us {RACE_SELVES} some 'massage parlors'.",
+		"A friend asked me to ask you to build him some massage parlors.",
+		"I'll be blunt my {RACE_LORD}, I don't want to die a virgin. Once I was in love with a Tilapi, but it didn't work out as she got into the blood rage. If only we had a 'massage parlour'.",
+	],
+},

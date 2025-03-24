@@ -1,0 +1,88 @@
+NAME: "Architecture",
+TECHS: {
+	BASE0: {
+		NAME: "Paved Roads",
+		DESC: "Your people tire of the muddy, divoted dirt roads lining the city.  Invest in stone paved streets for the future.",
+	},
+	BASE1: {
+		NAME: "Fancy Roads",
+		DESC: "Artfully cut stone lines the streets of your city.  The breathtaking expense is a sign of the city's power.",
+	},
+	BASE2: {
+		NAME: "Decorative Plazas",
+		DESC: "An explosion of bright colors sets the stage for your festivals, markets, and town squares.",
+	},
+	HOME0: {
+		NAME: "Basements",
+		DESC: "Your people require denser housing to get to work and services quickly.  Dig out basements to increase housing capacity.",
+	},
+	HOME1: {
+		NAME: "Second Floors",
+		DESC: "Second floors for your housing will make the most out of your dense neighborhoods but will require much sturdier construction.",
+	},
+	MAIN0: {
+		NAME: "Maintenance",
+		DESC: "Your builders learn the secrets of making constructions survive the test of time.",
+	},
+	MISC1: {
+		NAME: "Fancy Market",
+		DESC: "Enables a marketplace that is fit for the nobility.",
+	},
+	MISC3: {
+		NAME: "Spoilage",
+		DESC: "So much is wasted every year on rot and rust.  Your people learn how to properly store goods and preserve foods for longer periods of time.",
+	},
+	STOR0: {
+		NAME: "Logistics",
+		DESC: "A solid logistics network is the pumping heart of a city.  Improve the ability of your haulers to move goods quickly, freeing up workers for other tasks.",
+	},
+	STOR1: {
+		NAME: "Transports",
+		DESC: "Heavy wagons rumble down the street to the groan of beasts of burden.",
+	},
+	STAT0: {
+		NAME: "Pillars",
+		DESC: "No mere supports, these pillars are designed to awe all who look upon them.",
+	},
+	STAT1: {
+		NAME: "Sculpting",
+		DESC: "Your builders learn the ways of sculpting.",
+	},
+	HEAR0: {
+		NAME: "Fancy Hearth",
+		DESC: "A more comfortable experience.",
+	},
+	HEAR1: {
+		NAME: "Luxurious Hearth",
+		DESC: "A fancy contraption ensures that smoke does not blow straight into your subjects' faces.",
+	},
+	TORC0: {
+		NAME: "Fancy Lights",
+		DESC: "Metal braziers are a sign of wealth.",
+	},
+	BENC0: {
+		NAME: "Fancy Bench",
+		DESC: "Less splinters, more comfort.",
+	},
+	WAT00: {
+		NAME: "Plumbing",
+		DESC: "The knowledge necessary to build and maintain the infrastructure for moving water.",
+	},
+	WAT01: {
+		NAME: "Swimming Pools",
+		DESC: "Useful when the water is just too far away.",
+	},
+	WELL0: {
+		NAME: "Fancy Well",
+		DESC: "Less leaky buckets and a more pleasant look.",
+	},
+	WELL1: {
+		NAME: "Extravagant Well",
+		DESC: "Clever mechanisms make getting water less of a chore.",
+	},
+	BATH0: {
+		NAME: "Bathhouses",
+		DESC: "A much more luxurious bathing experience with less reliance on good weather.",
+	},
+},
+

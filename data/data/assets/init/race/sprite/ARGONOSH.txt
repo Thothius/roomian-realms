@@ -1,0 +1,263 @@
+SLEEP_FILE: Blanket,
+SPRITE_EXTRA_FILE: Normal,
+NAMESET_FILE_NOBLE: LzmLastNoble,
+
+WORLD: {
+	TOWN: Normal,
+	TOWN_COLOR: 255_255_255,
+	VILLAGE: Normal,
+	VILLAGE_COLOR: 255_255_255,
+	OVERLAY: Normal,
+	OVERLAY_COLOR: 255_255_255,
+	WALL: Normal,
+	WALL_COLOR: 255_255_255,
+	WALL_VILLAGE: Village,
+	WALL_VILLAGE_COLOR: 255_255_255,
+	TERRAIN: Normal,
+	TERRAIN_COLOR: 140_110_100,
+	FARM: Garthimi,
+	FARM_COLOR: 255_255_255,
+},
+
+CROWN: {
+	FILE: CrownGarthimi,
+	OFFX: 0,
+	OFFY: -3,
+},
+MERC: {
+	FILE: Helm,
+	OFFX: 0,
+	OFFY: -2,
+},
+RAIDER: [
+	{
+		FILE: RaidHat_H,
+		OFFX: 0,
+		OFFY: -6,
+	},
+	{
+		FILE: RaidHat_L,
+		OFFX: 0,
+		OFFY: -1,
+	},
+	{
+		FILE: RaidVail,
+		OFFX: 0,
+		OFFY: 24,
+	},
+],
+COLOR_CLOTHES: [
+	{R: 114, G: 101, B: 35,},
+	{R: 142, G: 126, B: 44,},
+	{R: 83, G: 181, B: 94,},
+	{R: 62, G: 135, B: 70,},
+	{R: 105, G: 125, B: 239,},
+	{R: 79, G: 94, B: 181,},
+	{R: 53, G: 64, B: 122,},
+	{R: 193, G: 77, B: 0,},
+],
+COLOR_BLOOD: {R: 70, G: 40, B: 40,},
+COLORS: {
+    SKIN: {
+        TURNS_WHITE_WHEN_DEAD: false,
+        VALUES:[
+            {R: 91, G: 74, B: 52,},
+            {R: 94, G: 77, B: 50,},
+            {R: 100, G: 74, B: 55,},
+            {R: 100, G: 79, B: 61,},
+            {R: 108, G: 86, B: 68,},
+            {R: 101, G: 77, B: 43,},
+            {R: 101, G: 79, B: 56,},
+        ],
+        
+    },
+	PAINT: {
+		VALUES: [
+			{R: 25, G: 135, B: 19,},
+			{R: 173, G: 24, B: 24,},
+			{R: 224, G: 224, B: 20,},
+			{R: 20, G: 54, B: 224,},
+			{R: 23, G: 24, B: 25,},
+			{R: 255, G: 255, B: 255,},
+		],
+	},
+	LEG: {
+		VALUES: [
+			{R: 29, G: 12, B: 4,},
+			{R: 119, G: 48, B: 16,},
+			{R: 96, G: 39, B: 13,},
+			{R: 74, G: 26, B: 10,},
+			{R: 52, G: 18, B: 7,},
+			{R: 21, G: 9, B: 3,},
+			{R: 54, G: 28, B: 7,},
+			{R: 77, G: 34, B: 10,},
+		],
+	},
+	ARMOUR: {
+		PICK_BY_STAT: EQUIP_BATTLE_ARMOUR_PLATE,
+
+		VALUES: [
+			090_090_080,
+			099_099_099,
+			168_168_180,
+			209_159_054,
+		],
+	},
+	ARMOUR_LEATHER: {
+		VALUES: [
+			96_071_058,
+			107_079_065,
+			117_086_071,
+			127_095_078,
+		],
+	},
+},
+CHILD: {
+	COLOR_SKIN: SKIN,
+	COLOR_LEG: LEG,
+	
+	SPRITE_FILE: Argonosh,
+	SPRITE_SKELLETON_FILE: Argonosh,
+	NAMESET_FILE_FIRST: LzmFirst,
+	NAMESET_FILE_SURNAME: LzmLast,
+},
+TYPES: [
+	{
+		OCCURRENCE: 1,
+		COLOR_SKIN: SKIN,
+		COLOR_LEG: LEG,
+		
+		SPRITE_FILE: Argonosh,
+		SPRITE_SKELLETON_FILE: Argonosh,
+		PORTRAIT_FILE: Argonosh,
+		NAMESET_FILE_FIRST: LzmFirst,
+		NAMESET_FILE_SURNAME: LzmLast,
+		
+		ADDONS: [
+			{
+				BELOW_HEAD: false,
+				ADDON_INDEX: 0,
+				CONDITIONS: {
+					GREATER: {
+						EQUIP_BATTLE_ARMOUR_PLATE_I: 0,
+					},
+				},
+				COLOR: ARMOUR,
+			},
+			{
+				BELOW_HEAD: true,
+				ADDON_INDEX: 1,
+				CONDITIONS: {
+					GREATER: {
+						EQUIP_BATTLE_ARMOUR_LEATHER_I: 0,
+					},
+				},
+				COLOR: ARMOUR_LEATHER,
+			},
+		],
+		
+		FACE: [
+			**Chest
+			{
+				FRAMES: [
+					Chest: 26,
+					Chest: 27,
+				],
+				COLOR: SKIN,
+				STAINS: false,
+				OFF_Y: 2,
+			},
+			**Skull
+			{
+				FRAMES: [
+					Skull: 64,
+					Skull: 65,
+					Skull: 66,
+					Skull: 67,
+				],
+				OFF_Y: -2,
+				COLOR: SKIN,
+			},
+			**Warpaint
+			{
+				CONDITIONS: {
+					GREATER: {
+						RANDOM_2_F: 0.5,
+					},
+				},
+				 FRAMES: [
+					Makeup: 60,
+					Makeup: 61,
+					Makeup: 62,
+					Makeup: 63,	
+					Makeup: 64,
+					Makeup: 65,
+					Makeup: 66,
+					Makeup: 67,	
+				],
+				OFF_Y: -2,
+				COLOR: PAINT,
+			},
+			**Eyes
+			{
+				FRAMES: [
+					Eyes: 44,
+					Eyes: 45,
+					Eyes: 46,
+					Eyes: 47,
+					Eyes: 48,
+					Eyes: 49,
+					Eyes: 50,
+					Eyes: 51,
+				],
+				OFF_Y: -2,
+				STAINS: false,
+			},
+			**Spikes
+			{
+				CONDITIONS: {
+					GREATER: {
+						RANDOM_1_F: 0.35,
+					},
+				},
+				FRAMES: [
+					Feature: 52,
+					Feature: 53,
+					Feature: 54,
+					Feature: 55,
+				],
+				OFF_Y: -2,
+				COLOR: SKIN,
+			},
+			**Mouth
+			{
+				FRAMES: [ 
+					Mouth: 64,
+					Mouth: 65,
+					Mouth: 66,
+					Mouth: 67,
+				],
+				STAINS: false,
+				COLOR: SKIN,
+				OFF_Y: -2,
+			},
+			**Mandible
+			{
+				FRAMES: [ 
+					Mouth: 68,
+					Mouth: 69,
+					Mouth: 70,
+					Mouth: 71,
+					Mouth: 72,
+					Mouth: 73,
+					Mouth: 74,
+					Mouth: 75,
+				],
+				STAINS: false,
+				COLOR: SKIN,
+				OFF_Y: -2,
+			},
+		],
+	},
+],
+

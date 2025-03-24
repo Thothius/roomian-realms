@@ -1,0 +1,2 @@
+NAME: "Grand Wall",
+DESC: "Holds off enemies. Can also be used as a regular wall",

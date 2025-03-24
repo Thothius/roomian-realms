@@ -1,0 +1,44 @@
+INFO: {
+	NAME: "Lizardkin Hatchery",
+	NAMES: "Lizardkin Hatcheries",
+	DESC: "A place where Lizardkin hatchlings are born and brought up. Each station is capable of bringing one up and needs meat to operate, else the spawn will starve.",
+},
+
+
+BONUS: {
+	NAME: "Lizardkin spawning",
+	DESC: "Increases the rate at which Lizardkin are produced in Lizardkin Hatcheries.",
+},
+
+STATS: [
+
+	{
+		NAME: "Clutches",
+		DESC: "Amount of Clutches",
+	},
+	{
+		
+	},
+	{
+		NAME: "Efficiency",
+		DESC: "Increases birth rate.",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Crib",
+		DESC: "",
+	},
+	{
+		NAME: "Carpet",
+		DESC: "Increases efficiency.",
+	},
+],
+
+WORK: {
+	TITLE: "Lizardkin Egg Tender",
+	VERB: "Tending to the Clutch.",
+},
+
+

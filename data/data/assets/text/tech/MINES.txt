@@ -1,0 +1,112 @@
+NAME: "Mining",
+TECHS: {
+	BASE0: {
+		NAME: "Mining",
+		DESC: "",
+	},
+	TOOL0: {
+		NAME: "Mining Tools",
+		DESC: "",
+	},
+	CLAY0: {
+		NAME: "Clay Mine Revolution",
+		DESC: "",
+	},
+	CLAY1: {
+		NAME: "Clay Mining Advancements",
+		DESC: "",
+	},
+	CLAY2: {
+		NAME: "Advanced Clay Mine",
+		DESC: "",
+	},
+	COAL0: {
+		NAME: "Coal Mine Revolution",
+		DESC: "",
+	},
+	COAL1: {
+		NAME: "Coal Mining Advancements",
+		DESC: "",
+	},
+	COAL2: {
+		NAME: "Advanced Coal Mine",
+		DESC: "",
+	},
+	STON0: {
+		NAME: "Stone Mine Revolution",
+		DESC: "",
+	},
+	STON1: {
+		NAME: "Stone Mining Advancements",
+		DESC: "",
+	},
+	STON2: {
+		NAME: "Advanced Stone Mine",
+		DESC: "",
+	},
+	ORE00: {
+		NAME: "Ore Mine Revolution",
+		DESC: "",
+	},
+	ORE01: {
+		NAME: "Ore Mining Advancements",
+		DESC: "",
+	},
+	ORE02: {
+		NAME: "Advanced Ore Mine",
+		DESC: "",
+	},
+	GEM00: {
+		NAME: "Gem",
+		DESC: "",
+	},
+	GEM01: {
+		NAME: "Gem Mine Revolution",
+		DESC: "",
+	},
+	GEM02: {
+		NAME: "Gem Mining Advancements",
+		DESC: "",
+	},
+	GEM03: {
+		NAME: "Advanced Gem Mine",
+		DESC: "",
+	},
+	SITH0: {
+		NAME: "Sithilon",
+		DESC: "",
+	},
+	SITH1: {
+		NAME: "Sithilon Mine Revolution",
+		DESC: "",
+	},
+	SITH2: {
+		NAME: "Sithilon Mining Advancements",
+		DESC: "",
+	},
+	SITH3: {
+		NAME: "Advanced Sithilon Mine",
+		DESC: "",
+	},
+	RAW00: {
+		NAME: "High Mining",
+		DESC: "",
+	},
+	WTOO0: {
+		NAME: "Woodcutter Tools",
+		DESC: "",
+	},
+	WOOD0: {
+		NAME: "Woodcutting",
+		DESC: "",
+	},
+	WOOD1: {
+		NAME: "Advanced Woodcutter",
+		DESC: "",
+	},
+	WOOD2: {
+		NAME: "Expert Woodcutter",
+		DESC: "",
+	},
+},
+

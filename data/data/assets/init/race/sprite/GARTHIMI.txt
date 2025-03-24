@@ -1,0 +1,399 @@
+SLEEP_FILE: Blanket,
+SPRITE_EXTRA_FILE: Normal,
+NAMESET_FILE_NOBLE: LzmLastNoble,
+
+WORLD: {
+	TOWN: Garthimi,
+	TOWN_COLOR: 255_255_255,
+	VILLAGE: Garthimi,
+	VILLAGE_COLOR: 255_255_255,
+	OVERLAY: Cretonian,
+	OVERLAY_COLOR: 70_80_15,
+	WALL: Normal,
+	WALL_COLOR: 170_180_160,
+	WALL_VILLAGE: Village,
+	WALL_VILLAGE_COLOR: 170_180_160,
+	TERRAIN: Garthimi,
+	TERRAIN_COLOR: 70_80_60,
+	FARM: Garthimi,
+	FARM_COLOR: 255_255_255,
+},
+
+CROWN: {
+	FILE: CrownGarthimi,
+	OFFX: 0,
+	OFFY: -3,
+},
+MERC: {
+	FILE: Helm,
+	OFFX: 0,
+	OFFY: -2,
+},
+RAIDER: [
+	{
+		FILE: RaidHat_H,
+		OFFX: 0,
+		OFFY: -6,
+	},
+	{
+		FILE: RaidHat_L,
+		OFFX: 0,
+		OFFY: -1,
+	},
+	{
+		FILE: RaidVail,
+		OFFX: 0,
+		OFFY: 24,
+	},
+	{
+		FILE: Helm,
+		OFFX: 0,
+		OFFY: -2,
+	},
+],
+COLOR_CLOTHES: [
+	{R: 114, G: 101, B: 35,},
+	{R: 142, G: 126, B: 44,},
+	{R: 83, G: 181, B: 94,},
+	{R: 62, G: 135, B: 70,},
+	{R: 105, G: 125, B: 239,},
+	{R: 79, G: 94, B: 181,},
+	{R: 53, G: 64, B: 122,},
+	{R: 193, G: 77, B: 0,},
+],
+COLOR_BLOOD: {R: 80, G: 40, B: 100,},
+COLORS: {
+	SKIN: {
+	    TURNS_WHITE_WHEN_DEAD: true,
+	    VALUES:{
+			GENERATE: 16,
+			FROM: 100_100_75,
+			TO: 95_115_100,
+	    },
+	},
+	EYE: {
+		VALUES: [
+			{R: 255, G: 255, B: 255,},
+		],
+	},
+	LEG: {
+		VALUES: [
+			{R: 80, G: 40, B: 20,},
+		],
+	},
+	PAINT1: {
+		VALUES: [
+			{R: 85, G: 149, B: 78,},
+			{R: 162, G: 16, B: 17,},
+			{R: 190, G: 143, B: 21,},
+			{R: 39, G: 61, B: 167,},
+			{R: 147, G: 17, B: 29,},
+			{R: 208, G: 178, B: 106,},
+		],
+	},
+	PAINT2: {
+		VALUES: [
+			{R: 112, G: 130, B: 110,},
+			{R: 125, G: 23, B: 24,},
+			{R: 97, G: 81, B: 40,},
+			{R: 41, G: 50, B: 93,},
+			{R: 101, G: 32, B: 38,},
+			{R: 151, G: 139, B: 111,},
+		],
+	},
+	ARMOUR: {
+		PICK_BY_STAT: EQUIP_BATTLE_ARMOUR_PLATE,
+
+		VALUES: [
+			090_090_080,
+			099_099_099,
+			168_168_180,
+			209_159_054,
+		],
+	},
+	ARMOUR_LEATHER: {
+		VALUES: [
+			96_071_058,
+			107_079_065,
+			117_086_071,
+			127_095_078,
+		],
+	},
+},
+CHILD: {
+	
+	COLOR_SKIN: SKIN,
+	COLOR_LEG: LEG,
+	
+	SPRITE_FILE: ChildHumanoid,
+	SPRITE_SKELLETON_FILE: Humanoid_small,
+	NAMESET_FILE_FIRST: StdFirst,
+	NAMESET_FILE_SURNAME: StdLast,
+	
+	ADDONS: [
+		{
+			BELOW_HEAD: false,
+			ADDON_INDEX: 1,
+			CONDITIONS: {
+				GREATER: {
+					RANDOM_1_F: 0.5,
+				},
+			},
+			COLOR: PAINT1,
+		},
+		{
+			BELOW_HEAD: false,
+			ADDON_INDEX: 1,
+			CONDITIONS: {
+				GREATER: {
+					RANDOM_2_F: 0.5,
+				},
+			},
+			COLOR: PAINT2,
+		},
+	],
+},
+TYPES: [
+	{
+		OCCURRENCE: 1.0,
+		COLOR_SKIN: SKIN,
+		COLOR_LEG: LEG,
+		
+		SPRITE_FILE: Garthimi,
+		SPRITE_SKELLETON_FILE: Humanoid_small,
+		NAMESET_FILE_FIRST: StdFirst,
+		NAMESET_FILE_SURNAME: StdLast,
+		PORTRAIT_FILE: Garthimi,
+		
+		ADDONS: [
+			{
+				BELOW_HEAD: false,
+				ADDON_INDEX: 3,
+				CONDITIONS: {
+					GREATER: {
+						RANDOM_1_F: 0.5,
+					},
+				},
+				COLOR: PAINT1,
+			},
+			{
+				BELOW_HEAD: false,
+				ADDON_INDEX: 4,
+				CONDITIONS: {
+					GREATER: {
+						RANDOM_2_F: 0.5,
+					},
+				},
+				COLOR: PAINT2,
+			},
+			{
+				BELOW_HEAD: false,
+				ADDON_INDEX: 2,
+				CONDITIONS: {
+					EQUAL: {
+						POPULATION_NOBLES_I: 1,
+					},
+				},
+			},
+			{
+				BELOW_HEAD: false,
+				ADDON_INDEX: 0,
+				CONDITIONS: {
+					GREATER: {
+						EQUIP_BATTLE_ARMOUR_PLATE_I: 0,
+					},
+				},
+				COLOR: ARMOUR,
+			},
+			{
+				BELOW_HEAD: true,
+				ADDON_INDEX: 0,
+				CONDITIONS: {
+					GREATER: {
+						EQUIP_BATTLE_ARMOUR_LEATHER_I: 0,
+					},
+				},
+				COLOR: ARMOUR_LEATHER,
+			},
+		],
+	
+
+		FACE: [
+			**Chest
+			{
+				FRAMES: [
+					Chest: 20,
+					Chest: 21,
+				],
+				COLOR: SKIN,
+				STAINS: false,
+				OFF_Y: 2,
+			},
+			**Noble
+			{
+				CONDITIONS: {
+					EQUAL: {
+						POPULATION_NOBLES_I: 1,
+					},
+				},
+				FRAMES: [
+					Cloak: 4,
+				],
+				OFF_Y: 2,
+				STAINS: false,
+			},
+			**Skull
+			{
+				FRAMES: [
+					Skull: 44,
+					Skull: 45,
+					Skull: 46,
+					Skull: 47,
+					Skull: 48,
+					Skull: 49,
+					Skull: 50,
+					Skull: 51,
+				],
+				**OFF_Y: 1,
+				COLOR: SKIN,
+			},
+			**Eyes
+			{
+				FRAMES: [
+					Eyes: 28,
+					Eyes: 29,
+					Eyes: 30,
+					Eyes: 31,
+				],
+				**OFF_Y: 1,
+				COLOR: SKIN,
+				STAINS: false,
+			},
+			**Eyes Iris
+			{
+				CONDITIONS: {
+					EQUAL: {
+						APPEARANCE_DEAD_I: 0,
+					},
+				},
+				FRAMES: [
+					Eyes: 32,
+				],
+				**OFF_Y: 1,
+				STAINS: false,
+			},
+			**Eyes Injury
+			{
+				CONDITIONS: {
+					GREATER: {
+						RANDOM_4_F: 0.80,
+					},
+				},
+				FRAMES: [
+					Eyes: 33,
+					Eyes: 34,
+					Eyes: 35,
+				],
+				**OFF_Y: 1,
+				COLOR: SKIN,
+				STAINS: false,
+			},
+			**Face Chitin
+			{
+				CONDITIONS: {
+					GREATER: {
+						POPULATION_AGE_F: 0.2,
+						RANDOM_5_F: 0.35,
+					},
+				},
+				FRAMES: [
+					Feature: 44,
+					Feature: 45,
+					Feature: 46,
+					Feature: 47,
+				],
+				COLOR: SKIN,
+				STAINS: false,
+				**OFF_Y: 1,
+			},
+			**Mouth
+			{
+				FRAMES: [ 
+					Mouth: 44,
+					Mouth: 45,
+					Mouth: 46,
+					Mouth: 47,
+					Mouth: 48,
+					Mouth: 49,
+					Mouth: 50,
+					Mouth: 51,	
+					Mouth: 52,
+					Mouth: 53,
+					Mouth: 54,
+					Mouth: 55,	
+				],
+				STAINS: false,
+				COLOR: SKIN,
+				**OFF_Y: 1,
+			},
+			**Mouth Extension
+			{
+				CONDITIONS: {
+					GREATER: {
+						RANDOM_6_F: 0.25,
+					},
+				},
+				FRAMES: [ 
+					Mouth: 52,
+					Mouth: 53,
+					Mouth: 54,
+					Mouth: 55,	
+				],
+				STAINS: false,
+				COLOR: SKIN,
+				**OFF_Y: 1,
+			},
+			**Warpaint Large
+			{
+				CONDITIONS: {
+					GREATER: {
+						RANDOM_2_F: 0.5,
+					},
+				},
+				FRAMES: [
+					Makeup: 20,
+					Makeup: 21,
+					Makeup: 22,
+					Makeup: 23,
+					Makeup: 24,
+					Makeup: 25,
+					Makeup: 26,
+					Makeup: 27,
+					Makeup: 28,
+					Makeup: 29,
+					Makeup: 30,
+					Makeup: 31,	
+				],
+				**OFF_Y: 1,
+				COLOR: PAINT1,
+			},
+			**Brow
+			{
+				FRAMES: [
+					Eyebrow: 32,
+					Eyebrow: 33,
+					Eyebrow: 34,
+					Eyebrow: 35,
+					Eyebrow: 36,
+					Eyebrow: 37,
+					Eyebrow: 38,
+					Eyebrow: 39,
+				],
+				COLOR: SKIN,
+				STAINS: false,
+				**OFF_Y: 1,
+			},
+		],
+	},
+],
+

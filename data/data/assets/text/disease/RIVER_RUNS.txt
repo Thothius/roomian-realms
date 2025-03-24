@@ -1,0 +1,2 @@
+NAME: "The River Runs",
+DESC: "Named not only for often occuring in towns near rivers, this epidemic is potentially very deadly. Victims may die of dehydration after days of diarrhea or just wish they did.",

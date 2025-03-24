@@ -1,0 +1,34 @@
+INFO: {
+	NAME: "Guardpost",
+	NAMES: "Guardposts",
+	DESC: "Employs guards, that will deter crime and rush to any committed in its vicinity to have your justice be done to the perpetrators. Guards will also occasionally go out on patrol to further discourage mischief. Can be placed on top of fortifications.",
+	WIKI: {
+		CATEGORY: "Military",
+		NAME: "Guardposts",
+		TEXT: "Employs guards that will deter crime and rush to any committed in its vicinity to have your justice be done to the perpetrators. Guards will also occasionally go out on patrol to further discouraging mischief.",
+		CATEGORIES: [],
+	},
+},
+
+ITEMS: [
+	{
+		NAME: "Guardpost",
+		DESC: "",
+	},
+],
+
+STATS: [
+	{
+		NAME: "Guards",
+		DESC: "Amount of guards needed.",
+	},
+	{
+		NAME: "Radius",
+		DESC: "The effective radius of the post.",
+	},
+],
+
+WORK: {
+	TITLE: "Guard",
+	VERB: "Guarding",
+},

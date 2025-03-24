@@ -1,0 +1,9 @@
+NAME: "Workers Guild",
+DESC: "Increases workforce of regions globally",
+
+LEVELS: [
+	"Workers Guild",
+	"Workers Office",
+	"Workers Headquarters",
+	"Royal Workers Academy",
+],

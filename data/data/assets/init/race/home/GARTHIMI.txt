@@ -1,0 +1,209 @@
+SLAVE: {
+	FLOORS: [
+		{
+			RESOURCES: {
+			
+			},
+			FLOOR: DARK1,
+		},
+		{
+			RESOURCES: {
+				CLAY: 4,
+			},
+			FLOOR: DARK2,
+		},
+	],
+
+	NICKNACK_A_1x1: [
+		{
+			RESOURCES: {
+				CLAY: 2,
+			},
+			FPS: 5,
+			SHADOW_LENGTH: 1,
+			SHADOW_HEIGHT: 0,
+			TINT: true,
+			CIRCULAR: true,
+			FRAMES : [
+				ORGANIC_BLOB: 0,
+				ORGANIC_BLOB: 1,
+				ORGANIC_BLOB: 2,
+				ORGANIC_BLOB: 3,
+			],
+		},
+	],
+	NICKNACK_B_1x1: [
+		{
+			RESOURCES: {
+				CLAY: 4,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 1,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				ORGANIC_BLOB: 4,
+			],
+		},
+	],
+	NIGHTSTAND_1x1: [
+		{
+			RESOURCES: {
+				STONE: 3,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 1,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				TABLES: 2,
+			],
+		},
+	],
+	BED_1x1_TOP: [
+		{
+			RESOURCES: {
+				
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				2xBED: 20,
+			],
+		},
+	],
+	BED_1x1_BOTTOM: [
+		{
+			RESOURCES: {
+				
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				2xBED: 21,
+			],
+		},
+	],
+},
+
+CITIZEN: {
+	FLOORS: [
+		{
+			RESOURCES: {
+			
+			},
+			FLOOR: DARK1,
+		},
+	],
+
+	NICKNACK_A_1x1: [
+		{
+			RESOURCES: {
+				CLAY: 2,
+			},
+			FPS: 5,
+			SHADOW_LENGTH: 1,
+			SHADOW_HEIGHT: 0,
+			TINT: true,
+			CIRCULAR: true,
+			FRAMES : [
+				ORGANIC_BLOB: 0,
+				ORGANIC_BLOB: 1,
+				ORGANIC_BLOB: 2,
+				ORGANIC_BLOB: 3,
+			],
+		},
+	],
+	NICKNACK_B_1x1: [
+		{
+			RESOURCES: {
+				CLAY: 4,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 1,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				ORGANIC_BLOB: 4,
+			],
+		},
+	],
+	NIGHTSTAND_1x1: [
+		{
+			RESOURCES: {
+				STONE: 3,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 1,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				TABLES: 2,
+			],
+		},
+	],
+	BED_1x1_TOP: [
+		{
+			RESOURCES: {
+				
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				2xBED: 20,
+			],
+		},
+	],
+	BED_1x1_BOTTOM: [
+		{
+			RESOURCES: {
+				
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				2xBED: 21,
+			],
+		},
+	],
+},
+
+NOBLE: {
+	FLOORS: [
+		{
+			RESOURCES: {
+			
+			},
+			FLOOR: DIRT,
+		},
+	],
+	BED_MASTER_2x2: [
+		{
+			RESOURCES: {
+			
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 4,
+			SHADOW_HEIGHT: 4,
+			ROTATES: true,
+			FRAMES : [
+				BEDS: 0,
+			],
+		},
+	],
+	STATUE_2x2: [ 
+		{
+			RESOURCES: {
+			
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 8,
+			SHADOW_HEIGHT: 8,
+			ROTATES: true,
+			FRAMES : [
+				MONUMENT: 1,
+			],
+		},
+	],
+},
+

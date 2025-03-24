@@ -1,0 +1,193 @@
+ICON: 32->SERVICE->0,
+TYPE: ARENA,
+RESOURCES: [WOOD,STONE,STONE_CUT,WEAPON_SHORT,],
+AREA_COSTS: [0,0,0,0,],
+FLOOR: MINE_MUD,
+MINI_COLOR: 70_0_255,
+
+ITEMS: [
+	{
+		COSTS: [20,15,60,40,],
+		STATS: [5,70,],
+	},
+],
+SERVICE: {
+	DEFAULT_ACCESS: 1,
+	STANDING: {
+		CITIZEN: 1,
+		SLAVE: 0,
+		NOBLE: 1,
+		PRIO: 2,
+	},
+	NEED: ARENA,
+	SOUND: DUMMY,
+	RADIUS: 200,
+},
+
+WORK: {
+	SHIFT_OFFSET: 0.65,
+	SOUND: DUMMY,
+	ACCIDENTS_PER_YEAR: 0.025,
+	FULFILLMENT: 0.1,
+},
+
+UPGRADES: [
+	{
+		RESOURCE_MASK: [1,1,0,0,],
+		BOOST: 0,
+	},
+	{
+		RESOURCE_MASK: [1,1,1,1,],
+		BOOST: 1,
+	},
+],
+
+SPRITES: {
+	WALL_1X1: [
+		{
+			SHADOW_LENGTH: 15,
+			TINT: false,
+			ROTATES: true,
+			FRAMES: [
+				WALL: 2,
+			],
+		},
+	],
+	TOWER_1X1: [
+		{
+			COLOR: 128_128_128,
+			SHADOW_LENGTH: 18,
+			TINT: false,
+			ROTATES: false,
+			FRAMES: [
+				WALL: 1,
+			],
+		},
+		{
+			SHADOW_LENGTH: 18,
+			TINT: false,
+			ROTATES: false,
+			FRAMES: [
+				WALL: 1,
+			],
+		},
+	],
+	TORCH_1X1: [
+		{
+			COLOR: 128_128_128,
+			SHADOW_LENGTH: 18,
+			TINT: false,
+			ROTATES: false,
+			FRAMES: [
+				WALL: 1,
+			],
+		},
+		{
+			SHADOW_LENGTH: 18,
+			TINT: false,
+			ROTATES: false,
+			FRAMES: [
+				WALL: 1,
+			],
+		},
+	],
+	TORCH_TOP_1X1: [
+		{
+			SHADOW_HEIGHT: 0,
+			TINT: false,
+			ROTATES: false,
+			FRAMES: [
+				TORCH: 3,
+			],
+		},
+	],
+	STAIRS_LEFT_1X1: [
+		{
+			COLOR: 128_128_128,
+			SHADOW_HEIGHT: 0,
+			TINT: false,
+			ROTATES: true,
+			FRAMES: [
+				STAIRS_BIG: 0,
+			],
+		},
+		{
+			COLOR: 200_200_200,
+			SHADOW_HEIGHT: 0,
+			TINT: false,
+			ROTATES: true,
+			FRAMES: [
+				STAIRS_BIG: 0,
+			],
+		},
+	],
+	STAIRS_CENTRE_1X1: [
+		{
+			COLOR: 128_128_128,
+			SHADOW_HEIGHT: 0,
+			TINT: false,
+			ROTATES: true,
+			FRAMES: [
+				STAIRS_BIG: 1,
+			],
+		},
+		{
+			COLOR: 200_200_200,
+			SHADOW_HEIGHT: 0,
+			TINT: false,
+			ROTATES: true,
+			FRAMES: [
+				STAIRS_BIG: 1,
+			],
+		},
+	],
+	STAIRS_RIGHT_1X1: [
+		{
+			COLOR: 128_128_128,
+			SHADOW_HEIGHT: 0,
+			TINT: false,
+			ROTATES: true,
+			FRAMES: [
+				STAIRS_BIG: 2,
+			],
+		},
+		{
+			COLOR: 200_200_200,
+			SHADOW_HEIGHT: 0,
+			TINT: false,
+			ROTATES: true,
+			FRAMES: [
+				STAIRS_BIG: 2,
+			],
+		},
+	],
+	SEAT_BOX: [
+		{
+			SHADOW_HEIGHT: 4,
+			TINT: false,
+			ROTATES: true,
+			FRAMES: [
+				ARENA: 3,
+			],
+		},
+		{
+			COLOR: 200_200_200,
+			SHADOW_HEIGHT: 4,
+			TINT: false,
+			ROTATES: true,
+			FRAMES: [
+				ARENA: 1,
+			],
+		},
+	],
+	RIM_BOX: [
+		{
+			SHADOW_HEIGHT: 4,
+			TINT: false,
+			ROTATES: true,
+			FRAMES: [
+				ARENA: 2,
+			],
+		},
+	],
+},

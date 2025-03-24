@@ -1,0 +1,351 @@
+<!-- HUMAN (NORTHMEN) CARD -->
+<div class="race-card human" data-religion="crator">
+    <div class="race-header">
+        <h3 class="race-name">Northmen (HUMAN) <span class="toggle-btn" onclick="toggleFullView('human')">🔍</span></h3>
+        <p class="race-subtitle">"The Glory Hoard"</p>
+    </div>
+    <div class="race-content">
+        <div class="race-tabs">
+            <button class="race-tab active" onclick="openTab(event, 'human-stats', 'human')">Stats</button>
+            <button class="race-tab" onclick="openTab(event, 'human-abilities', 'human')">Abilities</button>
+            <button class="race-tab" onclick="openTab(event, 'human-lore', 'human')">Lore</button>
+            <button class="race-tab" onclick="openTab(event, 'human-strategy', 'human')">Strategy</button>
+        </div>
+        
+        <!-- Stats Tab -->
+        <div id="human-stats" class="tab-content active">
+            <div class="stat-grid">
+                <div class="stat-item">
+                    <span class="stat-label">Height/Width:</span>
+                    <span class="stat-value">10/8 units</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Adult Age:</span>
+                    <span class="stat-value">360 days</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Sleeps:</span>
+                    <span class="stat-value">Yes</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Lifespan:</span>
+                    <span class="stat-value tooltip">+0%<span class="tooltip-text">Average lifespan of 60 years</span></span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Primary Religion:</span>
+                    <span class="stat-value religion-value">Crator (+1.2)</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Secondary Religion:</span>
+                    <span class="stat-value">Athuri (+0.3)</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Corpse Decay:</span>
+                    <span class="stat-value tooltip">Yes<span class="tooltip-text">Bodies decompose after death</span></span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Mercenary Potential:</span>
+                    <span class="stat-value">1.0</span>
+                </div>
+            </div>
+            
+            <h4 class="section-title">Physical Traits <span class="toggle-btn" onclick="toggleSection(this)">+</span></h4>
+            <div class="collapsible-content">
+                <div class="stat-grid">
+                    <div class="stat-item">
+                        <span class="stat-label">Health:</span>
+                        <span class="stat-value">+0%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Stamina:</span>
+                        <span class="stat-value">+10%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Strength:</span>
+                        <span class="stat-value">+20%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Cold Resistance:</span>
+                        <span class="stat-value">+0.5</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Heat Resistance:</span>
+                        <span class="stat-value">-0.2</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Adaptability:</span>
+                        <span class="stat-value">+0.4</span>
+                    </div>
+                </div>
+            </div>
+            
+            <h4 class="section-title">Combat Stats <span class="toggle-btn" onclick="toggleSection(this)">+</span></h4>
+            <div class="collapsible-content">
+                <div class="stat-grid">
+                    <div class="stat-item">
+                        <span class="stat-label">Offense:</span>
+                        <span class="stat-value">+30%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Defense:</span>
+                        <span class="stat-value">+20%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Morale:</span>
+                        <span class="stat-value">+40%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Slash Attack:</span>
+                        <span class="stat-value">+1.2</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Blunt Attack:</span>
+                        <span class="stat-value">+1.3</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Pierce Attack:</span>
+                        <span class="stat-value">+1.0</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Cold Resistance:</span>
+                        <span class="stat-value">+50%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Heat Resistance:</span>
+                        <span class="stat-value">-20%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Abilities Tab -->
+        <div id="human-abilities" class="tab-content">
+            <h4 class="section-title">Key Abilities</h4>
+            <div class="stat-grid">
+                <div class="stat-item">
+                    <span class="stat-label tooltip">Combat<span class="tooltip-text">Strong melee combat abilities</span></span>
+                    <span class="stat-value">+30%</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label tooltip">Raiding<span class="tooltip-text">Superior ability to conduct raids and collect trophies</span></span>
+                    <span class="stat-value">+50%</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label tooltip">Trophy Collection<span class="tooltip-text">Ability to collect and display trophies for morale bonuses</span></span>
+                    <span class="stat-value">+0.6</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label tooltip">Metalworking<span class="tooltip-text">Skill in forging weapons and armor</span></span>
+                    <span class="stat-value">+40%</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label tooltip">Cold Adaptation<span class="tooltip-text">Ability to function effectively in cold environments</span></span>
+                    <span class="stat-value">+0.5</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label tooltip">Saga Telling<span class="tooltip-text">Ability to boost morale through heroic tales</span></span>
+                    <span class="stat-value">+0.4</span>
+                </div>
+            </div>
+            
+            <h4 class="section-title">Rate Modifiers <span class="toggle-btn" onclick="toggleSection(this)">+</span></h4>
+            <div class="collapsible-content">
+                <div class="stat-grid">
+                    <div class="stat-item">
+                        <span class="stat-label">Raiding:</span>
+                        <span class="stat-value">+50%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Metalworking:</span>
+                        <span class="stat-value">+40%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Combat Training:</span>
+                        <span class="stat-value">+30%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Hunting:</span>
+                        <span class="stat-value">+20%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Research:</span>
+                        <span class="stat-value">-10%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Diplomacy:</span>
+                        <span class="stat-value">-20%</span>
+                    </div>
+                </div>
+            </div>
+            
+            <h4 class="section-title">Room Preferences <span class="toggle-btn" onclick="toggleSection(this)">+</span></h4>
+            <div class="collapsible-content">
+                <div class="stat-grid">
+                    <div class="stat-item">
+                        <span class="stat-label">Trophy Hall:</span>
+                        <span class="stat-value">+80%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Forge:</span>
+                        <span class="stat-value">+60%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Barracks:</span>
+                        <span class="stat-value">+50%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Feast Hall:</span>
+                        <span class="stat-value">+70%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Library:</span>
+                        <span class="stat-value">-20%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Hot Environments:</span>
+                        <span class="stat-value">-30%</span>
+                    </div>
+                </div>
+            </div>
+            
+            <h4 class="section-title">Behavior Traits <span class="toggle-btn" onclick="toggleSection(this)">+</span></h4>
+            <div class="collapsible-content">
+                <div class="stat-grid">
+                    <div class="stat-item">
+                        <span class="stat-label">Aggression:</span>
+                        <span class="stat-value">High</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Honor:</span>
+                        <span class="stat-value">High</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Adaptability:</span>
+                        <span class="stat-value">Medium</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Territoriality:</span>
+                        <span class="stat-value">High</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Individuality:</span>
+                        <span class="stat-value">Medium</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Competitiveness:</span>
+                        <span class="stat-value">Very High</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="pros-cons">
+                <div class="pros">
+                    <h4>Strengths</h4>
+                    <ul>
+                        <li>Skilled raiders and warriors</li>
+                        <li>Effective in cold environments</li>
+                        <li>Trophy collection boosts morale</li>
+                        <li>Strong metalworking abilities</li>
+                        <li>Saga telling enhances group cohesion</li>
+                        <li>Adaptable to various situations</li>
+                    </ul>
+                </div>
+                <div class="cons">
+                    <h4>Weaknesses</h4>
+                    <ul>
+                        <li>Vulnerable to heat</li>
+                        <li>Limited diplomatic abilities</li>
+                        <li>Poor research capabilities</li>
+                        <li>Prone to internal competition</li>
+                        <li>Average lifespan</li>
+                        <li>Resource-intensive lifestyle</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Lore Tab -->
+        <div id="human-lore" class="tab-content">
+            <div class="lore-section">
+                <p>The Northmen are hardy humans adapted to the cold northern regions of Syx. Their society revolves around the concept of the "Glory Hoard," a collection of trophies and artifacts that represent an individual's or clan's achievements and status. These trophies are displayed prominently in "Saga Walls" within their settlements, with the most impressive collections housed in central "Boast Halls."</p>
+                
+                <p>Northmen worship Crator as the creator of strength and skill, believing that displaying the trophies of their victories honors his gifts to them. Their settlements are typically built with strong defensive walls and central gathering halls where sagas (heroic tales) are told during feasts and celebrations.</p>
+                
+                <p>Their society is organized into competitive clans, each led by a chieftain who has proven their worth through combat prowess and successful raids. Leadership is not hereditary but earned through deeds and the size of one's Glory Hoard. The most respected individuals are those who not only collect impressive trophies but also contribute to the clan's overall strength and prosperity.</p>
+                
+                <p>Northmen are skilled metalworkers, particularly in the creation of weapons and armor, with distinctive patterns and runes that tell the story of the item's creation and intended purpose. They are also known for their shipbuilding abilities, creating vessels capable of navigating treacherous northern waters for trading and raiding.</p>
+            </div>
+            
+            <h4 class="section-title">Cultural Notes <span class="toggle-btn" onclick="toggleSection(this)">+</span></h4>
+            <div class="collapsible-content">
+                <ul>
+                    <li>Northmen mark significant achievements with tattoos that form a living record of their deeds</li>
+                    <li>They practice "frost forging," a technique that incorporates ice into metalworking for stronger blades</li>
+                    <li>Their architecture emphasizes large central halls with high ceilings and smoke holes</li>
+                    <li>They maintain oral histories through professional saga-tellers who memorize clan histories</li>
+                    <li>They practice ritual combat called "honor-testing" to settle disputes without bloodshed</li>
+                    <li>They celebrate the "Long Night Festival" during the winter solstice with feasting and saga competitions</li>
+                </ul>
+            </div>
+            
+            <h4 class="section-title">Historical Events <span class="toggle-btn" onclick="toggleSection(this)">+</span></h4>
+            <div class="collapsible-content">
+                <ul>
+                    <li><strong>The First Frost:</strong> When Crator blessed the original Northmen with cold resistance</li>
+                    <li><strong>The Great Gathering:</strong> A legendary feast where the first clan alliances were formed</li>
+                    <li><strong>The Trophy Wars:</strong> A series of conflicts over particularly valuable trophies</li>
+                    <li><strong>The Burning Winter:</strong> A period when volcanic activity threatened northern settlements</li>
+                    <li><strong>The Chieftain's Challenge:</strong> Establishment of the current leadership selection process</li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Strategy Tab -->
+        <div id="human-strategy" class="tab-content">
+            <h4 class="section-title">Gameplay Approach</h4>
+            <p>Northmen excel at raiding, combat, and metalworking. Their trophy collection system provides unique morale bonuses, and their cold adaptation makes them ideal for settlements in northern regions. They are best suited for aggressive expansion with a focus on military power and resource acquisition through raids.</p>
+            
+            <h4 class="section-title">Settlement Strategy <span class="toggle-btn" onclick="toggleSection(this)">+</span></h4>
+            <div class="collapsible-content">
+                <ul>
+                    <li><strong>Early Game:</strong> Establish trophy halls and basic metalworking facilities</li>
+                    <li><strong>Mid Game:</strong> Develop raiding infrastructure and military training grounds</li>
+                    <li><strong>Late Game:</strong> Create specialized trophy display areas and advanced metalworking facilities</li>
+                    <li><strong>Population Management:</strong> Moderate growth rate with emphasis on warrior training</li>
+                    <li><strong>Economy:</strong> Raiding, metalworking, and hunting should be primary income sources</li>
+                </ul>
+            </div>
+            
+            <h4 class="section-title">Military Strategy <span class="toggle-btn" onclick="toggleSection(this)">+</span></h4>
+            <div class="collapsible-content">
+                <ul>
+                    <li><strong>Army Composition:</strong> Balanced forces with strong melee infantry and raiders</li>
+                    <li><strong>Tactics:</strong> Aggressive assault, raiding, and trophy collection</li>
+                    <li><strong>Strengths:</strong> Superior melee combat, cold weather operations, and morale bonuses</li>
+                    <li><strong>Weaknesses:</strong> Vulnerable to heat and diplomatic solutions</li>
+                    <li><strong>Special:</strong> Trophy collection from defeated enemies provides cumulative morale bonuses</li>
+                </ul>
+            </div>
+            
+            <h4 class="section-title">Unique Buildings <span class="toggle-btn" onclick="toggleSection(this)">+</span></h4>
+            <div class="collapsible-content">
+                <ul>
+                    <li><strong>Trophy Hall:</strong> Display area for collected trophies that provides morale bonuses</li>
+                    <li><strong>Saga Wall:</strong> Monument that records clan achievements and provides inspiration</li>
+                    <li><strong>Frost Forge:</strong> Advanced metalworking facility that produces superior cold-enhanced weapons</li>
+                    <li><strong>Chieftain's Longhouse:</strong> Governance center that enhances raiding capabilities</li>
+                </ul>
+            </div>
+            
+            <h4 class="section-title">Recommended Combinations <span class="toggle-btn" onclick="toggleSection(this)">+</span></h4>
+            <div class="collapsible-content">
+                <ul>
+                    <li><strong>With Finestorians:</strong> Complementary crafting abilities and religious alignment</li>
+                    <li><strong>With Satyrs:</strong> Complementary resource gathering and military tactics</li>
+                    <li><strong>With Pasunkas:</strong> Shared religious views and complementary combat styles</li>
+                    <li><strong>Avoid:</strong> Froggians due to conflicting values and Bloodelves due to religious differences</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

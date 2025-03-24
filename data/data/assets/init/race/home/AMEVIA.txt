@@ -1,0 +1,572 @@
+
+
+CITIZEN: {
+	FLOORS: [
+		{
+			RESOURCES: {
+			
+			},
+			FLOOR: DIRT,
+		},
+		{
+			RESOURCES: {
+				STONE: 2,
+			},
+			FLOOR: STONE_BRICK,
+		},
+		{
+			RESOURCES: {
+				STONE_CUT: 2,
+			},
+			FLOOR: STONE_MEDIUM_DARK,
+		},
+	],
+	
+	MAT_1x1: [
+		{
+			RESOURCES: {
+				FISH: 1,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				ANIMAL: 9,
+			],
+		},
+		{
+			RESOURCES: {
+				FISH: 2,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				ANIMAL: 8,
+			],
+		},
+	],
+
+	CARPET_COMBO: [
+		{
+			RESOURCES: {
+				LEATHER: 4,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				COMBO_CARPETS: 5,
+			],
+		},
+	],
+
+	BED_1x1_TOP: [
+		{
+			RESOURCES: {
+				
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 1,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				2xBED: 20,
+			],
+		},
+		{
+			RESOURCES: {
+				STONE_CUT: 4,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 4,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				2xBED: 8,
+			],
+		},
+	],
+	BED_1x1_BOTTOM: [
+		{
+			RESOURCES: {
+				
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 1,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				2xBED: 21,
+			],
+		},
+		{
+			RESOURCES: {
+				STONE_CUT: 4,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 4,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				2xBED: 9,
+			],
+		},
+	],
+	TABLE_COMBO: [
+		{
+			RESOURCES: {
+				WOOD: 3,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 3,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				COMBO_TABLES: 0,
+				COMBO_TABLES: 1,
+			],
+		},
+		{
+			RESOURCES: {
+				STONE_CUT: 2,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 4,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				COMBO_TABLES: 4,
+				COMBO_TABLES: 7,
+			],
+		},
+	],
+
+	NIGHTSTAND_1x1: [
+		{
+			RESOURCES: {
+				
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 3,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				TABLES: 0,
+			],
+		},
+		{
+			RESOURCES: {
+				STONE_CUT: 1,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				TABLES: 2,
+				TABLES: 4,
+			],
+		},
+	],
+	STORAGE_1x1: [
+		{
+			RESOURCES: {
+
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				STORAGE: 10,
+			],
+		},
+	],
+	CHAIR_1x1: [
+		{
+			RESOURCES: {
+				FURNITURE: 1,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				CHAIRS: 15,
+			],
+		},
+		{
+			RESOURCES: {
+				FURNITURE: 2,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				CHAIRS: 3,
+				CHAIRS: 4,
+				CHAIRS: 15,
+			],
+		},
+	],
+
+	
+	NICKNACK_A_1x1: [
+		{
+			RESOURCES: {
+				
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				BASIN: 10,
+				BASIN: 11,
+			],
+		},
+		{
+			RESOURCES: {
+				STONE_CUT: 1,
+			},
+			COLOR: {
+				GENERATE: 16,
+				FROM: 109_66_78,
+				TO: 86_52_62,
+			},
+			FPS: 8,
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				BASIN: 0,
+				BASIN: 0,
+				BASIN: 3,
+				BASIN: 3,
+				BASIN: 3,
+			],
+		},
+		{
+			RESOURCES: {
+				STONE_CUT: 5,
+			},
+			COLOR: {
+				GENERATE: 16,
+				FROM: 85_148_193,
+				TO: 69_121_158,
+			},
+			FPS: 8,
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				BASIN: 0,
+				BASIN: 0,
+				BASIN: 3,
+				BASIN: 3,
+				BASIN: 3,
+			],
+		},
+	],
+	NICKNACK_A_ONTOP_1x1: [
+		{
+			RESOURCES: {
+				STONE_CUT: 1,
+			},
+			COLOR: {
+				GENERATE: 16,
+				FROM: 183_124_84,
+				TO: 127_86_58,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				BASIN: 1,
+				BASIN: 2,
+				BASIN: 4,
+				BASIN: 5,
+				BASIN: 6,
+			],
+		},
+		{
+			RESOURCES: {
+				STONE_CUT: 5,
+			},
+			COLOR: {
+				GENERATE: 16,
+				FROM: 234_199_152,
+				TO: 181_153_117,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 3,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				BASIN: 1,
+				BASIN: 2,
+				BASIN: 4,
+				BASIN: 5,
+				BASIN: 6,
+			],
+		},
+	],
+	
+	NICKNACK_B_1x1: [
+		{
+			RESOURCES: {
+				FISH: 2,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 2,
+			FRAMES : [
+				ANIMAL: 6,
+				ANIMAL: 7,
+			],
+			OVERWRITE: [
+				{},
+				{COLOR: [127_80_80,80_127_80,80_80_127,],},
+			],
+		},
+	],
+},
+
+NOBLE: {
+	FLOORS: [
+		{
+			RESOURCES: {
+			
+			},
+			FLOOR: DIRT,
+		},
+	],
+	BED_MASTER_2x2: [
+		{
+			RESOURCES: {
+			
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 4,
+			SHADOW_HEIGHT: 4,
+			ROTATES: true,
+			FRAMES : [
+				BEDS: 0,
+			],
+		},
+	],
+	STATUE_2x2: [ 
+		{
+			RESOURCES: {
+			
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 8,
+			SHADOW_HEIGHT: 8,
+			ROTATES: true,
+			FRAMES : [
+				MONUMENT: 1,
+			],
+		},
+	],
+},
+
+SLAVE: {
+	FLOORS: [
+		{
+			RESOURCES: {
+			
+			},
+			FLOOR: DIRT,
+		},
+		{
+			RESOURCES: {
+				STONE: 1,
+			},
+			FLOOR: STONE_BRICK,
+		},
+	],
+	MAT_1x1: [
+		{
+			RESOURCES: {
+				FISH: 1,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				ANIMAL: 9,
+			],
+		},
+	],
+	CARPET_COMBO: [
+		{
+			RESOURCES: {
+				LEATHER: 3,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				COMBO_CARPETS: 5,
+			],
+		},
+	],
+
+	BED_1x1_TOP: [
+		{
+			RESOURCES: {
+				
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 1,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				2xBED: 20,
+			],
+		},
+	],
+	BED_1x1_BOTTOM: [
+		{
+			RESOURCES: {
+				
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 1,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				2xBED: 21,
+			],
+		},
+	],
+	TABLE_COMBO: [
+		{
+			RESOURCES: {
+				WOOD: 1,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 3,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				COMBO_TABLES: 0,
+				COMBO_TABLES: 1,
+			],
+		},
+	],
+
+	NIGHTSTAND_1x1: [
+		{
+			RESOURCES: {
+				
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 3,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				TABLES: 0,
+			],
+		},
+		{
+			RESOURCES: {
+				STONE_CUT: 1,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				TABLES: 2,
+				TABLES: 4,
+			],
+		},
+	],
+	STORAGE_1x1: [
+		{
+			RESOURCES: {
+
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				STORAGE: 10,
+			],
+		},
+	],
+	CHAIR_1x1: [
+		{
+			RESOURCES: {
+				FURNITURE: 1,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				CHAIRS: 15,
+			],
+		},
+	],
+
+	
+	NICKNACK_A_1x1: [
+		{
+			RESOURCES: {
+				
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				BASIN: 10,
+				BASIN: 11,
+			],
+		},
+		{
+			RESOURCES: {
+				STONE_CUT: 1,
+			},
+			COLOR: {
+				GENERATE: 16,
+				FROM: 109_66_78,
+				TO: 86_52_62,
+			},
+			FPS: 8,
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				BASIN: 0,
+				BASIN: 0,
+				BASIN: 3,
+				BASIN: 3,
+				BASIN: 3,
+			],
+		},
+	],
+	NICKNACK_A_ONTOP_1x1: [
+		{
+			RESOURCES: {
+				STONE_CUT: 1,
+			},
+			COLOR: {
+				GENERATE: 16,
+				FROM: 183_124_84,
+				TO: 127_86_58,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				BASIN: 1,
+				BASIN: 2,
+				BASIN: 4,
+				BASIN: 5,
+				BASIN: 6,
+			],
+		},
+	],
+	
+	NICKNACK_B_1x1: [
+		{
+			RESOURCES: {
+				FISH: 2,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 2,
+			FRAMES : [
+				ANIMAL: 6,
+				ANIMAL: 7,
+			],
+			OVERWRITE: [
+				{},
+				{COLOR: [127_80_80,80_127_80,80_80_127,],},
+			],
+		},
+	],
+},

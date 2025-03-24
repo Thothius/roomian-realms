@@ -1,0 +1,4 @@
+ICON: 24->BuildPoints->1,
+BOOST: {
+	WORLD_TAX_INCOME>ADD: 400,
+},

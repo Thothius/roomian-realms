@@ -1,0 +1,38 @@
+INFO: {
+	NAME: "Fight Pit",
+	NAMES: "Fight Pits",
+	DESC: "Where Gladiators fight for glory at the amusement of your subjects.",
+},
+
+STATS: [
+	{
+		NAME: "Gladiators",
+		DESC: "Gladiators needed.",
+	},
+	{
+		NAME: "Quality",
+		DESC: "The quality of this arena.",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Fight pit",
+		DESC: "Basic arena for poorer quality games",
+	},
+],
+
+WORK: {
+	TITLE: "Gladiator",
+	VERB: "Fighting",
+},
+
+
+SERVICE: {
+	VERB: "Watching the fight",
+	MORE: [
+		"I wish to see some good fights, something to get the blood pumping!",
+		"We need more fight pits.",
+		"How about a place where we let {HATED_RACES} face off and kill each other? We can take bets and split the profits, what do you say {RACE_LORD}?",
+	],
+},

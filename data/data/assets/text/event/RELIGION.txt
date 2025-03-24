@@ -1,0 +1,408 @@
+PREACHER_SHMALOR: {
+	NAME: "A renowned priest of Shmalor arrived in your city",
+	DESC: "",
+	MESSAGE: [
+		"A Garthimi priest of Shmalor has arrived in your city. Clad in the traditional robes of its faith, complete with holes to display where its carapace was scarred in battle, it wastes little time on pleasantries. It has come to 'warn' you of a crusading army of Garthimi. According to them, they will likely leave in peace if at least part of the population converts to Shmalorism, which the priest could help with coincidentally. The deniability is paper-thin but throwing a high-ranking priest of Shmalor into your stockades would be very unwise.",
+	],
+	CHOICES: [
+		"Allow preaching",
+		"Refuse",
+		"Imprison it",
+	],
+},
+
+PREACHER_SHMALOR_YES: {
+	NAME: "The priest of Shmalor converts your populace",
+	DESC: "Shmalorism spreads among the city thanks to the priest and the presence of many Garthimi thugs encouraging a change of faith.",
+	MESSAGE: [
+		"After you accepted its gracious proposal, the priest left the city and returned with a retinue of suspiciously well-armed Garthimi. Surprisingly, the preaching itself was pretty normal but the Garthimi talked with onlookers frequently. Overnight many petty feuds and gambling debts were settled mysteriously and many converted to Shmalorism. At least these methods of persuasion involved no deaths or permanent damage so far. The crusader army remains nearby and detachments hunt bandits and other undesirables for sport.",
+	],
+},
+
+PREACHER_SHMALOR_NO: {
+	NAME: "The priest gets revenge",
+	DESC: "The Garthimi attack, but your support for local customs and faith is appreciated by your citizens.",
+	MESSAGE: [
+		"After hearing your refusal, the priest of Shmalor leaves your city and heads in the direction of the Garthimi army. Shortly after, you receive reports about it being on the march. At least your citizens are happy about you preventing another faith from taking root here.",
+	],
+},
+
+PREACHER_SHMALOR_MAYBE: {
+	NAME: "Garthimi attack",
+	DESC: "The Garthimi attack, but your support for local customs and faith is appreciated by your citizens.",
+	MESSAGE: [
+		"After hearing your refusal, the priest of Shmalor tries to leave your city but is apprehended instead. No matter what happens to it now, it lost its importance and rank within the church of Shmalor due to its failure. Not long after, the rumoured army begins to march in the direction of your city. At least your citizens are happy about you preventing another faith from taking root here.
+		
+		Capturing the priest will likely have consequences, but some of your peers admire your decision, even if they value their lives too much to do so openly.",
+	],
+},
+
+PREACHER_SHMALOR_MAYBE_FOLLOW: {
+	NAME: "Argonosh attack",
+	DESC: "",
+	MESSAGE: [
+		"An army of Argonosh is at your borders and they have made their intentions clear by killing your messengers. Some of your smarter subjects watched from afar and noted the sigil of Shmalor being prominently displayed on their equipment.",
+	],
+},
+
+PREACHER_AMINIONISM: {
+	NAME: "A renowned priest of Aminion arrived in your city",
+	DESC: "A decision awaits.",
+
+	MESSAGE: [
+		"By all reports the priest arrived without an entourage and headed straight to your throne room. Your subjects steered clear of the figure clad in the colors of Aminion, a rust red robe with bleached humanoid bones sewn on. After the customary greetings, they ask for rights to preach in your city. The priest does not try hard to convince you, no threats are alluded to nor are bribes being discussed. Perhaps they truly have nothing but the mysterious reputation of the priesthood of Aminion. Judging by the amused smirk, that surfaces every so often during the discussion, they know very well how their offer looks. Accepting will have them slowly convert the populace to Aminionism, but the consequences of refusing are less clear.",
+	],
+	CHOICES: [
+		"Allow preaching",
+		"Refuse",
+	],
+},
+
+PREACHER_AMINIONISM_YES: {
+	NAME: "The priest of Aminion converts your populace",
+	DESC: "Your population rapidly adopts Aminionism but the how eludes you.",
+	MESSAGE: [
+		"With your blessing, the priest of Aminion starts to preach. The sermons held on varying street corners are nothing special and your subjects seem to think so too. When they are not preaching, they spend their time strolling about and talking to random citizens. Worryingly, your guards frequently lose track of the priest for extended periods of time and somehow more and more people convert to Aminionism.",
+	],
+},
+
+PREACHER_AMINIONISM_NO: {
+	NAME: "The priest leaves",
+	DESC: "So far, nothing seems to happen. Perhaps you got lucky or it was just a bluff.",
+	MESSAGE: [
+		"You get the sense that refusing the request made the priest just as happy as if you had accepted it. They leave without any fuss and do not even utter the cryptic warnings their priesthood is so famous for. They could have been an impostor but you might never know for certain. Your citizens appreciate your refusal but they too wonder what the consequences might be.",
+	],
+},
+
+PREACHER_ATHURISM: {
+	NAME: "A renowned priest of Athuri arrived in your city",
+	DESC: "A decision awaits.",
+	MESSAGE: [
+		"A certain priest of Athuri has attained celebrity status among followers of Athurism. Rumors of their exploits include conversion of a whole hive of feral Garthimi and similar ridiculous things. Judging by their appearance in your throne room, your city is supposed to be their next accomplishment. Their request seems to be innocuous enough, allowing them and their followers to preach in your city for half a year. 
+		
+		Refusing will likely have repercussions and judging by their robe, that seems to consist of more solid gold than green thread, this preacher has quite a lot of money available. They have alluded to being open to leave amicably if you donate to the faith.",
+	],
+	CHOICES: [
+		"Allow preaching",
+		"Refuse",
+		"Bribe",
+	],
+},
+
+PREACHER_ATHURISM_YES: {
+	NAME: "The priest of Athuri converts your populace",
+	DESC: "Many of your subjects are tempted by the sermons and the unsubtle bribes.",
+	MESSAGE: [
+		"The priest has set up shop in the center of your city. Sparing no expense, they converted a stretch of road into a temple of Athuri with opulent gold decorations. Using both charismatic sermons and a lot of alms to bribe anyone, who looks even slightly poor, they convert your subjects rapidly to athurism. At least all that wealth was not spent on feuding with you, and they used their connections to praise your decision.",
+	],
+},
+
+PREACHER_ATHURISM_NO: {
+	NAME: "The priest gets revenge",
+	DESC: "The priest used his influence and money to hurt your foreign relations.",
+	MESSAGE: [
+		"After you refused, the priest departed quickly without causing any problems. However, days later you get reports about them slandering you at every opportunity and declaring you an enemy of the faith. This will likely cause diplomatic issues for a while until the priest finds a new target, but your citizens, who overwhelmingly do not share his faith, are grateful to you.",
+	],
+},
+
+PREACHER_ATHURISM_MAYBE: {
+	NAME: "Priest leaves",
+	DESC: "The priest left amicably, pleasing both your subjects and peers.",
+	MESSAGE: [
+		"The massive 'donation' was enough to cause the priest to leave. Apparently, they praised your piety publicly, easing your diplomatic efforts greatly. Your subjects know the truth, and are happy about being able to keep their faith.",
+	],
+},
+
+PREACHER_CRATORISM: {
+	NAME: "A renowned priest of Crator arrived in your city",
+	DESC: "A decision awaits.",
+	MESSAGE: [
+		"The Cretonian in your throne room is clad in the brown robe typical of priests of crator. This particular example appears to have been mended often and without much care for appearances, seemingly belying the reports you received about this priest of crator being quite unusual. Priests of Crator rarely try to convert anything, relying on Crator's natural popularity on the outskirts of civilization. There might be more to this one than meets the eye, but their offer is pretty straightforward, they will preach in your city and share their agricultural knowledge at the same time.
+		
+		Alternatively, you could take in some Cretonian refugees, in exchange for agricultural assistance without preaching.",
+	],
+	CHOICES: [
+		"Allow preaching",
+		"Refuse",
+		"Take in refugees",
+	],
+},
+
+PREACHER_CRATORISM_YES: {
+	NAME: "The priest of Crator converts your populace",
+	DESC: "The unique blend of sermons combining practical everyday knowledge with excerpts from the Summerion, quickly wins your population over to Cratorism.",
+	MESSAGE: [
+		"True to their word, the priest teaches and supervises your workers, quickly imparting knowledge specific to your region of Syx. This knowledge is accompanied by cleverly chosen excerpts from the Summerion and woven into the doctrine of Cratorism. Most of the advice appears nonsensical and highly situational, but it works perfectly. It is unlikely that your subjects will be able to retain much of it.",
+	],
+},
+
+PREACHER_CRATORISM_NO: {
+	NAME: "The priest gets revenge",
+	DESC: "It seems everything agriculture related suffered after you refused the priest.",
+	MESSAGE: [
+		"The Cretonian departed amicably enough, but shortly after that various oddities started to plague your agricultural industries. Your advisors have no idea how the priest could have caused the myriad of seemingly unrelated issues. Perhaps the problems would have occured regardless and the Cretonian chose the perfect moment to offer their help, forewarned by some secret of Cratorism.",
+	],
+},
+
+PREACHER_CRATORISM_MAYBE: {
+	NAME: "Refugees",
+	DESC: "Your agricultural efforts are being aided.",
+	MESSAGE: [
+		"The priest happily guides his fellow Cretonians to your capital. True to their word, they visit your agricultural industries, and impart knowledge specific to your region of Syx. Most of the advice appears nonsensical and highly situational, but it works perfectly. It is unlikely that your subjects will be able to retain much of it.",
+	],
+},
+
+REQUEST_SHMALOR: {
+	NAME: "The priests of Shmalor have a request",
+	DESC: "A decision awaits.",
+	MESSAGE: [
+		"Most of your population follows Shmalor, which gives her priests some leverage over you. They come to you with a list of 'undesirables', likely meaning heretics, political enemies or victims of personal grudges, but faith was seemingly not a selection criteria. They want to kill everyone on the list, which contains slightly less than one in twenty of your subjects.
+		
+		You are not on the list.",
+	],
+	CHOICES: [
+		"Allow",
+		"Forbid",
+	],
+},
+
+REQUEST_SHMALOR_YES: {
+	NAME: "Shmalor purge",
+	DESC: "Surprisingly, the purge did improve conditions",
+	MESSAGE: [
+		"The priests gathered the most faithful devotees and led them through the city. With simple gestures they controlled the silent mob armed with small knives, sending it upon neighbors, friends, and kin alike. Over time the crowd grew, amassing those with sufficient faith, malice or fear, and once it became too large for the streets, it split up to cover the whole capital. 
+ 
+		While the streets ran red, a strange atmosphere began to develop. Most of your subjects favored Shmalor, so they knew what was expected of them, and the killing quickly became mundane. Eventually, the silence was broken up with friendly conversation, people chatting with fellow faithful, who they met that day. 
+ 		
+		As they ended old bonds, new ones were forged in blood, and the procession continued with an almost festive air.",
+	],
+},
+
+REQUEST_SHMALOR_NO: {
+	NAME: "Shmalor purge",
+	DESC: "Many doubt your faith.",
+	MESSAGE: [
+		"Refusing the request predictably lead to the priests complaining about you publicly.
+		
+		While the priesthood is known for killing their enemies, they like to do so personally, and respect strength, so you do not have to worry about poisoning or the like, but it would be wise to have guards accompany you to future meetings with them.",
+	],
+},
+
+REQUEST_AMINION: {
+	NAME: "The priests of Aminion have a request",
+	DESC: "A decision awaits.",
+	MESSAGE: [
+		"The most senior priest of Aminion in your city requests that you donate rations to the church as a whole. These would be used to supply expeditions to ruins in remote parts of Syx. While the expeditions will likely yield valuable artifacts, it may take some time for you share to arrive.
+		
+		Of course the priesthood will retain the truly formidable items.",
+	],
+	CHOICES: [
+		"Supply rations",
+		"Refuse",
+	],
+},
+
+REQUEST_AMINION_YES: {
+	NAME: "Rations donated",
+	DESC: "Surprisingly, the purge did improve conditions",
+	MESSAGE: [
+		"The church handles the transport so you do not know where the expedition is headed or even where it assembles. Hopefully it is successful and does not unearth something that should have been left buried.",
+	],
+},
+
+REQUEST_AMINION_NO: {
+	NAME: "Request refused",
+	DESC: "Many doubt your faith.",
+	MESSAGE: [
+		"The priests seem to take your refusal well, but Aminion's priesthood is known for deception. Your subjects hear about your refusal within a day, causing some unrest.
+		
+		You make sure your cup bearer is not particularly faithful.",
+	],
+},
+
+REQUEST_AMINION_YES_FOLLOW: {
+	NAME: "Expedition bounty",
+	DESC: "",
+	MESSAGE: [
+		"Chests of artifacts, your share of the expedition organized by the church of Aminion, arrived today. As predicted, they are universally of minor usefulness, but they are still worth a good amount of denari.
+		
+		Judging by the lack of noteworthy news, the priesthood did not find anything too powerful, but they may just be biding their time.",
+	],
+},
+
+REQUEST_ATHURI: {
+	NAME: "The priests of Athuri have a request",
+	DESC: "A decision awaits.",
+	MESSAGE: [
+		"The church of Athuri, which is very influential in your city, requests a tithe. The money would be used for funding temples in poorer regions, gifts sent to cantor havens, and, of course, corruption. Refusing will likely not reflect well on you.",
+	],
+	CHOICES: [
+		"Supply rations",
+		"Refuse",
+	],
+},
+
+REQUEST_ATHURI_YES: {
+	NAME: "Tithe paid",
+	DESC: "Your tithe has opened doors for you.",
+	MESSAGE: [
+		"Paying the tithe has caused the church of Athuri to advocate for you diplomatically. For a while, you can make use of their connections to facilitate diplomacy.
+		
+		So far, the amount of of gold-thread in the robes of the priesthood has not changed so perhaps your denari are actually being put to good use.",
+	],
+},
+
+REQUEST_ATHURI_NO: {
+	NAME: "Request refused",
+	DESC: "Many doubt your faith.",
+	MESSAGE: [
+		"Your refusal inevitably became public knowledge and lowered your esteem in the eyes of your citizens.
+		
+		The church values you too much to punish you further, but that may change one day.",
+	],
+},
+
+REQUEST_CRATOR: {
+	NAME: "The priests of Crator have a request",
+	DESC: "A decision awaits.",
+	MESSAGE: [
+		"Cratorism preaches balance, especially when it comes to the natural world. The priests arrayed before you want you to reduce the production of everything related to agriculture. According to their esoteric knowledge, the land is unbalanced and needs rest, and doing so will make it yield more in the future.
+		
+		Refusal will likely have no immediate effects beyond displeasing the priests.",
+	],
+	CHOICES: [
+		"Comply",
+		"Refuse",
+	],
+},
+
+REQUEST_CRATOR_YES: {
+	NAME: "Cratorian Balance",
+	DESC: "Agriculture is done at a slower pace.",
+	MESSAGE: [
+		"Your subjects, who are overwhelmingly favoring Crator, happily accept the decree. Hopefully, your capital can still sustain itself.",
+	],
+},
+
+REQUEST_CRATOR_YES_FOLLOW: {
+	NAME: "Bountiful spring",
+	DESC: "Your capital teems with life.",
+	MESSAGE: [
+		"The end of winter is particularly pronounced this year. Flora and fauna have more vigor and seem to want to make up for the winter time. If this continues, this year will be very bountiful.
+		
+		The priests of Crator publicly credit your earlier decision for this, which makes your subjects happier with you.",
+	],
+},
+
+REQUEST_CRATOR_NO: {
+	NAME: "Cratorian Balance",
+	DESC: "A portion of agricultural produce is given back to the earth",
+	MESSAGE: [
+		"The priests seem to take your refusal well, and do not make it a public affair, even though they easily could have.
+		
+		Apparently, they want time to prove them right.",
+	],
+},
+
+REQUEST_CRATOR_NO_FOLLOW: {
+	NAME: "Subdued spring",
+	DESC: "The land is ailing.",
+	MESSAGE: [
+		"Your subjects were looking forward to the spring, but the season of renewal lacks something this year. Plants grow sickly, and wildlife is becoming rarer and smaller.
+		
+		The priests of Crator hold sermons about the land being overtaxed, and that this will pass in time. At least they did not send anyone to directly express 'I told you so' yet.
+		This may just be a coincidence though.",
+	],
+},
+
+TEMPLE_SPIDERS: {
+	NAME: "Temple spiders released",
+	DESC: "Not all of the spiders were found yet.",
+	MESSAGE: [
+		"A skittering tide of temple spiders surged forth from the temple of Shmalor, it might have been an accident or the doing of an irate priest. By now, the large arachnids are scattered all over your city. It is said that the priests of Shmalor are able to communicate with these oversized spiders, and even see through their many eyse so they should be able to collect them sooner or later. Until they do, your subjects will assume one is nearby to be safe.
+		
+		The priests say that the spiders are safe to handle, and reward the few brave enough to bring them back. Supposedly, the spiders will not hunt livestock or pets; they are used to eating the sacrificed criminals, and will continue to do so. After this announcement, your streets became a lot safer.",
+	],
+},
+
+TEMPLE_SPIDERS_FOLLOW: {
+	NAME: "Temple spiders released",
+	DESC: "Not all of the spiders were found yet.",
+	MESSAGE: [
+		"Supposedly, every spider is accounted for but that will not stop your subjects from delaying lavatory visits for a while. A few of your subjects were eaten by the spiders, presumably criminals, but a few children have gone missing as well.",
+	],
+},
+
+ATHURI_HELP: {
+	NAME: "The priests of Athuri uncovered corruption",
+	DESC: "The corruption is still not at previous levels.",
+	MESSAGE: [
+		"The head priest of Athuri informed you of corruption in your empire. Apparently, a group of overseers conspired to misreport production numbers but did not take into account the Athurian information network. While this is most likely a temporary thing, your treasury will benefit from this a lot, but sooner or later someone will do the same as those overseers, perhaps the priests who reported it in the first place.",
+	],
+},
+
+CRATOR_HELP: {
+	NAME: "The temple of Crator shares food",
+	DESC: "",
+	MESSAGE: [
+		"Unusually bountiful harvests are usually credited to Crator and his priests. They claim a part of them to help out less fortunate Cratorian settlements. Apparently, this year, your city qualifies and a large amount of food is being delivered to your warehouses.",
+	],
+},
+
+AMINION_HELP: {
+	NAME: "Protection of Aminion",
+	DESC: "You are still protected",
+	MESSAGE: [
+		"The temple of Aminion recently declared your city to be protected for two years. While the question 'Why only two years?' is on the minds of your citizens, no one was yet foolish enough to ask the priests. Historically, this kind of protection is surprisingly reliable even if no one can say how it works exactly. No strange, unexplainable events will disturb you and your subjects for this time.
+		
+		Some particularly fearless people say that the protection is entirely based on the enigmatic priests not messing with things they do not entirely understand for a while.",
+	],
+},
+
+SUMMERION: {
+	NAME: "Radical interpretation of the Summerion spreads",
+	DESC: "The interpretation of the Summerion is still hotly debated.",
+	MESSAGE: [
+		"A possibly heretical interpretation of the Summerion is spreading. Among other things, it posits that the four gods are facets of a greater being, which is encouraging your subjects to be a lot more flexible with their faith. However, many are not convinced and religious tensions are rising despite the unifying message.
+		
+		Perhaps some influential scholars could be 'persuaded' to favor a different interpretation; one where the other gods are just facets of your favored one. While not everyone will believe it, this would have a permanent effect on your demesne.",
+	],
+	CHOICES: [
+		"Favor Athuri",
+		"Favor Crator",
+		"Favor Aminion",
+		"Favor Shmalor",
+	],
+},
+
+SUMMERION_ATHURI: {
+	NAME: "Reinterpretation",
+	DESC: "",
+	MESSAGE: [
+		"Your sponsored scholars spread an adapted interpretation that essentially posits that Athuri is the only real god, while the others are lesser aspects of him. It took a lot of very sketchy theology to accomplish that, and the belief does not spread far beyond your borders because of that.",
+	],
+},
+
+SUMMERION_CRATOR: {
+	NAME: "Reinterpretation",
+	DESC: "",
+	MESSAGE: [
+		"Your sponsored scholars spread an adapted interpretation that essentially posits that Crator is the only real god, while the others are lesser aspects of him. It took a lot of very sketchy theology to accomplish that, and the belief does not spread far beyond your borders because of that.",
+	],
+},
+
+SUMMERION_AMINION: {
+	NAME: "Reinterpretation",
+	DESC: "",
+	MESSAGE: [
+		"Your sponsored scholars spread an adapted interpretation that essentially posits that Aminion is the only real god, while the others are lesser aspects of him. It took a lot of very sketchy theology to accomplish that, and the belief does not spread far beyond your borders because of that.",
+	],
+},
+
+SUMMERION_SHMALOR: {
+	NAME: "Reinterpretation",
+	DESC: "",
+	MESSAGE: [
+		"Your sponsored scholars spread an adapted interpretation that essentially posits that Shmalor is the only real god, while the others are lesser aspects of her. It took a lot of very sketchy theology to accomplish that, and the belief does not spread far beyond your borders because of that.",
+	],
+},

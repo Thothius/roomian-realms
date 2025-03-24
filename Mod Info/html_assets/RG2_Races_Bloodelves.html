@@ -1,0 +1,359 @@
+<!-- CANTOR (BLOODELVES) CARD -->
+<div class="race-card cantor" data-religion="aminion shmalor">
+    <div class="race-header">
+        <h3 class="race-name">Bloodelves (CANTOR) <span class="toggle-btn" onclick="toggleFullView('cantor')">ud83dudd0d</span></h3>
+        <p class="race-subtitle">"The Crimson Covenant"</p>
+    </div>
+    <div class="race-content">
+        <div class="race-tabs">
+            <button class="race-tab active" onclick="openTab(event, 'cantor-stats', 'cantor')">Stats</button>
+            <button class="race-tab" onclick="openTab(event, 'cantor-abilities', 'cantor')">Abilities</button>
+            <button class="race-tab" onclick="openTab(event, 'cantor-lore', 'cantor')">Lore</button>
+            <button class="race-tab" onclick="openTab(event, 'cantor-strategy', 'cantor')">Strategy</button>
+        </div>
+        
+        <!-- Stats Tab -->
+        <div id="cantor-stats" class="tab-content active">
+            <div class="stat-grid">
+                <div class="stat-item">
+                    <span class="stat-label">Height/Width:</span>
+                    <span class="stat-value">10/8 units</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Adult Age:</span>
+                    <span class="stat-value">540 days</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Sleeps:</span>
+                    <span class="stat-value">Yes</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Lifespan:</span>
+                    <span class="stat-value tooltip">+2900%<span class="tooltip-text">Average lifespan of 300 years</span></span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Primary Religion:</span>
+                    <span class="stat-value religion-value">Aminion (+1.5)</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Secondary Religion:</span>
+                    <span class="stat-value religion-value">Shmalor (+0.8)</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Corpse Decay:</span>
+                    <span class="stat-value tooltip">Yes<span class="tooltip-text">Bodies decompose after death</span></span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Mercenary Potential:</span>
+                    <span class="stat-value">1.0</span>
+                </div>
+            </div>
+            
+            <h4 class="section-title">Physical Traits <span class="toggle-btn" onclick="toggleSection(this)">+</span></h4>
+            <div class="collapsible-content">
+                <div class="stat-grid">
+                    <div class="stat-item">
+                        <span class="stat-label">Health:</span>
+                        <span class="stat-value">+20%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Stamina:</span>
+                        <span class="stat-value">+30%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Speed:</span>
+                        <span class="stat-value">+40%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Night Vision:</span>
+                        <span class="stat-value">+0.5</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Cold Resistance:</span>
+                        <span class="stat-value">+0.3</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Heat Resistance:</span>
+                        <span class="stat-value">-0.2</span>
+                    </div>
+                </div>
+            </div>
+            
+            <h4 class="section-title">Combat Stats <span class="toggle-btn" onclick="toggleSection(this)">+</span></h4>
+            <div class="collapsible-content">
+                <div class="stat-grid">
+                    <div class="stat-item">
+                        <span class="stat-label">Ranged Bow:</span>
+                        <span class="stat-value">+60%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Pierce:</span>
+                        <span class="stat-value">+50%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Pierce Attack:</span>
+                        <span class="stat-value">+2.0</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Offense:</span>
+                        <span class="stat-value">+20%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Morale:</span>
+                        <span class="stat-value">+30%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Speed:</span>
+                        <span class="stat-value">+50%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Dodge:</span>
+                        <span class="stat-value">+50%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Slash:</span>
+                        <span class="stat-value">+20%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Defense:</span>
+                        <span class="stat-value">-20%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Blunt Resistance:</span>
+                        <span class="stat-value">-30%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Abilities Tab -->
+        <div id="cantor-abilities" class="tab-content">
+            <h4 class="section-title">Key Abilities</h4>
+            <div class="stat-grid">
+                <div class="stat-item">
+                    <span class="stat-label tooltip">Hunting<span class="tooltip-text">Superior tracking and hunting abilities</span></span>
+                    <span class="stat-value">+70%</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label tooltip">Archery<span class="tooltip-text">Exceptional skill with bows</span></span>
+                    <span class="stat-value">+60%</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label tooltip">Blood Magic<span class="tooltip-text">Ability to harness power from blood</span></span>
+                    <span class="stat-value">+0.6</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label tooltip">Stealth Ambush<span class="tooltip-text">Enhanced ability to ambush enemies</span></span>
+                    <span class="stat-value">+0.5</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label tooltip">Night Vision<span class="tooltip-text">Superior vision in darkness</span></span>
+                    <span class="stat-value">+0.5</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label tooltip">Slave Management<span class="tooltip-text">Effective at managing slave populations</span></span>
+                    <span class="stat-value">+50%</span>
+                </div>
+            </div>
+            
+            <h4 class="section-title">Rate Modifiers <span class="toggle-btn" onclick="toggleSection(this)">+</span></h4>
+            <div class="collapsible-content">
+                <div class="stat-grid">
+                    <div class="stat-item">
+                        <span class="stat-label">Hunting:</span>
+                        <span class="stat-value">+70%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Archery:</span>
+                        <span class="stat-value">+60%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Slave Management:</span>
+                        <span class="stat-value">+50%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Farming:</span>
+                        <span class="stat-value">-30%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Mining:</span>
+                        <span class="stat-value">-10%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Reproduction:</span>
+                        <span class="stat-value">-50%</span>
+                    </div>
+                </div>
+            </div>
+            
+            <h4 class="section-title">Room Preferences <span class="toggle-btn" onclick="toggleSection(this)">+</span></h4>
+            <div class="collapsible-content">
+                <div class="stat-grid">
+                    <div class="stat-item">
+                        <span class="stat-label">Blood Altar:</span>
+                        <span class="stat-value">+100%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Hunting Lodge:</span>
+                        <span class="stat-value">+80%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Archery Range:</span>
+                        <span class="stat-value">+60%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Slave Quarters:</span>
+                        <span class="stat-value">+50%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Farms:</span>
+                        <span class="stat-value">-30%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Mines:</span>
+                        <span class="stat-value">-10%</span>
+                    </div>
+                </div>
+            </div>
+            
+            <h4 class="section-title">Behavior Traits <span class="toggle-btn" onclick="toggleSection(this)">+</span></h4>
+            <div class="collapsible-content">
+                <div class="stat-grid">
+                    <div class="stat-item">
+                        <span class="stat-label">Predatory Nature:</span>
+                        <span class="stat-value">Very High</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Aggression:</span>
+                        <span class="stat-value">High</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Territoriality:</span>
+                        <span class="stat-value">High</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Adaptability:</span>
+                        <span class="stat-value">Medium</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Individuality:</span>
+                        <span class="stat-value">High</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Patience:</span>
+                        <span class="stat-value">Very High</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="pros-cons">
+                <div class="pros">
+                    <h4>Strengths</h4>
+                    <ul>
+                        <li>Superior archers and hunters</li>
+                        <li>Masters of blood magic</li>
+                        <li>Exceptional stealth tactics</li>
+                        <li>Extended lifespan (300 years)</li>
+                        <li>Enhanced night vision</li>
+                        <li>Effective slave managers</li>
+                    </ul>
+                </div>
+                <div class="cons">
+                    <h4>Weaknesses</h4>
+                    <ul>
+                        <li>Require blood consumption</li>
+                        <li>Vulnerable to holy magic</li>
+                        <li>Poor heat resistance</li>
+                        <li>Limited agricultural abilities</li>
+                        <li>Slow reproduction rate</li>
+                        <li>Vulnerable to blunt weapons</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Lore Tab -->
+        <div id="cantor-lore" class="tab-content">
+            <div class="lore-section">
+                <p>Ancient forest predators transformed by Aminion's dark essence, the Bloodelves were once a noble elven race before being corrupted during the first war of the gods. They now sustain themselves through blood consumption, requiring regular feeding to prevent a degenerative condition known as "the Withering."</p>
+                
+                <p>Their hunting prowess is unmatched, with the ability to track prey for days without rest. Their society is hierarchical, with status determined by blood magic potency and lineage purity. The oldest and most powerful Bloodelves, known as "Crimson Lords," rule from shadow-cloaked citadels deep within ancient forests.</p>
+                
+                <p>Their settlements are built around "Heartwood Trees" fed with blood sacrifices, producing crimson sap that enhances their magical abilities. These trees are sacred to them, believed to connect directly to Aminion's realm. They practice a form of immortality through blood consumption, with the oldest among them dating back to the first war of the gods.</p>
+                
+                <p>While they primarily worship Aminion, they maintain a secondary devotion to Shmalor, believing that the two deities share a covenant of blood and shadow. This dual worship is unique among the races of Syx and contributes to their complex religious practices.</p>
+            </div>
+            
+            <h4 class="section-title">Cultural Notes <span class="toggle-btn" onclick="toggleSection(this)">+</span></h4>
+            <div class="collapsible-content">
+                <ul>
+                    <li>Bloodelves maintain elaborate hunting rituals, with specific ceremonies for different prey</li>
+                    <li>They practice "blood art," using blood as pigment for elaborate tapestries and murals</li>
+                    <li>Their architecture favors tall, slender structures with minimal windows to limit sunlight</li>
+                    <li>They communicate through a combination of spoken language and subtle blood scent markers</li>
+                    <li>They maintain extensive genealogical records, tracing bloodlines back thousands of years</li>
+                    <li>They practice a form of blood communion where memories can be shared through ritual consumption</li>
+                </ul>
+            </div>
+            
+            <h4 class="section-title">Historical Events <span class="toggle-btn" onclick="toggleSection(this)">+</span></h4>
+            <div class="collapsible-content">
+                <ul>
+                    <li><strong>The Crimson Transformation:</strong> When Aminion's essence first corrupted their race</li>
+                    <li><strong>The Blood Covenant:</strong> Their pact with Shmalor establishing dual worship</li>
+                    <li><strong>The Great Thirst:</strong> A period of extreme blood shortage that nearly destroyed their race</li>
+                    <li><strong>The Shadow War:</strong> A centuries-long conflict with the Satyrs over forest territories</li>
+                    <li><strong>The Heartwood Ritual:</strong> Discovery of the process to create and maintain Heartwood Trees</li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Strategy Tab -->
+        <div id="cantor-strategy" class="tab-content">
+            <h4 class="section-title">Gameplay Approach</h4>
+            <p>Bloodelves excel at hunting, archery, and blood magic. Their extremely long lifespan means they accumulate skills and experience, making them formidable specialists. They are best suited for settlements with access to hunting grounds and with a steady supply of sacrifices for their blood rituals.</p>
+            
+            <h4 class="section-title">Settlement Strategy <span class="toggle-btn" onclick="toggleSection(this)">+</span></h4>
+            <div class="collapsible-content">
+                <ul>
+                    <li><strong>Early Game:</strong> Establish hunting lodges and secure a steady food supply</li>
+                    <li><strong>Mid Game:</strong> Develop blood altars and archery ranges</li>
+                    <li><strong>Late Game:</strong> Focus on blood magic research and elite military units</li>
+                    <li><strong>Population Management:</strong> Slow growth but extremely long-lived</li>
+                    <li><strong>Economy:</strong> Hunting, slave labor, and luxury goods should be primary income sources</li>
+                </ul>
+            </div>
+            
+            <h4 class="section-title">Military Strategy <span class="toggle-btn" onclick="toggleSection(this)">+</span></h4>
+            <div class="collapsible-content">
+                <ul>
+                    <li><strong>Army Composition:</strong> Elite archers supported by blood mages and ambush specialists</li>
+                    <li><strong>Tactics:</strong> Ambush, hit-and-run, and night operations</li>
+                    <li><strong>Strengths:</strong> Superior ranged combat, stealth, and magical abilities</li>
+                    <li><strong>Weaknesses:</strong> Vulnerable to holy magic and blunt weapons</li>
+                    <li><strong>Special:</strong> Blood mages can drain enemy vitality in combat</li>
+                </ul>
+            </div>
+            
+            <h4 class="section-title">Unique Buildings <span class="toggle-btn" onclick="toggleSection(this)">+</span></h4>
+            <div class="collapsible-content">
+                <ul>
+                    <li><strong>Blood Altar:</strong> Central facility for blood magic rituals and research</li>
+                    <li><strong>Heartwood Grove:</strong> Sacred site that enhances blood magic and extends lifespan</li>
+                    <li><strong>Shadow Archery Range:</strong> Produces elite archers with enhanced abilities</li>
+                    <li><strong>Crimson Library:</strong> Repository of blood magic knowledge and ancient texts</li>
+                </ul>
+            </div>
+            
+            <h4 class="section-title">Recommended Combinations <span class="toggle-btn" onclick="toggleSection(this)">+</span></h4>
+            <div class="collapsible-content">
+                <ul>
+                    <li><strong>With Wormlings:</strong> Complementary void technology and religious alignment</li>
+                    <li><strong>With Hellspawns:</strong> Shared religious views and complementary military tactics</li>
+                    <li><strong>With Northmen:</strong> Northmen's crafting abilities complement Bloodelf weaknesses</li>
+                    <li><strong>Avoid:</strong> Froggians and Satyrs due to religious conflicts and historical enmity</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

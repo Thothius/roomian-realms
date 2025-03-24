@@ -1,0 +1,5 @@
+SPRING: "Spring",
+SUMMER: "Summer",
+AUTUMN: "Autumn",
+WINTER: "Winter",
+AGES: ["First Age", "Second Age", "Third Age", "Forth Age", "Fifth Age",],

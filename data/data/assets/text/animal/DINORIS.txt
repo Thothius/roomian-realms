@@ -1,0 +1,5 @@
+INFO: {
+	NAME: "Dinoris",
+	NAMES: "Dinorises",
+	DESC: "This majestic bird, though flightless, has often inspired works of art and the odd song or two. Occasionally hunted for its prized meat, this herbivore is also valued for its decorative feathers, used to adorn tiaras, crowns, helmets and various head wear. Some Dinorises are also rumoured to lay eggs of solid gold, but this has never been proven.",
+},

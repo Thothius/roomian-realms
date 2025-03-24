@@ -1,0 +1,973 @@
+GLORY_HOARD_RAID: {
+	ICON: 32->BATTLE->0,
+	DURATION: {
+		DAYS: 5.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: { *: 1.0 },
+		TERRAIN: { *: 1.0 },
+		RACE: { 
+			*: 0,
+			HUMAN: 1.0
+		},
+		REQUIRES: {
+			GREATER: { 
+				POPULATION: 200,
+				ROOM_BARRACKS_AMOUNT: 2
+			}
+		}
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			GLORY_HOARD_RAID
+		],
+		ADD: [
+			GLORY_HOARD_RAID
+		]
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BATTLE_SLASH>MUL: 1.5,
+					BATTLE_PIERCE>MUL: 1.4,
+					BATTLE_SPEED>MUL: 1.3,
+					BATTLE_MORALE>MUL: 1.5
+				}
+			}
+		]
+	},
+},
+
+SAGA_WALL_CONSTRUCTION: {
+	ICON: 32->WORK->2,
+	DURATION: {
+		DAYS: 6.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: { *: 1.0 },
+		TERRAIN: { *: 1.0 },
+		RACE: { 
+			*: 0,
+			HUMAN: 1.0
+		},
+		REQUIRES: {
+			GREATER: { 
+				POPULATION: 150
+			}
+		}
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			SAGA_WALL_CONSTRUCTION
+		],
+		ADD: [
+			SAGA_WALL_CONSTRUCTION
+		]
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_LOYALTY>MUL: 1.5,
+					BEHAVIOUR_HAPPINESS>MUL: 1.3,
+					BEHAVIOUR_DISCIPLINE>MUL: 1.3,
+					RATES_CONSTRUCTION>MUL: 1.5
+				}
+			}
+		]
+	},
+},
+
+BOAST_HALL_FEAST: {
+	ICON: 32->FOOD->0,
+	DURATION: {
+		DAYS: 4.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: { *: 1.0 },
+		TERRAIN: { *: 1.0 },
+		RACE: { 
+			*: 0,
+			HUMAN: 1.0
+		},
+		REQUIRES: {
+			GREATER: { 
+				POPULATION: 250,
+				ROOM_TAVERN_AMOUNT: 2
+			}
+		}
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			BOAST_HALL_FEAST
+		],
+		ADD: [
+			BOAST_HALL_FEAST
+		]
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_HAPPINESS>MUL: 1.6,
+					RATES_ENTERTAINMENT>MUL: 2.0,
+					BATTLE_MORALE>MUL: 1.4,
+					RATES_TAVERN>MUL: 1.5
+				}
+			}
+		]
+	},
+},
+
+TROPHY_COLLECTION_CEREMONY: {
+	ICON: 32->BATTLE->1,
+	DURATION: {
+		DAYS: 5.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: { *: 1.0 },
+		TERRAIN: { *: 1.0 },
+		RACE: { 
+			*: 0,
+			HUMAN: 1.0
+		},
+		REQUIRES: {
+			GREATER: { 
+				POPULATION: 300
+			}
+		}
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			TROPHY_COLLECTION_CEREMONY
+		],
+		ADD: [
+			TROPHY_COLLECTION_CEREMONY
+		]
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BATTLE_INTIMIDATION>MUL: 1.6,
+					BATTLE_MORALE>MUL: 1.4,
+					BEHAVIOUR_HAPPINESS>MUL: 1.3,
+					BEHAVIOUR_LOYALTY>MUL: 1.3
+				}
+			}
+		]
+	},
+},
+
+METALWORKING_COMPETITION: {
+	ICON: 32->WORK->1,
+	DURATION: {
+		DAYS: 7.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: { *: 1.0 },
+		TERRAIN: { *: 1.0 },
+		RACE: { 
+			*: 0,
+			HUMAN: 1.0
+		},
+		REQUIRES: {
+			GREATER: { 
+				POPULATION: 350,
+				ROOM_TEMPLE_CRATOR_AMOUNT: 1,
+				ROOM_INDUSTRY_AMOUNT: 3
+			}
+		}
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			METALWORKING_COMPETITION
+		],
+		ADD: [
+			METALWORKING_COMPETITION
+		]
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					RATES_INDUSTRY>MUL: 1.7,
+					RATES_QUALITY>MUL: 1.5,
+					BATTLE_ARMOR>MUL: 1.4,
+					BATTLE_DAMAGE>MUL: 1.3,
+					BEHAVIOUR_SPIRITUAL>MUL: 1.3
+				}
+			},
+			{
+				TYPE: SUBJECTS_ADD,
+				AMOUNTS: {
+					HUMAN: {
+						AMOUNT: 5,
+					},	
+				},
+				IMMIGRANT_TYPE: IMMIGRANT
+			}
+		]
+	},
+},
+
+SAGA_WALL_CEREMONY: {
+	ICON: 32->CULTURE->0,
+	DURATION: {
+		DAYS: 5.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: { *: 1.0 },
+		TERRAIN: { *: 1.0 },
+		RACE: { 
+			*: 0,
+			HUMAN: 1.0
+		},
+		REQUIRES: {
+			GREATER: { 
+				POPULATION: 100
+			}
+		}
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			SAGA_WALL_CEREMONY
+		],
+		ADD: [
+			SAGA_WALL_CEREMONY
+		]
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BATTLE_MORALE>MUL: 1.8,
+					BEHAVIOUR_LOYALTY>MUL: 1.6,
+					BEHAVIOUR_HAPPINESS>MUL: 1.5,
+					RATES_ENTERTAINMENT>MUL: 1.5
+				}
+			}
+		]
+	},
+},
+
+RAIDING_PREPARATION_RITUAL: {
+	ICON: 32->BATTLE->0,
+	DURATION: {
+		DAYS: 6.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: { *: 1.0 },
+		TERRAIN: { *: 1.0 },
+		RACE: { 
+			*: 0,
+			HUMAN: 1.0
+		},
+		REQUIRES: {
+			GREATER: { 
+				POPULATION: 150
+			}
+		}
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			RAIDING_PREPARATION_RITUAL
+		],
+		ADD: [
+			RAIDING_PREPARATION_RITUAL
+		]
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BATTLE_DAMAGE>MUL: 1.8,
+					BATTLE_SPEED>MUL: 1.6,
+					BATTLE_MORALE>MUL: 1.6,
+					BEHAVIOUR_DISCIPLINE>MUL: 1.5
+				}
+			}
+		]
+	},
+},
+
+TROPHY_COLLECTION_FESTIVAL: {
+	ICON: 32->CULTURE->1,
+	DURATION: {
+		DAYS: 4.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: { *: 1.0 },
+		TERRAIN: { *: 1.0 },
+		RACE: { 
+			*: 0,
+			HUMAN: 1.0
+		},
+		REQUIRES: {
+			GREATER: { 
+				POPULATION: 200
+			}
+		}
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			TROPHY_COLLECTION_FESTIVAL
+		],
+		ADD: [
+			TROPHY_COLLECTION_FESTIVAL
+		]
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					RATES_ENTERTAINMENT>MUL: 2.0,
+					BEHAVIOUR_HAPPINESS>MUL: 1.8,
+					BATTLE_MORALE>MUL: 1.6,
+					BEHAVIOUR_LOYALTY>MUL: 1.5
+				}
+			}
+		]
+	},
+},
+
+CRATOR_FEAST: {
+	ICON: 32->RELIGION->0,
+	DURATION: {
+		DAYS: 7.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: { *: 1.0 },
+		TERRAIN: { *: 1.0 },
+		RACE: { 
+			*: 0,
+			HUMAN: 1.0
+		},
+		REQUIRES: {
+			GREATER: { 
+				POPULATION: 300,
+				ROOM_TEMPLE_CRATOR_AMOUNT: 1
+			}
+		}
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			CRATOR_FEAST
+		],
+		ADD: [
+			CRATOR_FEAST
+		]
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_SPIRITUAL>MUL: 2.0,
+					RATES_TEMPLE>MUL: 1.8,
+					BEHAVIOUR_HAPPINESS>MUL: 1.6,
+					BEHAVIOUR_LOYALTY>MUL: 1.5
+				}
+			}
+		]
+	},
+},
+
+BOAST_HALL_GATHERING: {
+	ICON: 32->CULTURE->2,
+	DURATION: {
+		DAYS: 8.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: { *: 1.0 },
+		TERRAIN: { *: 1.0 },
+		RACE: { 
+			*: 0,
+			HUMAN: 1.0
+		},
+		REQUIRES: {
+			GREATER: { 
+				POPULATION: 350,
+				ROOM_TAVERN_AMOUNT: 2
+			}
+		}
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			BOAST_HALL_GATHERING
+		],
+		ADD: [
+			BOAST_HALL_GATHERING
+		]
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					RATES_ENTERTAINMENT>MUL: 2.2,
+					BEHAVIOUR_HAPPINESS>MUL: 2.0,
+					BATTLE_MORALE>MUL: 1.8,
+					BEHAVIOUR_LOYALTY>MUL: 1.6
+				}
+			},
+			{
+				TYPE: SUBJECTS_ADD,
+				AMOUNTS: {
+					HUMAN: {
+						AMOUNT: 5,
+					},	
+				},
+				IMMIGRANT_TYPE: IMMIGRANT
+			}
+		]
+	},
+},
+
+METALWORKING_MASTERY: {
+	ICON: 32->INDUSTRY->0,
+	DURATION: {
+		DAYS: 6.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: { *: 1.0 },
+		TERRAIN: { *: 1.0 },
+		RACE: { 
+			*: 0,
+			HUMAN: 1.0
+		},
+		REQUIRES: {
+			GREATER: { 
+				POPULATION: 180,
+				ROOM_FORGE_AMOUNT: 1
+			}
+		}
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			METALWORKING_MASTERY
+		],
+		ADD: [
+			METALWORKING_MASTERY
+		]
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					RATES_CRAFTING>MUL: 2.0,
+					RATES_QUALITY>MUL: 1.8,
+					BATTLE_DAMAGE>MUL: 1.6,
+					BATTLE_DEFENSE>MUL: 1.6
+				}
+			}
+		]
+	},
+},
+
+TRADING_EXPEDITION: {
+	ICON: 32->INDUSTRY->1,
+	DURATION: {
+		DAYS: 5.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: { *: 1.0 },
+		TERRAIN: { *: 1.0 },
+		RACE: { 
+			*: 0,
+			HUMAN: 1.0
+		},
+		REQUIRES: {
+			GREATER: { 
+				POPULATION: 220,
+				ROOM_MARKET_AMOUNT: 1
+			}
+		}
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			TRADING_EXPEDITION
+		],
+		ADD: [
+			TRADING_EXPEDITION
+		]
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					RATES_TRADE>MUL: 2.2,
+					RATES_WEALTH>MUL: 1.8,
+					BEHAVIOUR_HAPPINESS>MUL: 1.6,
+					BEHAVIOUR_DISCIPLINE>MUL: 1.5
+				}
+			}
+		]
+	},
+},
+
+CLAN_COMBAT_TOURNAMENT: {
+	ICON: 32->BATTLE->1,
+	DURATION: {
+		DAYS: 7.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: { *: 1.0 },
+		TERRAIN: { *: 1.0 },
+		RACE: { 
+			*: 0,
+			HUMAN: 1.0
+		},
+		REQUIRES: {
+			GREATER: { 
+				POPULATION: 270
+			}
+		}
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			CLAN_COMBAT_TOURNAMENT
+		],
+		ADD: [
+			CLAN_COMBAT_TOURNAMENT
+		]
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BATTLE_DAMAGE>MUL: 2.0,
+					BATTLE_SPEED>MUL: 1.8,
+					BATTLE_MORALE>MUL: 1.8,
+					RATES_ENTERTAINMENT>MUL: 1.6
+				}
+			}
+		]
+	},
+},
+
+CLAN_REPUTATION_CHALLENGE: {
+	ICON: 32->CULTURE->3,
+	DURATION: {
+		DAYS: 6.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: { *: 1.0 },
+		TERRAIN: { *: 1.0 },
+		RACE: { 
+			*: 0,
+			HUMAN: 1.0
+		},
+		REQUIRES: {
+			GREATER: { 
+				POPULATION: 320
+			}
+		}
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			CLAN_REPUTATION_CHALLENGE
+		],
+		ADD: [
+			CLAN_REPUTATION_CHALLENGE
+		]
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_LOYALTY>MUL: 2.0,
+					BATTLE_MORALE>MUL: 1.8,
+					BEHAVIOUR_DISCIPLINE>MUL: 1.8,
+					BEHAVIOUR_HAPPINESS>MUL: 1.6
+				}
+			}
+		]
+	},
+},
+
+GLORY_HOARD_CEREMONY: {
+	ICON: 32->CULTURE->4,
+	DURATION: {
+		DAYS: 9.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: { *: 1.0 },
+		TERRAIN: { *: 1.0 },
+		RACE: { 
+			*: 0,
+			HUMAN: 1.0
+		},
+		REQUIRES: {
+			GREATER: { 
+				POPULATION: 400,
+				ROOM_TEMPLE_CRATOR_AMOUNT: 2,
+				ROOM_TAVERN_AMOUNT: 2
+			}
+		}
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			GLORY_HOARD_CEREMONY
+		],
+		ADD: [
+			GLORY_HOARD_CEREMONY
+		]
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_SPIRITUAL>MUL: 2.0,
+					RATES_TEMPLE>MUL: 1.8,
+					BATTLE_DAMAGE>MUL: 2.0,
+					BATTLE_MORALE>MUL: 2.0,
+					RATES_ENTERTAINMENT>MUL: 2.0,
+					BEHAVIOUR_LOYALTY>MUL: 1.8,
+					BEHAVIOUR_HAPPINESS>MUL: 1.8
+				}
+			},
+			{
+				TYPE: SUBJECTS_ADD,
+				AMOUNTS: {
+					HUMAN: {
+						AMOUNT: 10,
+					},	
+				},
+				IMMIGRANT_TYPE: IMMIGRANT
+			}
+		]
+	},
+},
+
+LEGENDARY_TROPHY_ACQUISITION: {
+	ICON: 32->BATTLE->3,
+	TEXT: "Your Northmen warriors have acquired a legendary trophy from a fearsome beast. This rare addition to your Glory Hoard has inspired your warriors and elevated your clan's reputation throughout the region.",
+	DURATION: {
+		DAYS: 10.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: { *: 1.0 },
+		TERRAIN: { *: 1.0 },
+		RACE: { 
+			*: 0,
+			HUMAN: 1.0
+		},
+		REQUIRES: {
+			GREATER: { 
+				POPULATION: 200,
+				ROOM_MILITARY_BARRACKS_AMOUNT: 2,
+				ROOM_MILITARY_ARMORY_AMOUNT: 1
+			}
+		}
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			LEGENDARY_TROPHY_ACQUISITION
+		],
+		ADD: [
+			LEGENDARY_TROPHY_ACQUISITION
+		]
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BATTLE_ATTACK>MUL: 1.7,
+					BEHAVIOUR_HAPPINESS>MUL: 1.5,
+					BEHAVIOUR_LOYALTY>MUL: 1.4,
+					DIPLOMACY_REPUTATION>MUL: 1.3
+				}
+			}
+		]
+	},
+},
+
+SAGA_WALL_EXPANSION: {
+	ICON: 32->WORK->1,
+	TEXT: "Your Northmen have expanded the Saga Wall with new carvings depicting recent victories and achievements. These additions have strengthened your cultural identity and inspired your citizens to strive for glory.",
+	DURATION: {
+		DAYS: 12.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: { *: 1.0 },
+		TERRAIN: { *: 1.0 },
+		RACE: { 
+			*: 0,
+			HUMAN: 1.0
+		},
+		REQUIRES: {
+			GREATER: { 
+				POPULATION: 180,
+				WALL_LENGTH: 150
+			}
+		}
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			SAGA_WALL_EXPANSION
+		],
+		ADD: [
+			SAGA_WALL_EXPANSION
+		]
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_HAPPINESS>MUL: 1.6,
+					BEHAVIOUR_LOYALTY>MUL: 1.5,
+					BEHAVIOUR_DISCIPLINE>MUL: 1.3,
+					DIPLOMACY_REPUTATION>MUL: 1.2
+				}
+			}
+		]
+	},
+},
+
+CRATOR_BATTLE_BLESSING: {
+	ICON: 32->RELIGION->2,
+	TEXT: "Crator Astari has bestowed a blessing upon your Northmen warriors, enhancing their combat abilities and metalworking skills. This divine favor has strengthened your connection to the foremost creator of the Astari.",
+	DURATION: {
+		DAYS: 15.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: { *: 1.0 },
+		TERRAIN: { *: 1.0 },
+		RACE: { 
+			*: 0,
+			HUMAN: 1.0
+		},
+		REQUIRES: {
+			GREATER: { 
+				POPULATION: 220,
+				ROOM_TEMPLE_CRATOR_AMOUNT: 1,
+				RELIGION_CRATOR_F: 0.6
+			}
+		}
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			CRATOR_BATTLE_BLESSING
+		],
+		ADD: [
+			CRATOR_BATTLE_BLESSING
+		]
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_SPIRITUAL>MUL: 1.5,
+					BATTLE_ATTACK>MUL: 1.6,
+					BATTLE_EQUIPMENT>MUL: 1.4,
+					WORLD_RESOURCE_PRODUCTION_METAL>MUL: 1.3
+				}
+			}
+		]
+	},
+},
+
+TRADING_NETWORK_EXPANSION: {
+	ICON: 32->DIPLOMACY->1,
+	TEXT: "Your Northmen traders have established new trade routes with distant settlements. These expanded networks have increased the flow of goods and resources, enhancing your economy and diplomatic relations.",
+	DURATION: {
+		DAYS: 14.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: { *: 1.0 },
+		TERRAIN: { *: 1.0 },
+		RACE: { 
+			*: 0,
+			HUMAN: 1.0
+		},
+		REQUIRES: {
+			GREATER: { 
+				POPULATION: 250,
+				ROOM_TRADE_MARKET_AMOUNT: 2,
+				ROOM_TRADE_TRADING_POST_AMOUNT: 1
+			}
+		}
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			TRADING_NETWORK_EXPANSION
+		],
+		ADD: [
+			TRADING_NETWORK_EXPANSION
+		]
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					WORLD_TRADE_SELL>MUL: 1.7,
+					WORLD_TRADE_BUY>MUL: 1.6,
+					DIPLOMACY_REPUTATION>MUL: 1.4,
+					BEHAVIOUR_HAPPINESS>MUL: 1.3
+				}
+			}
+		]
+	},
+},
+
+CLAN_UNITY_CELEBRATION: {
+	ICON: 32->ENTERTAINMENT->2,
+	TEXT: "Your Northmen clans have gathered for a unity celebration in the Boast Hall. This gathering has strengthened bonds between clans, improved social cohesion, and reinforced your collective identity as a powerful settlement.",
+	DURATION: {
+		DAYS: 8.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: { *: 1.0 },
+		TERRAIN: { *: 1.0 },
+		RACE: { 
+			*: 0,
+			HUMAN: 1.0
+		},
+		REQUIRES: {
+			GREATER: { 
+				POPULATION: 150,
+				ROOM_ENTERTAINMENT_TAVERN_AMOUNT: 1
+			}
+		}
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			CLAN_UNITY_CELEBRATION
+		],
+		ADD: [
+			CLAN_UNITY_CELEBRATION
+		]
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_HAPPINESS>MUL: 1.7,
+					BEHAVIOUR_LOYALTY>MUL: 1.6,
+					BEHAVIOUR_DISCIPLINE>MUL: 1.3,
+					BATTLE_MORALE>MUL: 1.4
+				}
+			}
+		]
+	},
+}

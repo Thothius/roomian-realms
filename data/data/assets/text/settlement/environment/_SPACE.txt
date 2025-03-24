@@ -1,0 +1,13 @@
+INFO: {
+	NAME: "Space",
+	DESC: "Open space values.",
+
+},
+
+	MORE: [
+		"The {RACE_CITY} feels claustrophobic, please put some space between buildings, {RACE_LORD}.",
+		"I am constantly bumping into people, when navigating our narrow paths. Wider, more spacious, roads would prevent this annoyance.",
+	],
+	LESS: [
+		"These wide roads make me anxious, surely we can use that space for something else?",
+	],

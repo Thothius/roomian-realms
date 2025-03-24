@@ -1,0 +1,1530 @@
+PREACHER_SHMALOR: {
+	ICON: 32->religion->SHMALOR->0,
+	DURATION: {
+		DAYS: 1.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: PREACHER_SHMALOR_NO,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 2000,
+			},
+			LESS: {
+				RELIGION_SHMALOR_F: 0.4,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			PREACHER_SHMALOR_MAYBE,
+		],
+	},
+
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: PREACHER_SHMALOR_YES,
+				},
+			],		
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: PREACHER_SHMALOR_NO,
+				},
+			],		
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: PREACHER_SHMALOR_MAYBE,
+				},
+			],		
+		},
+	],
+},
+
+PREACHER_SHMALOR_YES: {
+	ICON: 32->religion->SHMALOR->0,
+	DURATION: {
+		DAYS: 8.0,
+	},
+
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					RELIGION_SHMALOR_CITY>MUL: 100,
+					BEHAVIOUR_HAPPINESS>MUL: 0.9,
+					CIVIC_RAIDING>MUL: 5,
+					WORLD_PROXIMITY>MUL: 2,	
+				},
+			},
+		],
+	},
+},
+
+PREACHER_SHMALOR_NO: {
+	ICON: 32->religion->SHMALOR->0,
+	DURATION: {
+		DAYS: 8.0,
+	},
+
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_HAPPINESS>MUL: 1.3,
+				},
+			},
+			{
+				TYPE: INVASION,
+				AMOUNT_FROM: 1,
+				AMOUNT_TO: 1,
+				RACE: GARTHIMI,
+			},
+		],
+	},
+},
+
+PREACHER_SHMALOR_MAYBE: {
+	ICON: 32->religion->SHMALOR->0,
+	DURATION: {
+		DAYS: 8.0,
+	},
+	
+	TAGS: {
+		ADD: [
+			PREACHER_SHMALOR_MAYBE,
+		],
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_HAPPINESS>MUL: 1.3,
+					CIVIC_OPINION>MUL: 1.2,
+				},
+			},
+			{
+				TYPE: SUBJECTS_ADD,
+				AMOUNTS: {
+					GARTHIMI: {
+						AMOUNT: 1,
+					},	
+				},
+				IMMIGRANT_TYPE: PRISONER,
+			},
+			{
+				TYPE: INVASION,
+				AMOUNT_FROM: 1,
+				AMOUNT_TO: 1,
+				RACE: GARTHIMI,
+			},
+		],
+	},
+},
+
+PREACHER_SHMALOR_MAYBE_FOLLOW: {
+	ICON: 32->religion->SHMALOR->0,
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 10,
+			},
+		},
+	},
+
+	TAGS: {
+		REMOVE: [
+			PREACHER_SHMALOR_MAYBE,
+		],
+		ALLOW: [
+			PREACHER_SHMALOR_MAYBE,
+		],
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: INVASION,
+				AMOUNT_FROM: 1,
+				AMOUNT_TO: 2,
+				RACE: ARGONOSH,
+			},
+		],
+	},
+},
+
+PREACHER_AMINIONISM: {
+	ICON: 32->religion->AMINION->0,
+	DURATION: {
+		DAYS: 1.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: PREACHER_AMINIONISM_NO,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 2000,
+			},
+			LESS: {
+				RELIGION_AMINION_F: 0.4,
+			},
+		},
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},	
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: PREACHER_AMINIONISM_YES,
+				},
+			],		
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: PREACHER_AMINIONISM_NO,
+				},
+			],		
+		},
+	],
+},
+
+PREACHER_AMINIONISM_YES: {
+	ICON: 32->religion->AMINION->0,
+	DURATION: {
+		DAYS: 8.0,
+	},
+
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					RELIGION_AMINION_CITY>MUL: 100,
+					BEHAVIOUR_HAPPINESS>MUL: 0.9,
+				},
+			},
+		],
+	},
+},
+
+PREACHER_AMINIONISM_NO: {
+	ICON: 32->religion->AMINION->0,
+},
+
+PREACHER_ATHURISM: {
+	ICON: 32->religion->ATHURI->0,
+	DURATION: {
+		DAYS: 1.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: PREACHER_ATHURISM_NO,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 2000,
+			},
+			LESS: {
+				RELIGION_ATHURI_F: 0.4,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: PREACHER_ATHURISM_YES,
+				},
+			],		
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: PREACHER_ATHURISM_NO,
+				},
+			],		
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: PREACHER_ATHURISM_MAYBE,
+				},
+				{
+					TYPE: CREDITS,
+					PER_PERSON: -100,
+				},
+			],		
+		},
+	],
+},
+
+PREACHER_ATHURISM_YES: {
+	ICON: 32->religion->ATHURI->0,
+	DURATION: {
+		DAYS: 8.0,
+	},
+
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					RELIGION_ATHURI_CITY>MUL: 100,
+					CIVIC_OPINION>MUL: 1.3,
+				},
+			},
+		],
+	},
+},
+
+PREACHER_ATHURISM_NO: {
+	ICON: 32->religion->ATHURI->0,
+	DURATION: {
+		DAYS: 8.0,
+	},
+
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					CIVIC_OPINION>MUL: 0.8,
+					BEHAVIOUR_HAPPINESS>MUL: 1.3,
+				},
+			},
+		],
+	},
+},
+
+PREACHER_ATHURISM_MAYBE: {
+	ICON: 32->religion->ATHURI->0,
+	DURATION: {
+		DAYS: 8.0,
+	},
+
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_HAPPINESS>MUL: 1.3,
+					CIVIC_OPINION>MUL: 1.3,
+				},
+			},
+		],
+	},
+},
+
+PREACHER_CRATORISM: {
+	ICON: 32->religion->CRATOR->0,
+	DURATION: {
+		DAYS: 1.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: PREACHER_CRATORISM_NO,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 2000,
+			},
+			LESS: {
+				RELIGION_CRATOR_F: 0.4,
+				POPULATION_CRETONIAN_SLAVE_I: 1,
+				FACTION_IS_GARTHIMI_I: 1,
+			},
+		},
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},	
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: PREACHER_CRATORISM_YES,
+				},
+			],		
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: PREACHER_CRATORISM_NO,
+				},
+			],		
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: PREACHER_CRATORISM_MAYBE,
+				},
+				{
+					TYPE: SUBJECTS_ADD,
+					AMOUNTS: {
+						CRETONIAN: {
+							PER_PERSON: 0.15,
+						},	
+					},
+					IMMIGRANT_TYPE: CITIZEN,
+				},
+			],		
+		},
+	],
+},
+
+PREACHER_CRATORISM_YES: {
+	ICON: 32->religion->CRATOR->0,
+	DURATION: {
+		DAYS: 8.0,
+	},
+
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					RELIGION_CRATOR_CITY>MUL: 100,
+					ROOM_FARM*>MUL: 1.4,
+					ROOM_FISHERY*>MUL: 1.4,
+					ROOM_ORCHARD*>MUL: 1.4,
+					ROOM_PASTURE*>MUL: 1.4,
+				},
+			},
+		],
+	},
+},
+
+PREACHER_CRATORISM_NO: {
+	ICON: 32->religion->CRATOR->0,
+	DURATION: {
+		DAYS: 8.0,
+	},
+
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					ROOM_FARM*>MUL: 0.7,
+					ROOM_FISHERY*>MUL: 0.7,
+					ROOM_ORCHARD*>MUL: 0.7,
+					ROOM_PASTURE*>MUL: 0.7,
+				},
+			},
+		],
+	},
+},
+
+PREACHER_CRATORISM_MAYBE: {
+	ICON: 32->religion->CRATOR->0,
+	DURATION: {
+		DAYS: 8.0,
+	},
+
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					ROOM_FARM*>MUL: 1.4,
+					ROOM_FISHERY*>MUL: 1.4,
+					ROOM_ORCHARD*>MUL: 1.4,
+					ROOM_PASTURE*>MUL: 1.4,
+				},
+			},
+		],
+	},
+},
+
+REQUEST_SHMALOR: {
+	ICON: 32->religion->SHMALOR->0,
+	DURATION: {
+		DAYS: 1.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: REQUEST_SHMALOR_NO,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				RELIGION_SHMALOR_F: 0.8,
+				ROOM_TEMPLE_SHMALOR_AMOUNT: 0,
+				POPULATION: 1000,
+			},
+		},
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},	
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: REQUEST_SHMALOR_YES,
+				},
+				{
+					TYPE: SUBJECTS_KILL,
+					AMOUNTS: {
+						*: {
+							RELATIVE: 0.045,
+						},	
+					},
+					DAMAGE: true,
+					DEATH_CAUSE: SLAYED,
+					USE_SELECTION: false,
+				},
+			],		
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: REQUEST_SHMALOR_NO,
+				},
+			],		
+		},
+	],
+},
+
+REQUEST_SHMALOR_YES: {
+	ICON: 32->religion->SHMALOR->0,
+	DURATION: {
+		DAYS: 8.0,
+	},
+
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_LAWFULNESS>MUL: 2,
+					BEHAVIOUR_HAPPINESS>MUL: 1.1,
+					BEHAVIOUR_SUBMISSION>MUL: 1.5,
+				},
+			},
+		],
+	},
+},
+
+REQUEST_SHMALOR_NO: {
+	ICON: 32->religion->SHMALOR->0,
+	DURATION: {
+		DAYS: 8.0,
+	},
+
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_HAPPINESS>MUL: 0.8,
+				},
+			},
+		],
+	},
+},
+
+REQUEST_AMINION: {
+	ICON: 32->religion->AMINION->0,
+	DURATION: {
+		DAYS: 4.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: REQUEST_AMINION_NO,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				RELIGION_AMINION_F: 0.8,
+				ROOM_TEMPLE_AMINION_AMOUNT: 0,
+				POPULATION: 1000,
+			},
+		},
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			REQUEST_AMINION_YES,
+		],
+	},	
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: REQUEST_AMINION_YES,
+				},
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						RATION: {
+							PER_PERSON: 0.6,
+						},	
+					},
+				},
+			],		
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: REQUEST_AMINION_NO,
+				},
+			],		
+		},
+	],
+},
+
+REQUEST_AMINION_YES: {
+	ICON: 32->religion->AMINION->0,
+	DURATION: {
+		DAYS: 8.0,
+	},
+
+	TAGS: {
+		ADD: [
+			REQUEST_AMINION_YES,
+		],
+	},
+
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_HAPPINESS>MUL: 1.1,
+				},
+			},
+		],
+	},
+},
+
+REQUEST_AMINION_NO: {
+	ICON: 32->religion->AMINION->0,
+	DURATION: {
+		DAYS: 8.0,
+	},
+
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_HAPPINESS>MUL: 0.8,
+				},
+			},
+		],
+	},
+},
+
+REQUEST_AMINION_YES_FOLLOW: {
+	ICON: 32->religion->AMINION->0,
+
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 10,
+			},
+		},
+	},
+
+	TAGS: {
+		REMOVE: [
+			REQUEST_AMINION_YES,
+		],
+		ALLOW: [
+			REQUEST_AMINION_YES,
+		],
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: CREDITS,
+				PER_PERSON: 95,
+			},
+		],
+	},
+},
+
+REQUEST_ATHURI: {
+	ICON: 32->religion->ATHURI->0,
+	DURATION: {
+		DAYS: 2.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: REQUEST_ATHURI_NO,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				RELIGION_ATHURI_F: 0.8,
+				ROOM_TEMPLE_ATHURI_AMOUNT: 0,
+				POPULATION: 1000,
+			},
+		},
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},	
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: REQUEST_ATHURI_YES,
+				},
+				{
+					TYPE: CREDITS,
+					PER_PERSON: -50,
+				},
+			],		
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: REQUEST_ATHURI_NO,
+				},
+			],		
+		},
+	],
+},
+
+REQUEST_ATHURI_YES: {
+	ICON: 32->religion->ATHURI->0,
+	DURATION: {
+		DAYS: 8.0,
+	},
+
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_HAPPINESS>MUL: 1.1,
+					CIVIC_OPINION>MUL: 1.3,
+				},
+			},
+		],
+	},
+},
+
+REQUEST_ATHURI_NO: {
+	ICON: 32->religion->ATHURI->0,
+	DURATION: {
+		DAYS: 8.0,
+	},
+
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_HAPPINESS>MUL: 0.8,
+				},
+			},
+		],
+	},
+},
+
+REQUEST_CRATOR: {
+	ICON: 32->religion->CRATOR->0,
+	DURATION: {
+		DAYS: 1.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: REQUEST_CRATOR_NO,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				RELIGION_CRATOR_F: 0.8,
+				ROOM_TEMPLE_CRATOR_AMOUNT: 0,
+				POPULATION: 1000,
+			},
+		},
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			REQUEST_CRATOR_YES,
+			REQUEST_CRATOR_NO,
+		],
+	},	
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: REQUEST_CRATOR_YES,
+				},
+			],		
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: REQUEST_CRATOR_NO,
+				},
+			],		
+		},
+	],
+},
+
+REQUEST_CRATOR_YES: {
+	ICON: 32->religion->CRATOR->0,
+	DURATION: {
+		DAYS: 8.0,
+	},
+
+	TAGS: {
+		ADD: [
+			REQUEST_CRATOR_YES,
+		],
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_HAPPINESS>MUL: 0.85,
+					ROOM_FARM*>MUL: 0.85,
+					ROOM_FISHERY*>MUL: 0.85,
+					ROOM_ORCHARD*>MUL: 0.85,
+					ROOM_HUNTER*>MUL: 0.85,
+					ROOM_PASTURE*>MUL: 0.85,
+				},
+			},
+		],
+	},		
+},
+
+REQUEST_CRATOR_YES_FOLLOW: {
+	ICON: 32->SEASONS->0,
+	DURATION: {
+		DAYS: 12.0,
+	},
+
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				RELIGION_CRATOR_F: 0.8,
+				ROOM_TEMPLE_CRATOR_AMOUNT: 0,
+				POPULATION: 1000,
+			},
+			LESS: {
+				TIME_YEAR_PART: 0.2,
+			},
+		},
+	},
+	
+	TAGS: {
+		REMOVE: [
+			REQUEST_CRATOR_YES,
+		],
+		ALLOW: [
+			REQUEST_CRATOR_YES,
+		],
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},	
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_HAPPINESS>MUL: 1.2,
+					ROOM_FARM*>MUL: 1.25,
+					ROOM_FISHERY*>MUL: 1.25,
+					ROOM_ORCHARD*>MUL: 1.25,
+					ROOM_HUNTER*>MUL: 1.25,
+					ROOM_PASTURE*>MUL: 1.25,
+				},
+			},
+		],
+	},
+},
+
+REQUEST_CRATOR_NO: {
+	ICON: 32->religion->CRATOR->0,
+	DURATION: {
+		DAYS: 8.0,
+	},
+
+	TAGS: {
+		ADD: [
+			REQUEST_CRATOR_NO,
+		],
+	},
+
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_HAPPINESS>MUL: 0.8,
+				},
+			},
+		],
+	},
+},
+
+REQUEST_CRATOR_NO_FOLLOW: {
+	ICON: 32->SEASONS->2,
+	DURATION: {
+		DAYS: 12.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				RELIGION_CRATOR_F: 0.8,
+				ROOM_TEMPLE_CRATOR_AMOUNT: 0,
+				POPULATION: 1000,
+			},
+			LESS: {
+				TIME_YEAR_PART: 0.2,
+			},
+		},
+	},
+
+	TAGS: {
+		REMOVE: [
+			REQUEST_CRATOR_NO,
+		],
+		ALLOW: [
+			REQUEST_CRATOR_NO,
+		],
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					ROOM_FARM*>MUL: 0.75,
+					ROOM_FISHERY*>MUL: 0.75,
+					ROOM_ORCHARD*>MUL: 0.75,
+					ROOM_HUNTER*>MUL: 0.75,
+					ROOM_PASTURE*>MUL: 0.75,
+				},
+			},
+		],
+	},
+},
+
+TEMPLE_SPIDERS: {
+	ICON: 32->religion->SHMALOR->0,
+	DURATION: {
+		DAYS: 8.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: TEMPLE_SPIDERS_FOLLOW,
+			},
+		],
+	},
+
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				EMPLOYED_TEMPLE_SHMALOR: 0,
+			},
+		},
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},	
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					RATES_CONSTIPATION>MUL: 0.7,
+					BEHAVIOUR_LAWFULNESS>MUL: 3,
+					PHYSICS_SPEED>MUL: 0.9,
+				},
+			},
+		],
+	},
+},
+
+TEMPLE_SPIDERS_FOLLOW: {
+	ICON: 32->religion->SHMALOR->0,
+	
+	SELECTION: {
+		SUBJECTS: {
+			MAX_AMOUNT: {
+				RELATIVE: 0.05,
+			},
+			FILTERS: [
+				{
+					EQUAL: {
+						CLASS_CHILD: 1,
+					},
+				},
+			],
+		},		
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: SUBJECTS_KILL,
+				AMOUNTS: {
+					*: {
+						RELATIVE: 0.05,
+					},	
+				},
+				DAMAGE: false,
+				DEATH_CAUSE: OTHER,
+				USE_SELECTION: true,
+			},
+			{
+				TYPE: SUBJECTS_KILL,
+				AMOUNTS: {
+					*: {
+						RELATIVE: 0.02,
+					},	
+				},
+				DAMAGE: false,
+				DEATH_CAUSE: OTHER,
+				USE_SELECTION: false,
+			},
+		],
+	},
+},
+
+ATHURI_HELP: {
+	ICON: 32->religion->ATHURI->0,
+	DURATION: {
+		DAYS: 12.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				EMPLOYED_TEMPLE_ATHURI: 0,
+				WORLD_REGIONS: 2,
+			},
+		},
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},	
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					WORLD_TAX_INCOME>MUL: 1.2,
+					WORLD_RESOURCE_PRODUCTION*>MUL: 1.2,
+				},
+			},
+		],
+	},
+},
+
+CRATOR_HELP: {
+	ICON: 32->religion->CRATOR->0,
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				EMPLOYED_TEMPLE_CRATOR: 0,
+			},
+		},
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},	
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: RESOURCES,
+				AMOUNTS: {
+					BREAD: {
+						PER_PERSON: 2,
+					},	
+					VEGETABLE: {
+						PER_PERSON: 2,
+					},	
+					FRUIT: {
+						PER_PERSON: 2,
+					},	
+					MUSHROOM: {
+						PER_PERSON: 2,
+					},	
+				},
+			},
+		],
+	},
+},
+
+AMINION_HELP: {
+	ICON: 32->religion->AMINION->0,
+	DURATION: {
+		DAYS: 32.0,
+	},	
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				EMPLOYED_TEMPLE_AMINION: 0,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},	
+},
+
+SUMMERION: {
+	ICON: 32->KNOWLEDGE->1,
+	DURATION: {
+		DAYS: 8.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 2000,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			SUMMERION_ATHURI,
+			SUMMERION_CRATOR,
+			SUMMERION_AMINION,
+			SUMMERION_SHMALOR,
+		],
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					RELIGION_AMINION_CITY>ADD: 50,
+					RELIGION_ATHURI_CITY>ADD: 50,
+					RELIGION_CRATOR_CITY>ADD: 50,
+					RELIGION_SHMALOR_CITY>ADD: 50,
+				},
+			},
+		],
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: SUMMERION_ATHURI,
+				},
+				{
+					TYPE: CREDITS,
+					PER_PERSON: -200,
+				},
+				{
+					TYPE: BOOST,
+					PERMANENT: true,
+					PLAYER: {
+						RELIGION_ATHURI_CITY>MUL: 1.5,
+						WORLD_CONVERSION_ATHURI>MUL: 1.2,
+					},
+				},
+			],		
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: SUMMERION_CRATOR,
+				},
+				{
+					TYPE: CREDITS,
+					PER_PERSON: -200,
+				},
+				{
+					TYPE: BOOST,
+					PERMANENT: true,
+					PLAYER: {
+						RELIGION_CRATOR_CITY>MUL: 1.5,
+						WORLD_CONVERSION_CRATOR>MUL: 1.2,
+					},
+				},
+			],		
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: SUMMERION_AMINION,
+				},
+				{
+					TYPE: CREDITS,
+					PER_PERSON: -200,
+				},
+				{
+					TYPE: BOOST,
+					PERMANENT: true,
+					PLAYER: {
+						RELIGION_AMINION_CITY>MUL: 1.5,
+						WORLD_CONVERSION_AMINION>MUL: 1.2,
+					},
+				},
+			],		
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: SUMMERION_SHMALOR,
+				},
+				{
+					TYPE: CREDITS,
+					PER_PERSON: -200,
+				},
+				{
+					TYPE: BOOST,
+					PERMANENT: true,
+					PLAYER: {
+						RELIGION_SHMALOR_CITY>MUL: 1.5,
+						WORLD_CONVERSION_SHMALOR>MUL: 1.2,
+					},
+				},
+			],		
+		},
+	],
+},
+
+SUMMERION_ATHURI: {
+	ICON: 32->religion->ATHURI->0,
+	TAGS: {
+		ADD: [
+			SUMMERION_ATHURI,
+		],
+	},
+},
+
+SUMMERION_CRATOR: {
+	ICON: 32->religion->CRATOR->0,
+	TAGS: {
+		ADD: [
+			SUMMERION_CRATOR,
+		],
+	},
+},
+
+SUMMERION_AMINION: {
+	ICON: 32->religion->AMINION->0,
+	TAGS: {
+		ADD: [
+			SUMMERION_AMINION,
+		],
+	},
+},
+
+SUMMERION_SHMALOR: {
+	ICON: 32->religion->SHMALOR->0,
+	TAGS: {
+		ADD: [
+			SUMMERION_SHMALOR,
+		],
+	},
+},

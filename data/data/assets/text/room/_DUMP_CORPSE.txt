@@ -1,0 +1,27 @@
+INFO: {
+	NAME: "Mass Grave",
+	NAMES: "Mass Graves",
+	DESC: "A rudimentary place to bury the deceased. Gives no happiness boosts but can prevent the dangers coming with having decomposing bodies in the streets.",
+	WIKI: {
+		CATEGORY: "Service",
+		NAME: "Mass Graves",
+		TEXT: "A rudimentary place to bury the deceased. Gives no happiness boosts but can prevent the dangers coming with having decomposing bodies in the streets.",
+	},
+},
+
+STATS: [
+	{
+		NAME: "Graves",
+		DESC: "How many corpses that can be stored.",
+	},
+],
+
+ITEMS: [
+
+],
+
+SERVICE: {
+	NAME: "Dump",
+	NAMES: "Dumps",
+	VERB: "Dumping Corpse",
+},

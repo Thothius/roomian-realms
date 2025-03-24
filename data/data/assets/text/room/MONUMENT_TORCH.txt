@@ -1,0 +1,29 @@
+INFO: {
+	NAME: "Torch",
+	NAMES: "Torches",
+	DESC: "Spreads light in your settlement.",
+	WIKI: {
+		CATEGORY: "Infrastructure",
+		NAME: "Torch",
+		TEXT: "Placed preferably where subjects and visitors gather after dark. Makes them feel safe and comfortable. Deters mischief. Bigger torches have a bigger effect.",
+	},
+},
+
+BONUS: {
+	NAME: "Lighting",
+	DESC: "Increases the effect of your torches.",
+},
+
+
+ITEMS: [
+	{
+		NAME: "Torch",
+		DESC: "Spreads light in your settlement.",
+	},
+],
+
+MORE: [
+	"There are so few torches around, even during the day they are nice to look at.",
+	"If we had more torches in our settlement, it would be visible from far away, guiding travelers and caravans alike to our hearths.",
+	"I'd like to see some more torches, of the fancier kind, around, {RACE_LORD}.",
+],

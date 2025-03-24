@@ -1,0 +1,2 @@
+NAME: "Hygiene",
+DESC: "Moves waste and filth away from population centres.",

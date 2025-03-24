@@ -1,0 +1,9 @@
+NAME: "Physician",
+DESC: "Increases health globally",
+
+LEVELS: [
+	"Physicians Guild",
+	"Physicians Headquarters",
+	"Academy of Medicine",
+	"Royal Academy of Medicine",
+],

@@ -1,0 +1,16 @@
+INFO: {
+	NAME: "Pond",
+	NAMES: "Pond",
+	DESC: "Provides your subject with a place to swim. A pond fills up when it is connected to a canal system with enough pressure. One tile of pond will consume one unit of pressure.",
+},
+
+STATS: [
+	
+],
+
+ITEMS: [
+	{
+		NAME: "",
+		DESC: "",
+	},
+],

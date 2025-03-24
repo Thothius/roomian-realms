@@ -1,0 +1,25 @@
+INFO: {
+	NAME: "Import Depot",
+	NAMES: "Import Depots",
+	DESC: "Allows you to accept tribute, imports and spoils of war.",
+	WIKI: {
+		CATEGORY: "Trade",
+		NAME: "Import Depot",
+		TEXT: "This structure allows you to accept and receive tribute and imports.",
+	},
+},
+
+STATS: [
+	{
+		NAME: "Crates",
+		DESC: "The amount of crates that will be used for storage.",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Crates",
+		DESC: "Where goods are stored.",
+	},
+],
+

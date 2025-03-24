@@ -1,0 +1,2 @@
+NAME: "The White Shimmer",
+DESC: "Victims of the white shimmer suffer high fevers and delirium. The disease is named for the hallucinations about moving bands of light permeating Syx, often blinding the afflicted for the duration of the disease. It is very rarely deadly.",

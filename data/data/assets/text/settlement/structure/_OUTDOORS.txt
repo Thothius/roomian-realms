@@ -1,0 +1,4 @@
+INFO: {
+	NAME: "Outdoors",
+	DESC: "Outdoors",
+},

@@ -1,0 +1,3 @@
+NAME: "Morning star",
+NAMES: "Morning stars",
+DESC: "Brutal weapons designed for maximum suffering. Each spike is carefully crafted to tear flesh rather than slice it, and the wounds they create are designed to maximize pain rather than kill quickly. The distinctive sound of shattering bone accompanies each successful strike.",

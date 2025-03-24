@@ -1,0 +1,2 @@
+NAME_NEED: "Shopping",
+NAME_RATE: "Shopping",

@@ -1,0 +1,3 @@
+NAME: "Grain",
+NAMES: "Grain",
+DESC: "Grain is a crop that can be turned to bread in a bakery. Can not be eaten unprocessed.",

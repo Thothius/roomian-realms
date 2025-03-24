@@ -1,0 +1,119 @@
+ICON: {
+	BG: 24->race->Argonosh->0,
+	FG: 32->BG->0,
+	SHADOW: 1,
+},
+RESOURCES: [WOOD,HERBS,FABRIC,],
+AREA_COSTS: [0.2,0,0,],
+FLOOR: WOOD,
+MINI_COLOR: 0_255_255,
+REQUIRES: {
+	GREATER: {
+		POPULATION_ARGONOSH_CITIZEN_I: 20,
+	},
+},
+ITEMS: [
+	{
+		COSTS: [2,2,2,],
+		STATS: [1,0,0,],
+	},
+	{
+		COSTS: [5,5,5,],
+		STATS: [0,0,4,],
+	},
+],
+WORK: {
+	SHIFT_OFFSET: 0.125,
+	USES_TOOL: false,
+	FULLFILLMENT: 0.5,
+},
+INDUSTRY: {
+	IN: {
+		FRUIT: 0.25,
+		HERBS: 0.25,
+	},
+	OUT: {
+		
+	},
+},
+RACE: ARGONOSH,
+INCUBATION_DAYS: 20, 
+SPRITES: {
+	1x1_BABY: {
+		FPS: 4,
+		SHADOW_LENGTH: 1,
+		ROTATES: false,
+		FRAMES: [
+			NURSERY: 0,
+			NURSERY: 1,
+		],
+	},
+	
+	1x1_CRIB_TOP: {
+		FPS: 0,
+		SHADOW_LENGTH: 3,
+		SHADOW_HEIGHT: 0,
+		ROTATES: true,
+		FRAMES: [
+			2xBED: 0,
+		],
+	},
+	1x1_CRIB_BOTTOM: {
+		FPS: 0,
+		SHADOW_LENGTH: 3,
+		SHADOW_HEIGHT: 0,
+		ROTATES: true,
+		FRAMES: [
+			2xBED: 1,
+		],
+	},
+	1x1_CRIB_TOP_FENCE: {
+		FPS: 0,
+		SHADOW_LENGTH: 2,
+		SHADOW_HEIGHT: 0,
+		ROTATES: true,
+		FRAMES: [
+			2xBED: 18,
+		],
+	},
+	1x1_CRIB_BOTTOM_FENCE: {
+		FPS: 0,
+		SHADOW_LENGTH: 2,
+		SHADOW_HEIGHT: 0,
+		ROTATES: true,
+		FRAMES: [
+			2xBED: 19,
+		],
+	},	
+	2x2_DECOR: {
+		FPS: 0,
+		SHADOW_LENGTH: 0,
+		SHADOW_HEIGHT: 0,
+		ROTATES: false,
+		FRAMES: [
+			CARPETS: 1,
+		],
+	},
+	1x1_TABLE: {
+		FPS: 0,
+		SHADOW_LENGTH: 3,
+		SHADOW_HEIGHT: 0,
+		ROTATES: false,
+		FRAMES: [
+			TABLES: 0,
+		],
+	},
+	1x1_CHAIR: {
+		FPS: 0,
+		SHADOW_LENGTH: 3,
+		SHADOW_HEIGHT: 0,
+		ROTATES: true,
+		FRAMES: [
+			CHAIRS: 0,
+		],
+	},
+},
+DESC: {
+	TEXT: "A nursery for Satyr children. Uses natural materials and herbal remedies to nurture the young in harmony with nature. The matriarchal caretakers ensure each child is connected to the forest from birth.",
+	REQUIRED: "Requires a population of at least 20 Satyr citizens.",
+},

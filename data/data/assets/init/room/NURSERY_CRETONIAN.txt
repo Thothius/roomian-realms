@@ -1,0 +1,116 @@
+ICON: {
+	BG: 24->race->Cretonian->0,
+	FG: 32->BG->0,
+	SHADOW: 1,
+},
+RESOURCES: [WOOD,FURNITURE,FABRIC,],
+AREA_COSTS: [0,0,0,],
+FLOOR: WOOD,
+MINI_COLOR: 0_255_255,
+REQUIRES: {
+	GREATER: {
+		POPULATION_CRETONIAN_CITIZEN_I: 20,
+	},
+},
+ITEMS: [
+	{
+		COSTS: [0,2,2,],
+		STATS: [1,0,0,],
+	},
+	{
+		COSTS: [0,6,0,],
+		STATS: [0,0,4,],
+	},
+],
+WORK: {
+	SHIFT_OFFSET: 0.125,
+	SOUND: work->Fabric*,
+	USES_TOOL: false,
+	FULLFILLMENT: 0.5,
+},
+INDUSTRY: {
+	IN: {
+		VEGETABLE: 0.5,
+	},
+	OUT: {
+		
+	},
+},
+RACE: CRETONIAN,
+INCUBATION_DAYS: 8,
+SPRITES: {
+	1x1_BABY: {
+		FPS: 4,
+		SHADOW_LENGTH: 1,
+		ROTATES: false,
+		FRAMES: [
+			NURSERY: 2,
+			NURSERY: 3,
+		],
+	},
+	
+	1x1_CRIB_TOP: {
+		FPS: 0,
+		SHADOW_LENGTH: 3,
+		SHADOW_HEIGHT: 0,
+		ROTATES: true,
+		FRAMES: [
+			2xBED: 2,
+		],
+	},
+	1x1_CRIB_BOTTOM: {
+		FPS: 0,
+		SHADOW_LENGTH: 3,
+		SHADOW_HEIGHT: 0,
+		ROTATES: true,
+		FRAMES: [
+			2xBED: 3,
+		],
+	},
+	1x1_CRIB_TOP_FENCE: {
+		FPS: 0,
+		SHADOW_LENGTH: 2,
+		SHADOW_HEIGHT: 0,
+		ROTATES: true,
+		FRAMES: [
+			2xBED: 18,
+		],
+	},
+	1x1_CRIB_BOTTOM_FENCE: {
+		FPS: 0,
+		SHADOW_LENGTH: 2,
+		SHADOW_HEIGHT: 0,
+		ROTATES: true,
+		FRAMES: [
+			2xBED: 19,
+		],
+	},	
+	2x2_DECOR: {
+		FPS: 0,
+		SHADOW_LENGTH: 3,
+		SHADOW_HEIGHT: 0,
+		ROTATES: false,
+		FRAMES: [
+			CARPETS: 1,
+		],
+	},
+	1x1_TABLE: {
+		FPS: 0,
+		SHADOW_LENGTH: 3,
+		SHADOW_HEIGHT: 0,
+		ROTATES: false,
+		FRAMES: [
+			TABLES: 1,
+		],
+	},
+	1x1_DECOR: {
+		FPS: 0,
+		SHADOW_LENGTH: 1,
+		SHADOW_HEIGHT: 0,
+		ROTATES: false,
+		FRAMES: [
+			TOP: 10,
+		],
+	},
+},
+

@@ -1,0 +1,18 @@
+INFO: {
+	NAME: "Statue",
+	NAMES: "Statues",
+	DESC: "Spreads awe in your settlement.",
+},
+
+ITEMS: [
+	{
+		NAME: "Statues",
+		DESC: "Big stone monuments.",
+	},
+],
+
+MORE: [
+	"We could use a few more statues of notable citizens around. I don't think we have one of me yet.",
+	"People are worrying about you. No {RACE_LORD} has so few statues of them. Are you well?",
+	"We know about many ancient persons by the statues they left behind. No one will remember us at this rate. Build some more. Preferably on wetter ground, I hear it preserves stuff well.",
+],

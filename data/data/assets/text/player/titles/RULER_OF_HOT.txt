@@ -1,0 +1,2 @@
+NAME: "Ruler of Sedge and Bee",
+DESC: "Survive and thrive in a hot climate to gain the goodwill of its hardened people.",

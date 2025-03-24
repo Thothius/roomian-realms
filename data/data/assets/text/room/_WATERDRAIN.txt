@@ -1,0 +1,16 @@
+INFO: {
+	NAME: "Culvert",
+	NAMES: "Culverts",
+	DESC: "The culvert transports water, similar to canals, but does so under ground and connects to other culverts within its radius. It is less efficient than canals.",
+},
+
+STATS: [
+	
+],
+
+ITEMS: [
+	{
+		NAME: "Culvert",
+		DESC: "",
+	},
+],

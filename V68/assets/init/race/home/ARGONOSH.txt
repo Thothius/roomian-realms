@@ -1,0 +1,353 @@
+CITIZEN: {
+	FLOORS: [
+		{
+			RESOURCES: {
+			
+			},
+			FLOOR: DIRT,
+		},
+		{
+			RESOURCES: {
+				WOOD: 3,
+				HERB: 1,
+			},
+			FLOOR: WOOD,
+		},
+	],
+
+	BED_1x2: [
+		{
+			RESOURCES: {
+				
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 1,
+			SHADOW_HEIGHT: 0,
+			SHADOW_SPRITE: false,
+			FRAMES : [
+				BED: 0,
+			],
+		},
+		{
+			RESOURCES: {
+				WOOD: 2,
+				FABRIC: 2,
+				HERB: 1,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			SHADOW_SPRITE: false,
+			FRAMES : [
+				BED: 1,
+			],
+		},
+		{
+			RESOURCES: {
+				WOOD: 3,
+				FABRIC: 3,
+				HERB: 2,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 3,
+			SHADOW_HEIGHT: 0,
+			SHADOW_SPRITE: false,
+			FRAMES : [
+				BED: 2,
+			],
+		},
+	],
+
+	TABLE_COMBO: [
+		{
+			RESOURCES: {
+				WOOD: 3,
+				HERB: 1,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 3,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				COMBO_TABLES: 0,
+				COMBO_TABLES: 1,
+			],
+		},
+	],
+
+	CARPET_COMBO: [
+		{
+			RESOURCES: {
+				FABRIC: 3,
+				HERB: 1,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				COMBO_CARPETS: 0,
+			],
+		},
+	],
+
+	NIGHTSTAND_1x1: [
+		{
+			RESOURCES: {
+				WOOD: 2,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 1,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				TABLES: 2,
+			],
+		},
+		{
+			RESOURCES: {
+				WOOD: 3,
+				HERB: 1,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				TABLES: 3,
+			],
+		},
+	],
+
+	STORAGE_1x1: [
+		{
+			RESOURCES: {
+				WOOD: 3,
+				HERB: 1,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				STORAGE: 2,
+			],
+		},
+	],
+
+	CHAIR_1x1: [
+		{
+			RESOURCES: {
+				WOOD: 2,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				CHAIRS: 0,
+				CHAIRS: 1,
+			],
+		},
+	],
+
+	NICKNACK_A_1x1: [
+		{
+			RESOURCES: {
+				WOOD: 2,
+				HERB: 2,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				STORAGE: 1,
+			],
+		},
+	],
+
+	NICKNACK_B_1x1: [
+		{
+			RESOURCES: {
+				WOOD: 2,
+				HERB: 2,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				STORAGE: 3,
+			],
+		},
+	],
+
+	NICKNACK_A_ONTOP_1x1: [
+		{
+			RESOURCES: {
+				HERB: 3,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 1,
+			SHADOW_HEIGHT: 0,
+			COLOR: [
+				{R: 50, G: 150, B: 50,},
+				{R: 150, G: 150, B: 50,},
+				{R: 100, G: 200, B: 100,},
+			],
+			FRAMES : [
+				TOP: 0,
+				TOP: 1,
+				TOP: 2,
+				TOP: 3,
+			],
+		},
+	],
+},
+
+SLAVE: {
+	FLOORS: [
+		{
+			RESOURCES: {
+			
+			},
+			FLOOR: DIRT,
+		},
+	],
+
+	BED_1x2: [
+		{
+			RESOURCES: {
+				
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 1,
+			SHADOW_HEIGHT: 0,
+			SHADOW_SPRITE: false,
+			FRAMES : [
+				BED: 0,
+			],
+		},
+	],
+
+	TABLE_COMBO: [
+		{
+			RESOURCES: {
+				WOOD: 2,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 3,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				COMBO_TABLES: 0,
+				COMBO_TABLES: 1,
+			],
+		},
+	],
+
+	NIGHTSTAND_1x1: [
+		{
+			RESOURCES: {
+			
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 1,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				TABLES: 2,
+			],
+		},
+	],
+
+	STORAGE_1x1: [
+		{
+			RESOURCES: {
+				WOOD: 2,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				STORAGE: 2,
+			],
+		},
+	],
+
+	CHAIR_1x1: [
+		{
+			RESOURCES: {
+			
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				CHAIRS: 0,
+				CHAIRS: 1,
+			],
+		},
+	],
+
+	NICKNACK_A_1x1: [
+		{
+			RESOURCES: {
+				WOOD: 2,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				STORAGE: 1,
+			],
+		},
+	],
+
+	NICKNACK_B_1x1: [
+		{
+			RESOURCES: {
+				WOOD: 2,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				STORAGE: 3,
+			],
+		},
+	],
+},
+
+NOBLE: {
+	FLOORS: [
+		{
+			RESOURCES: {
+			
+			},
+			FLOOR: WOOD,
+		},
+	],
+	BED_MASTER_2x2: [
+		{
+			RESOURCES: {
+				WOOD: 4,
+				FABRIC: 4,
+				HERB: 3,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 4,
+			SHADOW_HEIGHT: 4,
+			ROTATES: true,
+			FRAMES : [
+				BEDS: 0,
+			],
+		},
+	],
+	STATUE_2x2: [ 
+		{
+			RESOURCES: {
+				WOOD: 5,
+				HERB: 4,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 8,
+			SHADOW_HEIGHT: 8,
+			ROTATES: true,
+			FRAMES : [
+				MONUMENT: 1,
+			],
+		},
+	],
+}

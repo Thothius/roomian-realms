@@ -1,0 +1,157 @@
+ICON: 32->RELIGION->10,
+RESOURCES: [STONE,WOOD,FURNITURE,METAL],
+AREA_COSTS: [0.7,0.5,0,0],
+FLOOR: [STONE_DARK,STONE_MEDIUM],
+MINI_COLOR: 180_0_230,
+REQUIRES: {
+	GREATER: {
+		POPULATION_CITIZEN_I: 300,
+	},
+},
+ITEMS: [
+	{
+		COSTS: [4,3,3,3],	** Advanced Void Conduits
+		STATS: [1,0,0],
+	},
+	{
+		COSTS: [3,3,3,3],	** Enhanced Void Stabilizers
+		STATS: [0,2,0],
+	},
+	{
+		COSTS: [2,2,2,3],	** Reinforced Containment Fields
+		STATS: [0,0,2],
+	},
+],
+UPGRADES: [
+	{
+		RESOURCE_MASK: [2,2,2,2],
+		BOOST: 0,
+	},
+	{
+		RESOURCE_MASK: [3,3,3,3],
+		BOOST: 0.5,
+	},
+	{
+		RESOURCE_MASK: [4,4,4,4],
+		BOOST: 1.0,
+	},
+],
+WORK: {
+	SHIFT_OFFSET: 0.5,
+	SOUND: work->Magic*,
+	ACCIDENTS_PER_YEAR: 0.08,
+	FULFILLMENT: 1.8,
+},
+INDUSTRIES: [
+	{
+		INDUSTRY: {
+			IN: {
+				VOID_CRYSTAL: 0.2,
+				METAL: 0.1,
+				GEM: 0.05,
+			},
+			OUT: {
+				KNOWLEDGE: 0.2,
+				RELIGION_SHMALOR: 0.1,
+				CIVIC_INNOVATION: 0.05,
+			},
+		},
+	},
+],
+ENVIRONMENT_EMIT: {
+	_NOISE: {
+		VALUE: 0.7,
+		RADIUS: 2,
+	},
+},
+BOOSTS: {
+	GARTHIMI: {
+		RELIGION_SHMALOR>MUL: 0.3,
+		KNOWLEDGE>MUL: 0.2,
+		CIVIC_INNOVATION>MUL: 0.1,
+		HAPPINESS>ADD: 0.08,
+	},
+	CANTOR: {
+		RELIGION_SHMALOR>MUL: 0.15,
+		KNOWLEDGE>MUL: 0.1,
+		HAPPINESS>ADD: 0.04,
+	},
+	Q_AMEVIA: {
+		KNOWLEDGE>MUL: 0.25,
+		CIVIC_INNOVATION>MUL: 0.15,
+		HAPPINESS>ADD: 0.05,
+	},
+	DONDORIAN: {
+		KNOWLEDGE>MUL: 0.1,
+		CIVIC_INNOVATION>MUL: 0.1,
+		HAPPINESS>ADD: 0.03,
+	},
+	TILAPI: {
+		RELIGION_AMINION>MUL: 0.1,
+		HAPPINESS>ADD: 0.02,
+		TORTURE>MUL: 0.15,
+		SLAVERY>MUL: 0.1,
+	},
+	ARGONOSH: {
+		KNOWLEDGE>MUL: 0.1,
+		HAPPINESS>ADD: 0.02,
+		ARCHERY>MUL: 0.1,
+		FORESTRY>MUL: 0.1,
+	},
+	HUMAN: {
+		KNOWLEDGE>MUL: 0.1,
+		HAPPINESS>ADD: 0.02,
+		WARRIOR_MORALE>MUL: 0.05,
+		CRAFTING_METAL>MUL: 0.05,
+	},
+	CRETONIAN: {
+		KNOWLEDGE>MUL: 0.1,
+		HAPPINESS>ADD: 0.02,
+		WARRIOR_DEFENSE>MUL: 0.1,
+		TRAINING>MUL: 0.05,
+	},
+},
+SPRITES: {
+	ALTAR_2X2: [
+		{	
+			TINT: true,
+			SHADOW_HEIGHT: 6,
+			FRAMES: [
+				ALTAR: 0,	
+				ALTAR: 1,
+			],
+		},
+	],
+	STATUE_1X1: [
+		{	
+			TINT: true,
+			SHADOW_LENGTH: 5,
+			ROTATES: true,
+			FRAMES: [
+				STATUE: 0,
+				STATUE: 1,	
+			],
+		},
+	],
+	DECOR_1X1: [
+		{
+			TINT: true,
+			SHADOW_LENGTH: 2,
+			ROTATES: false,
+			FRAMES: [
+				DECOR: 0,
+				DECOR: 1,
+				DECOR: 2,
+			],
+		},
+	],
+	CARPET_COMBO: [
+		{	
+			TINT: true,
+			FRAMES: [
+				COMBO_CARPETS: 5,	
+			],
+		},
+	],
+},
+DESCRIPTION: "A more advanced void structure that amplifies the connection to the realm beyond. The Void Amplifier consumes twice as much Void Crystal as the basic Nexus, along with gems to stabilize the enhanced connection. In return, it provides greater knowledge generation, stronger religious output, and even contributes to civic innovation. The structure is particularly powerful for Wormlings, who can channel its energies most effectively, but Froggians also benefit significantly from the enhanced knowledge output. This building represents a deeper understanding of void energies and their practical applications."

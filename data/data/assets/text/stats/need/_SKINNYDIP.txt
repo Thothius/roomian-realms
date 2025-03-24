@@ -1,0 +1,2 @@
+NAME_NEED: "Swim",
+NAME_RATE: "Skinny dip",

@@ -1,0 +1,15 @@
+INFO: {
+	NAME: "Lighting",
+	DESC: "Most people like to have the darkness lit by light at night.",
+
+},
+
+	MORE: [
+		"The nights here can be beautiful, but we nonetheless need more torches to light our way.",
+		"We need more torches lighting our way at night.",
+		"I would love to go out at night, but everything is so dark. More torches near well-traveled areas would help.",
+	],
+	LESS: [
+		"The night should remain unspoiled. Remove these infernal lights!",
+		"All this artificial light is hurting my eyes.",		
+	],

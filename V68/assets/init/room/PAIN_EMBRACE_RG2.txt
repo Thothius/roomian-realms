@@ -1,0 +1,127 @@
+ICON: {
+	BG: 24->race->Tilapi->0,
+	FG: 32->DEATH->4,
+	SHADOW: 1,
+},
+RESOURCES: [STONE,FURNITURE,METAL,],
+AREA_COSTS: [0.3,0,0,],
+FLOOR: STONE_DARK,
+MINI_COLOR: 100_0_0,
+REQUIRES: {
+	GREATER: {
+		POPULATION_TILAPI_CITIZEN_I: 15,
+	},
+},
+RACE: TILAPI,
+ITEMS: [
+	{
+		COSTS: [2,0,0,],	** Ritual Circle
+		STATS: [0,0,0,],
+	},
+	{
+		COSTS: [1,2,1,],	** Scarification Tools
+		STATS: [1,0,1,],
+	},
+	{
+		COSTS: [0,1,2,],	** Efficiency
+		STATS: [0,2,0,],
+	},
+],
+UPGRADES: [
+	{
+		RESOURCE_MASK: [1,1,1,],
+		BOOST: 0,
+	},
+	{
+		RESOURCE_MASK: [2,2,2,],
+		BOOST: 0.5,
+	},
+	{
+		RESOURCE_MASK: [3,3,3,],
+		BOOST: 1.0,
+	},
+],
+WORK: {
+	SHIFT_OFFSET: 0.6,
+	SOUND: impact->Flesh*,
+	ACCIDENTS_PER_YEAR: 0.05,
+	FULFILLMENT: 1.5,
+},
+INDUSTRIES: [
+	{
+		INDUSTRY: {
+			IN: {
+				SLAVE: 0.05,
+			},
+			OUT: {
+				HAPPINESS: 2.0,
+				LOYALTY: 0.2,
+			},
+		},
+	},
+],
+ENVIRONMENT_EMIT: {
+	_NOISE: {
+		AMOUNT: 0.4,
+		RADIUS: 16,
+	},
+	_RELIGION: {
+		AMOUNT: 0.3,
+		RADIUS: 24,
+		RELIGION: AMINION,
+	},
+},
+SPRITES: {
+	PAIN_RACK_1X2: [
+		{	
+			ROTATES: true,
+			TINT: true,
+			SHADOW_LENGTH: 3,
+			FRAMES: [
+				2xBED: 8,	
+			],
+		},
+	],
+	PAIN_TOOLS_1X1: [
+		{	
+			ROTATES: true,
+			TINT: true,
+			SHADOW_LENGTH: 1,
+			FRAMES: [
+				DECOR: 10,	
+			],
+		},
+	],
+	PAIN_FIRE_1X1: [
+		{	
+			ROTATES: true,
+			TINT: true,
+			SHADOW_LENGTH: 2,
+			FRAMES: [
+				DECOR: 1,	
+			],
+		},
+	],
+	PAIN_SYMBOL_1X1: [
+		{	
+			ROTATES: false,
+			TINT: true,
+			SHADOW_LENGTH: 0,
+			FRAMES: [
+				FLOOR: 7,	
+			],
+		},
+	],
+},
+BOOSTS: {
+	TILAPI: {
+		ROOM_TORTURE>MUL: 0.1,
+		BEHAVIOUR_CRUELTY>ADD: 0.05,
+		BEHAVIOUR_LOYALTY>ADD: 0.05,
+	},
+	OTHER: {
+		HAPPINESS>ADD: -0.05,
+		LOYALTY>ADD: -0.02,
+	},
+},
+DESCRIPTION: "A ritualistic chamber where Hellspawns practice scarification and embrace pain as a path to power. The chamber requires slaves for rituals and provides significant happiness and loyalty benefits to Hellspawns. It enhances their torture skills and increases their cruelty and loyalty to their leaders. The horrific nature of the rituals causes significant discomfort and loyalty loss to other races."

@@ -1,0 +1,64 @@
+ICON: 32->LAW->3,
+RESOURCES: [STONE,WOOD,FURNITURE,],
+AREA_COSTS: [0,0,0,],
+MINI_COLOR: 70_70_70,
+FLOOR: STONE1,
+FLOOR2: STONE2,
+ITEMS: [
+	{
+		COSTS: [2,2,2,],
+		STATS: [1,0.2,0,],
+	},
+	{
+		COSTS: [2,2,2,],
+		STATS: [1,0.2,0,],
+	},
+	{
+		COSTS: [2,2,2,],
+		STATS: [0,0,0.1,],
+	},
+],
+WORK: {
+	SHIFT_OFFSET: 0.1,
+	SOUND: DUMMY,
+	USES_TOOL: false,
+	FULLFILLMENT: 0,
+},
+SERVICE: {
+	DEFAULT_ACCESS: 1,
+	STANDING: {
+		CITIZEN: 0.5,
+		SLAVE: 0.5,
+		NOBLE: 1,
+		PRIO: 1,
+	},
+	SOUND: DUMMY,
+	RADIUS: 300,
+	NEED: EXECUTION,
+},
+SPRITES: {
+	TABLE_1X1: [
+		{	
+			ROTATES: false,
+			TINT: true,
+			SHADOW_LENGTH: 5,
+			FRAMES: [
+				TABLES: 2,	
+			],
+		},
+	],
+	PODIUM_BOX: [
+		{	
+			TINT: true,
+			COLOR: [
+				255_255_255,
+				200_180_180,
+			],
+			FRAMES: [
+				PODIUM: 7,	
+				PODIUM: 6,	
+			],
+		},
+	],
+},
+

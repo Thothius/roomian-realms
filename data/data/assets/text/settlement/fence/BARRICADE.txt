@@ -1,0 +1,2 @@
+NAME: "Stockade",
+DESC: "Keeps wild animals from your pastures and funnels your subjects to walk where they're supposed to.",

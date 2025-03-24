@@ -1,0 +1,249 @@
+ICON: 32->HEALTH->3,
+RESOURCES: [WOOD,FURNITURE,POTTERY,STONE_CUT,],
+AREA_COSTS: [0,0,0,0,],
+FLOOR: [DIRT, WOOD, STONE3,],
+MINI_COLOR: 70_0_255,
+ITEMS: [
+	{
+		COSTS: [1,1,1,1,],
+		STATS: [1,0,0,],
+	},
+	{
+		COSTS: [1,1,1,1,],
+		STATS: [0,0,4,],
+	},
+],
+WORK: {
+	SHIFT_OFFSET: 0.65,
+	SOUND: gore->Squish*,
+	USES_TOOL: false,
+	FULFILLMENT: 0,
+},
+DEFAULT_STANDING: {
+	FROM: 1.0,
+	TO: 3.0,
+	EXPONENT: 0.8,
+	MULTIPLIER: 1,
+},
+SERVICE: {
+	RADIUS: 100,
+	SOUND: human->Fart*,
+	STANDING: {
+		CITIZEN: 3,
+		SLAVE: 2.5,
+		NOBLE: 1,
+		PRIO: 100,
+	},
+	NEED: CONSTIPATION,
+	BOOST: {
+		PHYSICS_HEALTH>MUL: 1.5,
+	},
+},
+UPGRADES: [
+	{
+		RESOURCE_MASK: [1,1,0,0,],
+		BOOST: 0,
+	},
+	{
+		RESOURCE_MASK: [2,3,2,0,],
+		BOOST: 0,
+	},
+	{
+		RESOURCE_MASK: [2,5,4,2,],
+		BOOST: 0,
+	},
+],
+SPRITES: {
+	
+	SIT_COMBO: [
+		{
+			SHADOW_LENGTH: 4,
+			TINT: true,
+			FRAMES: [
+				COMBO_TABLES: 8,
+			],
+		},
+		{
+			SHADOW_LENGTH: 4,
+			TINT: true,
+			FRAMES: [
+				COMBO_TABLES: 4,
+			],
+		},
+		{
+			SHADOW_LENGTH: 4,
+			TINT: true,
+			COLOR: {R:255,G:240,B:220,},
+			FRAMES: [
+				COMBO_TABLES: 3,
+			],
+		},
+	],
+	SIT_ONTOP_COMBO: [
+		{
+			SHADOW_LENGTH: 6,
+			COLOR: {R:180,G:160,B:140,},
+			FRAMES: [
+				COMBO_TABLES: 4,
+			],
+		},
+		{
+			SHADOW_LENGTH: 6,
+			COLOR: {R:180,G:160,B:140,},
+			FRAMES: [
+				COMBO_TABLES: 5,
+			],
+		},
+		{
+			SHADOW_LENGTH: 6,
+			FRAMES: [
+				COMBO_TABLES: 2,
+			],
+		},
+	],
+	SHITHOLE_1X1: [
+		{
+			SHADOW_LENGTH: 0,
+			ROTATES: true,
+			COLOR: {R:120,G:75,B:36,},
+			FRAMES: [
+				BASIN: 6,
+			],
+		},
+		{
+			SHADOW_LENGTH: 0,
+			ROTATES: true,
+			COLOR: {R:120,G:75,B:36,},
+			FRAMES: [
+				BASIN: 6,
+			],
+		},
+		{
+			SHADOW_LENGTH: 0,
+			ROTATES: true,
+			COLOR: {R:255,G:240,B:220,},
+			FRAMES: [
+				BASIN: 6,
+			],
+		},
+	],
+	SHIT_1X1: [
+		{
+			SHADOW_LENGTH: 0,
+			ROTATES: true,
+			COLOR: {R:30,G:16,B:13,},
+			FRAMES: [
+				BASIN: 3,
+			],
+		},
+	],
+	SHIT_LID_1X1: [
+		{
+			SHADOW_LENGTH: 0,
+			ROTATES: true,
+			COLOR: {R:120,G:75,B:36,},
+			FRAMES: [
+				BASIN: 7,
+			],
+		},
+		{
+			SHADOW_LENGTH: 0,
+			ROTATES: true,
+			COLOR: {R:120,G:75,B:36,},
+			FRAMES: [
+				BASIN: 7,
+			],
+		},
+		{
+			SHADOW_LENGTH: 0,
+			ROTATES: true,
+			COLOR: {R:255,G:240,B:220,},
+			FRAMES: [
+				BASIN: 7,
+			],
+		},
+	],
+	TABLE_COMBO: [
+		{
+			SHADOW_LENGTH: 6,
+			TINT: true,
+			FRAMES: [
+				COMBO_TABLES: 8,
+			],
+		},
+		{
+			SHADOW_LENGTH: 6,
+			TINT: true,
+			FRAMES: [
+				COMBO_TABLES: 4,
+			],
+		},
+		{
+			SHADOW_LENGTH: 6,
+			FRAMES: [
+				COMBO_TABLES: 2,
+			],
+		},
+	],
+	NICKNACK_1X1: [
+		{
+			SHADOW_LENGTH: 2,
+			TINT: true,
+			ROTATES: false,
+			FRAMES: [
+				STORAGE: 10,
+			],
+		},
+		{
+			SHADOW_LENGTH: 2,
+			TINT: true,
+			ROTATES: false,
+			FRAMES: [
+				STORAGE: 4,
+			],
+		},
+		{
+			SHADOW_LENGTH: 2,
+			TINT: true,
+			ROTATES: false,
+			FRAMES: [
+				STORAGE: 3,
+				STORAGE: 13,
+			],
+		},
+	],
+	BASIN_1X1: [
+		{
+			SHADOW_LENGTH: 2,
+			COLOR: {R:150,G:120,B:120,},
+			ROTATES: true,
+			FRAMES: [
+				BASIN: 4,
+				BASIN: 5,
+			],
+		},
+		{
+			SHADOW_LENGTH: 2,
+			TINT: true,
+			ROTATES: true,
+			COLOR: {R:255,G:200,B:150,},
+			FRAMES: [
+				BASIN: 4,
+				BASIN: 5,
+			],
+		},
+	],
+	BASIN_WATER_1X1: [
+		{
+			SHADOW_LENGTH: 2,
+			FPS: 10,
+			COLOR: {R: 60, G: 70, B: 200,},
+			FRAMES: [
+				BASIN: 3,
+			],
+		},
+	],
+	
+	
+},
+

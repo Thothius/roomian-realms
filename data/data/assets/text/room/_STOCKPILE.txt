@@ -1,0 +1,37 @@
+INFO: {
+	NAME: "Warehouse",
+	NAMES: "Warehouses",
+	DESC: "Used to store goods. Significantly decreases the spoil rate and lets you keep track of storage amount.",
+	WIKI: {
+		CATEGORY: "Logistics",
+		NAME: "Warehouses",
+		TEXT: "Stores goods according to the amount of crates that are designated. Can be manned by deliverymen, who can carry much more goods than any other worker. Orders can be issued to fetch or to store goods. Fetch will have your deliverymen transfer goods from other stockpiles that are not fetching or storing the same good. Storing goods prevents withdrawal, though they can still disappear if taken by thieves or starving subjects.
+		It is important that storage facilities are placed near enough to production places, whatever they may be, because this would reduce the need for your people to run around with your goods, only to have to run back to grab them where they are needed.
+		It is also important that food is stored in warehouses as soon as possible, lest the food rots on the ground in the fields.",
+	},
+},
+
+BONUS: {
+	NAME: "Carry Capacity",
+	DESC: "Increases the carry capacity of deliverymen.",
+},
+
+WORK: {
+	TITLE: "Deliveryman",
+	VERB: "Delivering goods",
+},
+
+STATS: [
+	{
+		NAME: "Storage",
+		DESC: "The amount of storage.",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Crates",
+		DESC: "For storage of goods.",
+	},
+],
+

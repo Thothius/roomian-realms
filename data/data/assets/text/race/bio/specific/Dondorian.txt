@@ -1,0 +1,88 @@
+DREAMS: [
+	"{HISC} favourite verse from the Summerion is the one where the first Dondorians found Mt. Cerbius and all the riches within.",
+    "Actually can not grow a beard and uses a fake. Is constantly afraid of being found out.",
+    "Does not care about finding the origin of the Dondorians.",
+    "Twists their beard twice whenever {HE} takes a left turn. Considered to be less neurotic than most by their peers.",
+    "{HEC} is fascinated by repeating patterns and tries to mimic aspects of them in {HIS} work.",
+	"Despises the cold, wants to live in the south, and get a tan.",
+	"{HEC} needs alcohol to get through the working day.",
+    "Has an impressive ability to remain coherent when absolutely drunk.",
+],
+
+TRAIT: {
+
+
+	CONSERVATIVE: [
+		"{HEC} measures the worth of the other species strictly by their crafts and finds them all lacking.", 
+		"{NAME}'s indifference to other species is almost on an Amevian level.", 
+	], 
+
+	CRUEL: [
+		"Sometimes {HE} will go over to his friends' workshop to rearrange their tools. It drives them nuts.",
+		"{NAME}'s short temper and tendency to take his frustrations out on others are well known.",
+		"{HEC} favors ending conflicts decisively and without hesitation.",
+		"{NAME} reserves his empathy for those not in {HIS} way.", 
+	], 
+	MERCIFUL: [
+		"{HEC} thinks that life has inherent value and is loath to end it.", 	
+		"{NAME} is magnaminous in victory.", 
+		"When their warnings are ignored, {HE} never follows up with 'I told you so!' but helps instead.", 	
+	], 
+	CUNNING: [
+		"While the vast majority of Dondorians make no attempt to disguise their iron-clad convictions, {NAME}'s intentions are known only to them.",
+	], 
+	HONEST: [
+		"{NAME} says what {HE} thinks and does what {HE} says and considers this a matter of honor.",
+		"Most Dondorians are honest, blunt and without deception, {NAME} is no different.",
+		"{HEC} never minces words but their honesty is appreciated by their friends.",
+	], 
+	PROUD: [
+		"{HEC} treasures any compliments {HE} receives greatly and broods over slights.", 
+		"Will brag about their skills to any who will listen.", 
+		"Takes great pride in their personal wealth.",
+		"{HEC} always keeps their beard immaculate and worries about it constantly.",
+	], 
+	WARRIOR: [
+		"{NAME} loves the straightforwardness of open conflict.", 
+		"Is drawn to mastering combat skills.", 
+	], 
+	WARRIOR_NOT: [
+		"Despite possessing an iron will, {NAME} starts to tremble involuntarily when confronted with violence.", 
+		"{NAME} is convinced {HE} is close to remembering the fabled Origin and takes great care to avoid any potential harm.", 
+	], 
+},
+
+HAPPY: [
+    "Considers the {RACE_CITY} to be of proper dondorian make, but adds that a true master would consider these things:",
+    "Grudgingly admits you do a good job, but still found these things to nitpick:",
+    "Easily came up with these things to do better, but considers them excessive polish:",
+    "Wants for nothing in your {RACE_CITY}, but considers that no reason not to make the {RACE_CITY} better:",
+],
+HAPPY_SOSO: [
+    "Feels that there are a few improvements that could be made to the {RACE_CITY}:",
+    "Is mostly content, but was quick to mention:",
+    "Overall likes it in your {RACE_CITY}, but can't help but want:",
+    "Thinks your {RACE_CITY} is a decent place to live and mentioned needing the following:",
+],
+HAPPY_NO: [
+    "Feels you can do better as a ruler. Quite a bit better to be honest:",
+    "Calls the {RACE_CITY} 'shoddy apprentice work' and mentions these things:",
+    "Questions where you learned to build cities. Suggested to implement the following things urgently:",    
+    "Tells you that the {RACE_CITY} needs the following improvements if you want to continue leading it:",    
+],
+NOTHING: [
+    "Is proud to be living in an example of exquisite craftsmanship. Thinks any changes to the {RACE_CITY} would only make it worse.",
+],
+FUNNY: [
+    "Once our ancestors dug too deep and that is why we are now unable to dig down at all.",
+    "Axes and spears? Those are for wood and fish respectively. I want to invent a new weapon, not an old tool.",
+    "How do you even kill a boat and why do other species keep asking me about it?",
+],
+
+STATS_MORE: {
+
+},
+
+STATS_LESS: {
+
+},

@@ -1,0 +1,1062 @@
+WIKIS: [
+	{
+		CATEGORY: "Guide",
+		NAME: "01. Introduction",
+		CATEGORIES: [],
+		LINK_KEY: INTRODUCTION,
+		TEXT: "
+Welcome to the grand wiki guide to Songs of Syx.
+ 
+This wiki aims to explain gameplay mechanics in general terms. This is both to ensure continued accuracy and relevancy to extensively modded saves.
+ 
+This is not meant to be a walkthrough, only to aid in understanding gameplay mechanics and illustrating the options available to you. More general advice for newcomers is available, but specifics will generally be avoided.
+ 
+A wealth of information on more specific details is in the tooltips, which are available for most things.
+",
+	},
+	
+	{
+		CATEGORY: "Guide",
+		NAME: "02. Creating a world",
+		CATEGORIES: [],
+		LINK_KEY: CREATING,
+		TEXT: "
+Choosing to play a random game allows you to create the world you will play on.
+ 
+The difficulty options are mostly self-explanatory, but combining several detrimental ones may cause the game to become impossible later on.
+You can also select additional scripts, that modify the campaign in less straightforward ways.
+ 
+Next, you will pick your starting species. Information about that choice is available <a PICKING here> if required.
+ 
+If you have unlocked any, you can now choose some titles. These are not essential for success, but may help.
+ 
+Choosing a map type and general latitude will affect more than just the look of the map. Generally, more water will mean easier trade and more mountains hinder it.
+Species that like certain climates and geographical features will be more frequent if those are dominating the map, which will influence <a DIPLOMACY diplomacy>.
+The production and thus the average price of certain goods can be affected by climate. Information on how exactly can be found <a TRADE here> and <a PRODUCTION here>.
+ 
+After choosing a map, you can still change previous choices if you desire by using the buttons on the upper right.
+ 
+The next step is choosing a location for your capital. This is an important choice so take your time.
+ 
+Good spots for beginners have both fresh water and thus high fertility and some forest. 
+Your starting species may have a climate preference and might prefer to live in mountains or want freshwater access. 
+ 
+Mountains are completely impassible for trade, armies, and diplomats.
+Bodies of water usually generate sea trade routes, which connect every port in an area together.
+ 
+You might want mineral deposits for your capital. While every capital map will have all possible minerals, mines built on them will be inefficient if you lack world map deposits. 
+Later on, you might form an empire and acquire more <a REGIONS regions> and tax them. Since they are also affected by geography, you could take the surrounding lands of your capital into consideration.
+ 
+If you do not like the world map you can regenerate it by using the button at the top. Nearby is also a button, that allows you to edit the terrain.
+ 
+After choosing a location, the map will be divided into regions and empires will be formed.
+You can choose to retry this step by using the regenerate button to change paths or the size of the empires next to you.
+",
+	},
+	{
+		CATEGORY: "Guide",
+		NAME: "03. Picking a species",
+		CATEGORIES: [],
+		LINK_KEY: PICKING,
+		TEXT: "
+Choosing one of them can be difficult for a newcomer so here is a list of things to help you pick one.
+ 
+The choice should reflect the kind of city you want to build since different species like different building styles, materials, and even climates. Furthermore, the appearance of some buildings may change visually depending on which species you choose.
+ 
+Species that favor roundness will require more thought put into designing rooms and the general layout of your city. Rounder rooms are also slightly less efficient than square ones.
+ 
+The favorite building materials can range from free to expensive to maintain. Besides that, they will affect the look of your capital, especially if rooms carved into mountains are preferred.
+ 
+The different species like different things and will be more or less easy to satisfy at different stages of the game. They also excel at different types of work. You can find more information about those details in the entries for the specific species in this Wiki.
+ 
+Certain species only thrive with a significant amount of slaves. To check which, you can check the 'Other Slaves' fulfillment requirements of them. <a SLAVERY Slavery> can heavily affect the way you build your city.
+ 
+Your <a DIPLOMACY diplomacy> with foreign empires will be affected by your ruling species and their typical relations with others, but not to an insurmountable amount.
+ 
+If you desire to have several different free species in the same city, you should check their affinity for each other. It is not impossible to compensate for intense dislike, but potentially very difficult.
+ 
+There are other things like their liking of auras, physical characteristics, and <a RELIGION religious preferences>, which can be found on the wiki pages for the different species, but most of that requires experience to be useful.
+ 
+You might have noticed that there are species, that are not able to be chosen at the start. They are special cases and require <a HAVENS havens>.
+",
+	},
+	{
+		CATEGORY: "Guide",
+		NAME: "04. Settling Down",
+		CATEGORIES: [],
+		LINK_KEY: SETTLING,
+		TEXT: "
+This will be the map you build your capital on. There are no outposts or similar, that use the same <a BUILD building system>. You can upgrade <a REGIONS regions> on the worldmap later on, but those use a different system. It is also impossible to resettle.
+ 
+You need to place your throne and the initial settlers and supplies on this map.
+The throne can be moved later on, but the initial spot for your settlement is still important.
+ 
+Note that subjects will not walk too far when searching for homes near their work or services to satisfy their needs. The exact values can usually be found on the building in question.
+Spreading out early to cover the whole map will be very difficult so you should try to pick a spot near resources that are important to you.
+ 
+Generally, animals and foraging spots are minor concerns since your subjects are perfectly capable of traversing the whole map without starving to recover resources.
+ 
+Producing <a FOOD food> will be vital before trade is unlocked so fertility or fish are very desirable at this stage.
+ 
+If you dislike the look of the map or some resources spawned in unfortunate places, you can regenerate it by clicking the button in the landing party menu at the top of the screen.
+There is no cost associated with this, but the map will still be based on the world map geography of the 3x3 area you selected earlier.
+",
+	},
+	
+	{
+		CATEGORY: "Guide",
+		NAME: "05. Important Controls",
+		CATEGORIES: [],
+		LINK_KEY: CONTROLS,
+		TEXT: "
+Here are some of the more important time-saving shortcuts.
+ 
+Shift-clicking a room copies that whole room instantly.
+ 
+Ctrl-clicking things allows you to quickly select the tool required for ordering more of them.
+ 
+Ctrl + mouse wheel and the 'Q' and 'E' keys can change the size of various objects
+ 
+Holding shift reverses the function of the tool. For example, if you build a room a little too big, you can use shift and select the excess bits without having to click the shrink room button. It can also be used to delete buildings and cancel jobs.
+ 
+'R' can be used to rotate most things.
+ 
+Ctrl + S quick saves.
+ 
+Tab lets you quickly switch between the world and capital view.
+ 
+Ctrl + H lets you assign custom shortcuts to things.
+",
+	},
+	{
+		CATEGORY: "Guide",
+		NAME: "06. Menus",
+		CATEGORIES: [],
+		LINK_KEY: MENU,
+		TEXT: "
+From the main capital screen, many important menus are just a click away.
+ 
+Many menus are located in the top left of the screen:
+ 
+<c 219_255_077 Plebeians> can be reached by clicking the icon in the top left of the screen or right-clicking a species icon to the right. 
+This menu contains a lot of important information about happiness and what you can do to increase it. Besides viewing population statistics, you can also issue decrees here.
+ 
+Some tabs contain important functions: the 'access' one allows you to set food and drink servings in addition to allowing you to allocate furniture and personal items, and 'population' can be used to accept immigrants.
+ 
+<a SLAVERY Slaves> is almost identical in function to the plebeian menu.
+ 
+<a NOBLES Nobles> WIP - Currently, it allows you to promote nobles and assign them to tasks.
+ 
+<c 219_255_077 Workforce> allows you to view how your workers are assigned, provide them with tools, and quickly select certain industries. Selecting industries will show the rooms you have of their kind, and allow changing all of their settings at once via bulk assignments. Clicking the priority button will allow you to change the default assignment logic to better suit your city. The master priority will determine which industries will get workers first and the species one will change which species will be favored for the job.
+ 
+<c 219_255_077 Population> can be used to search for subjects and offers some statistics.
+ 
+<c 219_255_077 Housing> shows the housing situation in your capital. Besides that, it can give information on furniture use and contains tools for upgrading houses and moving oddjobbers.
+ 
+<a LAW Law> shows crime statistics and allows you to change various settings related to dealing with it. Here you can issue a curfew.
+ 
+<a DEFENSE Army> is used to manage soldiers and show equipment use statistics.
+ 
+<c 219_255_077 Sanitation> offers information related to disease and outbreaks.
+ 
+Food is dedicated to providing statistics about its usage and production. It is the best way to check whether or not a city is slowly starving.
+ 
+ 
+The <c 219_255_077 goods> menu can be reached by clicking one of the resource icons on the right of the screen. 
+It shows statistics for every kind of resource and allows you to adjust import/export settings. The submenu for changing those can be used to quickly initiate <a DIPLOMACY diplomacy> to manually <a TRADE trade> for them.
+ 
+It can also be opened by using one of the buttons to the left of the messages scroll, located in the upper right of the screen.
+These buttons can be used to reach several important menus:
+ 
+<c 219_255_077 Tourists> contains statistics and allows you to forbid specific tourists from visiting your capital.
+ 
+<a RAID Raiding> details the raider threat and shows your least defended regions.
+ 
+<c 219_255_077 Player> contains customization options, allowing you to change your name and various color schemes.
+ 
+<c 219_255_077 Treasury> is dedicated to showing you statistics about your money and is very helpful for seeing at a glance what you spend most of your money on.
+ 
+<a TECHNOLOGY Technology> allows you to spend your research points and contains statistics about boostable stats and your allocation of points.
+ 
+<c 219_255_077 Status> shows you your level, titles, and boosts.
+ 
+ 
+The <c 219_255_077 world map>, which is accessible by clicking the button in the top right or pressing a hotkey, which defaults to 'tab', contains different menus, relevant to your empire.
+ 
+The buttons in the top left have changed functions and now lead to new menus:
+ 
+<c 219_255_077 Factions> is useful for obtaining information about other despots and their realms, and is used to conduct <a DIPLOMACY diplomacy>.
+ 
+<a REGIONS Realm> lists your regions and contains the most relevant information about them. It can also be used to list and search all regions, whether you own them or not.
+ 
+<a DEFENSE Armies> allows you to recruit new armies and can be used to locate them swiftly.
+ 
+<a HAVENS Havens> lists the haven species, their demands and where they are located on Syx.
+ 
+<c 219_255_077 Emissary points> shows how you have assigned your ambassadors and whether or not you have enough.
+ 
+<c 219_255_077 Inbound> allows you to locate caravans traveling to your city. It can be useful if you need to know when critical goods will arrive.
+ 
+<c 219_255_077 Admin> shows where your admin points are used in detail and can be used to select regions.
+ 
+ 
+The battle toggle from the capital city view, located in the upper right, changes to a world log button. It lists various events that have occured on Syx, concerning the various factions.
+",
+	},	
+	{
+		CATEGORY: "Guide",
+		NAME: "07. How to Build",
+		CATEGORIES: [],
+		LINK_KEY: BUILD,
+		TEXT: "
+After placing a construction order, oddjobbers and other subjects lacking work will begin building. This usually requires materials. If you have too much work for your oddjobbers, you might want to place workstations to make them prioritize building an area.
+ 
+The three most common constructions are <c 219_255_077 structures, rooms, buildings>, and <c 219_255_077 decorations>.
+ 
+<c 219_255_077 Structures> are things like walls, ceilings, fences, and so on. Building them is pretty intuitive. After selecting a tool, like a wall, you can adjust the type (from brushes to fill), size, and whether or not to convert existing structures. 
+When convert is toggled, you will only build over applicable structures. This can be used to quickly and easily change the material of constructions.
+ 
+<c 219_255_077 Rooms> are likely what you will spend the most time designing and placing. They are used for building things of variable shape with a usually editable interior. In addition to the options available for structures, you can usually choose the material of the room and whether or not to build walls automatically. The exceptions to that are things like farms and woodcutters.
+ 
+Rooms are often constructed inside of structures, you will be unable to change the ceiling without refurnishing them, but you can freely change the connected walls and doors.
+ 
+To build a valid room a few rules have to be followed: 
+ 
+1.		There must exist a path connecting every tile, that needs access, and every item to each other.
+2.		Every traversable tile must be connected to that path.
+3.		The room has to be accessible from the outside.
+4.		Essential items like storage and workspace have to be included.
+ 
+Tiles that need access are universally denoted by arrows converging on the center of it. The number of arrows indicates whether or not the tiles have a specific direction they need to be accessed from. These are places that need to be accessed by subjects for the room to work. For example, a workbench would have an access point where the worker will stand.
+Even items that lack access spots will need one connection to the path.
+ 
+The second rule prevents you from building any walkable space that is unconnected to the rest.
+ 
+The third usually requires the placement of a door if you use the option to automatically add walls.
+ 
+The fourth prevents building useless rooms by accident.
+ 
+ 
+Most rooms require <c 219_255_077 items> to be placed in them to function. These are usually resizable and mainly affect the number of workers and the efficiency of the room. 
+<c 219_255_077 Efficiency> increases production speed and service quality and should be kept at 100%.
+ 
+You can resize most items. Larger sizes are usually more efficient. Note that the rules do not prohibit you from making items almost completely inaccessible, which can be used to save a lot of space.
+ 
+ 
+Rooms can have <c 219_255_077 insulation> and <c 219_255_077 stability> stats. 
+ 
+<c 219_255_077 Insulation> decreases the need for maintenance. It is kept high by surrounding applicable rooms with a sufficient amount of walls.
+ 
+<c 219_255_077 Stability> also increases maintenance needs but does so by increasing construction costs. You can keep stability high by building narrower rooms or by placing supporting walls inside them. The fastest way to do that is to delete room tiles while you have wall auto-building toggled.
+ 
+ 
+<c 219_255_077 Buildings> are placable constructions of moderate size. They can be rotated and usually resized before placement. This category includes things like wells and export depots.
+Like rooms they require maintenance, but they have no insulation or stability requirements.
+Houses are the exception to this, they have an insulation stat, which determines how long furniture lasts in them.
+Buildings can have access tiles, which can not be placed next to obstructions.
+ 
+ 
+<c 219_255_077 Decorations> are unclickable buildings, that are used to spread auras or otherwise satisfy your population. They require maintenance to work and if degraded will count for less in statistics.
+ 
+ 
+There are some other things you can build that do not fall into these categories like roads and some <a WATER water> related things.
+ 
+Roads are walkable constructions and are built mostly like structures. They do require maintenance.
+",
+	},
+	{
+		CATEGORY: "Guide",
+		NAME: "08. Building a stable Settlement",
+		CATEGORIES: [],
+		LINK_KEY: STABLE,
+		TEXT: "
+Building a small stable settlement:
+ 
+This part is covered in much more detail in the tutorial, which is a campaign you can select from the main menu.
+ 
+To create a stable settlement you will need a reliable supply of food and a happy population. Later on, other threats will appear, but for the moment your capital is mostly safe from harm.
+ 
+You begin with a few supplies for building your first rooms, but if you run out you can tell your subjects to gather basic resources from the environment.
+ 
+The first thing a settlement needs is a <a LOGISTICS warehouse>, followed by a well and hearth. The warehouse reduces spoilage of stored goods and the other two buildings will keep your population <a HAPPINESS content> and safe from the weather.
+Do not forget to assign crates for the resources you want to store.
+ 
+After that, you should secure a reliable source of <a FOOD food>. This does not have to be one your species likes, but most species are good at producing at least one of their favorite foods.
+ 
+The options available to you in order of early game reliability would be fisheries, pastures, farms, and then anything requiring a combination of rooms. More information on those and the reasoning behind the ranking can be found in the chapter titled '<a FOOD Food>'.
+ 
+Until you can set up something more permanent you can manually hunt by marking animals on the map with the hunt tool. You could also build a hunter, which is excellent at supplying a small village, but it requires more than basic resources, which will delay its completion.
+ 
+Lastly, a janitor room will be needed to <a MAINTENANCE maintain> everything you have built. Without it, most things will degrade and become less effective.
+",
+	},	
+	{
+		CATEGORY: "Guide",
+		NAME: "09. Food",
+		CATEGORIES: [],
+		LINK_KEY: FOOD,
+		TEXT: "
+This chapter is about the various ways to get food and prevent starvation, and the general mechanics of it.
+ 
+ 
+Hungry subjects will first try to find a service in range that provides food and only if that fails will they try to grab food from elsewhere on the map. If they can not find any, they will eventually starve to death and may resort to cannibalism.
+If they do find a service, they will consume as many items of food as their assigned food servings allow, but if they can not find one, they will eat only a single unit of food and be sated.
+Increased food servings do not cause subjects to eat more often.
+ 
+All foods are equally nutritious per unit. While species may have different food preferences, they can eat all kinds of food. Preferences only affect satisfaction and the likelihood of eating certain foods.
+ 
+Production and consumption of food can be tracked in two menus, the general goods one and the more specialized food statistic menu. The tooltips of the resource display can also be useful.
+ 
+The general base fertility of your capital depends on its location. Fertility is composed of base fertility and an irrigation bonus caused by proximity to fresh water. That bonus is unaffected by base fertility and can increase fertility by up to 50%.
+ 
+ 
+<c 219_255_077 Hunting>, either manually or with the room, and <c 219_255_077 foraging> are only relevant for the early game.
+Sustainable options for a larger city are <c 219_255_077 farms, orchards, fisheries, pastures, refiners,  cannibalism,> <a TRADE trade>, and <a REGIONS taxes>.
+ 
+<c 219_255_077 Foraging> depends on your map and yields are small. It is quite efficient per worker and not available throughout the year. Oddjobbers will harvest marked areas when they have nothing else to do nearby, which can cause you to miss the harvest window if they have too much to do.
+ 
+<c 219_255_077 Hunting> manually is extremely effective, but limited by the amount of animals on the map. Herds will replenish over time if they are not culled completely. Hunting can be dangerous for your subjects, especially if you overhunt. Take care to select the right animals if you are in a hurry since their yields differ depending on their kind.
+ 
+The hunter room works by sending hunters away from the capital. Assigning too many workers will have diminishing returns.
+ 
+<c 219_255_077 Farms> are heavily dependent on fertility to determine output per worker and produce food in bigger chunks. They require more foresight and storage space for their resources because of that. 
+Workers will need to tend to the fields every day to ensure a good harvest. Assigning more than needed will not improve yields.
+ 
+Farms generally employ few workers for their size.
+ 
+<c 219_255_077 Orchards> are mostly identical to farms but require a long time to start producing food. A tree has to mature before contributing to the output. Events and a lack of workers can kill them. High skill can reduce the time needed for growing trees.
+ 
+Orchards generally have a higher production per worker than farms and can employ more of them making them a lot more space efficient.
+ 
+<c 219_255_077 Fisheries> depend heavily on the presence of fish in your waters. Fish are more common in salt water. The production per worker is low but constant. Events can impact yields significantly for short times.
+ 
+Fisheries can employ a lot of workers for their size.
+ 
+<c 219_255_077 Pastures> require livestock to work. The livestock items can be used to fill any kind of pasture. Failing to tend to all animals for more than a day can kill them.
+ 
+Like farms and orchards, they depend on fertility but there is a key difference in the way it affects them: Pastures use base fertility to determine the number of animals they can sustain, which determines the amount of workers needed. This means that contrary to farms and orchards the productivity per worker is unaffected by fertility.
+ 
+While pastures only need base fertility and thus do not benefit from the fertility-boosting effects of irrigation, they do get a bonus to their output if supplied with fresh water.
+ 
+They output resources once a day and take up large amounts of space for the amount of goods they produce.
+ 
+<c 219_255_077 Refiners> can produce food from other usually non-food resources. The added complexity of production and logistics is usually compensated with increased space efficiency and production per worker. Production happens constantly.
+ 
+<c 219_255_077 Cannibalism> can be a supplemental source of food but is greatly disliked by many species. Any corpses, that would go to mass graves can be reserved by the room. Usually, this means dead prisoners/captives and slaves. The yields can not be boosted, but are significant. Depending on the species other non-food resources will also be produced.
+ 
+<a TRADE Trade> can supply cities of any size but requires large stockpiles of both money and food to be safe. Running out of money or losing the ability to trade via <a BATTLE sieges> or <a DIPLOMACY diplomacy> can have disastrous consequences. Stockpiles are not only needed because of emergencies but because bought goods can take a long time to arrive in your city.
+ 
+<a REGIONS Taxes> can be used to supplement food production or serve as the sole source of it later in the game. They arrive every day, but getting sieged or losing the taxed regions can be devastating.
+",
+	},
+	{
+		CATEGORY: "Guide",
+		NAME: "10. Getting more Population",
+		CATEGORIES: [],
+		LINK_KEY: POPULATION,
+		TEXT: "
+This chapter explains how to increase the population of your capital.
+The available options are <c 219_255_077 immigration, nurseries, emancipating slaves,> and integration of <c 219_255_077 war captives>.
+ 
+ 
+<c 219_255_077 Immigrants> become available when the <a HAPPINESS happiness> of their specific species is high enough. The higher the occurrence of the species in the region your capital is located in, the faster more immigrants will be attracted. <a TECHNOLOGY Technology> can also increase the rate.
+The maximum immigration speed is limited so maintaining large amounts of population will not be possible with immigration alone. Species, that can not reproduce naturally, usually have much higher immigration speeds to compensate for that.
+ 
+Double-clicking a species icon will accept all of them and a right-click will open the population menu, which allows accepting specific amounts of immigrants and an automatic limit. Note that the limit counts children, retirees, and other non-working subjects.
+ 
+ 
+<c 219_255_077 Nurseries> are rooms which produce babies, who will grow up into children and then adults.
+They require food and workers or the children will die. A limit can be used to restrict the maximum amount of spots available.
+'Reproduction capability' is the maximum amount of nursery beds, that can be used in your city. You can increase it by having more non-slave subjects of the species in question. 
+ 
+Compared to immigration, nurseries take longer to set up and come with running costs. However, the new citizens will be much younger and they may have spent time in <a EDUCATION school> and are usually received more favorably by the rest of the population, which increases <a HAPPINESS satisfaction>. Subjects that grew up in your city are also very likely to pray to one of its favored <a RELIGION gods> upon reaching adulthood.
+ 
+ 
+<a SLAVERY Emancipating slaves> is a rapid way of increasing population, that is only limited by your money and buyable slaves. You can emancipate them by using a decree in the slave <a MENU menu>.
+Besides the costs, the main disadvantage of this method is that species may dislike living with ex-slaves.
+ 
+ 
+<a BATTLE War captives> can become citizens after <a LAW imprisonment>. Simply set the target punishment to imprisonment and capture some in war. At 4 years without using stocks, imprisonment can take more time than nurseries per subject and has other problems: your population may dislike living with ex-convicts and they will increase the crime rate in your capital.
+",
+	},
+	{
+		CATEGORY: "Guide",
+		NAME: "11. Logistics",
+		CATEGORIES: [],
+		LINK_KEY: LOGISTICS,
+		TEXT: "
+This chapter is about ensuring goods end up where you want to.
+ 
+The elements of the logistic system in Songs of Syx are warehouses, haulers, transports, import/export depots, pull/push orders, the 'fetch' toggle, and the workers moving goods.
+ 
+Only resources stored in logistics buildings or rooms will show up on the goods panel to the right.
+ 
+<c 219_255_077 Warehouses> are rooms, which will collect resources for which they have crates assigned in their work radius.
+Every assigned crate increases the maximum storage capacity for that resource. Upgrading the room will increase the capacity of each crate. 
+Workshops, services requiring resources, building projects, and your subjects will be able to use the stored goods unless you toggle the storage setting.
+Goods in a warehouse will decay slower and can benefit from spoilage boosts.
+They also have the option to use pull orders, which will be explained later.
+ 
+<c 219_255_077 Haulers> are buildings, that work a lot like warehouses, but are limited to only storing one resource and require no walls, making their smaller versions very compact.
+They can use pull orders and should be built where their assigned good is going to be needed.
+ 
+<c 219_255_077 Transports> are buildings, that are used to transport resources over long distances much more efficiently than warehouses or haulers can. 
+They can only move a single type of resource, require preparation time and more space per worker than warehouses, but make up for that with greatly increased capacity per worker.
+They can use both pull and push orders. They should be built near the source of goods.
+ 
+<c 219_255_077 Import and export depots> are buildings, which are used for automatic trading. Export depots are similar to warehouses and can use pull orders. Using them for <a TRADE trade> is covered in another chapter.
+ 
+<c 219_255_077 Pull and push orders> are required for logistic buildings/rooms to interact with each other.
+Both orders are used to redistribute stored resources, setting up logistic chains. You can specify the resources, that should be taken, and how much should be left in the target for pull orders by clicking the icon again.
+ 
+For example, you might use one to transfer food to another part of your city without emptying the origin storage fully.
+Note that pull/push orders are completely unaffected by the work radius, which can be used to prevent unnecessarily long travels.
+ 
+The <c 219_255_077 fetch toggle> is used to allow/disallow picking up resources from the ground, import depots, and workshop storages. It is an option for warehouses, transports, haulers, and export depots.
+ 
+<c 219_255_077 Workers> come in three varieties: Subjects employed by a logistic building/room (logistic workers), oddjobbers, and subjects employed somewhere else. 
+ 
+Logistics workers will only work for the place that employs them. They have a significantly higher carrying capacity than your other subjects, which includes oddjobbers.
+Species can have differing natural carrying capacities, which will only matter for logistics workers.
+Their carrying capacity can be boosted. Transports are somewhat of an exception: the workers can be boosted, but the animals pulling the carts can not be.
+ 
+Oddjobbers are unemployed subjects, who will haul goods, if they are not otherwise occupied. They are not restricted to working with single buildings/rooms, but are less efficient than logistic workers. 
+Their carrying capacity can not be boosted.
+ 
+Employed subjects, that are not logistics workers, can haul resources if their job requires them to or if they have nothing to do. Like oddjobbers their carrying capacity is low and not improvable.
+",
+	},
+		{
+		CATEGORY: "Guide",
+		NAME: "12. Happiness and Fulfillment",
+		CATEGORIES: [],
+		LINK_KEY: HAPPINESS,
+		TEXT: "
+<c 219_255_077 Happiness> is mainly derived from fulfillment and increases loyalty. It helps attract immigrants and along with loyalty prevents catastrophic events like riots and coups.
+ 
+<c 219_255_077 Loyalty> is modified happiness and prevents the most debilitating events.
+ 
+<c 219_255_077 Fulfillment> is a measure of how nice your capital is to live in for your subjects. The higher the population of your capital, the more fulfillment will be needed to keep happiness up. 
+Fulfillment increases population capacity non-linearly and small amounts of it can be worth a lot of population at higher values.
+ 
+ 
+Happiness and loyalty can be modified directly by titles, levels, decrees, and <a EDUCATION education>. Decrees are especially useful for preventing bad events short term, but should generally not be relied upon. Increasing happiness by other means is almost always more cost-effective.
+ 
+The various fulfillments can be found in the plebeian menu and are divided into population, access, services, environment, religion, occupation, and government fulfillment. <a SLAVERY Slaves> also have fulfillments, but they increase submission instead.
+ 
+While those categories are useful, for this guide we will divide them into these: <c 219_255_077 services, items,> and <c 219_255_077 environmental>.
+ 
+ 
+<c 219_255_077 Services> are rooms and buildings, that can be used by subjects to satisfy their needs thus increasing fulfillment. They include everything in the services tab and most of the things in the religion tab.
+ 
+A subject's various needs will increase at species-specific rates per day and once they reach certain levels, they will seek out ways to satisfy them either by consuming items from warehouses or by visiting services.
+ 
+Visiting critical services can interrupt work, but the others will be visited after the subject's shift. Out of the pool of unmet needs, 2 non-critical ones will be chosen to be satisfied. Not being able to find a service or item, will lower the access rating of that service, which will decrease fulfillment.
+ 
+Every service has a capacity, refresh rate, and radius. The capacity determines the number of subjects, that can be served at the same time, the refresh rate determines how quickly capacity will replenish and the radius is the number of tiles a subject is willing to walk to the service. Since subjects can spend a lot of time at home, covering them in the radius is usually advised.
+ 
+ 
+Proximity, quality, and upgrade level are used in conjunction with access to determine fulfillment. Proximity decreases with distance to the service compared to its radius and quality is kept high by placing the appropriate auxiliary items and maintenance. Some services require additional things to ensure quality, which can include resources and the presence of auras on the service.
+Proximity is generally only responsible for a small part of fulfillment and can potentially be ignored to focus on larger and more efficient services. 
+ 
+Upgrading services can add a lot of <a MAINTENANCE maintenance> costs, but is usually an economical choice.
+ 
+ 
+<c 219_255_077 Items> are things given to your subjects to increase fulfillment. Most of the things listed in the 'access' tab qualify.
+Higher food and drink servings can only be extracted from services, so assigning more of them without the appropriate services will have no effect.
+ 
+Personal equipment like clothes and housing furniture make up the rest of this category. 
+Compared to services or environmental fulfillment, this kind does not require a lot of planning except for making sure the goods are available in your capital. Subjects will collect these, when they are not working, from markets or warehouses.
+ 
+Fulfillment gained this way can be very expensive depending on the items in question and alternatives should be considered first.
+ 
+Some notes on them:
+ 
+Drinking will decrease the health of your subjects. 
+Furniture fulfillment is unaffected by the value of the items. Getting just a bit of it can be very economical.
+Clothes can protect against the weather, but should not be necessary if your city has enough hearths and wells.
+ 
+ 
+<c 219_255_077 Environmental> is everything else. This includes things like climate, <a RELIGION religious> opposition, riches, roads, and decorations. The fulfillment from these is usually cheap to maintain but requires more planning. If higher populations seem unattainable, a solution is likely to be found here.
+ 
+Some information on the more important ones:
+ 
+Roads are pretty self-explanatory, but it should be mentioned, that subjects only consider them, while they are not inside of a room. A woodcutter for example would not get lower road fulfillment from working.
+ 
+Building fulfillment counts even outside of rooms. For example, building a roof over a well, which is a building, would slightly increase building fulfillment provided the material has a higher preference than being outside.
+Walls also influence fulfillment; subjects will consider them when they are directly in front of them and not too far away.
+ 
+The various auras like roundness work by adjusting the subject's aura fulfillment to the level present in the tile over time. This means that low-strength auras will never increase fulfillment to its maximum. Depending on their rate of decay, focusing on certain areas may be better than trying to spread them everywhere.
+ 
+Fulfillment is increased by subjects having jobs they like, but it is very difficult to max out even by using slaves. Favoring industries your species like even if more economical alternatives exist can be useful.
+ 
+Decorations usually spread auras that can have varying effects.
+ 
+Environmental fulfillment can be difficult or even impossible (in the case of climate) to increase later on. 
+Consider building wide roads that can be used for decorations once they are unlocked.
+ 
+ 
+To sum it up: First, make sure to get the easier environmental fulfillments and keep in mind the more difficult ones for later, add services and the more economical upgrades, and then supply your subjects with items. 
+",
+	},
+		{
+		CATEGORY: "Guide",
+		NAME: "13. Production",
+		CATEGORIES: [],
+		LINK_KEY: PRODUCTION,
+		TEXT: "
+This chapter explains how the output of most industries is determined and some of the more ambiguous mechanics involved.
+ 
+After selecting an industry you can see two numbers below 'Production'. The upper one is the estimated daily production and the lower one is the production rate per worker per day.
+ 
+The tooltip for those numbers will offer more information. Note that it also shows the upper and lower bounds for the modifiers.
+ 
+The base rate of production will be multiplied by everything under 'Multipliers' and then everything 'Additive' will be summed and after adding 1 to the result, multiplied with the previous result.
+That is the rate per worker and multiplying that with both the employees and the workload gives us the daily production estimate.
+ 
+The multiplicative elements are much more important than the additive ones and they include degradation and efficiency so take care to <a MAINTENANCE maintain> and <a BUILD build> your industries well.
+The species multiplier is usually the only one that can become positive.
+ 
+Increasing production also increases the consumption of resources. It is strictly the speed of production and not the efficiency of it. 
+ 
+ 
+<c 219_255_077 Workload> is the time your subjects spend working during their shift. Some industries allow you to assign more workers than are needed to account for travel distances, but others are strictly limited by the number of working spots and should usually be fully staffed.
+ 
+For example, you can add more farmers to a farm than it strictly needs, because they can work alongside each other without a problem and may have to travel longer from home than a similar-sized one closer to the city center. The amount of work on a farm is also limited per day.
+A lower workload on a farm may indicate that you can remove workers without losing production, but a full workload usually means that you need more of them.
+ 
+A workshop on the other hand can only have a certain number of workers and can produce things as long as it has resources. If a workshop ever shows a workload below 100%, it is either due to lacking workers or stopped production due to storage overflow or supply issues.
+ 
+Workload does not account for your subjects taking time off to take care of critical needs, which can cause the estimation to be off by a bit.
+ 
+<c 219_255_077 Proximity> shows you how much working time is lost to travel times. This includes both fetching resources and traveling to work.
+ 
+ 
+The most common additive modifiers to production speed are <c 219_255_077 tools, technology, nobles, education/indoctrination>, and <c 219_255_077 experience>.
+ 
+After researching tool use and assigning <c 219_255_077 tools> from the industry menu or the room, workers will stock up on them and the production speed will increase. The increased production and loss of tools per day depend on their amount. The tools will need to be picked up so stockpiling them nearby should be considered.
+ 
+<a TECHNOLOGY Technology> works as soon as it is bought and only stops working if you refund it or have negative research points.
+ 
+<a NOBLES Nobles> increase production based on their skill, traits, and your interactions with them.
+ 
+<a EDUCATION Education and indoctrination> affect most industries either positively or negatively. It depends on the employed subjects and is not global.
+ 
+<c 219_255_077 Experience> is the institutional knowledge accumulated by having a lot of workers in an industry. This is calculated for your whole capital and is not dependent on the size of individual rooms.
+",
+	},
+		{
+		CATEGORY: "Guide",
+		NAME: "14. Janitors and Maintenance",
+		CATEGORIES: [],
+		LINK_KEY: MAINTENANCE,
+		TEXT: "
+Almost everything you build will require maintenance by janitors to prevent degradation. Degradation decreases the effectiveness of affected constructions in various ways. For production buildings, it can ultimately decrease speed to 25%, and for services, it will lower quality.
+Structures like walls, ceilings and fortifications do not require maintenance.
+ 
+Over time <a BUILD constructions> will spawn maintenance jobs, which will attract janitors in range. Some of these assignments require and consume materials stored in the janitor room. The amount of materials required over time is proportional to the build and upgrade cost of the construction. Hovering over the materials in the janitor menu shows the estimated global consumption of maintenance resources.
+ 
+Periodically checking the maintenance overlay is advised to prevent degradation from accumulating slowly, since it can be difficult to spot even though affected constructions will change their appearance. 
+ 
+While most buildings are rather cheap to maintain, upgrades often add significant maintenance costs and should be postponed until the cost has been brought down by <a TECHNOLOGY technology> or reduced prices. The cost of upgrades scales with their tier and benefit. A second upgrade that adds a lot to a building will cost more to maintain than a first upgrade with less impact.
+
+You may have noticed that the roads your settlement starts with do not get maintained by your janitors, and that constructions placed on them get ignored by them as well. This is due to those tiles being starting out with maintenance disabled. When it becomes necessary to change that, you can use the maintenance enable tool to do so. 
+",
+	},
+			{
+		CATEGORY: "Guide",
+		NAME: "15. Technology and Research",
+		CATEGORIES: [],
+		LINK_KEY: TECHNOLOGY,
+		TEXT: "
+First of all, you need to keep in mind one important thing about the research system: research points decay and technology must be maintained.
+You build <c 219_255_077 laboratories> and <c 219_255_077 libraries> which generate <c 219_255_077 innovation> and <c 219_255_077 knowledge>, which are used to unlock technologies. 
+Essentially, both assigned and unassigned research points decay slowly and production will eventually equal the decay.
+If you ever have less points than you need for your unlocked technologies, all technologies will have reduced effects, and rooms requiring technology to build may become <a MAINTENANCE unmaintainable>.
+ 
+ 
+<c 219_255_077 Laboratories> produce <c 219_255_077 innovation> and otherwise work similar to other industries. <a EDUCATION Education> can affect production greatly.
+ 
+<c 219_255_077 Libraries> produce <c 219_255_077 knowledge>. They are also affected by education and consume paper.
+
+Both have a large experience modifier, which means as you employ more researchers, they grow more efficient.
+ 
+ 
+In the technology <a MENU menu>, you can use your accumulated research points to unlock technologies or refund them. Refunding will freeze the used points for a while. Forgetting the technology required to build something will prevent janitors from <a MAINTENANCE maintaining> it.
+ 
+Technology can be used to unlock buildings, boost statistics, and increase the speed of industries. Keep in mind that technology boosts to <a PRODUCTION production> are additive.
+Unlockable buildings will show you which advanced resources they need. Take some time to look at the available options.
+ 
+Technology may have requirements that need to be met to unlock it. These are usually previous technologies but may include other things.
+ 
+ 
+Here is some advice for research in general:
+ 
+For production rooms, specializing into a few industries will yield much greater returns than diversifying early on. This changes later in game, but until then, you should invest technology and workers into industries your species excels at. The multiplicative nature of the species boost means that any technological boosts are worth more.
+A small village will not be able to produce everything at a reasonable speed; if you spread your research around, the average production speed of your capital will be lower than if you focused on a few industries.
+ 
+This changes later on; as your capital grows, it may become difficult to export your chosen resources profitably due to oversaturation, and your subjects demand more things. At the same time, research-producing rooms become more efficient, making techs that were sub-optimal a good idea.
+ 
+For other types of technology, the cost/benefit ratio is more difficult to determine. Depending on the species in your capital, some services may not be necessary at all. Many boosts to statistics like health can be gained in other ways, which means investing research into them can be suboptimal at times.
+",
+	},
+			{
+		CATEGORY: "Guide",
+		NAME: "16. Trade",
+		CATEGORIES: [],
+		LINK_KEY: TRADE,
+		TEXT: "
+There are two kinds of trade: automatic and manual.
+ 
+<c 219_255_077 Manual trades> are always available and use the <a DIPLOMACY diplomacy> menu. You can also trade with things other than money and goods here. If you have neither export/import depots nor crates assigned for bought resources, the goods will end up at your throne.
+ 
+<c 219_255_077 Automatic trades> require a <a DIPLOMACY trade agreement> with another empire, which means your capital or empire needs to be directly connected to theirs. They need export and import depots to work and are not only much more convenient but also offer better prices.
+This kind of trade only uses money and goods.
+ 
+Both kinds use the same caravan system and buying things will take time depending on the distance between capitals.
+ 
+ 
+After using a manual trade to enter a trade agreement, you can use import/export depots. 
+ 
+<c 219_255_077 Import depots> start working after assigning them a resource and optionally a limit and price cap. This can be done in two menus: one accessed by clicking on them and one accessed by clicking on a resource on the right side of the screen.
+ 
+Every day an import depot will try to purchase the specified goods in small increments. They will purchase the cheapest offers first and immediately switch to another seller once the price changes. Import depots have a maximum capacity and it determines the maximum amount of incoming resources. Without unreserved capacity, nothing can be bought.
+ 
+<c 219_255_077 Export depots> work somewhat like <a LOGISTICS warehouses>, you can set them to either grab goods from the ground and workshop storage or use a pull order to give them access to another storage to grab items from.
+Once stored in the export depot, items will be sold once a day to empires you have a trade agreement with. Similar to the import depot, the items will be sold in small increments and for the best prices. Optionally a price cap can be used to prevent selling goods for a lower price, but this will reduce throughput in situations, where it matters, significantly.
+Items in export depots are inaccessible to everyone but the traders, who buy them.
+ 
+If you do not want the export depot to sell everything, disable fetch by clicking the wheel icon and set up a pull order by clicking one of the icons next to it and a suitable pull source after that. After doing so, click the icon again and you can set a pull limit. It will prevent the depot from emptying the source. If you have other logistics rooms/buildings grab at a lower threshold, you should be able to supply your whole city and export only excess goods.
+ 
+ 
+Base trading prices are determined by the simulated production of the AI empires, and supply and demand. Some may have boosts to producing some resources and thus sell it cheaper, especially if they have no one else to trade with. Since the AI empires use the same production chains with the same value as yourself, prices should reflect the time spent on making the items from scratch, if you do not interfere with the market.
+ 
+If the AI empires have too much or too little of a resource, they can change the priority of production for that good to attempt to equalize stocks. They will also try to trade with other AI empires. Thus buying something in great quantities will increase prices but also the amount the AI produces per day at the expense of other resources and vice versa for selling.
+The credit score of a faction has largely the same effects. If the empire is losing money on its trades in total, either due to unfavorable conditions or just buying more than they sell, prices will decrease and vice versa. This means that it is beneficial to diversify your imports and exports a bit.
+ 
+ 
+Two things can significantly worsen prices for you: <c 219_255_077 tolls> and <c 219_255_077 tariffs>.
+ 
+<c 219_255_077 Tolls> are added/subtracted from the base price to determine your buy/sell price. They are increased by the distance between your capital and your partner's. 
+Building roads in your <a REGIONS regions> is the most effective way to deal with them. Since tolls are unaffected by the total price, low-value goods are affected much more than high-value ones.
+ 
+<c 219_255_077 Tariffs> work similar to tolls and are based on the value added during the last production step, without considering resources. To put it another way, the time spent making them is taxed. Part of that tariff is static, and affects the base selling price directly. <a DIPLOMACY Diplomatic> disasters and thus increased tariffs can be devastating.
+ 
+ 
+After growing your city, you may notice prices getting increasingly worse for you, especially if you decide to specialize in one or two industries.
+You can either improve prices by working on tolls and tariffs, increase the amount and size of your trade partners, or diversify. It may be tempting to assign most of your <a TECHNOLOGY research> and workforce to only a few industries and import everything else, but overdoing it can be very detrimental.
+",
+	},
+	{
+    	CATEGORY: "Guide",
+    	NAME: "17. Tourists",
+    	CATEGORIES: [],
+    	LINK_KEY: TOUR,
+    	TEXT: "
+Once your city reaches a certain size it will attract tourists. 
+ 
+Tourists can be a good source of money for larger cities and your citizens may desire their presence. The first tourist will arrive once your capital has reached a certain size. 
+ 
+Tourists act mostly like your subjects do; they visit services, eat food, and are more or less happy with your city based on their experiences. At the end of their visit, you will get some money. Having sufficient rooms in your inns, attracting more generous species, and getting a high rating will increase the amount. 
+ 
+The rating is composed of two parts: <c 219_255_077 service satisfaction> and the <c 219_255_077 total number of employees> in attracting industries. 
+It not only increases the amount of money you get per tourist, but also attracts more of them. This is based on the average rating so disallowing some kinds of tourists may lead to more overall coming if your capital is not well suited to them. 
+ 
+To prevent certain species from arriving as tourists, you can use the tourism <a MENU menu>. Your citizens will likely dislike some kinds of tourists so banning those is usually a good idea. 
+",
+	},
+				{
+		CATEGORY: "Guide",
+		NAME: "18. Slavery",
+		CATEGORIES: [],
+		LINK_KEY: SLAVERY,
+		TEXT: "
+Slavery can have a huge influence on the design of your city and is a choice that should be carefully considered. Species may like or dislike slavery, slaves of their kind, and enslavement <a LAW punishment>.
+ 
+Acquiring slaves can be done by buying them or by using the <a LAW law> system to enslave people.
+ 
+Slaves differ from plebeians in the following ways:
+ 
+They use submission instead of <a HAPPINESS happiness>, can not commit crimes, will not become insane, need far fewer services, do not count for nursery requirements, require less furniture, value fulfillments differently, can not be educated/indoctrinated, their bodies automatically get assigned to mass graves and cannibals, can not join a division, their deaths will never count as 'wrongful', do not impact 'others' fulfillment and do not cause brawls.
+ 
+ 
+Submission is similar to happiness, but while both are affected by fulfillment and cause negative events, when low, submission has a few other things impacting it. 
+ 
+It decreases the more slaves you have compared to your total population and is affected by the submission statistic of enslaved species. <a RELIGION Religion>, <a NOBLES nobles>, decorations, and the number of soldiers in your capital can increase it.
+It is very easy to keep a small amount of slaves, but significant amounts require increasing effort. Submission lower than 80% risks slave revolts.
+ 
+Slavery can be very useful for several reasons:
+ 
+Slaves are much cheaper than plebeians over the long run and have a lower logistical footprint.
+ 
+Your plebeians may desire to own slaves.
+ 
+They can work jobs your citizen species despise or are bad at, without having to deal with the brawls and animosity, that might result from inviting another species into your capital.
+ 
+ 
+The main detriment of owning slaves is the impact on <a DIPLOMACY diplomacy>, which will lower relations with rulers of the affected species. This can result in worse trading prices and even war.
+",
+	},
+			{
+		CATEGORY: "Guide",
+		NAME: "19. Diplomacy",
+		CATEGORIES: [],
+		LINK_KEY: DIPLOMACY,
+		TEXT: "
+Dealing with foreign empires will be covered here.
+ 
+A very important thing about diplomacy in Songs of Syx is the need for adjacency. Without a path connecting empires, diplomacy will be very limited and no lasting treaties can be forged. This also includes a state of war so warring far beyond your borders is almost impossible.
+However, this means that you can ignore any empires, that do not border you. 
+ 
+For dealing with other despots two things are very important, their opinion of you and your relative power compared to them. Opinion helps with everything and power prevents wars, and encourages alliance pacts and peace deals. Power entirely depends on the fighting forces available to an empire which can include the ability to hire mercenaries.
+ 
+In some situations, you need to directly threaten an empire to make it take your power into consideration. An opportunist attacking, while your army is far away or otherwise occupied, does not care about its strength unless it enters their lands.
+ 
+Diplomacy is done by bartering. You can select treaties, resources, regions, and money to be part of a deal. If you do not equalize the sides, excess will be considered either a gift or an insult. For example, you can always cancel treaties, but to cancel them amicably you might have to pay.
+ 
+ 
+The diplomatic stances besides war are <c 219_255_077 trading, colleagues, alliance,> and <c 219_255_077 vassal/protector>.
+ 
+A <c 219_255_077 trade> treaty allows you to trade automatically via depots. Beneficial pacts like this will increase opinion over time.
+ 
+<c 219_255_077 Colleagues> is a trade treaty with a non-aggression pact, prohibiting attacks on each other more firmly.
+ 
+An <c 219_255_077 alliance> fights the same enemies, but the agreement is not binding except for the betrayal penalties for breaking it. Forcing a reluctant ally to fight a superior enemy, may cause them to switch sides.
+ 
+<c 219_255_077 Vassals> pay tribute to their <c 219_255_077 protector> regularly and are unable to initiate diplomacy with other empires. If you have vassals, you can choose to decline their tribute payments to increase opinion. This treaty otherwise works much like an alliance, but vassals are usually looking for a way to free themselves. Being a vassal will offer diplomatic protections depending on the strength of the protector and prevents raids from occurring.
+ 
+ 
+<c 219_255_077 AI empires> have a capital, <a REGIONS regions>, a ruler, heirs, and specific boosts. A ruler's opinion of you will be affected by their traits. For example, a cruel ruler will not value chivalrous conduct much. An heir taking power can dramatically change your relationship with an empire.
+ 
+You can use emissaries to flatter, sabotage, or assassinate a ruler. Flattering and sabotage modify opinion, but assassination will try to kill them. The assassination chance is the chance for an attempt per day, but failing to kill them will lower the success chance. 
+ 
+In the boost menu, you can see the empires' proficiency at producing various goods. This has an impact on <a TRADE trade> prices. It also contains their level of military technology.
+ 
+The goods section shows you information about their production and <a TRADE trading> prices. 
+ 
+ 
+As your empire grows in size and your capital in wealth, your diplomatic relations with other empires gradually worsen. Unless you can ignore the constant threat of war and worsening trade prices, you need to counteract this.
+ 
+The main considerations for keeping <c 219_255_077 opinion> high are <c 219_255_077 treaties, chivalry, technology, kinship, kin treatment,> and <c 219_255_077 gifts>. 
+ 
+<c 219_255_077 Treaties> passively increase opinion over time. Trade and military agreements both contribute. It will likely be necessary to bribe empires for initial treaties throughout the game.
+ 
+<c 219_255_077 Chivalry> or cruelty can have a huge impact on opinion depending on the ruler in question. To increase it you must choose the appropriate actions after military engagements.
+ 
+<c 219_255_077 Technology> helps with every empire.
+ 
+<c 219_255_077 Kinship> can multiply positive opinion modifiers. Rulers of your ruling species will have an increased affinity for you and a lesser effect will be gained by being of a species friendly to theirs. Settling in areas your ruling species prefers and assassinations can help keep it high.
+ 
+<c 219_255_077 Kin treatment> can potentially reduce positive modifiers to opinion massively. To keep it high, do not order things like persecution and massacres against a species. This will only affect rulers of the same species.
+ 
+<c 219_255_077 Gifts> are usually a last-ditch effort to prevent war. Note that the opinion value of a gift depends on the wealth of the receiver, which can make effective ones very expensive.
+",
+	},
+			{
+		CATEGORY: "Guide",
+		NAME: "20. Law",
+		CATEGORIES: [],
+		LINK_KEY: LAW,
+		TEXT: "
+After a certain amount of population size crime becomes an inevitability. Crimes can range from mostly harmless flashings to expensive vandalism, theft, and murder.
+ 
+The chance for a plebeian to commit a crime depends mainly on the population of your capital, their species, technology, the amount of previously convicted citizens, and the punishment or lack thereof for recent crimes.
+ 
+To discourage these from happening and to maintain a feeling of security for your plebeians, you have to keep the law statistic high, which is done by catching criminals and then punishing them, which increases determent.
+ 
+To accomplish that you will need at least a <c 219_255_077 stockade> and <c 219_255_077 guardposts>.
+ 
+After committing a crime within the radius of a guardpost, the criminal risks getting caught either immediately or over the next few days. Only the location of the crime matters for detection, moving near guardposts later will not increase the detection chance. Soldiers also have a very low chance of catching criminals.
+ 
+Stockades are holding areas for prisoners. Only criminals inside a stockade can be punished.
+ 
+ 
+You have the following options for punishing criminals:
+ 
+<c 219_255_077 Exile> is always available and will get rid of the offender without bloodshed. Its determent value is low.
+ 
+<c 219_255_077 Imprisonment> requires prisons to be built and constant supervision by guards. Prisoners can optionally be moved into stocks for part of their punishment, which shortens the time of their sentence and is liked by some species. After serving their time, subjects will be freed, but count as ex-convicts, which slightly increases the crime rate. 
+Imprisonment is somewhat deterring.
+ 
+<c 219_255_077 Execution> kills the criminal at a constructed scaffold. This is a very good deterrent.
+ 
+<c 219_255_077 Killing them in the arena> is mostly identical to executing them, but is done in fight pits and arenas.
+ 
+<a SLAVERY Enslavement> enslaves the offender. Species may dislike having slaves of their kind. Enslavement is a good deterrent.
+ 
+You can assign how species should be punished in the law menu. After doing so, punishments will automatically be assigned. 
+However, you can still change the punishment or even pardon them by selecting a criminal in the stockade. Pardoning criminals can be liked by some species and instantly turns the criminal back into a plebeian.
+ 
+Multiplying the determent of recent punishments with the arrest rate will get you part of the law value, which deters further crimes and is usually pleasing to your subjects. Law is also affected by built decorations like torches.
+ 
+Criminals can also be judged in a court, which has a chance of proving their innocence, immediately letting them go free. This has no detrimental effect on determent and is usually liked by your subjects. The courts do not influence the punishments except for that case and are not needed to automatically assign verdicts.
+ 
+Most elements of the law system can be toggled for different species. You may even choose not to arrest them. A special option is the ability to persecute a species. All plebeians of that species will automatically be arrested and processed by the law system. This is permanent until toggled off and comes with <a DIPLOMACY diplomatic> repercussions.
+",
+	},
+        	{
+    	CATEGORY: "Guide",
+    	NAME: "21. Health",
+    	CATEGORIES: [],
+    	LINK_KEY: HEALTH,
+    	TEXT: "
+Health measures your subjects' overall resistance to disease. Smaller cities can mostly ignore this but managing health is vitally important for bigger capitals.
+ 
+Different species may be more or less resistant to diseases and the work your subjects do also affects it. For example, mining is already dangerous because of frequent accidents, but some kinds of it decrease personal health massively.
+ 
+ 
+Low health will lead to increased occurrence of disease. Diseases can be <c 219_255_077 common> or <c 219_255_077 epidemics>. Both kinds have lethality, spread, duration, and occurrence stats. The exact values can be seen in the health <a MENU menu>.
+ 
+<c 219_255_077 Common> diseases are usually a lot less deadly and regularly make a few subjects sick. A higher health stat will lower the chance that your subjects get afflicted.
+ 
+<c 219_255_077 Epidemics> are very dangerous diseases that can potentially destroy cities. Their lethality or duration is usually high enough that treating them in <c 219_255_077 hospitals > is strongly encouraged.
+Epidemics only appear if your overall health is less than 1, which means they are avoidable with sufficient effort.
+ 
+Note that some common diseases may also occur as epidemics.
+ 
+The health tooltip shows how health is calculated. Wells, physicians, and lavatories are particularly effective at increasing health. Note that their effect is based on their actual usage statistics, so building more of them will not improve health if they are poorly placed.
+Bigger cities will need <a TECHNOLOGY technology> to prevent epidemics.
+ 
+Health is mainly decreased by your population size, but other things may also have comparatively minor impacts. However, unburied corpses are very detrimental to the health of a city and their removal should be a priority after disasters.
+ 
+<c 219_255_077 Hospitals> are used by sick subjects to drastically shorten the time they are sick and significantly reduce the lethality of a disease. While the treatment is costly, it is usually worth it for larger cities, which can not rely on immigration anymore and have a high output per worker.
+Physicians only increase the health stat, they are not used for curing sick subjects.
+",
+	},
+						{
+		CATEGORY: "Guide",
+		NAME: "22. Nobles",
+		CATEGORIES: [],
+		LINK_KEY: NOBLES,
+		TEXT: "
+Nobles are still subject to change. 
+ 
+Depending on your level, you can appoint citizens to be nobles by selecting them and clicking the 'elevate' button. As your level increases, you can promote nobles, which allows them to be more efficient at their assigned task. Nobles can manage regions on the world map or industries in the capital.
+ 
+If assigned to the capital, they boost a number of workers in the specified industry. If the assigned nobles can not manage every worker, the boost will be divided among them.
+ 
+To manage regions, set their assignment to generate gov points. These can be used to build and upgrade the city hall buildings in regions.
+",
+	},
+			{
+		CATEGORY: "Guide",
+		NAME: "23. Religion",
+		CATEGORIES: [],
+		LINK_KEY: RELIGION,
+		TEXT: "
+Everyone on Syx is religious and has a favorite god and their initial faith is determined by chance, species, and whether or not they grew up in your capital. Growing up in your capital will overwrite species' religious preferences with the faith distribution there.
+ 
+Followers of different gods may have animosity for each other and will decrease opposition <a HAPPINESS fullfilment> if both are present in your capital.
+To solve that problem you can build temples. Subjects will gradually convert to religions, which have high temple satisfaction. Restricting temple access to different species or slaves can force them to convert fully even if another kind of temple is built in your city.
+ 
+Being part of a faith with a functioning temple can grant stat buffs and debuffs. The effects grow stronger with temple fulfillment. 
+ 
+<c 219_255_077 Temples> need to be huge and have a regular supply of sacrifices to make your subjects happy. Depending on the temple, sacrifices can be goods or prisoners, who are in stockades or prisons.
+ 
+<c 219_255_077 Shrines> have no special effects besides increasing <a HAPPINESS happiness> and do not require anything besides maintenance after building.
+ 
+<a HAVENS Havens> usually have a faith requirement.
+",
+	},
+				{
+		CATEGORY: "Guide",
+		NAME: "24. Education and Indoctrination",
+		CATEGORIES: [],
+		LINK_KEY: EDUCATION,
+		TEXT: "
+Education and indoctrination happen in universities and schools and can provide various buffs and debuffs to your subjects. Listening to speakers can also increase them to a maximum of 20%.
+ 
+Every species has a learning rate, which determines how fast they will learn in universities. Schools are unaffected by the species rate and use their own. The rate is per day and can be 0. Indoctrination is 5 times faster than education.
+ 
+You can designate species for education or indoctrination in the 'occupation' tab of the plebeian menu and change the upper learning limit. While both statistics are tracked per subject, building sufficient facilities will eventually educate everyone since universities have a higher priority than other types of work.
+ 
+The exact effects of education and indoctrination can be found in the tooltip in that menu. 
+ 
+<c 219_255_077 Education> benefits refining, crafting, and researching, but is detrimental to overall <a HAPPINESS happiness>.
+ 
+<c 219_255_077 Indoctrination> is good for producing food and raw resources and also increases happiness. However, it has detrimental effects on working in laboratories or libraries.
+ 
+Both types of learning can also be liked or disliked by species, which will affect happiness in addition to the universal effects.
+",
+	},
+				{
+		CATEGORY: "Guide",
+		NAME: "25. Defense and Divisions",
+		CATEGORIES: [],
+		LINK_KEY: DEFENSE,
+		TEXT: "
+This chapter is mostly about creating armies and defense. <a BATTLE Battles> goes into more detail about commanding armies.
+ 
+ 
+An increasingly wealthy capital will attract <a RAID raiders> and envious neighbors. An army will be needed to defend it, but choosing to pay tribute can also be a viable choice for certain stages of the game.
+
+Neighbors taking notice of you can potentially be more harmful than <a RAID raiders>, potentially costing you <a REGIONS regions> and yearly tribute if you give in and an invasion of your capital if not. Usually, a trade agreement will be enough to keep them happy for a long time.
+ 
+ 
+Every kind of soldier is part of a <c 219_255_077 division>. They can include up to 150 individual soldiers and can be customized to suit your needs. Clicking the army button on the main screen will enter the army menu, where you can train new ones and adjust their desired training, equipment, banner, and species. From there you are also able to order them to join an army on the world map and inspect their statistics.
+ 
+<c 219_255_077 Training, equipment,> and <c 219_255_077 experience> will increase the statistics of a division and both its perceived and actual power. 
+ 
+<c 219_255_077 Training> is extremely important for overall fighting ability and morale. The skill level of a soldier will decay slowly and do so faster at higher levels. Soldiers on the world map are exempt from that, but in your capital retraining will force soldiers to abandon their jobs for a time. Training facilities are needed for both initial training and keeping skills sharp.
+Setting divisions to 100% training will make them train without pause.
+ 
+Training can take a long time but is usually worth it. Well-trained troops are significantly better than ones with mediocre training and cost the same to supply on the world map.
+ 
+<c 219_255_077 Equipment> can be used to fine-tune the role the division is supposed to fill on the battlefield.
+You can assign both armor and weapons. Note that you can assign secondary weapons or a shield with some of them. 
+A soldier can use multiple items of the same kind. This can be thought of as increasing the quality of the items. Every assigned item will decay at the rate mentioned in the tooltip.
+ 
+Fully equipping a soldier with expensive armor and weapons can be very expensive both as an initial investment and over time.
+ 
+ 
+To equip and train divisions, select one in the army <a MENU menu>, and click edit. Using the + and - buttons you can adjust training level, equipment, and the number of soldiers in the division. Note that the equipment tooltip lists the stats for the maximum equipment level. Do not forget to finalize your decisions by clicking 'accept'.
+ 
+ 
+<c 219_255_077 Copying divisions> is possible by selecting an old division, shift-clicking the new divisions, clicking edit, and then accepting instantly. This can also be used to modify several divisions at once.
+ 
+<c 219_255_077 Experience> has effects similar to training and can be increased by fighting. It can be lost over time by soldiers dying or leaving the division for other reasons.
+ 
+ 
+<c 219_255_077 Divisions> can be stationed in your capital or be part of an army on the world map. The army button changes function depending on the viewed map and allows you to both recruit armies and assign divisions to them.
+ 
+Divisions stationed on the world map will require supplies. Rations and clothes are needed to prevent desertion, but drinks are optional. Soldiers are still simulated to an extent there and may die because of old age.
+ 
+To supply your armies you need <c 219_255_077 army supply depots>. These are almost identical in function to <a TRADE export depots>, but send the stored goods to your armies instead.
+Note that they can not be used to supply the troops in your capital. For that, you need to store the equipment somewhere else, preferably in warehouses.
+ 
+ 
+To defend yourself, you have four options: <c 219_255_077 Militia, professional soldiers, conscripts,> and <c 219_255_077 mercenaries>.
+ 
+<c 219_255_077 Militia> are plebeians, that are assigned to a division in your capital and are set to less than 100% training, meaning they can still work at least some of the time. A militia is mainly useful as a deterrent. 
+ 
+<c 219_255_077 Professional soldiers> have their training set to full and will not work. It is usually a good idea to station them in an army on the world map even if they are only supposed to defend your capital since they are usually cheaper to maintain there and will not occupy training spots.
+ 
+<c 219_255_077 Conscripts> are recruited on the army screen and sourced from the population of your <a REGIONS regions>. They train on their own and replenish automatically, but their maximum training is only 50%, making them significantly less effective than soldiers from your capital can be.
+Giving them expensive equipment is usually a waste.
+ 
+<c 219_255_077 Mercenaries> are also recruited via the army <a MENU menu> and cost only denari to hire and maintain. They can not enter your capital map. They replenish automatically and you do not have to equip them, but they can be very expensive. 
+The species of mercenaries available to you depends on the population distribution of your empire and the number of available divisions increases with your empire size.
+ 
+ 
+<c 219_255_077 Walls and catapults> can be used to make assaulting your capital much more costly. While walls can be attacked in melee, they will survive assaults for a long time. 
+ 
+Catapults can be crewed by your subjects and fire at enemies. Note that they have a minimum range and placing them on walls can leave them unable to fire after a while. Letting them fire alongside the walls can avoid this problem.
+ 
+ 
+You can <c 219_255_077 command> divisions and catapults in your capital by using the battle menu located at the top right of the screen. You need to select divisions and catapults there and choose to muster them first before you can give them commands. 
+How to command them will be explained in the <a BATTLE battle> chapter.
+",
+	},
+				{
+		CATEGORY: "Guide",
+		NAME: "26. Raiders",
+		CATEGORIES: [],
+		LINK_KEY: RAID,
+		TEXT: "
+Raiders are one of the main reasons for investing in an <a DEFENSE army>. They are attracted by your capital's wealth, which includes your <c 219_255_077 money>, <c 219_255_077 stored resources> and <a SLAVERY slaves>.
+ 
+The raid <a MENU menu> lists the raiders, their status, power, and where they are most likely to attack.
+Your wealth is modified by your defenses and deterrence to determine which raiders are considering raiding you. Investing in deterrence can significantly lower the amount and strength of the raiders you face.
+ 
+When a raider decides to raid you, you will get a message that offers you the opportunity to buy them off, avoiding a fight. Paying off a few raiders should not be a problem, but the more interested raiders there are, the more frequent the demands will be.
+ 
+Refusing will lead to a fight. Raiders spawn outside of your territory and will not appear in allied regions. They will usually target the weakest point in your defenses and lay siege to cities. Fortifications and garrisons can prevent raiders from immediately capturing regions, allowing time for your armies to arrive.
+ 
+Killing raiders is permanent, no new ones will spawn to replace them. It also rewards a bounty.
+",
+	},
+				{
+		CATEGORY: "Guide",
+		NAME: "27. Battle",
+		CATEGORIES: [],
+		LINK_KEY: BATTLE,
+		TEXT: "
+There are two kinds of battles: capital battles and field battles. For setting up
+ 
+Capital battles occur if your capital is attacked and you decline to attack. After some time, the enemy army will appear and try to reach your throne. If the enemies reach your throne, you lose the battle. It is impossible to block your capital off completely. To defend yourself, you first need to muster your divisions by toggling battle mode in the upper right, selecting the divisions, and clicking the muster button. Artillery can be manned by selecting them and mustering a crew.
+ 
+Field battles are usually initiated when two opposing armies meet.
+If the enemy army does not retreat, you have three options: fighting manually, auto-resolving, and retreating.
+
+Auto-resolving will resolve the fight instantly, but can be inferior to fighting manually.
+Retreating should only be done if there is no hope of victory. You will lose both soldiers and supplies.
+ 
+
+After choosing to fight, you are entering the pre-battle phase. You can choose where your forces start and change their orders.
+ 
+This is done in the same way you will order your forces once the battle starts: left-clicking to select, right-clicking to deselect, and left click to move/attack. Dragging left-click while you have one or more divisions selected allows you to change formation depth and facing.
+
+Selecting divisions allows their settings to be changed. Besides changing stance and formation type, which affect their combat stats, you can set their movement speed, fire at will status, and toggle pursuit of targets that leave shooting range.
+
+There are also two special commands: charging, and chasing.
+
+Charges are done in the direction the division is facing. Impacting an enemy division will cause collision damage to both divisions. Faster and heavier soldiers will cause more damage.
+
+Chase mode lets a division break formation, after which its soldiers will individually pursue enemies. It is detrimental to morale so it is best used against weakened forces or rioters.
+
+
+",
+	},
+
+				{
+		CATEGORY: "Guide",
+		NAME: "28. Region Management",
+		CATEGORIES: [],
+		LINK_KEY: REGIONS,
+		TEXT: "
+Regions can be acquired through either warfare or diplomacy. Regions support your capital by providing conscripts and <c 219_255_077 taxes>. 
+ 
+There are several stats that are innate to a region: fertility, prospects, minerals, water, area, and climate.
+ 
+Fertility and area determine the base and maximum population of the region.
+ 
+Prospects affect how efficient different industries are in a region. Fertility, water, minerals, and climate also play a role.
+ 
+The population of a region is usually a mix of species. Each has their own <c 219_255_077 loyalty> stat, which can lead to rebellion if it is below 0 for an extended time. Note that as long as the majority of the population supports you, no rebellions will occur - there is no need to please every species.
+ 
+ 
+<c 219_255_077 Loyalty> is affected by buildings in the region, how you treat the species elsewhere, religious opposition and support. Support starts at 0 when you capture a region by force and increases over time. Religious opposition is based on the distribution of faiths and can be affected by species composition and buildings.
+ 
+<c 219_255_077 Buildings> in regions are necessary for sustaining the population and generating taxes. Clicking the building button in the lower part of the region panel will allow you to select which ones you want to construct.
+To build, you require denari and workforce. Workforce is generated by the city hall building chain, which requires gov points. Gov points are a global resource that can be produced by nobles.
+ 
+<c 219_255_077 Taxes> come in two kinds: denari and resource taxes. Denari taxes are based on your excess workforce in the region and your tax rate. You can set the tax rate for individual regions on the region panel, but higher tax rates have a detrimental effect on loyalty.
+Resource taxes are generated by buildings. They depend on the building level and the regional modifiers for the specific industry. 
+Both kinds of taxes are delivered daily to your capital.
+
+<c 219_255_077 Health> is affected by buildings and the total population in the region. Keeping it high with buildings is necessary for sustaining larger populations.
+
+<c 219_255_077 Defenses> come in two forms: garrisons and fortifications. Garrisons do not need supplies, can not move, and are unable to be customized. Fortifications multiply the strength of defenders. Unless the attackers greatly outnumber your defenders, high levels of fortifications will give you a lot of time to send aid.
+",
+	},
+						{
+		CATEGORY: "Guide",
+		NAME: "29. Water",
+		CATEGORIES: [],
+		LINK_KEY: WATER,
+		TEXT: "
+Besides natural bodies of water, these things make up the water system: <c 219_255_077 Pumps, canals, culverts,> and <c 219_255_077 pools>.
+ 
+<c 219_255_077 Pumps> are upgradable buildings that need to be placed on groundwater, which can be found near bodies of freshwater and highlighted by an overlay. They supply pressure, which is needed to fill canals with water. A single pump can output 100 units of pressure, which is enough to fill 100 tiles of canal. Using several pumps will add pressure, allowing longer canals to be filled. Upgrading them will not increase pressure, instead it will lower the amount of workers needed.
+ 
+<c 219_255_077 Canals> radiate a freshwater aura up to 15 tiles away if they are filled by pumps. This aura can be used to increase fertility and boost things like woodcutters. Canals slow down your subjects and use 1 pressure per tile.
+ 
+<c 219_255_077 Culverts> function like canals, but can connect to other culverts in a 8 tile radius. This allows water to flow under obstructions like walls and can be used to avoid bisecting busy roads with canals. They are more costly to build and require more pressure to function.
+ 
+<c 219_255_077 Pools>, moats, and ponds are all used for swimming and provide a small satisfaction boost. Subjects will seek them out whenever they want to swim if no natural body of water is near. They do not need to be directly connected to canals and only require the presence of the freshwater aura. Pressure is not decreased by these.
+",
+	},
+					{
+		CATEGORY: "Guide",
+		NAME: "30. Havens",
+		CATEGORIES: [],
+		LINK_KEY: HAVENS,
+		TEXT: "
+Havens are small settlements on the world map. Owning a region containing a haven and fulfilling the requirements for that kind of haven, will attract immigrants from it. The requirements are divided into necessary and optional ones. The optional ones increase the maximum population of the species in your empire depending on the haven limits and increase the rate of immigration.
+ 
+These immigrants are not available by other means and are very powerful. 
+ 
+To make sure havens spawn near you, you can either regenerate the world or choose to settle somewhere more of them spawn. Usually, they favor certain climates and geographic features.
+",
+	},
+],

@@ -1,0 +1,3 @@
+NAME: "Pike",
+NAMES: "Pikes",
+DESC: "Long-reaching weapons that keep enemies at bay while inflicting devastating puncture wounds. The shaft is often inscribed with the deeds of previous wielders, creating a lineage of battle prowess that new warriors strive to honor. In formation, pikes create an impenetrable wall of steel that few enemies can breach.",

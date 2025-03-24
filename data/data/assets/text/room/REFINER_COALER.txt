@@ -1,0 +1,44 @@
+INFO: {
+	NAME: "Charcoaler",
+	NAMES: "Charcoalers",
+	DESC: "Refiner that turns Wood into Coal.",
+},
+
+BONUS: {
+	NAME: "Charcoaling",
+	DESC: "Increases effectiveness of Charcoalers",
+},
+
+WORK: {
+	TITLE: "Coaler",
+	VERB: "Producing charcoal",
+},
+
+STATS: [
+	{
+		NAME: "Workers",
+		DESC: "The amount of workers",
+	},
+	{
+		NAME: "Efficiency",
+		DESC: "Efficiency increases production",
+	},
+	{
+		
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Kiln",
+		DESC: "Where subjects work",
+	},
+	{
+		NAME: "Storage",
+		DESC: "Storage for the output.",
+	},
+	{
+		NAME: "Auxiliary Kiln",
+		DESC: "Adds Efficiency to the room",
+	},
+],

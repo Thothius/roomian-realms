@@ -1,0 +1,3 @@
+NAME: "Plaza",
+DESC: "A painted road of top quality stone. Slow to move on, but a powerful decoration for those nearby.",
+

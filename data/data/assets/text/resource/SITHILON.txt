@@ -1,0 +1,3 @@
+NAME: "Sithilon Ore",
+NAMES: "Sithilon ores",
+DESC: "A very rare ore. It has no practical use as far as we know, yet is highly coveted by Dondorians, who like to hoard it in their caverns.",

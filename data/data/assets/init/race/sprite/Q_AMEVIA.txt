@@ -1,0 +1,448 @@
+SLEEP_FILE: Blanket,
+SPRITE_EXTRA_FILE: Normal,
+NAMESET_FILE_NOBLE: StdLastNoble,
+
+WORLD: {
+	TOWN: Normal,
+	TOWN_COLOR: 255_255_255,
+	VILLAGE: Normal,
+	VILLAGE_COLOR: 255_255_255,
+	OVERLAY: Normal,
+	OVERLAY_COLOR: 255_255_255,
+	WALL: Normal,
+	WALL_COLOR: 255_255_255,
+	WALL_VILLAGE: Village,
+	WALL_VILLAGE_COLOR: 255_255_255,
+	TERRAIN: Normal,
+	TERRAIN_COLOR: 140_110_100,
+	FARM: Farm,
+	FARM_COLOR: [
+		194_218_194,
+		180_180_180,
+		210_234_210,
+		202_222_202,
+		184_204_184,
+		196_216_196,
+		190_206_190,
+		202_220_202,
+		194_214_194,
+		192_216_192,
+		220_240_220,
+		194_206_194,
+		192_192_192,
+		196_204_196,
+		222_246_222,
+		208_232_208,
+	],
+},
+
+CROWN: {
+	FILE: CrownAmevia,
+	OFFX: 0,
+	OFFY: -9,
+},
+MERC: {
+	FILE: Helm,
+	OFFX: 0,
+	OFFY: -1,
+},
+RAIDER: [
+	{
+		FILE: RaidHat_H,
+		OFFX: 0,
+		OFFY: -4,
+	},
+	{
+		FILE: RaidHat_L,
+		OFFX: 0,
+		OFFY: -1,
+	},
+	{
+		FILE: Helm,
+		OFFX: 0,
+		OFFY: -1,
+	},
+],
+COLOR_CLOTHES: [
+	{R: 114, G: 101, B: 35,},
+	{R: 142, G: 126, B: 44,},
+	{R: 83, G: 181, B: 94,},
+	{R: 62, G: 135, B: 70,},
+	{R: 105, G: 125, B: 239,},
+	{R: 79, G: 94, B: 181,},
+	{R: 53, G: 64, B: 122,},
+	{R: 193, G: 77, B: 0,},
+],
+COLOR_BLOOD: {R: 30, G: 30, B: 255,},
+COLORS: {
+	SKIN: {
+	    TURNS_WHITE_WHEN_DEAD: true,
+	    VALUES:{
+			GENERATE: 16,
+			FROM: 255_230_180,
+			TO: 180_200_220,
+			**TO: 200_180_160,
+	    },
+	},
+	SKIN2: {
+	    TURNS_WHITE_WHEN_DEAD: true,
+	    VALUES:{
+			GENERATE: 16,
+			FROM: 180_230_255,
+			TO: 160_180_200,
+	    },
+	},
+	HAIR: {
+	    VALUES:{
+			GENERATE: 16,
+			FROM: 140_70_20,
+			TO: 160_90_40,            
+	    },
+	},
+	EYE: {
+	    VALUES:[
+	        {R: 0, G: 0, B: 0,},
+	    ],
+	},
+	LEG: {
+	    VALUES: [
+	        {R: 139, G: 69, B: 19,},
+	    ],
+	},
+	PAINT1: {
+		VALUES: [
+			{R: 25, G: 135, B: 19,},
+			{R: 173, G: 24, B: 24,},
+			{R: 106, G: 61, B: 38,},
+			{R: 20, G: 54, B: 224,},
+			{R: 23, G: 24, B: 25,},
+			{R: 108, G: 45, B: 45,},
+		],
+	},
+	PAINT2: {
+		VALUES: [
+			{R: 25, G: 135, B: 19,},
+			{R: 173, G: 24, B: 24,},
+			{R: 224, G: 224, B: 20,},
+			{R: 20, G: 54, B: 224,},
+			{R: 23, G: 24, B: 25,},
+			{R: 255, G: 255, B: 255,},
+		],
+	},
+	ARMOUR: {
+		PICK_BY_STAT: EQUIP_BATTLE_ARMOUR_PLATE,
+
+		VALUES: [
+			090_090_080,
+			099_099_099,
+			168_168_180,
+			209_159_054,
+		],
+	},
+	ARMOUR_LEATHER: {
+		VALUES: [
+			96_071_058,
+			107_079_065,
+			117_086_071,
+			127_095_078,
+		],
+	},
+},
+CHILD: {
+	
+	COLOR_SKIN: SKIN,
+	COLOR_LEG: LEG,
+	
+	SPRITE_FILE: ChildHumanoid,
+	SPRITE_SKELLETON_FILE: Humanoid_small,
+	NAMESET_FILE_FIRST: LzmFirst,
+	NAMESET_FILE_SURNAME: LzmLast,
+	
+},
+TYPES: [
+
+	** M A L E S
+
+	{   
+		OCCURRENCE: 0.5,
+		COLOR_SKIN: SKIN,
+		COLOR_LEG: LEG,
+		
+		SPRITE_FILE: Amevia,
+		SPRITE_SKELLETON_FILE: Humanoid,
+		NAMESET_FILE_FIRST: LzmFirst,
+		NAMESET_FILE_SURNAME: LzmLast,
+		PORTRAIT_FILE: Amevia,
+		
+		ADDONS: [
+			{
+				BELOW_HEAD: false,
+				ADDON_INDEX: 2,
+				CONDITIONS: {
+					EQUAL: {
+						POPULATION_NOBLES_I: 1,
+					},
+				},
+			},
+			{
+				BELOW_HEAD: false,
+				ADDON_INDEX: 0,
+				CONDITIONS: {
+					GREATER: {
+						EQUIP_BATTLE_ARMOUR_PLATE_I: 0,
+					},
+				},
+				COLOR: ARMOUR,
+			},
+			{
+				BELOW_HEAD: true,
+				ADDON_INDEX: 0,
+				CONDITIONS: {
+					GREATER: {
+						EQUIP_BATTLE_ARMOUR_LEATHER_I: 0,
+					},
+				},
+				COLOR: ARMOUR_LEATHER,
+			},
+	
+		],
+		
+		FACE: [
+			**Chest
+			{
+				FRAMES: [
+					Chest: 22,
+				],
+				COLOR: SKIN,
+				STAINS: false,
+				OFF_Y: 2,
+			},
+			**Noble
+			{
+				CONDITIONS: {
+					EQUAL: {
+						POPULATION_NOBLES_I: 1,
+					},
+				},
+				FRAMES: [
+					Cloak: 5,
+				],
+				OFF_Y: 2,
+				STAINS: false,
+			},
+			**Mouth
+			{
+				FRAMES: [
+					Mouth: 56,
+					Mouth: 57,
+					Mouth: 58,
+					Mouth: 59,
+				],
+				STAINS: false,
+				COLOR: SKIN,
+				**OFF_Y: 1,
+			},
+			**Skull
+			{
+				FRAMES: [
+					Skull: 52,
+					Skull: 53,
+					Skull: 54,
+					Skull: 55,			
+				],
+				**OFF_Y: 1,
+				COLOR: SKIN,
+			},
+			**Feature Top
+			{
+				CONDITIONS: {
+					GREATER: {
+						POPULATION_AGE_F: 0.2,
+						RANDOM_1_F: 0.2,
+					},
+				},
+				FRAMES: [
+					Feature: 40,
+					Feature: 41,
+					Feature: 42,
+					Feature: 43,
+				],
+				**OFF_Y: 1,
+				COLOR: SKIN,
+				STAINS: false,
+			},
+			**Eyes
+			{
+				CONDITIONS: {
+					EQUAL: {
+						APPEARANCE_DEAD_I: 0,
+					},
+				},
+				FRAMES: [
+					Eyes: 36,
+					Eyes: 37,
+					Eyes: 38,
+					Eyes: 39,
+				],
+				**OFF_Y: 1,
+				STAINS: false,
+			},
+			**Warpaint
+			{
+				FRAMES: [
+					Makeup: 32,
+					Makeup: 33,
+					Makeup: 34,
+					Makeup: 35,
+				],
+				**OFF_Y: 1,
+				COLOR: PAINT1,
+			},
+		],
+	},
+	
+	** F E M A L E S
+	
+	{
+	            OCCURRENCE: 0.5,
+		COLOR_SKIN: SKIN2,
+		COLOR_LEG: LEG,
+		
+		SPRITE_FILE: Amevia,
+		SPRITE_SKELLETON_FILE: Humanoid,
+		NAMESET_FILE_FIRST: LzmFirst,
+		NAMESET_FILE_SURNAME: LzmLast,
+		PORTRAIT_FILE: Amevia,
+	
+		ADDONS: [
+			{
+				BELOW_HEAD: false,
+				ADDON_INDEX: 2,
+				CONDITIONS: {
+					EQUAL: {
+						POPULATION_NOBLES_I: 1,
+					},
+				},
+			},
+			{
+				BELOW_HEAD: false,
+				ADDON_INDEX: 0,
+				CONDITIONS: {
+					GREATER: {
+						EQUIP_BATTLE_ARMOUR_PLATE_I: 0,
+					},
+				},
+				COLOR: ARMOUR,
+			},
+			{
+				BELOW_HEAD: true,
+				ADDON_INDEX: 0,
+				CONDITIONS: {
+					GREATER: {
+						EQUIP_BATTLE_ARMOUR_LEATHER_I: 0,
+					},
+				},
+				COLOR: ARMOUR_LEATHER,
+			},
+			{
+				BELOW_HEAD: false,
+				ADDON_INDEX: 3,
+				COLOR: HAIR,
+			},
+		],
+		
+		FACE: [
+			**Chest
+			{
+				FRAMES: [
+					Chest: 23,
+				],
+				COLOR: SKIN,
+				STAINS: false,
+				OFF_Y: 2,
+			},
+			**Noble
+			{
+				CONDITIONS: {
+					EQUAL: {
+						POPULATION_NOBLES_I: 1,
+					},
+				},
+				FRAMES: [
+					Cloak: 5,
+				],
+				OFF_Y: 2,
+				STAINS: false,
+			},
+			**Mouth
+			{
+				FRAMES: [
+					Mouth: 56,
+					Mouth: 57,
+					Mouth: 58,
+					Mouth: 59,
+				],
+				STAINS: false,
+				COLOR: SKIN,
+				**OFF_Y: 1,
+			},
+			**Skull
+			{
+				FRAMES: [
+					Skull: 52,
+					Skull: 53,
+					Skull: 54,
+					Skull: 55,			
+				],
+				**OFF_Y: 1,
+				COLOR: SKIN,
+			},
+			**Feature Top
+			{
+				CONDITIONS: {
+					GREATER: {
+						POPULATION_AGE_F: 0.2,
+						RANDOM_1_F: 0.2,
+					},
+				},
+				FRAMES: [
+					Hair: 56,
+					Hair: 57,
+					Hair: 58,
+					Hair: 59,
+				],
+				**OFF_Y: 1,
+				COLOR: SKIN,
+				STAINS: false,
+			},
+			**Eyes
+			{
+				CONDITIONS: {
+					EQUAL: {
+						APPEARANCE_DEAD_I: 0,
+					},
+				},
+				FRAMES: [
+					Eyes: 36,
+					Eyes: 37,
+					Eyes: 38,
+					Eyes: 39,
+				],
+				**OFF_Y: 1,
+				STAINS: false,
+			},
+			**Warpaint
+			{
+				FRAMES: [
+					Makeup: 32,
+					Makeup: 33,
+					Makeup: 34,
+					Makeup: 35,
+				],
+				**OFF_Y: 1,
+				COLOR: PAINT1,
+			},
+		],	
+	},
+],
+

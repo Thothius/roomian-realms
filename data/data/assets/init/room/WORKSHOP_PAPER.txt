@@ -1,0 +1,146 @@
+ICON: 32->WORKSHOP->5,
+RESOURCES: [STONE,FURNITURE,METAL,],
+AREA_COSTS: [0,0,0,],
+FLOOR: STONE1,
+MINI_COLOR: 226_195_38,
+ITEMS: [
+	{
+		COSTS: [1,0.5,0.25,],
+		STATS: [0,0,0,],
+	},
+	{
+		COSTS: [1,0.5,0.25,],
+		STATS: [1,0,1,],
+	},
+	{
+		COSTS: [1,0.5,0.25,],
+		STATS: [0,2,0,],
+	},
+],
+WORK: {
+	SHIFT_OFFSET: 0.325,
+	SOUND: work->Paper*,
+	ACCIDENTS_PER_YEAR: 0.025,
+	FULFILLMENT: 1.0,
+},
+INDUSTRIES: [
+	{
+		INDUSTRY: {
+			IN: {
+				WOOD: 2.0,
+			},
+			OUT: {
+				PAPER: 0.75,
+			},
+		},
+	},
+],
+ENVIRONMENT_EMIT: {
+	_NOISE: {
+		VALUE: 1,
+		RADIUS: 1,
+	},
+},
+SPRITES: {
+	CHAIR_1X1: [
+		{
+			SHADOW_HEIGHT: 4,
+			FRAMES: [
+				CHAIRS: 6,
+				CHAIRS: 7,
+			],
+		},
+	], 
+	TABLE_COMBO: [
+		{
+			SHADOW_HEIGHT: 4,
+			FRAMES: [
+				COMBO_TABLES: 7,
+			],
+		},
+	],
+	TABLE_TOP_COMBO: [
+		{
+			TINT: true,
+			FRAMES: [
+				
+			],
+		},
+	],
+	WORK_BELOW_1X1: [
+		{
+			SHADOW_LENGTH: 3,
+			TINT: true,
+			FPS: 5,
+			FRAMES: [ 
+				-,
+				-,
+				BASIN: 0,
+				WORK: 27,
+			],
+			OVERWRITE: [
+				{},
+				{},
+				**{FPS: 0, COLOR:{R:64,G:64,B:80,}, },
+				{},
+			],
+		},
+	],
+	WORK_ABOVE_1X1: [
+		{
+			SHADOW_LENGTH: 3,
+			TINT: true,
+			FPS: 5,
+			FRAMES: [
+				WORK: 0,
+				WORK: 1,
+				BASIN: 1,
+				-,
+			],
+			OVERWRITE: [
+				{},
+				{},
+				{FPS: 15, COLOR: {R:100,G:100,B:100,},},
+			],
+		},
+	],
+	TOOL_1X1: [
+		{
+			SHADOW_LENGTH: 2,
+			TINT: true,
+			ROTATES: false,
+			FRAMES: [
+				WORK: 0,
+				WORK: 1,
+				WORK: 27,
+			],
+		},
+	],
+	MISC_BELOW_1X1: [
+		{
+			SHADOW_LENGTH: 1,
+			TINT: true,
+			ROTATES: false,
+			FRAMES: [
+				STORAGE: 5,
+				STORAGE: 6,
+				STORAGE: 8,
+			],
+		},
+	],
+	MISC_ABOVE_1X1: [
+		{
+			SHADOW_LENGTH: 5,
+			TINT: true,
+			ROTATES: false,
+			FRAMES: [
+				STORAGE: 0,
+				STORAGE: 1,
+				STORAGE: 2,
+				WORK: 27,
+				WORK: 14,
+			],
+		},
+	],
+},
+

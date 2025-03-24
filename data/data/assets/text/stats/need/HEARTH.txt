@@ -1,0 +1,2 @@
+NAME_NEED: "Socialization",
+NAME_RATE: "Loneliness",

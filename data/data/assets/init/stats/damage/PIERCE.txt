@@ -1,0 +1,13 @@
+
+ATTACK: {
+	ICON: 16->Misc->1,
+	DEFAULT_VALUE: 0,
+},
+DEFENCE: {
+	ICON: 16->Misc->1,
+	DEFAULT_VALUE: 0,
+},
+
+
+
+

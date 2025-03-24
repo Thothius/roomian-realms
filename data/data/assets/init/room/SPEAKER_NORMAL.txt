@@ -1,0 +1,89 @@
+ICON: 32->SERVICE->3,
+RESOURCES: [STONE,STONE_CUT,GEM,],
+AREA_COSTS: [0,0,0,],
+FLOOR: [DIRT,STONE2,DECOR1,],
+MINI_COLOR: 70_0_255,
+ITEMS: [
+	{
+		COSTS: [10,40,30,],
+		STATS: [1,50,],
+	},
+],
+WORK: {
+	SHIFT_OFFSET: 0.65,
+	SOUND: DUMMY,
+	USES_TOOL: false,
+	FULFILLMENT: 1.0,
+	NIGHT_SHIFT: true,
+},
+UPGRADES: [
+	{
+		RESOURCE_MASK: [1,0,0,0,],
+		BOOST: 0,
+	},
+	{
+		RESOURCE_MASK: [1,1,0,0,],
+		BOOST: 1.0,
+	},
+	{
+		RESOURCE_MASK: [2,2,2,0,],
+		BOOST: 1.0,
+	},
+],
+
+
+SERVICE: {
+	DEFAULT_ACCESS: 1,
+	STANDING: {
+		CITIZEN: 2.5,
+		SLAVE: 0,
+		NOBLE: 0,
+		PRIO: 50,
+	},
+	SOUND: DUMMY,
+	RADIUS: 100,
+	NEED: SPEAKER,
+},
+SPRITES: {
+	CENTER_COMBO: [
+		{	
+			TINT: true,
+			SHADOW_LENGTH: 8,
+			COLOR: 153_141_124,
+			FRAMES: [
+				COMBO_PODEUM: 2,
+			],
+		},
+		{	
+			TINT: true,
+			SHADOW_LENGTH: 8,
+			FRAMES: [
+				COMBO_PODEUM: 2,
+			],
+		},
+		{	
+			TINT: true,
+			SHADOW_LENGTH: 8,
+			FRAMES: [
+				COMBO_PODEUM: 3,
+			],
+		},
+	],
+	FRAME_COMBO: [
+		{	
+			TINT: true,
+			SHADOW_LENGTH: 1,
+			FRAMES: [
+				FRAMES: 1,	
+			],
+		},
+		{	
+			TINT: true,
+			SHADOW_LENGTH: 1,
+			FRAMES: [
+				FRAMES: 0,	
+			],
+		},
+	],
+},
+

@@ -1,0 +1,36 @@
+INFO: {
+	NAME: "Embassy",
+	NAMES: "Embassies",
+	DESC: "Trains emissaries, who can be sent on missions in foreign lands.",
+},
+
+STATS: [
+	{
+		NAME: "Emissaries",
+		DESC: "The amount of emissaries.",
+	},
+	{
+		NAME: "Efficiency",
+		DESC: "The Efficiency of the room.",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Workstation",
+		DESC: "Where emissaries work.",
+	},
+	{
+		NAME: "Nicknacks",
+		DESC: "Improves work efficiency.",
+	},
+	{
+		NAME: "Carpets",
+		DESC: "Improves work efficiency.",
+	},
+],
+
+WORK: {
+	TITLE: "Ambassador",
+	VERB: "On Mission",
+},

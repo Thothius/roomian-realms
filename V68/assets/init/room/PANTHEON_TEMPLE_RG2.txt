@@ -1,0 +1,146 @@
+ICON: 32->RELIGION->8,
+RESOURCES: [STONE,WOOD,FURNITURE,FABRIC],
+AREA_COSTS: [0.5,0.3,0,0],
+FLOOR: [STONE_LIGHT,STONE_MEDIUM],
+MINI_COLOR: 230_230_180,
+REQUIRES: {
+	GREATER: {
+		POPULATION_CITIZEN_I: 150,
+	},
+},
+ITEMS: [
+	{
+		COSTS: [3,2,2,1],	** Altars
+		STATS: [1,0,0],
+	},
+	{
+		COSTS: [2,2,2,2],	** Religious Icons
+		STATS: [0,2,0],
+	},
+	{
+		COSTS: [1,1,1,2],	** Prayer Areas
+		STATS: [0,0,2],
+	},
+],
+UPGRADES: [
+	{
+		RESOURCE_MASK: [1,1,1,1],
+		BOOST: 0,
+	},
+	{
+		RESOURCE_MASK: [2,2,2,2],
+		BOOST: 0.5,
+	},
+	{
+		RESOURCE_MASK: [3,3,3,3],
+		BOOST: 1.0,
+	},
+],
+WORK: {
+	SHIFT_OFFSET: 0.5,
+	SOUND: work->Magic*,
+	ACCIDENTS_PER_YEAR: 0.01,
+	FULFILLMENT: 2.0,
+},
+INDUSTRIES: [
+	{
+		INDUSTRY: {
+			IN: {
+				FOOD: 0.2,
+				LIVESTOCK: 0.1,
+				SLAVE: 0.05,
+			},
+			OUT: {
+				RELIGION_AMINION: 0.1,
+				RELIGION_ATHURI: 0.1,
+				RELIGION_CRATOR: 0.1,
+				RELIGION_SHMALOR: 0.1,
+			},
+		},
+	},
+],
+ENVIRONMENT_EMIT: {
+	_NOISE: {
+		VALUE: 0.5,
+		RADIUS: 1,
+	},
+},
+BOOSTS: {
+	CANTOR: {
+		RELIGION_AMINION>MUL: 0.05,
+		RELIGION_SHMALOR>MUL: 0.05,
+		HAPPINESS>ADD: 0.01,
+	},
+	TILAPI: {
+		RELIGION_AMINION>MUL: 0.1,
+		HAPPINESS>ADD: 0.02,
+	},
+	HUMAN: {
+		RELIGION_CRATOR>MUL: 0.1,
+		HAPPINESS>ADD: 0.02,
+	},
+	DONDORIAN: {
+		RELIGION_CRATOR>MUL: 0.1,
+		HAPPINESS>ADD: 0.02,
+	},
+	Q_AMEVIA: {
+		RELIGION_ATHURI>MUL: 0.1,
+		HAPPINESS>ADD: 0.02,
+	},
+	ARGONOSH: {
+		RELIGION_ATHURI>MUL: 0.1,
+		HAPPINESS>ADD: 0.02,
+	},
+	GARTHIMI: {
+		RELIGION_SHMALOR>MUL: 0.1,
+		HAPPINESS>ADD: 0.02,
+	},
+	CRETONIAN: {
+		RELIGION_CRATOR>MUL: 0.1,
+		HAPPINESS>ADD: 0.02,
+	},
+},
+SPRITES: {
+	ALTAR_2X2: [
+		{	
+			TINT: true,
+			SHADOW_HEIGHT: 6,
+			FRAMES: [
+				ALTAR: 0,	
+				ALTAR: 1,
+			],
+		},
+	],
+	STATUE_1X1: [
+		{	
+			TINT: true,
+			SHADOW_LENGTH: 5,
+			ROTATES: true,
+			FRAMES: [
+				STATUE: 0,
+				STATUE: 1,	
+			],
+		},
+	],
+	DECOR_1X1: [
+		{
+			TINT: true,
+			SHADOW_LENGTH: 2,
+			ROTATES: false,
+			FRAMES: [
+				DECOR: 0,
+				DECOR: 1,
+				DECOR: 2,
+			],
+		},
+	],
+	CARPET_COMBO: [
+		{	
+			TINT: true,
+			FRAMES: [
+				COMBO_CARPETS: 5,	
+			],
+		},
+	],
+},
+DESCRIPTION: "A grand temple complex dedicated to all four major deities of Syx: Aminion, Athuri, Crator, and Shmalor. The Pantheon Temple allows followers of different religions to worship in the same space, accepting various offerings based on each deity's preferences. While this promotes religious tolerance and diversity, dedicated followers may still prefer their deity-specific temples. Each race receives bonuses aligned with their preferred deities."

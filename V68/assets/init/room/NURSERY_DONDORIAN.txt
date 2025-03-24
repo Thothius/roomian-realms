@@ -1,0 +1,119 @@
+ICON: {
+	BG: 24->race->Dondorian->0,
+	FG: 32->BG->0,
+	SHADOW: 1,
+},
+RESOURCES: [STONE,FURNITURE,METAL,],
+AREA_COSTS: [0.2,0,0,],
+FLOOR: STONE_MEDIUM_DARK,
+MINI_COLOR: 0_255_255,
+REQUIRES: {
+	GREATER: {
+		POPULATION_DONDORIAN_CITIZEN_I: 20,
+	},
+},
+ITEMS: [
+	{
+		COSTS: [2,2,2,],
+		STATS: [1,0,0,],
+	},
+	{
+		COSTS: [5,5,5,],
+		STATS: [0,0,4,],
+	},
+],
+WORK: {
+	SHIFT_OFFSET: 0.125,
+	USES_TOOL: false,
+	FULLFILLMENT: 0.5,
+},
+INDUSTRY: {
+	IN: {
+		BREAD: 0.3,
+		ALCO_BEER: 0.2,
+	},
+	OUT: {
+		
+	},
+},
+RACE: DONDORIAN,
+INCUBATION_DAYS: 128, 
+SPRITES: {
+	1x1_BABY: {
+		FPS: 4,
+		SHADOW_LENGTH: 1,
+		ROTATES: false,
+		FRAMES: [
+			NURSERY: 6,
+			NURSERY: 7,
+		],
+	},
+	
+	1x1_CRIB_TOP: {
+		FPS: 0,
+		SHADOW_LENGTH: 3,
+		SHADOW_HEIGHT: 0,
+		ROTATES: true,
+		FRAMES: [
+			2xBED: 4,
+		],
+	},
+	1x1_CRIB_BOTTOM: {
+		FPS: 0,
+		SHADOW_LENGTH: 3,
+		SHADOW_HEIGHT: 0,
+		ROTATES: true,
+		FRAMES: [
+			2xBED: 5,
+		],
+	},
+	1x1_CRIB_TOP_FENCE: {
+		FPS: 0,
+		SHADOW_LENGTH: 2,
+		SHADOW_HEIGHT: 0,
+		ROTATES: true,
+		FRAMES: [
+			2xBED: 18,
+		],
+	},
+	1x1_CRIB_BOTTOM_FENCE: {
+		FPS: 0,
+		SHADOW_LENGTH: 2,
+		SHADOW_HEIGHT: 0,
+		ROTATES: true,
+		FRAMES: [
+			2xBED: 19,
+		],
+	},	
+	2x2_DECOR: {
+		FPS: 0,
+		SHADOW_LENGTH: 0,
+		SHADOW_HEIGHT: 0,
+		ROTATES: false,
+		FRAMES: [
+			CARPETS: 2,
+		],
+	},
+	1x1_TABLE: {
+		FPS: 0,
+		SHADOW_LENGTH: 3,
+		SHADOW_HEIGHT: 0,
+		ROTATES: false,
+		FRAMES: [
+			TABLES: 0,
+		],
+	},
+	1x1_DECOR: {
+		FPS: 0,
+		SHADOW_LENGTH: 1,
+		SHADOW_HEIGHT: 0,
+		ROTATES: false,
+		FRAMES: [
+			TOP: 10,			
+		],
+	},
+},
+DESC: {
+	TEXT: "A meticulously crafted stone nursery for Finestorian children. Built with the finest materials and precise craftsmanship, it reflects their cultural dedication to quality and detail. Young Finestorians are nurtured with wholesome bread and small amounts of beer, preparing them for a life of honest labor and craftsmanship in service to Crator.",
+	REQUIRED: "Requires a population of at least 20 Finestorian citizens.",
+},

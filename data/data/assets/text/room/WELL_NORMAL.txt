@@ -1,0 +1,35 @@
+INFO: {
+	NAME: "Well",
+	NAMES: "Wells",
+	DESC: "Can be used to endure hot weather or get clean.",
+	WIKI: {
+		CATEGORY: "Service",
+		NAME: "Well",
+		TEXT: "Can be used to endure hot weather or get clean.",
+		CATEGORIES: [],
+	},
+},
+
+STATS: [
+	{
+		NAME: "Spots",
+		DESC: "Available spots",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Well",
+		DESC: "",
+	},
+],
+
+SERVICE: {
+	VERB: "Washing up",
+	MORE: [
+		"We need more wells to quench our thirst.",
+		"Better access to clean water would be very convenient.",
+		"More wells would help with the odor here.",
+		"We need more wells to quench our thirst and freshen our faces.",
+	],
+},

@@ -1,0 +1,3 @@
+NAME: "Paper",
+NAMES: "Paper",
+DESC: "Paper is the basis of knowledge, used by libraries.",

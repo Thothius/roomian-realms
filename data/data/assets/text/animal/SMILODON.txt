@@ -1,0 +1,5 @@
+INFO: {
+	NAME: "Smilodon",
+	NAMES: "Smilodons",
+	DESC: "A deadly, fast, killing machine, this huge omnivore can run down any other known grounded animal. It often stays away from humanoids, but does not shy away from a fight. Few live to tell such a tale.",
+},

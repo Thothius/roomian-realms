@@ -1,0 +1,704 @@
+!IMPORTANT! Versions of the game are denoted 0.XX.YY. XX is the major version. Savegames are not compatible between major versions. If the game updates, you might not be able to continue your previous save. But all is not lost! The saves are still there, and all older versions can be checked out as betas on your store gadget in order to load your saves.
+
+!2025-02-21 0.68.29
+Admin tool tech set to max 2.
+Lab innovation max increased to 1M
+Fixes power calculation for armies
+
+
+!2025-02-17 0.68.28
+AIs will build production buildings = raid loot
+raiding stance fixed
+Mercenaries have lover upkeep cost
+soldiers leaving for the world grabs their gear if they can
+wider river generation
+micro optimisations
+
+!2025-02-13 0.68.27
+Bug fixes
+Last raider adjustments, sorry...
+Will now continue in a super-beta patch, which will include balance changes. From now on, you can continue to play without worry I will mess it up.
+
+!2025-02-12 0.68.26
+hotfix. Bug fix for attacking raiders.
+
+!2025-02-12 0.68.25
+Bug fixes.
+Resetting raiders again, and trying a new function for their generation.
+Multiple raiders will mean slower raider spawn, so it's not that bad.
+
+!2025-02-12 0.68.24
+Raid chance added to realms, not be to confused with regular raids.
+Regular raids, if not attacking your city directly, will take longer to appear, and you'll know in what region.
+Option to ask a neighbour to fight the raider for you.
+Raiders, big and small, will raid a region into 100% devastation before they assault it.
+Admin needed number reduced into manageable number. UI fix under way.
+Raider demands adjusted.
+Raider wealth now based on population.
+Soldiers grab their gear before leaving the map to a world army.
+Nowhere to hide your stuff. Haulers, import depots and export depots count towards wealth and can be looted by raider.
+Stuff on ground degrades twice as fast.
+
+
+!2025-02-07 0.68.23
+Bug fixes
+Bug fixes in trade, so prices might get different.
+
+!2025-02-05 0.68.22
+Hotfix for previous patch.
+Updated java for linux
+
+!2025-02-05 0.68.21
+All reported bugs sorted.
+
+!2025-02-04 0.68.20
+Bug Fixes
+
+!2025-01-31 0.68.19
+Tech tree remade. Should overall me a bit cheaper, and tools are accessible early. Might be that it's a bit messed up.
+Carpenter warhammer recipe changed to be more economical
+Fixed empire tech texts - they had extra "
+Embassy input resources increased
+Argonosh and Cantors now have some liking for wells and hearths - this prevents them dying from exposure due to them being automatically disabled
+Eliminated two occurrences of the wrong ' being used - should be all of them now - files are the specific-amevia one and the monument_blob
+Road third upgrade fixed
+Bank output reduced by 50%
+Removed tech for opinion and embassies, but increased embassy impact by x3.
+Adjusted opinion for chivalry and cruelty
+
+!2025-01-28 0.68.18
+Adjusted the global market so that specialisation is on par with generalisation when it comes to trade.
+Doing this by adding a special tarif for the player, based on a set amount of goods per day. The penalty comes into play when you exceed this amount.
+I have add a little under baked UI for this on the trade screen.
+Adjusted the toll so that trading with immediate neighbours is free in this regard.
+Markets might need some time to adjust.
+Decreased the up front cost of agreements, such as trade.
+Paper production boosted by 30%, although admin consumption is higher.
+Food production boosted by 40%
+Havens demands adjusted.
+Transports available from start.
+Cheaper plumbing tech
+Decreased raider difficulty slightly, although this is for new games.
+More nobles at 500 pop.
+Moved 1 boost from the tech tree to experience.
+
+!2025-01-25 0.68.17
+Daily bug fixes
+
+!2025-01-24 0.68.16
+Hotfix for previous patch II.
+
+!2025-01-24 0.68.15
+Hotfix for previous patch.
+
+!2025-01-24 0.68.14
+Bug fixes
+Added a technical change to the display, so might be new display issues, please inform me if this is the case.
+Raiders can't retreat.
+Raiders can't spawn in small puddles.
+Fixed Korean translation.
+
+!2025-01-23 0.68.13
+Adjusted the prospects of regional industries.
+To clarify, this is not the "nurf", this is to create variation in your game. The nurf is in the gov points mainly. It's not supposed to replace the "natural" prospects either, those are the primary factors. can be adjusted further.
+Free access to other region's info.
+Room downgrade function, which hopefully helps in the lab death spiral, and can be otherwise useful.
+
+
+!2025-01-22 0.68.12
+Decreased army size of neighbours in early game.
+Fixed sieges.
+Not counting capitol military equipment as part of your wealth.
+Fixed unite negative value.
+Fixed some diplomacy issues, so you might be bombarded by forgotten proposals the first minutes.
+Sadly, this also means that some who should have declared war on you now actually will.
+This might make empire stage very difficult, but it's easy to adjust that based on feedback.
+Increased bonuses from technology, and decreased cost for technology techs.
+Clothes max is now 6. Wear rate halved, and production slightly increased.
+
+!2025-01-21 0.68.11
+Increased armies of far away factions to allow them to expand better.
+Made it so that armies close to the capitol can join when attacking invader.
+Poison and some other opinion fixes. Kind of did not think poison through. Poisioned faction would snowball poison. Should be fixed now unless I missed something.
+
+!2025-01-20 0.68.09
+Performance issues with the new monument aura calculation, causing slowdowns.
+x2 health and law. These are supposed to be late game problems.
+Growth / pop decline in regions adjusted.
+Hospital radius greater
+Fixed peace negotiations
+Fixed manual trade prices.
+
+!2025-01-19 0.68.08
+crash fixes
+many smaller fixes.
+
+!2025-01-17 0.68.07
+Performance fix
+
+!2025-01-17 0.68.06
+Crash fixes
+Some battle/siege issues
+Gift opinion fix
+tutorial issues
+
+!2025-01-16 0.68.05
+fixed restart option of battles
+Minor fixes
+
+!2025-01-16 0.68.04
+Fixed some performance issues
+Fixed music
+Save time stamp
+Home isolation fix
+Some exposure balance
+Pool fulfillments
+steam deck fix.
+Battle result crashes.
+
+
+!2025-01-15 0.68.03
+Fixed irrigation.
+
+!2025-01-15 0.68.02
+New event mechanics & new and refined events.
+Better and more error resistant saving
+Baths consume coal at a predictable rate
+Changing room materials do not crash saves
+new and improved bonuses and stats for regions
+new and improved road and path generation for the world.
+new mechanics for world pathing and trade partners. 
+More state is saved when a room is copied or broken. Such as radius, and logistics settings.
+Stage & Arenas now have fixed sizes, but come in different shapes.
+Some visual candy for the woodcutter. Increased storage for them.
+Mines and refiners have differently sized output storage, bigger in general.
+Pastures do not get penalised for their surrounding fence, which will make indoor pastures better.
+new sprites for dirt and blood for portraits
+new tutorial cut scenes
+new titles icons
+Barber is more space efficient.
+Hospitals need fabric to function, and give 10% recovery. Opiates is optional and gives an extra 40% recovery.
+The import depot is now a potential pull source.
+New list for room construction projects.
+You can now easily swap punishments for captives, they will not go into exile. Also fixed some general weirdness with punishment rates.
+Pools now need direct canal access and will suck water out of the system.
+Woodcutters, farms, orchards and pastures now operate on base fertility, and will instead get an additive boost from sweet water.
+The old boost to knowledge from libraries is scrapped. Instead Libraries have their own separate tech point system.
+The tech tree has been remade visually with some new helpful information.
+The tech tree has been remade and rebalanced, quite a bit of thought has been put into it: All industries now have the same possible maximum boost at the same cost, making it viable to specialise in whatever.
+All industries have different times to shine, mimicking human evolutions. Farms are best at first, then comes mines, refiners and finally workshops that are best late game. In have all the same value.
+Army supply depot has been remade. It no longer stores supplies, but instead loads carts depending on demand, and leaves for the edge of the map. Considerable logistics is needed for large armies.
+Rooms no longer breaks when they are fully degraded. This is because I can now track monument degrade.
+Awe, harmony, etc. is scrapped. Instead all monuments have their own aura. This is so that monuments can be expanded upon.
+Some rooms like markets lets subjects register their surroundings. 
+Pools work the same way as roads in terms of fulfilment.
+Improved rendering speed significantly, which will also increase game speed.
+New improved work assignments. Plebs will automatically change workplace based on their building preference. There's also the possibility to assign individual rooms to specific races. This is not an absolute tool, more of a hint, but it's working pretty well.
+Refactored the region development code. City hall is built with government points, generated by nobles. 
+Excess world workforce generates denari.
+Growable taxes are only shipped on their harvest day.
+Admins are repurposed. An admin combats mid/late game overhead that will come creeping. Overhead increases exponentially.
+The old noble offices no longer exist. Instead, when you've appointed a noble, you assign them to an office manually. These offices are split between different industries and regional management. The former boosts a limited amount of workers. The latter will result in Gov Points that are used to upgrade regions.
+Export depots have spoilage
+Events for regions
+Ores generate differently on the city map. You get 100% deposits, but only enough for 30 workers without world deposits. This is to make self-sustaining early games possible.
+Consumption of edible goods added to the UI.
+New world battle mechanics. Better and more stable engine, with more options, such as defending a city with an army on top, assist you allies, and more.
+Got rid of the false virus flag.
+Enhanced the tutorial.
+REgion buildings rebalanced and fixed.
+Organization in regions is gone.
+Added 'Worth' to regions. It's a function of mineral deposits, fertility and area. It is used by the AI to estimate how much they want the region.
+Showing your net worth in the treasury UI.
+Showing a factions net worth in their UI.
+net worth includes worth of your population as slaves. Each pop is worth their upbringing time x the cheapest food in Syx x 2. This was bugged before with the average price of food, which could be very high.
+Fixed broken power calculations, which were a cause of raider and AI strangeness.
+Retirement fulfilment based on your total amount of retires.
+Threat is renamed into Rivalry, and is not counted towards your trade.
+You get penalised bad for failing to protect your vassals. 
+Vassal tribute slightly decreased. Their armies will attack your enemies though.
+You get a trespassing penalty from moving armies in un-allied territory.
+If you have an army in a distant faction's territory, they are allowed to declare war on you.
+Factions that are at war with you, yet can't reach you, will continue to be at war with you until you make peace.
+When signing peace, you sign a peace with all factions you are at war with.
+Peace deals are less powerful. To get some cash from it, you seriously need to threaten the AI by having armies in their territory.
+Factions must break off their agreements until neutral before they can declare war.
+Wars decrease the opinion of your allies over time, along with city loyalty and region loyalty.
+Neutral factions will station their armies by your border.
+Raiders may cross through any other faction to attack you.
+Raiders will demand more unique and varied things.
+Raiders will on occasion destroy a trade partner instead of you.
+Minimum opinion is needed for trade, pact and ally. This is so you know what opinion is expected to upkeep your stance.
+Factions with low opinion, that can not attack themselves will "poison" all other factions against you. Given enough time, war will break out. 
+Factions that can't reach you, but wants to kill you, can give their armies to a neighbour at war. They can not start wars though, other than "poisoning" your neighbours. 
+Increased flattery from emissaries.
+Fortifications have different and better ways of being destroyed. Enemies can scale the walls if the outer tiles are broken. This means the thickness of walls is only used to station troops on.
+Drastically decreased the strength of every structure that is not fortifications, to emphasise their important. 
+I have a hugely genius plan to improve the importance of fortifications for 1.0. Just wanted to mention that.
+It could also be possible to shift the map when you are invaded to the invasion spot. That is, move all buildings away from the invasion spot, which would allow you to make better use of archers and artillery (think about that will you)
+Friendly fire from archers reduced.
+Trees only block 50% of projectiles, and are no longer a real obstacle.
+Fertility changes. Fertility now goes from 0.5-1.2 in bonus. Irrigation goes from 0.5-1.0. So irrigation is mandatory for all maps. You get free irrigation close to natural water places.
+Annoying sudden confusion of divs in formation fix.
+Div movement 'stuttering' fix.
+Defenders on walls get "high ground" advantage in melee combat. This is x2 on grand fortifications. This should give the defender a clear advantage. 
+Pathing for divisions improved
+Intanglement for divisions improved
+New setting for ranged units where they will not move to attack targets
+UI for battle improved.
+
+
+!2024-10-10 0.67.44
+more fulfilment in general
+fulfillment weights changed
+hearth -> 3.5
+well -> 4.5
+market -> 3.5
+lavatory -> 3
+stage -> 3
+ores, wood, and fish prices were off. Fixing those.
+Tariff was based on factions production rate. When a faction Imported things that were cheaper from other factions, they would use this tariff, leading to too high tariffs.
+Factions use their workforce to adjust their inventory amounts. Factions trade with each other, leading to the Factions using their workforce to adjust their stockpiles. The player thus had unpredictable AI workforce to utilise in trade. Fixed that.
+Upgrade tech cost for fishery and woodcutter reduced.
+Adjusted raiders. Only for new games. If you want them in your game: developer mode -> top-right cog -> RAIDERS RESET
+Had to fix conversion of religion, which got a bit messy. Let me know if something went wrong.
+Decreased crime a tiny but.
+Added more tech for lawfulness.
+Notification button for sieges.
+Bug fixes
+
+!2024-10-03 0.67.43
+Maintenance monuments fix
+
+!2024-10-02 0.67.42
+Last little fix. Battle CTD
+
+!2024-10-01 0.67.41
+minor fixes
+since my maintenance fix, actual consumption of resources were broken. I've now fixed that, so brace yourselves.
+
+!2024-09-26 0.67.40
+Fixed hospital impact on sick people.
+Minor fixes
+drinks are cheaper
+all service access settings will reset.
+
+!2024-09-26 0.67.39
+battle crash fix
+re-added some lost music
+
+
+!2024-09-25 0.67.38
+Bug fixes
+
+!2024-09-24 0.67.37
+Nursery fix
+torch cost/maintenance reduction
+maintenance fix. Significantly decreases janitor need by putting several jobs at the same tile.
+
+!2024-09-23 0.67.36
+Some pull order QoL
+Faster repairs when rooms are heavily degraded.
+
+!2024-09-19 0.67.35
+Some minor fixes
+New underlaying economy changes for recipes and their outputs to make all recipes trade the same. Hopefully the last time I'll change prices now.
+
+!2024-09-19 0.67.34
+Fixed the economy I screwed up.
+Game more children possible in nurseries.
+Event fixes
+
+!2024-09-19 0.67.33
+Fixed death from disease in hospitals
+
+!2024-09-19 0.67.32
+Fixed clay price, adjusted livestock price (resetting all prices in old saves)
+Others fix for Amevia
+Some minor fixes.
+
+!2024-09-18 0.67.31
+Auto repair enabled where maintenance is toggled if something breaks.
+Fixed maintenance dropping instantly to 60%
+Slashed resource costs of all monuments. You'll have to rebuild them to get the new values. The values will return, but I need upgrades for the monuments.
+reduced raiders slightly more. Still in need of feedback here, where you currently are on the ladder, what your defences are like. How much stuff you have.
+A battle prompt fix
+Rebalanced all industry construction materials.
+Rebalanced pasture output and prices. Now all pastures trade the same.
+
+
+!2024-09-18 0.67.30
+emergency fix for disease
+
+!2024-09-17 0.67.29
+jobs such as tunneling should be a bit faster now, since I reset the cooldown of searching for rooms whenever a job completes.
+food rations -> food servings
+decreased the cost multiplier of degrade tech
+Fixed some issues with disease and hospitals.
+
+
+!2024-09-16 0.67.28
+Invasion event fix
+Opinion text fix
+robustness tech cost decreased
+degraded rooms release less resources when removed.
+Tree monument degrade fix
+Raider strength decrease.
+repaired degraded rooms will become undegraded, and not break.
+
+!2024-09-14 0.67.27
+MAINTENANCE explot fix;
+Road access, preference, speed and environment affected by road degrade.
+100% degraded rooms will now collapse
+Upgraded rooms which upgrade is locked can not be maintained.
+Roads which upgrade is locked can not be maintained.
+(Maintenance for pools will need to wait until a savebreaking version.)
+(house upgrades will be solved by using the tech as a stepping stone to something you need in perpetuity)
+
+Endless siege prompt fix
+Degrade consumption tooltip fix
+Broken tavern fix
+UI panel for subjects fix.
+
+
+
+!2024-09-13 0.67.26
+Fixed number input bug that I created in previous patch.
+Adding stairs to fortifications.
+A fix to shape mechanics
+Guard post prospect radius fix.
+Attempting an accident fix.
+fixed drink rations
+emigration bug
+resources display degradation consumption
+
+!2024-09-12 0.67.25
+Accidents count the number of injured and dead, to time the next accident. Accident rate is x5 higher though. This means that if you have accidents of 5 people, the frequency will be the same. If you have 10 people injured, the frequency will be 50% less.
+Disaster events will not break mountains or water.
+Some text changes.
+Event changes.
+Gave all types of subjects their own panel.
+
+!2024-09-11 0.67.24
+Some trade fixes, made refined goods fairer to trade with.
+Fixed the cantor slaves event into a surprise.
+Added some settings to the launcher that might help with screen issues.
+fixed roundness/squareness
+Fixed many wrongul death counts that were not wrongful
+Attempts to slow down death spirals
+Fixed tutorial
+Crash fixes
+
+!2024-09-10 0.67.23
+Fixed up biographies
+Restructured events
+Livestock more expensive, slaughter all more effective
+Siege fixes
+crash fixes
+
+
+
+!2024-09-09 0.67.22
+Upgrade tool fix #2
+Longer sieges
+Fixed furniture consumption counts.
+
+!2024-09-08 0.67.21
+Fixed consumption tooltip of furniture.
+Maintenance event fix.
+Fixes to upgrade tool
+Added some temporary loyalty when rioting.
+Fixed the dump from being less thick than 3 tiles.
+garrison replenishment fix
+biography fix
+Monument shows degrade
+small fix to shape overlay
+
+!2024-09-07 0.67.20
+Some flags added to a settings file so that tabbing on multiple monitors can be debugged.
+Raiders not active until you unlock the training grounds.
+Fixed dead raiders when loosing an attack
+Possibly fixed raider morale when attacking you.
+Added degrade to the monument tooltip.
+
+
+!2024-09-06 0.67.19
+Fixed the paint tool
+Fixed roundness not updating
+
+!2024-09-06 0.67.18
+Removed noise preference from Dondorians. It does not work. They do however not hate it like others.
+Fixed some strangeness for region numbers. Strange regions should return back to something normal with time.
+Resources now display furniture and equipment consumption.
+
+!2024-09-05 0.67.17
+
+IMPORTANT:
+This version can load V66 saves. Some oddeties and things resetting is expected though, and the balance is different. I recommend starting a fresh city.
+I have switched from oracle java 8 to openJDK for all OSes.
+I have a new way of creating displays, that should solve problems for linux borderless, but may cause issues on other platforms.
+I've also updated the game's framwork, which always causes some bugs.
+
+I've remade the priorities (priorities visible in the property tab) to make a more dependable schedule for subjects.
+All activities a subject can do have a need to them, which can be tempered with through mods and events.
+There are now essential services, such as food. And non essential, of which 2 is selected each day and consumed.
+A proximity stat that is tracked for each citizen. Is added to production calculations. Measures the time they're doing other things than actually working while working, such as hauling goods. Good for optimising industries. 
+Onx pasture produce more cotton
+Special amount setting for warehouses, lets you use one crate with a specific capacity. Needed for the new maintenance overhaul.
+Both the new setting and pull orders are now copied when pasting a warehouse.
+Fulfilment formula made a lot easier for early game, and harder for late.
+Maintenance is now a science instead of something flimsy. There are strict rules, and as such the cost can be estimated. I've added the estimates to the UI where they are needed. Maintenance will now be a much bigger factor in your economy.
+Retirement age made more important, and set it to start at half. It will slowly make its way to whatever you set as the target, so you hopefully can't cheese it.
+Services fulfilment rebalanced. More diminishing returns.
+Some changes to fishery deep sea access.
+Upgrades available for monuments with fulfillment in regards to it.
+Torch have upgrades.
+New upgrade placer tool.
+Better saved blueprint UI and functionality.
+Guard post has upgrades
+Light removes snow
+Encyclopedia has been redone. Some functionality added.
+Nursery UI facelift
+Tourism fixes. Increased amount and money from tourism. Added more races. 
+Added diplomatic penalty for disallowing tourists.
+Changed disease. Disease can be avoided with near infinite tech upgrades late game. Will later be replaced by a medical research facility.
+Crimes should also increase as you grow indefinitely, but has tech to offset it. Will later be replaced by police buildings.
+New revolutionary event mechanics. Makes it easy to add many events, and have them affect the game. Over 100 events added.
+Fixes of Dondorian and Cretonain portraits.
+New biographies for subjects, deeply tied to traits, and custom for races.
+The wishes of subjects are much more colourful and race specific.
+Religion conversion now works for both shrines and temples.
+Many more rooms now have more upgrade stages, and the upgrades are expensive to maintain.
+Pastures now have useless cubs for 6 days. Slaughter all output is increased though.
+Transports have radius, increased capacity, and can be loaded when they're away.
+Food and drink production increase, but higher food/drink rations possible. You only get this bonus if rations are > 1. Rations can now be fractions.
+Removed water need for baths. (I'm not sure what I/you want. Either water should play a substantial role in city planning, or just for agriculture) 
+New raider mechanics
+- a fixed number of raider groups are pre-spawned and known from the start.
+- these come in different powers
+- only a span of raiders are interested in you at any given stage of the game.
+- This span are the ones that can pose a challenge to you, and the ones that think you are worthwhile.
+- The system is self-balancing, sort of like a ladder that you climb with your wealth. If the raids are too hard, they will grab your stuff and bump you down the ladder. If it's too easy, you'll climb the ladder.
+- start difficulty determines the offset of the span you are currently in.
+- raiders can be killed, either by attacking them manually, or defeating them in an invasion.
+- you get a bounty for killing raiders.
+- a killed-off raider can be respawned. If all raiders are killed, a new raider will spawn every 10 years, so that's the max rate. Don't want it to feel endless, but also don't want to completely kill the system.
+- raiders will spawn like in V66, or at the edge of your realm as a rebel army.
+Made some changes to borderless window creation. Let me know if I broke / fixed something.
+Added army supply consumption to tooltips.
+Better room ordering in lists.
+Room name based on amount of room, not iteration of room.
+Special floors for rooms override by race. For instance Garthimi have their organic floors for them. This can be implemented for every race.
+Auto immigration only counts adults.
+Nurseries have local limits.
+Toggle for automatic roads underneath benches etc.
+Better on-hover on the world map.
+Culvert overlay
+Room build overview tweaks
+Archery speed tech
+Cobblestone repainted
+Better search for bottom panel
+Indicator for planning mode
+Historic data for available technology points
+Extra cost when constructing room more prominent.
+Indoor pastures gate placement improved.
+Some indoctrination/education changes.
+Saved bluprints work on unfinished rooms.
+Auto immigration has numerical input.
+Minimum treasury setting for imports
+Room problem overlay
+Tilapi happy in slaver and cannibal
+Janitor overlay show all combined radiuses.
+Indoor pastures get boost in mountains.
+Warehouses start with 100% radius.
+toggle all select for pull orders
+Fill tool improvements
+Woodcutter items can be placed on trees.
+Moved tooltip when managing equipment of divisions.
+reconstructing rooms and cancelling rebuilds them instantly.
+Hotspots left click to navigate, right to edit.
+Overlays remove the hard shadows in mountains.
+Resolution UI problems.
+Trade price added to resource tooltip.
+minimap settings are saved.
+Added equipped tool consumption to resource tooltip.
+Made minimap entity coloring a bit better.
+Race filter for minimap
+A bit less forest generated on the world map.
+Mural of the main menu completed.
+Service proximity is now impossible to get to 100%. But the upside is you can always find a better layout for your city.
+Much more accurate workload values.
+Temporary loyalty boost when invaded or when there is an epidemic.
+Experience bonuses for industries rebalanced.
+All industries construction materials have been balanced to be uniform, and prevent early upgrades (through the maintenance cost).
+New icons here and there.
+Trade tariff increased.
+Inflation increased.
+the two above might decrease again once I fix more world mechanics.
+Roundness change. Now both roundness and squareness exist. Humans like both, so you need a good 50:50 ratio for it. This is not registered in rooms.
+New Revolutionary trading system. Lets you export machinery with the same profits as grain if your trade partners are big enough. Also affects wood prices when trading furniture.
+Accidents more rare, and more severe.
+Livestock is now a recipe in all pastures, and can be traded normally.
+some logistics QoL
+Fixed world fortifications
+snow and ice removed when the weather setting is off.
+
+Contributions
+Roberto Díaz Pérez - more and better place types.
+Vanir - lots of the above
+Krastor - lots of the visuals above
+
+!2024-05-20 0.66.47
+
+MISC
+Campaign engine. 
+The tutorial converted into a campaign. 
+Selectable scripts when generating random game.
+Different "scenario" options. A scenario is a save that you can distribute with mods. Battles for instance.
+Trait system remade and reworked to work both or royals and subjects.
+Military equipment has efficiency based on race, added as a modding request. I've added some malus to the Argonosh.
+All kinds of racism is now connected in the world and your city, and other factions.
+Save resilience. Saves should now be able to be opened with different mod configurations, if the mods are not too exotic. Custom maps also have a good chance to work all the way to 1.0 as well.   
+14 new sountracks. The soundtrack is now complete.
+A nifty little property saver that saves for instance wall-type in room construction to your profile. Can be used to save many such QoL, suggestions are welcome.
+New menu background
+New Titles: The Undefeated, The Incompetent, The Merciful, The Merciless, The Wise, The Bureaucrat, The Clumsy, The Gourmand, The Entertainer, The Drunkard, The Caretaker, The Pleasurer, The Uniter
+Setting for rain and thunder
+Tidied up unused strings
+Better overlays.
+Production rates rebalanced. Early resources and food have a boost. Later resources a slight nerf.
+Changed some overlay color from blue to purple, hopefully easier on the eyes. MAde all such colors moddable.
+
+CITY
+Admin and knowledge now have sticky production, meaning values will not swing back and forth during the day.
+Accidents are back. Also some panic when accidents occur.
+Pimped the Embassy. Made it more space efficient. It now needs jewellery and fabric, although it's optional as the admin.
+Sick and injured people no longer counts as workforce, enabling you to control work priorities properly.
+Soldier fulfilment based on total number of soldiers, not per race.
+Grave mourners now stand beside the grave.
+Market rooms keep their settings when copied.
+Pasture output tiles capacity increased.
+Overtime now has significant penalty to happiness.
+Water pumps can now only be placed on ground water. You must plan for the canals.
+Data for resources and credits are now per day instead of per season.
+Resource piles have much greater capacity, reducing their amount and potential lag if the map becomes filled with them.
+Rooms listed in construction order
+removed entrance check when building rooms, allowing you to build in mountains.
+Saved blueprint now moved to the construction screen of individual rooms. Saved blueprints made more robust.
+Made some small changes to the bottom menu. I know you don't like this, but it's for the better. Some small changes might occur next patch, but after, I'm done.
+Food preference improved. You'll get a slight value when there is one out of many.
+Service overlays now better.
+Entertainment buildings keep better count of available services.
+Services such as food stall and restaurant now count to fulfilment by themselves. Restaurants are on average used ever 8th food stall day. 
+Tree regrowth rate halved, and woodcutter production boosted.
+Auto employ removed from crafting buildings.
+More road types, and they look better.
+Road access remade. Now remade into preference, which works the same as the building materials.
+Hospitals now offer fulfilment to citizens. It is the number of employees that matter, not beds. Employees now spend the days caring for patients, or walking around.
+Multiple drink types. I only have two. Tavern has been pimped, and has an upgrade. Drink preference works just as food preference.
+Massage parlour added. What happens in there is up to everyone's imagination. In practise, it is just another service, but reduces health slightly.
+New room "stockade" is a holding place for prisoners. It is dirt cheap, and it is not a punishment. Prisons are now purely a punishment.
+Law is remade, so it starts at full fulfilment, then climbs down as crime starts appearing.
+Added escape events to stockades and prisons.
+Work priorities and the assignment mechanics got some love, and now work better, even when priority is 0.
+-Logistics remake-
+Two new major things to know about. Fetch and deliver orders. These are set per room. They are similar to the old "empty to" functionality.
+The warehouse have 4 available fetch orders. In addition, it also has a toggle for "regular fetch", and a true store function. It also has a limit that decides how much other storage fetchers may fetch from it.
+The hauler has the same things, but only two fetch orders.
+The old fetch mechanics is thus retired. Warehouses will only grab stuff from the ground and from production rooms, if no fetch orders are issued.
+Logistics are nerfed a bit. They have less radius, and less carry capacity. The carry capacity is based on race and can be upgraded. Garthimi sucks, Dondorian and Cretonian excel.
+Transports have 4 delivery orders available. Their capacity is now 60, and they will depart more regularity. Their speed is slower than a regular pleb, but they obviously carry a lot more. They are good for moving big numbers of resources. For few numbers, a warehouse will do.
+Export depots and military supply depots work similarly to warehouses, in that they grab resources on the ground, and also have pull orders.
+The "export when over" is thus scrapped and replaced by the power of the pull orders. 
+The army supply works like a warehouse with 2 fetch orders available. 
+Exposure tweaks. You must now provide wells and hearths all over the city, as everyone will become cold and hot. Clothes will only decrease the frequency of getting cold/hot, thus making the city more efficient.
+Divisions when sent out to an army will take some time to return.
+Option to send out divisions even if they're not fully trained.
+Raids pimped up. They no longer spawn an army, they attack directly. You have a chance to fight them on the field.
+Raid chance is reworked. Now based on riches (resources, slaves and credits) and your military power. Also your military reputation.
+Raids no longer scale as you defeat them until you're faced with impossible odds. Instead they are randomized each time.
+Raiders have a captain and a name.
+There are a number of unconditional raids added that you can't avoid.
+Roundness is now an addative value.
+Made some visual changes to walls.
+Some 20+ techs added and tech tree restructured.
+Refined how slave submission works.
+Food has an artificial price multiplier to account for spoilage and large volumes, making a food based economy viable.
+Ration maker now cheap to build + some cheap crappy recipes to get you started. + upgrades.
+More accidents, but meaningful techs to counteract them.
+Reduced spoilage for crops. Cheaper techs for preservation. Less spoilage when things are stored.
+Mandatory retirement when plebians are over 85% of their lifespan.
+Woodcutter work density increased by x3
+Fishery small bonus from deep sea spots.
+Consumption info when hovering resources. Trade info in the treasury screen.
+Pump's capacity increased to 100 tiles.
+Added upgrades to service quality breakdown.
+
+
+WORLD
+Generation now tries to base the size of the region on capacity, meaning larger, infertile regions.
+Roads made a bit more pronounced.
+Some color and sprite changes.
+Editor. To share maps you make, make a mod and put the save from the editor into custom folder.
+Havens now have lower requirements in order to join you. More will join if you exceed the requirements though.
+Build points removed. World buildings rebalanced.
+"Organisation" a new world thing and is based on how much workforce you have allocated. Replaces distance, although distance is still there.
+Organisation lets you either expand though upgrades or through region amounts.
+Building buildings now has a new flow. Loyalty and health is based on the population target, not current population. Enables you to know exactly what to build.
+Building buildings is done in bulk that lets you experiment with different configurations without spending money.
+Prosecution in you capitol also affects regional happiness.
+Representation of species in your capitol affects regional happiness.
+Representation of nobles in your capitol affects regional happiness.
+Prices have been fixed all over, and is now derived from the prices of goods. For instance slaves cost their food and upkeep during breeding, and mercenaries their equipment and training.
+Region generation improved.
+Battle stats for armies and factions. Military reputation based on your prowess. Affects AI factions and in-city stats.
+Mercenary rework. Scales with your size, and have a long cooldown when disbanded, and low replenishment. Also correctly prices, more than it will cost you to train your own.
+Raid stance added for army. Allows you to get slaves and resources.
+Artillery is now an army supply.
+Only rations and clothes are mandatory, drinks improve morale.
+
+FACTIONS
+Opinion "threat" now reworked. Based on population vs Ai's population, meaning small states will hate you more/faster. Some additional stats added.
+UI of opinion enhanced.
+Reworked emmisaries. Now a diplomatic point system. Points allocated will stick to the court when someone dies. Better UI for this.
+New "sabotage" diplomacy option in order to get a faction to attack you without getting a betrayal penalty.
+Betrayal added. If you act like a jerk, you will be severely punished by all factions.
+Factions will not attack you simple because they do not like you. They will make sure they can beat you in auto resolve.
+Factions with low opinion will secretly convince other factions to attack you with time.
+New diplomatic options available:
+Alliance -> a military alliance, you will share enemies. You can get a cheap alliance by helping someone out that is at war.
+Colleague -> a non aggression pact. Promise to not attack each other.
+Vassal -> become, or make a vassal. A vassal pays a yearly tribute to its overlord, and is protected by it. As an overlord, you can pick what kind of tribute you want, and as a vassal, you'll pay 15% of your shit each year.
+Protector -> above reversed
+Join Federation -> Unite. Pay a hefty sum to have a faction join yours without bloodshed.
+New trait system for royalties. Shapes a unique personality that has a large impact on your relations. Hopefully this will prompt you to assassinate more.
+All factions now has an army. These armies grows slightly as you expand.
+Initial generation of factions makes sure you will have nice progression. The neighbouring factions are immune to events, and will stay there until you're ready to expand.
+Slave trade.
+War diplomacy fixes.
+The betray system hopefully fixes exploits, such as selling a region and then attacking it shortly after.
+Opinion has less impact on trade prices.
+
+
+SOUND
+Reworked the sound engine.
+Added multiple new sounds in theory, but I haven't added much of the actual sounds.
+Sounds that you can be added by modding:
+-Room ambiance
+-Room on click
+Furthermore, there will be a variety of sounds coming from the subjects themselves, but I'm saving these until after 1.0, as it will not affect saves.
+
+MODDING
+Some changes to scripts. Now there are selectable scripts, and forced scripts. Forced scripts can be adding ui tools or whatnot, selectable is a traditional script. Scripts are selected on a new random game.
+
+
+Battle from menu (to add a battle to a mod, find the save folder and use the __Battle.save file for your previous battle.) 
+
+TITLES
+
+
+make fortifications of region more apparent.
+
+Battle balance
+
+

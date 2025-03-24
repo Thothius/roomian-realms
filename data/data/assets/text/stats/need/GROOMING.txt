@@ -1,0 +1,2 @@
+NAME_NEED: "Grooming",
+NAME_RATE: "Vanity",

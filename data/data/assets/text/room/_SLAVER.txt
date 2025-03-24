@@ -1,0 +1,30 @@
+INFO: {
+	NAME: "Slaver",
+	NAMES: "Slavers",
+	DESC: "Where caught criminals and other prisoners are taken for introduction to their new career - slaves.",
+	WIKI: {
+		CATEGORY: "Law",
+		NAME: "Slavers",
+		TEXT: "Where caught criminals and other prisoners are taken for introduction to their new career - slaves.",
+		CATEGORIES: [],
+	},
+},
+
+WORK: {
+	TITLE: "Slaver",
+	VERB: "Enslaving Prisoners",
+},
+
+STATS: [
+	{
+		NAME: "Clients",
+		DESC: "Maximum prisoners.",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Station",
+		DESC: "Increases capacity.",
+	},
+],

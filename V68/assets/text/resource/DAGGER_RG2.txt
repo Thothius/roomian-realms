@@ -1,0 +1,3 @@
+NAME: "Dagger",
+NAMES: "Daggers",
+DESC: "Silent tools of a deadly trade. These blades are designed not just to kill but to open precise wounds for maximum effect. Assassins often coat their daggers with paralytic agents that keep victims conscious but immobile—ensuring they experience every moment of their demise.",

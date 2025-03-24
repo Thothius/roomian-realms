@@ -1,0 +1,44 @@
+INFO: {
+	NAME: "Mechanic",
+	NAMES: "Mechanics",
+	DESC: "Workshop that makes Machinery.",
+},
+
+BONUS: {
+	NAME: "Machinery",
+	DESC: "Increases effectiveness of Mechanics",
+},
+
+WORK: {
+	TITLE: "Mechanic",
+	VERB: "Making Machinery",
+},
+
+STATS: [
+	{
+		NAME: "Workers",
+		DESC: "The amount of workers",
+	},
+	{
+		NAME: "Efficiency",
+		DESC: "Efficiency increases production",
+	},
+	{
+		
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Storage",
+		DESC: "The internal storage for produce.",
+	},
+	{
+		NAME: "Work Bench",
+		DESC: "Where subjects work",
+	},
+	{
+		NAME: "Auxiliary Station",
+		DESC: "Adds Efficiency to the room",
+	},
+],

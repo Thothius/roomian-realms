@@ -1,0 +1,2 @@
+NAME: "Heaviest of Hands",
+DESC: "Gained by a lot of executions. Increases law.",

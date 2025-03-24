@@ -1,0 +1,66 @@
+NAME: "Cantor",
+NAMES: "Cantors",
+POSSESSIVE: "Cantorian",
+POSSESSIVES: "Cantorian",
+PRONOUN_HE: ["he", "she",],
+PRONOUN_HEC: ["He", "She",],
+PRONOUN_HIM: ["him",],
+PRONOUN_HIMC: ["Him",],
+PRONOUN_HIS: ["his", "her",],
+PRONOUN_HISC: ["His", "Her",],
+PRONOUN_HIMSELF: ["himself", "herself",],
+PRONOUN_HIMSELFC: ["Himself", "Herself",],
+
+HELLO: [
+	"Athuri be praised",
+],
+GOODBYE: [
+	"Until the return",
+],
+CURSE: [
+	"Astarii be damned!",
+],
+INSULT: [
+	"Mortal", 
+],
+INSULTING: [
+	"Rotting", 
+],
+LORD: [
+	"Foremost Mortal",
+],
+CITY: [
+	"city",
+],
+OTHERS: [
+	"mortals",
+],
+SELVES: [
+	"immortals",
+],
+SELF: [
+	"immortal",
+],
+CHILDREN: [
+	"Infants",
+],
+
+
+
+DESC: 
+"Cantors are mythical giants. The few of them that remain are primarily found in the north. They excel at battle, but are difficult to obtain and please."
+",
+DESC_LONG:
+"
+Cantors were the protectors of the Istari themselves. They fought alongside them from the first war to the final War of the Gods. The few that survived retreated north. Having one in your city is a privilege and they excel at warring and are very religious. Don't be thoughtless with their lives, as there are not many of them left. They have a great distaste for humans.
+",
+
+ARMY_NAMES: [
+	"Ashai's Chariot",
+	"Ashai's Wrath",
+	"Vengeance of the Astari",
+	"Thulks hammers",
+	"Sledge of light",
+	"Hammers of Thont",
+],
+

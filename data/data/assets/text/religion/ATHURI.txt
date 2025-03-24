@@ -1,0 +1,9 @@
+NAME: "Athurism",
+DEITY: "Athuri",
+DESC: "Followers of Athuri, the greatest of the Astarii. Promotes enlightenment and productivity.",
+
+WIKI: {
+	NAME: "Athurism",
+	CATEGORY: "Religion",
+	TEXT: "Athuri is the greatest of the Astarii in might, only falling short to Crator's physical strength. He led the creation of Syx and all its life, giving special attention to his creation of men. Had Aminion not interfered, this would have been his greatest achievement.",
+},

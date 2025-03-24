@@ -1,0 +1,126 @@
+ICON: {
+	BG: 24->race->Q_Amevia->0,
+	FG: 32->WATER->3,
+	SHADOW: 1,
+},
+RESOURCES: [STONE,FURNITURE,WATER,],
+AREA_COSTS: [0.3,0,0,],
+FLOOR: STONE_LIGHT,
+MINI_COLOR: 0_150_200,
+REQUIRES: {
+	GREATER: {
+		POPULATION_Q_AMEVIA_CITIZEN_I: 15,
+	},
+},
+RACE: Q_AMEVIA,
+ITEMS: [
+	{
+		COSTS: [2,0,1,],	** Pool Basin
+		STATS: [0,0,0,],
+	},
+	{
+		COSTS: [1,2,1,],	** Meditation Platforms
+		STATS: [1,0,1,],
+	},
+	{
+		COSTS: [0,1,2,],	** Efficiency
+		STATS: [0,2,0,],
+	},
+],
+UPGRADES: [
+	{
+		RESOURCE_MASK: [1,1,1,],
+		BOOST: 0,
+	},
+	{
+		RESOURCE_MASK: [2,2,2,],
+		BOOST: 0.5,
+	},
+	{
+		RESOURCE_MASK: [3,3,3,],
+		BOOST: 1.0,
+	},
+],
+WORK: {
+	SHIFT_OFFSET: 0.5,
+	SOUND: nature->Water*,
+	ACCIDENTS_PER_YEAR: 0.01,
+	FULFILLMENT: 1.5,
+},
+INDUSTRIES: [
+	{
+		INDUSTRY: {
+			IN: {
+				WATER: 0.2,
+			},
+			OUT: {
+				HAPPINESS: 2.0,
+				KNOWLEDGE: 0.1,
+			},
+		},
+	},
+],
+ENVIRONMENT_EMIT: {
+	_NOISE: {
+		AMOUNT: -0.3,
+		RADIUS: 16,
+	},
+	_RELIGION: {
+		AMOUNT: 0.2,
+		RADIUS: 24,
+		RELIGION: ATHURI,
+	},
+},
+SPRITES: {
+	POOL_WATER_2X2: [
+		{	
+			ROTATES: false,
+			TINT: true,
+			SHADOW_LENGTH: 0,
+			FRAMES: [
+				CARPETS: 0,	
+			],
+		},
+	],
+	POOL_PLATFORM_1X1: [
+		{	
+			ROTATES: true,
+			TINT: true,
+			SHADOW_LENGTH: 1,
+			FRAMES: [
+				CHAIRS: 2,	
+			],
+		},
+	],
+	POOL_PLANT_1X1: [
+		{	
+			ROTATES: true,
+			TINT: true,
+			SHADOW_LENGTH: 2,
+			FRAMES: [
+				DECOR: 13,	
+			],
+		},
+	],
+	POOL_RIPPLE_1X1: [
+		{	
+			ROTATES: false,
+			TINT: true,
+			SHADOW_LENGTH: 0,
+			FRAMES: [
+				FLOOR: 3,	
+			],
+		},
+	],
+},
+BOOSTS: {
+	Q_AMEVIA: {
+		ROOM_LIBRARY*>MUL: 0.05,
+		ROOM_UNIVERSITY*>MUL: 0.05,
+		BEHAVIOUR_PACIFISM>ADD: 0.05,
+	},
+	OTHER: {
+		HAPPINESS>ADD: 0.02,
+	},
+},
+DESCRIPTION: "A tranquil pool where Froggians can meditate and connect to their collective consciousness. The pool requires water to maintain but provides significant happiness and knowledge benefits to Froggians. It enhances their performance in libraries and universities while increasing their natural pacifism. The peaceful atmosphere provides a small happiness boost to other races."

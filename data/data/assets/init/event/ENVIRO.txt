@@ -1,0 +1,4527 @@
+PLAGUE_SHIP: {
+	ICON: 32->DEATH->1,
+	DURATION: {
+		DAYS: 1.0,
+		ACTIONS: [
+
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 0,
+			OCEAN: 1,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 1000,
+			},
+		},
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},	
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: PLAGUE_SHIP_YES,
+				},
+				{
+					TYPE: CREDITS,
+					PER_PERSON: 100,
+					HIDE_UI: true,
+				},
+			],		
+		},
+	],
+},
+
+PLAGUE_SHIP_YES: {
+	ICON: 32->DEATH->1,
+	DURATION: {
+		DAYS: 0.0,
+		ACTIONS: [
+
+		],
+	},
+},
+
+BIG_STORM: {
+	ICON: 32->WORK->3,
+	DURATION: {
+		DAYS: 6.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: BIG_STORM_NO,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 0.5,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 1000,
+			},
+		},
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			BIG_STORM_YES,
+		],
+	},		
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: WEATHER,
+				DOWNPOUR: 0.1,
+				LIGHTNING: 0.1,
+				CLOUDS: 0.5,
+			},
+		],
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: BIG_STORM_YES,
+				},
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						WOOD: {
+							PER_PERSON: -2.0,
+						},	
+						METAL: {
+							PER_PERSON: -0.5,
+						},	
+					},
+				},
+			],		
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: BIG_STORM_MAYBE,
+				},
+			],		
+		},
+	],
+},
+
+BIG_STORM_V: {
+	ICON: 32->WORK->3,
+	DURATION: {
+		DAYS: 6.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: BIG_STORM_NO,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 1000,
+			},
+		},
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+		ALLOW: [
+			BIG_STORM_YES,
+		],
+	},		
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: WEATHER,
+				DOWNPOUR: 0.1,
+				LIGHTNING: 0.1,
+				CLOUDS: 0.5,
+			},
+		],
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: BIG_STORM_YES_U,
+				},
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						WOOD: {
+							PER_PERSON: -1.0,
+						},	
+						METAL: {
+							PER_PERSON: -0.25,
+						},	
+					},
+				},
+			],		
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: BIG_STORM_MAYBE,
+				},
+			],		
+		},
+	],
+},
+
+
+BIG_STORM_YES: {
+	ICON: 32->WORK->3,
+	DURATION: {
+		DAYS: 1.0,
+	},
+
+	TAGS: {
+		ADD: [
+			BIG_STORM_YES,
+		],
+	},	
+
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: WEATHER,
+				WIND: 1.0,
+				DOWNPOUR: 1,
+				LIGHTNING: 1.0,
+				CLOUDS: 0.75,
+				SKY: 180_025_025,
+				TEMPERATURE: 0,
+			},
+			{
+				TYPE: DESTRUCTION,
+				DEATH: 15,
+				DESTRUCTION: 5,
+			},
+			{
+				TYPE: BOOST,
+				PERMANENT: true,
+				PLAYER: {
+					CIVIC_MAINTENANCE>MUL: 1.05,
+				},
+			},
+			{
+				TYPE: RESOURCES,
+				AMOUNTS: {
+					WOOD: {
+						PER_PERSON: 0.4,
+					},	
+					METAL: {
+						PER_PERSON: 0.1,
+					},	
+				},
+			},
+		],
+	},
+	
+},
+
+BIG_STORM_YES_U: {
+	ICON: 32->WORK->3,
+	DURATION: {
+		DAYS: 1.0,
+	},
+
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: WEATHER,
+				WIND: 1.0,
+				DOWNPOUR: 0.2,
+				LIGHTNING: 1.0,
+				CLOUDS: 0.75,
+				SKY: 180_025_025,
+			},
+			{
+				TYPE: DESTRUCTION,
+				DEATH: 10,
+				DESTRUCTION: 3,
+			},
+			{
+				TYPE: RESOURCES,
+				AMOUNTS: {
+					WOOD: {
+						PER_PERSON: 0.2,
+					},	
+					METAL: {
+						PER_PERSON: 0.07,
+					},	
+				},
+			},
+			{
+				TYPE: BOOST,
+				PERMANENT: true,
+				PLAYER: {
+					CIVIC_MAINTENANCE>ADD: 0.1,
+				},
+			},
+		],
+	},
+},
+
+BIG_STORM_MAYBE: {
+	ICON: 32->WORK->3,
+	DURATION: {
+		DAYS: 1.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: BIG_STORM_MAYBE_FOLLOW,
+			},
+		],
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: DESTRUCTION,
+				DEATH: 15,
+				DESTRUCTION: 5,
+			},
+			{
+				TYPE: WEATHER,
+				WIND: 1.0,
+				DOWNPOUR: 1,
+				LIGHTNING: 1.0,
+				CLOUDS: 0.75,
+				SKY: 180_025_025,
+			},
+		],
+	},
+},
+
+BIG_STORM_NO: {
+	ICON: 32->WORK->3,
+	DURATION: {
+		DAYS: 1.0,
+	},
+
+
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: DESTRUCTION,
+				DEATH: 30,
+				DESTRUCTION: 10,
+			},
+			{
+				TYPE: WEATHER,
+				WIND: 1.0,
+				DOWNPOUR: 0.2,
+				LIGHTNING: 1.0,
+				CLOUDS: 0.75,
+				SKY: 180_025_025,
+			},
+		],
+	},
+},
+
+BIG_STORM_MAYBE_FOLLOW: {
+	ICON: 32->WORK->3,
+	DURATION: {
+		DAYS: 3.0,
+	},
+
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					ROOM*>MUL: 0.6,
+					ROOM_FARM*>MUL: 1,
+					ROOM_FISHERY_NORMAL>MUL: 1,
+					ROOM_PASTURE*>MUL: 1,
+				},
+			},
+		],
+	},
+},
+
+LANDSLIDE: {
+	ICON: 32->INFRA->3,	
+	DURATION: {
+		DAYS: 8.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: LANDSLIDE_NO,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1,
+			FOREST: 1,
+			OCEAN: 0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				WORLD_REGIONS: 2,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},	
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					WORLD_PROXIMITY>MUL: 0.9,
+				},
+			},
+		],
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: LANDSLIDE_YES,
+				},
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						WOOD: {
+							PER_PERSON: -1,
+						},	
+						STONE: {
+							PER_PERSON: -1,
+						},
+						TOOL: {
+							PER_PERSON: -0.1,
+						},
+					},
+				},
+			],		
+		},
+	],
+},
+
+LANDSLIDE_YES: {
+	ICON: 32->INFRA->3,	
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: RESOURCES,
+				AMOUNTS: {
+					SITHILON: {
+						PER_PERSON: 0.05,
+					},	
+				},
+				HIDE_UI: true,
+			},
+		],
+	},
+},
+
+LANDSLIDE_NO: {
+	ICON: 32->INFRA->3,	
+	DURATION: {
+		DAYS: 6.0,
+	},
+
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					WORLD_PROXIMITY>MUL: 0.6,
+					CIVIC_OPINION>MUL: 0.8,
+				},
+			},
+		],
+	},
+},
+
+BEACHED_LEVIATHAN: {
+	ICON: 24->resource->Fish->0,
+	DURATION: {
+		DAYS: 6.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: BEACHED_LEVIATHAN_NO,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 0,
+			OCEAN: 1,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 1000,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			BEACHED_LEVIATHAN_YES,
+		],
+	},	
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					PHYSICS_HEALTH>MUL: 0.9,
+				},
+			},
+		],
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: BEACHED_LEVIATHAN_YES,
+				},
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						TOOL: {
+							PER_PERSON: -0.2,
+						},	
+						WOOD: {
+							PER_PERSON: -1.0,
+						},	
+					},
+				},
+				{
+					TYPE: EVENT,
+					EVENT: BEACHED_LEVIATHAN_YES_U,
+				},
+			],				
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						TOOL: {
+							PER_PERSON: -0.05,
+						},	
+					},
+				},
+				{
+					TYPE: EVENT,
+					EVENT: BEACHED_LEVIATHAN_MAYBE,
+				},
+			],				
+		},
+	],
+},
+
+BEACHED_LEVIATHAN_V: {
+	ICON: 24->resource->Fish->0,
+	DURATION: {
+		DAYS: 6.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: BEACHED_LEVIATHAN_NO,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 0,
+			OCEAN: 1,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 1000,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+		ALLOW: [
+			BEACHED_LEVIATHAN_YES,
+		],
+	},	
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					PHYSICS_HEALTH>MUL: 0.9,
+				},
+			},
+		],
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						TOOL: {
+							PER_PERSON: -0.1,
+						},	
+						WOOD: {
+							PER_PERSON: -0.5,
+						},	
+					},
+				},
+				{
+					TYPE: EVENT,
+					EVENT: BEACHED_LEVIATHAN_YES_U,
+				},
+			],				
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						TOOL: {
+							PER_PERSON: -0.05,
+						},	
+					},
+				},
+				{
+					TYPE: EVENT,
+					EVENT: BEACHED_LEVIATHAN_MAYBE,
+				},
+			],				
+		},
+	],
+},
+
+BEACHED_LEVIATHAN_YES: {
+	ICON: 24->resource->Fish->0,
+	
+	TAGS: {
+		ADD: [
+			BEACHED_LEVIATHAN_YES,
+		],
+	},		
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: RESOURCES,
+				AMOUNTS: {
+					LEATHER: {
+						PER_PERSON: 0.9,
+					},		
+				},
+			},
+			{
+				TYPE: BOOST,
+				PERMANENT: true,
+				PLAYER: {
+					ROOM_FISHERY_NORMAL>ADD: 0.2,
+				},
+			},
+		],
+	},
+},
+
+BEACHED_LEVIATHAN_YES_U: {
+	ICON: 24->resource->Fish->0,
+
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: RESOURCES,
+				AMOUNTS: {
+					LEATHER: {
+						PER_PERSON: 1.25,
+					},		
+				},
+			},
+		],
+	},
+},
+
+BEACHED_LEVIATHAN_MAYBE: {
+	ICON: 24->resource->Fish->0,
+	DURATION: {
+		DAYS: 6.0,
+	},
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: RESOURCES,
+				AMOUNTS: {
+					LEATHER: {
+						PER_PERSON: 0.1,
+					},		
+				},
+			},
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					ROOM_FISHERY_NORMAL>MUL: 1.5,
+				},
+			},
+		],
+	},
+},
+
+BEACHED_LEVIATHAN_NO: {
+	ICON: 24->resource->Fish->0,
+	DURATION: {
+		DAYS: 5.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					PHYSICS_HEALTH>MUL: 0.4,
+					RATES_BATH>MUL: 2,
+					RATES_WELL>MUL: 1.5,
+					PHYSICS_SOILING>MUL: 2,
+				},
+			},
+		],
+	},
+},
+
+COMET_SIGHTED: {
+	ICON: 32->INFRA->1,	
+	DURATION: {
+		DAYS: 1.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: COMET_SIGHTED_NO,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 1000,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},	
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					CIVIC_OPINION>MUL: 0.7,
+					BEHAVIOUR_HAPPINESS>MUL: 1.2,
+				},
+			},
+		],
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: COMET_SIGHTED_YES,
+				},
+				{
+					TYPE: CREDITS,
+					PER_PERSON: -35,
+				},
+			],		
+		},
+	],
+},
+
+COMET_SIGHTED_YES: {
+	ICON: 32->INFRA->1,	
+},
+
+COMET_SIGHTED_NO: {
+	ICON: 32->INFRA->1,	
+	DURATION: {
+		DAYS: 5.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					CIVIC_OPINION>MUL: 0.7,
+					BEHAVIOUR_HAPPINESS>MUL: 1.2,
+				},
+			},
+		],
+	},
+},
+
+CACOPHONY: {
+	ICON: 32->SERVICE->3, 
+	DURATION: {
+		DAYS: 6.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 0.0,
+			MOUNTAIN: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 1000,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},	
+	
+	SELECTION: {
+		SUBJECTS: {
+			USE_AS_ICON: false,
+			MAX_AMOUNT: {
+				RELATIVE: 0.025,
+			},
+			FILTERS: [
+				{
+					EQUAL: {
+						CLASS_CITIZEN: 1,
+					},
+				},
+			],
+		},		
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					RATES_HUNGER>MUL: 0.3,
+					CIVIC_ACCIDENT>MUL: 0.5,
+					PHYSICS_DEATH_AGE>MUL: 0.4,
+				},
+			},
+		],
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: CACOPHONY_YES,
+				},
+				{
+					TYPE: SUBJECTS_KILL,
+					AMOUNTS: {
+						*: {
+							RELATIVE: 0.025,
+						},	
+					},
+					DAMAGE: false,
+					DEATH_CAUSE: OTHER,
+					USE_SELECTION: true,
+				},
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						TOOL: {
+							PER_PERSON: -0.02,
+						},	
+					},
+				},
+			],		
+		},
+	],
+},
+
+CACOPHONY_YES: {
+	ICON: 32->SERVICE->3, 
+},
+
+
+ENCROACHING_ICE: {
+	ICON: 32->SEASONS->3,
+	DURATION: {
+		DAYS: 6.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 0,
+			COLD: 1,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				TIME_YEAR_PART: 0.5,
+				POPULATION: 500,
+			},
+			LESS: {
+				TIME_YEAR_PART: 0.8,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},	
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					WORLD_PROXIMITY>MUL: 0.8,
+					WORLD_TAX_INCOME>MUL: 0.7,
+					PHYSICS_RESISTANCE_COLD>MUL: 0.5,
+				},
+			},
+			{
+				TYPE: WEATHER,
+				TEMPERATURE: -0.5,
+			},
+		],
+	},
+
+	CHOICES: [
+		{
+			REQUIRES: {
+				GREATERE: {
+					STORED_CLOTHES: 1,
+				},
+			},
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: ENCROACHING_ICE_YES,
+					CLEAR_CONTEXT: true,
+				},
+			],		
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: ENCROACHING_ICE_MAYBE,
+					CLEAR_CONTEXT: true,
+				},
+			],		
+		},
+	],
+},
+
+ENCROACHING_ICE_YES: {
+	ICON: 32->SEASONS->3,
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: RESOURCES,
+				AMOUNTS: {
+					GEM: {
+						PER_PERSON: 0.2,
+					},	
+				},
+			},
+		],
+	},
+},
+
+ENCROACHING_ICE_MAYBE: {
+	ICON: 32->SEASONS->3,
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: SUBJECTS_KILL,
+				AMOUNTS: {
+					*: {
+						RELATIVE: 0.05,
+					},	
+				},
+				DAMAGE: false,
+				DEATH_CAUSE: OTHER,
+				USE_SELECTION: false,
+			},
+		],
+	},
+},
+
+THE_FOG: {
+	ICON: 32->SEASONS->3, 
+	DURATION: {
+		DAYS: 1.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: THE_FOG_NO,
+				MESSAGE: false,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 500,
+				TIME_YEAR_PART: 0.5,
+			},
+			LESS: {
+				TIME_YEAR_PART: 0.75,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},	
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					WORLD_PROXIMITY>MUL: 0.8,
+					WORLD_TAX_INCOME>MUL: 0.8,
+					RATES_TEMPLE>MUL: 2,
+					RATES_SHRINE>MUL: 2,
+				},
+			},
+		],
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: THE_FOG_YES,
+				},
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						WOOD: {
+							PER_PERSON: 0.3,
+						},	
+					},
+				},
+			],		
+		},
+	],
+},
+
+THE_FOG_YES: {
+	ICON: 32->SEASONS->3, 
+	DURATION: {
+		DAYS: 4.0,
+	},
+
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: SUBJECTS_KILL,
+				AMOUNTS: {
+					*: {
+						RELATIVE: 0.025,
+					},	
+				},
+				DAMAGE: false,
+				DEATH_CAUSE: OTHER,
+				USE_SELECTION: false,
+			},
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					RATES_TEMPLE>MUL: 2,
+					RATES_SHRINE>MUL: 2,
+				},
+			},
+		],	
+	},
+},
+
+THE_FOG_NO: {
+	ICON: 32->SEASONS->3, 
+	DURATION: {
+		DAYS: 4.0,
+	},
+
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					WORLD_PROXIMITY>MUL: 0.8,
+					WORLD_TAX_INCOME>MUL: 0.8,
+					RATES_TEMPLE>MUL: 2,
+					RATES_SHRINE>MUL: 2,
+				},
+			},
+		],
+	},
+},
+
+WEATHER_GOOD: {
+	ICON: 32->LOGISTICS->3,
+	DURATION: {
+		DAYS: 6.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 50,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},	
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					WORLD_PROXIMITY>MUL: 2,
+					BEHAVIOUR_HAPPINESS>MUL: 1.3,
+				},
+			},
+			{
+				TYPE: WEATHER,
+				WIND: 0,
+				DOWNPOUR: 0,
+				LIGHTNING: 0,
+				CLOUDS: 0,
+			},
+		],
+	},
+},
+
+TREMORS: {
+	ICON: 32->WORK->2,
+	DURATION: {
+		DAYS: 4.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 50,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},	
+	
+	SELECTION: {
+		SUBJECTS: {
+			MAX_AMOUNT: {
+				RELATIVE: 0.025,
+			},
+			USE_AS_ICON: false,
+			FILTERS: [
+				{
+					EQUAL: {
+						CLASS_SLAVE: 1,
+					},
+				},
+			],
+		},		
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					CIVIC_MAINTENANCE>MUL: 0.5,
+				},
+			},
+		],
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: TREMORS_YES,
+				},
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						EGG: {
+							RELATIVE: -0.2,
+						},	
+						FRUIT: {
+							RELATIVE: -0.2,
+						},	
+						MEAT: {
+							RELATIVE: -0.2,
+						},	
+						VEGETABLE: {
+							RELATIVE: -0.2,
+						},	
+						FISH: {
+							RELATIVE: -0.2,
+						},	
+						BREAD: {
+							RELATIVE: -0.2,
+						},	
+						MUSHROOM: {
+							RELATIVE: -0.2,
+						},	
+					},
+				},
+			],		
+		},
+		{
+			REQUIRES: {
+				GREATER: {
+					POPULTAION_SLAVE_F: 0.1,
+				},
+			},
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: TREMORS_MAYBE,
+				},
+				{
+					TYPE: SUBJECTS_KILL,
+					AMOUNTS: {
+						*: {
+							RELATIVE: 0.025,
+						},	
+					},
+					DAMAGE: false,
+					DEATH_CAUSE: OTHER,
+					USE_SELECTION: true,
+				},
+			],		
+		},
+	],
+},
+
+TREMORS_YES: {
+	ICON: 32->WORK->2,
+},
+
+TREMORS_MAYBE: {
+	ICON: 32->WORK->2,
+},
+
+RAPTORS: {
+	ICON: 32->LOGISTICS->1,
+	DURATION: {
+		DAYS: 1.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: RAPTORS_NO,
+				MESSAGE: false,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 50,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},	
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					CIVIC_SPOILAGE>MUL: 5,
+					PHYSICS_HEALTH>MUL: 0.5,
+					ROOM_FARM_FRUIT>MUL: 1.3,
+					ROOM_FARM_VEG>MUL: 1.3,
+					ROOM_FARM_GRAIN>MUL: 1.3,
+				},
+			},
+		],
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: RAPTORS_YES,
+				},
+			],		
+		},
+	],
+},
+
+RAPTORS_YES: {
+	ICON: 32->LOGISTICS->1,
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: RESOURCES,
+				AMOUNTS: {
+					MEAT: {
+						PER_PERSON: 0.85,
+					},	
+				},
+			},
+		],
+	},
+},
+
+RAPTORS_NO: {
+	ICON: 32->LOGISTICS->1,
+	DURATION: {
+		DAYS: 7.0,
+	},
+		
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					CIVIC_SPOILAGE>MUL: 5,
+					PHYSICS_HEALTH>MUL: 0.5,
+					ROOM_FARM_FRUIT>MUL: 1.3,
+					ROOM_FARM_VEG>MUL: 1.3,
+					ROOM_FARM_GRAIN>MUL: 1.3,
+				},
+			},
+		],
+	},
+},
+
+SHIPWRECK: {
+	ICON: 32->INFRA->10,
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 0,
+			OCEAN: 1,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 500,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},	
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: CREDITS,
+				PER_PERSON: 50,
+				AMOUNT: 5000,
+			},
+		],
+	},
+},
+
+BLOOD_WATER: {
+	ICON: 24->_Icons->19,
+	DURATION: {
+		DAYS: 8.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 500,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},	
+	
+	SELECTION: {
+		SUBJECTS: {
+			USE_AS_ICON: false,
+			FILTERS: [
+				{
+					EQUAL: {
+						RACE_ARGONOSH: 0,
+					},
+				},
+				{
+					EQUAL: {
+						RACE_CANTOR: 0,
+					},
+				},
+				{
+					EQUAL: {
+						RACE_GARTHIMI: 0,
+					},
+				},
+				{
+					EQUAL: {
+						RACE_Q_AMEVIA: 0,
+					},
+				},
+			],
+		},		
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				SUBJECTS: {
+					RATES_TEMPLE>MUL: 2,
+					RATES_SHRINE>MUL: 2,
+				},
+				PLAYER: {
+					ROOM_FISHERY_NORMAL>MUL: 1.3,
+				},
+			},
+		],
+	},
+},
+
+FLESH_WORMS: {
+	ICON: 32->HEALTH->1,
+	DURATION: {
+		DAYS: 4.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 0,
+			OCEAN: 1,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION:1000,
+			},
+			LESS: {
+				EDUCATION_EDUCATION: 0.5,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},	
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					RATES_DOCTOR>MUL: 3,
+					RATES_HUNGER>MUL: 1.2,
+				},
+			},
+		],
+	},
+},
+
+FOREST_FASCINATION: {
+	ICON: 32->SEASONS->0,
+	DURATION: {
+		DAYS: 1.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: FOREST_FASCINATION_NO,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+			COLD: 0.25,
+			HOT: 0.25,
+		},
+		TERRAIN: {
+			*: 0,
+			FOREST: 1,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 500,
+			},
+			LESS: {
+				FACTION_IS_TILAPI_I: 1,
+				POPULATION_TILAPI_CITIZEN_F: 0.1,
+				TIME_YEAR_PART: 0.5,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},	
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: CREDITS,
+					PER_PERSON: -50,
+				},
+			],		
+		},
+	],
+},
+
+FOREST_FASCINATION_YES: {
+	ICON: 32->SEASONS->0,
+	DURATION: {
+		DAYS: 1.0,
+	},
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: RESOURCES,
+				AMOUNTS: {
+					OPIATES: {
+						PER_PERSON: 0.2,
+					},	
+				},
+			},
+		],
+	},
+},
+
+FOREST_FASCINATION_NO: {
+	ICON: 32->SEASONS->0,
+	DURATION: {
+		DAYS: 1.0,
+	},
+	
+	SELECTION: {
+		SUBJECTS: {
+			USE_AS_ICON: false,
+			FILTERS: [
+				{
+					EQUAL: {
+						RACE_TILAPI: 0,
+					},
+				},
+			],
+		},		
+	},
+
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				SUBJECTS: {
+				   PHYSICS_SPEED>MUL: 0.1,
+				   BATTLE_ATTACK_RATE>MUL: 0.1,
+				   BATTLE_DEFENCE_SKILL>MUL: 0.1,
+				},
+			},
+			{
+				TYPE: WEATHER,
+				WIND: 0.2,
+				SKY: 118_44_222,
+			},
+		],
+	},
+},
+
+PUFFERBLOOM: {
+	ICON: 32->MONUMENT->4,
+	DURATION: {
+		DAYS: 2.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: PUFFERBLOOM_NO,
+				MESSAGE: false,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 500,
+			},
+			LESS: {
+				TIME_YEAR_PART: 0.5,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},	
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					CIVIC_ACCIDENT>MUL: 0.25,
+					BEHAVIOUR_LAWFULNESS>MUL: 0.75,
+				},
+			},
+			{
+				TYPE: WEATHER,
+				SKY: 051_232_023,
+			},
+		],
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: PUFFERBLOOM_YES,
+				},
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						HERB: {
+							PER_PERSON: -0.1,
+						},
+						OPIATES: {
+							PER_PERSON: -0.1,
+						},						
+					},
+				},
+			],		
+		},
+	],
+},
+
+PUFFERBLOOM_YES: {
+	ICON: 32->MONUMENT->4,
+	DURATION: {
+		DAYS: 2.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: WEATHER,
+				SKY: 051_232_023,
+			},
+		],
+	},
+},
+
+PUFFERBLOOM_NO: {
+	ICON: 32->MONUMENT->4,
+	DURATION: {
+		DAYS: 3.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					CIVIC_ACCIDENT>MUL: 0.25,
+					BEHAVIOUR_LAWFULNESS>MUL: 0.75,
+				},
+			},
+			{
+				TYPE: WEATHER,
+				SKY: 051_232_023,
+			},
+		],
+	},
+},
+
+SOUTHERN_STING: {
+	ICON: 32->SEASONS->1,
+	DURATION: {
+		DAYS: 6.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 0,
+			HOT: 1,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 50,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			SOUTHERN_STING_YES,
+		],
+	},	
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					CIVIC_ACCIDENT>MUL: 0.5,
+					RATES_WELL>MUL: 3,
+					PHYSICS_ACCELERATION>MUL: 1.2,
+					PHYSICS_SPEED>MUL: 1.1,
+				},
+			},
+		],
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: SOUTHERN_STING_YES,
+				},
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						ALCO_BEER: {
+							PER_PERSON: -0.5,
+						},	
+					},
+				},
+			],		
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: SOUTHERN_STING_YES,
+				},
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						ALCO_WINE: {
+							PER_PERSON: -0.3,
+						},	
+					},
+				},
+			],		
+		},
+	],
+},
+
+SOUTHERN_STING_YES: {
+	ICON: 32->SEASONS->1,
+	TAGS: {
+		ADD: [
+			SOUTHERN_STING_YES,
+		],
+	},	
+},
+
+SOUTHERN_STING_YES_FOLLOW: {
+	ICON: 32->SEASONS->1,
+	DURATION: {
+		DAYS: 4.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 0,
+			HOT: 1,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 50,
+			},
+		},
+	},
+
+	SELECTION: {
+		SUBJECTS: {
+			MAX_AMOUNT: {
+				AMOUNT: 1.0,
+			},
+			
+			USE_AS_ICON: true,
+			
+			FILTERS: [
+				{
+					EQUAL: {
+						CLASS_CITIZEN: 1,
+					},
+				},
+			],
+		},		
+	},
+
+	TAGS: {
+		ADD: [
+			SOUTHERN_STING_YES_FOLLOW,
+		],
+		ALLOW: [
+			SOUTHERN_STING_YES,
+		],
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			SOUTHERN_STING_YES_FOLLOW,
+		],
+	},	
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					CIVIC_ACCIDENT>MUL: 0.5,
+					RATES_WELL>MUL: 3,
+					PHYSICS_ACCELERATION>MUL: 1.2,
+					PHYSICS_SPEED>MUL: 1.1,
+					RATES_HUNGER>MUL: 0.5,
+				},
+			},
+		],
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: SOUTHERN_STING_FOLLOW_YES,
+				},
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						ALCO_BEER: {
+							PER_PERSON: 0.5,
+						},	
+					},
+				},
+			],		
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: SOUTHERN_STING_FOLLOW_YES,
+				},
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						ALCO_WINE: {
+							PER_PERSON: 0.3,
+						},	
+					},
+				},
+			],		
+		},
+	],
+},
+
+SOUTHERN_STING_FOLLOW_YES: {
+	ICON: 32->SEASONS->1,
+},
+
+SOUTHERN_STING_YES_FOLLOW_FOLLOW: {
+	ICON: 32->SEASONS->1,
+	DURATION: {
+		DAYS: 4.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 0,
+			HOT: 1,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 50,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW: [
+			SOUTHERN_STING_YES_FOLLOW,
+		],
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},	
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					CIVIC_ACCIDENT>MUL: 0.5,
+					RATES_WELL>MUL: 3,
+					PHYSICS_ACCELERATION>MUL: 1.2,
+					PHYSICS_SPEED>MUL: 1.1,
+					RATES_HUNGER>MUL: 0.5,
+				},
+			},
+		],
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: SOUTHERN_STING_FOLLOW_YES,
+				},
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						ALCO_BEER: {
+							PER_PERSON: 0.5,
+						},	
+					},
+				},
+			],		
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: SOUTHERN_STING_FOLLOW_YES,
+				},
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						ALCO_WINE: {
+							PER_PERSON: 0.3,
+						},	
+					},
+				},
+			],		
+		},
+	],
+},
+
+LURKING_WATCHER: {
+	ICON: 32->race->Amevia->0,
+	DURATION: {
+		DAYS: 8.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: LURKING_WATCHER_FOLLOW,
+				CLEAR_CONTEXT: true,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 0,
+			OCEAN: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION_Q_AMEVIA_CITIZEN_F: 0.2,
+				POPULATION: 500,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},	
+	
+	SELECTION: {
+		SUBJECTS: {
+			USE_AS_ICON: false,
+			FILTERS: [
+				{
+					EQUAL: {
+						RACE_Q_AMEVIA: 1,
+					},
+				},
+			],
+		},		
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				SUBJECTS: {
+					BEHAVIOUR_HAPPINESS>MUL: 1.5,
+					RATES_TEMPLE>MUL: 1.3,
+					RATES_SHRINE>MUL: 1.3,
+					PHYSICS_SPEED>MUL: 1.1,
+					RATES_SKINNYDIP>MUL: 5,
+				},
+			},
+		],
+	},
+},
+
+LURKING_WATCHER_FOLLOW: {
+	ICON: 32->race->Amevia->0,
+
+	SELECTION: {
+		SUBJECTS: {
+			MAX_AMOUNT: {
+				RELATIVE: 0.0125,
+			},
+			USE_AS_ICON: false,
+			FILTERS: [
+				{
+					EQUAL: {
+						RACE_Q_AMEVIA: 1,
+					},
+				},
+			],
+		},		
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: SUBJECTS_KILL,
+				AMOUNTS: {
+					Q_AMEVIA: {
+						RELATIVE: 0.0125,
+					},	
+				},
+				DAMAGE: false,
+				DEATH_CAUSE: OTHER,
+				USE_SELECTION: true,
+			},
+		],
+	},
+},
+
+BLOOD_GEMS: {
+	ICON: 24->resource->Gem->0,
+	DURATION: {
+		DAYS: 1.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: BLOOD_GEMS_NO,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			MOUNTAIN: 1,
+			*: 0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 500,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},	
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: RESOURCES,
+				AMOUNTS: {
+					GEM: {
+						PER_PERSON: 0.03,
+					},	
+				},
+			},
+		],
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: BLOOD_GEMS_YES,
+				},
+			],		
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: BLOOD_GEMS_NO,
+				},
+			],		
+		},
+	],
+},
+
+BLOOD_GEMS_YES: {
+	ICON: 24->resource->Gem->0,
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: SUBJECTS_KILL,
+				AMOUNTS: {
+					*: {
+						RELATIVE: 0.01,
+					},	
+				},
+				DAMAGE: false,
+				DEATH_CAUSE: OTHER,
+				USE_SELECTION: false,
+			},
+			{
+				TYPE: SUBJECTS_KILL,
+				AMOUNTS: {
+					*: {
+						RELATIVE: 0.02,
+					},	
+				},
+				DAMAGE: false,
+				DEATH_CAUSE: EMMIGRATED,
+				USE_SELECTION: false,
+			},
+			{
+				TYPE: RESOURCES,
+				AMOUNTS: {
+					GEM: {
+						PER_PERSON: 0.25,
+					},	
+				},
+			},
+		],
+	},
+},
+
+BLOOD_GEMS_NO: {
+	ICON: 24->resource->Gem->0,
+},
+
+COLOUR_OUT_OF_SYX: {
+	ICON: 32->SERVICE->4,
+	DURATION: {
+		DAYS: 4.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: COLOUR_OUT_OF_SYX_FOLLOW,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 2000,
+				ROOM_WELL_NORMAL_AMOUNT: 0,
+			},
+		},
+		MAX_SPAWNS: 1,
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},	
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: WEATHER,
+				SKY: 208_101_235,
+			},
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_SANITY>MUL: 0.8,
+					BEHAVIOUR_LAWFULNESS>MUL: 10,
+				},
+			},
+			{
+				TYPE: SUBJECTS_KILL,
+				AMOUNTS: {
+					*: {
+						RELATIVE: 0.025,
+					},	
+				},
+				DAMAGE: false,
+				DEATH_CAUSE: OTHER,
+				USE_SELECTION: false,
+			},
+		],
+	},
+},
+
+COLOUR_OUT_OF_SYX_FOLLOW: {
+	ICON: 32->SERVICE->4,
+	DURATION: {
+		DAYS: 4.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: COLOUR_OUT_OF_SYX_FOLLOW_FOLLOW,
+			},
+		],
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: WEATHER,
+				SKY: 1_77_120,
+			},
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_SANITY>MUL: 0.6,
+					BATTLE_RANGED_BOW>MUL: 2,
+					BATTLE_OFFENCE_SKILL>MUL: 2,
+					BATTLE_DEFENCE_SKILL>MUL: 2,
+				},
+			},
+			{
+				TYPE: SUBJECTS_KILL,
+				AMOUNTS: {
+					*: {
+						RELATIVE: 0.025,
+					},	
+				},
+				DAMAGE: false,
+				DEATH_CAUSE: OTHER,
+				USE_SELECTION: false,
+			},
+		],
+	},
+},
+
+COLOUR_OUT_OF_SYX_FOLLOW_FOLLOW: {
+	ICON: 32->SERVICE->4,
+	DURATION: {
+		DAYS: 4.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: COLOUR_OUT_OF_SYX_FOLLOW_FOLLOW_FOLLOW,
+			},
+		],
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: WEATHER,
+				SKY: 50_50_50,
+			},
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_SANITY>MUL: 0.4,
+					CIVIC_KNOWLEDGE>MUL: 10,
+				},
+			},
+			{
+				TYPE: SUBJECTS_KILL,
+				AMOUNTS: {
+					*: {
+						RELATIVE: 0.025,
+					},	
+				},
+				DAMAGE: false,
+				DEATH_CAUSE: OTHER,
+				USE_SELECTION: false,
+			},
+		],
+	},
+},
+
+COLOUR_OUT_OF_SYX_FOLLOW_FOLLOW_FOLLOW: {
+	ICON: 32->SERVICE->4,
+	DURATION: {
+		DAYS: 4.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: COLOUR_OUT_OF_SYX_FOLLOW_FOLLOW_FOLLOW_FINAL,
+			},
+		],
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: WEATHER,
+				SKY: 108_230_225,
+			},
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_SANITY>MUL: 0.2,
+					ROOM*>MUL: 2,
+				},
+			},
+			{
+				TYPE: SUBJECTS_KILL,
+				AMOUNTS: {
+					*: {
+						RELATIVE: 0.025,
+					},	
+				},
+				DAMAGE: false,
+				DEATH_CAUSE: OTHER,
+				USE_SELECTION: false,
+			},
+		],
+	},
+},
+
+COLOUR_OUT_OF_SYX_FOLLOW_FOLLOW_FOLLOW_FINAL: {
+	ICON: 32->SERVICE->4,
+	DURATION: {
+		DAYS: 1000.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: WEATHER,
+				SKY: 0_0_0,
+			},
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_SANITY>MUL: 0.1,
+				},
+			},
+		],
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: COLOUR_OUT_OF_SYX_FOLLOW_FOLLOW_FOLLOW_FINAL_FINAL,
+				},
+				{
+					TYPE: BOOST,
+					PERMANENT: true,
+					PLAYER: {
+						BEHAVIOUR_LAWFULNESS>MUL: 1.3,
+					},
+				},
+			],		
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: COLOUR_OUT_OF_SYX_FOLLOW_FOLLOW_FOLLOW_FINAL_FINAL,
+				},
+				{
+					TYPE: BOOST,
+					PERMANENT: true,
+					PLAYER: {
+						BATTLE_RANGED_BOW>MUL: 1.1,
+						BATTLE_OFFENCE_SKILL>MUL: 1.1,
+						BATTLE_DEFENCE_SKILL>MUL: 1.1,
+					},
+				},
+			],		
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: COLOUR_OUT_OF_SYX_FOLLOW_FOLLOW_FOLLOW_FINAL_FINAL,
+				},
+				{
+					TYPE: BOOST,
+					PERMANENT: true,
+					PLAYER: {
+						CIVIC_KNOWLEDGE>MUL: 1.2,
+					},
+				},
+			],		
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: COLOUR_OUT_OF_SYX_FOLLOW_FOLLOW_FOLLOW_FINAL_FINAL,
+				},
+				{
+					TYPE: BOOST,
+					PERMANENT: true,
+					PLAYER: {
+						ROOM*>MUL: 1.05,
+					},
+				},
+			],		
+		},
+	],	
+},
+
+COLOUR_OUT_OF_SYX_FOLLOW_FOLLOW_FOLLOW_FINAL_FINAL: {
+	ICON: 32->SERVICE->4,
+},
+
+ECLIPSE: {
+	ICON: 24->_Icons->19,
+	DURATION: {
+		DAYS: 1.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: ECLIPSE_FOLLOW,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 50,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},	
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					RATES_TEMPLE>MUL: 5,
+					RATES_SHRINE>MUL: 5,
+					RATES_MOURN>MUL: 3,
+					RATES_THIRST>MUL: 2,
+				},
+			},
+			{
+				TYPE: WEATHER,
+				TEMPERATURE: -0.1,
+				WIND: 0,
+				DOWNPOUR: 0,
+				CLOUDS: 0,
+				SKY: 5_5_5,
+			},
+		],
+	},
+},
+
+ECLIPSE_FOLLOW: {
+	ICON: 24->_Icons->19,
+	DURATION: {
+		DAYS: 6.0,
+	},
+
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_LOYALTY>MUL: 1.5,
+				},
+			},
+		],
+	},
+},
+
+FOREST_SHROOM: {
+	ICON: 32->SEASONS->0,
+	DURATION: {
+		DAYS: 8.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: FOREST_SHROOM_NO,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 0,
+			FOREST:1,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 1000,
+			},
+			LESS: {
+				FACTION_IS_TILAPI_I: 1,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},	
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					ROOM_WOODCUTTER>MUL: 0.5,
+					ROOM_HUNTER*>MUL: 0.1,
+				},
+			},
+		],
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: FOREST_SHROOM_YES,
+				},
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						ALCO_WINE: {
+							PER_PERSON: -0.25,
+						},	
+					},
+				},				
+			],		
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: FOREST_SHROOM_MAYBE,
+				},			
+			],		
+		},
+	],
+},
+
+FOREST_SHROOM_YES: {
+	ICON: 24->resource->Alcohol->1,	
+	DURATION: {
+		DAYS: 8.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					ROOM_FARM*>MUL: 1.5,
+					ROOM_HUNTER_NORMAL>MUL: 2,
+					ROOM_PASTURE*>MUL: 1.5,
+				},
+			},
+			{
+				TYPE: RESOURCES,
+				AMOUNTS: {
+					LIVESTOCK: {
+						RELATIVE: -0.5,
+					},	
+				},
+			},
+			{
+				TYPE: PASTURE,
+				ROOM: PASTURE_AUR,
+				ANIMALS_KILLED: 0.5,
+			},
+			{
+				TYPE: PASTURE,
+				ROOM: PASTURE_BALTI,
+				ANIMALS_KILLED: 0.5,
+			},
+			{
+				TYPE: PASTURE,
+				ROOM: PASTURE_ENT,
+				ANIMALS_KILLED: 0.5,
+			},
+			{
+				TYPE: PASTURE,
+				ROOM: PASTURE_GLOBDIEN,
+				ANIMALS_KILLED: 0.5,
+			},
+			{
+				TYPE: PASTURE,
+				ROOM: PASTURE_ONX,
+				ANIMALS_KILLED: 0.5,
+			},
+		],
+	},
+},
+
+FOREST_SHROOM_NO: {
+	ICON: 32->DEATH->1,
+	DURATION: {
+		DAYS: 8.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					ROOM_FARM*>MUL: 1.5,
+					ROOM_HUNTER_NORMAL>MUL: 2,
+					ROOM_PASTURE*>MUL: 1.5,
+				},
+			},
+			{
+				TYPE: SUBJECTS_KILL,
+				AMOUNTS: {
+					*: {
+						RELATIVE: 0.15,
+					},	
+				},
+				DAMAGE: false,
+				DEATH_CAUSE: SLAYED,
+				USE_SELECTION: false,
+			},
+			{
+				TYPE: RESOURCES,
+				AMOUNTS: {
+					LIVESTOCK: {
+						RELATIVE: -0.5,
+					},	
+				},
+			},
+			{
+				TYPE: PASTURE,
+				ROOM: PASTURE_AUR,
+				ANIMALS_KILLED: 0.5,
+			},
+			{
+				TYPE: PASTURE,
+				ROOM: PASTURE_BALTI,
+				ANIMALS_KILLED: 0.5,
+			},
+			{
+				TYPE: PASTURE,
+				ROOM: PASTURE_ENT,
+				ANIMALS_KILLED: 0.5,
+			},
+			{
+				TYPE: PASTURE,
+				ROOM: PASTURE_GLOBDIEN,
+				ANIMALS_KILLED: 0.5,
+			},
+			{
+				TYPE: PASTURE,
+				ROOM: PASTURE_ONX,
+				ANIMALS_KILLED: 0.5,
+			},
+		],
+	},
+},
+
+
+FOREST_SHROOM_MAYBE: {
+	ICON: 32->SEASONS->2,
+	DURATION: {
+		DAYS: 8.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					ROOM_FARM*>MUL: 0.4,
+					ROOM_HUNTER_NORMAL>MUL: 0.25,
+					ROOM_PASTURE*>MUL: 0.4,
+				},
+			},
+		],
+	},
+},
+
+ROTMELT: {
+	ICON: 32->SERVICE->6, 
+	DURATION: {
+		DAYS: 4.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			HOT: 0.1,
+			COLD: 1.0,
+			TEMPERATE: 0.5,
+		},
+		TERRAIN: {
+			*: 0.1,
+			MOUNTAIN: 1,
+			WET: 1,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 500,
+			},
+			LESS: {
+				TIME_YEAR_PART: 0.5,
+			},
+		},
+		MAX_SPAWNS: 1,
+	},
+
+	TAGS: {
+		ADD: [
+			ROTMELT,
+		],
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					PHYSICS_HEALTH>ADD: 1,
+					PHYSICS_DEATH_AGE>MUL: 10,
+					RATES_WELL>MUL: 3,
+				},
+			},
+		],
+	},
+},
+
+ROTMELT_FOLLOW: {
+	ICON: 32->SERVICE->6, 
+	DURATION: {
+		DAYS: 4.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1,
+		},
+		TERRAIN: {
+			*: 1,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 500,
+			},
+		},
+	},	
+	
+	TAGS: {
+		ADD: [
+			ROTMELT_FOLLOW,
+		],
+		ALLOW: [
+			ROTMELT,
+		],
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			ROTMELT_FOLLOW,
+		],
+	},	
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					PHYSICS_HEALTH>MUL: 0.5,
+					BEHAVIOUR_SANITY>MUL: 0.8,
+					PHYSICS_DEATH_AGE>MUL: 0.5,
+					RATES_WELL>MUL: 3,
+				},
+			},
+		],
+	},
+},
+
+ROTMELT_FOLLOW_REPEAT: {
+	ICON: 32->SERVICE->6, 
+	DURATION: {
+		DAYS: 4.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: ROTMELT_FOLLOW_REPEAT_FOLLOW,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			HOT: 0.1,
+			COLD: 1.0,
+			TEMPERATE: 0.5,
+		},
+		TERRAIN: {
+			*: 0.1,
+			MOUNTAIN: 1,
+			WET: 1,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 500,
+			},
+			LESS: {
+				TIME_YEAR_PART: 0.5,
+			},
+		},
+	},
+
+	TAGS: {
+		ADD: [
+			ROTMELT_FOLLOW_REPEAT,
+		],
+		ALLOW: [
+			ROTMELT_FOLLOW,
+		],
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			ROTMELT_FINAL_YES,
+		],
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					PHYSICS_HEALTH>ADD: 1,
+					PHYSICS_DEATH_AGE>MUL: 10,
+					RATES_WELL>MUL: 3,
+					BEHAVIOUR_LOYALTY>MUL: 10,
+				},
+			},
+		],
+	},
+},
+
+ROTMELT_FOLLOW_REPEAT_FOLLOW: {
+	ICON: 32->SERVICE->6, 
+	DURATION: {
+		DAYS: 4.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					PHYSICS_HEALTH>MUL: 0.5,
+					BEHAVIOUR_SANITY>MUL: 0.8,
+					PHYSICS_DEATH_AGE>MUL: 0.5,
+					RATES_WELL>MUL: 3,
+				},
+			},
+		],
+	},
+},
+
+ROTMELT_FINAL: {
+	ICON: 32->SERVICE->5,
+	DURATION: {
+		DAYS: 1.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 10,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW: [
+			ROTMELT_FOLLOW_REPEAT,
+		],
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			ROTMELT_FINAL_YES,
+		],
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: ROTMELT_FINAL_YES,
+				},
+				{
+					TYPE: CREDITS,
+					PER_PERSON: -100,
+				},
+				{
+					TYPE: BOOST,
+					PERMANENT: true,
+					PLAYER: {
+						PHYSICS_HEALTH>MUL: 1.1,
+						PHYSICS_DEATH_AGE>MUL: 1.2,
+						RATES_WELL>MUL: 1.1,
+					},
+				},				
+			],		
+		},
+	],
+},
+
+ROTMELT_FINAL_YES: {
+	ICON: 32->SERVICE->5,
+	TAGS: {
+		ADD: [
+			ROTMELT_FINAL_YES,
+		],
+	},
+},
+
+ROTMELT_FINAL_YES_REPEAT: {
+	ICON: 32->SERVICE->5,
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 0.5,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 10,
+			},
+		},
+	},
+	
+	TAGS: {
+		ALLOW: [
+			ROTMELT_FINAL_YES,
+		],
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},	
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: CREDITS,
+				RELATIVE: -0.2,
+			},
+		],
+	},
+},
+
+DOMINATOR_CLOUD: {
+	ICON: 32->HEALTH->0,
+	DURATION: {
+		DAYS: 4.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: DOMINATOR_CLOUD_FOLLOW,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 1000,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			DOMINATOR_CLOUD_FOLLOW_YES,
+		],
+	},	
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_SANITY>MUL: 0.35,
+				},
+			},
+		],
+	},
+},
+
+DOMINATOR_CLOUD_V: {
+	ICON: 32->HEALTH->0,
+	DURATION: {
+		DAYS: 4.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: DOMINATOR_CLOUD_FOLLOW_V,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 1000,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+		ALLOW: [
+			DOMINATOR_CLOUD_FOLLOW_YES,
+		],
+	},	
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_SANITY>MUL: 0.35,
+				},
+			},
+		],
+	},
+},
+
+DOMINATOR_CLOUD_FOLLOW: {
+	ICON: 32->HEALTH->0,
+	DURATION: {
+		DAYS: 1.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: DOMINATOR_CLOUD_FOLLOW_NO,
+			},
+		],
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_SANITY>MUL: 0.2,
+				},
+			},
+			{
+				TYPE: WEATHER,
+				WIND: 0,
+				DOWNPOUR: 0,
+				LIGHTNING: 0,
+				CLOUDS: 1,
+				SKY: 0_255_179,
+			},
+		],
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: DOMINATOR_CLOUD_FOLLOW_YES,
+				},
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						OPIATES: {
+							PER_PERSON: -0.3,
+						},	
+					},
+				},
+			],		
+		},
+	],
+},
+
+DOMINATOR_CLOUD_FOLLOW_V: {
+	ICON: 32->HEALTH->0,
+	DURATION: {
+		DAYS: 1.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: DOMINATOR_CLOUD_FOLLOW_NO,
+			},
+		],
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_SANITY>MUL: 0.2,
+				},
+			},
+			{
+				TYPE: WEATHER,
+				WIND: 0,
+				DOWNPOUR: 0,
+				LIGHTNING: 0,
+				CLOUDS: 1,
+				SKY: 0_255_179,
+			},
+		],
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: DOMINATOR_CLOUD_FOLLOW_YES_U,
+				},
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						OPIATES: {
+							PER_PERSON: -0.15,
+						},	
+					},
+				},
+			],		
+		},
+	],
+},
+
+DOMINATOR_CLOUD_FOLLOW_YES: {
+	ICON: 32->HEALTH->0,
+	DURATION: {
+		DAYS: 12.0,
+	},
+	
+	TAGS: {
+		ADD: [
+			DOMINATOR_CLOUD_FOLLOW_YES,
+		],
+	},		
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: true,
+				PLAYER: {
+					BEHAVIOUR_SANITY>MUL: 1.1,
+				},
+			},
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					ROOM*>MUL: 1.1,
+				},
+			},
+		],
+	},
+},
+
+DOMINATOR_CLOUD_FOLLOW_YES_U: {
+	ICON: 32->HEALTH->0,
+	DURATION: {
+		DAYS: 12.0,
+	},
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					ROOM*>MUL: 1.1,
+				},
+			},
+		],
+	},
+},
+
+DOMINATOR_CLOUD_FOLLOW_NO: {
+	ICON: 32->HEALTH->0,
+	DURATION: {
+		DAYS: 12.0,
+	},
+	
+	SELECTION: {
+		SUBJECTS: {
+			MAX_AMOUNT: {
+				RELATIVE: 1,
+			},
+			
+			USE_AS_ICON: false,
+			
+			FILTERS: [
+				{
+					EQUAL: {
+						TYPE_DERANGED: 1,
+					},
+				},
+			],
+		},		
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					ROOM*>MUL: 1.1,
+				},
+			},
+			{
+				TYPE: SUBJECTS_KILL,
+				AMOUNTS: {
+					*: {
+						RELATIVE: 1,
+					},	
+				},
+				DAMAGE: false,
+				DEATH_CAUSE: EMMIGRATED,
+				USE_SELECTION: true,
+			},
+		],
+	},
+},
+
+WINTERFRUIT: {
+	ICON: 32->SEASONS->3,
+	DURATION: {
+		DAYS: 4.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: WINTERFRUIT_PERHAPS,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 500,
+				TIME_YEAR_PART: 0.75,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},	
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					RATES_HUNGER>MUL: 1.1,
+				},
+			},
+		],
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: WINTERFRUIT_YES,
+				},
+			],		
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: WINTERFRUIT_MAYBE,
+				},
+			],		
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: WINTERFRUIT_NO,
+				},
+			],		
+		},
+	],
+},
+
+WINTERFRUIT_YES: {
+	ICON: 32->SEASONS->3,
+	
+	SELECTION: {
+		SUBJECTS: {
+			MAX_AMOUNT: {
+				RELATIVE: 0.03,
+			},
+			
+			USE_AS_ICON: false,
+			
+			FILTERS: [
+				{
+					EQUAL: {
+						CLASS_CITIZEN: 1,
+					},
+				},
+			],
+		},		
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: SUBJECTS_KILL,
+				AMOUNTS: {
+					*: {
+						RELATIVE: 0.03,
+					},	
+				},
+				DAMAGE: false,
+				DEATH_CAUSE: OTHER,
+				USE_SELECTION: true,
+			},
+		],
+	},
+},
+
+WINTERFRUIT_NO: {
+	ICON: 32->SEASONS->3,
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: RESOURCES,
+				AMOUNTS: {
+					FRUIT: {
+						PER_PERSON: 2.2,
+					},	
+				},
+			},
+		],
+	},
+},
+
+WINTERFRUIT_MAYBE: {
+	ICON: 32->SEASONS->3,
+	DURATION: {
+		DAYS: 6.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_HAPPINESS>MUL: 1.1,
+				},
+			},
+		],
+	},
+},
+
+WINTERFRUIT_PERHAPS: {
+	ICON: 32->SEASONS->3,
+	
+	SELECTION: {
+		SUBJECTS: {
+			MAX_AMOUNT: {
+				RELATIVE: 0.04,
+			},
+			
+			USE_AS_ICON: false,
+			
+			FILTERS: [
+				{
+					EQUAL: {
+						CLASS_CITIZEN: 1,
+					},
+				},
+			],
+		},		
+	},	
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: RESOURCES,
+				AMOUNTS: {
+					GEM: {
+						PER_PERSON: 0.3,
+					},	
+				},
+			},
+			{
+				TYPE: SUBJECTS_KILL,
+				AMOUNTS: {
+					*: {
+						RELATIVE: 0.04,
+					},	
+				},
+				DAMAGE: false,
+				DEATH_CAUSE: OTHER,
+				USE_SELECTION: true,
+			},
+		],
+	},
+},
+
+CULL_AUR: {
+	ICON: 32->animal->Auroch->0,
+	DURATION: {
+		DAYS: 4.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 1000,
+				ROOM_PASTURE_AUR_AMOUNT: 1,
+			},
+		},
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			CULL_DONE,
+		],
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: PASTURE,
+				ROOM: PASTURE_AUR,
+				ANIMALS_KILLED: 0.05,
+			},
+			{
+				TYPE: PASTURE,
+				ROOM: PASTURE_BALTI,
+				ANIMALS_KILLED: 0.05,
+			},
+			{
+				TYPE: PASTURE,
+				ROOM: PASTURE_GLOBDIEN,
+				ANIMALS_KILLED: 0.05,
+			},
+			{
+				TYPE: PASTURE,
+				ROOM: PASTURE_ONX,
+				ANIMALS_KILLED: 0.05,
+			},
+			{
+				TYPE: PASTURE,
+				ROOM: PASTURE_ENT,
+				ANIMALS_KILLED: 0.05,
+			},
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					ROOM_PASTURE*>MUL: 0.8,
+				},
+			},
+		],
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: PASTURE,
+					ROOM: PASTURE_AUR,
+					ANIMALS_KILLED: 0.8,
+				},
+				{
+					TYPE: PASTURE,
+					ROOM: PASTURE_BALTI,
+					ANIMALS_KILLED: 0.8,
+				},
+				{
+					TYPE: PASTURE,
+					ROOM: PASTURE_GLOBDIEN,
+					ANIMALS_KILLED: 0.8,
+				},
+				{
+					TYPE: PASTURE,
+					ROOM: PASTURE_ONX,
+					ANIMALS_KILLED: 0.8,
+				},
+				{
+					TYPE: PASTURE,
+					ROOM: PASTURE_ENT,
+					ANIMALS_KILLED: 0.8,
+				},
+				{
+					TYPE: EVENT,
+					EVENT: CULL_YES,
+				},
+				{
+					TYPE: BOOST,
+					PERMANENT: true,
+					PLAYER: {
+						ROOM_PASTURE*>MUL: 1.05,
+					},
+				},
+			],		
+		},
+	],
+},
+
+CULL_ENT: {
+	ICON: 32->animal->Entelodont->0,
+	DURATION: {
+		DAYS: 4.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 1000,
+				ROOM_PASTURE_ENT_AMOUNT: 1,
+			},
+		},
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			CULL_DONE,
+		],
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: PASTURE,
+				ROOM: PASTURE_AUR,
+				ANIMALS_KILLED: 0.05,
+			},
+			{
+				TYPE: PASTURE,
+				ROOM: PASTURE_BALTI,
+				ANIMALS_KILLED: 0.05,
+			},
+			{
+				TYPE: PASTURE,
+				ROOM: PASTURE_GLOBDIEN,
+				ANIMALS_KILLED: 0.05,
+			},
+			{
+				TYPE: PASTURE,
+				ROOM: PASTURE_ONX,
+				ANIMALS_KILLED: 0.05,
+			},
+			{
+				TYPE: PASTURE,
+				ROOM: PASTURE_ENT,
+				ANIMALS_KILLED: 0.05,
+			},
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					ROOM_PASTURE*>MUL: 0.8,
+				},
+			},
+		],
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: PASTURE,
+					ROOM: PASTURE_AUR,
+					ANIMALS_KILLED: 0.8,
+				},
+				{
+					TYPE: PASTURE,
+					ROOM: PASTURE_BALTI,
+					ANIMALS_KILLED: 0.8,
+				},
+				{
+					TYPE: PASTURE,
+					ROOM: PASTURE_GLOBDIEN,
+					ANIMALS_KILLED: 0.8,
+				},
+				{
+					TYPE: PASTURE,
+					ROOM: PASTURE_ONX,
+					ANIMALS_KILLED: 0.8,
+				},
+				{
+					TYPE: PASTURE,
+					ROOM: PASTURE_ENT,
+					ANIMALS_KILLED: 0.8,
+				},
+				{
+					TYPE: EVENT,
+					EVENT: CULL_YES,
+				},
+				{
+					TYPE: BOOST,
+					PERMANENT: true,
+					PLAYER: {
+						ROOM_PASTURE*>MUL: 1.05,
+					},
+				},
+			],		
+		},
+	],
+},
+
+CULL_ONX: {
+	ICON: 32->animal->Onx->0,
+	DURATION: {
+		DAYS: 4.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 1000,
+				ROOM_PASTURE_ONX_AMOUNT: 1,
+			},
+		},
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			CULL_DONE,
+		],
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: PASTURE,
+				ROOM: PASTURE_AUR,
+				ANIMALS_KILLED: 0.05,
+			},
+			{
+				TYPE: PASTURE,
+				ROOM: PASTURE_BALTI,
+				ANIMALS_KILLED: 0.05,
+			},
+			{
+				TYPE: PASTURE,
+				ROOM: PASTURE_GLOBDIEN,
+				ANIMALS_KILLED: 0.05,
+			},
+			{
+				TYPE: PASTURE,
+				ROOM: PASTURE_ONX,
+				ANIMALS_KILLED: 0.05,
+			},
+			{
+				TYPE: PASTURE,
+				ROOM: PASTURE_ENT,
+				ANIMALS_KILLED: 0.05,
+			},
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					ROOM_PASTURE*>MUL: 0.8,
+				},
+			},
+		],
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: PASTURE,
+					ROOM: PASTURE_AUR,
+					ANIMALS_KILLED: 0.8,
+				},
+				{
+					TYPE: PASTURE,
+					ROOM: PASTURE_BALTI,
+					ANIMALS_KILLED: 0.8,
+				},
+				{
+					TYPE: PASTURE,
+					ROOM: PASTURE_GLOBDIEN,
+					ANIMALS_KILLED: 0.8,
+				},
+				{
+					TYPE: PASTURE,
+					ROOM: PASTURE_ONX,
+					ANIMALS_KILLED: 0.8,
+				},
+				{
+					TYPE: PASTURE,
+					ROOM: PASTURE_ENT,
+					ANIMALS_KILLED: 0.8,
+				},
+				{
+					TYPE: EVENT,
+					EVENT: CULL_YES,
+				},
+				{
+					TYPE: BOOST,
+					PERMANENT: true,
+					PLAYER: {
+						ROOM_PASTURE*>MUL: 1.05,
+					},
+				},
+			],		
+		},
+	],
+},
+
+CULL_BALTI: {
+	ICON: 32->animal->Balticrawler->0,
+	DURATION: {
+		DAYS: 4.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 1000,
+				ROOM_PASTURE_BALTI_AMOUNT: 1,
+			},
+		},
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			CULL_DONE,
+		],
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: PASTURE,
+				ROOM: PASTURE_AUR,
+				ANIMALS_KILLED: 0.05,
+			},
+			{
+				TYPE: PASTURE,
+				ROOM: PASTURE_BALTI,
+				ANIMALS_KILLED: 0.05,
+			},
+			{
+				TYPE: PASTURE,
+				ROOM: PASTURE_GLOBDIEN,
+				ANIMALS_KILLED: 0.05,
+			},
+			{
+				TYPE: PASTURE,
+				ROOM: PASTURE_ONX,
+				ANIMALS_KILLED: 0.05,
+			},
+			{
+				TYPE: PASTURE,
+				ROOM: PASTURE_ENT,
+				ANIMALS_KILLED: 0.05,
+			},
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					ROOM_PASTURE*>MUL: 0.8,
+				},
+			},
+		],
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: PASTURE,
+					ROOM: PASTURE_AUR,
+					ANIMALS_KILLED: 0.8,
+				},
+				{
+					TYPE: PASTURE,
+					ROOM: PASTURE_BALTI,
+					ANIMALS_KILLED: 0.8,
+				},
+				{
+					TYPE: PASTURE,
+					ROOM: PASTURE_GLOBDIEN,
+					ANIMALS_KILLED: 0.8,
+				},
+				{
+					TYPE: PASTURE,
+					ROOM: PASTURE_ONX,
+					ANIMALS_KILLED: 0.8,
+				},
+				{
+					TYPE: PASTURE,
+					ROOM: PASTURE_ENT,
+					ANIMALS_KILLED: 0.8,
+				},
+				{
+					TYPE: EVENT,
+					EVENT: CULL_YES,
+				},
+				{
+					TYPE: BOOST,
+					PERMANENT: true,
+					PLAYER: {
+						ROOM_PASTURE*>MUL: 1.05,
+					},
+				},
+			],		
+		},
+	],
+},
+
+CULL_GLOBDIEN: {
+	ICON: 32->animal->Globdien->0,
+	DURATION: {
+		DAYS: 4.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 1000,
+				ROOM_PASTURE_GLOBDIEN_AMOUNT: 1,
+			},
+		},
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			CULL_DONE,
+		],
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: PASTURE,
+				ROOM: PASTURE_AUR,
+				ANIMALS_KILLED: 0.05,
+			},
+			{
+				TYPE: PASTURE,
+				ROOM: PASTURE_BALTI,
+				ANIMALS_KILLED: 0.05,
+			},
+			{
+				TYPE: PASTURE,
+				ROOM: PASTURE_GLOBDIEN,
+				ANIMALS_KILLED: 0.05,
+			},
+			{
+				TYPE: PASTURE,
+				ROOM: PASTURE_ONX,
+				ANIMALS_KILLED: 0.05,
+			},
+			{
+				TYPE: PASTURE,
+				ROOM: PASTURE_ENT,
+				ANIMALS_KILLED: 0.05,
+			},
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					ROOM_PASTURE*>MUL: 0.8,
+				},
+			},
+		],
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: PASTURE,
+					ROOM: PASTURE_AUR,
+					ANIMALS_KILLED: 0.8,
+				},
+				{
+					TYPE: PASTURE,
+					ROOM: PASTURE_BALTI,
+					ANIMALS_KILLED: 0.8,
+				},
+				{
+					TYPE: PASTURE,
+					ROOM: PASTURE_GLOBDIEN,
+					ANIMALS_KILLED: 0.8,
+				},
+				{
+					TYPE: PASTURE,
+					ROOM: PASTURE_ONX,
+					ANIMALS_KILLED: 0.8,
+				},
+				{
+					TYPE: PASTURE,
+					ROOM: PASTURE_ENT,
+					ANIMALS_KILLED: 0.8,
+				},
+				{
+					TYPE: EVENT,
+					EVENT: CULL_YES,
+				},
+				{
+					TYPE: BOOST,
+					PERMANENT: true,
+					PLAYER: {
+						ROOM_PASTURE*>MUL: 1.05,
+					},
+				},
+			],		
+		},
+	],
+},
+
+CULL_YES: {
+	ICON: 32->DEATH->1,	
+	
+	TAGS: {
+		ADD: [
+			CULL_DONE,
+		],
+	},
+},
+
+STRATEGY_FISH: {
+	ICON: 32->animal->Fish->0,
+	DURATION: {
+		DAYS: 1.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				EMPLOYED_FISHERY_NORMAL: 200,
+			},
+		},
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			STRATEGY_FISH_YES,
+			STRATEGY_FISH_NO,
+			STRATEGY_FISH_MAYBE,
+		],
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: BOOST,
+					PERMANENT: true,
+					PLAYER: {
+						ROOM_FISHERY_NORMAL>MUL: 1.2,
+					},
+				},
+				{
+					TYPE: EVENT,
+					EVENT: STRATEGY_FISH_YES,
+				},
+			],		
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: BOOST,
+					PERMANENT: true,
+					PLAYER: {
+						ROOM_FISHERY_NORMAL>MUL: 0.95,
+					},
+				},
+				{
+					TYPE: EVENT,
+					EVENT: STRATEGY_FISH_NO,
+				},
+			],		
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: STRATEGY_FISH_MAYBE,
+				},
+			],		
+		},
+	],
+},
+
+STRATEGY_FISH_YES: {
+	ICON: 32->animal->Fish->0,
+	
+	TAGS: {
+		ADD: [
+			STRATEGY_FISH_YES,
+		],
+	},	
+},
+
+STRATEGY_FISH_NO: {
+	ICON: 32->animal->Fish->0,
+	TAGS: {
+		ADD: [
+			STRATEGY_FISH_NO,
+		],
+	},
+},
+
+STRATEGY_FISH_MAYBE: {
+	ICON: 32->animal->Fish->0,
+	TAGS: {
+		ADD: [
+			STRATEGY_FISH_MAYBE,
+		],
+	},
+},
+
+STRATEGY_FISH_YES_FOLLOW: {
+	ICON: 32->animal->Fish->0,
+	DURATION: {
+		DAYS: 6.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 10,
+			},
+		},
+	},
+	
+	TAGS: {
+		ALLOW: [
+			STRATEGY_FISH_YES,
+		],
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},
+
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					ROOM_FISHERY_NORMAL>MUL: 0.3,
+				},
+			},
+		],
+	},
+},
+
+STRATEGY_FISH_NO_FOLLOW: {
+	ICON: 32->animal->Fish->0,
+	DURATION: {
+		DAYS: 16.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 10,
+			},
+		},
+	},
+	
+	TAGS: {
+		ALLOW: [
+			STRATEGY_FISH_NO,
+		],
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},
+
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					ROOM_FISHERY_NORMAL>MUL: 3,
+				},
+			},
+		],
+	},
+},

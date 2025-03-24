@@ -1,0 +1,13 @@
+NAME: "Slash",
+ATTACK: {
+	NAME: "Slash Damage",
+	DESC: "Damage that cuts through slash armour.",
+},
+DEFENCE: {
+	NAME: "Slash Armour",
+	DESC: "Negates slash damage in battle.",
+},
+
+
+
+

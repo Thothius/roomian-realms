@@ -1,0 +1,13 @@
+INFO: {
+	NAME: "Grand Building",
+	NAMES: "Grand Buildings",
+	DESC: "The finest and most durable of walls",
+},
+
+BONUS: {
+	NAME: "Grand Structure Construction",
+	DESC: "Decreases construction time of Grand Structures",
+},
+
+NAME_WALL: "Grand Wall",
+NAME_CEILING: "Grand Ceiling",

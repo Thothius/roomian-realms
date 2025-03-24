@@ -1,0 +1,12 @@
+INFO: {
+	NAME: "Bench",
+	NAMES: "Benches",
+	DESC: "Allows your subjects to rest their weary legs. Scattering these around will be appreciated by your subjects.",
+},
+
+ITEMS: [
+	{
+		NAME: "Bench",
+		DESC: "",
+	},
+],

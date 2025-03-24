@@ -1,0 +1,148 @@
+ICON: 32->RELIGION->9,
+RESOURCES: [STONE,WOOD,FURNITURE,METAL],
+AREA_COSTS: [0.5,0.3,0,0],
+FLOOR: [STONE_DARK,STONE_MEDIUM],
+MINI_COLOR: 150_0_200,
+REQUIRES: {
+	GREATER: {
+		POPULATION_CITIZEN_I: 200,
+	},
+},
+ITEMS: [
+	{
+		COSTS: [3,2,2,2],	** Void Conduits
+		STATS: [1,0,0],
+	},
+	{
+		COSTS: [2,2,2,2],	** Void Stabilizers
+		STATS: [0,2,0],
+	},
+	{
+		COSTS: [1,1,1,2],	** Containment Fields
+		STATS: [0,0,2],
+	},
+],
+UPGRADES: [
+	{
+		RESOURCE_MASK: [1,1,1,1],
+		BOOST: 0,
+	},
+	{
+		RESOURCE_MASK: [2,2,2,2],
+		BOOST: 0.5,
+	},
+	{
+		RESOURCE_MASK: [3,3,3,3],
+		BOOST: 1.0,
+	},
+],
+WORK: {
+	SHIFT_OFFSET: 0.5,
+	SOUND: work->Magic*,
+	ACCIDENTS_PER_YEAR: 0.05,
+	FULFILLMENT: 1.5,
+},
+INDUSTRIES: [
+	{
+		INDUSTRY: {
+			IN: {
+				VOID_CRYSTAL: 0.1,
+				METAL: 0.05,
+			},
+			OUT: {
+				KNOWLEDGE: 0.1,
+				RELIGION_SHMALOR: 0.05,
+			},
+		},
+	},
+],
+ENVIRONMENT_EMIT: {
+	_NOISE: {
+		VALUE: 0.5,
+		RADIUS: 1,
+	},
+},
+BOOSTS: {
+	GARTHIMI: {
+		RELIGION_SHMALOR>MUL: 0.2,
+		KNOWLEDGE>MUL: 0.1,
+		HAPPINESS>ADD: 0.05,
+	},
+	CANTOR: {
+		RELIGION_SHMALOR>MUL: 0.1,
+		KNOWLEDGE>MUL: 0.05,
+		HAPPINESS>ADD: 0.02,
+	},
+	Q_AMEVIA: {
+		KNOWLEDGE>MUL: 0.15,
+		HAPPINESS>ADD: 0.03,
+	},
+	DONDORIAN: {
+		KNOWLEDGE>MUL: 0.05,
+		HAPPINESS>ADD: 0.01,
+	},
+	TILAPI: {
+		RELIGION_AMINION>MUL: 0.05,
+		HAPPINESS>ADD: 0.01,
+		TORTURE>MUL: 0.1,
+	},
+	ARGONOSH: {
+		KNOWLEDGE>MUL: 0.05,
+		HAPPINESS>ADD: 0.01,
+		ARCHERY>MUL: 0.05,
+	},
+	HUMAN: {
+		KNOWLEDGE>MUL: 0.05,
+		HAPPINESS>ADD: 0.01,
+		WARRIOR_MORALE>MUL: 0.03,
+	},
+	CRETONIAN: {
+		KNOWLEDGE>MUL: 0.05,
+		HAPPINESS>ADD: 0.01,
+		TRAINING>MUL: 0.03,
+	},
+},
+SPRITES: {
+	ALTAR_2X2: [
+		{	
+			TINT: true,
+			SHADOW_HEIGHT: 6,
+			FRAMES: [
+				ALTAR: 0,	
+				ALTAR: 1,
+			],
+		},
+	],
+	STATUE_1X1: [
+		{	
+			TINT: true,
+			SHADOW_LENGTH: 5,
+			ROTATES: true,
+			FRAMES: [
+				STATUE: 0,
+				STATUE: 1,	
+			],
+		},
+	],
+	DECOR_1X1: [
+		{
+			TINT: true,
+			SHADOW_LENGTH: 2,
+			ROTATES: false,
+			FRAMES: [
+				DECOR: 0,
+				DECOR: 1,
+				DECOR: 2,
+			],
+		},
+	],
+	CARPET_COMBO: [
+		{	
+			TINT: true,
+			FRAMES: [
+				COMBO_CARPETS: 5,	
+			],
+		},
+	],
+},
+DESCRIPTION: "A powerful structure that harnesses the otherworldly energies of Void Crystals to create a stable connection to the realm beyond. The Void Nexus generates knowledge from the alien dimensions and strengthens the connection to Shmalor, the deity most closely associated with the void. Wormlings have a natural affinity for this building, experiencing significant happiness boosts and enhanced abilities when working here. Other races benefit from the knowledge gained, though some find the proximity to the void unsettling. The building represents the culmination of void technology, allowing all races to benefit from the alien power while maintaining the strongest connection to the Wormlings' cosmic origins."

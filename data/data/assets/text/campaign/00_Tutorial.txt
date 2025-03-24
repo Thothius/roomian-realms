@@ -1,0 +1,2 @@
+NAME: "Tutorial",
+DESC: "Learn the very basics of the game as you partake in Hotam Greattusk's struggle to build a new settlement for his Cretonian tribe.",

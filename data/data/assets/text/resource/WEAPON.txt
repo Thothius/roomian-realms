@@ -1,0 +1,3 @@
+NAME: "Weapon",
+NAMES: "Weapons",
+DESC: "Used to equip soldiers for battle.",

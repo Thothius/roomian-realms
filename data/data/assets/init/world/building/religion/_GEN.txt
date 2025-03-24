@@ -1,0 +1,16 @@
+GENS: [
+	{
+		INDUSTRIES: [
+			TEMPLE*,
+		],
+		CREDITS: 1000,
+		BOOST: {
+			WORLD_POINT_WORKFORCE>ADD: -35,
+		},
+		EFFICIENCY: {
+			NEEDS: [
+				EFFICIENCY_WORKFORCE,
+			],
+		},
+	},
+],

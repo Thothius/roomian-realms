@@ -1,0 +1,48 @@
+ICON: 32->WATER->5,
+RESOURCES: [STONE_CUT,],
+AREA_COSTS: [0,],
+MINI_COLOR: 226_195_38,
+
+WATER_COLOR: 40_80_100,
+WATER_DEPTH: 0.5,
+CLEARS_GRASS: true,
+
+ITEMS: [
+	{
+		COSTS: [8,],
+		STATS: [],
+	},
+],
+
+BOTTOM_TEXTURE: {
+	FILE: ORGANIC,
+	ROW: 5,
+},
+
+SPRITES: {
+	FRAME_COMBO: [
+		{
+			COLOR: 100_100_100,
+			SHADOW_LENGTH: 2,
+			FRAMES: [
+				FRAMES: 0,
+			],
+		},
+	],
+	
+	STENCIL_COMBO: [
+		{
+			FRAMES: [
+				FRAMES: 6,
+			],
+		},
+	],
+	
+	ON_TOP_1X1: [
+		{
+			FRAMES: [
+				
+			],
+		},
+	],
+},

@@ -1,0 +1,4 @@
+INFO: {
+	NAME: "Master Stonemason",
+	DESC: "The Master Stonemason is the master of the Stonemasons' guild and ensures all cuts are measured to standard and all bricks are laid properly",
+},

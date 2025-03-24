@@ -1,0 +1,3 @@
+NAME: "Cut Stone",
+NAMES: "Cut Stone",
+DESC: "Cut Stone is used in a variety of structures.",

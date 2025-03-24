@@ -1,0 +1,55 @@
+DREAMS: [
+	"Has always dreamt of being a {RND_PROFESSION}.",
+    "Always aspired to be a {RND_PROFESSION}",
+    "Can hear the voices of the gods, and is renowned for seeing into the future.",
+    "Sometimes questions the need to squirrel away gems in crates where no one will see them.",
+    "Is fascinated by Tilapis for obvious reasons.",
+    "Gathered a shadowy cabal to overthrow you and take your place, but the meetings immediately devolved into game nights.",
+    "Admires Cretonian cooking, but laments the lack of meat in it.",
+    "Thinks {HE} could fight a Smilodon unarmed and win.",
+    "Not convinced about the claims that there are Dondorian women.",
+    "Often has nightmares about Garthimi lurking under {HIS} bed.",
+    "Thinks Amevias are cute and will pester any that have the misfortune of meeting {HIM} with incessant questions.",
+],
+
+TRAIT: {
+
+},
+
+HAPPY: [
+    "Is happy with your {RACE_CITY} in general, but has the following suggestions to make it better:",
+    "Grudgingly admits you do a good job, but still found these things to nitpick:",
+    "Had to think hard to come up with these things you could do better:",
+    "Wants for nothing in your {RACE_CITY}, but has heard someone desire these things:",
+],
+HAPPY_SOSO: [
+    "Feels that there are a few improvements that could be made to the {RACE_CITY}:",
+    "Is mostly content, but was quick to mention:",
+    "Overall likes it in your {RACE_CITY}, but can't help but want:",
+    "Thinks your {RACE_CITY} is a decent place to live and mentioned needing the following:",
+],
+HAPPY_NO: [
+    "Feels you can do better as a ruler. Quite a bit better to be honest:",
+    "Clearly has some choice words about your {RACE_CITY}, but only said this:",
+    "Was close to tears, before mentioning:",    
+    "Visibly thought better of insulting you and suggested the following:",    
+],
+NOTHING: [
+    "Nothing more can be done. Your {RACE_CITY} is perfectly designed and managed!",
+],
+FUNNY: [
+    "Stop picking your nose while playing. It's not befitting a lord.",
+    "Pull up your pants, please.",
+    "Perhaps Milord could appoint a noble to oversee the royal wardrobe. Fashion is a thing you know. Respectfully.",
+],
+
+STATS_MORE: {
+	STORED_GEM: [
+		"Inflation is a terrible thing, you should invest the cities' wealth into gems that will not lose value as quickly.",
+		"Milord, all of the best cities have vaults full of gems. It's a sign of prosperity and should the worst happen, gems are a lot easier to carry than sacks of coins.",
+	],
+},
+
+STATS_LESS: {
+
+},

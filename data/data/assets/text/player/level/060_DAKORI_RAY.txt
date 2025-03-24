@@ -1,0 +1,3 @@
+MALE: "Dakori Ray",
+FEMALE: "Dakoress Ray",
+DESC: "You are now a great Prince, congratulations.",

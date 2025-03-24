@@ -1,0 +1,2 @@
+DECLINE_VALUE: 1.0,
+ICON: 16->Env->0,

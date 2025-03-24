@@ -1,0 +1,37 @@
+INFO: {
+	NAME: "Herb Farm",
+	NAMES: "Herb Farms",
+	DESC: "Grows Herbs. Herbs are not edible, but have other uses.",
+},
+
+BONUS: {
+	NAME: "Herb Farming",
+	DESC: "Increases production of Herb farming.",
+},
+
+WORK: {
+	TITLE: "Herb Farmer",
+	VERB: "Farming",
+},
+
+STATS: [
+	{
+		NAME: "Fertility",
+		DESC: "The fertility of the farmland",
+	},
+	{
+		NAME: "Farmers",
+		DESC: "The amount of Farmers needed",
+	},
+	{
+		NAME: "",
+		DESC: "",
+	},
+	{
+		NAME: "Yearly Output",
+		DESC: "An estimate of how much this farm will output if well worked during a year. Not including bonuses, or irrigation",
+	},
+
+],
+
+

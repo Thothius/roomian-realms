@@ -1,0 +1,44 @@
+INFO: {
+	NAME: "Dwarven Nursery",
+	NAMES: "Dwarven Nurseries",
+	DESC: "A place where dwarven babies are born and brought up. Each station is capable of bringing one up and needs drinks and bread to operate, else the child will starve.",
+},
+
+
+BONUS: {
+	NAME: "Dwarven upbringing",
+	DESC: "Increases the rate at which dwarves are raised in Dwarven Nurseries.",
+},
+
+STATS: [
+
+	{
+		NAME: "Cribs",
+		DESC: "Amount of Cribs",
+	},
+	{
+		
+	},
+	{
+		NAME: "Efficiency",
+		DESC: "Increases birth rate.",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Crib",
+		DESC: "",
+	},
+	{
+		NAME: "Furnishings",
+		DESC: "Increases efficiency.",
+	},
+],
+
+WORK: {
+	TITLE: "Wet Nurse",
+	VERB: "Tending to dwarven children.",
+},
+
+

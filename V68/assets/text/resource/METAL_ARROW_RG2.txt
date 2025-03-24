@@ -1,0 +1,3 @@
+NAME: "Metal arrow",
+NAMES: "Metal arrows",
+DESC: "Deadly projectiles forged from high-quality metals, often harvested from rare sources like meteorites. These arrows can pierce armor with ease and cause devastating wounds. The distinctive whistling sound they make in flight has become a feared harbinger of death on battlefields across the land.",

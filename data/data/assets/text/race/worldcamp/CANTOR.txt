@@ -1,0 +1,11 @@
+NAMES: [
+	"Pillars of {0}",
+	"Shrine to {0}",
+	"Refuge of {0}",
+	"Bastion of {0}",
+	"Altar of {0}",
+	"Bastion of {0}",
+],
+
+JOIN: "The council of the mighty Cantors have decided that you are worthy of their assistance. Give them access to your dwelling and they shall abide to your will and smite those who oppose Athuri with their hammers.",
+LEAVE: "The mighty cantors are disappointed in how your kingdom has devolved recently, and some of them are now leaving your city.",

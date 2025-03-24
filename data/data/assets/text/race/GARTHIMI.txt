@@ -1,0 +1,121 @@
+NAME: "Garthimi",
+NAMES: "Garthimis",
+POSSESSIVE: "Garthimian",
+POSSESSIVES: "Garthimian",
+PRONOUN_HE: ["it",],
+PRONOUN_HEC: ["It",],
+PRONOUN_HIS: ["its",],
+PRONOUN_HISC: ["Its",],
+PRONOUN_HIM: ["it",],
+PRONOUN_HIMC: ["Its",],
+PRONOUN_HIMSELF: ["itself",],
+PRONOUN_HIMSELFC: ["Itself",],
+
+HELLO: [
+	"Blood of the innocent",
+	"Aminion's blessings",
+	"Claws cut deep",
+	"Shadows upon you",
+	"The night is dark and full of terror",
+],
+GOODBYE: [
+	"May your claws grow sharp",
+	"May you taste a lot of flesh",
+	"Aminion be blessed",
+	"May your shell grow thick",
+	"May you conquer your enemies and eat them",
+	"May Aminion give you strength",
+	"I wish you unwary enemies",
+],
+CURSE: [
+	"Brood of Harack!",
+	"By Morlak's shell!",
+	"Astari be damned!",
+	"Morlak have mercy!",
+	"Rot and puss!",
+],
+INSULT: [
+	"spawn of a Balicrawler", 
+	"Balticrawler fornicator",
+	"Fleshbag",
+	"addled spawnling",
+],
+INSULTING: [
+	"soft-skinned", 
+	"vomit-faced",
+	"ugly-faced",
+	"clawless",
+],
+LORD: [
+	"Queen",
+	"Hive Master",
+	"Brood Herder",
+],
+CITY: [
+	"hive",
+],
+OTHERS: [
+	"soft-skins",
+],
+SELVES: [
+	"brood",
+	"spawn",
+],
+SELF: [
+	"sibling",
+	"hatch-brother",
+],
+CHILDREN: [
+	"spawn",
+],
+
+
+DESC: 
+"Garthimi love death and destruction while caring little for the finer things in life. High reproductive rate makes them perfect cannon fodder, but given the right training and equipment, they can become quite proficient.  Their ability to raise cavern Balticrawlers gives ample food to feed their hive.  They require humidifiers to reach an ideal environment."
+",
+DESC_LONG:
+"Garthimi were created by the fallen god Aminon in the first war of the gods. After his imprisonment, the Garthimi retreated to the mountain caverns of the world where they raided the ones foolish enough to settle nearby. They reproduce naturally in hatcheries and their exoskeleton is quite resistant to all kinds of weather, while also providing them with a natural battle boost. They like fish and meat. 
+",
+
+
+ARMY_NAMES: [
+	"The Manslayers",
+	"Queens Banner",
+	"Flesheaters",
+	"Wrath of Kathi",
+	"The Spawns of Shneda",
+	"The Horde of Aminion",
+	"The Horde of Gnosh",
+	"The Conquerors of the Ethen Hills",
+	"The Whips of Aminion",
+	"The Deadly Fangs",
+	"The Destroyers of Mendive",
+	"The Original Slashers",
+	"The Pain of Men.",
+	"The Superslayers",
+	"The Superfighters",
+	"The Nightmare Hatchlings",
+	"The Deathbringers",
+	"The Sharpests Claws",
+	"The Deadly Killers",
+	"The Swift Despatchers",
+	"The Super Killers",
+	"The Nightmare Creatures",
+],
+
+CHALLENGE: "Easy",
+
+PROS: [
+	"Fast breeders",
+	"Low demands",
+	"Pierce damage in combat",
+	"Good miners",
+	"Balticrawler ranchers",
+	"Fast movement",
+],
+
+CONS: [
+	"Weak morale",
+	"Very limited skills across the board",
+	"Terrible at knowledge work",
+],

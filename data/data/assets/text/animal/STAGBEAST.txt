@@ -1,0 +1,5 @@
+INFO: {
+	NAME: "Stagbeast",
+	NAMES: "Stagbeasts",
+	DESC: "A mighty antlered beast, this animal thrives on luscious plains. Their antlers make for impressive hunting trophies, as securing one of them means having to face off against a herd of these mighty animals, which can run down whole groups of hunters with their sharp antlers, capable of piercing all known armour.",
+},

@@ -1,0 +1,3 @@
+NAME: "Sacred Path",
+DESC: "A road of fine stone, decorated with shiny metal.",
+

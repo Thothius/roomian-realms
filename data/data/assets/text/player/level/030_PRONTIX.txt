@@ -1,0 +1,3 @@
+MALE: "Prontix",
+FEMALE: "Prontix",
+DESC: "Prontix is Syxian for protector. A Prontix ensures the safety of their followers. And now that our settlement has grown, it is high time we put together a guard force. There are lots of peoples in our surroundings, who might be looking to take what is ours.",

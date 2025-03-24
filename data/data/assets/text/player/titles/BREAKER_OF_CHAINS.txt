@@ -1,0 +1,2 @@
+NAME: "Breaker of Chains",
+DESC: "Gained by freeing many slaves.",

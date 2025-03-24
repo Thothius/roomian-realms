@@ -1,0 +1,5 @@
+VERSION: "0.3",
+NAME: "Roomian Realms",
+DESC: "8 custom races. Expanded armory. Custom music.",
+AUTHOR: "Ted",
+INFO: "Work in progress.",

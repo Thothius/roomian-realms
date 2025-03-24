@@ -1,0 +1,13 @@
+INFO: {
+	NAME: "Wooden Building",
+	NAMES: "Wooden Buildings",
+	DESC: "Structure out of wood.",
+},
+
+BONUS: {
+	NAME: "Wood Structure Construction",
+	DESC: "Decreases construction time of Wooden Structures",
+},
+
+NAME_WALL: "Wooden Wall",
+NAME_CEILING: "Wooden Ceiling",

@@ -1,0 +1,5 @@
+INFO: {
+	NAME: "Globdien",
+	NAMES: "Globdiens",
+	DESC: "The docile Globdiens have long since been domesticated by Amevias and Amevian settlers regularly take over a dozen eggs of these reptiles with them. As herbivores they are generally harmless to the average hunter in the wild, albeit their jaws can snap bone with ease. Their eggs are harvested and collected for purposes of animal husbandry and the occasional omelette.",
+},

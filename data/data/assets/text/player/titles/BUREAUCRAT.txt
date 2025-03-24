@@ -1,0 +1,2 @@
+NAME: "The Bureaucrat",
+DESC: "Gained by having your papers in order. Increases admin.",

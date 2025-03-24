@@ -1,0 +1,6 @@
+NORMAL: [
+	normal->*,
+],
+BATTLE: [
+	battle->*,
+],

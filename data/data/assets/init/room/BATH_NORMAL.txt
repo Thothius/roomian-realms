@@ -1,0 +1,130 @@
+ICON: 32->SERVICE->2,
+RESOURCES: [STONE,STONE_CUT,METAL,],
+AREA_COSTS: [0,0,0,],
+FLOOR: STONE2,
+MINI_COLOR: 70_0_255,
+ITEMS: [
+	{
+		COSTS: [0,2,1,],
+		STATS: [1,0,],
+	},
+	{
+		COSTS: [1,1,0,],
+		STATS: [0,4,],
+	},
+],
+WORK: {
+	SHIFT_OFFSET: 0.65,
+	SOUND: work->Crank*,
+	USES_TOOL: false,
+	FULFILLMENT: 0,
+},
+INDUSTRY: {
+	IN: {
+		COAL: 1.5,
+	},
+},
+SERVICE: {
+	DEFAULT_ACCESS: 0.5,
+	DEFAULT_VALUE: 1.0,
+	NEED: BATH,
+	STANDING: {
+		CITIZEN: 1.5,
+		SLAVE: 0,
+		NOBLE: 3,
+		PRIO: 15,
+	}, 
+	BOOST: {
+		PHYSICS_HEALTH>MUL: 1.5,
+	},
+},
+
+WATER_COLOR: 20_40_100,
+WATER_OPACITY: 0.75,
+
+SPRITES: {
+	FRAME_COMBO: [
+		{	
+			TINT: true,
+			SHADOW_LENGTH: 0,
+			FRAMES: [
+				FRAMES: 5,	
+			],
+		},
+	],
+	
+	POOL_FLOOR_TEXTURE: [
+		{	
+			TINT: false,
+			FRAMES: [
+				STONE: 7,	
+			],
+		},
+	],
+	
+	TORCH_1X1: [
+		{	
+			ROTATES: false,
+			TINT: true,
+			SHADOW_LENGTH: 4,
+			FRAMES: [
+				TABLES: 4,	
+			],
+		},
+	],
+	
+	WORK_1X1: [
+		{	
+			ROTATES: false,
+			FPS: 5,
+			TINT: true,
+			SHADOW_LENGTH: 4,
+			FRAMES: [
+				MECH_WORK: 0,
+				MECH_WORK: 1,	
+			],
+		},
+	],
+	
+	OVEN_1X1: [
+		{	
+			ROTATES: true,
+			TINT: true,
+			SHADOW_LENGTH: 6,
+			FRAMES: [
+				MECH2: 15,
+			],
+		},
+	],
+	PIPE_1X1: [
+		{	
+			ROTATES: true,
+			TINT: true,
+			SHADOW_LENGTH: 3,
+			FRAMES: [
+				MECH2: 14,
+			],
+		},
+	],
+	ENTRANCE_1X1: [
+		{	
+			ROTATES: true,
+			TINT: true,
+			SHADOW_LENGTH: 1,
+			FRAMES: [
+				MECH2: 16,
+			],
+		},
+	],
+	BENCH_1X1: [
+		{	
+			ROTATES: true,
+			TINT: true,
+			SHADOW_LENGTH: 3,
+			FRAMES: [
+				STORAGE_B: 1,
+			],
+		},
+	],
+},
+

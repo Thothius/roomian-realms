@@ -1,0 +1,3 @@
+MALE: "Mir",
+FEMALE: "Miress",
+DESC: "A Mir is the head of the lowest of noble houses. The people who follow you know not to expect much.",

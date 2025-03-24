@@ -1,0 +1,5 @@
+INFO: {
+	NAME: "Auroch",
+	NAMES: "Aurochs",
+	DESC: "Aurochs are giant beasts, found in the north, with a ferocious temperament.",
+},

@@ -1,0 +1,44 @@
+INFO: {
+	NAME: "Elven Nursery",
+	NAMES: "Elven Nurseries",
+	DESC: "A place where elven babies are born and brought up. Each station is capable of bringing one up and needs vegetables to operate, else the child will starve.",
+},
+
+
+BONUS: {
+	NAME: "Elven care",
+	DESC: "Increases the rate at which Elves are raised in Elven Nurseries.",
+},
+
+STATS: [
+
+	{
+		NAME: "Cribs",
+		DESC: "Amount of Cribs",
+	},
+	{
+		
+	},
+	{
+		NAME: "Efficiency",
+		DESC: "Increases birth rate.",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Crib",
+		DESC: "",
+	},
+	{
+		NAME: "Furnishings",
+		DESC: "Increases efficiency.",
+	},
+],
+
+WORK: {
+	TITLE: "Wet Nurse",
+	VERB: "Tending to elven children.",
+},
+
+

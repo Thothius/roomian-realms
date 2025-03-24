@@ -1,0 +1,8 @@
+NAME: "Police",
+DESC: "The police will make sure everyone behaves and think about their freedom a bit less.",
+
+LEVELS: [
+	"Police Office",
+	"Police HQ",
+	"Secret Police HQ",
+],

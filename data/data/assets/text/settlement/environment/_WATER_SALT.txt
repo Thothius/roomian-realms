@@ -1,0 +1,9 @@
+INFO: {
+	NAME: "Salt Water",
+	DESC: "Proximity to salt water. Some species might be drawn to salt water.",
+
+},
+
+	MORE: [
+		"Closer access to the ocean",
+	],

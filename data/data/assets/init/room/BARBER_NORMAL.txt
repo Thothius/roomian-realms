@@ -1,0 +1,116 @@
+ICON: 32->SERVICE->1,
+RESOURCES: [STONE_CUT,FURNITURE,TOOL,FABRIC,],
+AREA_COSTS: [0,0,0,0,],
+FLOOR: [STONE_CROSS,],
+MINI_COLOR: 70_0_255,
+WORK_TIME_IN_DAYS: 0.2,
+ITEMS: [
+	{
+		COSTS: [1,2,1,0,],
+		STATS: [1,1,0,],
+	},
+	{
+		COSTS: [0,0,0,1,],
+		STATS: [0,0,0.6,],
+	},
+],
+WORK: {
+	SHIFT_OFFSET: 0.65,
+	SOUND: DUMMY,
+	USES_TOOL: false,
+	FULFILLMENT: 0,
+},
+SERVICE: {
+	DEFAULT_ACCESS: 1.0,
+	DEFAULT_VALUE: 1.0,
+	NEED: GROOMING,
+	SOUND: DUMMY,
+	STANDING: {
+		CITIZEN: 0.75,
+		SLAVE: 0,
+		NOBLE: 1.75,
+		PRIO: 1,
+	},
+},
+SPRITES: {
+	
+	NICKNACK_1X1: [
+		{
+			SHADOW_LENGTH: 2,
+			TINT: true,
+			FRAMES: [
+				TOP: 6,
+				TOP: 7,
+				TOP: 8,
+				TOP: 4,
+				TOP: 24,
+			],
+		},
+	],
+	TABLE_CENTRE_1X1: [
+		{
+			SHADOW_LENGTH: 0,
+			COLOR: {R:180,G:180,B:255,},
+			ROTATES: true,
+			FPS: 8,
+			FRAMES: [
+				BASIN: 3,
+				BASIN: 3,
+			],
+		},
+	],
+	TABLE_CENTRE_TOP_1X1: [
+		{
+			SHADOW_LENGTH: 3,
+			TINT: true,
+			ROTATES: true,
+			FRAMES: [
+				BASIN: 4,
+				BASIN: 5,
+			],
+		},
+	],
+	TABLE_COMBO: [
+		{
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 4,
+			ROTATES: true,
+			FRAMES: [
+				COMBO_TABLES: 4,
+			],
+		},
+	],
+	CHAIR_1X1: [
+		{
+			SHADOW_LENGTH: 6,
+			ROTATES: true,
+			FRAMES: [
+				CHAIRS: 2,
+				CHAIRS: 3,
+				CHAIRS: 6,
+				CHAIRS: 7,
+			],
+		},
+	],
+	SEPARATOR_1X1: [
+		{
+			SHADOW_LENGTH: 6,
+			ROTATES: true,
+			FRAMES: [
+				SPECIAL: 9,
+			],
+		},
+	],
+	CARPET_COMBO: [
+		{
+			SHADOW_LENGTH: 0,
+			FRAMES: [
+				COMBO_CARPETS: 0,
+				COMBO_CARPETS: 1,
+				COMBO_CARPETS: 2,
+				COMBO_CARPETS: 3,
+			],
+		},
+	],
+},
+

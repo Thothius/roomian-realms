@@ -1,0 +1,2 @@
+NAME: "The Entertainer",
+DESC: "Gained by having good access to entertainment and repeatedly shouting 'Are you not entertained?' at the screen. Increases happiness.",

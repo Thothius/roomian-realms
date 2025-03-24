@@ -1,0 +1,12 @@
+** ME = Strong melee damage
+** AR = Strong health and armour
+** SP = fast troops
+** RA = ranged troops
+** __ = nothing
+
+FORMATION: [
+	[__,__,AR,AR,AR,AR,__,__,],
+	[ME,ME,AR,AR,AR,AR,ME,ME,],
+	[RA,RA,RA,RA,RA,RA,RA,RA,],
+	[SP,__,__,SP,SP,__,__,SP,],
+],

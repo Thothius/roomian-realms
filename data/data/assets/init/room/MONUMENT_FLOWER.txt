@@ -1,0 +1,75 @@
+ICON: 32->MONUMENT->4,
+RESOURCES: [STONE,WOOD,],
+AREA_COSTS: [0,0,],
+MINI_COLOR: 48_139_204,
+FLOOR: GRASS,
+SOLID: true,
+ITEMS: [
+	{
+		COSTS: [2,1,],
+		STATS: [],
+	},
+],
+STANDING: {
+	CITIZEN: 0,
+	NOBLE: 0,
+	SLAVE: 0,
+	PRIO: 15,
+	MULTIPLIER: 3,
+},
+FULFILLMENT_BONUS: {
+	
+},
+MAX_VALUE: 8,
+SPRITES: {
+	1x1: {
+		COLOR: [
+			255_255_255,
+			255_255_250,
+			255_250_250,
+			255_245_250,
+			255_255_245,
+			255_250_245,
+			255_245_245,
+		],
+		FRAMES: [
+			_FLOWER: 0,
+		],
+	},
+	2x2: {
+		COLOR: [
+			255_255_255,
+			255_255_250,
+			255_250_250,
+			255_245_250,
+			255_255_245,
+			255_250_245,
+			255_245_245,
+		],
+		FRAMES: [
+			_FLOWER: 0,
+		],
+	},
+	3x3: {
+		COLOR: [
+			255_255_255,
+			255_255_250,
+			255_250_250,
+			255_245_250,
+			255_255_245,
+			255_250_245,
+			255_245_245,
+		],
+		FRAMES: [
+			_FLOWER: 0,
+		],
+	},
+	FLOOR_COMBO: {
+		SHADOW_LENGTH: 0,
+		SHADOW_HEIGHT: 0,
+		FRAMES: [
+			FRAMES: 0,
+		],
+	},
+},
+

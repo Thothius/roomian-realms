@@ -1,0 +1,52 @@
+INFO: {
+	NAME: "Court",
+	NAMES: "Courts",
+	DESC: "Gives prisoners a chance to plead their case in a trial before sentencing. Improves Justice and has a chance to free the prisoner after processing.",
+	WIKI: {
+		CATEGORY: "Law",
+		NAME: "Courts",
+		TEXT: "Gives prisoners a chance to plead their case in a trial before sentencing. Improves Justice and has a chance to free the prisoner after processing.",
+		CATEGORIES: [],
+	},
+},
+
+WORK: {
+	TITLE: "Judge",
+	VERB: "Judging",
+},
+
+STATS: [
+	{
+		NAME: "Clients",
+		DESC: "How many prisoners that can be judged.",
+	},
+	{
+		NAME: "Judges",
+		DESC: "How many judges that must be employed.",
+	},
+	{
+		NAME: "Spectators",
+		DESC: "More spectators improves justice.",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Courts",
+		DESC: "Where prisoners are judged.",
+	},
+	{
+		NAME: "Spectators",
+		DESC: "Where spectators can sit and influence convictions.",
+	},
+],
+
+
+SERVICE: {
+	VERB: "Watching a trial",
+	MORE: [
+		"I feel the need of jury duty. For that we need a court.",
+		"My sense of social commitment is strong. I must attend a trial.",
+		"Attending a trial in a court is on my bucket list.",
+	],
+},

@@ -1,0 +1,150 @@
+TYPE: BARRACKS,
+ICON: 32->TRAINING->0,
+RESOURCES: [STONE,FURNITURE,METAL,MACHINERY,],
+AREA_COSTS: [0,0,0,0,],
+FLOOR: [DIRT, STONE1, STONE2,],
+MINI_COLOR: 70_70_70,
+ITEMS: [
+	{
+		COSTS: [1,1,1,1,],
+		STATS: [1,],
+	},
+],
+SERVICE: {
+	SOUND: DUMMY,
+},
+ENVIRONMENT_EMIT: {
+	_NOISE: {
+		VALUE: 1,
+		RADIUS: 1,
+	},
+},
+RACE_PREFERENCE: 0.7,
+FULL_TRAINING_IN_DAYS: 100,
+EMPLOYMENT: {
+	SHIFT_OFFSET: 0.125,
+	SOUND: impact->Sword*,
+	USES_TOOL: false,
+	FULLFILLMENT: 0.5,
+	ACCIDENTS_PER_YEAR: 0.05,
+},
+UPGRADES: [
+	{
+		RESOURCE_MASK: [1,1.25,0,0,],
+		BOOST: 0,
+	},
+	{
+		RESOURCE_MASK: [1,1.25,2,0,],
+		BOOST: 0.5,
+	},
+	{
+		RESOURCE_MASK: [1,1.25,3,0.75,],
+		BOOST: 1.0,
+	},
+],
+
+TRAINING: {
+	FULL_TRAINING_IN_DAYS: 100,
+	BOOST: {
+		BATTLE_OFFENCE_SKILL>ADD: 1.5,
+		BATTLE_DEFENCE_SKILL>ADD: 1.5,
+		BATTLE_BLUNT_ATTACK>MUL: 1.5,
+		PHYSICS_STAMINA>MUL: 2.0,
+		BATTLE_ATTACK_RATE>ADD: 1.0,
+		BATTLE_MORALE>ADD: 4.0,
+	},
+},
+
+
+SPRITES: {
+	MANAKIN_A_1X1: [
+		{
+			TINT: true,
+			SHADOW_HEIGHT: 4,
+			ROTATES: true,
+			FRAMES: [
+				BARRACKS: 0,
+			],
+		},
+		{
+			TINT: true,
+			SHADOW_HEIGHT: 4,
+			ROTATES: true,
+			FRAMES: [
+				BARRACKS: 2,
+			],
+		},
+		{
+			TINT: true,
+			SHADOW_HEIGHT: 4,
+			ROTATES: true,
+			FRAMES: [
+				BARRACKS: 4,
+			],
+		},
+	],
+	MANAKIN_B_1X1: [
+		{
+			TINT: true,
+			SHADOW_HEIGHT: 4,
+			ROTATES: true,
+			FRAMES: [
+				BARRACKS: 1,
+			],
+		},
+		{
+			TINT: true,
+			SHADOW_HEIGHT: 4,
+			ROTATES: true,
+			FRAMES: [
+				BARRACKS: 3,
+			],
+		},
+		{
+			TINT: true,
+			SHADOW_HEIGHT: 4,
+			ROTATES: true,
+			FRAMES: [
+				BARRACKS: 5,
+			],
+		},
+	],
+	PODEUM_BOX: [
+		{
+			TINT: true,
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 0,
+			FRAMES: [
+				PODIUM: 7,
+			],
+		},
+		{
+			TINT: true,
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 0,
+			FRAMES: [
+				PODIUM: 7,
+			],
+		},
+		{
+			TINT: true,
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 0,
+			FRAMES: [
+				PODIUM: 6,
+			],
+		},
+	
+	],
+	TABLE_1X1: [
+		{
+			TINT: true,
+			SHADOW_LENGTH: 6,
+			SHADOW_HEIGHT: 0,
+			FRAMES: [
+				TABLES: 2,
+			],
+		},
+	],
+},
+

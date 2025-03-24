@@ -1,0 +1,4 @@
+INFO: {
+	NAME: "Narcocrat",
+	DESC: "The Narcocrat is a ruthless opiate noble who will stop at nothing to boost the production of opiate poppies. While free citizens benefit from their instruction, their slaves fear them",
+},

@@ -1,0 +1,3 @@
+NAME: "Tool",
+NAMES: "Tools",
+DESC: "Most industries allow tools to be equipped by workers for faster production.",

@@ -1,0 +1,118 @@
+ICON: {
+	BG: 24->race->Human->0,
+	FG: 32->BG->0,
+	SHADOW: 1,
+},
+RESOURCES: [WOOD,FURNITURE,METAL,],
+AREA_COSTS: [0.2,0,0,],
+FLOOR: WOOD,
+MINI_COLOR: 0_255_255,
+REQUIRES: {
+	GREATER: {
+		POPULATION_HUMAN_CITIZEN_I: 20,
+	},
+},
+ITEMS: [
+	{
+		COSTS: [2,2,1,],
+		STATS: [1,0,0,],
+	},
+	{
+		COSTS: [5,5,2,],
+		STATS: [0,0,4,],
+	},
+],
+WORK: {
+	SHIFT_OFFSET: 0.125,
+	USES_TOOL: false,
+	FULLFILLMENT: 0.5,
+},
+INDUSTRY: {
+	IN: {
+		MEAT: 0.3,
+		ALCO_BEER: 0.2,
+	},
+	OUT: {
+		
+	},
+},
+RACE: HUMAN,
+INCUBATION_DAYS: 12, 
+SPRITES: {
+	1x1_BABY: {
+		FPS: 4,
+		SHADOW_LENGTH: 1,
+		ROTATES: false,
+		FRAMES: [
+			NURSERY: 6,
+			NURSERY: 7,
+		],
+	},
+	1x1_CRIB_TOP: {
+		FPS: 0,
+		SHADOW_LENGTH: 3,
+		SHADOW_HEIGHT: 0,
+		ROTATES: true,
+		FRAMES: [
+			2xBED: 4,
+		],
+	},
+	1x1_CRIB_BOTTOM: {
+		FPS: 0,
+		SHADOW_LENGTH: 3,
+		SHADOW_HEIGHT: 0,
+		ROTATES: true,
+		FRAMES: [
+			2xBED: 5,
+		],
+	},
+	1x1_CRIB_TOP_FENCE: {
+		FPS: 0,
+		SHADOW_LENGTH: 2,
+		SHADOW_HEIGHT: 0,
+		ROTATES: true,
+		FRAMES: [
+			2xBED: 18,
+		],
+	},
+	1x1_CRIB_BOTTOM_FENCE: {
+		FPS: 0,
+		SHADOW_LENGTH: 2,
+		SHADOW_HEIGHT: 0,
+		ROTATES: true,
+		FRAMES: [
+			2xBED: 19,
+		],
+	},	
+	2x2_DECOR: {
+		FPS: 0,
+		SHADOW_LENGTH: 0,
+		SHADOW_HEIGHT: 0,
+		ROTATES: false,
+		FRAMES: [
+			CARPETS: 2,
+		],
+	},
+	1x1_TABLE: {
+		FPS: 0,
+		SHADOW_LENGTH: 3,
+		SHADOW_HEIGHT: 0,
+		ROTATES: false,
+		FRAMES: [
+			TABLES: 1,
+		],
+	},
+	1x1_DECOR: {
+		FPS: 0,
+		SHADOW_LENGTH: 1,
+		SHADOW_HEIGHT: 0,
+		ROTATES: false,
+		FRAMES: [
+			TOP: 10,
+		],
+	},
+},
+DESC: {
+	TEXT: "A sturdy nursery for Northmen children, built with wood and reinforced with metal. Here, young warriors are raised on meat and tales of glory, preparing them for a life of adventure and conquest as part of 'The Glory Hoard'.",
+	REQUIRED: "Requires a population of at least 20 Northmen citizens.",
+},

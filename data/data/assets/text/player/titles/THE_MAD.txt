@@ -1,0 +1,2 @@
+NAME: "The Mad",
+DESC: "Have a bunch of insane people running around in your city.",

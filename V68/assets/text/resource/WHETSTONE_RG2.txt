@@ -1,0 +1,3 @@
+NAME: "Whetstone",
+NAMES: "Whetstone",
+DESC: "Specially crafted stones that bring out the deadliest edge in any blade. During the sharpening ritual, warriors often whisper the names of those they intend to face in battle, believing this imbues the weapon with purpose. A properly maintained edge can mean the difference between victory and defeat on the battlefield.",

@@ -1,0 +1,18 @@
+INFO: {
+	NAME: "Flowerbed",
+	NAMES: "Flowerbeds",
+	DESC: "Spreads a pleasant smell and harmony around it.",
+},
+
+ITEMS: [
+	{
+		NAME: "Flowerbed",
+		DESC: "",
+	},
+],
+
+MORE: [
+	"Some flowerbeds along the roads would brighten our daily commutes.",
+	"Planting a few flowers here and there would make this {RACE_CITY} even more beautiful.",
+	"Our settlement could use more flowers. Lovely scents spreading through our streets should be reason enough, but they are also nice to look at.",
+],

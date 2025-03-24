@@ -1,0 +1,2 @@
+NAME: "The Pleasurer",
+DESC: "Gained by having good access to a 'Massage Parlour'. Increases happiness.",

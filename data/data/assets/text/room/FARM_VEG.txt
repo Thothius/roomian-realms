@@ -1,0 +1,35 @@
+INFO: {
+	NAME: "Vegetable Farm",
+	NAMES: "Vegetable Farms",
+	DESC: "Grows Vegetables.",
+},
+
+BONUS: {
+	NAME: "Vegetable Farming",
+	DESC: "Increases production of Vegetable farming.",
+},
+
+WORK: {
+	TITLE: "Vegetable Farmer",
+	VERB: "Farming",
+},
+
+STATS: [
+	{
+		NAME: "Fertility",
+		DESC: "The fertility of the farmland",
+	},
+	{
+		NAME: "Farmers",
+		DESC: "The amount of Farmers needed",
+	},
+	{
+		NAME: "",
+		DESC: "",
+	},
+	{
+		NAME: "Yearly Output",
+		DESC: "An estimate of how much this farm will output if well worked during a year. Not including bonuses, or irrigation",
+	},
+
+],

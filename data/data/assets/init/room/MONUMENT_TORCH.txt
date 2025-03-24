@@ -1,0 +1,91 @@
+TYPE: TORCH,
+ICON: 32->MONUMENT->1,
+RESOURCES: [WOOD,STONE,METAL,],
+AREA_COSTS: [0,0,0,],
+FLOOR: STONE1,
+MINI_COLOR: 48_139_204,
+ITEMS: [
+	{
+		COSTS: [4,1,2,],
+		STATS: [],
+	},
+],
+STANDING: {
+	CITIZEN: 1.5,
+	NOBLE: 1,
+	SLAVE: 1,
+	PRIO: 75,
+	MULTIPLIER: 1.5,
+},
+STANDING_UPGRADE: {
+	STANDING: {
+		CITIZEN: 0.5,
+		NOBLE: 0,
+		SLAVE: 0,
+		PRIO: 25,	
+	},
+
+},
+ENVIRONMENT_EMIT: {
+	_LIGHT: {
+		VALUE: 1,
+		RADIUS: 1,
+	},
+},
+
+FULFILLMENT_BONUS: {
+	CIVIC_LAW>ADD: 0.2,
+},
+MAX_VALUE: 1,
+
+UPGRADES: [
+	{
+		RESOURCE_MASK: [1,1,0,0,],
+		BOOST: 0,
+	},
+	{
+		RESOURCE_MASK: [2,2,1,1,],
+		BOOST: 1.0,
+	},
+],
+
+SPRITES: {
+
+	SMALL_1X1: [
+		{
+			SHADOW_LENGTH: 6,
+			TINT: true,
+			ROTATES: false,
+			FRAMES: [
+				TORCH: 4,
+			],
+		},
+		{
+			SHADOW_LENGTH: 6,
+			TINT: true,
+			ROTATES: false,
+			FRAMES: [
+				TORCH: 0,
+			],
+		},
+	],
+	COMBO: [
+		{
+			SHADOW_LENGTH: 6,
+			TINT: true,
+			ROTATES: false,
+			FRAMES: [
+				FRAMES: 0,
+			],
+		},
+		{
+			SHADOW_LENGTH: 6,
+			TINT: true,
+			ROTATES: false,
+			FRAMES: [
+				FRAMES: 4,
+			],
+		},
+	],
+},
+

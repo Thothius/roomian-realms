@@ -1,0 +1,48 @@
+NAME: "Agriculture",
+TECHS: {
+	BASE0: {
+		NAME: "Basic Farming",
+		DESC: "",
+	},
+	TOOL0: {
+		NAME: "Farming Tools",
+		DESC: "",
+	},
+	GRAI0: {
+		NAME: "Grain Farming Advancements",
+		DESC: "",
+	},
+	GRAI1: {
+		NAME: "Specialized Grain Tools",
+		DESC: "",
+	},
+	FRUI0: {
+		NAME: "Fruit Farming Advancements",
+		DESC: "",
+	},
+	FRUI1: {
+		NAME: "Specialized Fruit Tools",
+		DESC: "",
+	},
+	VEG00: {
+		NAME: "Vegetable Farming Advancements",
+		DESC: "",
+	},
+	VEG01: {
+		NAME: "Specialized Vegetable Tools",
+		DESC: "",
+	},
+	COTT0: {
+		NAME: "Cotton Farming Advancements",
+		DESC: "",
+	},
+	COTT1: {
+		NAME: "Specialized Cotton Tools",
+		DESC: "",
+	},
+	FOOD0: {
+		NAME: "Advanced Farming",
+		DESC: "",
+	},
+},
+

@@ -1,0 +1,37 @@
+ICON: 32->LOGISTICS->4,
+RESOURCES: [STONE,WOOD,],
+AREA_COSTS: [0,0,],
+FLOOR: STONE1,
+FLOOR2: STONE2,
+MINI_COLOR: 48_139_204,
+ITEMS: [
+	{
+		COSTS: [1,1,],
+		STATS: [1,],
+	},
+],
+SPRITES: {
+	CRATE_1X1: {
+		SHADOW_LENGTH: 4,
+		ROTATES: false,
+		FRAMES: [
+			STORAGE: 6,
+		],
+	},
+	POST_1X1: {
+		SHADOW_LENGTH: 8,
+		ROTATES: true,
+		FRAMES: [
+			FENCE: 0,
+		],
+	},
+	FENCE_1X1: {
+		SHADOW_HEIGHT: 8,
+		ROTATES: true,
+		FRAMES: [
+			FENCE: 1,
+		],
+	},
+	
+},
+

@@ -1,0 +1,15 @@
+** Damage inflicted by a striking enemy. change to change kill-rate
+DAMAGE: 0.5,
+** The chance to block a striking enemy. Change to change kill-rate of combatants facing each other
+BLOCK_CHANCE: 1.0,
+** How fast subjects train up their experience (and how fast it drops)
+TRAINING_DEGRADE: 1,
+
+** 1-255
+MEN_PER_DIVISION: 150,
+
+** 1-120
+DIVISIONS_PER_ARMY: 120,
+
+**0-16000
+REGION_MAX_DIVS: 34,

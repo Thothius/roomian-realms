@@ -1,0 +1,3 @@
+NAME: "Furniture",
+NAMES: "Furniture",
+DESC: "Furniture is used in constructing and maintaining most rooms.",

@@ -1,0 +1,3 @@
+NAME: "Clay",
+NAMES: "Clay",
+DESC: "Clay is a raw material used in some industries.",

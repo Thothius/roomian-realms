@@ -1,0 +1,3 @@
+NAME: "Herb",
+NAMES: "Herbs",
+DESC: "Not edible directly, but can be used to spice up food, or preserve it.",

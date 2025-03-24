@@ -1,0 +1,2 @@
+NAME: "The bleeding fever",
+DESC: "The bleeding fever is a very deadly disease that has been around for eons. It's very rare, and thought extinct on many occasions. Victims of this excruciating affliction suffer from a delirium inducing fever and increasingly dry and brittle skin, which will rip at the slightest touch. Simply turning in bed can lead to a gruesome death.",

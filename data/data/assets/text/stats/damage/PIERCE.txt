@@ -1,0 +1,13 @@
+NAME: "Pierce",
+ATTACK: {
+	NAME: "Pierce Damage",
+	DESC: "Damage that cuts through pierce armour.",
+},
+DEFENCE: {
+	NAME: "Pierce Armour",
+	DESC: "Negates pierce damage in battle.",
+},
+
+
+
+

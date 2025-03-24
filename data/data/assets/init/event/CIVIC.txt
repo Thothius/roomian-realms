@@ -1,0 +1,4373 @@
+FESTIVAL_BIG: {
+	ICON: 32->SERVICE->5,
+	DURATION: {
+		DAYS: 4.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 5000,
+				FOOD_FOOD_DAYS: 20,
+			},
+		},
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},	
+	
+	SELECTION: {
+		SUBJECTS: {
+			USE_AS_ICON: true,
+			FILTERS: [
+				{
+					EQUAL: {
+						CLASS_CITIZEN: 1,
+					},
+				},
+			],
+		},
+	
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: FESTIVAL_BIG_YES,
+				},
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						OPIATES: {
+							PER_PERSON: -0.2,
+						},	
+						ALCO_BEER: {
+							PER_PERSON: -2,
+						},	
+						FABRIC: {
+							PER_PERSON: -1,
+						},	
+						MUSHROOM: {
+							PER_PERSON: -4,
+						},	
+					},
+				},
+				{
+					TYPE: CREDITS,
+					PER_PERSON: -20,
+				},
+			],
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: FESTIVAL_BIG_YES,
+				},
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						OPIATES: {
+							PER_PERSON: -0.2,
+						},	
+						ALCO_BEER: {
+							PER_PERSON: -2,
+						},	
+						FABRIC: {
+							PER_PERSON: -1,
+						},	
+						MEAT: {
+							PER_PERSON: -4,
+						},	
+					},
+				},
+				{
+					TYPE: CREDITS,
+					PER_PERSON: -20,
+				},
+			],	
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: FESTIVAL_BIG_YES,
+				},
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						OPIATES: {
+							PER_PERSON: -0.2,
+						},	
+						ALCO_BEER: {
+							PER_PERSON: -2,
+						},	
+						FABRIC: {
+							PER_PERSON: -1,
+						},	
+						FISH: {
+							PER_PERSON: -4,
+						},	
+					},
+				},
+				{
+					TYPE: CREDITS,
+					PER_PERSON: -20,
+				},
+			],	
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: FESTIVAL_BIG_YES,
+				},
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						OPIATES: {
+							PER_PERSON: -0.2,
+						},	
+						ALCO_BEER: {
+							PER_PERSON: -2,
+						},	
+						FABRIC: {
+							PER_PERSON: -1,
+						},	
+						FRUIT: {
+							PER_PERSON: -4,
+						},	
+					},
+				},
+				{
+					TYPE: CREDITS,
+					PER_PERSON: -20,
+				},
+			],
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: FESTIVAL_BIG_YES,
+				},
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						OPIATES: {
+							PER_PERSON: -0.2,
+						},	
+						ALCO_BEER: {
+							PER_PERSON: -2,
+						},	
+						FABRIC: {
+							PER_PERSON: -1,
+						},	
+						VEGETABLE: {
+							PER_PERSON: -4,
+						},	
+					},
+				},
+				{
+					TYPE: CREDITS,
+					PER_PERSON: -20,
+				},
+			],					
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: FESTIVAL_BIG_YES,
+				},
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						OPIATES: {
+							PER_PERSON: -0.2,
+						},	
+						ALCO_BEER: {
+							PER_PERSON: -2,
+						},	
+						FABRIC: {
+							PER_PERSON: -1,
+						},	
+						BREAD: {
+							PER_PERSON: -4,
+						},	
+					},
+				},
+				{
+					TYPE: CREDITS,
+					PER_PERSON: -20,
+				},
+			],					
+		},
+	],
+},
+
+FESTIVAL_BIG_YES: {
+	ICON: 32->SERVICE->5,
+	DURATION: {
+		DAYS: 12.0,
+	},
+	
+	SELECTION: {
+		SUBJECTS: {
+			MAX_AMOUNT: {
+				RELATIVE: 0.02,
+			},		
+			USE_AS_ICON: false,
+			
+			FILTERS: [
+				{
+					EQUAL: {
+						CLASS_CITIZEN: 1,
+					},
+				},
+			],
+		},		
+	},	
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_HAPPINESS>MUL: 1.2,
+					ROOM*>MUL: 1.2,
+				},
+			},
+			{
+				TYPE: SUBJECTS_KILL,
+				AMOUNTS: {
+					*: {
+						RELATIVE: 0.02,
+					},	
+				},
+				DAMAGE: false,
+				DEATH_CAUSE: SLAYED,
+				USE_SELECTION: true,
+			},
+		],
+	},
+},
+
+FESTIVAL_MEDIUM: {
+	ICON: 32->SERVICE->5,
+	DURATION: {
+		DAYS: 4.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 1000,
+				FOOD_FOOD_DAYS: 15,
+			},
+			LESS: {
+				POPULATION: 5000,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: FESTIVAL_MEDIUM_YES,
+				},
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						ALCO_BEER: {
+							PER_PERSON: -1,
+						},	
+						FABRIC: {
+							PER_PERSON: -0.5,
+						},	
+						MUSHROOM: {
+							PER_PERSON: -3,
+						},	
+					},
+				},
+			],
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: FESTIVAL_MEDIUM_YES,
+				},
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						ALCO_BEER: {
+							PER_PERSON: -1,
+						},	
+						FABRIC: {
+							PER_PERSON: -0.5,
+						},	
+						MEAT: {
+							PER_PERSON: -3,
+						},	
+					},
+				},
+			],	
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: FESTIVAL_MEDIUM_YES,
+				},
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						ALCO_BEER: {
+							PER_PERSON: -1,
+						},	
+						FABRIC: {
+							PER_PERSON: -0.5,
+						},	
+						FISH: {
+							PER_PERSON: -3,
+						},	
+					},
+				},
+			],	
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: FESTIVAL_MEDIUM_YES,
+				},
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						ALCO_BEER: {
+							PER_PERSON: -1,
+						},	
+						FABRIC: {
+							PER_PERSON: -0.5,
+						},	
+						FRUIT: {
+							PER_PERSON: -3,
+						},	
+					},
+				},
+			],
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: FESTIVAL_MEDIUM_YES,
+				},
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						ALCO_BEER: {
+							PER_PERSON: -1,
+						},	
+						FABRIC: {
+							PER_PERSON: -0.5,
+						},	
+						VEGETABLE: {
+							PER_PERSON: -3,
+						},	
+					},
+				},
+			],					
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: FESTIVAL_MEDIUM_YES,
+				},
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						ALCO_BEER: {
+							PER_PERSON: -1,
+						},	
+						FABRIC: {
+							PER_PERSON: -0.5,
+						},	
+						BREAD: {
+							PER_PERSON: -3,
+						},	
+					},
+				},
+			],					
+		},
+	],
+},
+
+FESTIVAL_MEDIUM_YES: {
+	ICON: 32->SERVICE->5,
+	DURATION: {
+		DAYS: 12.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_HAPPINESS>MUL: 1.2,
+					ROOM*>MUL: 1.2,
+				},
+			},
+		],
+	},
+},
+
+FESTIVAL_SMALL: {
+	ICON: 32->SERVICE->5,
+	DURATION: {
+		DAYS: 4.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 20,
+				FOOD_FOOD_DAYS: 9,
+			},
+			LESS: {
+				POPULATION: 1000,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: FESTIVAL_SMALL_YES,
+				},
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						MUSHROOM: {
+							PER_PERSON: -2,
+						},	
+					},
+				},
+			],
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: FESTIVAL_SMALL_YES,
+				},
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						MEAT: {
+							PER_PERSON: -2,
+						},	
+					},
+				},
+			],	
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: FESTIVAL_SMALL_YES,
+				},
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						FISH: {
+							PER_PERSON: -2,
+						},	
+					},
+				},
+			],	
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: FESTIVAL_SMALL_YES,
+				},
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						FRUIT: {
+							PER_PERSON: -2,
+						},	
+					},
+				},
+			],
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: FESTIVAL_SMALL_YES,
+				},
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						VEGETABLE: {
+							PER_PERSON: -2,
+						},	
+					},
+				},
+			],					
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: FESTIVAL_SMALL_YES,
+				},
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						BREAD: {
+							PER_PERSON: -2,
+						},	
+					},
+				},
+			],					
+		},
+	],
+},
+
+FESTIVAL_SMALL_YES: {
+	ICON: 32->SERVICE->5,
+	DURATION: {
+		DAYS: 12.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_HAPPINESS>MUL: 1.2,
+					ROOM*>MUL: 1.2,
+				},
+			},
+		],
+	},
+},
+
+LEATHER_TRADER: {
+	ICON: 24->resource->Leather->0,
+	DURATION: {
+		DAYS: 1.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 1000,
+			},
+			LESS: {
+				POPULATION_TILAPI_CITIZEN_F: 0.1,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			LEATHER_TRADER_YES,
+		],
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+						TYPE: CREDITS,
+						PER_PERSON: -20,
+				},
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						LEATHER: {
+							PER_PERSON: 2.0,
+						},	
+					},
+				},
+				{
+					TYPE: EVENT,
+					EVENT: LEATHER_TRADER_YES,
+					HIDE_UI: true,
+				},
+			],		
+		},
+	],	
+},
+
+LEATHER_TRADER_YES: {
+
+	TAGS: {
+		ADD: [LEATHER_TRADER_YES,],
+	},
+	
+},
+
+LEATHER_TRADER_YES_FOLLOW: {
+	ICON: 32->race->Tilapi->0,
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+	},
+	
+	TAGS: {
+		REMOVE: [LEATHER_TRADER_YES,],
+		ALLOW: [
+			LEATHER_TRADER_YES,
+		],
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: INVASION,
+				AMOUNT_FROM: 1,
+				AMOUNT_TO: 1,
+				RACE: TILAPI,
+			},
+		],
+	},
+},
+
+PROPHET: {
+	ICON: 32->THRONE->0,
+	DURATION: {
+		DAYS: 1.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 1000,
+				GOVERN_RICHES: 0.10,
+			},
+			LESS: {
+		
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: CREDITS,
+					PER_PERSON: -13,
+				},
+				{
+					TYPE: EVENT,
+					EVENT: PROPHET_YES,
+				},	
+			],	
+		},
+	],
+},
+
+PROPHET_YES: {
+
+	DURATION: {
+		DAYS: 10.0,
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_HAPPINESS>MUL: 1.3,
+				},
+			},
+		],
+	},
+},
+
+SELLING_DERANGED: {
+	ICON: 32->HEALTH->0,
+	DURATION: {
+		DAYS: 1.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 500,
+				POPULTAION_DERANGED_I: 10,
+			},
+			LESS: {
+		
+			},
+		},
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			SELLING_DERANGED_YES,
+		],
+	},
+	
+	SELECTION: {
+		SUBJECTS: {
+			USE_AS_ICON: false,
+			FILTERS: [
+				{
+					EQUAL: {
+						TYPE_DERANGED: 1,
+					},
+				},
+			],
+		},		
+	},	
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: SUBJECTS_KILL,
+					AMOUNTS: {
+						*: {
+							RELATIVE: 1,
+						},	
+					},
+					DAMAGE: false,
+					DEATH_CAUSE: EMMIGRATED,
+					USE_SELECTION: true,
+				},
+				{
+					TYPE: EVENT,
+					EVENT: SELLING_DERANGED_YES,
+				},
+				{
+					TYPE: CREDITS,
+					PER_PERSON: 25,
+				},
+
+			],		
+		},
+	],
+},
+
+SELLING_DERANGED_YES: {
+	TAGS: {
+		ADD: [
+			SELLING_DERANGED_YES,
+		],
+	},
+},
+
+SELLING_DERANGED_YES_FOLLOW: {
+	ICON: 32->HEALTH->0,
+	DURATION: {
+		DAYS: 12.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 0.1,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+	},
+	
+	TAGS: {
+		REMOVE: [
+			SELLING_DERANGED_YES,
+		],
+		ALLOW: [
+			SELLING_DERANGED_YES,
+		],
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},	
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_HAPPINESS>MUL: 0.7,
+				},
+			},
+			{
+				TYPE: SUBJECTS_ADD,
+				AMOUNTS: {
+					*: {
+						RELATIVE: 0.005,
+					},	
+				},
+				IMMIGRANT_TYPE: CITIZEN,
+			},
+		],
+	},
+},
+
+DEMOCRACY: {
+	ICON: 32->INFRA->1,	
+	DURATION: {
+		DAYS: 1.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: DEMOCRACY_NO,
+			},
+		],
+	},
+
+	SELECTION: {
+		SUBJECTS: {
+			MAX_AMOUNT: {
+				AMOUNT: 1.0,
+			},
+			FILTERS: [
+				{
+					EQUAL: {
+						CLASS_CITIZEN: 1,
+					},
+				},
+			],
+		},
+	},
+
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			LESS: {
+				EDUCATION_INDOCTRINATION: 0.3,
+			},
+		},
+
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: DEMOCRACY_YES,
+				},
+			],
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: DEMOCRACY_NO,
+				},
+			],
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: DEMOCRACY_MAYBE,
+				},
+			],				
+		},
+	],	
+},
+
+DEMOCRACY_YES: {
+	ICON: 32->INFRA->1,
+	DURATION: {
+		DAYS: 12.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					CIVIC_OPINION>MUL: 0.8,
+					BEHAVIOUR_LOYALTY>MUL: 1.3,
+				},
+			},
+		],
+	},
+},
+
+DEMOCRACY_NO: {
+	ICON: 32->INFRA->1,
+	DURATION: {
+		DAYS: 12.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					CIVIC_OPINION>MUL: 1.3,
+					BEHAVIOUR_LOYALTY>MUL: 0.8,
+				},
+			},
+		],
+	},
+},
+
+DEMOCRACY_MAYBE: {
+	ICON: 32->INFRA->1,
+	DURATION: {
+		DAYS: 12.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_HAPPINESS>MUL: 0.9,
+				},
+			},
+			{
+				TYPE: SUBJECTS_KILL,
+				AMOUNTS: {
+					*: {
+						AMOUNT: 1,
+					},	
+				},
+				DAMAGE: false,
+				DEATH_CAUSE: OTHER,
+				USE_SELECTION: true,
+			},
+		],
+	},
+},
+
+ENTELODONT_MYSTERY: {
+	ICON: 32->animal->Entelodont->0,
+	DURATION: {
+		DAYS: 1.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: ENTELODONT_MYSTERY_NO,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 400,
+				ROOM_PASTURE_ENT_AMOUNT: 0,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: ENTELODONT_MYSTERY_YES,
+				},
+			],	
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: ENTELODONT_MYSTERY_NO,
+				},
+			],			
+		},
+	],
+},
+
+ENTELODONT_MYSTERY_YES: {
+	ICON: 32->animal->Entelodont->0,
+	DURATION: {
+		DAYS: 12.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_HAPPINESS>MUL: 0.8,
+				},
+			},
+		],
+	},
+},
+
+ENTELODONT_MYSTERY_NO: {
+	ICON: 32->animal->Entelodont->0,
+	DURATION: {
+		DAYS: 12.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: SUBJECTS_KILL,
+				AMOUNTS: {
+					*: {
+						AMOUNT: 1,
+					},	
+				},
+				DAMAGE: false,
+				DEATH_CAUSE: OTHER,
+				USE_SELECTION: false,
+			},
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					ROOM_PASTURE_ENT>MUL: 1.1,
+				},
+			},
+		],
+	},
+},
+
+PEOPLE_DISPLACED: {
+	ICON: 32->INFRA->3,	
+	DURATION: {
+		DAYS: 12.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					CIVIC_IMMIGRATION>MUL: 20,
+				},
+			},
+		],
+	},
+},
+
+SNAKE_OIL: {
+	ICON: 32->HEALTH->1,
+	DURATION: {
+		DAYS: 1.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: SNAKE_OIL_NO,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 1000,
+			},
+			LESS: {
+				EDUCATION_EDUCATION: 0.5,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: SNAKE_OIL_YES,
+				},
+			],		
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: SNAKE_OIL_NO,
+				},
+			],		
+		},
+	],
+},
+
+SNAKE_OIL_YES: {
+	ICON: 32->HEALTH->1,
+	DURATION: {
+		DAYS: 12.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_HAPPINESS>MUL: 0.85,
+					PHYSICS_HEALTH>MUL: 1.1,
+				},
+			},
+		],
+	},
+},
+
+SNAKE_OIL_NO: {
+	ICON: 32->HEALTH->1,
+	DURATION: {
+		DAYS: 12.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					PHYSICS_HEALTH>MUL: 0.7,
+				},
+			},
+		],
+	},
+},
+
+ROBIN_HOOD: {
+	ICON: 32->LAW->3,
+	DURATION: {
+		DAYS: 1.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: ROBIN_HOOD_NO,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+			GARTHIMI: 0.1,
+			TILAPI: 0.3,
+			Q_AMEVIA: 0.3,
+			DONDORIAN: 0.6,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 1000,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: ROBIN_HOOD_YES,
+				},
+			],	
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: ROBIN_HOOD_NO,
+				},
+			],				
+		},
+	],
+},
+
+ROBIN_HOOD_YES: {
+	ICON: 32->LAW->3,
+	DURATION: {
+		DAYS: 12.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					CIVIC_OPINION>MUL: 0.8,
+				},
+			},
+		],
+	},
+},
+
+ROBIN_HOOD_NO: {
+	ICON: 32->LAW->3,
+	DURATION: {
+		DAYS: 12.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_LAWFULNESS>MUL: 0.4,
+				},
+			},
+		],
+	},
+},
+
+SCHOLARS: {
+	ICON: 32->KNOWLEDGE->3,
+	DURATION: {
+		DAYS: 12.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				ROOM_UNIVERSITY_NORMAL_AMOUNT: 1,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					ROOM_UNIVERSITY_NORMAL>MUL: 2,
+				},
+			},
+		],
+	},
+},
+
+OPIUM_STOLEN: {
+	ICON: 24->resource->Opiates->0,
+	DURATION: {
+		DAYS: 1.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: OPIUM_STOLEN_NO,
+			},			
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 1000,
+				STORED_OPIATES: 0.2,
+			},
+			LESS: {
+				BOOST_BEHAVIOUR_LAWFULNESS: 0.5,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},
+
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: RESOURCES,
+				AMOUNTS: {
+					OPIATES: {
+						PER_PERSON: -0.2,
+					},	
+				},
+			},
+		],
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: OPIUM_STOLEN_YES,
+				},
+				{
+					TYPE: CREDITS,
+					PER_PERSON: -50,
+				},
+			],
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: OPIUM_STOLEN_NO,
+				},
+			],	
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: OPIUM_STOLEN_MAYBE,
+				},
+			],					
+		},
+	],
+},
+
+OPIUM_STOLEN_YES: {
+	ICON: 24->resource->Opiates->0,
+	DURATION: {
+		DAYS: 12.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_LAWFULNESS>MUL: 1.4,
+				},
+			},
+			{
+				TYPE: RESOURCES,
+				AMOUNTS: {
+					OPIATES: {
+						PER_PERSON: 0.175,
+					},	
+				},
+			},
+		],
+	},
+},
+
+OPIUM_STOLEN_NO: {
+	ICON: 24->resource->Opiates->0,
+	DURATION: {
+		DAYS: 12.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					PHYSICS_HEALTH>MUL: 0.7,
+					BEHAVIOUR_LAWFULNESS>MUL: 0.7,
+				},
+			},
+		],
+	},
+},
+
+OPIUM_STOLEN_MAYBE: {
+	ICON: 24->resource->Opiates->0,
+	DURATION: {
+		DAYS: 12.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_HAPPINESS>MUL: 0.8,
+				},
+			},
+			{
+				TYPE: RESOURCES,
+				AMOUNTS: {
+					OPIATES: {
+						PER_PERSON: 0.175,
+					},	
+				},
+			},
+			{
+				TYPE: SUBJECTS_KILL,
+				AMOUNTS: {
+					*: {
+						RELATIVE: 0.015,
+					},	
+				},
+				DAMAGE: false,
+				DEATH_CAUSE: SLAYED,
+				USE_SELECTION: false,
+			},
+		],
+	},
+},
+
+DONDORIAN_EXPEDITION_RETURN: {
+	ICON: 32->race->Dondorian->0,
+	DURATION: {
+		DAYS: 1.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: DONDORIAN_EXPEDITION_RETURN_NO,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION_DONDORIAN_CITIZEN_F: 0.3,
+				POPULATION: 500,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},
+	
+	SELECTION: {
+		SUBJECTS: {
+			USE_AS_ICON: false,
+			FILTERS: [
+				{
+					EQUAL: {
+						RACE_DONDORIAN: 1,
+					},
+				},
+			],
+		},		
+		ON_FAIL: {
+			ACTIONS: [
+
+			],
+		},
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: DONDORIAN_EXPEDITION_RETURN_YES,
+				},
+				{
+					TYPE: SUBJECTS_ADD,
+					AMOUNTS: {
+						DONDORIAN: {
+							PER_PERSON: 0.06,
+						},	
+					},
+					IMMIGRANT_TYPE: CITIZEN,
+				},
+				{
+					TYPE: SUBJECTS_ADD,
+					AMOUNTS: {
+						DONDORIAN: {
+							PER_PERSON: 0.03,
+						},	
+					},
+					IMMIGRANT_TYPE: DERANGED,
+				},
+			],
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: DONDORIAN_EXPEDITION_RETURN_NO,
+				},	
+			],
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: DONDORIAN_EXPEDITION_RETURN_MAYBE,
+				},
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						RATION: {
+							PER_PERSON: -0.1,
+						},	
+					},
+				},
+				{
+					TYPE: CREDITS,
+					PER_PERSON: -20,
+				},	
+			],
+		},
+	],
+},
+
+DONDORIAN_EXPEDITION_RETURN_YES: {
+	ICON: 32->race->Dondorian->0,
+	DURATION: {
+		DAYS: 12.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				SUBJECTS: {
+					BEHAVIOUR_HAPPINESS>MUL: 1.2,
+				},
+			},
+		],
+	},
+},
+
+DONDORIAN_EXPEDITION_RETURN_NO: {
+	ICON: 32->race->Dondorian->0,
+	DURATION: {
+		DAYS: 12.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				SUBJECTS: {
+					BEHAVIOUR_HAPPINESS>MUL: 0.8,
+				},
+			},
+		],
+	},
+},
+
+DONDORIAN_EXPEDITION_RETURN_MAYBE: {
+	ICON: 32->race->Dondorian->0,
+	DURATION: {
+		DAYS: 12.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				SUBJECTS: {
+					BEHAVIOUR_HAPPINESS>MUL: 1.2,
+				},
+			},
+			{
+				TYPE: RESOURCES,
+				AMOUNTS: {
+					RATION: {
+						PER_PERSON: 0.1,
+					},	
+				},
+			},
+			{
+				TYPE: CREDITS,
+				PER_PERSON: -20,
+			},
+		],
+	},
+},
+
+CRETONIAN_REFUGEES: {
+	ICON: 32->race->Cretonian->0,
+	DURATION: {
+		DAYS: 1.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: CRETONIAN_REFUGEES_NO,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION_CRETONIAN_CITIZEN_F: 0.3,
+				POPULATION: 500,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},
+
+	SELECTION: {
+		SUBJECTS: {
+			USE_AS_ICON: false,
+			FILTERS: [
+				{
+					EQUAL: {
+						RACE_CRETONIAN: 1,
+					},
+				},
+			],
+		},		
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: CRETONIAN_REFUGEES_YES,
+				},
+				{
+					TYPE: SUBJECTS_ADD,
+					AMOUNTS: {
+						CRETONIAN: {
+							PER_PERSON: 0.13,
+						},	
+					},
+					IMMIGRANT_TYPE: CITIZEN,
+				},
+				{
+					TYPE: CREDITS,
+					PER_PERSON: 50,
+				},
+			],
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: CRETONIAN_REFUGEES_NO,
+				},	
+			],	
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: CRETONIAN_REFUGEES_MAYBE,
+				},
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						RATION: {
+							PER_PERSON: -0.3,
+						},	
+					},
+				},
+			],	
+		},
+	],
+},
+
+CRETONIAN_REFUGEES_YES: {
+	ICON: 32->race->Cretonian->0,
+	DURATION: {
+		DAYS: 12.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				SUBJECTS: {
+					BEHAVIOUR_HAPPINESS>MUL: 1.4,
+				},
+			},
+		],
+	},
+},
+
+CRETONIAN_REFUGEES_NO: {
+	ICON: 32->race->Cretonian->0,
+	DURATION: {
+		DAYS: 12.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				SUBJECTS: {
+					BEHAVIOUR_HAPPINESS>MUL: 0.7,
+				},
+			},
+			{
+				TYPE: SUBJECTS_KILL,
+				AMOUNTS: {
+					CRETONIAN: {
+						RELATIVE: 0.075,
+					},	
+				},
+				DAMAGE: false,
+				DEATH_CAUSE: EMMIGRATED,
+				USE_SELECTION: false,
+			},
+		],
+	},
+},
+
+CRETONIAN_REFUGEES_MAYBE: {
+	ICON: 32->race->Cretonian->0,
+	DURATION: {
+		DAYS: 12.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				SUBJECTS: {
+					BEHAVIOUR_HAPPINESS>MUL: 1.4,
+				},
+			},
+			{
+				TYPE: CREDITS,
+				PER_PERSON: 25,
+			},
+		],
+	},
+},
+
+REFUGEES_HUMAN: {
+	ICON: 32->race->Human->0,
+	DURATION: {
+		DAYS: 1.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: REFUGEES_HUMAN_NO,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION_HUMAN_CITIZEN_F: 0.3,
+				POPULATION: 500,
+			},
+		},
+	},
+	
+	SELECTION: {
+		SUBJECTS: {
+			USE_AS_ICON: false,
+			FILTERS: [
+				{
+					EQUAL: {
+						RACE_HUMAN: 1,
+					},
+				},
+			],
+		},		
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: REFUGEES_HUMAN_YES,
+				},
+				{
+					TYPE: SUBJECTS_ADD,
+					AMOUNTS: {
+						HUMAN: {
+							PER_PERSON: 0.15,
+						},	
+					},
+					IMMIGRANT_TYPE: CITIZEN,
+				},
+			],
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: REFUGEES_HUMAN_NO,
+				},	
+			],	
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: REFUGEES_HUMAN_MAYBE,
+				},
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						RATION: {
+							PER_PERSON: -0.1,
+						},	
+					},
+				},
+				{
+					TYPE: CREDITS,
+					PER_PERSON: -15,
+				},
+			],	
+		},
+	],
+},
+
+REFUGEES_HUMAN_YES: {
+	ICON: 32->race->Human->0,
+	DURATION: {
+		DAYS: 12.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				SUBJECTS: {
+					BEHAVIOUR_HAPPINESS>MUL: 0.9,
+					CIVIC_OPINION>MUL: 1.2,
+				},
+			},
+		],
+	},
+},
+
+REFUGEES_HUMAN_NO: {
+	ICON: 32->race->Human->0,
+	DURATION: {
+		DAYS: 8.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				SUBJECTS: {
+					CIVIC_OPINION>MUL: 0.85,
+				},
+			},
+		],
+	},
+},
+
+REFUGEES_HUMAN_MAYBE: {
+	ICON: 32->race->Human->0,
+	DURATION: {
+		DAYS: 12.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				SUBJECTS: {
+					BEHAVIOUR_HAPPINESS>MUL: 1.2,
+					CIVIC_OPINION>MUL: 1.1,
+				},
+			},
+		],
+	},
+},
+
+AMEVIA_DEATHS: {
+	ICON: 32->race->Amevia->0,
+	DURATION: {
+		DAYS: 12.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: AMEVIA_DEATHS_NO,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			EQUAL: {
+				FACTION_IS_Q_AMEVIA_I: 1,
+				POPULATION: 2000,
+			},
+			GREATER: {
+				POPULATION: 2000,
+			},
+		},
+	},
+
+	ABORTS:  [
+		{
+			ON_FULFILL: [
+				{
+					TYPE: EVENT,
+					EVENT: AMEVIA_DEATHS_YES,
+				},
+			],
+			REQUIRES: {
+				GREATER: {
+					POPULATION_WRONGFUL_DEATHS: 1,
+				},		
+			},
+		},
+	],
+	
+	SELECTION: {
+		SUBJECTS: {
+			USE_AS_ICON: false,
+			FILTERS: [
+				{
+					EQUAL: {
+						RACE_IS_PLAYER: 1,
+					},
+				},
+			],
+		},		
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},	
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				SUBJECTS: {
+					BEHAVIOUR_HAPPINESS>MUL: 1.3,
+				},
+			},
+		],
+	},
+	
+	CHOICES: [
+		{
+			REQUIRES: {
+				GREATER: {
+					POPULATION_WRONGFUL_DEATHS: 0.6,
+				},		
+			},
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: AMEVIA_DEATHS_YES,
+				},
+			],		
+		},
+	],	
+},
+
+AMEVIA_DEATHS_YES: {
+	ICON: 32->race->Amevia->0,
+	DURATION: {
+		DAYS: 12.0,
+	},
+
+	SELECTION: {
+		SUBJECTS: {
+			USE_AS_ICON: false,
+			FILTERS: [
+				{
+					EQUAL: {
+						RACE_IS_PLAYER: 1,
+					},
+				},
+			],
+		},		
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				SUBJECTS: {
+					BEHAVIOUR_HAPPINESS>MUL: 1.3,
+					ROOM*>MUL: 1.1,
+				},
+			},
+		],
+	},
+},
+
+AMEVIA_DEATHS_NO: {
+	ICON: 32->race->Amevia->0,
+	DURATION: {
+		DAYS: 8.0,
+	},
+
+	SELECTION: {
+		SUBJECTS: {
+			USE_AS_ICON: false,
+			FILTERS: [
+				{
+					EQUAL: {
+						RACE_IS_PLAYER: 1,
+					},
+				},
+			],
+		},		
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				SUBJECTS: {
+					BEHAVIOUR_HAPPINESS>MUL: 0.8,
+				},
+			},
+		],
+	},
+},
+
+EXPEDITION_AMEVIA: {
+	ICON: 32->race->Amevia->0,
+	DURATION: {
+		DAYS: 8.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: EXPEDITION_AMEVIA_NO,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				FACTION_IS_Q_AMEVIA_I: 0,
+				POPULATION: 2000,		
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},
+	
+	SELECTION: {
+		SUBJECTS: {
+			MAX_AMOUNT: {
+				RELATIVE: 0.05,
+			},
+			USE_AS_ICON: false,
+			FILTERS: [
+				{
+					EQUAL: {
+						RACE_IS_PLAYER: 1,
+					},
+				},
+			],
+		},		
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: EXPEDITION_AMEVIA_YES,
+				},
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						EGG: {
+							PER_PERSON: -0.2,
+						},	
+						FABRIC: {
+							PER_PERSON: -0.1,
+						},	
+						WOOD: {
+							PER_PERSON: -0.6,
+						},	
+					},
+				},
+				{
+					TYPE: SUBJECTS_KILL,
+					AMOUNTS: {
+						Q_AMEVIA: {
+							RELATIVE: 0.05,
+						},	
+					},
+					DAMAGE: false,
+					DEATH_CAUSE: EMMIGRATED,
+					USE_SELECTION: true,
+				},
+			],				
+		},
+	],
+},
+
+EXPEDITION_AMEVIA_YES: {
+	ICON: 32->race->Amevia->0,
+	DURATION: {
+		DAYS: 12.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				SUBJECTS: {
+					BEHAVIOUR_HAPPINESS>MUL: 1.3,
+					ROOM*>MUL: 1.1,
+				},
+			},
+		],
+	},
+},
+
+EXPEDITION_AMEVIA_NO: {
+	ICON: 32->race->Amevia->0,
+	DURATION: {
+		DAYS: 12.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				SUBJECTS: {
+					BEHAVIOUR_HAPPINESS>MUL: 0.7,
+				},
+			},
+		],
+	},
+},
+
+EXPEDITION_DONDORIAN: {
+	ICON: 32->race->Dondorian->0,
+	DURATION: {
+		DAYS: 8.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: EXPEDITION_DONDORIAN_NO,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 2000,
+				FACTION_IS_DONDORIAN_I: 0,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},
+	
+	SELECTION: {
+		SUBJECTS: {
+			USE_AS_ICON: false,
+			FILTERS: [
+				{
+					EQUAL: {
+						RACE_IS_PLAYER: 1,
+						TYPE_RETIREE: 1,
+					},
+				},
+			],
+		},		
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						CLOTHES: {
+							PER_PERSON: -0.1,
+						},	
+						ALCO_BEER: {
+							PER_PERSON: -0.1,
+						},	
+						RATION: {
+							PER_PERSON: -0.2,
+						},	
+					},
+				},
+				{
+					TYPE: SUBJECTS_KILL,
+					AMOUNTS: {
+						DONDORIAN: {
+							RELATIVE: 1,
+						},	
+					},
+					DAMAGE: false,
+					DEATH_CAUSE: EMMIGRATED,
+					USE_SELECTION: true,				
+				},
+				{
+					TYPE: SUBJECTS_KILL,
+					AMOUNTS: {
+						DONDORIAN: {
+							RELATIVE: 0.06,
+						},	
+					},
+					DAMAGE: false,
+					DEATH_CAUSE: EMMIGRATED,
+					USE_SELECTION: false,
+				},
+				{
+					TYPE: EVENT,
+					EVENT: EXPEDITION_DONDORIAN_YES,
+					CLEAR_CONTEXT: true,
+				},
+			],				
+		},
+	],
+},
+
+EXPEDITION_DONDORIAN_YES: {
+	ICON: 32->race->Dondorian->0,
+	DURATION: {
+		DAYS: 12.0,
+	},
+	
+	SELECTION: {
+		SUBJECTS: {
+			USE_AS_ICON: false,
+			FILTERS: [
+				{
+					EQUAL: {
+						RACE_IS_PLAYER: 1,
+					},
+				},
+			],
+		},		
+	},	
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				SUBJECTS: {
+					BEHAVIOUR_HAPPINESS>MUL: 1.4,
+					ROOM*>MUL: 1.1,
+				},
+			},
+		],
+	},
+},
+
+EXPEDITION_DONDORIAN_NO: {
+	ICON: 32->race->Dondorian->0,
+	DURATION: {
+		DAYS: 12.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				SUBJECTS: {
+					BEHAVIOUR_HAPPINESS>MUL: 0.7,
+				},
+			},
+		],
+	},
+},
+
+EXPEDITION_TILAPI: {
+	ICON: 32->race->Tilapi->0,
+	DURATION: {
+		DAYS: 8.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: EXPEDITION_TILAPI_NO,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 2000,
+				FACTION_IS_TILAPI_I: 0,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},
+	
+	SELECTION: {
+		SUBJECTS: {
+			MAX_AMOUNT: {
+				RELATIVE: 0.07,
+			},
+			USE_AS_ICON: false,
+			FILTERS: [
+				{
+					EQUAL: {
+						RACE_IS_PLAYER: 1,
+					},
+				},
+			],
+		},		
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: EXPEDITION_TILAPI_YES,
+				},
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						CLOTHES: {
+							PER_PERSON: -0.15,
+						},	
+						BOW: {
+							PER_PERSON: -0.07,
+						},	
+					},
+				},
+				{
+					TYPE: SUBJECTS_KILL,
+					AMOUNTS: {
+						TILAPI: {
+							RELATIVE: 0.07,
+						},	
+					},
+					DAMAGE: false,
+					DEATH_CAUSE: EMMIGRATED,
+					USE_SELECTION: true,				
+				},
+			],				
+		},
+	],
+},
+
+EXPEDITION_TILAPI_YES: {
+	ICON: 32->race->Tilapi->0,
+	DURATION: {
+		DAYS: 12.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				SUBJECTS: {
+					BEHAVIOUR_HAPPINESS>MUL: 1.4,
+					ROOM*>MUL: 1.1,
+				},
+			},
+		],
+	},
+},
+
+EXPEDITION_TILAPI_NO: {
+	ICON: 32->race->Tilapi->0,
+	DURATION: {
+		DAYS: 12.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				SUBJECTS: {
+					BEHAVIOUR_HAPPINESS>MUL: 0.7,
+				},
+			},
+		],
+	},
+},
+
+KURU: {
+	ICON: 32->DEATH->0,
+	DURATION: {
+		DAYS: 1.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: KURU_NO,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1,
+			GARTHIMI: 0,
+			TILAPI: 0,
+		},
+		REQUIRES: {
+			GREATER: {
+				EMPLOYED__CANNIBAL: 0,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},
+	
+	SELECTION: {
+		SUBJECTS: {
+			USE_AS_ICON: false,
+			FILTERS: [
+				{
+					EQUAL: {
+						RACE_TILAPI: 0,
+						RACE_GARTHIMI: 0,
+					},
+				},
+			],
+		},		
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: KURU_YES,
+					CLEAR_CONTEXT: true,
+				},
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						FRUIT: {
+							RELATIVE: -0.2,
+						},	
+						MEAT: {
+							RELATIVE: -0.2,
+						},	
+						EGG: {
+							RELATIVE: -0.2,
+						},	
+						VEGETABLE: {
+							RELATIVE: -0.2,
+						},	
+						BREAD: {
+							RELATIVE: -0.2,
+						},	
+						RATION: {
+							RELATIVE: -0.2,
+						},	
+						MUSHROOM: {
+							RELATIVE: -0.2,
+						},
+					},
+				},
+			],		
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: KURU_NO,
+					CLEAR_CONTEXT: true,
+				},
+			],		
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: KURU_MAYBE,
+					CLEAR_CONTEXT: true,
+				},
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						FRUIT: {
+							RELATIVE: -0.2,
+						},	
+						MEAT: {
+							RELATIVE: -0.2,
+						},	
+						EGG: {
+							RELATIVE: -0.2,
+						},	
+						VEGETABLE: {
+							RELATIVE: -0.2,
+						},	
+						BREAD: {
+							RELATIVE: -0.2,
+						},	
+						RATION: {
+							RELATIVE: -0.2,
+						},	
+						MUSHROOM: {
+							RELATIVE: -0.2,
+						},
+					},
+				},
+				{
+					TYPE: CREDITS,
+					PER_PERSON: 125,
+				},
+			],		
+		},
+	],
+},
+
+KURU_YES: {
+	ICON: 32->DEATH->0,
+	DURATION: {
+		DAYS: 12.0,
+	},
+	
+	SELECTION: {
+		SUBJECTS: {
+			MAX_AMOUNT: {
+				RELATIVE: 0.05,
+			},
+			USE_AS_ICON: false,
+			FILTERS: [
+				{
+					EQUAL: {
+						RACE_TILAPI: 0,
+						RACE_GARTHIMI: 0,
+						TYPE_DERANGED: 1,
+					},
+				},
+			],
+		},		
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: SUBJECTS_KILL,
+				AMOUNTS: {
+					*: {
+						RELATIVE: 0.05,
+					},
+				},
+				DAMAGE: false,
+				DEATH_CAUSE: DISEASE,
+				USE_SELECTION: true,
+			},
+		],
+	},
+},
+
+KURU_NO: {
+	ICON: 32->DEATH->0,
+	DURATION: {
+		DAYS: 12.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: KURU_NO_AFTER,
+				CLEAR_CONTEXT: true,
+			},
+		],
+	},
+	
+	SELECTION: {
+		SUBJECTS: {
+			USE_AS_ICON: false,
+			FILTERS: [
+				{
+					EQUAL: {
+						RACE_TILAPI: 0,
+						RACE_GARTHIMI: 0,
+					},
+				},
+			],
+		},		
+	},	
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				SUBJECTS: {
+					CIVIC_ACCIDENT>MUL: 0.4,
+					PHYSICS_SPEED>MUL: 0.75,
+					BEHAVIOUR_SANITY>MUL: 0.2,
+				},
+			},
+		],
+	},
+},
+
+KURU_NO_AFTER: {
+	ICON: 32->DEATH->0,
+	
+	SELECTION: {
+		SUBJECTS: {
+			USE_AS_ICON: false,
+			FILTERS: [
+				{
+					EQUAL: {
+						RACE_TILAPI: 0,
+						RACE_GARTHIMI: 0,
+						TYPE_DERANGED: 1,
+					},
+				},
+			],
+		},		
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: SUBJECTS_KILL,
+				AMOUNTS: {
+					*: {
+						RELATIVE: 0.9,
+					},
+				},
+				DAMAGE: false,
+				DEATH_CAUSE: DISEASE,
+				USE_SELECTION: true,
+			},
+		],
+	},
+},
+
+KURU_MAYBE: {
+	ICON: 32->DEATH->0,
+	DURATION: {
+		DAYS: 12.0,
+	},
+
+	SELECTION: {
+		SUBJECTS: {
+			USE_AS_ICON: false,
+			FILTERS: [
+				{
+					EQUAL: {
+						RACE_TILAPI: 0,
+						RACE_GARTHIMI: 0,
+						TYPE_DERANGED: 1,
+					},
+				},
+			],
+		},		
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					CIVIC_OPINION>MUL: 0.8,
+				},
+			},
+			{
+				TYPE: SUBJECTS_KILL,
+				AMOUNTS: {
+					*: {
+						RELATIVE: 1,
+					},
+				},
+				DAMAGE: false,
+				DEATH_CAUSE: DISEASE,
+				USE_SELECTION: true,
+			},
+		],
+	},
+},
+
+ITCHING_POWDER: {
+	ICON: 32->LOGISTICS->2,
+	DURATION: {
+		DAYS: 1.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: ITCHING_POWDER_NO,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 2000,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					RATES_BATH>MUL: 6,
+					RATES_WELL>MUL: 6,
+					PHYSICS_SPEED>MUL: 0.75,
+				},
+			},
+		],
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: ITCHING_POWDER_YES,
+				},
+				{
+					TYPE: RESOURCES,
+					AMOUNTS: {
+						FABRIC: {
+							PER_PERSON: -0.3,
+						},	
+					},
+				},
+			],				
+		},
+	],
+},
+
+ITCHING_POWDER_YES: {
+	ICON: 32->LOGISTICS->2,
+	
+	DURATION: {
+		DAYS: 3.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					RATES_BATH>MUL: 2,
+					RATES_WELL>MUL: 2,
+					PHYSICS_SPEED>MUL: 0.9,
+				},
+			},
+			{
+				TYPE: RESOURCES,
+				AMOUNTS: {
+					FABRIC: {
+						PER_PERSON: 0.25,
+					},	
+				},
+			},
+		],
+	},
+},
+
+ITCHING_POWDER_NO: {
+	ICON: 32->LOGISTICS->2,
+	
+	DURATION: {
+		DAYS: 4.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					RATES_BATH>MUL: 6,
+					RATES_WELL>MUL: 6,
+					PHYSICS_SPEED>MUL: 0.75,
+				},
+			},
+		],
+	},
+},
+
+CRETONIAN_TORPOR: {
+	ICON: 32->race->Cretonian->0,
+	DURATION: {
+		DAYS: 1.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: CRETONIAN_TORPOR_NO,
+				MESSAGE: false,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION_CRETONIAN_CITIZEN_F: 0.3,
+				POPULATION: 500,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},
+	
+	SELECTION: {
+		SUBJECTS: {
+			USE_AS_ICON: true,
+			FILTERS: [
+				{
+					EQUAL: {
+						RACE_CRETONIAN: 1,
+					},
+				},
+			],
+		},		
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: CRETONIAN_TORPOR_YES,
+				},
+			],		
+		},
+	],
+},
+
+CRETONIAN_TORPOR_YES: {
+	ICON: 32->race->Cretonian->0,
+	
+	DURATION: {
+		DAYS: 6.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				SUBJECTS: {
+					BEHAVIOUR_HAPPINESS>MUL: 0.8,
+				},
+			},
+		],
+	},
+},
+
+CRETONIAN_TORPOR_NO: {
+	ICON: 32->race->Cretonian->0,
+	
+	DURATION: {
+		DAYS: 8.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				SUBJECTS: {
+				   RATES_HUNGER>MUL: 2,
+				   RATES_THIRST>MUL: 2,
+				   PHYSICS_SPEED>MUL: 0.8,
+				   BEHAVIOUR_HAPPINESS>MUL: 3,
+				   BATTLE_ATTACK_RATE>MUL: 0.3,
+				   BATTLE_DEFENCE_SKILL>MUL: 0.3,
+				},
+			},
+		],
+	},
+},
+
+AMEVIAN_MOLT: {
+	ICON: 32->race->Amevia->0,
+	DURATION: {
+		DAYS: 1.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: AMEVIAN_MOLT_NO,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION_Q_AMEVIA_CITIZEN_F: 0.3,
+				POPULATION: 500,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},
+	
+	SELECTION: {
+		SUBJECTS: {
+			USE_AS_ICON: false,
+			FILTERS: [
+				{
+					EQUAL: {
+						RACE_Q_AMEVIA: 1,
+					},
+				},
+			],
+		},		
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				SUBJECTS: {
+					RATES_GROOMING>MUL: 5,
+					RATES_HUNGER>MUL: 1.75,
+				},
+			},
+		],
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: AMEVIAN_MOLT_YES,
+				},
+			],		
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: AMEVIAN_MOLT_NO,
+				},
+			],		
+		},
+	],
+},
+
+AMEVIAN_MOLT_YES: {
+	ICON: 32->race->Amevia->0,
+	
+	DURATION: {
+		DAYS: 8.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				SUBJECTS: {
+					BEHAVIOUR_HAPPINESS>MUL: 0.8,
+					RATES_BATH>MUL: 0,
+					RATES_SKINNYDIP>MUL: 0,
+				},
+			},
+		],
+	},
+},
+
+AMEVIAN_MOLT_NO: {
+	ICON: 32->race->Amevia->0,
+	
+	DURATION: {
+		DAYS: 8.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				SUBJECTS: {
+					RATES_GROOMING>MUL: 5,
+					RATES_HUNGER>MUL: 1.75,
+					BEHAVIOUR_HAPPINESS>MUL: 1.1,
+				},
+			},
+		],
+	},
+},
+
+DONDORIAN_REMEMBRANCE: {
+	ICON: 32->race->Dondorian->0,
+	DURATION: {
+		DAYS: 1.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: DONDORIAN_REMEMBRANCE_NO,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 500,
+				POPULATION_DONDORIAN_CITIZEN_F: 0.3,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},
+	
+	SELECTION: {
+		SUBJECTS: {
+			USE_AS_ICON: false,
+			FILTERS: [
+				{
+					EQUAL: {
+						RACE_DONDORIAN: 1,
+					},
+				},
+			],
+		},		
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				SUBJECTS: {
+					BEHAVIOUR_HAPPINESS>MUL: 2,
+					CIVIC_ACCIDENT>MUL: 0.75,
+					RATES_HUNGER>MUL: 0.2,
+					RATES_GROOMING>MUL: 0,
+					RATES_BATH>MUL: 0,
+					RATES_ARENA>MUL: 0,
+					RATES_ARENAG>MUL: 0,
+					RATES_SPEAKER>MUL: 0,
+					RATES_STAGE>MUL: 0,
+					RATES_THIRST>MUL: 0,
+					ROOM*>MUL: 0.8,
+					PHYSICS_SPEED>MUL: 0.7,
+					BEHAVIOUR_SANITY>MUL: 0.7,
+				},
+			},
+		],
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: DONDORIAN_REMEMBRANCE_YES,
+				},
+			],		
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: DONDORIAN_REMEMBRANCE_NO,
+				},
+			],		
+		},
+	],
+},
+
+DONDORIAN_REMEMBRANCE_YES: {
+	ICON: 32->race->Dondorian->0,
+	
+	DURATION: {
+		DAYS: 4.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				SUBJECTS: {
+					ROOM*>MUL: 1.2,
+					BEHAVIOUR_HAPPINESS>MUL: 0.7,
+				},
+			},
+		],
+	},
+},
+
+DONDORIAN_REMEMBRANCE_NO: {
+	ICON: 32->race->Dondorian->0,
+	
+	DURATION: {
+		DAYS: 4.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				SUBJECTS: {
+					BEHAVIOUR_HAPPINESS>MUL: 2,
+					CIVIC_ACCIDENT>MUL: 0.75,
+					RATES_HUNGER>MUL: 0.2,
+					RATES_GROOMING>MUL: 0,
+					RATES_BATH>MUL: 0,
+					RATES_ARENA>MUL: 0,
+					RATES_ARENAG>MUL: 0,
+					RATES_SPEAKER>MUL: 0,
+					RATES_STAGE>MUL: 0,
+					RATES_THIRST>MUL: 0,
+					ROOM*>MUL: 0.8,
+					PHYSICS_SPEED>MUL: 0.7,
+					BEHAVIOUR_SANITY>MUL: 0.7,
+				},
+			},
+		],
+	},
+},
+
+TILAPI_SPARTA: {
+	ICON: 32->race->Tilapi->0,
+	DURATION: {
+		DAYS: 1.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: TILAPI_SPARTA_NO,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 500,
+				POPULATION_TILAPI_CHILD_I: 25,
+				POPULATION_TILAPI_CITIZEN_F: 0.5,
+				GOVERN_RICHES: 0.7,
+			},
+		},
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			TILAPI_SPARTA_YES,
+		],
+	},
+	
+	SELECTION: {
+		SUBJECTS: {
+			MAX_AMOUNT: {
+				RELATIVE: 0.9,
+			},
+			USE_AS_ICON: false,
+			FILTERS: [
+				{
+					EQUAL: {
+						RACE_TILAPI: 1,
+						TYPE_CHILD: 1,
+					},
+				},
+			],
+		},		
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: TILAPI_SPARTA_YES,
+				},
+				{
+					TYPE: SUBJECTS_KILL,
+					AMOUNTS: {
+						TILAPI: {
+							RELATIVE: 0.9,
+						},	
+					},
+					DAMAGE: false,
+					DEATH_CAUSE: EMMIGRATED,
+					USE_SELECTION: true,
+				},
+			],	
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: TILAPI_SPARTA_NO,
+				},
+			],		
+		},
+	],
+},
+
+TILAPI_SPARTA_YES: {
+	ICON: 32->race->Tilapi->0,
+	
+	SELECTION: {
+		SUBJECTS: {
+			USE_AS_ICON: false,
+			FILTERS: [
+				{
+					EQUAL: {
+						RACE_TILAPI: 1,
+					},
+				},
+			],
+		},		
+	},
+	
+	TAGS: {
+		ADD: [
+			TILAPI_SPARTA_YES,
+		],
+	},	
+	
+	DURATION: {
+		DAYS: 8.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				SUBJECTS: {
+					ROOM*>MUL: 1.1,
+					BEHAVIOUR_HAPPINESS>MUL: 1.2,
+				},
+			},
+		],
+	},
+},
+
+TILAPI_SPARTA_NO: {
+	ICON: 32->race->Tilapi->0,
+	
+	SELECTION: {
+		SUBJECTS: {
+			USE_AS_ICON: false,
+			FILTERS: [
+				{
+					EQUAL: {
+						RACE_TILAPI: 1,
+					},
+				},
+			],
+		},		
+	},
+	
+	DURATION: {
+		DAYS: 8.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				SUBJECTS: {
+					BEHAVIOUR_HAPPINESS>MUL: 0.8,
+				},
+			},
+		],
+	},
+},
+
+TILAPI_SPARTA_YES_FOLLOW: {
+	ICON: 32->race->Tilapi->0,
+	DURATION: {
+		DAYS: 8.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+
+		},
+		ONLY_AFTER_DAYS: 32,
+	},
+	
+	TAGS: {
+		REMOVE: [
+			TILAPI_SPARTA_YES,
+		],
+		ALLOW: [
+			TILAPI_SPARTA_YES,
+		],
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},	
+	
+	SELECTION: {
+		SUBJECTS: {
+			USE_AS_ICON: false,
+			FILTERS: [
+				{
+					EQUAL: {
+						RACE_TILAPI: 1,
+					},
+				},
+			],
+		},		
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				SUBJECTS: {
+					BEHAVIOUR_HAPPINESS>MUL: 1.5,
+				},
+			},
+			{
+				TYPE: SUBJECTS_ADD,
+				AMOUNTS: {
+					TILAPI: {
+						PER_PERSON: 0.09,
+					},	
+				},
+				IMMIGRANT_TYPE: CITIZEN,
+			},
+			{
+				TYPE: SUBJECTS_ADD,
+				AMOUNTS: {
+					HUMAN: {
+						PER_PERSON: 0.05,
+					},	
+				},
+				IMMIGRANT_TYPE: SLAVE,
+			},
+			{
+				TYPE: RESOURCES,
+				AMOUNTS: {
+					BOW: {
+						PER_PERSON: 0.1,
+					},	
+					MEAT: {
+						PER_PERSON: 0.15,
+					},	
+				},
+			},
+			{
+				TYPE: CREDITS,
+				PER_PERSON: 75,
+			},
+		],
+	},
+},
+
+CRETONIAN_HERB: {
+	ICON: 32->race->Cretonian->0,
+	DURATION: {
+		DAYS: 2.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: CRETONIAN_HERB_NO,
+			},
+		],
+	},
+	
+	SELECTION: {
+		SUBJECTS: {
+			MAX_AMOUNT: {
+				AMOUNT: 1.0,
+			},
+			
+			USE_AS_ICON: true,
+			
+			FILTERS: [
+				{
+					EQUAL: {
+						RACE_IS_PLAYER: 1,
+						CLASS_CITIZEN: 1,
+					},
+				},
+			],
+		},		
+	},
+		
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 500,
+				FACTION_IS_CRETONIAN_I: 0,
+			},
+		},
+		MAX_SPAWNS: 1,
+	},
+
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: CRETONIAN_HERB_YES,
+				},
+				{
+					TYPE: BOOST,
+					PERMANENT: true,
+					PLAYER: {
+						RATES_HUNGER>ADD: 0.1,
+						BEHAVIOUR_HAPPINESS>ADD: 0.05,
+						BEHAVIOUR_LAWFULNESS>ADD: 0.2,
+					},
+				},
+			],		
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: CRETONIAN_HERB_NO,
+				},
+			],		
+		},
+	],
+},
+
+CRETONIAN_HERB_YES: {
+	ICON: 32->race->Cretonian->0,
+},
+
+CRETONIAN_HERB_NO: {
+	ICON: 32->race->Cretonian->0,
+},
+
+DODO: {
+	ICON: 24->resource->Meat->0,
+	DURATION: {
+		DAYS: 1.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: DODO_MAYBE,
+			},
+		],
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 2000,
+			},
+			LESS: {
+				FACTION_IS_TILAPI_I: 1,
+			},
+		},
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			DODO_YES,
+			DODO_NO,
+			DODO_MAYBE,
+		],
+	},
+	
+	SELECTION: {
+		SUBJECTS: {
+			MAX_AMOUNT: {
+				AMOUNT: 1.0,
+			},
+			
+			USE_AS_ICON: false,
+			
+			FILTERS: [
+				{
+					EQUAL: {
+						CLASS_CITIZEN: 1,
+					},
+				},
+			],
+		},		
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: SUBJECTS_KILL,
+				AMOUNTS: {
+					*: {
+						AMOUNT: 1,
+					},	
+				},
+				DAMAGE: false,
+				DEATH_CAUSE: SLAYED,
+				USE_SELECTION: true,
+			},
+		],
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: DODO_YES,
+				},
+				{
+					TYPE: CREDITS,
+					PER_PERSON: 75,
+				},
+			],		
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: DODO_NO,
+				},
+			],		
+		},
+	],
+},
+
+DODO_YES: {
+	ICON: 24->resource->Meat->0,
+
+	TAGS: {
+		ADD: [
+			DODO_YES,
+		],
+	},
+},
+
+DODO_YES_FOLLOW: {
+	ICON: 24->resource->Meat->0,
+
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 10,
+			},
+		},
+	},
+
+	TAGS: {
+		REMOVE: [
+			DODO_YES,
+		],
+		ALLOW: [
+			DODO_YES,
+		],
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+		],
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: INVASION,
+				AMOUNT_FROM: 1,
+				AMOUNT_TO: 1,
+				RACE: TILAPI,
+			},
+		],
+	},
+},
+
+DODO_NO: {
+	ICON: 24->resource->Meat->0,
+
+	TAGS: {
+		ADD: [
+			DODO_NO,
+		],
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: true,
+				PLAYER: {
+					WORLD_PROXIMITY>MUL: 1.1,
+					WORLD_TAX_INCOME>MUL: 1.1,
+				},
+			},
+		],
+	},
+},
+
+DODO_MAYBE: {
+	ICON: 24->resource->Meat->0,
+
+	TAGS: {
+		ADD: [
+			DODO_MAYBE,
+		],
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: true,
+				PLAYER: {
+					CIVIC_OPINION>MUL: 1.05,
+				},
+			},
+		],
+	},
+},
+
+SKILL_ISSUE: {
+	ICON: 32->WORK->7,
+	DURATION: {
+		DAYS: 1.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 1000,
+				FACTION_IS_DONDORIAN_I: 0,
+			},
+		},
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			SKILL_ISSUE_YES,
+			SKILL_ISSUE_MAYBE,
+		],
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: SKILL_ISSUE_YES,
+				},
+				{
+					TYPE: BOOST,
+					PERMANENT: true,
+					PLAYER: {
+						ROOM_REFINER*>MUL: 1.05,
+						ROOM_WORKSHOP*>MUL: 1.05,
+						BEHAVIOUR_HAPPINESS>MUL: 0.95,
+					},
+				},
+			],		
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: SKILL_ISSUE_MAYBE,
+				},
+				{
+					TYPE: BOOST,
+					PERMANENT: true,
+					PLAYER: {
+						CIVIC_IMMIGRATION>MUL: 1.5,
+					},
+				},
+			],		
+		},
+	],
+},
+
+SKILL_ISSUE_YES: {
+	ICON: 32->WORK->7,
+
+	TAGS: {
+		ADD: [
+			SKILL_ISSUE_YES,
+		],
+	},
+},
+
+SKILL_ISSUE_MAYBE: {
+	ICON: 32->WORK->7,
+
+	TAGS: {
+		ADD: [
+			SKILL_ISSUE_MAYBE,
+		],
+	},
+},
+
+SCAPEGOATS: {
+	ICON: 32->LAW->2,
+	DURATION: {
+		DAYS: 1.0,
+	},
+	
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 1000,
+			},
+			LESS: {
+				LAW_LAW: 0.75,
+			},
+		},
+	},
+	
+	TAGS: {
+		ALLOW_NOT: [
+			CHAIN_ONGOING,
+			SCAPEGOATS_YES,
+			SCAPEGOATS_NO,
+		],
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: SCAPEGOATS_YES,
+				},
+				{
+					TYPE: BOOST,
+					PERMANENT: true,
+					PLAYER: {
+						CIVIC_LAW>MUL: 1.5,
+						BEHAVIOUR_LAWFULNESS>MUL: 0.5,
+					},
+				},
+			],		
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: SCAPEGOATS_NO,
+				},
+			],		
+		},
+	],
+},
+
+SCAPEGOATS_YES: {
+	ICON: 32->LAW->2,
+	TAGS: {
+		ADD: [
+			SCAPEGOATS_YES,
+		],
+	},
+},
+
+SCAPEGOATS_NO: {
+	ICON: 32->LAW->2,
+	TAGS: {
+		ADD: [
+			SCAPEGOATS_NO,
+		],
+	},
+},
+
+MILK: {
+	ICON: 32->animal->Auroch->0,
+	DURATION: {
+		DAYS: 1.0,
+		ACTIONS: [
+			{
+				TYPE: EVENT,
+				EVENT: MILK_NO,
+			},
+		],
+	},
+
+	OCCURENCE: {
+		CLIMATE: {
+			*: 1.0,
+		},
+		TERRAIN: {
+			*: 1.0,
+		},
+		RACE: {
+			*: 1.0,
+		},
+		REQUIRES: {
+			GREATER: {
+				POPULATION: 500,
+				EMPLOYED_PASTURE_AUR: 0,
+			},
+		},
+		MAX_SPAWNS: 1,
+	},
+	
+	SELECTION: {
+		SUBJECTS: {
+			MAX_AMOUNT: {
+				AMOUNT: 1.0,
+			},
+			
+			USE_AS_ICON: true,
+			
+			FILTERS: [
+				{
+					EQUAL: {
+						CLASS_CITIZEN: 1,
+					},
+				},
+			],
+		},		
+	},
+	
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: MILK_YES,
+				},
+				{
+					TYPE: SUBJECTS_KILL,
+					AMOUNTS: {
+						*: {
+							AMOUNT: 1,
+						},	
+					},
+					DAMAGE: false,
+					DEATH_CAUSE: EMMIGRATED,
+					USE_SELECTION: true,
+				},
+			],		
+		},
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: MILK_NO,
+				},
+			],		
+		},
+	],
+},
+
+MILK_YES: {
+	ICON: 32->animal->Auroch->0,
+	DURATION: {
+		DAYS: 4.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_HAPPINESS>MUL: 1.1,
+				},
+			},
+		],
+	},
+
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: MILK_YES_YES,
+					KEEP_TIME: true,
+				},
+			],		
+		},
+	],
+},
+
+MILK_NO: {
+	ICON: 32->animal->Auroch->0,
+	DURATION: {
+		DAYS: 4.0,
+	},
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_HAPPINESS>MUL: 0.9,
+				},
+			},
+		],
+	},
+
+	CHOICES: [
+		{
+			ACTIONS: [
+				{
+					TYPE: EVENT,
+					EVENT: MILK_NO_YES,
+					KEEP_TIME: true,
+				},
+			],		
+		},
+	],
+},
+
+MILK_YES_YES: {
+	ICON: 32->animal->Auroch->0,
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_HAPPINESS>MUL: 1.1,
+				},
+			},
+		],
+	},
+},
+
+MILK_NO_YES: {
+	ICON: 32->animal->Auroch->0,
+	
+	ON_SPAWN: {
+		ACTIONS: [
+			{
+				TYPE: BOOST,
+				PERMANENT: false,
+				PLAYER: {
+					BEHAVIOUR_HAPPINESS>MUL: 0.9,
+				},
+			},
+		],
+	},
+},

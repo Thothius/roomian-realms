@@ -1,0 +1,191 @@
+FIRST: {
+
+	GREETING: [
+		"{RACE_HELLO}",
+		"{RACE_HELLO}, {RACE_SELF}!",
+		"{RACE_HELLO}, great {RACE_SELF}!",
+		"{RACE_HELLO}, {FACTION_RULER}!",
+		"{RACE_HELLO}, {FACTION_RULER_TITLE}!",
+		"{RACE_HELLO}, my {RACE_SELF} {FACTION_RULER_TITLE}!",
+		"{RACE_HELLO}, {RACE_LORD}!",
+		"{RACE_HELLO}, my {RACE_LORD}!",
+	],
+
+	INTROS: [
+		"I am {RAIDER_NAME}, the leader of a humble non-profit organization.",
+		"I am {RAIDER_NAME}, the leader of a band of good-hearted {RACE_SELVES}.",
+		"I am {RAIDER_NAME}, perhaps you've heard of me? I had the pleasure of visiting your neighbour's {RACE_CITY} last year.",
+		"I am a humble {RACE_SELF} that goes by the name {RAIDER_NAME} who's only fault is being too modest.",
+		"Name's {RAIDER_NAME}, write it down.",
+		"I hereby bestow upon you the great pleasure of meeting me, {RAIDER_NAME}.",
+		"You and your {RACE_CITY} now have the pleasure of meeting me, {RAIDER_NAME}.",
+		"{RAIDER_NAME} is my name, me and my {RACE_SELVES} come from a land far away called {PLAYER_RND_REGION_FAR}.",
+	],
+	
+	BODIES: [
+		"I happen to be near your {RACE_CITY} on important business with my {RACE_SELVES}, and I would like for you and I to be friends.",
+		"Some {RACE_OTHERS} have spread rumours about me. That I only pretend to be some kind of protector, when in fact I'm a raider. This is nonsense. In fact I protect all of Syx. And now I'm offering to protect you, dearest {RACE_LORD}.",
+		"I am nearby your {RACE_CITY} ATM, and it would be a shame to leave you without the opportunity to pay me a tribute.",
+		"Me and my {RACE_SELVES} come from a far-off land, and our mission is to spread joy and peace in the whole of Syx. As you well know, the world is full of shady {RACE_OTHERS}. That is why we want offer our services to protect you.",
+		"As you know, there are evil {RACE_OTHERS} out in the world, bent on destruction and conquest. We however, are lovers of peace, and would like to offer our protective services.",
+		"We have come from far away in order to help you out. Maybe you haven't heard, but there are bandits out there who are conspiring to take what is yours as you read this. Let us help you!",
+		"Winter is coming {RACE_SELF}, and it will be beneficial for you to have a {RACE_SELVES} like me.",
+		"I'm not sure you're aware, but {RACE_CURSE} There are petty {RACE_OTHERS}, who do not hesitate to take from others. Luckily for you, my {RACE_LORD}, we can protect you from these.",
+	],
+	
+	ENDS: [
+		"All we {RACE_SELVES} ask in return is a small compensation from you, {RACE_LORD}. What say you?
+		
+		{RACE_GOODBYE},
+		//{RAIDER_NAME}",
+		"All we humble {RACE_SELVES} ask in return is a small compensation from you, {FACTION_RACE_LORD}. What say you?
+		
+		{RACE_GOODBYE},
+		//{RAIDER_NAME}",
+		"All I ask in return is a small compensation. Us {RACE_SELVES} need to eat too, you know.
+		
+		{RACE_GOODBYE},
+		//{RAIDER_NAME}",
+		"Soldiers have to eat, so we kindly ask you to ship us some supplies in order for us to keep the peace. It's quite the bargain.
+		
+		{RACE_GOODBYE},
+		//{RAIDER_NAME}",
+		"For this favour we kindly ask you for a small compensation.
+		
+		{RACE_GOODBYE},
+		//{RAIDER_NAME}",
+		"Please ship us the following:
+		
+		{RACE_GOODBYE},
+		//{RAIDER_NAME}",
+		"We only ask of our {FACTION_RACIAN} {FACTION_RACE_LORD} to share some of your wealth.
+		
+		{RACE_GOODBYE},
+		//{RAIDER_NAME}",
+		"In return we only ask you, esteemed {FACTION_RACE_LORD}, to share some of your wealth with us.
+		
+		{RACE_GOODBYE},
+		//{RAIDER_NAME}",
+	],
+},
+
+REPEAT: {
+
+	GREETING: [
+		"Dearest {FACTION_RACE_SELF}",
+		"Dearest {FACTION_RACE_LORD}",
+		"My dearest {FACTION_RACE_LORD}",
+		"My dearest {RACE_SELF}",
+		"To my favourite {RACE_SELF}",
+		"To my favourite {FACTION_RACE_LORD}",
+		"{RACE_HELLO}, we meet again!",
+		"{RACE_HELLO}, we meet again {FACTION_RACE_LORD}!",
+	],
+
+	INTROS: [
+		"It's me, your old friend {RAIDER_NAME}!",
+		"How are things going for my favourite {FACTION_RACE} in all of Syx?", 
+		"{RAIDER_NAME} has once again the pleasure of writing you.",
+		"{RAIDER_NAME} here once again.",
+		"It's me again, {RAIDER_NAME}!",
+		"Remember me? I remember you!",
+		"How have you been? You haven't written since we last met. That stings in my {RACIAN} soul!",
+		"You little {RACE_INSULT} you, how have you been?",
+	],
+	
+	BODIES: [
+		"I'm going about my yearly rounds, and you happen to be next on my list, what an honour, nay?",
+		"I'm pleased to announce you now have the opportunity to pay us {RACE_SELVES} tribute once again. No need to thank me.",
+		"Your {RACE_CITY} looks like shit. I thought I asked you to be productive. It's offensive really. Oh well, I'll settle with a small cut this time.",
+		"{RACE_HELLO}, I see my {RACE_LORD} have been busy preparing for me.",
+		"{RACE_HELLO}, I see my little {FACTION_RACE} subject have been busy preparing for our arrival. This is good.",
+		"{RACE_HELLO}, we have been busy, haven't we?",
+		"How am I, you ask? Well, I've been to {PLAYER_RND_REGION_FAR} protecting. Always protecting. It's exhausting you know!",
+		"{RACE_CURSE} I was doing my yearly round and nearly forgot about your little {RACE_CITY}.",
+	],
+	
+	ENDS: [
+		"I've had one of my {FACTION_RACIAN} slaves put together a list for you, {FACTION_RACE_LORD}. No delays this time. We don't want an incident.
+		
+		{RACE_GOODBYE},
+		//{RAIDER_NAME}",
+		
+		"Here's a list of all that I require from my {RACE_LORD}. Please ship it post haste. I'd hate to burn your little {RACE_CITY} down.
+
+		{RACE_GOODBYE},
+		//{RAIDER_NAME}",
+		"Ship me the following:
+
+		{RACE_GOODBYE},
+		//{RAIDER_NAME}",
+		"This time we only ask of you the following:
+		
+		{RACE_GOODBYE},
+		//{RAIDER_NAME}",
+		"We have most of what we need. Your contribution will be only this:
+		
+		{RACE_GOODBYE},
+		//{RAIDER_NAME}",
+		"My {RACE_SELVES} has written down what we need of you this time.
+
+		{RACE_GOODBYE},
+		//{RAIDER_NAME}",
+		"This time {FACTION_RACE_LORD}, I hope you'll play nicely. We only ask what is reasonable.
+
+		{RACE_GOODBYE},
+		//{RAIDER_NAME}",
+		"This time {FACTION_RACE_LORD}, do not delay. My {RACIAN} mercy knows limits you know...
+
+		{RACE_GOODBYE},
+		//{RAIDER_NAME}",
+	],
+},
+
+HELP: [
+	"Hey Neighbour! I have some guy here at my border, claiming to know you. {HEC} is a {RACE_SELF}, and goes by the name of '{RAIDER_NAME}'. Looks kind of funny if you ask me. He says you owe him stuff, and I promised to mediate. Here's the list.",
+	"{RACE_HELLO}, my dear {RACE_LORD}. I've been instructed to convey this message here from a certain '{RAIDER_NAME}', that has come to visit. I quote: 'Give me my stuff, you ugly, terrible person, or I'll come over there and make a hat out of your genitals.' That is all. There's a list with {HIS} demands here, I'll pay {HIM} for you.",
+],
+
+HELP_DESTROYED: [
+	"Hey, you little {RACE_INSULT} you. You won't believe what just happened. I was passing through your neighbouring {FACTION_RACE_LORD}, and by accident they, and their whole army tripped and impaled themselves on my men's sword!. In fact, the little {FACTION_RACE_LORD} fell so hard that their head came off and landed on a spike on top of my tent. Can you believe that? All this commotion collapsed the whole realm. Well, well, what can you do, shit happens. I thought I'd just let you know. See you soon!",
+	"Look at your friend, look. Look what you made me do! All that killing and plundering. I didn't mean to completely annihilate him, or burn the crops, and kill every child, but you made me. How does that feel?",
+	"Can you believe it, your neighbouring {FACTION_RACE_LORD} tried to stop me from visiting you. I said, 'what are you, keeping good friends apart!' But he just wouldn't listen. I had to kill him so that we can be togeather. See you soon darling!",
+],
+
+HELP_FIGHT: [
+	"{RACE_CURSE}! {HEC} attacked me! Can you believe that? What did you do to this guy? My army is blooded, the border regions lay in ruins, and it's all because of you! Thanks a bunch, {RACE_INSULT}!",
+	"Since you didn't pay, I had to chase '{RAIDER_NAME}' off. I would appreciate if you would not drag me into your {RACE_INSULTING} business again. Some compensation for this odreal would be in order.",
+	"Don't worry my {RACE_LORD}. You didn't pay me, but I took care of it. {RAIDER_NAME} barely escaped with {HIS} life. It was not very pleasant business though...",
+],
+
+REJECTED: [
+	"You {RACE_INSULT}! You just passed up the opportunity of a lifetime. Well, now we have no choice but to pay your little {RACE_CITY} a visit in person.",
+	"No stuff, no love from us. Remember, we warned you.",
+	"Hello. You forgot to pay. Prepare to die.",
+	"You, {RACE_SELF}, are nothing but a {RACE_INSULT}. Your subjects will pay dearly for this.",
+	"Tomorrow, we will come and reap what you have built, {RACE_INSULT}. I will personally urinate on your throne. Until then...",
+	"What you do not give willingly, we regret to inform that we must take by force.",
+	"You {RACE_INSULT}! You have just crossed the wrong {RACE}! Prepare for our arrival, as in dig a hole to be buried in.",
+	"You {RACE_INSULT} you... You have just crossed {RAIDER_NAME}. Prepare to meet {RELIGION_GOD}.",
+],
+
+PAYED: [
+	"Good, good. One, two, three... yes it seems to be all there. It's been a pleasure doing business with my esteemed {RACE_LORD}. We will meet again no doubt, sooner than you may think. Make sure your stockpiles are filled to the brim until then. Ta ta!",
+	"I'm glad you see reason, {FACTION_RACE_SELF}. No point in sulking over this, it's simply a redistribution of wealth. Now we {RACE_SELVES} must take our leave. Until next time!",
+	"What is this crap you sent me {RACE_INSULT}, are you pulling my leg? Punishment awaits! No, sorry, forgive my {RACIAN} twisted sense of humour. It's all there, you have our thanks. We shall meet again. {RACE_GOODBYE}!",
+	"Thanks for the stuff! {RACE_GOODBYE}!",
+	"Lovely stuff, thanks! {RACE_GOODBYE}!",
+	"Good, good. One, two, three... yes it seems to be all there. {RACE_GOODBYE}!",
+	"{FACTION_RULER}, you have proven yourself a true {RACE_INSULT}. Good. {RACE_GOODBYE}!",
+	"{RACE_CURSE} I never thought you'd pay. I was merely bluffing you see. Very well. {RACE_GOODBYE}",
+],
+
+AFTER_RAID: [
+	"I do not enjoy killing {FACTION_RACES}. Well, maybe a little... Although, to it's hard work, and I kindly ask that you just pay up next time, my little {RACE_INSULT}",
+	"{RACE_CURSE} Killing your {FACTION_RACES} {FACTION_RACE_SELVES} never gets old. When we come again, you must promise to put up more resistance.",
+	"I did not enjoy that. Well maybe a little. However it cost me dearly, and I now have no other choice but to increase the cost of my services.",
+	"{FACTION_RULER}, I hope now that you've learnt that you do not mess with the one and only {RAIDER_NAME}. Next time, do try to see reason.",
+	"Next time, do the right thing for your {RACE_CITY} and your {FACTION_RACIAN} {FACTION_RACE_SELVES}. No need to be a hero.",
+	"{RACE_INSULT}, see what you made me do? Countless {RACE_SELVES} lie dead because of you. Next time just pay up as the good little {FACTION_RACE} you are. Now get to work, I expect a bigger tribute next time. I will see you very soon.",
+	"{RACE_HELLO} {FACTION_RACE_LORD}. It looks like I beat you. If it's any consolation, you put up a good fight. Next {RAIDER_NAME} arrive, make sure your stocks are full. {RACE_GOODBYE}.",
+],

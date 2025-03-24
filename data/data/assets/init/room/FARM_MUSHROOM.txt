@@ -1,0 +1,35 @@
+ICON: {
+	BG: 32->BG->6,
+	FG: 24->resource->Mushroom->0,
+	SHADOW: 2,
+},
+GROWABLE: MUSHROOM,
+RESOURCES: [MUSHROOM,],
+AREA_COSTS: [0.1,],
+MINI_COLOR: 74_119_14,
+MINI_COLOR_PATTERN: [
+	"44444444",
+	"99999999",
+	"00000000",
+	"44444444",
+],
+INDOORS: true,
+INDUSTRY: {
+	OUT: {
+		MUSHROOM: 1.1,
+	},
+},
+WORK: {
+	SHIFT_OFFSET: 0.125,
+	SOUND: impact->Dig*,
+	USES_TOOL: true,
+	FULFILLMENT: 0,
+},
+BONUS: {
+	CLIMATE: {
+		COLD: 2,
+		TEMPERATE: 1,
+		HOT: 0.5,
+	},
+},
+

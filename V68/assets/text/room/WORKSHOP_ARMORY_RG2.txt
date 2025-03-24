@@ -1,0 +1,44 @@
+INFO: {
+	NAME: "Armory",
+	NAMES: "Armories",
+	DESC: "Workshop that forges weapons from coal and metal.",
+},
+
+BONUS: {
+	NAME: "Metallurgy",
+	DESC: "Increases effectiveness of armories",
+},
+
+WORK: {
+	TITLE: "Weaponsmith",
+	VERB: "Forging",
+},
+
+STATS: [
+	{
+		NAME: "Workers",
+		DESC: "The amount of workers",
+	},
+	{
+		NAME: "Efficiency",
+		DESC: "Efficiency increases production",
+	},
+	{
+		
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Storage",
+		DESC: "The internal storage for produce.",
+	},
+	{
+		NAME: "Work Bench",
+		DESC: "Where subjects work",
+	},
+	{
+		NAME: "Auxiliary Station",
+		DESC: "Adds Efficiency to the room",
+	},
+],

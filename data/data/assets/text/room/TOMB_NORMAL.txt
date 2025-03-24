@@ -1,0 +1,42 @@
+INFO: {
+	NAME: "Crypt",
+	NAMES: "Crypts",
+	DESC: "Where the bones of the fallen are laid to rest. Crypts are preferred by some species, although a bit more expensive to build and upkeep than the alternatives.",
+	WIKI: {
+		CATEGORY: "Service",
+		NAME: "Crypts",
+		TEXT: "Where the bones of the fallen are laid to rest. Crypts are preferred by some species, although a bit more expensive to build and upkeep than the alternatives. Removing graves or allowing anyone to trample on the graves might severely damage your reputation.",
+		KEY: "BARRACKS",
+		LINKS: [],
+	},
+},
+
+WORK: {
+	TITLE: "Undertaker",
+	VERB: "Conducting a funeral",
+},
+
+STATS: [
+	{
+		
+	},
+	{
+		NAME: "Graves",
+		DESC: "Graves for the diseased",
+	},
+	{
+		NAME: "Respect",
+		DESC: "The amount of respect this tomb represents. Subjects want respect after serving their ruler,",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Grave",
+		DESC: "Increases graves",
+	},
+	{
+		NAME: "Statue",
+		DESC: "Adds respect.",
+	},
+],

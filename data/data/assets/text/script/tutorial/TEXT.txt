@@ -1,0 +1,29 @@
+TASK_DONE: "Good, you have completed the current task. Now continue with:",
+DONE: "Exit to menu",
+TUTORIAL: "Tutorial",
+
+BUILD_WAREHOUSE: [
+	"1. Click this button. Then click and hold the left mouse button on the map to assign the area of the warehouse.",
+	"2. If need be, remove some of the area. The area should be around 5x5, not much bigger. The whole area needs to be connected.",
+	"3. On the edges of this area, walls will be built. Use the highlighted button to select a tool that lets you convert some walls into doorways so that the room can be accessed.",
+	"4. Now click an item here (crates), and place at least 6 of them within the designated area of the room.",
+	"5. When you are done, click this button to finish the plans for the room.",
+],
+
+BUILD_JANITOR: [
+	"1. Assign the area.",
+	"2. Remove some of the area if need be.",
+	"3. Make an opening to the room.",
+	"4. Place down a workstation. Then place down utilities until 'Efficiency' shows 100%.",
+	"5. When you are done, click this button to finish planning the room.",
+],
+
+WAREHOUSE_SETTING: [
+	"1. Click here to allocate a worker.",
+	"2. Find meat in this list, and use the plus and minus buttons to allocate crates to this resource.",
+],
+
+BUILD_FARM: [
+	"1. Farms depend on irrigation. Before you can create artificial irrigation, building by the natural pondis the only viable solution. ",
+	"2. Fertility is very important. The drop on the map signifies irrigation and the colour fertility. Try to place the room on high fertility tiles.",
+],

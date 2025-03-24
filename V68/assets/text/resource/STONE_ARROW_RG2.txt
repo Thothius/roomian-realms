@@ -1,0 +1,3 @@
+NAME: "Stone arrow",
+NAMES: "Stone arrows",
+DESC: "Primitive yet effective projectiles crafted from specially selected stones with natural fracture patterns. Despite their simple appearance, these arrows can be surprisingly lethal when crafted by skilled hands. The distinctive black obsidian-like material used for the arrowheads holds an edge nearly as sharp as metal.",

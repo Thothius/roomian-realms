@@ -1,0 +1,126 @@
+ICON: {
+	BG: 24->race->Garthimi->0,
+	FG: 32->DEATH->1,
+	SHADOW: 1,
+},
+RESOURCES: [STONE,FURNITURE,CLAY,],
+AREA_COSTS: [0.3,0,0,],
+FLOOR: DARK1,
+MINI_COLOR: 50_50_50,
+REQUIRES: {
+	GREATER: {
+		POPULATION_GARTHIMI_CITIZEN_I: 15,
+	},
+},
+ITEMS: [
+	{
+		COSTS: [2,0,0,],	** Processing Area
+		STATS: [0,0,0,],
+	},
+	{
+		COSTS: [1,2,1,],	** Extraction Equipment
+		STATS: [1,0,1,],
+	},
+	{
+		COSTS: [0,1,2,],	** Efficiency
+		STATS: [0,2,0,],
+	},
+],
+UPGRADES: [
+	{
+		RESOURCE_MASK: [1,1,1,],
+		BOOST: 0,
+	},
+	{
+		RESOURCE_MASK: [2,2,1,],
+		BOOST: 0.5,
+	},
+	{
+		RESOURCE_MASK: [3,3,2,],
+		BOOST: 1.0,
+	},
+],
+WORK: {
+	SHIFT_OFFSET: 0.75,
+	SOUND: impact->Flesh*,
+	ACCIDENTS_PER_YEAR: 0.03,
+	FULFILLMENT: 1.5,
+},
+INDUSTRIES: [
+	{
+		INDUSTRY: {
+			IN: {
+				CORPSE: 0.5,
+			},
+			OUT: {
+				MEAT: 0.3,
+				LEATHER: 0.2,
+				HAPPINESS: 1.5,
+			},
+		},
+	},
+],
+ENVIRONMENT_EMIT: {
+	_POLLUTION: {
+		AMOUNT: 0.2,
+		RADIUS: 16,
+	},
+	_RELIGION: {
+		AMOUNT: 0.2,
+		RADIUS: 24,
+		RELIGION: SHMALOR,
+	},
+},
+SPRITES: {
+	PROCESSOR_TABLE_1X2: [
+		{	
+			ROTATES: true,
+			TINT: true,
+			SHADOW_LENGTH: 3,
+			FRAMES: [
+				2xBED: 5,	
+			],
+		},
+	],
+	PROCESSOR_TOOLS_1X1: [
+		{	
+			ROTATES: true,
+			TINT: true,
+			SHADOW_LENGTH: 1,
+			FRAMES: [
+				DECOR: 11,	
+			],
+		},
+	],
+	PROCESSOR_BUCKET_1X1: [
+		{	
+			ROTATES: true,
+			TINT: true,
+			SHADOW_LENGTH: 2,
+			FRAMES: [
+				DECOR: 3,	
+			],
+		},
+	],
+	PROCESSOR_STAIN_1X1: [
+		{	
+			ROTATES: false,
+			TINT: true,
+			SHADOW_LENGTH: 0,
+			FRAMES: [
+				FLOOR: 9,	
+			],
+		},
+	],
+},
+BOOSTS: {
+	GARTHIMI: {
+		PARASITIC_INFILTRATION>ADD: 0.05,
+		BEHAVIOUR_SANITY>MUL: 0.05,
+	},
+	OTHER: {
+		HAPPINESS>ADD: -0.05,
+	},
+},
+RACE: GARTHIMI,
+DESCRIPTION: "A specialized facility where Wormlings process corpses to extract useful resources. The facility converts corpses into meat and leather while generating happiness for Wormlings who find the process natural and satisfying. The alien nature of the processing causes discomfort to other races."

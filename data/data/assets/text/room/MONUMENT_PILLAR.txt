@@ -1,0 +1,17 @@
+INFO: {
+	NAME: "Pillar",
+	NAMES: "Pillars",
+	DESC: "Spreads awe in your settlement.",
+},
+
+ITEMS: [
+	{
+		NAME: "Pillars",
+		DESC: "Big stone monuments.",
+	},
+],
+
+MORE: [
+	"Some awe-inspiring pillars are necessary to signify our glory.",
+	"More pillars. What self-respecting {RACE_CITY} does not have random pillars?",
+],

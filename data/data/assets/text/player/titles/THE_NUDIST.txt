@@ -1,0 +1,2 @@
+NAME: "The Nudist",
+DESC: "Keep your citizens naked, and gain an extra boost to exposure.",

@@ -1,0 +1,3 @@
+NAME: "Machinery",
+NAMES: "Machinery",
+DESC: "Used in many advanced rooms.",

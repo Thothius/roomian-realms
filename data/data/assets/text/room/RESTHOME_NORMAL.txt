@@ -1,0 +1,40 @@
+INFO: {
+	NAME: "Resthome",
+	NAMES: "Resthomes",
+	DESC: "Where retirees may spend their time and enjoy their remaining days.",
+},
+
+STATS: [
+	{
+		NAME: "Capacity",
+		DESC: "The amount of people this room can house.",
+	},
+	{
+		NAME: "Coziness",
+		DESC: "Coziness improves the experience provided by the room.",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Tables",
+		DESC: "Suitable for playing cards.",
+	},
+	{
+		NAME: "Dance floor",
+		DESC: "Improves mobility and condition of the clients.",
+	},
+	{
+		NAME: "Decorations",
+		DESC: "Improves coziness.",
+	},
+	{
+		NAME: "Carpets",
+		DESC: "Improves coziness.",
+	},
+],
+
+EMPLOYMENT: {
+	TITLE: "Retired",
+	VERB: "Hanging out",
+},

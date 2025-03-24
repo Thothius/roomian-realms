@@ -1,0 +1,8 @@
+NAME: "Irrigation",
+DESC: "Canals and funnels of water that increases crop yields.  Land and investment intensive but simple to upkeep.",
+
+LEVELS: [
+	"Irrigation",
+	"Reservoirs",
+	"Aqueducts",
+],

@@ -1,0 +1,114 @@
+ICON: 32->HEALTH->1,
+RESOURCES: [FURNITURE,STONE_CUT,TOOL,],
+AREA_COSTS: [0,0,0,],
+FLOOR: STONE1,
+MINI_COLOR: 20_20_255,
+ITEMS: [
+	{
+		COSTS: [1,1,0,],
+		STATS: [0.25,1,0,],
+	},
+	{
+		COSTS: [1,1,2,],
+		STATS: [0,0,0.5,],
+	},
+],
+WORK: {
+	SHIFT_OFFSET: 0.65,
+	SOUND: DUMMY,
+	USES_TOOL: true,
+	FULLFILLMENT: 1.0,
+},
+SERVICE: {
+	RADIUS: 164,
+	STANDING: {
+		CITIZEN: 1,
+		SLAVE: 0.5,
+		NOBLE: 0.5,
+		PRIO: 22,
+	}, 
+	NEED: DOCTOR,
+	BOOST: {
+		PHYSICS_HEALTH>MUL: 4.0,
+	
+	},
+},
+SPRITES: {
+	BUNK_1X1_TOP: [
+		{
+			SHADOW_LENGTH: 5,
+			SHADOW_HEIGHT: 0,
+			FRAMES: [
+				2xBED: 4,
+			],
+		},
+	],
+	BUNK_1X1_BOTTOM: [
+		{
+			SHADOW_LENGTH: 5,
+			SHADOW_HEIGHT: 0,
+			FRAMES: [
+				2xBED: 5,
+			],
+		},
+	],
+	TABLE_COMBO: [
+		{
+			COLOR: {R: 255, G: 200, B: 180,},
+			SHADOW_LENGTH: 7,
+			SHADOW_HEIGHT: 0,
+			FRAMES: [
+				COMBO_TABLES: 4,
+			],
+		},
+	],
+	SHELF_1X1: [
+		{
+			SHADOW_LENGTH: 7,
+			SHADOW_HEIGHT: 0,
+			ROTATES: true,
+			FRAMES: [
+				SHELVES: 0,
+			],
+		},
+	],
+	SHELF_ONTOP_1X1: [
+		{
+			SHADOW_LENGTH: 1,
+			SHADOW_HEIGHT: 0,
+			ROTATES: true,
+			FRAMES: [
+				TOP: 19,
+				TOP: 20,
+				TOP: 21,
+				TOP: 22,
+				WORK: 37,
+				WORK: 36,
+			],
+		},
+	],
+	TABLE_ONTOP_1X1: [
+		{
+			SHADOW_LENGTH: 1,
+			SHADOW_HEIGHT: 0,
+			ROTATES: true,
+			FRAMES: [
+				TOP: 5,
+				TOP: 6,
+				TOP: 7,
+				TOP: 8,
+			],
+		},
+	],
+	STORAGE_1X1: [
+		{
+			SHADOW_LENGTH: 3,
+			SHADOW_HEIGHT: 0,
+			ROTATES: true,
+			FRAMES: [
+				STORAGE: 2,
+			],
+		},
+	],
+},
+

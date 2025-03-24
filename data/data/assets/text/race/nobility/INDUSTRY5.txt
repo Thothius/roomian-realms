@@ -1,0 +1,4 @@
+INFO: {
+	NAME: "University Headmaster",
+	DESC: "The University Headmaster is the master of education, libraries, and book binding. They will boost the effectiveness of all libraries and papermakers.",
+},

@@ -1,0 +1,344 @@
+PLAYABLE: true,
+PROPERTIES: {
+	HEIGHT: 9,
+	WIDTH: 11,
+	ADULT_AT_DAY: 90,
+	CORPSE_DECAY: true,
+	SLEEPS: true,
+	RAID_MERCINARY: 1.0,
+},
+BEHAVIOUR: {
+	SKINNY_DIPS: 0,
+	SLAVER: 1.0,
+	SLAVE_DRIVER: 1.0,
+	EXECUTION_PERFORM: 1.0,
+	TORTURE_PERFORM: 1.0,
+	CRUELTY: 1.0,
+	BLOODLUST: 1.0,
+	DISCIPLINE: 0.8,
+	LOYALTY: 0.6,
+	OPPORTUNIST: 1.0,
+	SELFISH: 1.0,
+	GREED: 0.9,
+	CORRUPTION: 1.0,
+	RITUALISTIC: 0.9,
+	SPIRITUAL: 0.8,
+	PACIFISM: 0.0,
+	SUBMISSION: 0.1,
+},
+BIO_FILE: Dry,
+OPINION_FILE_SCARED: Dry,
+OPINION_FILE_NORMAL: Dry,
+OPINION_FILE_CONFIDENT: Dry,
+KING_FILE: Normal,
+WORLD_NAME_FILE: Misc,
+RAID_TEXT_FILE: Normal,
+RAIDER_NAME_FILE: Normal,
+HOME: TILAPI,
+PREFERRED: {
+	FOOD: [
+		MEAT,
+		FISH,
+	],
+	DRINK: [
+		*,
+	],
+	FAVORITE_DRINK: ALCO_MEAD,
+	STRUCTURE: {
+		MOUNTAIN: 0.8,
+		STONE: 1.0,
+		GRAND: 1.0,
+		WOOD: 0,
+		OUTDOORS: 0.3,
+	},
+	WORK: {
+		_BARRACKS: 1.0,
+		_GUARD: 1.0,
+		_SLAVER: 1.0,
+		_EXECUTION: 1.0,
+		_TORTURE: 1.0,
+		WORKSHOP_SMITHY: 1.0,
+		HUNTER: 1.0,
+		BUTCHER: 1.0,
+		MINE_COAL: 1.0,
+		MINE_ORE: 1.0,
+		REFINER_METAL: 1.0,
+		WORKSHOP_ARMORY_RG2: 1.0,
+	},
+	OTHER_RACES: {
+		HUMAN: 0.2,
+		DONDORIAN: 0.2,
+		ARGONOSH: 0.1,
+		Q_AMEVIA: 0.1,
+		CANTOR: 0.5,
+		GARTHIMI: 0.3,
+		CRETONIAN: 0.2,
+		TILAPI: 0.7,
+	},
+	CLIMATE: {
+		COLD: 0.8,
+		TEMPERATE: 0.9,
+		HOT: 0.65,
+	},
+	TERRAIN: {
+		MOUNTAIN: 0.6,
+		FOREST: 0.5,
+		NONE: 0.6,
+		WET: 1
+	},
+},
+POPULATION: {
+	MAX: 0.7,
+	GROWTH: 0.05,
+	IMMIGRATION_RATE: 0.5,
+	CLIMATE: {
+		COLD: 0.1,
+		TEMPERATE: 0.5,
+		HOT: 1,
+	},
+	TERRAIN: {
+		MOUNTAIN: 1.0,
+		FOREST: 0.5,
+		NONE: 0.6,
+	},
+},
+TRAITS: {
+	FIGHTER: 1.0,
+	GLUTTON: 0.7,
+	STRONG: 1.0,
+	TOUGH: 1.0,
+	BRAVE: 1.0,
+	HONORABLE: 0.7,
+	SADIST: 1.0,
+	CRUEL: 1.0,
+	INTIMIDATING: 1.0,
+},
+RESOURCE: {
+	MEAT: 30,
+	LEATHER: 30,
+},
+STATS: {
+	SERVICE_EATERY_NORMAL: {
+		CITIZEN: 1.0,
+	},
+	SERVICE_CANTEEN_NORMAL: {
+		CITIZEN: 1.0,
+	},
+	SERVICE_TAVERN_NORMAL: {
+		CITIZEN: 1.0,
+	},
+	SERVICE_ARENA_NORMAL: {
+		CITIZEN: 1.0,
+	},
+	ACCESS_DREAD: {
+		CITIZEN: 1.0,
+	},
+	ACCESS_HARMONY: {
+		CITIZEN: 0.5,
+		INVERTED: true,
+	},
+	FOOD_STARVATION: {
+		CITIZEN: 1.0,
+		INVERTED: true,
+		MULTIPLIER: 1.0,
+	},
+	FOOD_FOOD_PREFFERENCE: {
+		CITIZEN: 1.0,
+	},
+	FOOD_FOOD_DAYS: {
+		CITIZEN: 1.0,
+		MULTIPLIER: 0.8,
+	},
+	FOOD_FOOD_RATIONS: {
+		CITIZEN: 1.0,
+	},
+	FOOD_DRINK_RATIONS: {
+		CITIZEN: 1.0,
+	},
+	BATTLE_BARRACKS_VANILLA: {
+		CITIZEN: 1.0,
+	},
+	BATTLE_SOLDIERS: {
+		SLAVE: 1.0,
+		CITIZEN: 1.0,
+		NOBLE: 1.0,
+	},
+	BATTLE_MELEE_VANILLA: {
+		CITIZEN: 1.0,
+	},
+	EQUIP_CLOTHES: {
+		NOBLE: 1.0,
+		SLAVE: 0.5,
+		CITIZEN: 1.0,
+	},
+	EQUIP_ARMOR: {
+		CITIZEN: 1.0,
+	},
+	EQUIP_WEAPONS: {
+		CITIZEN: 1.0,
+	},
+	POPULATION_SLAVES_SELF: {
+		CITIZEN: 1.0,
+		NOBLE: 1.0,
+	},
+	POPULATION_SLAVES_OTHER: {
+		CITIZEN: 1.0,
+	},
+	POPULATION_EX_CON: {
+		CITIZEN: 1.0,
+	},
+	ENVIRONMENT_BUILDING_PREF: {
+		CITIZEN: 0.5,
+		SLAVE: 0.5,			
+	},
+	ENVIRONMENT_CANNIBALISM: {
+		CITIZEN: 1.0,
+		NOBLE: 1.0,		
+	},
+	RELIGION_TEMPLE: {
+		CITIZEN: 1.0,
+	},
+	RELIGION_RELIGION_OPPOSITION: {
+		INVERTED: true,
+		CITIZEN: 1.0,
+		NOBLE: 0,
+		SLAVE: 0,
+	},
+	MONUMENTS_MONUMENT_BLOB: {
+		CITIZEN: 1.0,
+		SLAVE: 0.5,
+		PRIO: 50,
+	},
+	BURIAL_GRAVEYARD_NORMAL: {
+		CITIZEN: 1.0,
+	},
+	BURIAL_TOMB_NORMAL: {
+		CITIZEN: 0.5,
+	},
+},
+BOOST: {
+	RELIGION_CRATOR>ADD: -0.2,
+	RELIGION_AMINION>ADD: 1.5,
+	RELIGION_ATHURI>ADD: -0.5,
+	RELIGION_SHMALOR>ADD: 0.3,
+	
+	BATTLE_BLUNT>MUL: 1.4,
+	BATTLE_SLASH>MUL: 1.6,
+	BATTLE_PIERCE>MUL: 1.2,
+	BATTLE_DEFENCE>MUL: 0.9,
+	BATTLE_OFFENCE>MUL: 1.7,
+	BATTLE_MORALE>MUL: 1.4,
+	BATTLE_SPEED>MUL: 1.3,
+	BATTLE_DODGE>MUL: 0.7,
+	BATTLE_SLASH_ATTACK>ADD: 25,
+	BATTLE_BLUNT_ATTACK>ADD: 15,
+	
+	PHYSICS_RESISTANCE_COLD>ADD: -0.3,
+	PHYSICS_RESISTANCE_HOT>ADD: 0.5,
+	PHYSICS_RESISTANCE_FIRE>ADD: 0.4,
+	PHYSICS_MASS>MUL: 1.4,
+	PHYSICS_SPEED>MUL: 1.3,
+	PHYSICS_STAMINA>MUL: 1.5,
+	PHYSICS_DEATH_AGE>MUL: 1.2,
+	PHYSICS_HEALTH>MUL: 1.3,
+	PHYSICS_PAIN_TOLERANCE>ADD: 0.6,
+	
+	ROOM_FARM>MUL: 0.4,
+	ROOM_ORCHARD>MUL: 0.4,
+	ROOM_PASTURE>MUL: 0.5,
+	ROOM_HUNTER>MUL: 1.5,
+	ROOM_WORKSHOP_SMITHY>MUL: 1.6,
+	ROOM_WORKSHOP_WEAPON>MUL: 1.5,
+	ROOM_WORKSHOP_ARMOR>MUL: 1.4,
+	
+	# Void Building Preferences
+	ROOM_MINE_VOID_ORE_RG2>MUL: 1.3,
+	ROOM_VOID_CRYSTAL_REFINERY_RG2>MUL: 1.0,
+	ROOM_VOID_NEXUS_RG2>MUL: 0.8,
+	ROOM_VOID_AMPLIFIER_RG2>MUL: 1.0,
+	ROOM_VOID_GATEWAY_RG2>MUL: 1.2,
+	
+	ROOM_BARRACKS>MUL: 1.6,
+	ROOM_ARCHERY>MUL: 0.7,
+	ROOM_FIGHTPIT>MUL: 1.7,
+	
+	ROOM_TEMPLE>MUL: 1.5,
+	ROOM_TAVERN_NORMAL>MUL: 0.6,
+	
+	BEHAVIOUR_LAWFULNESS>MUL: 0.4,
+	BEHAVIOUR_SUBMISSION>MUL: 0.2,
+	BEHAVIOUR_SANITY>MUL: 0.8,
+	BEHAVIOUR_CRUELTY>ADD: 0.7,
+	BEHAVIOUR_INTIMIDATION>ADD: 0.6,
+	
+	RATES_REPRODUCTION>MUL: 1.5,
+	RATES_HUNGER>MUL: 1.3,
+	RATES_THIRST>MUL: 1.2,
+	RATES_TEMPLE>MUL: 1.4,
+	RATES_ARENA>MUL: 1.7,
+	RATES_EXECUTION>MUL: 1.8,
+	
+	SLAVE_MANAGEMENT>MUL: 1.7,
+	TORTURE_EFFICIENCY>ADD: 0.8,
+	FIRE_AFFINITY>ADD: 0.6,
+	DEMONIC_STRENGTH>ADD: 0.5,
+	INTIMIDATION>MUL: 1.8,
+	
+	WORLD_BUILDING_AGRICULTURE>MUL: 0.4,
+	WORLD_BUILDING_PASTURE>MUL: 0.5,
+	WORLD_BUILDING_MINE>MUL: 1.3,
+	WORLD_POINT_WORKFORCE>MUL: 1.2,
+},
+DESC_INFO: {
+	DIFFICULTY: 1.0,
+	DIFFICULTY_TEXT: "Demonic warriors who excel at melee combat, intimidation, and torture. Their society thrives on pain and suffering.",
+	NAME: "Hellspawn",
+	NAMES: "Hellspawns",
+	POSSESSIVE: "Hellspawn",
+	POSSESSIVES: "Hellspawn",
+	LORE: "The Hellspawns are demonic entities that embody chaos and destruction, born from the volcanic depths of the Searing Pits during Aminion's fall from grace. When the fallen god was cast down by Athuri, his divine blood splashed into the molten core of Syx, giving rise to the first Hellspawns. They emerge fully formed from pools of molten stone and blood, reaching adulthood in mere days. Their society is built on a strict hierarchy of power, where dominance is established through ritual combat and the ability to inflict and endure suffering.
+
+Their combat doctrine, known as 'Pain's Embrace,' teaches warriors to channel agony into focused rage. Before battle, Hellspawn warriors undergo ritual scarification, carving intricate patterns into their red skin that are then filled with burning embers. This not only marks their rank and accomplishments but also puts them into a battle trance where pain becomes fuel for their supernatural strength and speed. The most accomplished warriors, known as 'Painbringers,' can reportedly enter a state of transcendent agony that allows them to ignore mortal wounds and fight with unnatural ferocity until their enemies are completely destroyed.
+
+The Hellspawn society revolves around massive fortress-temples called 'Crucibles of Torment,' where they conduct elaborate ceremonies to honor Aminion. These imposing structures feature torture chambers, fighting pits, and massive forges where their dreaded weapons are crafted. At the heart of each Crucible lies a 'Pain Well'—a bottomless pit that supposedly leads directly to Aminion's prison realm. The agonized screams of sacrifices thrown into these wells are believed to sustain and strengthen their fallen god, bringing him closer to eventual liberation.
+
+Their social hierarchy consists of three castes: the Tormentors (warrior-priests who lead religious ceremonies), the Forged (elite warriors who have survived ritual mutilation), and the Branded (common soldiers and workers). Advancement between castes requires surviving increasingly severe rituals of pain and demonstrating exceptional cruelty in battle. The most revered figures in their society are the Agony Lords—ancient Hellspawns who have mastered the mystical art of pain manipulation to such a degree that they can cause excruciating suffering with a mere gesture.
+
+Hellspawns prefer weapons designed to maximize suffering rather than deliver quick deaths—serrated blades, barbed whips, and spiked maces that tear flesh and prolong the victim's torment. Their armor, forged in hellfire and quenched in the blood of sacrifices, glows with an inner heat during battle and is adorned with the preserved faces of worthy opponents. Their most prized possessions are their 'Pain Trophies'—collections of specially preserved body parts from enemies who displayed exceptional courage or endurance during torture.
+
+As one terrified survivor recounted: 'Their weapons seemed alive with malice, and each wound burned like liquid fire in my veins. They didn't want us dead—they wanted us to suffer eternally.' The most feared Hellspawn warriors, the 'Torment Lords,' can supposedly inflict wounds that continue to cause excruciating pain long after the battle has ended, with some victims begging for death rather than endure another moment of the lingering agony.
+
+The Hellspawns maintain a complex relationship with other races. They share a dark kinship with the Bloodelves, respecting their cruelty while finding their refined nature somewhat pretentious. They view most other races as either potential slaves or sacrifices to Aminion, their dark deity. Their religious practices center around blood sacrifice and pain rituals, with their most sacred ceremonies involving the systematic torture of captured enemies as offerings to the fallen one. They particularly despise the followers of Athuri, whom they blame for their master's imprisonment, and will go to extraordinary lengths to capture and torture Satyrs and Froggians.",
+	PROS: [
+		"Exceptional combat prowess",
+		"Rapid maturation (7 days)",
+		"Superior fire and heat resistance",
+		"Masters of torture and intimidation",
+		"Exceptional slave management",
+	],
+	CONS: [
+		"Prone to infighting and rebellion",
+		"Vulnerable to holy artifacts",
+		"Require pain rituals for stability",
+		"Poor diplomatic relations",
+		"Limited research capabilities",
+	],
+},
+SPRITE_FILE: TILAPI,
+PORTRAIT_FILE: TILAPI,
+ICON_SMALL: 24->race->Tilapi->0,
+ICON_BIG: 32->race->Tilapi->0,
+WORLD_BUILDING_OVERRIDE: {
+	
+},
+COMPATIBILITY: {
+	V68: true,
+	CANTOR: 0.5,
+	ARGONOSH: 0.1,
+	DONDORIAN: 0.2,
+	GARTHIMI: 0.3,
+	TILAPI: 0.7,
+	CRETONIAN: 0.2,
+	Q_AMEVIA: 0.1,
+	HUMAN: 0.2,
+},
