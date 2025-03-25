@@ -1,11 +1,42 @@
+INFO: {
+	NAME: "Q'Amevia Nursery",
+	NAMES: "Q'Amevia Nurseries",
+	DESC: "A specialized aquatic environment where young Q'Amevia develop their psychic abilities and amphibious nature. These nurseries feature shallow pools and meditation areas where the young learn to harness their natural telepathic talents.",
+},
+BONUS: {
+	NAME: "Psychic Development",
+	DESC: "Provides specialized care for young Q'Amevia, ensuring healthy population growth.",
+},
+WORK: {
+	TITLE: "Mind Guide",
+	VERB: "Guiding",
+	SHIFT_OFFSET: 0.125,
+	SOUND: work->Water*,
+	USES_TOOL: false,
+	FULFILLMENT: 0.5,
+},
+STATS: [
+	{
+		NAME: "Guides",
+		DESC: "The number of mind guides that can nurture the young.",
+	},
+	{
+		NAME: "Capacity",
+		DESC: "The number of young Q'Amevia that can be cared for.",
+	},
+	{
+		NAME: "Psychic Attunement",
+		DESC: "How well the young develop their telepathic abilities.",
+	},
+],
 ICON: {
 	BG: 24->race->Q_Amevia->0,
 	FG: 32->BG->0,
 	SHADOW: 1,
 },
-RESOURCES: [STONE,WATER,FABRIC,],
+RESOURCES: [STONE,FISH,FABRIC,],
 AREA_COSTS: [0.2,0,0,],
-FLOOR: WATER,
+FLOOR: DIRT,
 MINI_COLOR: 0_255_255,
 REQUIRES: {
 	GREATER: {
@@ -22,11 +53,6 @@ ITEMS: [
 		STATS: [0,0,4,],
 	},
 ],
-WORK: {
-	SHIFT_OFFSET: 0.125,
-	USES_TOOL: false,
-	FULLFILLMENT: 0.5,
-},
 INDUSTRY: {
 	IN: {
 		FISH: 0.3,
@@ -110,6 +136,15 @@ SPRITES: {
 		ROTATES: true,
 		FRAMES: [
 			CHAIRS: 1,
+		],
+	},
+	1x1_DECOR: {
+		FPS: 0,
+		SHADOW_LENGTH: 0,
+		SHADOW_HEIGHT: 0,
+		ROTATES: false,
+		FRAMES: [
+			CARPETS: 4,
 		],
 	},
 },

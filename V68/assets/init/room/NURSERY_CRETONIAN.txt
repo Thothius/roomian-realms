@@ -1,9 +1,40 @@
+INFO: {
+	NAME: "Cretonian Nursery",
+	NAMES: "Cretonian Nurseries",
+	DESC: "A training ground for young Cretonians where they learn discipline and physical prowess from an early age. The facility combines education with physical conditioning, preparing the youth for their roles as warriors and craftspeople in Cretonian society.",
+},
+BONUS: {
+	NAME: "Warrior Upbringing",
+	DESC: "Provides physical and martial education for young Cretonians, ensuring strong population growth.",
+},
+WORK: {
+	TITLE: "Training Master",
+	VERB: "Training",
+	SHIFT_OFFSET: 0.125,
+	SOUND: work->Training*,
+	USES_TOOL: false,
+	FULFILLMENT: 0.5,
+},
+STATS: [
+	{
+		NAME: "Trainers",
+		DESC: "The number of training masters that can instruct the young.",
+	},
+	{
+		NAME: "Capacity",
+		DESC: "The number of young Cretonians that can be trained.",
+	},
+	{
+		NAME: "Training Quality",
+		DESC: "How effectively the young develop their physical and martial abilities.",
+	},
+],
 ICON: {
 	BG: 24->race->Cretonian->0,
 	FG: 32->BG->0,
 	SHADOW: 1,
 },
-RESOURCES: [WOOD,HERBS,FABRIC,],
+RESOURCES: [WOOD,FURNITURE,FABRIC,],
 AREA_COSTS: [0.2,0,0,],
 FLOOR: WOOD,
 MINI_COLOR: 0_255_255,
@@ -22,15 +53,10 @@ ITEMS: [
 		STATS: [0,0,4,],
 	},
 ],
-WORK: {
-	SHIFT_OFFSET: 0.125,
-	USES_TOOL: false,
-	FULLFILLMENT: 0.5,
-},
 INDUSTRY: {
 	IN: {
 		VEGETABLE: 0.3,
-		HERBS: 0.2,
+		MEAT: 0.2,
 	},
 	OUT: {
 		
@@ -92,6 +118,15 @@ SPRITES: {
 		ROTATES: false,
 		FRAMES: [
 			CARPETS: 1,
+		],
+	},
+	1x1_DECOR: {
+		FPS: 0,
+		SHADOW_LENGTH: 0,
+		SHADOW_HEIGHT: 0,
+		ROTATES: false,
+		FRAMES: [
+			CARPETS: 2,
 		],
 	},
 	1x1_TABLE: {

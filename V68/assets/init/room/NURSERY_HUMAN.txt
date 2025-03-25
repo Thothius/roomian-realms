@@ -1,3 +1,34 @@
+INFO: {
+	NAME: "Human Nursery",
+	NAMES: "Human Nurseries",
+	DESC: "A facility where human children are raised and educated. These nurseries provide a safe environment for children to grow, learn basic skills, and develop social bonds that will serve them throughout their lives.",
+},
+BONUS: {
+	NAME: "Human Upbringing",
+	DESC: "Provides care and education for human children, ensuring healthy population growth.",
+},
+WORK: {
+	TITLE: "Caretaker",
+	VERB: "Teaching",
+	SHIFT_OFFSET: 0.125,
+	SOUND: work->Paper*,
+	USES_TOOL: false,
+	FULFILLMENT: 0.5,
+},
+STATS: [
+	{
+		NAME: "Caretakers",
+		DESC: "The number of caretakers that can tend to the children.",
+	},
+	{
+		NAME: "Capacity",
+		DESC: "The number of children that can be cared for.",
+	},
+	{
+		NAME: "Education Quality",
+		DESC: "How well the children develop intellectually and socially.",
+	},
+],
 ICON: {
 	BG: 24->race->Human->0,
 	FG: 32->BG->0,
@@ -22,11 +53,6 @@ ITEMS: [
 		STATS: [0,0,4,],
 	},
 ],
-WORK: {
-	SHIFT_OFFSET: 0.125,
-	USES_TOOL: false,
-	FULLFILLMENT: 0.5,
-},
 INDUSTRY: {
 	IN: {
 		MEAT: 0.3,

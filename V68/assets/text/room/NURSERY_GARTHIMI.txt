@@ -1,42 +1,42 @@
 INFO: {
-	NAME: "Wormling Nursery",
-	NAMES: "Wormling Nurseries",
-	DESC: "A disturbing chamber where Wormling young develop within host bodies. Each station processes one host and requires meat to sustain the parasitic transformation, or the developing colony will perish.",
+	NAME: "Garthimi Nursery",
+	NAMES: "Garthimi Nurseries",
+	DESC: "A specialized chamber where young Garthimi develop in a controlled environment. Each station provides the necessary conditions with meat and vegetable matter to sustain their growth.",
 },
 
 
 BONUS: {
-	NAME: "Wormling development",
-	DESC: "Increases the rate at which Wormlings develop within host bodies.",
+	NAME: "Garthimi Development",
+	DESC: "Ensures proper development of young Garthimi, maintaining population growth.",
 },
 
 STATS: [
 
 	{
-		NAME: "Incubation Pods",
-		DESC: "Number of active incubation pods",
+		NAME: "Caretakers",
+		DESC: "Number of adults who can tend to the young.",
 	},
 	{
 		
 	},
 	{
-		NAME: "Efficiency",
-		DESC: "Increases development rate.",
+		NAME: "Development Rate",
+		DESC: "How quickly the young Garthimi mature.",
 	},
 ],
 
 ITEMS: [
 	{
-		NAME: "Incubation Pod",
+		NAME: "Growth Chamber",
 		DESC: "",
 	},
 	{
-		NAME: "Enzymatic Enrichments",
+		NAME: "Nutrient Enrichments",
 		DESC: "Increases efficiency through specialized compounds that speed development.",
 	},
 ],
 
 WORK: {
-	TITLE: "Colony Overseer",
-	VERB: "Tending to developing colonies",
+	TITLE: "Brood Tender",
+	VERB: "Tending to developing Garthimi",
 },

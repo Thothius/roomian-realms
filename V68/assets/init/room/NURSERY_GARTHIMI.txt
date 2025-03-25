@@ -1,9 +1,40 @@
+INFO: {
+	NAME: "Garthimi Nursery",
+	NAMES: "Garthimi Nurseries",
+	DESC: "A specialized environment where young Garthimi are nurtured in organic, fungal-rich surroundings. The nursery provides the unique decomposing matter and fungi that young Garthimi need for proper development of their natural abilities.",
+},
+BONUS: {
+	NAME: "Fungal Nurturing",
+	DESC: "Provides specialized care for young Garthimi, ensuring healthy population growth.",
+},
+WORK: {
+	TITLE: "Spore Tender",
+	VERB: "Nurturing",
+	SHIFT_OFFSET: 0.125,
+	SOUND: work->Slime*,
+	USES_TOOL: false,
+	FULFILLMENT: 0.5,
+},
+STATS: [
+	{
+		NAME: "Tenders",
+		DESC: "The number of spore tenders that can care for the young.",
+	},
+	{
+		NAME: "Capacity",
+		DESC: "The number of young Garthimi that can be nurtured.",
+	},
+	{
+		NAME: "Fungal Quality",
+		DESC: "How well the environment supports Garthimi development.",
+	},
+],
 ICON: {
 	BG: 24->race->Garthimi->0,
 	FG: 32->BG->0,
 	SHADOW: 1,
 },
-RESOURCES: [STONE,FUNGI,ROT,],
+RESOURCES: [STONE,VEGETABLE,MEAT,],
 AREA_COSTS: [0.2,0,0,],
 FLOOR: DIRT,
 MINI_COLOR: 0_255_255,
@@ -22,15 +53,10 @@ ITEMS: [
 		STATS: [0,0,4,],
 	},
 ],
-WORK: {
-	SHIFT_OFFSET: 0.125,
-	USES_TOOL: false,
-	FULLFILLMENT: 0.5,
-},
 INDUSTRY: {
 	IN: {
 		MEAT: 0.3,
-		ROT: 0.2,
+		VEGETABLE: 0.2,
 	},
 	OUT: {
 		

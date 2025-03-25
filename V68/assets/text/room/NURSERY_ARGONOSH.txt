@@ -1,0 +1,42 @@
+INFO: {
+	NAME: "Argonosh Nursery",
+	NAMES: "Argonosh Nurseries",
+	DESC: "A specialized facility for raising young Argonosh. The humid environment and specialized pools help nurture the amphibious young until they are ready to join society. Caretakers ensure proper development of both aquatic and land-based abilities.",
+},
+
+
+BONUS: {
+	NAME: "Argonosh Nurturing",
+	DESC: "Provides care and education for young Argonosh, ensuring healthy population growth.",
+},
+
+STATS: [
+	{
+		NAME: "Caretakers",
+		DESC: "The number of caretakers that can tend to the young.",
+	},
+	{
+		NAME: "Capacity",
+		DESC: "The number of young Argonosh that can be cared for.",
+	},
+	{
+		NAME: "Development Quality",
+		DESC: "How well the young develop both physically and mentally.",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Caretaker Station",
+		DESC: "A station where caretakers tend to young Argonosh.",
+	},
+	{
+		NAME: "Aquatic Pool",
+		DESC: "Specialized pools for developing aquatic abilities.",
+	},
+],
+
+WORK: {
+	TITLE: "Nursery Caretaker",
+	VERB: "Nurturing",
+},

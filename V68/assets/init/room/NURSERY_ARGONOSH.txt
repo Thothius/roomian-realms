@@ -1,9 +1,40 @@
+INFO: {
+	NAME: "Argonosh Nursery",
+	NAMES: "Argonosh Nurseries",
+	DESC: "A specialized facility for raising young Argonosh. The humid environment and specialized pools help nurture the amphibious young until they are ready to join society. Caretakers ensure proper development of both aquatic and land-based abilities.",
+},
+BONUS: {
+	NAME: "Argonosh Nurturing",
+	DESC: "Provides care and education for young Argonosh, ensuring healthy population growth.",
+},
+WORK: {
+	TITLE: "Nursery Caretaker",
+	VERB: "Nurturing",
+	SHIFT_OFFSET: 0.125,
+	SOUND: work->Water*,
+	USES_TOOL: false,
+	FULFILLMENT: 2.0,
+},
+STATS: [
+	{
+		NAME: "Caretakers",
+		DESC: "The number of caretakers that can tend to the young.",
+	},
+	{
+		NAME: "Capacity",
+		DESC: "The number of young Argonosh that can be cared for.",
+	},
+	{
+		NAME: "Development Quality",
+		DESC: "How well the young develop both physically and mentally.",
+	},
+],
 ICON: {
 	BG: 24->race->Argonosh->0,
 	FG: 32->BG->0,
 	SHADOW: 1,
 },
-RESOURCES: [WOOD,HERBS,FABRIC,],
+RESOURCES: [WOOD,FURNITURE,FABRIC,],
 AREA_COSTS: [0.2,0,0,],
 FLOOR: WOOD,
 MINI_COLOR: 0_255_255,
@@ -22,15 +53,10 @@ ITEMS: [
 		STATS: [0,0,4,],
 	},
 ],
-WORK: {
-	SHIFT_OFFSET: 0.125,
-	USES_TOOL: false,
-	FULLFILLMENT: 0.5,
-},
 INDUSTRY: {
 	IN: {
 		FRUIT: 0.25,
-		HERBS: 0.25,
+		VEGETABLE: 0.25,
 	},
 	OUT: {
 		
@@ -92,6 +118,15 @@ SPRITES: {
 		ROTATES: false,
 		FRAMES: [
 			CARPETS: 1,
+		],
+	},
+	1x1_DECOR: {
+		FPS: 0,
+		SHADOW_LENGTH: 0,
+		SHADOW_HEIGHT: 0,
+		ROTATES: false,
+		FRAMES: [
+			CARPETS: 2,
 		],
 	},
 	1x1_TABLE: {

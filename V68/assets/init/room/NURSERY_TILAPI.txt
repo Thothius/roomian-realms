@@ -1,3 +1,34 @@
+INFO: {
+	NAME: "Tilapi Nursery",
+	NAMES: "Tilapi Nurseries",
+	DESC: "A specialized facility where young Tilapi are raised with a focus on technological aptitude and innovation. These nurseries combine education with hands-on experience, allowing the naturally curious Tilapi youth to explore and experiment with various mechanical concepts.",
+},
+BONUS: {
+	NAME: "Technical Education",
+	DESC: "Provides specialized technical training for young Tilapi, ensuring healthy population growth.",
+},
+WORK: {
+	TITLE: "Tech Instructor",
+	VERB: "Teaching",
+	SHIFT_OFFSET: 0.125,
+	SOUND: FABRIC,
+	USES_TOOL: false,
+	FULFILLMENT: 0.5,
+},
+STATS: [
+	{
+		NAME: "Instructors",
+		DESC: "The number of tech instructors that can teach the young.",
+	},
+	{
+		NAME: "Capacity",
+		DESC: "The number of young Tilapi that can be educated.",
+	},
+	{
+		NAME: "Innovation",
+		DESC: "How well the young develop their technical and creative abilities.",
+	},
+],
 ICON: {
 	BG: 24->race->TILAPI->0,
 	FG: 32->BG->0,
@@ -22,12 +53,6 @@ ITEMS: [
 		STATS: [0,0,4,],
 	},
 ],
-WORK: {
-	SHIFT_OFFSET: 0.125,
-	SOUND: FABRIC,
-	USES_TOOL: false,
-	FULLFILLMENT: 0.5,
-},
 INDUSTRY: {
 	IN: {
 		MEAT: 0.4,

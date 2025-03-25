@@ -1,3 +1,34 @@
+INFO: {
+	NAME: "Cantor Nursery",
+	NAMES: "Cantor Nurseries",
+	DESC: "A sacred space where young Cantors are raised in the traditions of their ancestors. The dark, quiet environment helps develop their natural sensitivities to spiritual energies while elders impart ancient knowledge through rituals and stories.",
+},
+BONUS: {
+	NAME: "Cantor Upbringing",
+	DESC: "Provides spiritual and cultural education for young Cantors, ensuring population growth.",
+},
+WORK: {
+	TITLE: "Elder Guardian",
+	VERB: "Teaching",
+	SHIFT_OFFSET: 0.125,
+	SOUND: work->Chant*,
+	USES_TOOL: false,
+	FULFILLMENT: 0.5,
+},
+STATS: [
+	{
+		NAME: "Guardians",
+		DESC: "The number of elder guardians that can teach the young.",
+	},
+	{
+		NAME: "Capacity",
+		DESC: "The number of young Cantors that can be cared for.",
+	},
+	{
+		NAME: "Spiritual Attunement",
+		DESC: "How well the young develop their spiritual abilities.",
+	},
+],
 ICON: {
 	BG: 24->race->Cantor->0,
 	FG: 32->BG->0,
@@ -5,7 +36,7 @@ ICON: {
 },
 RESOURCES: [STONE,FURNITURE,FABRIC,],
 AREA_COSTS: [0.2,0,0,],
-FLOOR: STONE_DARK,
+FLOOR: DIRT,
 MINI_COLOR: 0_255_255,
 REQUIRES: {
 	GREATER: {
@@ -22,11 +53,6 @@ ITEMS: [
 		STATS: [0,0,4,],
 	},
 ],
-WORK: {
-	SHIFT_OFFSET: 0.125,
-	USES_TOOL: false,
-	FULLFILLMENT: 0.5,
-},
 INDUSTRY: {
 	IN: {
 		MEAT: 0.25,
@@ -114,6 +140,6 @@ SPRITES: {
 	},
 },
 DESC: {
-	TEXT: "A dark, elegant nursery for Bloodelf children. The young ones are nurtured on a diet of meat and wine to develop their taste for blood early. The stone walls keep the interior cool and dark, perfect for their sensitive eyes.",
-	REQUIRED: "Requires a population of at least 20 Bloodelf citizens.",
+	TEXT: "A sacred space where young Cantors are raised in the traditions of their ancestors. The dark, quiet environment helps develop their natural sensitivities to spiritual energies while elders impart ancient knowledge through rituals and stories.",
+	REQUIRED: "Requires a population of at least 20 Cantor citizens.",
 },

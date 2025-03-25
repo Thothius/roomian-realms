@@ -1,44 +1,42 @@
 INFO: {
-	NAME: "Lizardkin Hatchery",
-	NAMES: "Lizardkin Hatcheries",
-	DESC: "A place where Lizardkin hatchlings are born and brought up. Each station is capable of bringing one up and needs meat to operate, else the spawn will starve.",
+	NAME: "Amevia Nursery",
+	NAMES: "Amevia Nurseries",
+	DESC: "A specialized environment where Amevia hatchlings are born and raised. Each station provides the necessary heat and care for one hatchling and requires meat for proper development.",
 },
 
 
 BONUS: {
-	NAME: "Lizardkin spawning",
-	DESC: "Increases the rate at which Lizardkin are produced in Lizardkin Hatcheries.",
+	NAME: "Amevia Upbringing",
+	DESC: "Ensures proper development of young Amevia, maintaining population growth.",
 },
 
 STATS: [
 
 	{
-		NAME: "Clutches",
-		DESC: "Amount of Clutches",
+		NAME: "Caretakers",
+		DESC: "Number of adults who can tend to the hatchlings.",
 	},
 	{
 		
 	},
 	{
-		NAME: "Efficiency",
-		DESC: "Increases birth rate.",
+		NAME: "Development Rate",
+		DESC: "How quickly the young Amevia mature.",
 	},
 ],
 
 ITEMS: [
 	{
-		NAME: "Crib",
+		NAME: "Incubation Chamber",
 		DESC: "",
 	},
 	{
-		NAME: "Carpet",
-		DESC: "Increases efficiency.",
+		NAME: "Heat Regulation",
+		DESC: "Increases development efficiency.",
 	},
 ],
 
 WORK: {
-	TITLE: "Lizardkin Egg Tender",
-	VERB: "Tending to the Clutch.",
+	TITLE: "Clutch Tender",
+	VERB: "Tending to Amevia hatchlings",
 },
-
-
