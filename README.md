@@ -2,9 +2,9 @@
 
 ## Overview
 
-*"Eight distinct civilizations vie for supremacy in a fractured world. From mystical forest dwellers to parasitic hive minds, each culture brings unique strengths, philosophies, and ancient traditions to the battlefield."*
+*"Eight extraordinary civilizations emerge from the ashes of a shattered world. From mystical forest guardians to technological amphibians, each society has forged its own path through the chaos of divine conflict."*
 
-When the old gods fell, they left behind diverse peoples—some blessed with wisdom and harmony, others twisted by darkness and ambition. These heirs to divine legacies now forge their own paths across a realm where honor, treachery, mysticism, and pragmatism shape the destiny of nations. The throne awaits one who can harness the rich tapestry of cultures to master the delicate dance of power.
+When ancient powers clashed, they left behind a tapestry of diverse cultures—each shaped by their connection to forgotten deities. Now these inheritors of divine wisdom and arcane knowledge vie for supremacy across fractured lands. The future belongs to those who can unite these disparate peoples or bend their unique strengths to their will.
 
 ## Documentation
 

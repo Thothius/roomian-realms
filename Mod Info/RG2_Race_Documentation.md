@@ -2,6 +2,10 @@
 
 *This document provides detailed information about all playable civilizations in the RoomianRealms mod, including their stats, abilities, lore, and gameplay characteristics.*
 
+## Introduction
+
+Eight extraordinary civilizations emerge from the ashes of a shattered world. From mystical forest guardians to technological amphibians, each society has forged its own path through the chaos of divine conflict. When ancient powers clashed, they left behind a tapestry of diverse cultures—each shaped by their connection to forgotten deities. Now these inheritors of divine wisdom and arcane knowledge vie for supremacy across fractured lands.
+
 ## Table of Contents
 1. [Wormlings (GARTHIMI)](#1-wormlings-garthimi---the-breach)
 2. [Bloodelves (CANTOR)](#2-bloodelves-cantor---the-crimson-covenant)
