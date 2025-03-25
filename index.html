@@ -869,34 +869,90 @@
         
         <script>
             document.addEventListener('DOMContentLoaded', function() {
-                // Race cards hover effect
-                const raceCards = document.querySelectorAll('.race-card');
-                raceCards.forEach(card => {
-                    card.addEventListener('mouseenter', function() {
-                        this.querySelector('.race-info').style.opacity = '1';
-                    });
-                    card.addEventListener('mouseleave', function() {
-                        this.querySelector('.race-info').style.opacity = '0';
-                    });
-                });
-                
-                // Quotes rotation
+                // Initialize the rotating quotes
                 const quotes = document.querySelectorAll('.quote');
-                let currentQuoteIndex = 0;
+                let currentQuote = 0;
                 
-                function showNextQuote() {
-                    // Hide current quote
-                    quotes[currentQuoteIndex].classList.remove('active');
+                function rotateQuotes() {
+                    // Skip if there are no quotes
+                    if (quotes.length === 0) return;
                     
-                    // Get next quote index
-                    currentQuoteIndex = (currentQuoteIndex + 1) % quotes.length;
-                    
-                    // Show next quote
-                    quotes[currentQuoteIndex].classList.add('active');
+                    quotes.forEach(quote => quote.classList.remove('active'));
+                    currentQuote = (currentQuote + 1) % quotes.length;
+                    quotes[currentQuote].classList.add('active');
                 }
                 
-                // Start the rotation
-                setInterval(showNextQuote, 6000);
+                // Only set up the rotation if quotes exist
+                if (quotes.length > 0) {
+                    // Set the first quote as active
+                    quotes[0].classList.add('active');
+                    
+                    // Rotate quotes every 8 seconds
+                    setInterval(rotateQuotes, 8000);
+                }
+                
+                // Add hover effects to race cards
+                const raceCards = document.querySelectorAll('.race-card');
+                
+                raceCards.forEach(card => {
+                    if (card) {
+                        card.addEventListener('mouseenter', function() {
+                            const overlay = this.querySelector('.race-overlay');
+                            if (overlay) {
+                                overlay.style.opacity = '1';
+                            }
+                        });
+                        
+                        card.addEventListener('mouseleave', function() {
+                            const overlay = this.querySelector('.race-overlay');
+                            if (overlay) {
+                                overlay.style.opacity = '0';
+                            }
+                        });
+                    }
+                });
+                
+                // Add hover effects to feature cards
+                const featureCards = document.querySelectorAll('.feature-card');
+                
+                featureCards.forEach(card => {
+                    if (card) {
+                        card.addEventListener('mouseenter', function() {
+                            const content = this.querySelector('.feature-content');
+                            if (content) {
+                                content.style.opacity = '1';
+                            }
+                        });
+                        
+                        card.addEventListener('mouseleave', function() {
+                            const content = this.querySelector('.feature-content');
+                            if (content) {
+                                content.style.opacity = '0.9';
+                            }
+                        });
+                    }
+                });
+                
+                // Add hover effects to religion cards
+                const religionCards = document.querySelectorAll('.religion-card');
+                
+                religionCards.forEach(card => {
+                    if (card) {
+                        card.addEventListener('mouseenter', function() {
+                            const content = this.querySelector('.religion-content');
+                            if (content) {
+                                content.style.opacity = '1';
+                            }
+                        });
+                        
+                        card.addEventListener('mouseleave', function() {
+                            const content = this.querySelector('.religion-content');
+                            if (content) {
+                                content.style.opacity = '0.9';
+                            }
+                        });
+                    }
+                });
             });
         </script>
     </div>
