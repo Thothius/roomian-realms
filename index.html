@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roomian Realms (RG2) - Songs of Syx Mod</title>
+    <style>
+        :root {
+            --background-color: #1a1a1a;
+            --card-bg-color: #2a2a2a;
+            --text-color: #e0e0e0;
+            --accent-color: #f9a825;
+            --positive-color: #4caf50;
+            --negative-color: #f44336;
+            --neutral-color: #9e9e9e;
+        }
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            background-image: url('html_assets/images/bg.png');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            position: relative;
+        }
+        
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.85);
+            z-index: -1;
+        }
+        
+        .container {
+            width: 95%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        header {
+            text-align: center;
+            padding: 2rem 0;
+            margin-bottom: 2rem;
+        }
+        
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: var(--accent-color);
+        }
+        
+        .subtitle {
+            font-size: 1.5rem;
+            font-style: italic;
+            margin-bottom: 2rem;
+        }
+        
+        .description {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            text-align: center;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .card {
+            background-color: var(--card-bg-color);
+            border-radius: 8px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        
+        .card h2 {
+            color: var(--accent-color);
+            margin-bottom: 1rem;
+            border-bottom: 1px solid var(--accent-color);
+            padding-bottom: 0.5rem;
+        }
+        
+        .card p {
+            margin-bottom: 1rem;
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        
+        .feature-card {
+            background-color: rgba(42, 42, 42, 0.8);
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .feature-card h3 {
+            color: var(--accent-color);
+            margin-bottom: 1rem;
+        }
+        
+        .btn {
+            display: inline-block;
+            background-color: var(--accent-color);
+            color: #000;
+            padding: 0.8rem 1.5rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+            margin-top: 1rem;
+        }
+        
+        .btn:hover {
+            background-color: #ffc107;
+        }
+        
+        .btn-container {
+            text-align: center;
+            margin-top: 2rem;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 2rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        ul {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+        }
+        
+        .race-preview {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+        
+        .race-thumbnail {
+            width: 150px;
+            height: 150px;
+            border-radius: 8px;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+            border: 2px solid var(--accent-color);
+        }
+        
+        .race-thumbnail:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Roomian Realms (RG2)</h1>
+            <p class="subtitle">A comprehensive race and religion mod for Songs of Syx</p>
+        </header>
+        
+        <div class="card">
+            <p class="description">"Eight ancient bloodlines vie for dominance in a world where forgotten gods still whisper. Forge your legacy through blood, steel, or forbidden knowledge as ancient pacts are broken and new alliances forged."</p>
+            
+            <p class="description">When the old gods fell, they left behind their children—some blessed, others cursed. Now these heirs to divinity and darkness clash across a fractured realm where honor and treachery are merely different faces of survival. The throne awaits one who can master the delicate dance of power.</p>
+            
+            <div class="btn-container">
+                <a href="Roomian Realms Documentation.html" class="btn">View Full Documentation</a>
+                <a href="https://github.com/Thothius/roomian-realms" class="btn">GitHub Repository</a>
+            </div>
+        </div>
+        
+        <div class="race-preview">
+            <img src="html_assets/images/wormlings.png" alt="Wormlings" class="race-thumbnail">
+            <img src="html_assets/images/bloodelves.png" alt="Bloodelves" class="race-thumbnail">
+            <img src="html_assets/images/satyrs.png" alt="Satyrs" class="race-thumbnail">
+            <img src="html_assets/images/hellspawn.png" alt="Hellspawns" class="race-thumbnail">
+            <img src="html_assets/images/froggians.png" alt="Froggians" class="race-thumbnail">
+            <img src="html_assets/images/pasunkas.png" alt="Pasunkas" class="race-thumbnail">
+            <img src="html_assets/images/finestorians.png" alt="Finestorians" class="race-thumbnail">
+            <img src="html_assets/images/northmen.png" alt="Northmen" class="race-thumbnail">
+        </div>
+        
+        <div class="card">
+            <h2>Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3>8 Unique Playable Races</h3>
+                    <p>Each with distinct abilities, strengths, weaknesses, and cultural traits:</p>
+                    <ul>
+                        <li>Wormlings (GARTHIMI)</li>
+                        <li>Bloodelves (CANTOR)</li>
+                        <li>Satyrs (ARGONOSH)</li>
+                        <li>Hellspawns (TILAPI)</li>
+                        <li>Froggians (Q_AMEVIA)</li>
+                        <li>Pasunkas (CRETONIAN)</li>
+                        <li>Finestorians (DONDORIAN)</li>
+                        <li>Northmen (HUMAN)</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card">
+                    <h3>4 Deity Temples</h3>
+                    <p>Ancient gods with unique bonuses and racial preferences:</p>
+                    <ul>
+                        <li>The Leader (Athuri)</li>
+                        <li>The Fallen One (Aminion)</li>
+                        <li>The Creator (Crator)</li>
+                        <li>The Slain Queen (Shmalor)</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card">
+                    <h3>Void Technology System</h3>
+                    <p>Harness the power of the void with specialized buildings and mechanics:</p>
+                    <ul>
+                        <li>Void Ore Mining</li>
+                        <li>Crystal Refineries</li>
+                        <li>Void Nexus</li>
+                        <li>Void Amplifiers</li>
+                        <li>Void Gateways</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card">
+                    <h3>Custom Music</h3>
+                    <p>Immersive soundtrack that enhances the atmospheric experience of each race and their environments.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <h3>Rich Lore</h3>
+                    <p>Deep, interconnected stories and backgrounds for each race and deity, creating a cohesive world with complex relationships and histories.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <h3>Balanced Gameplay</h3>
+                    <p>Each race offers unique advantages and challenges, ensuring varied gameplay experiences while maintaining overall balance.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>Installation</h2>
+            <p>1. Download the mod from the <a href="https://github.com/Thothius/roomian-realms/releases" style="color: var(--accent-color);">GitHub releases page</a>.</p>
+            <p>2. Extract the contents to your Songs of Syx mods folder (typically located at <code>C:\Users\[YourUsername]\AppData\Roaming\songsofsyx\mods\</code>).</p>
+            <p>3. Launch Songs of Syx and enable the Roomian Realms mod in the mod selection screen.</p>
+            <p>4. Start a new game to experience all the features of the mod.</p>
+        </div>
+        
+        <footer>
+            <p>Roomian Realms (RG2) - Created by Thothius - &copy; 2025</p>
+            <p>This mod is not affiliated with Songs of Syx or its developers.</p>
+        </footer>
+    </div>
+</body>
+</html>
