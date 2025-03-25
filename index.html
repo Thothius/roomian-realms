@@ -160,7 +160,7 @@
         
         .race-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 1.5rem;
             margin: 2rem 0;
         }
@@ -572,6 +572,106 @@
             transform: rotate(5deg);
             box-shadow: 0 2px 4px rgba(0,0,0,0.5);
         }
+        
+        .quotes-section {
+            margin: 3rem 0;
+            text-align: center;
+            min-height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 8px;
+            padding: 2rem;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .quotes-section::before {
+            content: '"';
+            position: absolute;
+            top: 10px;
+            left: 20px;
+            font-size: 6rem;
+            color: rgba(249, 168, 37, 0.1);
+            font-family: Georgia, serif;
+        }
+        
+        .quotes-section::after {
+            content: '"';
+            position: absolute;
+            bottom: -40px;
+            right: 20px;
+            font-size: 6rem;
+            color: rgba(249, 168, 37, 0.1);
+            font-family: Georgia, serif;
+        }
+        
+        .quote {
+            font-size: 1.5rem;
+            font-style: italic;
+            margin-bottom: 1rem;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+            position: absolute;
+            max-width: 80%;
+        }
+        
+        .quote.active {
+            opacity: 1;
+        }
+        
+        .quote-author {
+            font-size: 1rem;
+            color: var(--accent-color);
+            align-self: flex-end;
+            margin-right: 3rem;
+        }
+        
+        footer {
+            margin-top: 3rem;
+            padding: 2rem 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            text-align: center;
+        }
+        
+        .footer-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .footer-text {
+            margin-bottom: 1rem;
+            font-size: 0.9rem;
+            color: #aaa;
+        }
+        
+        .footer-links {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+        
+        .footer-links a {
+            color: var(--accent-color);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        .footer-links a:hover {
+            color: #fff;
+            text-decoration: underline;
+        }
+        
+        .footer-disclaimer {
+            font-size: 0.8rem;
+            color: #777;
+            font-style: italic;
+        }
     </style>
 </head>
 <body>
@@ -731,6 +831,24 @@
         </div>
         
         <div class="card">
+            <div class="quotes-section">
+                <div class="quote active" data-index="0">"The void whispers to those who listen. The wormlings have been listening for centuries."<br><span class="quote-author">— Wormling Elder</span></div>
+                <div class="quote" data-index="1">"Blood is the currency of the gods. Spend it wisely."<br><span class="quote-author">— Bloodelf Priestess</span></div>
+                <div class="quote" data-index="2">"Dance with me under the moonlight, and I'll show you pleasures beyond your wildest dreams."<br><span class="quote-author">— Satyr Enchantress</span></div>
+                <div class="quote" data-index="3">"Burn the weak. Consume the strong. Leave nothing but ash."<br><span class="quote-author">— Hellspawn Warlord</span></div>
+                <div class="quote" data-index="4">"The water remembers all things. We are its memory made flesh."<br><span class="quote-author">— Froggian Sage</span></div>
+                <div class="quote" data-index="5">"Our wings may be clipped, but our spirits soar higher than any mountain."<br><span class="quote-author">— Pasunka Skyguard</span></div>
+                <div class="quote" data-index="6">"The finest steel requires the hottest fire. The finest civilization requires the harshest trials."<br><span class="quote-author">— Finestorian Architect</span></div>
+                <div class="quote" data-index="7">"Winter is not just a season; it's a state of mind. Prepare for both."<br><span class="quote-author">— Northman Jarl</span></div>
+                <div class="quote" data-index="8">"The Fallen One does not forgive. He does not forget. He only waits."<br><span class="quote-author">— Temple of Aminion inscription</span></div>
+                <div class="quote" data-index="9">"To lead is to sacrifice. To sacrifice is to lead."<br><span class="quote-author">— Temple of Athuri teaching</span></div>
+                <div class="quote" data-index="10">"Every creation has a purpose. Even those that crawl in darkness."<br><span class="quote-author">— Temple of Crator scripture</span></div>
+                <div class="quote" data-index="11">"Death is not the end. It is merely a transformation."<br><span class="quote-author">— Temple of Shmalor ritual</span></div>
+                <div class="quote" data-index="12">"The void does not take. It gives. It gives madness."<br><span class="quote-author">— Void Researcher</span></div>
+            </div>
+        </div>
+        
+        <div class="card">
             <div class="features-section">
                 <div class="features-header">
                     <h2>Features</h2>
@@ -885,9 +1003,49 @@
         </div>
         
         <footer>
-            <p>Roomian Realms (RG2) - Created by Thothius - &copy; 2025</p>
-            <p>This mod is not affiliated with Songs of Syx or its developers.</p>
+            <div class="footer-content">
+                <p class="footer-text">Roomian Realms is a community fan modpack created with love, caffeine, and probably too many late nights. No wormlings were harmed in the making of this mod (they volunteered).</p>
+                <div class="footer-links">
+                    <a href="https://github.com/Thothius/roomian-realms" target="_blank">GitHub</a>
+                    <a href="https://discord.gg/songsofsyx" target="_blank">Songs of Syx Discord</a>
+                    <a href="https://steamcommunity.com/app/1162750/workshop/" target="_blank">Steam Workshop</a>
+                </div>
+                <p class="footer-disclaimer">This is an unofficial fan project and is not affiliated with Songs of Syx or its developers. All game assets belong to their respective owners.</p>
+            </div>
         </footer>
+        
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                // Race cards hover effect
+                const raceCards = document.querySelectorAll('.race-card');
+                raceCards.forEach(card => {
+                    card.addEventListener('mouseenter', function() {
+                        this.querySelector('.race-info').style.opacity = '1';
+                    });
+                    card.addEventListener('mouseleave', function() {
+                        this.querySelector('.race-info').style.opacity = '0';
+                    });
+                });
+                
+                // Quotes rotation
+                const quotes = document.querySelectorAll('.quote');
+                let currentQuoteIndex = 0;
+                
+                function showNextQuote() {
+                    // Hide current quote
+                    quotes[currentQuoteIndex].classList.remove('active');
+                    
+                    // Get next quote index
+                    currentQuoteIndex = (currentQuoteIndex + 1) % quotes.length;
+                    
+                    // Show next quote
+                    quotes[currentQuoteIndex].classList.add('active');
+                }
+                
+                // Start the rotation
+                setInterval(showNextQuote, 6000);
+            });
+        </script>
     </div>
 </body>
 </html>
