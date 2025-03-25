@@ -6,6 +6,11 @@
 
 When the old gods fell, they left behind their children—some blessed, others cursed. Now these heirs to divinity and darkness clash across a fractured realm where honor and treachery are merely different faces of survival. The throne awaits one who can master the delicate dance of power.
 
+## Documentation
+
+- **[Online Documentation](https://thothius.github.io/roomian-realms/)** - View our comprehensive documentation website
+- **In-Game Documentation** - Access the HTML documentation in the mod folder
+
 ## Features
 
 ### Unique Races
@@ -35,7 +40,16 @@ When the old gods fell, they left behind their children—some blessed, others c
 
 ### Void Technology
 
-Harness the power of the void with specialized buildings and resources that unlock new capabilities for your civilization.
+Harness the power of the void with specialized buildings and resources that unlock new capabilities for your civilization:
+- Void Ore Mining
+- Crystal Refineries
+- Void Nexus
+- Void Amplifiers
+- Void Gateways
+
+### Custom Music
+
+Immersive soundtrack that enhances the atmospheric experience of each race and their environments.
 
 ## Installation
 
@@ -50,10 +64,14 @@ Harness the power of the void with specialized buildings and resources that unlo
 
 Roomian Realms is compatible with Songs of Syx version 68+.
 
+## Contributing
+
+Contributions are welcome! Feel free to submit issues or pull requests to help improve the mod.
+
 ## Credits
 
 Created by Thothius
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
