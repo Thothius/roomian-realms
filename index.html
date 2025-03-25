@@ -104,58 +104,80 @@
         .features-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 1.5rem;
+            gap: 2rem;
             margin-top: 2rem;
         }
         
         .feature-card {
-            background-color: rgba(42, 42, 42, 0.8);
+            position: relative;
+            background-color: rgba(0, 0, 0, 0.5);
             border-radius: 8px;
-            padding: 1.5rem;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-            transition: transform 0.3s ease;
+            overflow: hidden;
+            height: 250px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
         
         .feature-card:hover {
             transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
         }
         
-        .feature-card h3 {
+        .feature-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease, filter 0.3s ease;
+        }
+        
+        .feature-card:hover .feature-image {
+            transform: scale(1.05);
+            filter: brightness(0.7);
+        }
+        
+        .feature-content {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 40%, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0.7) 100%);
+        }
+        
+        .feature-title {
             color: var(--accent-color);
-            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
         }
         
-        .btn {
+        .feature-description {
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+        }
+        
+        .feature-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+        
+        .feature-tag {
+            background-color: rgba(249, 168, 37, 0.2);
+            border: 1px solid rgba(249, 168, 37, 0.5);
+            padding: 0.3rem 0.6rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
             display: inline-block;
-            background-color: var(--accent-color);
-            color: #000;
-            padding: 0.8rem 1.5rem;
-            border-radius: 4px;
-            text-decoration: none;
-            font-weight: bold;
-            transition: background-color 0.3s ease;
-            margin-top: 1rem;
-        }
-        
-        .btn:hover {
-            background-color: #ffc107;
-        }
-        
-        .btn-container {
-            text-align: center;
-            margin-top: 2rem;
-        }
-        
-        footer {
-            text-align: center;
-            padding: 2rem 0;
-            margin-top: 2rem;
-            border-top: 1px solid rgba(255, 255, 255, 0.1);
-        }
-        
-        ul {
-            margin-left: 2rem;
-            margin-bottom: 1rem;
+            white-space: nowrap;
         }
         
         .race-grid {
@@ -330,249 +352,6 @@
             opacity: 1;
         }
         
-        .features-section {
-            margin: 3rem 0;
-        }
-        
-        .features-header {
-            text-align: center;
-            margin-bottom: 2rem;
-        }
-        
-        .features-header h2 {
-            font-size: 2.5rem;
-            color: var(--accent-color);
-            margin-bottom: 1rem;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-        }
-        
-        .features-header p {
-            font-size: 1.2rem;
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        
-        .features-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-            margin-top: 2rem;
-        }
-        
-        .feature-card {
-            position: relative;
-            background-color: rgba(42, 42, 42, 0.8);
-            border-radius: 8px;
-            padding: 0;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            overflow: hidden;
-            height: 450px;
-            display: flex;
-            flex-direction: column;
-        }
-        
-        .feature-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
-        }
-        
-        .feature-image {
-            width: 100%;
-            height: 180px;
-            object-fit: cover;
-            border-top-left-radius: 8px;
-            border-top-right-radius: 8px;
-            filter: brightness(0.8);
-            transition: filter 0.3s ease;
-        }
-        
-        .feature-card:hover .feature-image {
-            filter: brightness(1);
-        }
-        
-        .feature-content {
-            padding: 1.5rem;
-            flex-grow: 1;
-            display: flex;
-            flex-direction: column;
-        }
-        
-        .feature-title {
-            color: var(--accent-color);
-            font-size: 1.5rem;
-            margin-bottom: 1rem;
-            text-align: center;
-            border-bottom: 1px solid rgba(249, 168, 37, 0.3);
-            padding-bottom: 0.5rem;
-        }
-        
-        .feature-description {
-            font-size: 0.95rem;
-            margin-bottom: 1rem;
-            line-height: 1.5;
-        }
-        
-        .feature-list {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-            flex-grow: 1;
-        }
-        
-        .feature-list li {
-            padding: 0.5rem 0;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-            display: flex;
-            align-items: center;
-        }
-        
-        .feature-list li:last-child {
-            border-bottom: none;
-        }
-        
-        .feature-icon {
-            width: 20px;
-            height: 20px;
-            margin-right: 10px;
-            background-color: var(--accent-color);
-            border-radius: 50%;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 12px;
-            color: #000;
-        }
-        
-        .religion-card {
-            position: relative;
-            background-color: rgba(42, 42, 42, 0.8);
-            border-radius: 8px;
-            padding: 0;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            overflow: hidden;
-            height: 450px;
-            display: flex;
-            flex-direction: column;
-        }
-        
-        .religion-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
-        }
-        
-        .religion-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-            gap: 1.5rem;
-            margin-top: 2rem;
-        }
-        
-        .religion-image {
-            width: 100%;
-            height: 120px;
-            object-fit: cover;
-            filter: brightness(0.8);
-            transition: filter 0.3s ease;
-        }
-        
-        .religion-card:hover .religion-image {
-            filter: brightness(1);
-        }
-        
-        .religion-content {
-            padding: 1rem;
-            flex-grow: 1;
-            display: flex;
-            flex-direction: column;
-        }
-        
-        .religion-title {
-            font-size: 1.2rem;
-            margin-bottom: 0.5rem;
-            text-align: center;
-            padding-bottom: 0.5rem;
-        }
-        
-        .religion-description {
-            font-size: 0.85rem;
-            margin-bottom: 0.5rem;
-            line-height: 1.4;
-        }
-        
-        .religion-followers {
-            font-size: 0.8rem;
-            font-style: italic;
-            margin-top: auto;
-            padding-top: 0.5rem;
-            border-top: 1px solid rgba(255, 255, 255, 0.1);
-        }
-        
-        .aminion-card {
-            background: linear-gradient(to bottom, rgba(42, 42, 42, 0.8), rgba(136, 14, 79, 0.4));
-            border: 1px solid rgba(136, 14, 79, 0.5);
-        }
-        
-        .aminion-card .religion-title {
-            color: #f48fb1;
-            border-bottom: 1px solid rgba(244, 143, 177, 0.3);
-        }
-        
-        .athuri-card {
-            background: linear-gradient(to bottom, rgba(42, 42, 42, 0.8), rgba(21, 101, 192, 0.4));
-            border: 1px solid rgba(21, 101, 192, 0.5);
-        }
-        
-        .athuri-card .religion-title {
-            color: #90caf9;
-            border-bottom: 1px solid rgba(144, 202, 249, 0.3);
-        }
-        
-        .crator-card {
-            background: linear-gradient(to bottom, rgba(42, 42, 42, 0.8), rgba(0, 121, 107, 0.4));
-            border: 1px solid rgba(0, 121, 107, 0.5);
-        }
-        
-        .crator-card .religion-title {
-            color: #80cbc4;
-            border-bottom: 1px solid rgba(128, 203, 196, 0.3);
-        }
-        
-        .shmalor-card {
-            background: linear-gradient(to bottom, rgba(42, 42, 42, 0.8), rgba(74, 20, 140, 0.4));
-            border: 1px solid rgba(74, 20, 140, 0.5);
-        }
-        
-        .shmalor-card .religion-title {
-            color: #b39ddb;
-            border-bottom: 1px solid rgba(179, 157, 219, 0.3);
-        }
-        
-        .emperor-card {
-            background: linear-gradient(to bottom, rgba(42, 42, 42, 0.8), rgba(183, 28, 28, 0.4));
-            border: 1px solid rgba(183, 28, 28, 0.5);
-        }
-        
-        .emperor-card .religion-title {
-            color: #ef9a9a;
-            border-bottom: 1px solid rgba(239, 154, 154, 0.3);
-        }
-        
-        .coming-soon {
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            background-color: rgba(183, 28, 28, 0.8);
-            color: white;
-            padding: 5px 10px;
-            border-radius: 4px;
-            font-size: 0.7rem;
-            font-weight: bold;
-            transform: rotate(5deg);
-            box-shadow: 0 2px 4px rgba(0,0,0,0.5);
-        }
-        
         .quotes-section {
             margin: 3rem 0;
             text-align: center;
@@ -671,6 +450,125 @@
             font-size: 0.8rem;
             color: #777;
             font-style: italic;
+        }
+        
+        .religion-card {
+            position: relative;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 8px;
+            overflow: hidden;
+            height: 250px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .religion-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+        }
+        
+        .religion-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .religion-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease, filter 0.3s ease;
+        }
+        
+        .religion-card:hover .religion-image {
+            transform: scale(1.05);
+            filter: brightness(0.7);
+        }
+        
+        .religion-content {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        
+        .religion-title {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+        }
+        
+        .religion-description {
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+        }
+        
+        .religion-followers {
+            font-size: 0.8rem;
+            font-style: italic;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+        }
+        
+        .aminion-card .religion-content {
+            background: linear-gradient(to bottom, rgba(136, 14, 79, 0.7) 0%, rgba(136, 14, 79, 0.3) 40%, rgba(136, 14, 79, 0.3) 60%, rgba(136, 14, 79, 0.7) 100%);
+        }
+        
+        .aminion-card .religion-title {
+            color: #f48fb1;
+        }
+        
+        .athuri-card .religion-content {
+            background: linear-gradient(to bottom, rgba(21, 101, 192, 0.7) 0%, rgba(21, 101, 192, 0.3) 40%, rgba(21, 101, 192, 0.3) 60%, rgba(21, 101, 192, 0.7) 100%);
+        }
+        
+        .athuri-card .religion-title {
+            color: #90caf9;
+        }
+        
+        .crator-card .religion-content {
+            background: linear-gradient(to bottom, rgba(0, 121, 107, 0.7) 0%, rgba(0, 121, 107, 0.3) 40%, rgba(0, 121, 107, 0.3) 60%, rgba(0, 121, 107, 0.7) 100%);
+        }
+        
+        .crator-card .religion-title {
+            color: #80cbc4;
+        }
+        
+        .shmalor-card .religion-content {
+            background: linear-gradient(to bottom, rgba(74, 20, 140, 0.7) 0%, rgba(74, 20, 140, 0.3) 40%, rgba(74, 20, 140, 0.3) 60%, rgba(74, 20, 140, 0.7) 100%);
+        }
+        
+        .shmalor-card .religion-title {
+            color: #b39ddb;
+        }
+        
+        .emperor-card .religion-content {
+            background: linear-gradient(to bottom, rgba(183, 28, 28, 0.7) 0%, rgba(183, 28, 28, 0.3) 40%, rgba(183, 28, 28, 0.3) 60%, rgba(183, 28, 28, 0.7) 100%);
+        }
+        
+        .emperor-card .religion-title {
+            color: #ef9a9a;
+        }
+        
+        .coming-soon {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: rgba(183, 28, 28, 0.8);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 0.7rem;
+            font-weight: bold;
+            transform: rotate(5deg);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+            z-index: 10;
         }
     </style>
 </head>
@@ -857,84 +755,91 @@
                 
                 <div class="features-grid">
                     <div class="feature-card">
-                        <img src="Mod Info/images/misc/misc_001.png" alt="Unique Races" class="feature-image">
+                        <img src="html_assets/images/misc/misc_001.png" alt="Unique Races" class="feature-image">
                         <div class="feature-content">
-                            <h3 class="feature-title">8 Unique Playable Races</h3>
-                            <p class="feature-description">Each with distinct abilities, strengths, weaknesses, and cultural traits that dramatically change your gameplay experience.</p>
-                            <ul class="feature-list">
-                                <li><span class="feature-icon">W</span> Wormlings (GARTHIMI)</li>
-                                <li><span class="feature-icon">B</span> Bloodelves (CANTOR)</li>
-                                <li><span class="feature-icon">S</span> Satyrs (ARGONOSH)</li>
-                                <li><span class="feature-icon">H</span> Hellspawns (TILAPI)</li>
-                                <li><span class="feature-icon">F</span> Froggians (Q_AMEVIA)</li>
-                                <li><span class="feature-icon">P</span> Pasunkas (CRETONIAN)</li>
-                                <li><span class="feature-icon">I</span> Finestorians (DONDORIAN)</li>
-                                <li><span class="feature-icon">N</span> Northmen (HUMAN)</li>
-                            </ul>
+                            <div>
+                                <h3 class="feature-title">8 Unique Playable Races</h3>
+                                <p class="feature-description">Each with distinct abilities, strengths, weaknesses, and cultural traits</p>
+                            </div>
+                            <div class="feature-list">
+                                <span class="feature-tag">Wormlings</span>
+                                <span class="feature-tag">Bloodelves</span>
+                                <span class="feature-tag">Satyrs</span>
+                                <span class="feature-tag">Hellspawns</span>
+                                <span class="feature-tag">Froggians</span>
+                                <span class="feature-tag">Pasunkas</span>
+                                <span class="feature-tag">Finestorians</span>
+                                <span class="feature-tag">Northmen</span>
+                            </div>
                         </div>
                     </div>
                     
                     <div class="feature-card">
-                        <img src="Mod Info/images/misc/misc_002.png" alt="Void Technology" class="feature-image">
+                        <img src="html_assets/images/misc/misc_002.png" alt="Void Technology" class="feature-image">
                         <div class="feature-content">
-                            <h3 class="feature-title">Void Technology System</h3>
-                            <p class="feature-description">Harness the power of the void with specialized buildings and mechanics that unlock new gameplay possibilities.</p>
-                            <ul class="feature-list">
-                                <li><span class="feature-icon">V</span> Void Ore Mining</li>
-                                <li><span class="feature-icon">C</span> Crystal Refineries</li>
-                                <li><span class="feature-icon">N</span> Void Nexus</li>
-                                <li><span class="feature-icon">A</span> Void Amplifiers</li>
-                                <li><span class="feature-icon">G</span> Void Gateways</li>
-                                <li><span class="feature-icon">P</span> Power Generation</li>
-                                <li><span class="feature-icon">R</span> Reality Manipulation</li>
-                            </ul>
+                            <div>
+                                <h3 class="feature-title">Void Technology System</h3>
+                                <p class="feature-description">Harness the power of the void with specialized buildings and mechanics</p>
+                            </div>
+                            <div class="feature-list">
+                                <span class="feature-tag">Void Ore Mining</span>
+                                <span class="feature-tag">Crystal Refineries</span>
+                                <span class="feature-tag">Void Nexus</span>
+                                <span class="feature-tag">Void Amplifiers</span>
+                                <span class="feature-tag">Void Gateways</span>
+                                <span class="feature-tag">Power Generation</span>
+                            </div>
                         </div>
                     </div>
                     
                     <div class="feature-card">
-                        <img src="Mod Info/images/misc/misc_003.png" alt="Rich Lore" class="feature-image">
+                        <img src="html_assets/images/misc/misc_003.png" alt="Rich Lore" class="feature-image">
                         <div class="feature-content">
-                            <h3 class="feature-title">Rich Lore</h3>
-                            <p class="feature-description">Deep, interconnected stories and backgrounds for each race and deity, creating a cohesive world with complex relationships and histories.</p>
-                            <ul class="feature-list">
-                                <li><span class="feature-icon">H</span> Historical Conflicts</li>
-                                <li><span class="feature-icon">D</span> Divine Pantheon</li>
-                                <li><span class="feature-icon">C</span> Cultural Traditions</li>
-                                <li><span class="feature-icon">R</span> Racial Origins</li>
-                                <li><span class="feature-icon">A</span> Ancient Prophecies</li>
-                                <li><span class="feature-icon">W</span> World Creation Myths</li>
-                            </ul>
+                            <div>
+                                <h3 class="feature-title">Rich Lore</h3>
+                                <p class="feature-description">Deep, interconnected stories and backgrounds for each race and deity</p>
+                            </div>
+                            <div class="feature-list">
+                                <span class="feature-tag">Historical Conflicts</span>
+                                <span class="feature-tag">Divine Pantheon</span>
+                                <span class="feature-tag">Cultural Traditions</span>
+                                <span class="feature-tag">Racial Origins</span>
+                                <span class="feature-tag">Ancient Prophecies</span>
+                            </div>
                         </div>
                     </div>
                     
                     <div class="feature-card">
-                        <img src="Mod Info/images/misc/misc_004.png" alt="Custom Music" class="feature-image">
+                        <img src="html_assets/images/misc/misc_004.png" alt="Custom Music" class="feature-image">
                         <div class="feature-content">
-                            <h3 class="feature-title">Custom Music</h3>
-                            <p class="feature-description">Immersive soundtrack that enhances the atmospheric experience of each race and their environments, bringing the world to life.</p>
-                            <ul class="feature-list">
-                                <li><span class="feature-icon">T</span> Thematic Race Tracks</li>
-                                <li><span class="feature-icon">B</span> Battle Compositions</li>
-                                <li><span class="feature-icon">A</span> Ambient Soundscapes</li>
-                                <li><span class="feature-icon">R</span> Religious Hymns</li>
-                                <li><span class="feature-icon">S</span> Seasonal Variations</li>
-                            </ul>
+                            <div>
+                                <h3 class="feature-title">Custom Music</h3>
+                                <p class="feature-description">Immersive soundtrack that enhances the atmospheric experience</p>
+                            </div>
+                            <div class="feature-list">
+                                <span class="feature-tag">Thematic Race Tracks</span>
+                                <span class="feature-tag">Battle Compositions</span>
+                                <span class="feature-tag">Ambient Soundscapes</span>
+                                <span class="feature-tag">Religious Hymns</span>
+                                <span class="feature-tag">Seasonal Variations</span>
+                            </div>
                         </div>
                     </div>
                     
                     <div class="feature-card">
-                        <img src="Mod Info/images/misc/misc_005.png" alt="Balanced Gameplay" class="feature-image">
+                        <img src="html_assets/images/misc/misc_005.png" alt="Balanced Gameplay" class="feature-image">
                         <div class="feature-content">
-                            <h3 class="feature-title">Balanced Gameplay</h3>
-                            <p class="feature-description">Each race offers unique advantages and challenges, ensuring varied gameplay experiences while maintaining overall balance.</p>
-                            <ul class="feature-list">
-                                <li><span class="feature-icon">U</span> Unique Racial Abilities</li>
-                                <li><span class="feature-icon">S</span> Specialized Buildings</li>
-                                <li><span class="feature-icon">C</span> Cultural Preferences</li>
-                                <li><span class="feature-icon">D</span> Diplomatic Relations</li>
-                                <li><span class="feature-icon">E</span> Economic Strategies</li>
-                                <li><span class="feature-icon">M</span> Military Specializations</li>
-                            </ul>
+                            <div>
+                                <h3 class="feature-title">Balanced Gameplay</h3>
+                                <p class="feature-description">Each race offers unique advantages and challenges while maintaining balance</p>
+                            </div>
+                            <div class="feature-list">
+                                <span class="feature-tag">Unique Racial Abilities</span>
+                                <span class="feature-tag">Specialized Buildings</span>
+                                <span class="feature-tag">Cultural Preferences</span>
+                                <span class="feature-tag">Diplomatic Relations</span>
+                                <span class="feature-tag">Economic Strategies</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -948,47 +853,57 @@
                     <div class="religion-card aminion-card">
                         <img src="html_assets/images/temple_aminion.png" alt="Temple of Aminion" class="religion-image">
                         <div class="religion-content">
-                            <h3 class="religion-title">The Fallen One (Aminion)</h3>
-                            <p class="religion-description">Lord of chaos and nemesis of the Athuri, Aminion demands human sacrifice and promotes submission to his dark will. His temples channel chaotic energies, granting followers increased combat abilities.</p>
-                            <p class="religion-followers">Worshipped by: <strong>Hellspawns, Bloodelves</strong></p>
+                            <div>
+                                <h3 class="religion-title">Temple of Aminion</h3>
+                                <p class="religion-description">The fallen one, lord of chaos and nemesis of the Athuri. Requires human sacrifice.</p>
+                            </div>
+                            <p class="religion-followers">Strongly preferred by: Hellspawns, Bloodelves</p>
                         </div>
                     </div>
                     
                     <div class="religion-card athuri-card">
                         <img src="html_assets/images/temple_athuri.png" alt="Temple of Athuri" class="religion-image">
                         <div class="religion-content">
-                            <h3 class="religion-title">The Leader (Athuri)</h3>
-                            <p class="religion-description">Greatest of the Astari and champion of order, Athuri defeated his brother Bardok in both divine wars. His temples accept food offerings and grant followers enhanced diplomatic relations and happiness.</p>
-                            <p class="religion-followers">Worshipped by: <strong>Satyrs, Froggians</strong></p>
+                            <div>
+                                <h3 class="religion-title">Temple of Athuri</h3>
+                                <p class="religion-description">The leader and greatest of the Astari, who defeated his brother Bardok in both wars against him.</p>
+                            </div>
+                            <p class="religion-followers">Strongly preferred by: Satyrs, Froggians</p>
                         </div>
                     </div>
                     
                     <div class="religion-card crator-card">
                         <img src="html_assets/images/temple_crator.png" alt="Temple of Crator" class="religion-image">
                         <div class="religion-content">
-                            <h3 class="religion-title">The Creator (Crator)</h3>
-                            <p class="religion-description">Foremost creator of the Astari who shaped many species of Syx. Later tempted by Aminion to create foul creatures. His temples accept livestock and grant production bonuses to followers.</p>
-                            <p class="religion-followers">Worshipped by: <strong>Finestorians, Northmen</strong></p>
+                            <div>
+                                <h3 class="religion-title">Temple of Crator</h3>
+                                <p class="religion-description">The foremost creator of the Astari, who created many species of Syx but was later tempted by Aminion.</p>
+                            </div>
+                            <p class="religion-followers">Strongly preferred by: Finestorians, Northmen</p>
                         </div>
                     </div>
                     
                     <div class="religion-card shmalor-card">
                         <img src="html_assets/images/temple_shmalor.png" alt="Temple of Shmalor" class="religion-image">
                         <div class="religion-content">
-                            <h3 class="religion-title">The Slain Queen (Shmalor)</h3>
-                            <p class="religion-description">Queen of the Agonosh who was slain by the Tilapi chieftain Trinduri during the first war of the gods. Her temples require human sacrifices and grant fertility bonuses to followers.</p>
-                            <p class="religion-followers">Worshipped by: <strong>Wormlings</strong></p>
+                            <div>
+                                <h3 class="religion-title">Temple of Shmalor</h3>
+                                <p class="religion-description">The queen of the Agonosh, slayed by the Tilapi chieftain Trinduri during the first war of the gods.</p>
+                            </div>
+                            <p class="religion-followers">Strongly preferred by: Wormlings, Bloodelves</p>
                         </div>
                     </div>
                     
                     <div class="religion-card emperor-card">
-                        <div class="coming-soon">Coming Soon</div>
-                        <img src="html_assets/images/wormlings.png" alt="God Emperor" class="religion-image">
+                        <img src="html_assets/images/temple_emperor.png" alt="Temple of the God Emperor" class="religion-image">
                         <div class="religion-content">
-                            <h3 class="religion-title">The God Emperor</h3>
-                            <p class="religion-description">A mysterious deity emerging from the void itself, worshipped exclusively by the Wormlings. Grants powerful void technology bonuses and unique abilities tied to the parasitic nature of its followers.</p>
-                            <p class="religion-followers">Worshipped by: <strong>Wormlings (Exclusive)</strong></p>
+                            <div>
+                                <h3 class="religion-title">God Emperor</h3>
+                                <p class="religion-description">A new deity rising from the void, promising power to those who embrace the darkness within.</p>
+                            </div>
+                            <p class="religion-followers">Exclusive to: Wormlings</p>
                         </div>
+                        <div class="coming-soon">Coming Soon</div>
                     </div>
                 </div>
             </div>
