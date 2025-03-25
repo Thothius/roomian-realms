@@ -56,30 +56,105 @@
         }
         
         header {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('html_assets/images/header-bg.jpg');
+            background-size: cover;
+            background-position: center;
+            padding: 4rem 0;
             text-align: center;
-            padding: 2rem 0;
+            position: relative;
+            border-radius: 8px;
             margin-bottom: 2rem;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
         }
         
-        h1 {
-            font-size: 3rem;
+        header h1 {
+            font-size: 3.5rem;
             margin-bottom: 1rem;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
             color: var(--accent-color);
         }
         
         .subtitle {
-            font-size: 1.5rem;
-            font-style: italic;
+            font-size: 1.3rem;
             margin-bottom: 2rem;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
         }
         
-        .description {
-            font-size: 1.2rem;
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background-color: var(--accent-color);
+            color: #000;
+            padding: 0.8rem 1.5rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+            background-color: #ffc107;
+        }
+        
+        .cta-button.secondary {
+            background-color: transparent;
+            border: 2px solid var(--accent-color);
+            color: var(--accent-color);
+        }
+        
+        .cta-button.secondary:hover {
+            background-color: rgba(249, 168, 37, 0.2);
+        }
+        
+        .intro-card {
+            background: linear-gradient(rgba(26, 26, 26, 0.8), rgba(26, 26, 26, 0.9));
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
             margin-bottom: 2rem;
-            text-align: center;
-            max-width: 800px;
-            margin-left: auto;
-            margin-right: auto;
+            border-left: 4px solid var(--accent-color);
+        }
+        
+        .intro-quote {
+            font-style: italic;
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+            color: #e0e0e0;
+        }
+        
+        .intro-description {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: #c0c0c0;
+        }
+        
+        .section-header {
+            position: relative;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid rgba(249, 168, 37, 0.3);
+        }
+        
+        .section-header h2 {
+            font-size: 2.2rem;
+            color: var(--accent-color);
+            margin-bottom: 0.5rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        
+        .section-header p {
+            font-size: 1.1rem;
+            color: #c0c0c0;
         }
         
         .card {
@@ -409,47 +484,43 @@
         }
         
         footer {
+            background: linear-gradient(rgba(26, 26, 26, 0.8), rgba(26, 26, 26, 0.9));
+            padding: 2rem;
+            border-radius: 8px;
             margin-top: 3rem;
-            padding: 2rem 0;
-            background-color: rgba(0, 0, 0, 0.5);
-            text-align: center;
+            box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.3);
+            border-top: 1px solid rgba(249, 168, 37, 0.2);
         }
         
         .footer-content {
             display: flex;
             flex-direction: column;
             align-items: center;
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        
-        .footer-text {
-            margin-bottom: 1rem;
-            font-size: 0.9rem;
-            color: #aaa;
         }
         
         .footer-links {
             display: flex;
-            gap: 1rem;
-            margin-bottom: 1rem;
+            gap: 1.5rem;
+            margin: 1.5rem 0;
         }
         
-        .footer-links a {
+        .footer-link {
             color: var(--accent-color);
             text-decoration: none;
             transition: color 0.3s ease;
         }
         
-        .footer-links a:hover {
-            color: #fff;
+        .footer-link:hover {
+            color: #ffc107;
             text-decoration: underline;
         }
         
         .footer-disclaimer {
-            font-size: 0.8rem;
-            color: #777;
-            font-style: italic;
+            font-size: 0.9rem;
+            color: #888;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
         }
         
         .religion-card {
@@ -570,347 +641,214 @@
             box-shadow: 0 2px 4px rgba(0,0,0,0.5);
             z-index: 10;
         }
+        
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5rem;
+            }
+            
+            .subtitle {
+                font-size: 1.1rem;
+            }
+            
+            .race-grid, .features-grid, .religion-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .cta-button {
+                width: 80%;
+                text-align: center;
+                margin-bottom: 0.5rem;
+            }
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
             <h1>Roomian Realms (RG2)</h1>
-            <p class="subtitle">A comprehensive race and religion mod for Songs of Syx</p>
+            <p class="subtitle">Eight ancient bloodlines vie for dominance in a world where forgotten gods still whisper</p>
+            <div class="cta-buttons">
+                <a href="https://github.com/Thothius/roomian-realms/releases" class="cta-button">Download Mod</a>
+                <a href="https://github.com/Thothius/roomian-realms" class="cta-button secondary">View on GitHub</a>
+            </div>
         </header>
         
-        <div class="card">
-            <p class="description">"Eight ancient bloodlines vie for dominance in a world where forgotten gods still whisper. Forge your legacy through blood, steel, or forbidden knowledge as ancient pacts are broken and new alliances forged."</p>
-            
-            <p class="description">When the old gods fell, they left behind their children—some blessed, others cursed. Now these heirs to divinity and darkness clash across a fractured realm where honor and treachery are merely different faces of survival. The throne awaits one who can master the delicate dance of power.</p>
-            
-            <div class="btn-container">
-                <a href="Roomian Realms Documentation.html" class="btn">View Full Documentation</a>
-                <a href="https://github.com/Thothius/roomian-realms" class="btn">GitHub Repository</a>
-            </div>
-        </div>
-        
-        <div class="race-grid">
-            <!-- Wormlings (GARTHIMI) -->
-            <div class="race-card outsider-race">
-                <div class="race-title">Wormlings <span class="race-code">GARTHIMI</span></div>
-                <img src="html_assets/images/wormlings.png" alt="Wormlings" class="race-image">
-                <div class="race-overlay">
-                    <div class="race-description">Parasitic swarm fighters from beyond reality that overwhelm with numbers and biological adaptations.</div>
-                    <div class="race-alignment">
-                        <span class="alignment-icon" style="background-color: #9c27b0;"></span>
-                        Alignment: <span class="alignment-outsider">The Outsiders</span>
-                    </div>
-                    <div class="race-deity">
-                        <span class="deity-icon" style="background-color: var(--shmalor-color);"></span>
-                        Worship: <span class="deity-shmalor tooltip">The Slain Queen<span class="tooltiptext">Shmalor, the queen of the Agonosh, was slain during the first war of the gods. The Wormlings believe her divine essence transformed into the First Great Worm.</span></span>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Bloodelves (CANTOR) -->
-            <div class="race-card shadow-race">
-                <div class="race-title">Bloodelves <span class="race-code">CANTOR</span></div>
-                <img src="html_assets/images/bloodelves.png" alt="Bloodelves" class="race-image">
-                <div class="race-overlay">
-                    <div class="race-description">Vampire-like beings who maintain slaves for blood consumption and value status through domination.</div>
-                    <div class="race-alignment">
-                        <span class="alignment-icon" style="background-color: #f44336;"></span>
-                        Alignment: <span class="alignment-shadow">Servants of Shadow</span>
-                    </div>
-                    <div class="race-deity">
-                        <span class="deity-icon" style="background-color: var(--aminion-color);"></span>
-                        Worship: <span class="deity-aminion tooltip">The Fallen One<span class="tooltiptext">Aminion, the fallen one and lord of chaos, requires human sacrifice and promotes submission. The Bloodelves see his teachings as justification for their vampiric nature.</span></span>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Satyrs (ARGONOSH) -->
-            <div class="race-card light-race">
-                <div class="race-title">Satyrs <span class="race-code">ARGONOSH</span></div>
-                <img src="html_assets/images/satyrs.png" alt="Satyrs" class="race-image">
-                <div class="race-overlay">
-                    <div class="race-description">Female-dominated forest dwellers who value nature, isolation, and defense rather than aggression.</div>
-                    <div class="race-alignment">
-                        <span class="alignment-icon" style="background-color: #4caf50;"></span>
-                        Alignment: <span class="alignment-light">Children of Light</span>
-                    </div>
-                    <div class="race-deity">
-                        <span class="deity-icon" style="background-color: var(--athuri-color);"></span>
-                        Worship: <span class="deity-athuri tooltip">The Leader<span class="tooltiptext">Athuri Astari, the leader and greatest of the Astari, defeated his brother Bardok in both wars against him. The Satyrs revere him as the protector of the natural world.</span></span>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Hellspawns (TILAPI) -->
-            <div class="race-card shadow-race">
-                <div class="race-title">Hellspawns <span class="race-code">TILAPI</span></div>
-                <img src="html_assets/images/hellspawn.png" alt="Hellspawns" class="race-image">
-                <div class="race-overlay">
-                    <div class="race-description">Demonic entities that embody chaos and destruction, building their society on domination and cruelty.</div>
-                    <div class="race-alignment">
-                        <span class="alignment-icon" style="background-color: #f44336;"></span>
-                        Alignment: <span class="alignment-shadow">Servants of Shadow</span>
-                    </div>
-                    <div class="race-deity">
-                        <span class="deity-icon" style="background-color: var(--aminion-color);"></span>
-                        Worship: <span class="deity-aminion tooltip">The Fallen One<span class="tooltiptext">Aminion, the fallen one and lord of chaos, is the primary deity of the Hellspawns. Their society celebrates suffering as a path to power, believing that through chaos they bring about Aminion's vision.</span></span>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Froggians (Q_AMEVIA) -->
-            <div class="race-card light-race">
-                <div class="race-title">Froggians <span class="race-code">Q_AMEVIA</span></div>
-                <img src="html_assets/images/froggians.png" alt="Froggians" class="race-image">
-                <div class="race-overlay">
-                    <div class="race-description">Amphibious beings who embody wisdom and technology with a pacifist nature, valuing knowledge above all.</div>
-                    <div class="race-alignment">
-                        <span class="alignment-icon" style="background-color: #4caf50;"></span>
-                        Alignment: <span class="alignment-light">Children of Light</span>
-                    </div>
-                    <div class="race-deity">
-                        <span class="deity-icon" style="background-color: var(--athuri-color);"></span>
-                        Worship: <span class="deity-athuri tooltip">The Leader<span class="tooltiptext">Athuri Astari, the leader and greatest of the Astari, is revered by the Froggians for his wisdom and leadership. They see his teachings as the path to enlightenment and peaceful coexistence.</span></span>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Pasunkas (CRETONIAN) -->
-            <div class="race-card outsider-race">
-                <div class="race-title">Pasunkas <span class="race-code">CRETONIAN</span></div>
-                <img src="html_assets/images/pasunkas.png" alt="Pasunkas" class="race-image">
-                <div class="race-overlay">
-                    <div class="race-description">Spiritual martial artists who value discipline and balance, following the philosophy of "Push-up Taijutsu."</div>
-                    <div class="race-alignment">
-                        <span class="alignment-icon" style="background-color: #9c27b0;"></span>
-                        Alignment: <span class="alignment-outsider">The Outsiders</span>
-                    </div>
-                    <div class="race-deity">
-                        <span class="deity-icon" style="background-color: var(--crator-color);"></span>
-                        Worship: <span class="deity-crator tooltip">The Creator<span class="tooltiptext">Crator Astari, the foremost creator of the Astari, is viewed by the Pasunkas as the ultimate embodiment of physical and spiritual perfection, inspiring their martial philosophy.</span></span>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Finestorians (DONDORIAN) -->
-            <div class="race-card balance-race">
-                <div class="race-title">Finestorians <span class="race-code">DONDORIAN</span></div>
-                <img src="html_assets/images/finestorians.png" alt="Finestorians" class="race-image">
-                <div class="race-overlay">
-                    <div class="race-description">Craftsmen who value skill and honest labor, direct and loyal but can be isolationist and judgmental.</div>
-                    <div class="race-alignment">
-                        <span class="alignment-icon" style="background-color: #9e9e9e;"></span>
-                        Alignment: <span class="alignment-balance">Heirs of Balance</span>
-                    </div>
-                    <div class="race-deity">
-                        <span class="deity-icon" style="background-color: var(--crator-color);"></span>
-                        Worship: <span class="deity-crator tooltip">The Creator<span class="tooltiptext">Crator Astari, the foremost creator of the Astari, is deeply revered by the Finestorians who believe that creating objects of quality is the highest form of worship, seeing each crafted item as an echo of his divine creation.</span></span>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Northmen (HUMAN) -->
-            <div class="race-card balance-race">
-                <div class="race-title">Northmen <span class="race-code">HUMAN</span></div>
-                <img src="html_assets/images/northmen.png" alt="Northmen" class="race-image">
-                <div class="race-overlay">
-                    <div class="race-description">Pragmatic traders and warriors who value ambition and clan reputation, driven by practicality and competition.</div>
-                    <div class="race-alignment">
-                        <span class="alignment-icon" style="background-color: #9e9e9e;"></span>
-                        Alignment: <span class="alignment-balance">Heirs of Balance</span>
-                    </div>
-                    <div class="race-deity">
-                        <span class="deity-icon" style="background-color: var(--crator-color);"></span>
-                        Worship: <span class="deity-crator tooltip">The Creator<span class="tooltiptext">Crator Astari, the foremost creator of the Astari, is respected by the Northmen who believe he created humans with ambition and adaptability to thrive in any environment.</span></span>
-                    </div>
-                </div>
-            </div>
+        <div class="intro-card">
+            <p class="intro-quote">"Eight ancient bloodlines vie for dominance in a world where forgotten gods still whisper. Forge your legacy through blood, steel, or forbidden knowledge as ancient pacts are broken and new alliances forged."</p>
+            <p class="intro-description">When the old gods fell, they left behind their children—some blessed, others cursed. Now these heirs to divinity and darkness clash across a fractured realm where honor and treachery are merely different faces of survival. The throne awaits one who can master the delicate dance of power.</p>
         </div>
         
         <div class="card">
-            <div class="quotes-section">
-                <div class="quote active" data-index="0">"The void whispers to those who listen. The wormlings have been listening for centuries."<br><span class="quote-author">— Wormling Elder</span></div>
-                <div class="quote" data-index="1">"Blood is the currency of the gods. Spend it wisely."<br><span class="quote-author">— Bloodelf Priestess</span></div>
-                <div class="quote" data-index="2">"Dance with me under the moonlight, and I'll show you pleasures beyond your wildest dreams."<br><span class="quote-author">— Satyr Enchantress</span></div>
-                <div class="quote" data-index="3">"Burn the weak. Consume the strong. Leave nothing but ash."<br><span class="quote-author">— Hellspawn Warlord</span></div>
-                <div class="quote" data-index="4">"The water remembers all things. We are its memory made flesh."<br><span class="quote-author">— Froggian Sage</span></div>
-                <div class="quote" data-index="5">"Our wings may be clipped, but our spirits soar higher than any mountain."<br><span class="quote-author">— Pasunka Skyguard</span></div>
-                <div class="quote" data-index="6">"The finest steel requires the hottest fire. The finest civilization requires the harshest trials."<br><span class="quote-author">— Finestorian Architect</span></div>
-                <div class="quote" data-index="7">"Winter is not just a season; it's a state of mind. Prepare for both."<br><span class="quote-author">— Northman Jarl</span></div>
-                <div class="quote" data-index="8">"The Fallen One does not forgive. He does not forget. He only waits."<br><span class="quote-author">— Temple of Aminion inscription</span></div>
-                <div class="quote" data-index="9">"To lead is to sacrifice. To sacrifice is to lead."<br><span class="quote-author">— Temple of Athuri teaching</span></div>
-                <div class="quote" data-index="10">"Every creation has a purpose. Even those that crawl in darkness."<br><span class="quote-author">— Temple of Crator scripture</span></div>
-                <div class="quote" data-index="11">"Death is not the end. It is merely a transformation."<br><span class="quote-author">— Temple of Shmalor ritual</span></div>
-                <div class="quote" data-index="12">"The void does not take. It gives. It gives madness."<br><span class="quote-author">— Void Researcher</span></div>
+            <div class="section-header">
+                <h2>Features</h2>
+                <p>Dive into a rich world of unique races, ancient deities, and mysterious technologies</p>
             </div>
-        </div>
-        
-        <div class="card">
-            <div class="features-section">
-                <div class="features-header">
-                    <h2>Features</h2>
-                    <p>Dive into a rich world of unique races, ancient deities, and mysterious technologies</p>
-                </div>
-                
-                <div class="features-grid">
-                    <div class="feature-card">
-                        <img src="html_assets/images/misc/misc_001.png" alt="Unique Races" class="feature-image">
-                        <div class="feature-content">
-                            <div>
-                                <h3 class="feature-title">8 Unique Playable Races</h3>
-                                <p class="feature-description">Each with distinct abilities, strengths, weaknesses, and cultural traits</p>
-                            </div>
-                            <div class="feature-list">
-                                <span class="feature-tag">Wormlings</span>
-                                <span class="feature-tag">Bloodelves</span>
-                                <span class="feature-tag">Satyrs</span>
-                                <span class="feature-tag">Hellspawns</span>
-                                <span class="feature-tag">Froggians</span>
-                                <span class="feature-tag">Pasunkas</span>
-                                <span class="feature-tag">Finestorians</span>
-                                <span class="feature-tag">Northmen</span>
-                            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <img src="html_assets/images/misc/misc_001.png" alt="Unique Races" class="feature-image">
+                    <div class="feature-content">
+                        <div>
+                            <h3 class="feature-title">8 Unique Playable Races</h3>
+                            <p class="feature-description">Each with distinct abilities, strengths, weaknesses, and cultural traits</p>
                         </div>
-                    </div>
-                    
-                    <div class="feature-card">
-                        <img src="html_assets/images/misc/misc_002.png" alt="Void Technology" class="feature-image">
-                        <div class="feature-content">
-                            <div>
-                                <h3 class="feature-title">Void Technology System</h3>
-                                <p class="feature-description">Harness the power of the void with specialized buildings and mechanics</p>
-                            </div>
-                            <div class="feature-list">
-                                <span class="feature-tag">Void Ore Mining</span>
-                                <span class="feature-tag">Crystal Refineries</span>
-                                <span class="feature-tag">Void Nexus</span>
-                                <span class="feature-tag">Void Amplifiers</span>
-                                <span class="feature-tag">Void Gateways</span>
-                                <span class="feature-tag">Power Generation</span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="feature-card">
-                        <img src="html_assets/images/misc/misc_003.png" alt="Rich Lore" class="feature-image">
-                        <div class="feature-content">
-                            <div>
-                                <h3 class="feature-title">Rich Lore</h3>
-                                <p class="feature-description">Deep, interconnected stories and backgrounds for each race and deity</p>
-                            </div>
-                            <div class="feature-list">
-                                <span class="feature-tag">Historical Conflicts</span>
-                                <span class="feature-tag">Divine Pantheon</span>
-                                <span class="feature-tag">Cultural Traditions</span>
-                                <span class="feature-tag">Racial Origins</span>
-                                <span class="feature-tag">Ancient Prophecies</span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="feature-card">
-                        <img src="html_assets/images/misc/misc_004.png" alt="Custom Music" class="feature-image">
-                        <div class="feature-content">
-                            <div>
-                                <h3 class="feature-title">Custom Music</h3>
-                                <p class="feature-description">Immersive soundtrack that enhances the atmospheric experience</p>
-                            </div>
-                            <div class="feature-list">
-                                <span class="feature-tag">Thematic Race Tracks</span>
-                                <span class="feature-tag">Battle Compositions</span>
-                                <span class="feature-tag">Ambient Soundscapes</span>
-                                <span class="feature-tag">Religious Hymns</span>
-                                <span class="feature-tag">Seasonal Variations</span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="feature-card">
-                        <img src="html_assets/images/misc/misc_005.png" alt="Balanced Gameplay" class="feature-image">
-                        <div class="feature-content">
-                            <div>
-                                <h3 class="feature-title">Balanced Gameplay</h3>
-                                <p class="feature-description">Each race offers unique advantages and challenges while maintaining balance</p>
-                            </div>
-                            <div class="feature-list">
-                                <span class="feature-tag">Unique Racial Abilities</span>
-                                <span class="feature-tag">Specialized Buildings</span>
-                                <span class="feature-tag">Cultural Preferences</span>
-                                <span class="feature-tag">Diplomatic Relations</span>
-                                <span class="feature-tag">Economic Strategies</span>
-                            </div>
+                        <div class="feature-list">
+                            <span class="feature-tag">Wormlings</span>
+                            <span class="feature-tag">Bloodelves</span>
+                            <span class="feature-tag">Satyrs</span>
+                            <span class="feature-tag">Hellspawns</span>
+                            <span class="feature-tag">Froggians</span>
+                            <span class="feature-tag">Pasunkas</span>
+                            <span class="feature-tag">Finestorians</span>
+                            <span class="feature-tag">Northmen</span>
                         </div>
                     </div>
                 </div>
                 
-                <div class="features-header" style="margin-top: 3rem;">
-                    <h2>Divine Powers</h2>
-                    <p>Ancient deities with unique bonuses and racial preferences</p>
+                <div class="feature-card">
+                    <img src="html_assets/images/misc/misc_002.png" alt="Void Technology" class="feature-image">
+                    <div class="feature-content">
+                        <div>
+                            <h3 class="feature-title">Void Technology System</h3>
+                            <p class="feature-description">Harness the power of the void with specialized buildings and mechanics</p>
+                        </div>
+                        <div class="feature-list">
+                            <span class="feature-tag">Void Ore Mining</span>
+                            <span class="feature-tag">Crystal Refineries</span>
+                            <span class="feature-tag">Void Nexus</span>
+                            <span class="feature-tag">Void Amplifiers</span>
+                            <span class="feature-tag">Void Gateways</span>
+                            <span class="feature-tag">Power Generation</span>
+                        </div>
+                    </div>
                 </div>
                 
-                <div class="religion-grid">
-                    <div class="religion-card aminion-card">
-                        <img src="html_assets/images/temple_aminion.png" alt="Temple of Aminion" class="religion-image">
-                        <div class="religion-content">
-                            <div>
-                                <h3 class="religion-title">Temple of Aminion</h3>
-                                <p class="religion-description">The fallen one, lord of chaos and nemesis of the Athuri. Requires human sacrifice.</p>
-                            </div>
-                            <p class="religion-followers">Strongly preferred by: Hellspawns, Bloodelves</p>
+                <div class="feature-card">
+                    <img src="html_assets/images/misc/misc_003.png" alt="Rich Lore" class="feature-image">
+                    <div class="feature-content">
+                        <div>
+                            <h3 class="feature-title">Rich Lore</h3>
+                            <p class="feature-description">Deep, interconnected stories and backgrounds for each race and deity</p>
+                        </div>
+                        <div class="feature-list">
+                            <span class="feature-tag">Historical Conflicts</span>
+                            <span class="feature-tag">Divine Pantheon</span>
+                            <span class="feature-tag">Cultural Traditions</span>
+                            <span class="feature-tag">Racial Origins</span>
+                            <span class="feature-tag">Ancient Prophecies</span>
                         </div>
                     </div>
-                    
-                    <div class="religion-card athuri-card">
-                        <img src="html_assets/images/temple_athuri.png" alt="Temple of Athuri" class="religion-image">
-                        <div class="religion-content">
-                            <div>
-                                <h3 class="religion-title">Temple of Athuri</h3>
-                                <p class="religion-description">The leader and greatest of the Astari, who defeated his brother Bardok in both wars against him.</p>
-                            </div>
-                            <p class="religion-followers">Strongly preferred by: Satyrs, Froggians</p>
+                </div>
+                
+                <div class="feature-card">
+                    <img src="html_assets/images/misc/misc_004.png" alt="Custom Music" class="feature-image">
+                    <div class="feature-content">
+                        <div>
+                            <h3 class="feature-title">Custom Music</h3>
+                            <p class="feature-description">Immersive soundtrack that enhances the atmospheric experience</p>
+                        </div>
+                        <div class="feature-list">
+                            <span class="feature-tag">Thematic Race Tracks</span>
+                            <span class="feature-tag">Battle Compositions</span>
+                            <span class="feature-tag">Ambient Soundscapes</span>
+                            <span class="feature-tag">Religious Hymns</span>
+                            <span class="feature-tag">Seasonal Variations</span>
                         </div>
                     </div>
-                    
-                    <div class="religion-card crator-card">
-                        <img src="html_assets/images/temple_crator.png" alt="Temple of Crator" class="religion-image">
-                        <div class="religion-content">
-                            <div>
-                                <h3 class="religion-title">Temple of Crator</h3>
-                                <p class="religion-description">The foremost creator of the Astari, who created many species of Syx but was later tempted by Aminion.</p>
-                            </div>
-                            <p class="religion-followers">Strongly preferred by: Finestorians, Northmen</p>
+                </div>
+                
+                <div class="feature-card">
+                    <img src="html_assets/images/misc/misc_005.png" alt="Balanced Gameplay" class="feature-image">
+                    <div class="feature-content">
+                        <div>
+                            <h3 class="feature-title">Balanced Gameplay</h3>
+                            <p class="feature-description">Each race offers unique advantages and challenges while maintaining balance</p>
+                        </div>
+                        <div class="feature-list">
+                            <span class="feature-tag">Unique Racial Abilities</span>
+                            <span class="feature-tag">Specialized Buildings</span>
+                            <span class="feature-tag">Cultural Preferences</span>
+                            <span class="feature-tag">Diplomatic Relations</span>
+                            <span class="feature-tag">Economic Strategies</span>
                         </div>
                     </div>
-                    
-                    <div class="religion-card shmalor-card">
-                        <img src="html_assets/images/temple_shmalor.png" alt="Temple of Shmalor" class="religion-image">
-                        <div class="religion-content">
-                            <div>
-                                <h3 class="religion-title">Temple of Shmalor</h3>
-                                <p class="religion-description">The queen of the Agonosh, slayed by the Tilapi chieftain Trinduri during the first war of the gods.</p>
-                            </div>
-                            <p class="religion-followers">Strongly preferred by: Wormlings, Bloodelves</p>
+                </div>
+            </div>
+            
+            <div class="section-header" style="margin-top: 3rem;">
+                <h2>Divine Powers</h2>
+                <p>Ancient deities with unique bonuses and racial preferences</p>
+            </div>
+            
+            <div class="religion-grid">
+                <div class="religion-card aminion-card">
+                    <img src="html_assets/images/temple_aminion.png" alt="Temple of Aminion" class="religion-image">
+                    <div class="religion-content">
+                        <div>
+                            <h3 class="religion-title">Temple of Aminion</h3>
+                            <p class="religion-description">The fallen one, lord of chaos and nemesis of the Athuri. Requires human sacrifice.</p>
                         </div>
+                        <p class="religion-followers">Strongly preferred by: Hellspawns, Bloodelves</p>
                     </div>
-                    
-                    <div class="religion-card emperor-card">
-                        <img src="html_assets/images/temple_emperor.png" alt="Temple of the God Emperor" class="religion-image">
-                        <div class="religion-content">
-                            <div>
-                                <h3 class="religion-title">God Emperor</h3>
-                                <p class="religion-description">A new deity rising from the void, promising power to those who embrace the darkness within.</p>
-                            </div>
-                            <p class="religion-followers">Exclusive to: Wormlings</p>
+                </div>
+                
+                <div class="religion-card athuri-card">
+                    <img src="html_assets/images/temple_athuri.png" alt="Temple of Athuri" class="religion-image">
+                    <div class="religion-content">
+                        <div>
+                            <h3 class="religion-title">Temple of Athuri</h3>
+                            <p class="religion-description">The leader and greatest of the Astari, who defeated his brother Bardok in both wars against him.</p>
                         </div>
-                        <div class="coming-soon">Coming Soon</div>
+                        <p class="religion-followers">Strongly preferred by: Satyrs, Froggians</p>
                     </div>
+                </div>
+                
+                <div class="religion-card crator-card">
+                    <img src="html_assets/images/temple_crator.png" alt="Temple of Crator" class="religion-image">
+                    <div class="religion-content">
+                        <div>
+                            <h3 class="religion-title">Temple of Crator</h3>
+                            <p class="religion-description">The foremost creator of the Astari, who created many species of Syx but was later tempted by Aminion.</p>
+                        </div>
+                        <p class="religion-followers">Strongly preferred by: Finestorians, Northmen</p>
+                    </div>
+                </div>
+                
+                <div class="religion-card shmalor-card">
+                    <img src="html_assets/images/temple_shmalor.png" alt="Temple of Shmalor" class="religion-image">
+                    <div class="religion-content">
+                        <div>
+                            <h3 class="religion-title">Temple of Shmalor</h3>
+                            <p class="religion-description">The queen of the Agonosh, slayed by the Tilapi chieftain Trinduri during the first war of the gods.</p>
+                        </div>
+                        <p class="religion-followers">Strongly preferred by: Wormlings, Bloodelves</p>
+                    </div>
+                </div>
+                
+                <div class="religion-card emperor-card">
+                    <img src="html_assets/images/temple_emperor.png" alt="Temple of the God Emperor" class="religion-image">
+                    <div class="religion-content">
+                        <div>
+                            <h3 class="religion-title">God Emperor</h3>
+                            <p class="religion-description">A new deity rising from the void, promising power to those who embrace the darkness within.</p>
+                        </div>
+                        <p class="religion-followers">Exclusive to: Wormlings</p>
+                    </div>
+                    <div class="coming-soon">Coming Soon</div>
                 </div>
             </div>
         </div>
         
         <div class="card">
-            <h2>Installation</h2>
+            <div class="section-header">
+                <h2>Installation</h2>
+            </div>
             <p>1. Download the mod from the <a href="https://github.com/Thothius/roomian-realms/releases" style="color: var(--accent-color);">GitHub releases page</a>.</p>
             <p>2. Extract the contents to your Songs of Syx mods folder (typically located at <code>C:\Users\[YourUsername]\AppData\Roaming\songsofsyx\mods\</code>).</p>
             <p>3. Launch Songs of Syx and enable the Roomian Realms mod in the mod selection screen.</p>
@@ -919,13 +857,13 @@
         
         <footer>
             <div class="footer-content">
-                <p class="footer-text">Roomian Realms is a community fan modpack created with love, caffeine, and probably too many late nights. No wormlings were harmed in the making of this mod (they volunteered).</p>
+                <p>Roomian Realms is a community fan modpack created with love, sweat, and tears. And maybe some wormlings volunteered too.</p>
                 <div class="footer-links">
-                    <a href="https://github.com/Thothius/roomian-realms" target="_blank">GitHub</a>
-                    <a href="https://discord.gg/songsofsyx" target="_blank">Songs of Syx Discord</a>
-                    <a href="https://steamcommunity.com/app/1162750/workshop/" target="_blank">Steam Workshop</a>
+                    <a href="https://github.com/Thothius/roomian-realms" class="footer-link">GitHub Repository</a>
+                    <a href="#" class="footer-link">Discord Server</a>
+                    <a href="#" class="footer-link">Steam Workshop</a>
                 </div>
-                <p class="footer-disclaimer">This is an unofficial fan project and is not affiliated with Songs of Syx or its developers. All game assets belong to their respective owners.</p>
+                <p class="footer-disclaimer">This is a fan project and is not affiliated with Songs of Syx or its developers. All game assets belong to their respective owners.</p>
             </div>
         </footer>
         
