@@ -65,30 +65,37 @@
             border-radius: 8px;
             margin-bottom: 2rem;
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+            border-bottom: 3px solid var(--accent-color);
         }
         
         header h1 {
-            font-size: 3.5rem;
+            font-size: 3.8rem;
             margin-bottom: 1rem;
-            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8), 0 0 30px rgba(249, 168, 37, 0.4);
             color: var(--accent-color);
+            letter-spacing: 2px;
+            font-weight: 800;
         }
         
         .subtitle {
-            font-size: 1.3rem;
+            font-size: 1.4rem;
             margin-bottom: 2rem;
             text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+            font-style: italic;
+            color: #e0e0e0;
         }
         
         .cta-buttons {
             display: flex;
             justify-content: center;
-            gap: 1rem;
-            margin-top: 2rem;
+            gap: 1.5rem;
+            margin-top: 2.5rem;
         }
         
         .cta-button {
-            display: inline-block;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
             background-color: var(--accent-color);
             color: #000;
             padding: 0.8rem 1.5rem;
@@ -97,6 +104,15 @@
             font-weight: bold;
             transition: all 0.3s ease;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            font-size: 1.1rem;
+            min-width: 160px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .cta-button i {
+            margin-right: 8px;
+            font-size: 1.2rem;
         }
         
         .cta-button:hover {
@@ -117,25 +133,51 @@
         
         .intro-card {
             background: linear-gradient(rgba(26, 26, 26, 0.8), rgba(26, 26, 26, 0.9));
-            padding: 2rem;
+            padding: 2.5rem;
             border-radius: 8px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
             margin-bottom: 2rem;
             border-left: 4px solid var(--accent-color);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .intro-card::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100px;
+            height: 100px;
+            background: radial-gradient(circle, rgba(249, 168, 37, 0.2) 0%, rgba(249, 168, 37, 0) 70%);
+            z-index: 1;
         }
         
         .intro-quote {
             font-style: italic;
-            font-size: 1.1rem;
+            font-size: 1.3rem;
             line-height: 1.6;
             margin-bottom: 1.5rem;
             color: #e0e0e0;
+            position: relative;
+            z-index: 2;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        }
+        
+        .intro-quote::before,
+        .intro-quote::after {
+            content: '"';
+            color: var(--accent-color);
+            font-size: 1.8rem;
+            font-weight: bold;
         }
         
         .intro-description {
-            font-size: 1rem;
+            font-size: 1.1rem;
             line-height: 1.6;
             color: #c0c0c0;
+            position: relative;
+            z-index: 2;
         }
         
         .section-header {
@@ -674,14 +716,153 @@
             <h1>Roomian Realms (RG2)</h1>
             <p class="subtitle">Eight ancient bloodlines vie for dominance in a world where forgotten gods still whisper</p>
             <div class="cta-buttons">
-                <a href="https://github.com/Thothius/roomian-realms/releases" class="cta-button">Download Mod</a>
-                <a href="https://github.com/Thothius/roomian-realms" class="cta-button secondary">View on GitHub</a>
+                <a href="https://github.com/Thothius/roomian-realms/releases" class="cta-button"><i class="fas fa-download"></i>Download Mod</a>
+                <a href="https://github.com/Thothius/roomian-realms" class="cta-button secondary"><i class="fab fa-github"></i>GitHub</a>
+                <a href="#races" class="cta-button secondary"><i class="fas fa-users"></i>Race Info</a>
             </div>
         </header>
         
         <div class="intro-card">
-            <p class="intro-quote">"Eight ancient bloodlines vie for dominance in a world where forgotten gods still whisper. Forge your legacy through blood, steel, or forbidden knowledge as ancient pacts are broken and new alliances forged."</p>
+            <p class="intro-quote">Eight ancient bloodlines vie for dominance in a world where forgotten gods still whisper. Forge your legacy through blood, steel, or forbidden knowledge as ancient pacts are broken and new alliances forged.</p>
             <p class="intro-description">When the old gods fell, they left behind their children—some blessed, others cursed. Now these heirs to divinity and darkness clash across a fractured realm where honor and treachery are merely different faces of survival. The throne awaits one who can master the delicate dance of power.</p>
+        </div>
+        
+        <div class="race-grid" id="races">
+            <!-- Wormlings (GARTHIMI) -->
+            <div class="race-card outsider-race">
+                <div class="race-title">Wormlings <span class="race-code">GARTHIMI</span></div>
+                <img src="html_assets/images/wormlings.png" alt="Wormlings" class="race-image">
+                <div class="race-overlay">
+                    <div class="race-description">Parasitic swarm fighters from beyond reality that overwhelm with numbers and biological adaptations.</div>
+                    <div class="race-alignment">
+                        <span class="alignment-icon" style="background-color: #9c27b0;"></span>
+                        Alignment: <span class="alignment-outsider">The Outsiders</span>
+                    </div>
+                    <div class="race-deity">
+                        <span class="deity-icon" style="background-color: var(--shmalor-color);"></span>
+                        Worship: <span class="deity-shmalor tooltip">The Slain Queen<span class="tooltiptext">Shmalor, the queen of the Agonosh, was slain during the first war of the gods. The Wormlings believe her divine essence transformed into the First Great Worm.</span></span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Bloodelves (CANTOR) -->
+            <div class="race-card shadow-race">
+                <div class="race-title">Bloodelves <span class="race-code">CANTOR</span></div>
+                <img src="html_assets/images/bloodelves.png" alt="Bloodelves" class="race-image">
+                <div class="race-overlay">
+                    <div class="race-description">Vampire-like beings who maintain slaves for blood consumption and value status through domination.</div>
+                    <div class="race-alignment">
+                        <span class="alignment-icon" style="background-color: #f44336;"></span>
+                        Alignment: <span class="alignment-shadow">Servants of Shadow</span>
+                    </div>
+                    <div class="race-deity">
+                        <span class="deity-icon" style="background-color: var(--aminion-color);"></span>
+                        Worship: <span class="deity-aminion tooltip">The Fallen One<span class="tooltiptext">Aminion, the fallen one and lord of chaos, requires human sacrifice and promotes submission. The Bloodelves see his teachings as justification for their vampiric nature.</span></span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Satyrs (ARGONOSH) -->
+            <div class="race-card light-race">
+                <div class="race-title">Satyrs <span class="race-code">ARGONOSH</span></div>
+                <img src="html_assets/images/satyrs.png" alt="Satyrs" class="race-image">
+                <div class="race-overlay">
+                    <div class="race-description">Female-dominated forest dwellers who value nature, isolation, and defense rather than aggression.</div>
+                    <div class="race-alignment">
+                        <span class="alignment-icon" style="background-color: #4caf50;"></span>
+                        Alignment: <span class="alignment-light">Children of Light</span>
+                    </div>
+                    <div class="race-deity">
+                        <span class="deity-icon" style="background-color: var(--athuri-color);"></span>
+                        Worship: <span class="deity-athuri tooltip">The Leader<span class="tooltiptext">Athuri Astari, the leader and greatest of the Astari, defeated his brother Bardok in both wars against him. The Satyrs revere him as the protector of the natural world.</span></span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Hellspawns (TILAPI) -->
+            <div class="race-card shadow-race">
+                <div class="race-title">Hellspawns <span class="race-code">TILAPI</span></div>
+                <img src="html_assets/images/hellspawn.png" alt="Hellspawns" class="race-image">
+                <div class="race-overlay">
+                    <div class="race-description">Demonic entities that embody chaos and destruction, building their society on domination and cruelty.</div>
+                    <div class="race-alignment">
+                        <span class="alignment-icon" style="background-color: #f44336;"></span>
+                        Alignment: <span class="alignment-shadow">Servants of Shadow</span>
+                    </div>
+                    <div class="race-deity">
+                        <span class="deity-icon" style="background-color: var(--aminion-color);"></span>
+                        Worship: <span class="deity-aminion tooltip">The Fallen One<span class="tooltiptext">Aminion, the fallen one and lord of chaos, is the primary deity of the Hellspawns. Their society celebrates suffering as a path to power, believing that through chaos they bring about Aminion's vision.</span></span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Froggians (Q_AMEVIA) -->
+            <div class="race-card light-race">
+                <div class="race-title">Froggians <span class="race-code">Q_AMEVIA</span></div>
+                <img src="html_assets/images/froggians.png" alt="Froggians" class="race-image">
+                <div class="race-overlay">
+                    <div class="race-description">Amphibious beings who embody wisdom and technology with a pacifist nature, valuing knowledge above all.</div>
+                    <div class="race-alignment">
+                        <span class="alignment-icon" style="background-color: #4caf50;"></span>
+                        Alignment: <span class="alignment-light">Children of Light</span>
+                    </div>
+                    <div class="race-deity">
+                        <span class="deity-icon" style="background-color: var(--athuri-color);"></span>
+                        Worship: <span class="deity-athuri tooltip">The Leader<span class="tooltiptext">Athuri Astari, the leader and greatest of the Astari, is revered by the Froggians for his wisdom and leadership. They see his teachings as the path to enlightenment and peaceful coexistence.</span></span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Pasunkas (CRETONIAN) -->
+            <div class="race-card outsider-race">
+                <div class="race-title">Pasunkas <span class="race-code">CRETONIAN</span></div>
+                <img src="html_assets/images/pasunkas.png" alt="Pasunkas" class="race-image">
+                <div class="race-overlay">
+                    <div class="race-description">Spiritual martial artists who value discipline and balance, following the philosophy of "Push-up Taijutsu."</div>
+                    <div class="race-alignment">
+                        <span class="alignment-icon" style="background-color: #9c27b0;"></span>
+                        Alignment: <span class="alignment-outsider">The Outsiders</span>
+                    </div>
+                    <div class="race-deity">
+                        <span class="deity-icon" style="background-color: var(--crator-color);"></span>
+                        Worship: <span class="deity-crator tooltip">The Creator<span class="tooltiptext">Crator Astari, the foremost creator of the Astari, is viewed by the Pasunkas as the ultimate embodiment of physical and spiritual perfection, inspiring their martial philosophy.</span></span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Finestorians (DONDORIAN) -->
+            <div class="race-card balance-race">
+                <div class="race-title">Finestorians <span class="race-code">DONDORIAN</span></div>
+                <img src="html_assets/images/finestorians.png" alt="Finestorians" class="race-image">
+                <div class="race-overlay">
+                    <div class="race-description">Craftsmen who value skill and honest labor, direct and loyal but can be isolationist and judgmental.</div>
+                    <div class="race-alignment">
+                        <span class="alignment-icon" style="background-color: #9e9e9e;"></span>
+                        Alignment: <span class="alignment-balance">Heirs of Balance</span>
+                    </div>
+                    <div class="race-deity">
+                        <span class="deity-icon" style="background-color: var(--crator-color);"></span>
+                        Worship: <span class="deity-crator tooltip">The Creator<span class="tooltiptext">Crator Astari, the foremost creator of the Astari, is deeply revered by the Finestorians who believe that creating objects of quality is the highest form of worship, seeing each crafted item as an echo of his divine creation.</span></span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Northmen (HUMAN) -->
+            <div class="race-card balance-race">
+                <div class="race-title">Northmen <span class="race-code">HUMAN</span></div>
+                <img src="html_assets/images/northmen.png" alt="Northmen" class="race-image">
+                <div class="race-overlay">
+                    <div class="race-description">Pragmatic traders and warriors who value ambition and clan reputation, driven by practicality and competition.</div>
+                    <div class="race-alignment">
+                        <span class="alignment-icon" style="background-color: #9e9e9e;"></span>
+                        Alignment: <span class="alignment-balance">Heirs of Balance</span>
+                    </div>
+                    <div class="race-deity">
+                        <span class="deity-icon" style="background-color: var(--crator-color);"></span>
+                        Worship: <span class="deity-crator tooltip">The Creator<span class="tooltiptext">Crator Astari, the foremost creator of the Astari, is respected by the Northmen who believe he created humans with ambition and adaptability to thrive in any environment.</span></span>
+                    </div>
+                </div>
+            </div>
         </div>
         
         <div class="card">
