@@ -1,6 +1,6 @@
-# RG2 Mod v0.3 - Comprehensive Racial Overview
+# RoomianRealms Mod v0.3 - Comprehensive Cultural Overview
 
-*This document provides detailed information about all playable races in the RG2 mod, including their stats, abilities, lore, and gameplay characteristics.*
+*This document provides detailed information about all playable civilizations in the RoomianRealms mod, including their stats, abilities, lore, and gameplay characteristics.*
 
 ## Table of Contents
 1. [Wormlings (GARTHIMI)](#1-wormlings-garthimi---the-breach)
@@ -41,12 +41,12 @@ The Wormlings are cosmic horrors from beyond reality who arrived through "The Br
 
 Their settlements are built around sacred Nutrient Pools where their young gestate and the revered Great Worms dwell, connecting all Wormlings through a psychic network. They believe in "The Great Renewal," a cosmic cycle of parasitic consumption that will eventually encompass all life, with the ultimate goal of recreating The Breach in reverse to return to their home dimension.
 
-The Wormlings worship Shmalor with fanatical devotion, believing her divine essence became the First Great Worm. Their society is structured around five specialized castes: Infiltrators, Digesters, Cultivators, Connectors, and Rememberers. Despite their horrifying nature, they maintain complex diplomatic relations with other races, viewing most as potential hosts.
+The Wormlings worship Shmalor with fanatical devotion, believing her divine essence became the First Great Worm. Their society is structured around five specialized castes: Infiltrators, Digesters, Cultivators, Connectors, and Rememberers. Despite their horrifying nature, they maintain complex diplomatic relations with other civilizations, viewing most as potential hosts.
 
 ### Gameplay Strategy
-Wormlings excel at rapid population growth and agricultural production. Their extremely short lifespan is offset by their exceptional reproduction rate, allowing them to quickly recover from disasters. They are best suited for agricultural settlements with a focus on Balti pastures and void technology. Their poor mining and crafting abilities should be supplemented by other races or slaves.
+Wormlings excel at rapid population growth and agricultural production. Their extremely short lifespan is offset by their exceptional reproduction rate, allowing them to quickly recover from disasters. They are best suited for agricultural settlements with a focus on Balti pastures and void technology. Their poor mining and crafting abilities should be supplemented by other civilizations or slaves.
 
-Their unique racial building, the Nutrient Pool, allows them to process organic matter efficiently while their connection to the void makes them the premier race for harnessing void energies through the Void Gateway and its Void Communion mode.
+Their unique racial building, the Nutrient Pool, allows them to process organic matter efficiently while their connection to the void makes them the premier civilization for harnessing void energies through the Void Gateway and its Void Communion mode.
 
 ---
 
@@ -69,19 +69,19 @@ Their unique racial building, the Nutrient Pool, allows them to process organic 
 | **World Building** | Agriculture: -40%<br>Pasture: -30%<br>Mining: -10%<br>Workforce: +10% |
 | **Race Compatibility** | CANTOR: 0.8<br>TILAPI: 0.5<br>CRETONIAN: 0.4<br>ARGONOSH: 0.3<br>DONDORIAN: 0.3<br>Q_AMEVIA: 0.3<br>GARTHIMI: 0.2<br>HUMAN: 0.2 |
 | **Pros** | • Superior archers and hunters<br>• Masters of blood magic<br>• Exceptional stealth and ambush tactics<br>• Extended lifespan (300 years)<br>• Enhanced night vision |
-| **Cons** | • Require regular blood consumption<br>• Vulnerable to holy magic and sunlight<br>• Poor resistance to heat<br>• Limited agricultural abilities<br>• Universally distrusted by other races |
+| **Cons** | • Require regular blood consumption<br>• Vulnerable to holy magic and sunlight<br>• Poor resistance to heat<br>• Limited agricultural abilities<br>• Universally distrusted by other civilizations |
 
 ### Lore Summary
 The Bloodelves trace their origins to the First War of the Gods, when Aminion's dark essence transformed forest dwellers into beings who sustain themselves through blood consumption. Their hunting prowess is unmatched, with the ability to track prey for days without rest and ambush with enchanted longbows. Their combat doctrine, the "Path of Crimson Shadows," teaches that true power flows from blood freely given or violently taken.
 
 Their society is strictly hierarchical, with status determined by blood magic potency and victim lineage. The highest echelon, the Sanguine Court, consists of ancient Bloodelves who have consumed the blood of legendary heroes and kings, granting them extended lifespans and formidable magical abilities.
 
-Their settlements are architectural marvels hidden in ancient forests, built around massive "Heartwood Trees" fed with blood sacrifices. These trees produce crimson sap that enhances their abilities when consumed during the monthly Crimson Moon ritual. Their most sacred site, the Cathedral of Crimson Mists, houses an eternal flame burning with the combined blood of a thousand races.
+Their settlements are architectural marvels hidden in ancient forests, built around massive "Heartwood Trees" fed with blood sacrifices. These trees produce crimson sap that enhances their abilities when consumed during the monthly Crimson Moon ritual. Their most sacred site, the Cathedral of Crimson Mists, houses an eternal flame burning with the combined blood of a thousand civilizations.
 
-The Bloodelves maintain complex relationships with other races, viewing Hellspawns as kindred spirits in darkness and respecting Finestorians' craftsmanship while disdaining the peaceful ways of Froggians and Satyrs. They primarily worship Aminion with blood sacrifices while maintaining secondary reverence for Shmalor, whom they believe taught them blood magic.
+The Bloodelves maintain complex relationships with other civilizations, viewing Hellspawns as kindred spirits in darkness and respecting Finestorians' craftsmanship while disdaining the peaceful ways of Froggians and Satyrs. They primarily worship Aminion with blood sacrifices while maintaining secondary reverence for Shmalor, whom they believe taught them blood magic.
 
 ### Gameplay Strategy
-Bloodelves excel at ranged combat, hunting, and intellectual pursuits. Their extended lifespan makes them excellent administrators and researchers, while their hunting prowess ensures a steady supply of meat. They struggle with agriculture and basic resource gathering, making them dependent on slaves or other races for these tasks.
+Bloodelves excel at ranged combat, hunting, and intellectual pursuits. Their extended lifespan makes them excellent administrators and researchers, while their hunting prowess ensures a steady supply of meat. They struggle with agriculture and basic resource gathering, making them dependent on slaves or other civilizations for these tasks.
 
 Their unique racial building, the Blood Ritual Chamber, allows them to perform blood rituals that enhance their abilities and stave off the Withering, a degenerative condition that afflicts their kind. They are best suited for settlements with a focus on hunting, archery, and scholarly pursuits, with a strong emphasis on slave management.
 
@@ -149,7 +149,7 @@ The Push-up Dojo serves as a training facility that enhances stamina, health, an
 
 ## Religious Framework
 
-The RG2 mod features four main religions, each with distinct lore and racial preferences:
+The RoomianRealms mod features four main religions, each with distinct lore and civilization preferences:
 
 ### 1. Temple of Aminion
 - **Deity**: Aminion, the fallen one, lord of chaos
@@ -179,7 +179,7 @@ The RG2 mod features four main religions, each with distinct lore and racial pre
 
 ## Void Technology System
 
-The void technology system represents a major feature of the RG2 mod, providing a complete resource chain with race-specific bonuses and applications:
+The void technology system represents a major feature of the RoomianRealms mod, providing a complete resource chain with civilization-specific bonuses and applications:
 
 ### Resource Chain
 1. **Mine Void Ore**: Extracts Void Ore from the ground
@@ -196,18 +196,18 @@ The void technology system represents a major feature of the RG2 mod, providing 
 3. **Void Nexus**: Converts Void Crystal into knowledge and Shmalor religion
    - Input: 0.1 Void Crystal + 0.05 Metal
    - Output: 0.1 Knowledge + 0.05 Shmalor Religion
-   - All races receive bonuses, with GARTHIMI and Q_AMEVIA getting the strongest benefits
+   - All civilizations receive bonuses, with GARTHIMI and Q_AMEVIA getting the strongest benefits
 
 4. **Void Amplifier**: Enhanced version of the Nexus with higher input/output ratios
    - Input: 0.2 Void Crystal + 0.1 Metal + 0.05 Gem
    - Output: 0.2 Knowledge + 0.1 Shmalor Religion + 0.05 Civic Innovation
-   - More substantial bonuses for all races, with race-specific skill boosts
+   - More substantial bonuses for all civilizations, with civilization-specific skill boosts
 
 5. **Void Gateway**: Ultimate void structure with two operational modes
    - Standard: High resource consumption for multiple outputs
    - Void Communion: Exclusive to GARTHIMI, extremely high consumption but massive bonuses
    - Requires 500 citizens and 50 GARTHIMI citizens
-   - Substantial bonuses for all races, with GARTHIMI receiving transformative benefits
+   - Substantial bonuses for all civilizations, with GARTHIMI receiving transformative benefits
 
-### Integration with Race Lore
-The void technology system is deeply integrated with the cosmic horror origins of the Wormlings and their connection to the "God-Emperor of the Endless Void." Other races interact with void technology according to their cultural and religious affinities, with races connected to Shmalor worship (GARTHIMI and partially CANTOR) receiving the strongest benefits.
+### Integration with Civilization Lore
+The void technology system is deeply integrated with the cosmic horror origins of the Wormlings and their connection to the "God-Emperor of the Endless Void." Other civilizations interact with void technology according to their cultural and religious affinities, with civilizations connected to Shmalor worship (GARTHIMI and partially CANTOR) receiving the strongest benefits.
