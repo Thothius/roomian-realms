@@ -2,32 +2,55 @@
 ![Roomian Realms Banner](assets/gfx/settlement/ui/sprite/icon/32/BG/4.png)
 
 ## 🌍 Overview
-**Roomian Realms** transforms your Songs of Syx experience with 7 unique playable races, mysterious void technology, specialized buildings, and an immersive resource economy. Designed to enhance gameplay while maintaining balance with the base game.
+**Roomian Realms** transforms your Songs of Syx experience with 7 unique playable races, 4 powerful religions, mysterious void technology, specialized buildings, and an immersive resource economy. Designed to enhance gameplay while maintaining balance with the base game.
 
 ---
 
 ## ✨ Key Features
 
-### 🧝‍♀️ Diverse Races
-Each race offers unique gameplay advantages and cultural traits:
+### 🧝‍♀️ Diverse Races & Religions
+Each race offers unique gameplay advantages and cultural traits, aligned with their religious beliefs:
 
-| Race | Specialization | Cultural Focus |
-|------|----------------|---------------|
-| **Argonosh** | Archery & Speed | Matriarchal forest society with spiritual connections |
-| **Cantor** | Combat & Morale | Warrior culture with strong martial traditions |
-| **Cretonian** | Armor & Damage | Disciplined fighters with natural defensive abilities |
-| **Dondorian** | Industry & Crafting | Master artisans with industrial expertise |
-| **Garthimi** | Reproduction | Prolific breeders with unique social structures |
-| **Q'Amevia** | Research & Education | Scholarly race focused on knowledge and learning |
-| **Tilapi** | Swimming & Fishing | Aquatic race with affinity for water environments |
+| Race | Specialization | Cultural Focus | Primary Religion |
+|------|----------------|---------------|-----------------|
+| **Argonosh (Satyrs)** | Archery & Forest Affinity | Matriarchal forest society with spiritual connections | Athuri (Nature) |
+| **Cantor (Bloodelves)** | Blood Magic & Aristocracy | Refined predators with blood-based rituals | Aminion (Blood) |
+| **Cretonian (Pasunkas)** | Martial Arts & Balance | Disciplined fighters seeking perfect harmony | Crator (Creation) |
+| **Dondorian (Finestorians)** | Craftsmanship & Industry | Master artisans with unparalleled skill | Crator (Creation) |
+| **Garthimi (Wormlings)** | Parasitism & Hive Mind | Parasitic collective with alien consciousness | Shmalor (Decay) |
+| **Q'Amevia (Froggians)** | Knowledge & Diplomacy | Scholarly amphibians focused on peaceful progress | Athuri (Nature) |
+| **Tilapi (Hellspawns)** | Warfare & Cruelty | Merciless warriors who thrive on suffering | Aminion (Blood) |
+
+### ⛪ The Four Great Powers
+The world is shaped by four divine forces that compete for influence:
+
+- **Athuri, The Balanced One** - Deity of nature, harmony, and knowledge
+  - *Favored by:* Satyrs and Froggians
+  - *Grants:* Bonuses to mining, refinement, and education
+  - *Opposed to:* Aminion and Shmalor
+
+- **Aminion, The Fallen One** - Deity of blood, domination, and cruelty
+  - *Favored by:* Bloodelves and Hellspawns
+  - *Grants:* Increased loyalty, submission, and military conscription
+  - *Opposed to:* Athuri
+
+- **Crator, The Divine Architect** - Deity of creation, craftsmanship, and order
+  - *Favored by:* Pasunkas and Finestorians
+  - *Grants:* Bonuses to agriculture, farming, and food production
+  - *Opposed to:* Aminion and Shmalor (mildly)
+
+- **Shmalor, The Great Worm** - Deity of decay, parasitism, and transformation
+  - *Favored by:* Wormlings
+  - *Grants:* Bonuses to raiding, loyalty, and offensive combat
+  - *Opposed to:* Athuri and Crator (mildly)
 
 ### 🏗️ Specialized Buildings
 Over 20 unique buildings that enhance each race's strengths:
 
-- **Race-Specific Nurseries**: Customized growth chambers for each species
-- **Cultural Centers**: Temples and gathering places that boost racial traits
-- **Military Structures**: Specialized training facilities like the Archery Range and Dojo
-- **Production Buildings**: Workshops and processing facilities for resource chains
+- **Race-Specific Temples**: Sacred spaces dedicated to each race's primary deity
+- **Cultural Centers**: Gathering places that boost racial traits and religious devotion
+- **Military Structures**: Specialized training facilities reflecting racial combat styles
+- **Production Buildings**: Workshops and processing facilities aligned with racial skills
 
 ### 🔮 Void Technology
 A complete technological path centered around the mysterious Void Ore:
@@ -75,17 +98,23 @@ New production chains create meaningful economic decisions:
 
 ## 🔜 Coming Soon
 
-### Custom Events (In Development)
-Race-specific events that reflect the unique cultures and challenges of each race:
-- **Narrative Experiences**: Immersive storytelling unique to each race
-- **Cultural Challenges**: Face obstacles that test your leadership
-- **Racial Bonuses**: Unlock special abilities through event chains
+### Race-Specific Divine Events
+Each race will receive unique events tied to their religious beliefs:
+- **Divine Interventions**: Experience the power of your patron deity
+- **Religious Conflicts**: Navigate tensions between opposing faiths
+- **Sacred Quests**: Undertake missions to please your gods and gain their favor
 
 ### Advanced Void Technology
 Future updates will expand the Void technology tree:
-- **New Applications**: More ways to use Void resources
-- **Enhanced Effects**: Stronger bonuses from Void structures
-- **Specialized Units**: Troops empowered by Void energy
+- **Void Corruption**: New gameplay mechanic affecting religious devotion
+- **Divine Void Artifacts**: Special items combining Void energy with religious power
+- **Void Priests**: Specialized units who harness Void energy for religious purposes
+
+### The Great Cosmic Struggle
+A new narrative arc exploring the ancient conflict between the four deities:
+- **Origin of the Void**: Discover how the Void relates to the divine powers
+- **Prophecies and Portents**: Signs of a coming cosmic upheaval
+- **Choose Your Side**: Align with one deity against the others in the final conflict
 
 ---
 
@@ -107,4 +136,4 @@ Please report any bugs or provide feedback through our [GitHub repository](https
 
 ---
 
-*"The void whispers secrets to those brave enough to listen."* - Ancient Argonosh proverb
+*"Between the four great powers, the Void whispers secrets of a fifth."* - Ancient Argonosh prophecy
