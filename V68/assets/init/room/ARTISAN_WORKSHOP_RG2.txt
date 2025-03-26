@@ -1,3 +1,34 @@
+INFO: {
+	NAME: "Artisan Workshop",
+	NAMES: "Artisan Workshops",
+	DESC: "A specialized workshop where skilled craftspeople create high-quality goods from various materials. Artisans combine technical skill with artistic vision to produce items of exceptional quality and beauty.",
+},
+BONUS: {
+	NAME: "Master Crafting",
+	DESC: "Increases the quality and value of crafted goods.",
+},
+WORK: {
+	TITLE: "Artisan",
+	VERB: "Crafting",
+	SHIFT_OFFSET: 0.25,
+	SOUND: work->Hammer*,
+	ACCIDENTS_PER_YEAR: 0.02,
+	FULFILLMENT: 1.2,
+},
+STATS: [
+	{
+		NAME: "Workers",
+		DESC: "The number of artisans that can work here.",
+	},
+	{
+		NAME: "Efficiency",
+		DESC: "How efficiently materials are transformed into finished goods.",
+	},
+	{
+		NAME: "Storage",
+		DESC: "Space for materials and finished products.",
+	},
+],
 ICON: 32->WORKSHOP->9,
 RESOURCES: [WOOD,STONE,METAL,FABRIC],
 AREA_COSTS: [0.3,0.3,0,0],
@@ -31,12 +62,6 @@ UPGRADES: [
 		BOOST: 1.0,
 	},
 ],
-WORK: {
-	SHIFT_OFFSET: 0.25,
-	SOUND: work->Hammer*,
-	ACCIDENTS_PER_YEAR: 0.02,
-	FULFILLMENT: 1.2,
-},
 INDUSTRIES: [
 	{
 		INDUSTRY: {
@@ -126,4 +151,4 @@ SPRITES: {
 		},
 	],
 },
-DESCRIPTION: "A versatile workshop where skilled artisans create luxury goods and jewelry from various materials. The workshop combines multiple crafting disciplines, allowing for the creation of high-value items that satisfy the desires of nobles and wealthy citizens. Finestorians and Northmen find particular satisfaction working here due to their cultural affinity for craftsmanship."
+DESCRIPTION: "A versatile workshop where skilled artisans create luxury goods and jewelry from various materials. The workshop combines multiple crafting disciplines, allowing for the creation of high-value items that satisfy the desires of nobles and wealthy citizens. Finestorians and Northmen find particular satisfaction working here due to their cultural affinity for craftsmanship.",

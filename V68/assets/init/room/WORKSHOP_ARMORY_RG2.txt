@@ -1,3 +1,34 @@
+INFO: {
+	NAME: "Advanced Armory",
+	NAMES: "Advanced Armories",
+	DESC: "A specialized workshop that produces high-quality weapons and armor using advanced techniques and materials. This facility combines traditional smithing with innovative mechanical processes to create military equipment of superior quality.",
+},
+BONUS: {
+	NAME: "Superior Armaments",
+	DESC: "Produces advanced weapons and armor for your military forces.",
+},
+WORK: {
+	TITLE: "Master Armorer",
+	VERB: "Crafting",
+	SHIFT_OFFSET: 0.325,
+	SOUND: impact->Metal*,
+	ACCIDENTS_PER_YEAR: 0.025,
+	FULFILLMENT: 1.0,
+},
+STATS: [
+	{
+		NAME: "Armorers",
+		DESC: "Skilled craftspeople who create weapons and armor.",
+	},
+	{
+		NAME: "Efficiency",
+		DESC: "How quickly and effectively equipment is produced.",
+	},
+	{
+		NAME: "Quality",
+		DESC: "The durability and effectiveness of produced equipment.",
+	},
+],
 ICON: 32->CROSSBOW_RANGE_RG2->0,
 RESOURCES: [STONE,FURNITURE,METAL,MACHINERY,],
 AREA_COSTS: [0.2,0,0,0,],
@@ -31,12 +62,6 @@ UPGRADES: [
 		BOOST: 1.0,
 	},
 ],
-WORK: {
-	SHIFT_OFFSET: 0.325,
-	SOUND: impact->Metal*,
-	ACCIDENTS_PER_YEAR: 0.025,
-	FULFILLMENT: 1.0,
-},
 INDUSTRIES: [
 	{
 		INDUSTRY: {

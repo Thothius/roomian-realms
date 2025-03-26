@@ -1,3 +1,34 @@
+INFO: {
+	NAME: "Dreaming Pool",
+	NAMES: "Dreaming Pools",
+	DESC: "A sacred pool where Q'Amevia can immerse themselves in specially treated waters that enhance their natural psychic abilities. These pools facilitate shared dreams and visions, strengthening community bonds and providing spiritual insights.",
+},
+BONUS: {
+	NAME: "Dream Communion",
+	DESC: "Enhances psychic connection and provides spiritual rejuvenation.",
+},
+WORK: {
+	TITLE: "Dream Guide",
+	VERB: "Facilitating",
+	SHIFT_OFFSET: 0.5,
+	SOUND: nature->Water*,
+	ACCIDENTS_PER_YEAR: 0.01,
+	FULFILLMENT: 1.5,
+},
+STATS: [
+	{
+		NAME: "Guides",
+		DESC: "The number of dream guides that can facilitate sessions.",
+	},
+	{
+		NAME: "Immersion Capacity",
+		DESC: "The number of Q'Amevia that can use the pool simultaneously.",
+	},
+	{
+		NAME: "Psychic Resonance",
+		DESC: "The clarity and depth of the shared dreaming experience.",
+	},
+],
 ICON: {
 	BG: 24->race->Q_Amevia->0,
 	FG: 32->WATER->3,
@@ -41,12 +72,6 @@ UPGRADES: [
 		BOOST: 1.0,
 	},
 ],
-WORK: {
-	SHIFT_OFFSET: 0.5,
-	SOUND: nature->Water*,
-	ACCIDENTS_PER_YEAR: 0.01,
-	FULFILLMENT: 1.5,
-},
 INDUSTRIES: [
 	{
 		INDUSTRY: {
@@ -123,4 +148,4 @@ BOOSTS: {
 		HAPPINESS>ADD: 0.02,
 	},
 },
-DESCRIPTION: "A tranquil pool where Froggians can meditate and connect to their collective consciousness. The pool requires water to maintain but provides significant happiness and knowledge benefits to Froggians. It enhances their performance in libraries and universities while increasing their natural pacifism. The peaceful atmosphere provides a small happiness boost to other races."
+DESCRIPTION: "A tranquil pool where Froggians can meditate and connect to their collective consciousness. The pool requires water to maintain but provides significant happiness and knowledge benefits to Froggians. It enhances their performance in libraries and universities while increasing their natural pacifism. The peaceful atmosphere provides a small happiness boost to other races.",

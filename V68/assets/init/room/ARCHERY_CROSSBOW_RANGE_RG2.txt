@@ -1,3 +1,30 @@
+INFO: {
+	NAME: "Crossbow Range",
+	NAMES: "Crossbow Ranges",
+	DESC: "A specialized training facility where subjects can practice with crossbows, improving their accuracy and combat effectiveness. The mechanical advantage of crossbows allows for greater power and precision compared to traditional bows.",
+},
+BONUS: {
+	NAME: "Crossbow Mastery",
+	DESC: "Provides specialized training in crossbow usage, improving ranged combat effectiveness.",
+},
+WORK: {
+	TITLE: "Crossbow Trainer",
+	VERB: "Training",
+	SHIFT_OFFSET: 0.125,
+	SOUND: work->Training*,
+	ACCIDENTS_PER_YEAR: 0.02,
+	FULFILLMENT: 0.5,
+},
+STATS: [
+	{
+		NAME: "Capacity",
+		DESC: "The amount of soldiers this room can train",
+	},
+	{
+		NAME: "Training Quality",
+		DESC: "The quality of training provided, affecting skill gain",
+	},
+],
 TYPE: ARCHERY,
 ICON: 32->CROSSBOW_RANGE_RG2->0,
 RESOURCES: [WOOD,FURNITURE,CROSSBOW_RG2,],

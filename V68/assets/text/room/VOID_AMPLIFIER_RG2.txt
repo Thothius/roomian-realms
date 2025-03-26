@@ -1,0 +1,49 @@
+INFO: {
+	NAME: "Void Amplifier",
+	NAMES: "Void Amplifiers",
+	DESC: "An advanced structure that harnesses and amplifies the energies of Void Crystals to generate knowledge and spiritual power. The strange geometries of this building seem to defy conventional understanding.",
+},
+
+BONUS: {
+	NAME: "Dimensional Resonance",
+	DESC: "Enhances the amplification of void energies, increasing knowledge production and spiritual output.",
+},
+
+WORK: {
+	TITLE: "Void Channeler",
+	VERB: "Channeling",
+},
+
+STATS: [
+	{
+		NAME: "Workers",
+		DESC: "The amount of workers",
+	},
+	{
+		NAME: "Efficiency",
+		DESC: "How efficiently void energies are amplified",
+	},
+	{
+		NAME: "Quality",
+		DESC: "The quality of knowledge and spiritual power produced",
+	},
+	{
+		NAME: "Stability",
+		DESC: "How stable the dimensional energies are maintained",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Amplification Array",
+		DESC: "Where subjects work to amplify void energies.",
+	},
+	{
+		NAME: "Dimensional Lens",
+		DESC: "Specialized equipment that focuses and intensifies void energies.",
+	},
+	{
+		NAME: "Resonance Chamber",
+		DESC: "Increases the efficiency of energy amplification.",
+	},
+],

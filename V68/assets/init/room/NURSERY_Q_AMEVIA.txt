@@ -149,6 +149,6 @@ SPRITES: {
 	},
 },
 DESC: {
-	TEXT: "An amphibious nursery for Froggian tadpoles. Features shallow pools and moist environments essential for their early development. Young Froggians are taught the basics of knowledge and wisdom from the moment they hatch.",
-	REQUIRED: "Requires a population of at least 20 Froggian citizens.",
+	TEXT: "An amphibious nursery for Q'Amevia tadpoles. Features shallow pools and moist environments essential for their early development. Young Q'Amevians are taught the basics of knowledge and wisdom from the moment they hatch.",
+	REQUIRED: "Requires a population of at least 20 Q'Amevia citizens.",
 },

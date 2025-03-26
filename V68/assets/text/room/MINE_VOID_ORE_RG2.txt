@@ -1,0 +1,49 @@
+INFO: {
+	NAME: "Void Ore Mine",
+	NAMES: "Void Ore Mines",
+	DESC: "A specialized mine that extracts the rare and mysterious Void Ore from deep beneath the surface. The purple-hued crystals emit an eerie glow and seem to whisper to those who work too long in the mines.",
+},
+
+BONUS: {
+	NAME: "Void Attunement",
+	DESC: "Increases the yield of void ore mines through specialized extraction techniques.",
+},
+
+WORK: {
+	TITLE: "Void Miner",
+	VERB: "Mining",
+},
+
+STATS: [
+	{
+		NAME: "Workers",
+		DESC: "The amount of workers",
+	},
+	{
+		NAME: "Efficiency",
+		DESC: "How efficiently resources are extracted",
+	},
+	{
+		NAME: "Quality",
+		DESC: "The quality of extracted resources",
+	},
+	{
+		NAME: "Storage",
+		DESC: "The internal storage capacity for mined resources",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Storage",
+		DESC: "The internal storage for extracted resources.",
+	},
+	{
+		NAME: "Mining Equipment",
+		DESC: "Where subjects work to extract void ore.",
+	},
+	{
+		NAME: "Void Extractor",
+		DESC: "Specialized equipment that increases efficiency of void ore extraction.",
+	},
+],

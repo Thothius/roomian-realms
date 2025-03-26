@@ -1,3 +1,35 @@
+INFO: {
+	NAME: "Mercenary Guild",
+	NAMES: "Mercenary Guilds",
+	DESC: "A headquarters for hired warriors who fight for coin rather than loyalty. The guild serves as a recruitment center, training facility, and social hub for mercenaries of various backgrounds and specialties.",
+},
+BONUS: {
+	NAME: "Combat Expertise",
+	DESC: "Provides access to skilled fighters for hire and improves military training.",
+},
+WORK: {
+	TITLE: "Guild Master",
+	VERB: "Recruiting",
+	SHIFT_OFFSET: 0.125,
+	SOUND: impact->Metal*,
+	USES_TOOL: false,
+	ACCIDENTS_PER_YEAR: 0.05,
+	FULFILLMENT: 0.5,
+},
+STATS: [
+	{
+		NAME: "Recruiters",
+		DESC: "The number of guild masters that can recruit mercenaries.",
+	},
+	{
+		NAME: "Training Quality",
+		DESC: "How effectively mercenaries can train and maintain their skills.",
+	},
+	{
+		NAME: "Reputation",
+		DESC: "How prestigious the guild is, affecting the quality of mercenaries attracted.",
+	},
+],
 ICON: 32->MILITARY->3,
 RESOURCES: [STONE,WOOD,METAL,FURNITURE],
 AREA_COSTS: [0.3,0.3,0,0],
@@ -36,12 +68,6 @@ UPGRADES: [
 		BOOST: 1.0,
 	},
 ],
-WORK: {
-	SHIFT_OFFSET: 0.25,
-	SOUND: impact->Metal*,
-	ACCIDENTS_PER_YEAR: 0.05,
-	FULFILLMENT: 1.0,
-},
 INDUSTRIES: [
 	{
 		INDUSTRY: {
@@ -131,4 +157,4 @@ SPRITES: {
 		},
 	],
 },
-DESCRIPTION: "A guild hall where mercenaries gather to train, socialize, and accept contracts. The hall requires gold, weapons, and armor to attract and equip skilled fighters. Combat-oriented races like Northmen, Hellspawns, and Satyrs find particular satisfaction here. The guild provides specialized mercenary units that can bolster your military forces, though at a significant cost."
+DESCRIPTION: "A guild hall where mercenaries gather to train, socialize, and accept contracts. The hall requires gold, weapons, and armor to attract and equip skilled fighters. Combat-oriented races like Northmen, Hellspawns, and Satyrs find particular satisfaction here. The guild provides specialized mercenary units that can bolster your military forces, though at a significant cost.",

@@ -56,7 +56,7 @@ ITEMS: [
 INDUSTRY: {
 	IN: {
 		MEAT: 0.4,
-		WINE: 0.1,
+		ALCO_WINE: 0.1,
 	},
 	OUT: {
 		
@@ -119,6 +119,15 @@ SPRITES: {
 			CARPETS: 0,
 		],
 	},
+	1x1_DECOR: {
+		FPS: 0,
+		SHADOW_LENGTH: 0,
+		SHADOW_HEIGHT: 0,
+		ROTATES: false,
+		FRAMES: [
+			CARPETS: 2,
+		],
+	},
 	1x1_TABLE: {
 		FPS: 0,
 		SHADOW_LENGTH: 3,
@@ -139,6 +148,6 @@ SPRITES: {
 	},
 },
 DESC: {
-	TEXT: "A harsh, unforgiving nursery for Hellspawn children. Built with stone and metal, it features small spikes and uncomfortable surfaces to begin teaching young Hellspawns the 'Pain's Embrace' doctrine from birth. They are fed raw meat and small amounts of wine to develop their taste for blood and strengthen their demonic nature in service to Aminion.",
-	REQUIRED: "Requires a population of at least 20 Hellspawn citizens.",
+	TEXT: "A natural, harmonious nursery for Tilapi children. Built with stone and natural materials, it features comfortable spaces that help young Tilapi connect with nature. They are fed meat and wine to develop their strength and vitality in service to their community.",
+	REQUIRED: "Requires a population of at least 20 Tilapi citizens.",
 },

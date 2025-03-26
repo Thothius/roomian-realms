@@ -1,0 +1,49 @@
+INFO: {
+	NAME: "Void Gateway",
+	NAMES: "Void Gateways",
+	DESC: "A monumental structure that creates a controlled breach between dimensions, allowing direct communion with the realm of Shmalor. The air around it warps and distorts as reality itself bends to accommodate the otherworldly energies.",
+},
+
+BONUS: {
+	NAME: "Breach Stabilization",
+	DESC: "Enhances the stability and control of the dimensional gateway, increasing all outputs and reducing the risk of catastrophic accidents.",
+},
+
+WORK: {
+	TITLE: "Dimensional Researcher",
+	VERB: "Studying",
+},
+
+STATS: [
+	{
+		NAME: "Workers",
+		DESC: "The amount of workers",
+	},
+	{
+		NAME: "Efficiency",
+		DESC: "How efficiently the dimensional breach is maintained",
+	},
+	{
+		NAME: "Quality",
+		DESC: "The quality of knowledge and spiritual power produced",
+	},
+	{
+		NAME: "Stability",
+		DESC: "How stable the dimensional breach remains over time",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Gateway Portal",
+		DESC: "The central breach to Shmalor's realm.",
+	},
+	{
+		NAME: "Research Station",
+		DESC: "Where subjects work to study the dimensional breach.",
+	},
+	{
+		NAME: "Stabilization Matrix",
+		DESC: "Specialized equipment that maintains the stability of the gateway.",
+	},
+],

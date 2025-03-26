@@ -1,0 +1,49 @@
+INFO: {
+	NAME: "Void Crystal Refinery",
+	NAMES: "Void Crystal Refineries",
+	DESC: "A specialized workshop that refines raw Void Ore into the more stable and potent Void Crystals. The process requires precise handling and specialized equipment.",
+},
+
+BONUS: {
+	NAME: "Crystalline Precision",
+	DESC: "Increases the yield and quality of void crystal production through improved refinement methods.",
+},
+
+WORK: {
+	TITLE: "Crystal Refiner",
+	VERB: "Refining",
+},
+
+STATS: [
+	{
+		NAME: "Workers",
+		DESC: "The amount of workers",
+	},
+	{
+		NAME: "Efficiency",
+		DESC: "How efficiently resources are processed",
+	},
+	{
+		NAME: "Quality",
+		DESC: "The quality of produced crystals",
+	},
+	{
+		NAME: "Storage",
+		DESC: "The internal storage capacity for refined materials",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Storage",
+		DESC: "The internal storage for refined crystals.",
+	},
+	{
+		NAME: "Refining Station",
+		DESC: "Where subjects work to refine void ore into crystals.",
+	},
+	{
+		NAME: "Crystallization Chamber",
+		DESC: "Specialized equipment that increases the efficiency of crystal formation.",
+	},
+],

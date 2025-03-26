@@ -30,6 +30,10 @@ ITEMS: [
 		NAME: "Meditation Pool",
 		DESC: "A specialized pool where young Q'Amevia develop their psychic abilities.",
 	},
+	{
+		NAME: "Psychic Focus Crystals",
+		DESC: "Enhances telepathic development and training efficiency.",
+	},
 ],
 
 WORK: {

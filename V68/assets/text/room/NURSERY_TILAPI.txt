@@ -1,43 +1,41 @@
 INFO: {
-	NAME: "Dryad Nursery",
-	NAMES: "Dryad Nurseries",
-	DESC: "A place where Dryad babies are born and brought up. Each station is capable of bringing one up and needs fruit to operate, else the child will starve.",
+	NAME: "Tilapi Nursery",
+	NAMES: "Tilapi Nurseries",
+	DESC: "A place where Tilapi children are raised in harmony with nature. Each station provides the necessary care and nourishment with fruit to ensure proper development.",
 },
 
 
 BONUS: {
-	NAME: "Dryad upbringing",
-	DESC: "Increases the rate at which Dryads are raised in Dryad Nurseries.",
+	NAME: "Tilapi Upbringing",
+	DESC: "Ensures proper development of young Tilapi, maintaining population growth.",
 },
 
 STATS: [
 	{
-		NAME: "Cribs",
-		DESC: "Amount of Cribs",
+		NAME: "Caretakers",
+		DESC: "Number of adults who can tend to the young.",
 	},
 	{
 		
 	},
 	{
-		NAME: "Efficiency",
-		DESC: "Increases birth rate.",
+		NAME: "Development Rate",
+		DESC: "How quickly the young Tilapi mature.",
 	},
 ],
 
 ITEMS: [
 	{
-		NAME: "Crib",
-		DESC: "",
+		NAME: "Nature Pod",
+		DESC: "A specialized environment for raising Tilapi young.",
 	},
 	{
-		NAME: "Tipi",
-		DESC: "Increases efficiency.",
+		NAME: "Natural Enrichments",
+		DESC: "Increases development efficiency through natural elements.",
 	},
 ],
 
 WORK: {
-	TITLE: "Wet Nurse",
-	VERB: "Tending to Dryad children.",
+	TITLE: "Nature Guide",
+	VERB: "Tending to Tilapi children",
 },
-
-

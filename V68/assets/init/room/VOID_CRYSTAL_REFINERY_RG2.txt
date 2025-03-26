@@ -1,7 +1,38 @@
+INFO: {
+	NAME: "Void Crystal Refinery",
+	NAMES: "Void Crystal Refineries",
+	DESC: "A specialized facility where raw void crystals are processed and refined into usable forms. These refineries use complex machinery and arcane techniques to stabilize the volatile energies contained within the crystals, making them safe for various applications.",
+},
+BONUS: {
+	NAME: "Crystal Enhancement",
+	DESC: "Refines raw void crystals into stable, powerful energy sources.",
+},
+WORK: {
+	TITLE: "Crystal Technician",
+	VERB: "Refining",
+	SHIFT_OFFSET: 0.325,
+	SOUND: work->Magic*,
+	ACCIDENTS_PER_YEAR: 0.08,
+	FULFILLMENT: 1.2,
+},
+STATS: [
+	{
+		NAME: "Technicians",
+		DESC: "Skilled workers who process the void crystals.",
+	},
+	{
+		NAME: "Efficiency",
+		DESC: "How quickly and effectively crystals are refined.",
+	},
+	{
+		NAME: "Stability",
+		DESC: "How stable the refined crystals are for use.",
+	},
+],
 ICON: 32->WORKSHOP->7,
 RESOURCES: [STONE_CUT,FURNITURE,METAL,MACHINERY],
 AREA_COSTS: [0.4,0.4,0.4,0],
-FLOOR: STONE3,
+FLOOR: STONE_MEDIUM_DARK,
 MINI_COLOR: 150_0_200,
 REQUIRES: {
 	GREATER: {
@@ -36,12 +67,6 @@ UPGRADES: [
 		BOOST: 1.0,
 	},
 ],
-WORK: {
-	SHIFT_OFFSET: 0.325,
-	SOUND: work->Magic*,
-	ACCIDENTS_PER_YEAR: 0.08,
-	FULFILLMENT: 1.2,
-},
 INDUSTRIES: [
 	{
 		INDUSTRY: {
@@ -78,6 +103,250 @@ BOOSTS: {
 	},
 },
 SPRITES: {
+	CONVEYOR_1X1: [
+		{
+			ROTATES: true,
+			FPS: 0,
+			SHADOW_LENGTH: 8,
+			FRAMES: [
+				STORAGE: 6,
+				STORAGE: 8,
+			],
+		},
+		{
+			ROTATES: true,
+			FPS: 10,
+			CIRCULAR: true,
+			SHADOW_LENGTH: 8,
+			FRAMES: [
+				MECH_CONVEYOR: 0,
+			],
+		},
+		{
+			ROTATES: true,
+			FPS: 10,
+			CIRCULAR: true,
+			SHADOW_LENGTH: 8,
+			FRAMES: [
+				MECH_CONVEYOR: 1,
+			],
+		},
+	],
+	STORAGE_1X1_TOP: [
+		{
+			ROTATES: true,
+			SHADOW_HEIGHT: 2,
+			FRAMES: [
+				STORAGEx3: 0,
+			],
+		},
+		{
+			ROTATES: true,
+			SHADOW_HEIGHT: 2,
+			FRAMES: [
+				STORAGEx3: 3,
+			],
+		},
+		{
+			ROTATES: true,
+			SHADOW_LENGTH: 5,
+			FRAMES: [
+				STORAGEx3: 6,
+			],
+		},
+	],
+	STORAGE_1X1_MID: [
+		{
+			ROTATES: true,
+			SHADOW_HEIGHT: 2,
+			FRAMES: [
+				STORAGEx3: 1,
+			],
+		},
+		{
+			ROTATES: true,
+			SHADOW_HEIGHT: 2,
+			FRAMES: [
+				STORAGEx3: 4,
+			],
+		},
+		{
+			ROTATES: true,
+			SHADOW_LENGTH: 5,
+			FRAMES: [
+				STORAGEx3: 7,
+			],
+		},
+	],
+	STORAGE_1X1_END: [
+		{
+			ROTATES: true,
+			SHADOW_HEIGHT: 2,
+			FRAMES: [
+				STORAGEx3: 2,
+			],
+		},
+		{
+			ROTATES: true,
+			SHADOW_HEIGHT: 2,
+			FRAMES: [
+				STORAGEx3: 5,
+			],
+		},
+		{
+			ROTATES: true,
+			SHADOW_LENGTH: 5,
+			FRAMES: [
+				STORAGEx3: 8,
+			],
+		},
+	],
+	SLAB_1X1: [
+		{
+			ROTATES: false,
+			SHADOW_LENGTH: 4,
+			FRAMES: [
+				STORAGE: 6,
+			],
+		},
+		{
+			ROTATES: false,
+			SHADOW_LENGTH: 4,
+			FRAMES: [
+				STORAGE: 8,
+			],
+		},
+	],
+	AUX_1X1: [
+		{
+			ROTATES: false,
+			SHADOW_LENGTH: 4,
+			FRAMES: [
+				STORAGE: 0,
+				STORAGE: 1,
+				STORAGE: 2,
+				STORAGE: 5,
+				STORAGE: 6,
+				STORAGE: 10,
+			],
+		},
+		{
+			ROTATES: false,
+			FPS: 15,
+			SHADOW_LENGTH: 4,
+			CIRCULAR: true,
+			FRAMES: [
+				MECH: 0,
+				MECH: 1,
+				MECH: 2,
+				MECH: 3,
+				MECH: 4,
+				MECH: 5,
+			],
+		},
+		{
+			ROTATES: false,
+			FPS: 15,
+			SHADOW_LENGTH: 4,
+			CIRCULAR: true,
+			FRAMES: [
+				MECH: 6,
+				MECH: 7,
+				MECH: 8,
+				MECH: 9,
+				MECH: 10,
+				MECH: 11,
+			],
+		},
+	],
+	AUX_MEDIUM_A_1X1: [
+		{
+			ROTATES: true,
+			SHADOW_LENGTH: 4,
+			FRAMES: [
+				2xROOF: 1,
+			],
+		},
+		{
+			ROTATES: true,
+			FPS: 8,
+			SHADOW_LENGTH: 4,
+			CIRCULAR: true,
+			FRAMES: [
+				MECHx2: 0,
+				MECHx2: 2,
+			],
+		},
+	],
+	AUX_MEDIUM_B_1X1: [
+		{
+			ROTATES: true,
+			SHADOW_LENGTH: 4,
+			FRAMES: [
+				2xROOF: 0,
+			],
+		},
+		{
+			ROTATES: true,
+			FPS: 8,
+			SHADOW_LENGTH: 4,
+			CIRCULAR: true,
+			FRAMES: [
+				MECHx2: 1,
+				MECHx2: 3,
+			],
+		},
+	],
+	AUX_BIG_2X2: [
+		{
+			ROTATES: false,
+			SHADOW_LENGTH: 8,
+			FRAMES: [
+				HUT: 0,
+			],
+		},
+		{
+			ROTATES: false,
+			FPS: 4,
+			SHADOW_LENGTH: 8,
+			CIRCULAR: true,
+			FRAMES: [
+				MECH_MACHINE: 0,
+				MECH_MACHINE: 1,
+			],
+		},
+		{
+			ROTATES: false,
+			FPS: 4,
+			SHADOW_LENGTH: 8,
+			CIRCULAR: true,
+			FRAMES: [
+				MECH_MACHINE: 2,
+				MECH_MACHINE: 3,
+			],
+		},
+	],
+	WORK_1X1: [
+		{
+			ROTATES: false,
+			SHADOW_LENGTH: 2,
+			FRAMES: [
+				STORAGE: 5,
+			],
+		},
+		{
+			ROTATES: false,
+			FPS: 15,
+			SHADOW_LENGTH: 4,
+			CIRCULAR: true,
+			FRAMES: [
+				MECH_WORK: 0,
+				MECH_WORK: 1,
+				MECH_WORK: 2,
+				MECH_WORK: 3,
+			],
+		},
+	],
 	TABLE_COMBO: [
 		{	
 			TINT: true,
@@ -130,4 +399,4 @@ SPRITES: {
 		},
 	],
 },
-DESCRIPTION: "A specialized workshop where raw Void Ore is refined into the more stable and powerful Void Crystal. This process requires precise control and specialized equipment, as the otherworldly properties of Void Ore make it volatile during refinement. Wormlings excel at this work due to their natural connection to the void, while Finestorians' crafting expertise and Bloodelves' magical affinity also prove useful in the refinement process."
+DESCRIPTION: "A specialized workshop where raw Void Ore is refined into the more stable and powerful Void Crystal. This process requires precise control and specialized equipment, as the otherworldly properties of Void Ore make it volatile during refinement. Wormlings excel at this work due to their natural connection to the void, while Finestorians' crafting expertise and Bloodelves' magical affinity also prove useful in the refinement process.",

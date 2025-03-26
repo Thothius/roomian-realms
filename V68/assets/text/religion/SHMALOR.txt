@@ -1,13 +1,8 @@
-NAME: Temple of Shmalor
-NAMES: Temples of Shmalor
-DESC: The Temple of Shmalor honors the Queen of the Agonosh, who represents the cosmic void and the spaces between realities. Slain by the Tilapi chieftain Trinduri during the first war of the gods, Shmalor's death is believed to have torn the veil between dimensions, allowing alien entities to enter the world of Syx.
-
-Shmalor's temples are unsettling places of shadow and whispers, where the boundaries between worlds seem to thin. Unlike other temples, they often appear larger inside than their exterior suggests, with corridors that seem to bend in impossible ways. Human sacrifices are offered upon obsidian altars that appear to absorb rather than reflect light, symbolizing Shmalor's endless hunger for life essence that sustains her fractured existence across multiple realities.
-
-The Wormlings are Shmalor's primary devotees, serving as living conduits for "The Breach"—the dimensional rift created by Shmalor's death. Their parasitic nature is considered a sacred manifestation of Shmalor's ability to transcend normal physical limitations. Their most devoted priests, who have allowed their bodies to be completely transformed by extradimensional parasites, can reportedly perceive multiple realities simultaneously and communicate with entities from beyond the veil. They worship the God-Emperor of the Endless Void, believed to be either Shmalor's consort or her true form in another dimension.
-
-The Bloodelves form a secondary cult within Shmalor's faith, drawn to her promise of immortality through the consumption of life essence. Their "Crimson Covenant" practice of blood consumption is seen as a way to absorb fragments of Shmalor's power that were scattered throughout all living beings when she was slain. The Withering—the gradual deterioration that affects Bloodelves who fail to consume sufficient blood—is viewed as Shmalor's call to return to her void realm.
-
-Shmalor stands in direct opposition to Athuri, whose ordered creation she seeks to unravel, and maintains a complex relationship with Crator, whose creations she both admires and seeks to transform. With Aminion, she shares a mutual understanding, as both deities represent forces that exist beyond conventional morality.
-
-The most sacred ritual in Shmalor's worship is the Void Communion, performed during the darkest night of winter, where willing sacrifices offer their lives to strengthen Shmalor's influence in the mortal realm. During these ceremonies, the boundaries between dimensions are said to dissolve temporarily, allowing glimpses of other realities and permitting Shmalor's alien servants to briefly manifest in physical form. Those who witness these manifestations often describe entities that defy conventional understanding of anatomy and physics, moving in ways that seem to violate the fundamental laws of reality.
+NAME: "Temple of Shmalor",
+DEITY: "Shmalor",
+DESC: "The Temple of Shmalor honors the Queen of the Agonosh, who represents the cosmic void and the spaces between realities.",
+WIKI: {
+	NAME: "Temple of Shmalor",
+	CATEGORY: "Religion",
+	TEXT: "The Temple of Shmalor honors the Queen of the Agonosh, who represents the cosmic void and the spaces between realities. Slain by the Tilapi chieftain Trinduri during the first war of the gods, Shmalor's death is believed to have torn the veil between dimensions, allowing alien entities to enter the world of Syx. Shmalor's temples are unsettling places of shadow and whispers, where the boundaries between worlds seem to thin. Unlike other temples, they often appear larger inside than their exterior suggests, with corridors that seem to bend in impossible ways. The Wormlings are Shmalor's primary devotees, serving as living conduits for \"The Breach\"—the dimensional rift created by Shmalor's death. Their parasitic nature is considered a sacred manifestation of Shmalor's ability to transcend normal physical limitations.",
+},

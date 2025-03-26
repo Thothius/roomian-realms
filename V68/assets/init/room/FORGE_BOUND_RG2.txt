@@ -1,3 +1,34 @@
+INFO: {
+	NAME: "Bound Forge",
+	NAMES: "Bound Forges",
+	DESC: "A specialized forge where Dondorian smiths imbue metal with spiritual energy, creating weapons and tools with unique properties. The binding process requires both metallurgical skill and spiritual attunement, making these forges sacred places of creation.",
+},
+BONUS: {
+	NAME: "Soul Binding",
+	DESC: "Enhances the quality and mystical properties of forged items.",
+},
+WORK: {
+	TITLE: "Soul Smith",
+	VERB: "Forging",
+	SHIFT_OFFSET: 0.4,
+	SOUND: impact->Metal*,
+	ACCIDENTS_PER_YEAR: 0.02,
+	FULFILLMENT: 1.5,
+},
+STATS: [
+	{
+		NAME: "Smiths",
+		DESC: "The number of soul smiths that can work here.",
+	},
+	{
+		NAME: "Forge Quality",
+		DESC: "The quality of items produced in this forge.",
+	},
+	{
+		NAME: "Binding Strength",
+		DESC: "How powerful the spiritual binding can be.",
+	},
+],
 ICON: {
 	BG: 24->race->Dondorian->0,
 	FG: 32->WORKSHOP->8,
@@ -40,12 +71,6 @@ UPGRADES: [
 		BOOST: 1.0,
 	},
 ],
-WORK: {
-	SHIFT_OFFSET: 0.4,
-	SOUND: impact->Metal*,
-	ACCIDENTS_PER_YEAR: 0.02,
-	FULFILLMENT: 1.5,
-},
 INDUSTRIES: [
 	{
 		INDUSTRY: {
@@ -124,4 +149,4 @@ BOOSTS: {
 	},
 },
 RACE: DONDORIAN,
-DESCRIPTION: "A specialized workshop where Finestorians bind fragments of their souls to crafted items, creating tools of exceptional quality. The forge requires coal and metal but produces tools at a higher rate than standard workshops while generating happiness for Finestorians. The soul-binding process enhances all workshop production and mining efficiency for Finestorians, with a smaller benefit for other races."
+DESCRIPTION: "A specialized workshop where Finestorians bind fragments of their souls to crafted items, creating tools of exceptional quality. The forge requires coal and metal but produces tools at a higher rate than standard workshops while generating happiness for Finestorians. The soul-binding process enhances all workshop production and mining efficiency for Finestorians, with a smaller benefit for other races.",

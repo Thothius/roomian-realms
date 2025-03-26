@@ -30,6 +30,10 @@ ITEMS: [
 		NAME: "Guardian Station",
 		DESC: "A station where elder guardians teach and care for young Cantors.",
 	},
+	{
+		NAME: "Ritual Implements",
+		DESC: "Sacred tools that enhance spiritual learning and development.",
+	},
 ],
 
 WORK: {

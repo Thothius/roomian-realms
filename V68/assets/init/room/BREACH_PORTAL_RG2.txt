@@ -1,3 +1,34 @@
+INFO: {
+	NAME: "Breach Portal",
+	NAMES: "Breach Portals",
+	DESC: "A controlled dimensional gateway operated by skilled Garthimi mages. These portals allow for the extraction of exotic energies and materials from other planes of existence. While powerful, they require constant maintenance to prevent dimensional instability.",
+},
+BONUS: {
+	NAME: "Dimensional Access",
+	DESC: "Provides access to resources and knowledge from other dimensions.",
+},
+WORK: {
+	TITLE: "Portal Keeper",
+	VERB: "Channeling",
+	SHIFT_OFFSET: 0.8,
+	SOUND: work->Magic*,
+	ACCIDENTS_PER_YEAR: 0.05,
+	FULFILLMENT: 3.0,
+},
+STATS: [
+	{
+		NAME: "Mages",
+		DESC: "The number of portal keepers that can maintain the breach.",
+	},
+	{
+		NAME: "Stability",
+		DESC: "How stable the dimensional breach remains during operation.",
+	},
+	{
+		NAME: "Power",
+		DESC: "The amount of dimensional energy that can be safely channeled.",
+	},
+],
 ICON: 32->MAGIC->5,
 RESOURCES: [STONE,FURNITURE,GEM,],
 AREA_COSTS: [0.5,0,0,],
@@ -37,12 +68,6 @@ UPGRADES: [
 		BOOST: 1.0,
 	},
 ],
-WORK: {
-	SHIFT_OFFSET: 0.8,
-	SOUND: work->Magic*,
-	ACCIDENTS_PER_YEAR: 0.05,
-	FULFILLMENT: 3.0,
-},
 INDUSTRIES: [
 	{
 		INDUSTRY: {

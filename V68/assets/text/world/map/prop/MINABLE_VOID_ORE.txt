@@ -1,0 +1,3 @@
+NAME: "Void Ore Deposit",
+NAMES: "Void Ore Deposits",
+DESC: "A rare geological formation where the barrier between worlds is thin, allowing otherworldly minerals to crystallize into the dark purple substance known as Void Ore. These deposits emit a faint purple glow and occasionally produce strange whispers that can be heard by those who venture too close.",

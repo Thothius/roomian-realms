@@ -56,7 +56,6 @@ ITEMS: [
 INDUSTRY: {
 	IN: {
 		MEAT: 0.25,
-		WINE: 0.25,
 	},
 	OUT: {
 		
@@ -136,6 +135,15 @@ SPRITES: {
 		ROTATES: true,
 		FRAMES: [
 			CHAIRS: 2,
+		],
+	},
+	1x1_DECOR: {
+		FPS: 0,
+		SHADOW_LENGTH: 0,
+		SHADOW_HEIGHT: 0,
+		ROTATES: false,
+		FRAMES: [
+			CARPETS: 3,
 		],
 	},
 },

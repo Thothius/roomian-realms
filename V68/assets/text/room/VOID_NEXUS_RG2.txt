@@ -1,0 +1,49 @@
+INFO: {
+	NAME: "Void Nexus",
+	NAMES: "Void Nexuses",
+	DESC: "A mystical structure that channels the energies of Void Crystals to generate knowledge and spiritual power. The air around it shimmers with an otherworldly purple glow.",
+},
+
+BONUS: {
+	NAME: "Void Attunement",
+	DESC: "Enhances the connection to the void, increasing knowledge production and spiritual output.",
+},
+
+WORK: {
+	TITLE: "Void Researcher",
+	VERB: "Researching",
+},
+
+STATS: [
+	{
+		NAME: "Workers",
+		DESC: "The amount of workers",
+	},
+	{
+		NAME: "Efficiency",
+		DESC: "How efficiently void energies are channeled",
+	},
+	{
+		NAME: "Quality",
+		DESC: "The quality of knowledge and spiritual power produced",
+	},
+	{
+		NAME: "Resonance",
+		DESC: "How well the nexus resonates with void energies",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Research Station",
+		DESC: "Where subjects work to study void energies.",
+	},
+	{
+		NAME: "Channeling Focus",
+		DESC: "Specialized equipment that directs void energies.",
+	},
+	{
+		NAME: "Void Conduit",
+		DESC: "Increases the efficiency of energy channeling.",
+	},
+],

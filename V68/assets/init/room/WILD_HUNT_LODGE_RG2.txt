@@ -1,3 +1,34 @@
+INFO: {
+	NAME: "Wild Hunt Lodge",
+	NAMES: "Wild Hunt Lodges",
+	DESC: "A specialized hunting hall where Argonosh hunters gather to prepare for hunts, share stories, and display trophies. These lodges serve as both training grounds and ceremonial spaces where the ancient hunting traditions of the Argonosh are preserved and celebrated.",
+},
+BONUS: {
+	NAME: "Hunter's Glory",
+	DESC: "Provides fulfillment for Argonosh citizens through the celebration of hunting traditions.",
+},
+WORK: {
+	TITLE: "Hunt Master",
+	VERB: "Training",
+	SHIFT_OFFSET: 0.8,
+	SOUND: nature->Forest*,
+	ACCIDENTS_PER_YEAR: 0.01,
+	FULFILLMENT: 1.5,
+},
+STATS: [
+	{
+		NAME: "Hunting Trophies",
+		DESC: "Displays of successful hunts that inspire hunters.",
+	},
+	{
+		NAME: "Training Areas",
+		DESC: "Spaces for hunters to practice their skills.",
+	},
+	{
+		NAME: "Ceremonial Spaces",
+		DESC: "Areas for hunting rituals and celebrations.",
+	},
+],
 ICON: {
 	BG: 24->race->Argonosh->0,
 	FG: 32->ARCHERY->1,
@@ -41,12 +72,6 @@ UPGRADES: [
 		BOOST: 1.0,
 	},
 ],
-WORK: {
-	SHIFT_OFFSET: 0.8,
-	SOUND: nature->Forest*,
-	ACCIDENTS_PER_YEAR: 0.01,
-	FULFILLMENT: 1.5,
-},
 INDUSTRIES: [
 	{
 		INDUSTRY: {
@@ -123,4 +148,4 @@ BOOSTS: {
 		HAPPINESS>ADD: -0.02,
 	},
 },
-DESCRIPTION: "A lodge where Satyrs prepare for their ritual Wild Hunts during full moons. The lodge requires herbs for rituals and enhances hunting and archery skills while generating happiness for Satyrs. The primal nature of the rituals makes other races uncomfortable."
+DESCRIPTION: "A lodge where Satyrs prepare for their ritual Wild Hunts during full moons. The lodge requires herbs for rituals and enhances hunting and archery skills while generating happiness for Satyrs. The primal nature of the rituals makes other races uncomfortable.",

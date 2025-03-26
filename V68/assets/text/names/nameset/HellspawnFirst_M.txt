@@ -49,4 +49,4 @@ NAMES: [
 	"Gul'hazad",
 	"Kil'rathian",
 	"Mal'zarak",
-]
+],

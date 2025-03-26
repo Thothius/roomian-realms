@@ -1,3 +1,34 @@
+INFO: {
+	NAME: "Pantheon Temple",
+	NAMES: "Pantheon Temples",
+	DESC: "A grand temple dedicated to all deities worshipped within the realm. This inclusive religious structure allows citizens of all races and beliefs to worship together, fostering unity while respecting individual spiritual traditions.",
+},
+BONUS: {
+	NAME: "Divine Harmony",
+	DESC: "Provides spiritual fulfillment for citizens of all races and religious backgrounds.",
+},
+WORK: {
+	TITLE: "High Priest",
+	VERB: "Ministering",
+	SHIFT_OFFSET: 0.5,
+	SOUND: work->Magic*,
+	ACCIDENTS_PER_YEAR: 0.01,
+	FULFILLMENT: 2.0,
+},
+STATS: [
+	{
+		NAME: "Altars",
+		DESC: "Sacred spaces dedicated to various deities.",
+	},
+	{
+		NAME: "Religious Icons",
+		DESC: "Holy symbols that enhance spiritual connection.",
+	},
+	{
+		NAME: "Prayer Areas",
+		DESC: "Spaces for communal and individual worship.",
+	},
+],
 ICON: 32->RELIGION->8,
 RESOURCES: [STONE,WOOD,FURNITURE,FABRIC],
 AREA_COSTS: [0.5,0.3,0,0],
@@ -36,12 +67,6 @@ UPGRADES: [
 		BOOST: 1.0,
 	},
 ],
-WORK: {
-	SHIFT_OFFSET: 0.5,
-	SOUND: work->Magic*,
-	ACCIDENTS_PER_YEAR: 0.01,
-	FULFILLMENT: 2.0,
-},
 INDUSTRIES: [
 	{
 		INDUSTRY: {
@@ -143,4 +168,4 @@ SPRITES: {
 		},
 	],
 },
-DESCRIPTION: "A grand temple complex dedicated to all four major deities of Syx: Aminion, Athuri, Crator, and Shmalor. The Pantheon Temple allows followers of different religions to worship in the same space, accepting various offerings based on each deity's preferences. While this promotes religious tolerance and diversity, dedicated followers may still prefer their deity-specific temples. Each race receives bonuses aligned with their preferred deities."
+DESCRIPTION: "A grand temple complex dedicated to all four major deities of Syx: Aminion, Athuri, Crator, and Shmalor. The Pantheon Temple allows followers of different religions to worship in the same space, accepting various offerings based on each deity's preferences. While this promotes religious tolerance and diversity, dedicated followers may still prefer their deity-specific temples. Each race receives bonuses aligned with their preferred deities.",

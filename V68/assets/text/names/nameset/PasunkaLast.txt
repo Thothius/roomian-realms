@@ -103,4 +103,4 @@ NAMES: [
 	"Väljatarkus",
 	"Tasakaalumeister",
 	"Harmooniatundja",
-]
+],

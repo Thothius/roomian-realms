@@ -1,15 +1,9 @@
-NAME: Temple of Crator
-NAMES: Temples of Crator
-DESC: The Temple of Crator venerates the Divine Architect, foremost creator among the Astari, who shaped the physical world and its many creatures. Crator's temples celebrate craftsmanship, discipline, and the perfection of form, reflecting his role as the master craftsman of reality.
+NAME: "Temple of Crator",
+DEITY: "Crator",
+DESC: "The Temple of Crator venerates the Divine Architect, foremost creator among the Astari, who shaped the physical world.",
 
-Crator's sanctuaries are marvels of architectural precision, where every stone, beam, and ornament is placed according to sacred geometric principles. Offerings of livestock are made upon perfectly balanced stone altars, symbolizing Crator's appreciation for well-crafted living forms. The temples themselves serve as working forges and training grounds, where devotees hone their crafts and physical disciplines as acts of worship.
-
-The Finestorians are Crator's most devoted followers, honoring him through their "Forge-Bound Soul" tradition. They believe that fragments of their souls become embedded in items they craft with sufficient skill and devotion. Their most accomplished artisans can reportedly imbue creations with special properties through rituals that channel Crator's creative essence. The Final Forging—a ceremony where master craftsmen create their ultimate masterpiece—is considered the highest form of worship, believed to bind a portion of their soul permanently to Crator's divine workshop.
-
-The Pasunkas follow Crator through their "Push-up Taijutsu" discipline, believing that perfecting the body is a sacred duty that honors Crator's design. Their distinctive curved horns are seen as Crator's special gift, acting as conduits for cosmic energy during their meditation circles. The Thousand-Push Masters, their most revered elders, are considered living embodiments of Crator's principles of perfect form and discipline.
-
-The Northmen honor Crator through their "Glory Hoard" tradition, collecting trophies and crafting elaborate Saga Walls that document their achievements. Their Boast Halls, where these trophies are displayed, serve as temples to Crator's creative spirit, celebrating the craftsmanship of both the items and the deeds required to obtain them.
-
-Crator maintains a complex relationship with other deities. While not directly opposed to Athuri, he stands against Aminion, who once tempted him to create monstrous beings, and Shmalor, whose chaotic void threatens his ordered creations. Crator represents the balance between creation and preservation, believing that true mastery comes through disciplined practice and respect for natural forms.
-
-The most sacred ritual in Crator's worship is the Solstice Forging, performed during the longest day of summer, where master craftsmen from all disciplines work together to create objects of extraordinary beauty and function. These artifacts, imbued with Crator's essence through the focused devotion of his followers, are said to carry special properties that reflect the divine spark of creation itself.
+WIKI: {
+	NAME: "Temple of Crator",
+	CATEGORY: "Religion",
+	TEXT: "The Temple of Crator venerates the Divine Architect, foremost creator among the Astari, who shaped the physical world and its many creatures. Crator's temples celebrate craftsmanship, discipline, and the perfection of form, reflecting his role as the master craftsman of reality. Crator's sanctuaries are marvels of architectural precision, where every stone, beam, and ornament is placed according to sacred geometric principles. Offerings of livestock are made upon perfectly balanced stone altars, symbolizing Crator's appreciation for well-crafted living forms. The temples themselves serve as working forges and training grounds, where devotees hone their crafts and physical disciplines as acts of worship.",
+},

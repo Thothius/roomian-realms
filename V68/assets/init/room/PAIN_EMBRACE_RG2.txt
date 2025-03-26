@@ -1,3 +1,34 @@
+INFO: {
+	NAME: "Pain Embrace",
+	NAMES: "Pain Embraces",
+	DESC: "A specialized ritual chamber where Tilapi practitioners engage in controlled pain rituals to achieve heightened states of consciousness. These chambers are designed with various implements and devices that allow participants to safely explore the boundaries between pain and transcendence.",
+},
+BONUS: {
+	NAME: "Pain Transcendence",
+	DESC: "Provides spiritual fulfillment for Tilapi citizens through controlled pain rituals.",
+},
+WORK: {
+	TITLE: "Pain Guide",
+	VERB: "Guiding",
+	SHIFT_OFFSET: 0.6,
+	SOUND: impact->Flesh*,
+	ACCIDENTS_PER_YEAR: 0.05,
+	FULFILLMENT: 1.5,
+},
+STATS: [
+	{
+		NAME: "Ritual Circles",
+		DESC: "Sacred spaces where pain rituals are conducted.",
+	},
+	{
+		NAME: "Capacity",
+		DESC: "The number of participants that can be accommodated.",
+	},
+	{
+		NAME: "Transcendence",
+		DESC: "The spiritual potency of the rituals performed here.",
+	},
+],
 ICON: {
 	BG: 24->race->Tilapi->0,
 	FG: 32->DEATH->4,
@@ -41,12 +72,6 @@ UPGRADES: [
 		BOOST: 1.0,
 	},
 ],
-WORK: {
-	SHIFT_OFFSET: 0.6,
-	SOUND: impact->Flesh*,
-	ACCIDENTS_PER_YEAR: 0.05,
-	FULFILLMENT: 1.5,
-},
 INDUSTRIES: [
 	{
 		INDUSTRY: {
@@ -124,4 +149,4 @@ BOOSTS: {
 		LOYALTY>ADD: -0.02,
 	},
 },
-DESCRIPTION: "A ritualistic chamber where Hellspawns practice scarification and embrace pain as a path to power. The chamber requires slaves for rituals and provides significant happiness and loyalty benefits to Hellspawns. It enhances their torture skills and increases their cruelty and loyalty to their leaders. The horrific nature of the rituals causes significant discomfort and loyalty loss to other races."
+DESCRIPTION: "A ritualistic chamber where Hellspawns practice scarification and embrace pain as a path to power. The chamber requires slaves for rituals and provides significant happiness and loyalty benefits to Hellspawns. It enhances their torture skills and increases their cruelty and loyalty to their leaders. The horrific nature of the rituals causes significant discomfort and loyalty loss to other races.",

@@ -11,6 +11,11 @@ STATS: [
 	},
 ],
 
+WORK: {
+	TITLE: "Conscript",
+	VERB: "Training",
+},
+
 ITEMS: [
 	{
 		NAME: "Training Targets",

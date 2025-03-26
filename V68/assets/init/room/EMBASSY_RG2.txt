@@ -1,3 +1,34 @@
+INFO: {
+	NAME: "Embassy",
+	NAMES: "Embassies",
+	DESC: "A diplomatic facility where representatives from other factions can meet, negotiate, and establish relations. Embassies serve as neutral ground for diplomatic discussions and help maintain peaceful relations with neighboring realms.",
+},
+BONUS: {
+	NAME: "Diplomatic Relations",
+	DESC: "Improves relations with other factions and facilitates diplomatic negotiations.",
+},
+WORK: {
+	TITLE: "Diplomat",
+	VERB: "Negotiating",
+	SHIFT_OFFSET: 0.5,
+	SOUND: work->Paper*,
+	ACCIDENTS_PER_YEAR: 0.01,
+	FULFILLMENT: 1.5,
+},
+STATS: [
+	{
+		NAME: "Diplomats",
+		DESC: "The number of diplomats that can work here.",
+	},
+	{
+		NAME: "Reception Quality",
+		DESC: "How impressed visiting dignitaries will be by your facilities.",
+	},
+	{
+		NAME: "Meeting Capacity",
+		DESC: "The number of diplomatic meetings that can be held simultaneously.",
+	},
+],
 ICON: 32->ADMIN->4,
 RESOURCES: [STONE,WOOD,FURNITURE,FABRIC],
 AREA_COSTS: [0.3,0.3,0,0],
@@ -36,12 +67,6 @@ UPGRADES: [
 		BOOST: 1.0,
 	},
 ],
-WORK: {
-	SHIFT_OFFSET: 0.5,
-	SOUND: work->Paper*,
-	ACCIDENTS_PER_YEAR: 0.01,
-	FULFILLMENT: 1.5,
-},
 INDUSTRIES: [
 	{
 		INDUSTRY: {
@@ -129,4 +154,4 @@ SPRITES: {
 		},
 	],
 },
-DESCRIPTION: "A grand embassy where diplomatic relations with other factions are managed and foreign dignitaries are hosted. The embassy consumes luxury goods, paper, and jewelry to facilitate diplomatic exchanges and lavish receptions. Races with natural diplomatic talents, such as Froggians, Bloodelves, and Finestorians, find particular satisfaction working here. The embassy improves relations with other factions and can unlock special diplomatic options."
+DESCRIPTION: "A grand embassy where diplomatic relations with other factions are managed and foreign dignitaries are hosted. The embassy consumes luxury goods, paper, and jewelry to facilitate diplomatic exchanges and lavish receptions. Races with natural diplomatic talents, such as Froggians, Bloodelves, and Finestorians, find particular satisfaction working here. The embassy improves relations with other factions and can unlock special diplomatic options.",

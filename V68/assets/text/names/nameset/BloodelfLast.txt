@@ -50,4 +50,4 @@ NAMES: [
 	"Duskraven",
 	"Sanguinesti",
 	"Nightcaller",
-]
+],

@@ -1,3 +1,34 @@
+INFO: {
+	NAME: "Cretonian Dojo",
+	NAMES: "Cretonian Dojos",
+	DESC: "A specialized training facility where Cretonians practice their unique martial arts and physical conditioning. These dojos focus on strength training, particularly push-ups and other bodyweight exercises that enhance the natural physical advantages of Cretonians.",
+},
+BONUS: {
+	NAME: "Physical Mastery",
+	DESC: "Enhances physical strength and combat effectiveness through disciplined training.",
+},
+WORK: {
+	TITLE: "Martial Instructor",
+	VERB: "Training",
+	SHIFT_OFFSET: 0.5,
+	SOUND: impact->Stone*,
+	ACCIDENTS_PER_YEAR: 0.01,
+	FULFILLMENT: 1.5,
+},
+STATS: [
+	{
+		NAME: "Instructors",
+		DESC: "The number of martial arts instructors available.",
+	},
+	{
+		NAME: "Training Capacity",
+		DESC: "The number of students that can train simultaneously.",
+	},
+	{
+		NAME: "Training Quality",
+		DESC: "The effectiveness of the training provided.",
+	},
+],
 ICON: {
 	BG: 24->race->Cretonian->0,
 	FG: 32->SERVICE->8,
@@ -40,12 +71,6 @@ UPGRADES: [
 		BOOST: 1.0,
 	},
 ],
-WORK: {
-	SHIFT_OFFSET: 0.5,
-	SOUND: impact->Stone*,
-	ACCIDENTS_PER_YEAR: 0.01,
-	FULFILLMENT: 1.5,
-},
 INDUSTRIES: [
 	{
 		INDUSTRY: {
@@ -115,4 +140,4 @@ BOOSTS: {
 		BEHAVIOUR_DISCIPLINED>ADD: 0.05,
 	},
 },
-DESCRIPTION: "A specialized training facility for Pasunkas where they practice their Push-up Taijutsu. The intense training breaks stone slabs, requiring regular replacement. Pasunkas who train here gain increased stamina, health, and discipline while experiencing greater happiness from following their cultural traditions."
+DESCRIPTION: "A specialized training facility for Pasunkas where they practice their Push-up Taijutsu. The intense training breaks stone slabs, requiring regular replacement. Pasunkas who train here gain increased stamina, health, and discipline while experiencing greater happiness from following their cultural traditions.",
