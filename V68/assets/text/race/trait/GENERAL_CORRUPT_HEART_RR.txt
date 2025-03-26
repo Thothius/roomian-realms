@@ -1,0 +1,11 @@
+NAME: "Corrupt Heart",
+TITLE: "The Tainted",
+DESC: "This individual's moral essence has been corroded by darkness, their soul a festering wound through which the corruption of the world flows freely.",
+
+BIO_DESC: [
+	"Small vermin inexplicably die in {NAME}'s presence, their tiny bodies withering as if something essential has been extracted from them.",
+	"When {NAME} speaks falsehoods, listeners report seeing momentary distortions in the air, as if reality itself recoils from the corruption in {HIS} words.",
+	"It is whispered that {NAME} can sense weakness and desperation in others with supernatural precision, instinctively knowing the exact price for which they would sell their principles.",
+	"During sleep, {NAME}'s shadow sometimes detaches and wanders, returning before dawn with {HIS} form subtly altered, as if it has fed on the darkness it visited.",
+	"The Aminion priests believe that corrupt souls like {NAME}'s are already partially digested by their dark god, their essence slowly being consumed even as they walk among the living.",
+],

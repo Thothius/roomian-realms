@@ -1,0 +1,11 @@
+NAME: "Virtuous Soul",
+TITLE: "The Incorruptible",
+DESC: "This individual possesses a moral compass that remains steadfast even in the darkest circumstances, their very presence a rebuke to the corruption that festers in others.",
+
+BIO_DESC: [
+	"When {NAME} speaks truth, listeners report feeling a momentary weight upon their own conscience, as if their past deceptions have suddenly become tangible burdens.",
+	"It is said that {NAME} can walk through miasmas of corruption without being tainted, though the effort leaves faint luminous scars across {HIS} skin that fade by morning.",
+	"Those who attempt to bribe or corrupt {NAME} often find themselves confessing their intentions instead, overcome by an inexplicable compulsion toward honesty.",
+	"During sleep, {NAME} sometimes levitates several inches above {HIS} bed, surrounded by a barely perceptible aura that causes shadows to retreat from {HIS} form.",
+	"Ancient texts speak of 'Lantern Souls' who carry fragments of pre-corruption light; many believe {NAME} bears this burden, doomed to illuminate the darkness while never truly belonging to this fallen world.",
+],

@@ -1,0 +1,11 @@
+NAME: "Demonic Strength",
+TITLE: "Aminion's Might",
+DESC: "This Hellspawn possesses supernatural physical power that defies the limitations of flesh and bone, their muscles infused with the raw destructive essence of Aminion.",
+
+BIO_DESC: [
+	"When {NAME} exerts maximum strength, {HIS} muscles visibly ripple with dark crimson energy that pulses beneath the skin like barely contained infernal power.",
+	"It is said that {NAME} can tear through solid stone with {HIS} bare hands, leaving distinctive claw-like gouges that slowly seep blood-colored fluid for days afterward.",
+	"During feats of strength, those nearby report feeling a pressure in their ears and a metallic taste in their mouths, as if reality itself strains against the violation of its physical laws.",
+	"Those who study {NAME} closely note that {HIS} muscles seem impossibly dense and compact, as if matter from another realm has been compressed into {HIS} physical form.",
+	"The Aminion strength-priests believe that might-blessed individuals like {NAME} channel their god's destructive aspect, each feat of strength a small echo of Aminion's eventual sundering of the world.",
+],

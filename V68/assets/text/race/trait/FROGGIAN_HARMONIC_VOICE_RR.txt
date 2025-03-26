@@ -1,0 +1,11 @@
+NAME: "Harmonic Voice",
+TITLE: "Athuri's Chorus",
+DESC: "This Froggian's vocal sac produces sounds of extraordinary complexity and beauty, their voice capable of evoking profound emotional responses and even subtle mind-altering effects.",
+
+BIO_DESC: [
+	"When {NAME} speaks, listeners report hearing subtle harmonies beneath {HIS} words, as if multiple voices are singing in perfect resonance.",
+	"It is said that {NAME} can calm raging mobs or inspire courage in the fearful through carefully modulated tones that bypass conscious resistance.",
+	"During performances, {NAME}'s vocal sac displays hypnotic patterns of color that pulse in perfect synchronization with the harmonics of {HIS} voice.",
+	"Those who hear {NAME} sing often experience vivid shared hallucinations of serene waters and ancient forests, regardless of their species or cultural background.",
+	"The Froggiann bards believe that voice-blessed individuals like {NAME} channel echoes of Athuri's original song that first called their race from the primordial waters.",
+],

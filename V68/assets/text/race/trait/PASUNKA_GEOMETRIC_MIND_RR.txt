@@ -1,0 +1,13 @@
+NAME: "Geometric Mind",
+TITLE: "Crator's Enlightenment",
+DESC: "This Pasunka has achieved extraordinary mental harmony through years of geometric meditation, perceiving the world through perfect mathematical patterns that bring clarity to chaos.",
+
+BIO_DESC: [
+	"When {NAME} meditates, observers report seeing a faint geometric aura surrounding {HIM}, perfectly symmetrical patterns that pulse in rhythm with {HIS} controlled breathing.",
+	"It is said that {NAME} can partition {HIS} mind to solve multiple complex problems simultaneously, {HIS} thoughts organized into distinct chambers like a perfectly designed structure.",
+	"During moments of crisis that would overwhelm others, {NAME} maintains an unnatural calm, {HIS} heartbeat and breathing remaining as steady as if {HE} were in deep meditation.",
+	"Those who spend extended time with {NAME} often find their own thoughts becoming more ordered and their emotions more controlled, as if {HIS} mental discipline radiates outward.",
+	"The Crator priests recognize {NAME}'s gift as a manifestation of divine geometry, the fundamental patterns that underlie all of creation made visible in a mortal mind.",
+	"{NAME} can enter a trance-like state where {HE} perceives reality as interlocking geometric forms, allowing {HIM} to understand complex systems with intuitive clarity.",
+	"Even in sleep, {NAME}'s mind remains partially active, processing information and solving problems through dreams filled with sacred geometric symbols and patterns."
+]

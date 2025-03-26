@@ -1,0 +1,11 @@
+NAME: "Iron Mind",
+TITLE: "The Unshakable",
+DESC: "This individual's psyche has been forged into an impenetrable fortress, resistant to fear, doubt, and external manipulation.",
+
+BIO_DESC: [
+	"{NAME}'s gaze never wavers, even when witnessing horrors that drive others to madness or despair.",
+	"It is said that {NAME} once endured seven days of Void-whispers without a single intrusive thought penetrating {HIS} mental defenses.",
+	"When subjected to mind-altering substances or magic, {NAME}'s consciousness simply retreats deeper into itself, emerging unscathed hours later.",
+	"The Pasunka masters speak of individuals like {NAME} as having achieved 'The Diamond Mind' - a state where thoughts become perfectly ordered crystalline structures.",
+	"During sleep, {NAME} never experiences nightmares, instead consciously organizing {HIS} memories into immaculate mental archives.",
+],

@@ -1,0 +1,11 @@
+NAME: "Blood Ascendant",
+TITLE: "Aminion's Vessel",
+DESC: "This individual has transcended normal limitations through blood rituals, their body and mind transformed by Aminion's essence until they exist in a state between mortality and godhood.",
+
+BIO_DESC: [
+	"When {NAME} becomes agitated or excited, observers report seeing {HIS} veins glow with a crimson light that pulses in rhythm with an unseen heartbeat that is not {HIS} own.",
+	"It is said that {NAME} can sense the blood of others from great distances, perceiving its quality and potency as a connoisseur might discern subtle notes in fine wine.",
+	"During combat, {NAME}'s wounds close with unnatural speed, the blood sometimes flowing back into {HIS} body against gravity before the flesh knits itself together.",
+	"Those who spend extended time with {NAME} often develop recurring nightmares of drowning in warm blood while distant laughter echoes around them, waking with unexplained puncture marks.",
+	"The blood priests across all races recognize that ascendants like {NAME} represent living vessels of Aminion's dominating essence, their very existence a testament to the terrible power that flows through willing sacrifices.",
+],
