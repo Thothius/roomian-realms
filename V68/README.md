@@ -108,6 +108,20 @@ New production chains create meaningful economic decisions:
 
 ---
 
+## 📚 Documentation
+
+The complete documentation for Roomian Realms is available at [https://thothius.github.io/roomian-realms/](https://thothius.github.io/roomian-realms/)
+
+### Updating Documentation
+
+All documentation is stored in the `/docs` folder. To update the documentation:
+
+1. Edit files in the `/docs` folder
+2. Run the `update-docs.bat` script to push changes to GitHub
+3. Wait a few minutes for GitHub Pages to update
+
+---
+
 ## 🔜 Coming Soon
 
 ### Race-Specific Divine Events
