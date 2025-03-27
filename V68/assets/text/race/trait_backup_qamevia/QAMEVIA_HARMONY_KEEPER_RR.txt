@@ -1,0 +1,11 @@
+NAME: "Harmony Keeper",
+TITLE: "Athuri's Resonance",
+DESC: "This Froggian has mastered the art of social resonance, their presence creating ripples of balance and accord that soothe conflicts and foster unity.",
+
+BIO_DESC: [
+	"{NAME}'s vocal sac produces subtle harmonic frequencies that calm agitated minds, often resolving conflicts before they escalate to violence.",
+	"When {NAME} mediates disputes, witnesses report seeing faint concentric rings in the air around {HIM}, as if {HIS} words create physical waves of harmony.",
+	"It is whispered that {NAME} can instinctively sense emotional dissonance in groups, moving to address imbalances before others even recognize the tension.",
+	"During communal ceremonies, {NAME}'s skin displays synchronizing patterns that gradually influence others to match their breathing and heartbeats to a collective rhythm.",
+	"The Q'Amevian elders believe that harmony keepers like {NAME} will become living resonance chambers in Athuri's eternal chorus after death, their souls vibrating with perfect equilibrium.",
+],

@@ -1,0 +1,11 @@
+NAME: "Fractured Mind",
+TITLE: "The Kaleidoscope",
+DESC: "This individual's psyche has shattered into countless fragments, each perceiving reality through a different lens and granting flashes of impossible insight.",
+
+BIO_DESC: [
+	"{NAME}'s eyes constantly shift focus, as if tracking entities that exist just beyond normal perception.",
+	"It is whispered that {NAME} sometimes speaks in multiple voices simultaneously, each offering a different perspective on the same truth.",
+	"The Bloodelf scholars believe that minds like {NAME}'s have been touched by the spaces between realities, where logic fragments and reassembles in alien patterns.",
+	"During moments of extreme stress, {NAME} occasionally manifests knowledge {HE} could not possibly possess, only to forget it entirely afterward.",
+	"Those who sleep near {NAME} report shared dreams of impossible architecture and concepts that cannot be described upon waking.",
+],

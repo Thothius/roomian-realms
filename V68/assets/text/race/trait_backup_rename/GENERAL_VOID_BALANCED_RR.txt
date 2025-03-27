@@ -1,0 +1,11 @@
+NAME: "Void Balanced",
+TITLE: "The Edge Walker",
+DESC: "This individual has achieved a precarious equilibrium with the Void, neither consumed by its hunger nor immune to its whispers.",
+
+BIO_DESC: [
+	"{NAME}'s shadow sometimes moves independently, reaching toward Void-infused materials before being forcibly restrained.",
+	"The whites of {NAME}'s eyes occasionally darken to pitch black before {HE} blinks them clear with practiced concentration.",
+	"It is said that {NAME} can hear the Void's song but has learned to harmonize with it rather than be consumed by its melody.",
+	"Small objects sometimes levitate briefly around {NAME} when {HE} sleeps, falling the moment {HE} awakens.",
+	"The ritual scars across {NAME}'s body form a complex pattern that channels Void energy safely through {HIS} flesh rather than allowing it to pool and corrupt.",
+],

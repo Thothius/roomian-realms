@@ -1,0 +1,126 @@
+ICON: 32->RELIGION->12,
+RESOURCES: [STONE,WOOD,FURNITURE,FABRIC],
+AREA_COSTS: [0.5,0.3,0,0],
+FLOOR: [STONE_MEDIUM,STONE_LIGHT],
+MINI_COLOR: 230_180_100,
+REQUIRES: {
+	GREATER: {
+		POPULATION_CITIZEN_I: 100,
+	},
+},
+ITEMS: [
+	{
+		COSTS: [3,2,2,1],	** Altars
+		STATS: [1,0,0],
+	},
+	{
+		COSTS: [2,2,2,2],	** Religious Icons
+		STATS: [0,2,0],
+	},
+	{
+		COSTS: [1,1,1,2],	** Prayer Areas
+		STATS: [0,0,2],
+	},
+],
+UPGRADES: [
+	{
+		RESOURCE_MASK: [1,1,1,1],
+		BOOST: 0,
+	},
+	{
+		RESOURCE_MASK: [2,2,2,2],
+		BOOST: 0.5,
+	},
+	{
+		RESOURCE_MASK: [3,3,3,3],
+		BOOST: 1.0,
+	},
+],
+WORK: {
+	SHIFT_OFFSET: 0.5,
+	SOUND: work->Magic*,
+	ACCIDENTS_PER_YEAR: 0.01,
+	FULFILLMENT: 2.0,
+},
+INDUSTRIES: [
+	{
+		INDUSTRY: {
+			IN: {
+				LIVESTOCK: 0.2,
+			},
+			OUT: {
+				RELIGION_CRATOR: 0.5,
+			},
+		},
+	},
+],
+ENVIRONMENT_EMIT: {
+	_NOISE: {
+		VALUE: 0.5,
+		RADIUS: 1,
+	},
+},
+BOOSTS: {
+	HUMAN: {
+		RELIGION_CRATOR>MUL: 0.3,
+		HAPPINESS>ADD: 0.1,
+		WARRIOR_MORALE>MUL: 0.1,
+		CRAFTING_METAL>MUL: 0.1,
+	},
+	DONDORIAN: {
+		RELIGION_CRATOR>MUL: 0.3,
+		HAPPINESS>ADD: 0.1,
+		CRAFTING_QUALITY>MUL: 0.2,
+		PRODUCTION>MUL: 0.1,
+	},
+	CRETONIAN: {
+		RELIGION_CRATOR>MUL: 0.3,
+		HAPPINESS>ADD: 0.1,
+		WARRIOR_DEFENSE>MUL: 0.1,
+		TRAINING>MUL: 0.1,
+	},
+},
+SPRITES: {
+	ALTAR_2X2: [
+		{	
+			TINT: true,
+			SHADOW_HEIGHT: 6,
+			FRAMES: [
+				ALTAR: 0,	
+				ALTAR: 1,
+			],
+		},
+	],
+	STATUE_1X1: [
+		{	
+			TINT: true,
+			SHADOW_LENGTH: 5,
+			ROTATES: true,
+			FRAMES: [
+				STATUE: 0,
+				STATUE: 1,	
+			],
+		},
+	],
+	DECOR_1X1: [
+		{
+			TINT: true,
+			SHADOW_LENGTH: 2,
+			ROTATES: false,
+			FRAMES: [
+				DECOR: 0,
+				DECOR: 1,
+				DECOR: 2,
+			],
+		},
+	],
+	CARPET_COMBO: [
+		{	
+			TINT: true,
+			FRAMES: [
+				COMBO_CARPETS: 5,	
+			],
+		},
+	],
+},
+DESCRIPTION: "A sturdy and practical temple dedicated to Crator Astari, the foremost creator of the Astari. This temple accepts animal offerings, honoring the deity's role in creating the many species of Syx. The architecture balances form and function, featuring solid construction, practical spaces, and symbols of craftsmanship and creation. Finestorians, Northmen, and Pasunkas receive significant bonuses when worshipping here, including improved crafting, production, combat, and training abilities. The temple produces substantial religious output for followers of Crator, reinforcing their dedication to creation, honest labor, and practical achievement.",

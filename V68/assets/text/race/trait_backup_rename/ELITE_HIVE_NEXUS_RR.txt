@@ -1,0 +1,11 @@
+NAME: "Hive Nexus",
+TITLE: "Shmalor's Vessel",
+DESC: "This individual serves as a living psychic hub for collective consciousness, their mind capable of connecting with and coordinating dozens of others simultaneously through Shmalor's parasitic network.",
+
+BIO_DESC: [
+	"When {NAME} focuses on coordination, witnesses report seeing faint tendrils of shadow extending from {HIS} body to those under {HIS} influence, pulsing with information exchange.",
+	"It is said that {NAME} can perceive through the senses of those connected to {HIS} network, experiencing multiple perspectives simultaneously while maintaining perfect mental organization.",
+	"During periods of intense psychic activity, {NAME}'s skin develops subtle shifting patterns that resemble insect carapaces or fungal structures, physical manifestations of {HIS} altered consciousness.",
+	"Those who serve under {NAME}'s direct command report experiencing shared dreams where they move with perfect coordination through impossible hive structures that seem both alien and familiar.",
+	"The hive priests across all races recognize that nexus individuals like {NAME} represent living conduits of Shmalor's organizing essence, their minds containing fractal patterns that can restructure the thoughts of others.",
+],

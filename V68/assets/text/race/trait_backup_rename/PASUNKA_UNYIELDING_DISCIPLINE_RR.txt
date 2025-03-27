@@ -1,0 +1,11 @@
+NAME: "Unyielding Discipline",
+TITLE: "Crator's Constant",
+DESC: "This Pasunkas has forged their will into an immovable force through decades of rigorous self-denial, their devotion to duty transcending personal desire or comfort.",
+
+BIO_DESC: [
+	"When given an order, {NAME}'s body immediately adopts a perfect stance of attention, a response so ingrained it precedes conscious thought.",
+	"It is said that {NAME} has not broken a single vow or command in {HIS} lifetime, each promise becoming a physical law that binds {HIS} actions more strongly than chains.",
+	"During moments that would break another's resolve, faint geometric patterns appear beneath {NAME}'s skin, ancient Pasunka symbols of order and duty that strengthen {HIS} will.",
+	"Those who attempt to tempt {NAME} from {HIS} duty report experiencing a sudden, inexplicable shame, as if {HIS} discipline holds a mirror to their own moral weakness.",
+	"The Pasunka order believes that disciplined souls like {NAME}'s will become living pillars in Crator's eternal temple, their unbreakable will supporting the very architecture of perfect order.",
+],

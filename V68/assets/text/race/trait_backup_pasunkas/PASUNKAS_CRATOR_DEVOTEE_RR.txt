@@ -1,0 +1,11 @@
+NAME: "Crator Devotee",
+TITLE: "The Forge-Sworn",
+DESC: "This individual has pledged their soul to Crator, the divine craftsman, finding spiritual transcendence through creation and discipline.",
+
+BIO_DESC: [
+	"{NAME} bears ritual scars across {HIS} palms, each mark representing a masterwork offered to Crator's eternal forge.",
+	"When {NAME} works the forge, {HIS} eyes reflect dancing flames that some claim are glimpses of Crator's divine workshop.",
+	"It is whispered that {NAME} can hear Crator's guidance in the rhythm of {HIS} hammer strikes against heated metal.",
+	"Each night, {NAME} recites the Ninety-Nine Principles of Perfect Creation before allowing {HIMSELF} rest.",
+	"The blood-price of devotion is steep; {NAME}'s hands are permanently disfigured from decades of working with molten materials without protection.",
+],

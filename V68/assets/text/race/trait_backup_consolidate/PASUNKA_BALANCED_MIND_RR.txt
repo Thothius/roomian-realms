@@ -1,0 +1,11 @@
+NAME: "Balanced Mind",
+TITLE: "Crator's Harmony",
+DESC: "This Pasunka has achieved rare mental equilibrium through rigorous meditation and discipline, their thoughts flowing with perfect clarity and emotional control.",
+
+BIO_DESC: [
+	"When {NAME} meditates, observers report seeing a faint geometric aura surrounding {HIM}, perfectly symmetrical patterns that pulse in rhythm with {HIS} controlled breathing.",
+	"It is said that {NAME} can partition {HIS} mind to solve multiple complex problems simultaneously, {HIS} thoughts organized into distinct chambers like a perfectly designed structure.",
+	"During moments of crisis that would overwhelm others, {NAME} maintains an unnatural calm, {HIS} heartbeat and breathing remaining as steady as if {HE} were in deep meditation.",
+	"Those who spend extended time with {NAME} often find their own thoughts becoming more ordered and their emotions more controlled, as if {HIS} mental discipline radiates outward.",
+	"The Crator priests recognize that balance-blessed individuals like {NAME} represent living embodiments of their god's perfect order, their minds reflecting the cosmic harmony that underlies creation.",
+],

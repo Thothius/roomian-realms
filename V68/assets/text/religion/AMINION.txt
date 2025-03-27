@@ -1,9 +1,29 @@
 NAME: "Temple of Aminion",
-DEITY: "Aminion",
-DESC: "The Temple of Aminion venerates the Fallen One, Lord of Chaos, who rebelled against the cosmic order.",
+NAMES: "Temples of Aminion",
+DESC: "The Temple of Aminion venerates the Fallen One, Lord of Chaos, who rebelled against the cosmic order. Once a powerful Astari, Aminion sought to remake reality in his own image, believing that true power comes through embracing pain and chaos.
+
+Followers of Aminion practice ritual scarification and blood offerings, believing that through submission to suffering, one transcends mortal limitations. The temple's inner sanctum is adorned with implements of torture and sacrifice, each meticulously crafted to inflict precise forms of pain that are said to open pathways to Aminion's realm.
+
+The Hellspawns are Aminion's most devoted followers, embodying his teachings through their "Pain's Embrace" philosophy. Their bodies bear elaborate ritual scars that channel Aminion's chaotic energies, granting them supernatural strength in battle. The most devoted Hellspawn priests can reportedly summon minor demons through blood rituals performed during the Crimson Moon.
+
+The Bloodelves form a secondary but significant cult within Aminion's faith, following the "Crimson Covenant" aspect that focuses on blood consumption and immortality. They believe that by drinking the blood of worthy opponents, they absorb fragments of Aminion's power that was scattered throughout all living beings when he was defeated by Athuri.
+
+Aminion stands in direct opposition to Athuri, his ancient nemesis who defeated him in the cosmic wars. The two deities represent the eternal struggle between chaos and order, destruction and creation. Followers of Aminion view suffering not as a punishment but as the path to transcendence, believing that only through chaos can true freedom be achieved.
+
+The temple's most sacred ritual is the Crimson Communion, performed during the darkest night of winter, where willing sacrifices offer their blood or even their lives to strengthen Aminion's influence in the mortal realm. It is said that during these ceremonies, the veil between worlds thins, and glimpses of Aminion's chaotic domain can be witnessed by the faithful.
 
 WIKI: {
 	NAME: "Temple of Aminion",
 	CATEGORY: "Religion",
-	TEXT: "The Temple of Aminion venerates the Fallen One, Lord of Chaos, who rebelled against the cosmic order. Once a powerful Astari, Aminion sought to remake reality in his own image, believing that true power comes through embracing pain and chaos. Followers of Aminion practice ritual scarification and blood offerings, believing that through submission to suffering, one transcends mortal limitations. The temple's inner sanctum is adorned with implements of torture and sacrifice, each meticulously crafted to inflict precise forms of pain that are said to open pathways to Aminion's realm. The Hellspawns are Aminion's most devoted followers, embodying his teachings through their \"Pain's Embrace\" philosophy. Their bodies bear elaborate ritual scars that channel Aminion's chaotic energies, granting them supernatural strength in battle.",
+	TEXT: "The Temple of Aminion venerates the Fallen One, Lord of Chaos, who rebelled against the cosmic order. Once a powerful Astari, Aminion sought to remake reality in his own image, believing that true power comes through embracing pain and chaos.
+
+Followers of Aminion practice ritual scarification and blood offerings, believing that through submission to suffering, one transcends mortal limitations. The temple's inner sanctum is adorned with implements of torture and sacrifice, each meticulously crafted to inflict precise forms of pain that are said to open pathways to Aminion's realm.
+
+The Hellspawns are Aminion's most devoted followers, embodying his teachings through their "Pain's Embrace" philosophy. Their bodies bear elaborate ritual scars that channel Aminion's chaotic energies, granting them supernatural strength in battle. The most devoted Hellspawn priests can reportedly summon minor demons through blood rituals performed during the Crimson Moon.
+
+The Bloodelves form a secondary but significant cult within Aminion's faith, following the "Crimson Covenant" aspect that focuses on blood consumption and immortality. They believe that by drinking the blood of worthy opponents, they absorb fragments of Aminion's power that was scattered throughout all living beings when he was defeated by Athuri.
+
+Aminion stands in direct opposition to Athuri, his ancient nemesis who defeated him in the cosmic wars. The two deities represent the eternal struggle between chaos and order, destruction and creation. Followers of Aminion view suffering not as a punishment but as the path to transcendence, believing that only through chaos can true freedom be achieved.
+
+The temple's most sacred ritual is the Crimson Communion, performed during the darkest night of winter, where willing sacrifices offer their blood or even their lives to strengthen Aminion's influence in the mortal realm. It is said that during these ceremonies, the veil between worlds thins, and glimpses of Aminion's chaotic domain can be witnessed by the faithful.",
 },

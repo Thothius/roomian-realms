@@ -1,0 +1,6 @@
+VERSION: "0.4",
+NAME: "Roomian Realms",
+DESC: "8 custom races with unique traits and religions. Expanded armory. Custom music.",
+AUTHOR: "Ted",
+INFO: "Work in progress featuring 8 races with distinct traits and four deities (Athuri, Aminion, Crator, Shmalor).",
+COMPATIBLE: "68",

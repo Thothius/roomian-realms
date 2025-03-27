@@ -1,10 +1,10 @@
-# Roomian Realms (RG2)
+# RoomianRealms
 
 ## Overview
 
-*"Eight ancient bloodlines vie for dominance in a world where forgotten gods still whisper. Forge your legacy through blood, steel, or forbidden knowledge as ancient pacts are broken and new alliances forged."*
+*"Eight extraordinary civilizations emerge from the ashes of a shattered world. From mystical forest guardians to technological amphibians, each society has forged its own path through the chaos of divine conflict."*
 
-When the old gods fell, they left behind their children—some blessed, others cursed. Now these heirs to divinity and darkness clash across a fractured realm where honor and treachery are merely different faces of survival. The throne awaits one who can master the delicate dance of power.
+When ancient powers clashed, they left behind a tapestry of diverse cultures—each shaped by their connection to forgotten deities. Now these inheritors of divine wisdom and arcane knowledge vie for supremacy across fractured lands. The future belongs to those who can unite these disparate peoples or bend their unique strengths to their will.
 
 ## Documentation
 

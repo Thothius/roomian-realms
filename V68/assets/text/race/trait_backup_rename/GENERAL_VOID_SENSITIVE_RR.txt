@@ -1,0 +1,11 @@
+NAME: "Void Sensitive",
+TITLE: "The Resonant Vessel",
+DESC: "This individual's mind has been attuned to the frequencies of the Void, granting profound insight at the cost of physical vulnerability.",
+
+BIO_DESC: [
+	"{NAME}'s skin develops painful rashes in the presence of Void materials, yet {HE} can detect their presence through solid walls.",
+	"When researching Void phenomena, {NAME}'s eyes leak a luminescent fluid that temporarily grants others glimpses of {HIS} visions.",
+	"It is said that {NAME} can perceive the underlying mathematical patterns of reality when in proximity to Void anomalies.",
+	"The Q'Amevian scholars believe {NAME}'s sensitivity comes from having part of {HIS} soul already residing in the Void, creating a constant connection.",
+	"During sleep, {NAME} sometimes speaks in languages unknown to any mortal race, describing impossible geometries and entities that exist between dimensions.",
+],

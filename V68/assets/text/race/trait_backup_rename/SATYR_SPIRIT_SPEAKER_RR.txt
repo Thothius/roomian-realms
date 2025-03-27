@@ -1,0 +1,11 @@
+NAME: "Spirit Speaker",
+TITLE: "Voice of the Unseen",
+DESC: "This Satyr has developed the ability to perceive and communicate with the myriad spirits that dwell within the natural world, serving as a bridge between realms.",
+
+BIO_DESC: [
+	"When {NAME} speaks in sacred groves, listeners report hearing subtle harmonies beneath {HIS} words, as if multiple voices join in communion.",
+	"It is said that {NAME} can see the nature spirits that inhabit all living things, perceiving a world teeming with consciousness invisible to others.",
+	"During important decisions, {NAME} often pauses to listen to voices others cannot hear, receiving counsel from ancestors and nature spirits alike.",
+	"Plants near {NAME} grow in unnatural patterns, sometimes forming symbols or faces as the spirits manipulate living matter to communicate.",
+	"The Athuri priests believe that spirit speakers like {NAME} have part of their soul permanently anchored in the spirit realm, allowing them to exist in both worlds simultaneously.",
+],

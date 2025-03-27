@@ -502,3 +502,7 @@ SPRITES: {
 		},
 	],
 },
+<<<<<<< HEAD
+=======
+DESCRIPTION: "A specialized mine for extracting Void Ore, a mysterious material that appears in areas where the fabric of reality has been weakened. Mining this resource is dangerous and difficult, with a higher accident rate than conventional mines. Wormlings have a natural affinity for this alien substance and work more efficiently in these mines, while Hellspawns also show some aptitude for the work.",
+>>>>>>> gh-pages

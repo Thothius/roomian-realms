@@ -1,0 +1,11 @@
+NAME: "Resourceful Survivor",
+TITLE: "Enduring Adaptability",
+DESC: "This Human possesses extraordinary resilience and ingenuity in the face of hardship, their body and mind capable of enduring conditions that would break others while finding solutions where none seem to exist.",
+
+BIO_DESC: [
+	"When {NAME} faces resource scarcity, observers report an almost preternatural ability to identify overlooked materials and repurpose them in ways that shouldn't logically function but somehow do.",
+	"It is said that {NAME} can survive on minimal sustenance for extended periods, {HIS} body entering an efficient state that conserves energy while maintaining cognitive function.",
+	"During crises that overwhelm others, {NAME} exhibits a calm focus that allows {HIM} to improvise effective tools and solutions from whatever materials are at hand, no matter how limited.",
+	"Those who endure hardships alongside {NAME} often find their own resilience strengthened, as if {HIS} survival instinct radiates outward and reinforces the will of those nearby.",
+	"Military strategists across all races recognize that survivor-blessed individuals like {NAME} represent humanity's greatest defense against extinction - the capacity to endure and rebuild despite overwhelming odds.",
+],

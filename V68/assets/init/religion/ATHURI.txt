@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ICON: 32->religion->ATHURI->0,
 DEFAULT_SPREAD: 1.0,
 COLOR: 20_200_5,
@@ -13,3 +14,44 @@ BOOST: {
 	ROOM_WORKSHOP*>ADD: 0.05,
 	ROOM_UNIVERSITY*>ADD: 0.5,
 },
+=======
+NAME: "Athurism",
+DEITY: "Athuri",
+DESC: "Athuri, the Verdant Guardian, protects nature and knowledge. His temples accept food offerings.",
+
+ICON: 32->religion->ATHURI->0,
+DEFAULT_SPREAD: 1.0,
+COLOR: 20_100_20,
+
+OPPOSITION: {
+	AMINION: 4,
+	CRATOR: 1,
+	SHMALOR: 3,
+	GOD_EMPEROR: 2,
+},
+
+BOOST: {
+	BEHAVIOUR_BALANCED>ADD: 0.15,
+	WORLD_FOOD*>MUL: 1.15,
+	WORLD_KNOWLEDGE*>MUL: 1.1,
+	WORLD_BUILDING_AGRICULTURE>MUL: 1.2,
+	WORLD_BUILDING_PASTURE>MUL: 1.2,
+	ROOM_LIBRARY*>MUL: 1.15,
+},
+
+WIKI: {
+	NAME: "Athurism",
+	CATEGORY: "Religion",
+	TEXT: "Before The Shattering, Athuri was an immense living tree that sprung from the ocean, its massive branches extending across the shorelines of the Roomian lands, growing into lush forests that spanned the width of the Roomian Realms. The fruit of this cosmic tree was said to be the cradle of wisdom and creation itself, so cosmically delicious that it lured the Time Worm to notice this reality and come to consume it.
+
+When the Time Worm tore through reality to devour the fruit of creation, the great tree withered and sank beneath the waves. Yet Athuri's essence persisted in the roots that still held his spirit. In his dying moments, Athuri split himself into two races to preserve his dual nature.
+
+The Froggians arose from the waters surrounding the ruined tree, transformed from sea life into intelligent beings channeling Athuri's wisdom. They emerged onto land from the waters of the fallen tree, carrying with them ancient knowledge preserved in stone tablets. The Froggians have largely staved off the effects of corruption and fiercely guard their knowledge of the old world. They are repositories of wisdom concerning the ocean and swamps, intellectual and contemplative in nature.
+
+The Satyrs sprung from the forests that still held Athuri's life energy, embodying the wild, untamed aspect of the world tree. They serve as guardians of the last Athurian roots, but their sacred duty has become twisted over time. Their Wild Hunts, once meant to protect the forests, have grown increasingly violent and chaotic, suggesting a slow descent into madness. They craft bows from sacred Athurian wood to punish those they deem threats to the remaining forests, which seem to reinvigorate after bloodshed - a disturbing transformation possibly influenced by void ore altering the Athurian woods in unpredictable ways.
+
+Though both races honor and worship Athuri as their creator, they have grown estranged and rarely communicate. They represent two aspects of Athuri that have split but remain fundamentally one - wisdom and wildness, knowledge and instinct. The Froggians maintain sacred pools where they commune with what remains of Athuri's consciousness, while the Satyrs perform moonlit rituals in the deepest parts of the forests where Athuri's roots run deepest.
+
+Athuri's temples are living sanctuaries where plants grow freely and water flows in natural patterns. His priests believe that by preserving knowledge and nurturing what remains of the natural world, they might someday restore Athuri's greatness - though the increasing corruption of the Satyrs suggests this hope may be in vain.",
+},
+>>>>>>> gh-pages

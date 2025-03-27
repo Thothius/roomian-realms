@@ -1,0 +1,11 @@
+NAME: "Ancient Lineage",
+TITLE: "Blood Nobility",
+DESC: "This Bloodelf descends from one of the oldest noble houses, their veins carrying concentrated power from centuries of selective breeding and blood rituals.",
+
+BIO_DESC: [
+	"When {NAME} speaks of {HIS} lineage, listeners report feeling a subtle pressure behind their eyes, as if {HIS} ancestral power reaches out to impress itself upon their minds.",
+	"It is said that {NAME}'s blood appears unusually dark and viscous when drawn, sometimes moving with apparent purpose and resisting containment in normal vessels.",
+	"During moments of strong emotion, faint ghostly faces sometimes appear behind {NAME}, spectral echoes of ancestors watching through {HIS} eyes and judging {HIS} actions.",
+	"Those who serve under {NAME} often develop an inexplicable loyalty that transcends rational thought, as if {HIS} bloodline carries subtle compulsions that influence weaker minds.",
+	"The Aminion blood-priests recognize that lineage-blessed individuals like {NAME} represent living archives of ancient power, their very cells containing magical patterns refined through generations of sacrifice.",
+],

@@ -1,0 +1,11 @@
+NAME: "Amphibious Mastery",
+TITLE: "Athuri's Swimmer",
+DESC: "This Froggian has developed extraordinary control over their amphibious nature, moving through water with supernatural grace and adapting seamlessly between aquatic and terrestrial environments.",
+
+BIO_DESC: [
+	"When {NAME} enters water, {HIS} skin subtly shifts in texture and color, developing nearly invisible channels that reduce resistance and allow for extraordinary speed.",
+	"It is said that {NAME} can extract oxygen directly through {HIS} skin when submerged, allowing {HIM} to remain underwater indefinitely without surfacing for air.",
+	"During aquatic movement, {NAME}'s limbs seem to flow like water itself, each motion so perfectly efficient that {HE} barely creates ripples even at high speed.",
+	"Those who observe {NAME} closely note that {HE} never seems fully dry, {HIS} skin maintaining a perfect moisture balance regardless of environmental conditions.",
+	"The Q'Amevian elders believe that water-blessed individuals like {NAME} maintain a direct connection to the primordial waters where Athuri first breathed life into their ancestors.",
+],

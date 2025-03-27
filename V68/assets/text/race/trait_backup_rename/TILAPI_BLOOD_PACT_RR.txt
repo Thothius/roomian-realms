@@ -1,0 +1,11 @@
+NAME: "Blood Pact",
+TITLE: "Aminion's Covenant",
+DESC: "This Hellspawn has entered into a formal blood covenant with Aminion, sacrificing portions of their soul in exchange for supernatural resilience and combat prowess.",
+
+BIO_DESC: [
+	"When {NAME} is wounded in battle, {HIS} blood moves with apparent purpose, flowing back into injuries and hardening into temporary scabs that allow {HIM} to continue fighting beyond normal endurance.",
+	"It is said that {NAME} must regularly perform blood sacrifices to maintain {HIS} pact, the victims' final screams briefly revealing shadowy tendrils connecting {HIM} to some distant presence.",
+	"During moments of extreme violence, {NAME}'s eyes fill completely with crimson light and {HIS} shadow appears to detach slightly from {HIS} body, moving with subtle independence.",
+	"Those who face {NAME} in combat report experiencing inexplicable terror that transcends normal fear, as if {HIS} very presence triggers primal recognition of predatory divinity.",
+	"The Aminion blood-priests recognize that pact-blessed individuals like {NAME} represent living contracts with their god, each one a down payment on Aminion's eventual claim to all mortal blood.",
+],

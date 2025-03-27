@@ -1,0 +1,11 @@
+NAME: "Aristocratic Command",
+TITLE: "Blood Sovereign",
+DESC: "This Bloodelf embodies the imperious authority of Bloodelf nobility, their very presence demanding submission from those deemed lesser by ancient bloodright.",
+
+BIO_DESC: [
+	"When {NAME} issues commands, {HIS} voice carries subtle harmonic undertones that bypass conscious resistance, compelling obedience through primal fear.",
+	"It is said that {NAME} can taste fear in the air, instinctively identifying the weakest-willed individual in any gathering and exploiting their vulnerability.",
+	"During moments of extreme authority, faint crimson patterns appear in the air around {NAME}, ancient symbols of dominance visible only to those of noble blood.",
+	"Those who directly defy {NAME}'s commands often experience inexplicable nosebleeds or sudden vertigo, as if their very blood rebels against such insolence.",
+	"The Bloodelf bloodlines believe that aristocrats like {NAME} carry concentrated essence of Aminion's dominion, their authority a reflection of the Blood God's right to rule all living things.",
+],

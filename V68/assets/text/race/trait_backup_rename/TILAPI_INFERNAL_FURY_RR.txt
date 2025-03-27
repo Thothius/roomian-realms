@@ -1,0 +1,11 @@
+NAME: "Infernal Fury",
+TITLE: "Aminion's Wrath",
+DESC: "This Hellspawn embodies the unbridled rage of their infernal heritage, their very presence igniting primal fear in those who witness their battle-frenzy.",
+
+BIO_DESC: [
+	"When {NAME} enters combat, {HIS} skin cracks to reveal glowing veins of molten fury beneath, raising the ambient temperature around {HIM} by several degrees.",
+	"It is said that {NAME} can enter a berserker state where {HE} feels no pain, continuing to fight with lethal efficiency despite injuries that would incapacitate others.",
+	"During moments of intense rage, witnesses report seeing phantom horns and wings momentarily manifesting around {NAME}'s silhouette, echoes of {HIS} infernal lineage.",
+	"{NAME}'s blood sizzles and evaporates upon contact with air, leaving scorched patterns on any surface it touches that resemble ancient Aminion war-runes.",
+	"The Tilapi war-priests believe that fury-blessed warriors like {NAME} will be reborn as Aminion's hounds in the afterlife, hunting the souls of the weak for all eternity.",
+],

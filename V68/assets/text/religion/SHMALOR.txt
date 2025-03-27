@@ -1,6 +1,15 @@
 NAME: "Temple of Shmalor",
-DEITY: "Shmalor",
-DESC: "The Temple of Shmalor honors the Queen of the Agonosh, who represents the cosmic void and the spaces between realities.",
+NAMES: "Temples of Shmalor",
+DESC: "The Temple of Shmalor honors the Queen of the Agonosh, who represents the cosmic void and the spaces between realities. Slain by the Tilapi chieftain Trinduri during the first war of the gods, Shmalor's death is believed to have torn the veil between dimensions, allowing alien entities to enter the world of Syx.
+
+Shmalor's temples are unsettling places of shadow and whispers, where the boundaries between worlds seem to thin. Unlike other temples, they often appear larger inside than their exterior suggests, with corridors that seem to bend in impossible ways. Human sacrifices are offered upon obsidian altars that appear to absorb rather than reflect light, symbolizing Shmalor's endless hunger for life essence that sustains her fractured existence across multiple realities.
+
+The Wormlings are Shmalor's primary devotees, serving as living conduits for "The Breach"—the dimensional rift created by Shmalor's death. Their parasitic nature is considered a sacred manifestation of Shmalor's ability to transcend normal physical limitations. Their most devoted priests, who have allowed their bodies to be completely transformed by extradimensional parasites, can reportedly perceive multiple realities simultaneously and communicate with entities from beyond The Breach.
+
+Shmalor represents the void between worlds, entropy, and transformation through decay. Her followers believe that reality as perceived by mortal minds is merely an illusion—a thin membrane stretched across an infinite void filled with entities and energies beyond comprehension. They see death and decay not as endings but as transformations that reveal the true nature of existence.
+
+The most sacred ritual in Shmalor's worship is the Void Communion, performed during the darkest night of the year. Worshippers gather around a Breach Portal—a specially constructed gateway that temporarily thins the veil between dimensions. Through mass meditation and the sacrifice of willing devotees, they attempt to communicate with Shmalor's fragmented consciousness and the entities that dwell beyond The Breach."
+
 WIKI: {
 	NAME: "Temple of Shmalor",
 	CATEGORY: "Religion",

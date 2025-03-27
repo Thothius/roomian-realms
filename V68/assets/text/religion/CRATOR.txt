@@ -1,6 +1,16 @@
 NAME: "Temple of Crator",
-DEITY: "Crator",
-DESC: "The Temple of Crator venerates the Divine Architect, foremost creator among the Astari, who shaped the physical world.",
+NAMES: "Temples of Crator",
+DESC: "The Temple of Crator venerates the Divine Architect, foremost creator among the Astari, who shaped the physical world and its many creatures. Crator's temples celebrate craftsmanship, discipline, and the perfection of form, reflecting his role as the master craftsman of reality.
+
+Crator's sanctuaries are marvels of architectural precision, where every stone, beam, and ornament is placed according to sacred geometric principles. Offerings of livestock are made upon perfectly balanced stone altars, symbolizing Crator's appreciation for well-crafted living forms. The temples themselves serve as working forges and training grounds, where devotees hone their crafts and physical disciplines as acts of worship.
+
+The Finestorians are Crator's most devoted followers, honoring him through their "Forge-Bound Soul" tradition. They believe that fragments of their souls become embedded in items they craft with sufficient skill and devotion. Their most accomplished artisans can reportedly imbue creations with special properties through rituals that channel Crator's creative essence. The Final Forging—a ceremony where master craftsmen create their ultimate masterpiece—is considered the highest form of worship, believed to bind a portion of their soul permanently to Crator's divine workshop.
+
+The Pasunkas follow Crator through their "Push-up Taijutsu" discipline, believing that physical perfection is a form of creation—the crafting of one's own body into a perfect vessel. Their martial arts combine geometric precision with explosive power, each movement designed to honor Crator's principles of perfect form and function.
+
+Crator represents the principles of creation, order, and discipline. His followers believe that the act of creation—whether crafting a sword, building a temple, or perfecting a martial art—is the highest form of worship. They see the physical world as Crator's masterpiece, a perfect mechanism that functions according to divine geometric principles.
+
+The most sacred ritual in Crator's temples is the Forging of the Divine Spark, performed during the winter solstice. Master craftsmen from across the realm gather to create a ceremonial object of extraordinary complexity, channeling Crator's creative essence. These artifacts are said to contain a fragment of Crator's power, capable of imbuing other creations with enhanced properties."
 
 WIKI: {
 	NAME: "Temple of Crator",

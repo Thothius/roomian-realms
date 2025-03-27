@@ -1,0 +1,11 @@
+NAME: "Uncontrollable Rage",
+TITLE: "Aminion's Madness",
+DESC: "This Hellspawn is consumed by periodic fits of blind fury that transform them into an engine of pure destruction, their conscious mind submerged beneath waves of infernal wrath.",
+
+BIO_DESC: [
+	"When {NAME}'s rage takes hold, {HIS} eyes fill completely with crimson light and {HIS} skin cracks to reveal molten veins pulsing with Aminion's fury.",
+	"It is said that {NAME} cannot distinguish friend from foe during {HIS} berserker episodes, attacking anything that moves with equal savagery until the rage subsides.",
+	"During {HIS} rampages, {NAME} becomes impervious to pain and continues fighting despite injuries that would incapacitate or kill others, only to collapse once the fury ebbs.",
+	"Those who witness {NAME}'s transformation report hearing faint, discordant whispers in an unknown language emanating from {HIM}, as if Aminion himself speaks through {HIS} rage.",
+	"The Tilapi elders view rage-cursed individuals like {NAME} with a mixture of reverence and caution, for they embody both the raw power and the uncontrollable nature of their god's wrath.",
+],

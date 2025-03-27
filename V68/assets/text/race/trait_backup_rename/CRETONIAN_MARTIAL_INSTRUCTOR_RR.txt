@@ -1,0 +1,11 @@
+NAME: "Martial Instructor",
+TITLE: "Form Master",
+DESC: "This Pasunka has mastered the art of teaching combat disciplines, their methodical approach and perfect demonstrations allowing them to efficiently train others in the ways of battle.",
+
+BIO_DESC: [
+	"When {NAME} demonstrates combat forms, {HIS} movements achieve such perfect precision that observers report seeing faint afterimages trailing behind each strike and block.",
+	"It is said that {NAME} can identify a student's weaknesses with a single glance, instantly devising personalized training regimens that address specific physical and mental limitations.",
+	"During training sessions, {NAME} enters a teaching trance where {HE} seems to perceive time differently, moving with impossible speed to correct multiple students' forms simultaneously.",
+	"Those who train under {NAME} often develop distinctive movement patterns that mark them as {HIS} students, subtle signatures in their combat style that other masters can recognize instantly.",
+	"The Crator war-priests believe that instructor-blessed individuals like {NAME} serve as living repositories of perfect form, their bodies and minds containing the ideal templates against which all martial movement is measured.",
+],

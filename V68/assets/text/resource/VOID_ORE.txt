@@ -1,4 +1,5 @@
 NAME: "Void Ore",
+<<<<<<< HEAD
 NAMES: "Void Ore",
 DESC: "Raw, unrefined mineral extracted from deep mines where the barrier between worlds is thin. This dark purple ore pulses with otherworldly energies and occasionally emits strange whispers. It must be carefully refined in specialized workshops to create the more stable and useful Void Crystal.",
 ICON: 24->resource->Sithilon->0,
@@ -8,3 +9,7 @@ MINIMAP_COLOR: 80_0_120,
 SPRITE: Sithilon,
 SPRITE_DEBRIS: Metal,
 CATEGORY_DEFAULT: 1,
+=======
+NAMES: "Void Ores",
+DESC: "A mysterious raw material that appears in areas where the fabric of reality has been weakened. This otherworldly substance pulses with strange energies and can be refined into the more stable Void Crystal. Mining this resource is dangerous and difficult, with Wormlings showing a natural affinity for working with it.",
+>>>>>>> gh-pages

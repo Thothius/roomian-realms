@@ -1,0 +1,11 @@
+NAME: "Master Craftsman",
+TITLE: "Crator's Hand",
+DESC: "This Finestorian has achieved the pinnacle of craftsmanship, their creations embodying the divine perfection of Crator's vision.",
+
+BIO_DESC: [
+	"{NAME}'s hands are marked with geometric scars, self-inflicted during the ritual of master-crafting that bound {HIS} soul to Crator's design.",
+	"When {NAME} works with raw materials, they seem to reshape themselves eagerly under {HIS} touch, as if recognizing their true purpose.",
+	"It is said that {NAME} can see the perfect form hidden within any material, spending days in meditation before making a single cut or stroke.",
+	"During the act of creation, {NAME}'s eyes reflect impossible geometries that observers find both beautiful and disturbing to witness.",
+	"The Dondorian guilds believe that master craftsmen like {NAME} will be reforged after death into living tools in Crator's eternal workshop.",
+],
