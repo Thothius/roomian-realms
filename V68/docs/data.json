@@ -1,0 +1,289 @@
+{
+  "title": "Roomian Realms",
+  "version": "0.3",
+  "subtitle": "A comprehensive modpack for Songs of Syx",
+  "description": "Eight distinct civilizations clash in a realm where ancient powers and forgotten magic shape destiny",
+  "quote": "Eight extraordinary civilizations emerge from the ashes of a shattered world. From mystical forest guardians to technological amphibians, each society has forged its own path through the chaos of divine conflict.",
+  "intro_text": "When ancient powers clashed, they left behind a tapestry of diverse cultures—each shaped by their connection to forgotten deities. Now these inheritors of divine wisdom and arcane knowledge vie for supremacy across fractured lands. The future belongs to those who can unite these disparate peoples or bend their unique strengths to their will.",
+  
+  "links": [
+    {
+      "name": "Download",
+      "url": "https://github.com/Thothius/roomian-realms/releases"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/Thothius/roomian-realms"
+    },
+    {
+      "name": "Lore",
+      "url": "lore.html"
+    },
+    {
+      "name": "Religion",
+      "url": "religious_section.html"
+    }
+  ],
+  
+  "features": [
+    {
+      "title": "8 Unique Playable Races",
+      "description": "Each with distinct abilities, strengths, weaknesses, and cultural traits",
+      "link": "lore.html#races",
+      "link_text": "Explore Races"
+    },
+    {
+      "title": "Void Technology System",
+      "description": "Harness the power of the void with specialized buildings and mechanics",
+      "link": "lore.html#void-tech",
+      "link_text": "Discover Void Tech"
+    },
+    {
+      "title": "Rich Lore",
+      "description": "Deep, interconnected stories and backgrounds for each race and deity",
+      "link": "lore.html",
+      "link_text": "Read Lore"
+    },
+    {
+      "title": "Custom Music",
+      "description": "Immersive soundtrack that enhances the atmospheric experience",
+      "link": "",
+      "link_text": ""
+    },
+    {
+      "title": "Balanced Gameplay",
+      "description": "Each race offers unique advantages and challenges while maintaining balance",
+      "link": "",
+      "link_text": ""
+    }
+  ],
+  
+  "traits": [
+    {
+      "title": "Race-Specific Traits",
+      "description": "Each race has 6 unique traits that reflect their culture and deity connections",
+      "link": "lore.html#traits",
+      "link_text": "View Traits"
+    },
+    {
+      "title": "Elite & Religious Traits",
+      "description": "Rare elite traits and religious devotee traits that add depth and variety to your population",
+      "link": "lore.html#elite-traits",
+      "link_text": "Discover Elite Traits"
+    }
+  ],
+  
+  "races": [
+    {
+      "name": "Wormlings",
+      "origin": "GARTHIMI",
+      "description": "Parasitic entities connected to both Shmalor and the God Emperor, working to prepare for his return.",
+      "primary_deities": ["God Emperor", "Shmalor"],
+      "traits": {
+        "positive": [
+          "Colony Mind",
+          "Void Affinity",
+          "Parasitic Adaptation",
+          "Hive Resilience"
+        ],
+        "negative": [
+          "Sunlight Sensitivity",
+          "Alien Psychology"
+        ]
+      }
+    },
+    {
+      "name": "Bloodelves",
+      "origin": "CANTOR",
+      "description": "Once beautiful elves who now bear a curse that requires them to consume blood to survive.",
+      "primary_deities": ["Aminion", "Shmalor"],
+      "traits": {
+        "positive": [
+          "Blood Magic",
+          "Enhanced Senses",
+          "Aristocratic Bearing",
+          "Night Vision"
+        ],
+        "negative": [
+          "Blood Dependency",
+          "Sunlight Weakness"
+        ]
+      }
+    },
+    {
+      "name": "Satyrs",
+      "origin": "ARGONOSH",
+      "description": "Female-dominated forest dwellers who value nature, tradition, and ritual.",
+      "primary_deities": ["Athuri"],
+      "traits": {
+        "positive": [
+          "Forest Affinity",
+          "Natural Archers",
+          "Ritual Knowledge",
+          "Matriarchal Wisdom"
+        ],
+        "negative": [
+          "Technophobia",
+          "Isolationist"
+        ]
+      }
+    },
+    {
+      "name": "Hellspawns",
+      "origin": "TILAPI",
+      "description": "Demonic entities that embody chaos and destruction, building civilizations on suffering.",
+      "primary_deities": ["Aminion"],
+      "traits": {
+        "positive": [
+          "Fire Resistance",
+          "Intimidation",
+          "Pain Tolerance",
+          "Battle Fury"
+        ],
+        "negative": [
+          "Unstable Temperament",
+          "Holy Vulnerability"
+        ]
+      }
+    },
+    {
+      "name": "Froggians",
+      "origin": "Q'AMEVIA",
+      "description": "Scholarly amphibians focused on knowledge preservation and peaceful progress.",
+      "primary_deities": ["Athuri"],
+      "traits": {
+        "positive": [
+          "Amphibious",
+          "Scientific Mind",
+          "Diplomatic Nature",
+          "Knowledge Preservation"
+        ],
+        "negative": [
+          "Cold Sensitivity",
+          "Physical Fragility"
+        ]
+      }
+    },
+    {
+      "name": "Pasunkas",
+      "origin": "CRETONIAN",
+      "description": "Spiritual martial artists who value discipline and balance, following the path of stone.",
+      "primary_deities": ["Crator"],
+      "traits": {
+        "positive": [
+          "Stone Affinity",
+          "Martial Discipline",
+          "Meditative Focus",
+          "Physical Resilience"
+        ],
+        "negative": [
+          "Rigid Thinking",
+          "Slow Reproduction"
+        ]
+      }
+    },
+    {
+      "name": "Finestorians",
+      "origin": "DONDORIAN",
+      "description": "Craftsmen who value skill and honest labor, direct and loyal but stubborn.",
+      "primary_deities": ["Crator"],
+      "traits": {
+        "positive": [
+          "Master Craftsmen",
+          "Honest Labor",
+          "Sturdy Constitution",
+          "Loyal Nature"
+        ],
+        "negative": [
+          "Stubborn",
+          "Slow to Change"
+        ]
+      }
+    },
+    {
+      "name": "Northmen",
+      "origin": "HUMAN",
+      "description": "Pragmatic traders and warriors who value ambition and clan reputation.",
+      "primary_deities": ["Crator", "Shmalor"],
+      "traits": {
+        "positive": [
+          "Adaptability",
+          "Trading Acumen",
+          "Clan Loyalty",
+          "Seafaring"
+        ],
+        "negative": [
+          "Ambitious",
+          "Superstitious"
+        ]
+      }
+    }
+  ],
+  
+  "deities": [
+    {
+      "name": "Aminion",
+      "title": "The Fallen One",
+      "description": "The fallen one, lord of chaos and nemesis of the Athuri. Requires human sacrifice.",
+      "preferred_by": ["Hellspawns", "Bloodelves"],
+      "color": "#b00020",
+      "class": "aminion",
+      "anchor": "aminion",
+      "full_description": "Once a member of the Astari, Aminion rebelled against his brother Athuri and embraced chaos. He teaches that pain is the path to power and that suffering breeds strength. His temples require blood sacrifice and are centers of dark rituals. Followers gain enhanced vitality and accelerated healing at the cost of increased aggression."
+    },
+    {
+      "name": "Athuri",
+      "title": "The Balanced One",
+      "description": "The leader and greatest of the Astari, who defeated his brother Bardok in both wars against him.",
+      "preferred_by": ["Satyrs", "Froggians"],
+      "color": "#018786",
+      "class": "athuri",
+      "anchor": "athuri",
+      "full_description": "Leader of the Astari and champion of balance and harmony. Athuri represents wisdom, natural order, and the preservation of knowledge. His temples are centers of learning and healing, often built in harmony with nature."
+    },
+    {
+      "name": "Crator",
+      "title": "The Divine Architect",
+      "description": "The foremost creator of the Astari, who created many species of Syx but was later tempted by Aminion.",
+      "preferred_by": ["Finestorians", "Pasunkas", "Northmen"],
+      "color": "#bb86fc",
+      "class": "crator",
+      "anchor": "crator",
+      "full_description": "The Divine Architect and master craftsman of the Astari. Crator values creation, order, and discipline. His temples are centers of craftsmanship and innovation, often featuring impressive architecture. Followers gain enhanced crafting abilities and structural insight."
+    },
+    {
+      "name": "Shmalor",
+      "title": "The Fractured Queen",
+      "description": "The Fractured Queen of the Agonosh, whose death created The Breach during the first war of the gods.",
+      "preferred_by": ["Wormlings", "Some Bloodelves", "Some Northmen"],
+      "color": "#6200ee",
+      "class": "shmalor",
+      "anchor": "shmalor",
+      "full_description": "Queen of the Agonosh and ruler of the void between worlds. Shmalor represents the unknown, the mysterious, and the spaces between realities. Her death created The Breach, allowing the God Emperor to enter Roomia. Her temples feature impossible geometries and void breaches. Followers gain insight into the void and enhanced perception of reality's boundaries."
+    },
+    {
+      "name": "God Emperor",
+      "title": "The Time Worm",
+      "description": "The cosmic entity from beyond reality that caused The Shattering, leaving fragments of its essence behind.",
+      "preferred_by": ["Wormlings"],
+      "color": "#3700b3",
+      "class": "emperor",
+      "anchor": "emperor",
+      "full_description": "Not truly a god but something far more alien—a vast worm-like being from beyond reality. The God Emperor tore through the fabric of existence during The Shattering, consuming the fruit of creation and leaving behind fragments of its essence. These fragments formed the Wormlings, who work to prepare for its eventual return. Temples feature impossible geometries, void breaches, and strange machinery. The sacred ritual is the Void Communion, where Wormlings temporarily merge consciousness with the God Emperor."
+    }
+  ],
+  
+  "installation": {
+    "title": "Installation Guide",
+    "steps": [
+      "Download the latest release from GitHub",
+      "Extract the ZIP file",
+      "Place the extracted folder in your Songs of Syx mods directory",
+      "Launch Songs of Syx and enable the mod in the Mods menu"
+    ],
+    "requirements": {
+      "game_version": ">=0.65",
+      "dependencies": []
+    }
+  }
+}

@@ -259,12 +259,29 @@
             padding: 15px;
             border-left: 4px solid #00bcd4;
         }
+        
+        /* Loading indicator */
+        .loading {
+            text-align: center;
+            padding: 20px;
+            font-style: italic;
+            color: #bb86fc;
+        }
+        
+        /* Error message */
+        .error-message {
+            background-color: rgba(207, 102, 121, 0.2);
+            border-left: 4px solid #cf6679;
+            padding: 15px;
+            margin: 20px 0;
+            color: #cf6679;
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>Roomian Realms</h1>
-        <div class="subtitle">A comprehensive modpack for Songs of Syx</div>
+        <h1 id="main-title">Roomian Realms</h1>
+        <div class="subtitle" id="main-subtitle">A comprehensive modpack for Songs of Syx</div>
         <div class="nav">
             <a href="#introduction">Introduction</a> |
             <a href="#races">Races</a> |
@@ -277,6 +294,16 @@
     </header>
     
     <div class="container">
+        <!-- Loading indicator -->
+        <div id="loading" class="loading">
+            Loading Roomian Realms data...
+        </div>
+        
+        <!-- Error message (hidden by default) -->
+        <div id="error-message" class="error-message" style="display: none;">
+            Failed to load data. Please refresh the page or try again later.
+        </div>
+        
         <!-- Section Navigation -->
         <div class="section-nav">
             <h3>Quick Navigation</h3>
@@ -292,11 +319,11 @@
         <!-- Introduction Section -->
         <section id="introduction">
             <h2>Introduction</h2>
-            <div class="quote-block">
+            <div class="quote-block" id="main-quote">
                 "Eight extraordinary civilizations emerge from the ashes of a shattered world. From mystical forest guardians to technological amphibians, each society has forged its own path through the chaos of divine conflict."
             </div>
             
-            <p>When ancient powers clashed, they left behind a tapestry of diverse cultures—each shaped by their connection to forgotten deities. Now these inheritors of divine wisdom and arcane knowledge vie for supremacy across fractured lands. The future belongs to those who can unite these disparate peoples or bend their unique strengths to their will.</p>
+            <p id="intro-text">When ancient powers clashed, they left behind a tapestry of diverse cultures—each shaped by their connection to forgotten deities. Now these inheritors of divine wisdom and arcane knowledge vie for supremacy across fractured lands. The future belongs to those who can unite these disparate peoples or bend their unique strengths to their will.</p>
             
             <p>The Shattering wasn't just a cataclysm—it was divine trauma on a cosmic scale. When the Time Worm tore through reality to devour the fruit of creation, it left behind a broken world. Gods were broken, transformed, or scattered. Their followers, bound to their essence, were changed in kind.</p>
             
@@ -308,70 +335,9 @@
             <h2>The Eight Races</h2>
             <p>Each race offers unique gameplay advantages and cultural traits, aligned with their religious beliefs</p>
             
-            <div class="race-grid">
-                <div class="race-card">
-                    <div class="race-card-content">
-                        <h3 class="race-name">Wormlings</h3>
-                        <div class="race-origin">GARTHIMI</div>
-                        <p class="race-desc">Parasitic entities connected to both Shmalor and the God Emperor, working to prepare for his return.</p>
-                    </div>
-                </div>
-                
-                <div class="race-card">
-                    <div class="race-card-content">
-                        <h3 class="race-name">Bloodelves</h3>
-                        <div class="race-origin">CANTOR</div>
-                        <p class="race-desc">Once beautiful elves who now bear a curse that requires them to consume blood to survive.</p>
-                    </div>
-                </div>
-                
-                <div class="race-card">
-                    <div class="race-card-content">
-                        <h3 class="race-name">Satyrs</h3>
-                        <div class="race-origin">ARGONOSH</div>
-                        <p class="race-desc">Female-dominated forest dwellers who value nature, tradition, and ritual.</p>
-                    </div>
-                </div>
-                
-                <div class="race-card">
-                    <div class="race-card-content">
-                        <h3 class="race-name">Hellspawns</h3>
-                        <div class="race-origin">TILAPI</div>
-                        <p class="race-desc">Demonic entities that embody chaos and destruction, building civilizations on suffering.</p>
-                    </div>
-                </div>
-                
-                <div class="race-card">
-                    <div class="race-card-content">
-                        <h3 class="race-name">Froggians</h3>
-                        <div class="race-origin">Q'AMEVIA</div>
-                        <p class="race-desc">Scholarly amphibians focused on knowledge preservation and peaceful progress.</p>
-                    </div>
-                </div>
-                
-                <div class="race-card">
-                    <div class="race-card-content">
-                        <h3 class="race-name">Pasunkas</h3>
-                        <div class="race-origin">CRETONIAN</div>
-                        <p class="race-desc">Spiritual martial artists who value discipline and balance, following the path of stone.</p>
-                    </div>
-                </div>
-                
-                <div class="race-card">
-                    <div class="race-card-content">
-                        <h3 class="race-name">Finestorians</h3>
-                        <div class="race-origin">DONDORIAN</div>
-                        <p class="race-desc">Craftsmen who value skill and honest labor, direct and loyal but stubborn.</p>
-                    </div>
-                </div>
-                
-                <div class="race-card">
-                    <div class="race-card-content">
-                        <h3 class="race-name">Northmen</h3>
-                        <div class="race-origin">HUMAN</div>
-                        <p class="race-desc">Pragmatic traders and warriors who value ambition and clan reputation.</p>
-                    </div>
-                </div>
+            <div class="race-grid" id="race-grid">
+                <!-- Race cards will be dynamically populated here -->
+                <div class="loading">Loading race data...</div>
             </div>
             
             <a href="lore.html#races" class="button">Detailed Race Information</a>
@@ -382,41 +348,9 @@
             <h2>Divine Powers</h2>
             <p>Ancient deities with unique bonuses and racial preferences</p>
             
-            <div class="card-container">
-                <div class="card card-aminion">
-                    <h3>Temple of Aminion</h3>
-                    <p>The fallen one, lord of chaos and nemesis of the Athuri. Requires human sacrifice.</p>
-                    <p><strong>Strongly preferred by:</strong> Hellspawns, Bloodelves</p>
-                    <a href="religious_section.html#aminion" class="button">Learn More</a>
-                </div>
-                
-                <div class="card card-athuri">
-                    <h3>Temple of Athuri</h3>
-                    <p>The leader and greatest of the Astari, who defeated his brother Bardot in both wars against him.</p>
-                    <p><strong>Strongly preferred by:</strong> Satyrs, Froggians</p>
-                    <a href="religious_section.html#athuri" class="button">Learn More</a>
-                </div>
-                
-                <div class="card card-crator">
-                    <h3>Temple of Crator</h3>
-                    <p>The foremost creator of the Astari, who created many species of Syx but was later tempted by Aminion.</p>
-                    <p><strong>Strongly preferred by:</strong> Finestorians, Pasunkas</p>
-                    <a href="religious_section.html#crator" class="button">Learn More</a>
-                </div>
-                
-                <div class="card card-shmalor">
-                    <h3>Temple of Shmalor</h3>
-                    <p>The Fractured Queen of the Agonosh, whose death created The Breach during the first war of the gods.</p>
-                    <p><strong>Strongly preferred by:</strong> Wormlings, Some Bloodelves</p>
-                    <a href="religious_section.html#shmalor" class="button">Learn More</a>
-                </div>
-                
-                <div class="card card-emperor">
-                    <h3>God Emperor</h3>
-                    <p>The cosmic entity from beyond reality that caused The Shattering, leaving fragments of its essence behind.</p>
-                    <p><strong>Strongly preferred by:</strong> Wormlings</p>
-                    <a href="religious_section.html#emperor" class="button">Learn More</a>
-                </div>
+            <div class="card-container" id="deity-container">
+                <!-- Deity cards will be dynamically populated here -->
+                <div class="loading">Loading deity data...</div>
             </div>
             
             <a href="religious_section.html" class="button">Complete Religious Framework</a>
@@ -459,22 +393,9 @@
             <h2>Other Features</h2>
             <p>Dive into a rich world of unique races, ancient deities, and mysterious technologies</p>
             
-            <div class="card-container">
-                <div class="card">
-                    <h3>Specialized Buildings</h3>
-                    <p>Race-specific structures that enhance your civilization's unique strengths</p>
-                </div>
-                
-                <div class="card">
-                    <h3>Religious Traits</h3>
-                    <p>Devotees gain unique bonuses based on their deity of choice</p>
-                </div>
-                
-                <div class="card">
-                    <h3>Rich Lore</h3>
-                    <p>Deep, interconnected stories and backgrounds for each race and deity</p>
-                    <a href="lore.html" class="button">Read Lore</a>
-                </div>
+            <div class="card-container" id="features-container">
+                <!-- Feature cards will be dynamically populated here -->
+                <div class="loading">Loading feature data...</div>
             </div>
         </section>
     </div>
@@ -483,5 +404,95 @@
         <p>Roomian Realms is a community fan modpack created with love, sweat, and tears. And maybe some wormlings volunteered too.</p>
         <p><a href="https://github.com/Thothius/roomian-realms" class="button">GitHub Repository</a></p>
     </div>
+    
+    <!-- Load the data loader script -->
+    <script src="js/data-loader.js"></script>
+    
+    <!-- Main script to populate the page -->
+    <script>
+        document.addEventListener('DOMContentLoaded', async function() {
+            try {
+                // Load the data
+                const data = await window.RoomianRealms.loadData();
+                
+                // Hide loading indicators
+                document.querySelectorAll('.loading').forEach(el => {
+                    el.style.display = 'none';
+                });
+                
+                // Populate main content
+                document.getElementById('main-title').textContent = data.title;
+                document.getElementById('main-subtitle').textContent = data.subtitle;
+                document.getElementById('main-quote').textContent = data.quote;
+                document.getElementById('intro-text').textContent = data.intro_text;
+                
+                // Populate races
+                const raceGrid = document.getElementById('race-grid');
+                raceGrid.innerHTML = '';
+                
+                data.races.forEach(race => {
+                    const raceCard = document.createElement('div');
+                    raceCard.className = 'race-card';
+                    
+                    raceCard.innerHTML = `
+                        <div class="race-card-content">
+                            <h3 class="race-name">${race.name}</h3>
+                            <div class="race-origin">${race.origin}</div>
+                            <p class="race-desc">${race.description}</p>
+                        </div>
+                    `;
+                    
+                    raceGrid.appendChild(raceCard);
+                });
+                
+                // Populate deities
+                const deityContainer = document.getElementById('deity-container');
+                deityContainer.innerHTML = '';
+                
+                data.deities.forEach(deity => {
+                    const deityCard = document.createElement('div');
+                    deityCard.className = `card card-${deity.class}`;
+                    
+                    deityCard.innerHTML = `
+                        <h3>${deity.name}</h3>
+                        <p>${deity.description}</p>
+                        <p><strong>Strongly preferred by:</strong> ${deity.preferred_by.join(', ')}</p>
+                        <a href="religious_section.html#${deity.anchor}" class="button">Learn More</a>
+                    `;
+                    
+                    deityContainer.appendChild(deityCard);
+                });
+                
+                // Populate features
+                const featuresContainer = document.getElementById('features-container');
+                featuresContainer.innerHTML = '';
+                
+                data.features.forEach(feature => {
+                    if (feature.title && feature.description) {
+                        const featureCard = document.createElement('div');
+                        featureCard.className = 'card';
+                        
+                        let featureHtml = `
+                            <h3>${feature.title}</h3>
+                            <p>${feature.description}</p>
+                        `;
+                        
+                        if (feature.link && feature.link_text) {
+                            featureHtml += `<a href="${feature.link}" class="button">${feature.link_text}</a>`;
+                        }
+                        
+                        featureCard.innerHTML = featureHtml;
+                        featuresContainer.appendChild(featureCard);
+                    }
+                });
+                
+            } catch (error) {
+                console.error('Error initializing page:', error);
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('error-message').style.display = 'block';
+                document.getElementById('error-message').textContent = `Failed to load data: ${error.message}`;
+            }
+        });
+    </script>
 </body>
 </html>
