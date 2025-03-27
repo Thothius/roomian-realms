@@ -14,10 +14,11 @@ When ancient powers clashed, they left behind a tapestry of diverse cultures—e
 ## What's New in Version 0.4
 
 ### Comprehensive Religious Framework
-- Expanded lore for all four deities (Athuri, Aminion, Crator, Shmalor)
+- Expanded lore for all five deities (Athuri, Aminion, Crator, Shmalor, God Emperor)
 - Detailed connections between races and their patron deities
 - Enhanced temple descriptions and religious practices
 - Sacred rituals and ceremonies for each faith
+- Revealed the true nature of the God Emperor and its relationship with Shmalor
 
 ### Enhanced Trait System
 - Rebalanced trait distribution across all races
@@ -55,6 +56,8 @@ When ancient powers clashed, they left behind a tapestry of diverse cultures—e
 - **The Creator (Crator)** - Divine Architect and foremost creator among the Astari, who shaped the physical world and its many creatures. His temples celebrate craftsmanship, discipline, and the perfection of form. Primarily worshipped by Pasunkas and Finestorians.
 
 - **The Slain Queen (Shmalor)** - Queen of the Agonosh, who represents the cosmic void and the spaces between realities. Slain during the first war of the gods, her death tore the veil between dimensions. Primarily worshipped by Wormlings.
+
+- **The God Emperor** - An alien entity from beyond reality that entered Roomia through the breach created by Shmalor's death. Unlike the other deities who were once gods of Roomia, the God Emperor is an extradimensional presence whose consciousness exists primarily in the void between dimensions. The Wormlings contain fragments of its essence, allowing them to perceive multiple realities simultaneously. The ultimate goal of its worship is transcendence - preparing Roomia for the God Emperor's eventual return.
 
 ### Character Traits System
 
