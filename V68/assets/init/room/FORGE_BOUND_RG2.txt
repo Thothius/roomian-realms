@@ -124,4 +124,4 @@ BOOSTS: {
 	},
 },
 RACE: DONDORIAN,
-DESCRIPTION: "A specialized workshop where Finestorians bind fragments of their souls to crafted items, creating tools of exceptional quality. The forge requires coal and metal but produces tools at a higher rate than standard workshops while generating happiness for Finestorians. The soul-binding process enhances all workshop production and mining efficiency for Finestorians, with a smaller benefit for other races."
+DESCRIPTION: "A specialized workshop where Finestorians bind fragments of their souls to crafted items, creating tools of exceptional quality. The forge requires coal and metal but produces tools at a higher rate than standard workshops while generating happiness for Finestorians. The soul-binding process enhances all workshop production and mining efficiency for Finestorians, with a smaller benefit for other races.",

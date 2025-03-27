@@ -1,0 +1,11 @@
+NAME: "Metamorphic Flesh",
+TITLE: "Shmalor's Clay",
+DESC: "This Wormling can consciously reshape their physical form through parasitic manipulation, their body a malleable canvas that adapts to meet any challenge.",
+
+BIO_DESC: [
+	"When faced with physical obstacles, {NAME}'s limbs visibly elongate or contract, bones and muscles rearranging themselves with unsettling fluidity.",
+	"It is said that {NAME} can temporarily develop specialized organs for specific environments, growing gill-like structures underwater or heat-dissipating membranes in extreme heat.",
+	"During combat, {NAME}'s skin sometimes hardens into chitinous plates at impact points seconds before blows land, as if {HIS} body anticipates attacks before they occur.",
+	"Those who observe {NAME} closely note that {HIS} facial features subtly shift to mirror those {HE} interacts with, an unconscious mimicry that creates unsettling almost-familiarity.",
+	"The Shmalor metamorphs believe that fluid-formed individuals like {NAME} represent their god's gift of liberation from fixed form, each transformation a sacred act of worship.",
+],

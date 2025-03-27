@@ -1,0 +1,11 @@
+NAME: "Blood Mage",
+TITLE: "Aminion's Vessel",
+DESC: "This Bloodelf has mastered the forbidden art of hemomancy, manipulating the vital essence of living beings to achieve effects that defy natural law.",
+
+BIO_DESC: [
+	"When {NAME} performs blood rituals, the crimson fluid moves against gravity and forms complex geometric patterns in the air before {HIM}.",
+	"It is whispered that {NAME} can taste a single drop of blood and know the entire medical history, lineage, and remaining lifespan of its source.",
+	"During moments of intense concentration, {NAME}'s veins glow beneath {HIS} alabaster skin, creating a network of crimson light that pulses in rhythm with arcane energies.",
+	"Those who spend too much time in {NAME}'s presence often develop nosebleeds and report feeling inexplicably drained, as if their vitality is being subtly harvested.",
+	"The Aminion high priests believe that blood mages like {NAME} serve as living conduits for their dark god's thirst, each ritual bringing the world one step closer to the Crimson Convergence.",
+],

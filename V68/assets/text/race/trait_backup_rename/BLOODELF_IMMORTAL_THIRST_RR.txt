@@ -1,0 +1,11 @@
+NAME: "Immortal Thirst",
+TITLE: "Deathless Drinker",
+DESC: "This Bloodelf has developed an unnatural vitality through forbidden blood rituals, their lifespan extended through the regular consumption of others' vital essence.",
+
+BIO_DESC: [
+	"{NAME}'s skin has a flawless, ageless quality that seems to absorb rather than reflect light, creating an unsettling void-like appearance.",
+	"It is whispered that {NAME} has not aged a day in decades, though each year without aging adds another subtle crimson fleck to {HIS} irises.",
+	"When injured, {NAME}'s wounds close with unnatural speed, the flesh knitting together as if eager to maintain the perfect vessel for the ancient consciousness within.",
+	"Those who sleep near {NAME} often report waking feeling inexplicably drained, with small puncture marks in hidden areas of their bodies that heal without scarring.",
+	"The Aminion blood-priests believe that immortal drinkers like {NAME} are slowly transforming into vessels for their god's essence, each consumed life bringing them closer to transcendent hemomorphosis.",
+],

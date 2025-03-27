@@ -1,0 +1,39 @@
+NAME: "Shmalorism",
+DEITY: "Shmalor",
+DESC: "Shmalor, the Fractured Queen, embodies decay and transformation. Her temples accept human sacrifices (prisoners).",
+
+ICON: 32->religion->SHMALOR->0,
+DEFAULT_SPREAD: 1.0,
+COLOR: 100_0_100,
+
+OPPOSITION: {
+	AMINION: 1,
+	ATHURI: 3,
+	CRATOR: 3,
+	GOD_EMPEROR: 0,
+},
+
+BOOST: {
+	BEHAVIOUR_RITUALISTIC>ADD: 0.15,
+	WORLD_BUILDING_CEMETERY>MUL: 1.2,
+	WORLD_SLAVES*>MUL: 1.15,
+	WORLD_HEALTH*>MUL: 0.9,
+	WORLD_HAPPINESS*>MUL: 0.9,
+	ROOM_LABORATORY*>MUL: 1.15,
+},
+
+WIKI: {
+	NAME: "Shmalorism",
+	CATEGORY: "Religion",
+	TEXT: "Before The Shattering, Shmalor was the goddess of transitions and thresholds, governing the boundaries between states of being. When the Time Worm tore through reality, Shmalor was caught between dimensions, her essence fractured across multiple planes of existence. This fracturing left her consciousness scattered and incomplete, existing simultaneously in Roomia and the void beyond.
+
+The Wormlings were not native to Roomia before The Shattering. They were parasitic entities that dwelled in the void between worlds, drawn to Roomia when Shmalor's fracturing created breaches in reality. These alien beings found that they could inhabit the bodies of Roomia's native creatures, transforming them into hosts that could survive in this new reality. The Wormlings' connection to the void gives them an innate understanding of Void Ore, which appeared in the wake of The Shattering at points where reality was weakened.
+
+The Wormlings worship both Shmalor and the God Emperor, seeing them as complementary aspects of the same cosmic force - Shmalor representing the decay of the old world, and the God Emperor representing the transformation into something new. Their parasitic nature is considered a sacred manifestation of Shmalor's ability to transcend normal physical limitations, allowing consciousness to move between vessels just as Shmalor moves between dimensions.
+
+A secondary cult of Bloodelves, known as the Crimson Covenant, believes that blood consumption allows them to perceive fragments of Shmalor's consciousness that exist in multiple realities simultaneously. Their 'Withering' is seen as Shmalor's call to transcend physical form, and they seek to use blood rituals to achieve the same state of multidimensional existence that Shmalor embodies.
+
+Shmalor's temples are unsettling places where reality seems thin. Mirrors reflect images that move independently, and shadows fall in impossible directions. Her priests, known as the Void Touched, undergo ritualistic transformations, often replacing parts of their bodies with void-infused materials. They believe that by embracing decay and transformation, they can eventually transcend the limitations of physical existence and join Shmalor in the spaces between worlds - though many lose their sanity in the process.
+
+The appearance of Void Ore throughout Roomia is attributed to Shmalor's fractured presence, as her essence bleeds through the weakened fabric of reality. Those who mine and refine this strange material often report hearing whispers and seeing glimpses of other worlds - echoes of Shmalor's consciousness reaching out from the void.",
+},

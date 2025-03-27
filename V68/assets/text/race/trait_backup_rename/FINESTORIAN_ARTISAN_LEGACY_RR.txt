@@ -1,0 +1,11 @@
+NAME: "Artisan Legacy",
+TITLE: "Crator's Hands",
+DESC: "This Finestorian inherits generations of crafting knowledge, their hands guided by ancestral memory that allows them to intuitively understand materials and techniques.",
+
+BIO_DESC: [
+	"When {NAME} works with crafting materials, {HIS} hands move with uncanny precision, sometimes completing complex patterns before {HE} consciously realizes what {HE} is creating.",
+	"It is said that {NAME} can identify the origin, composition, and optimal use of any material with a single touch, as if the substance communicates its nature directly to {HIS} fingers.",
+	"During moments of deep crafting focus, {NAME} sometimes murmurs ancient techniques in languages {HE} doesn't consciously know, ancestral knowledge surfacing from somewhere beyond memory.",
+	"Those who examine items crafted by {NAME} often report feeling subtle emotional responses encoded in the work, as if each piece carries fragments of the artisan lineage's collective experience.",
+	"The Crator craft-priests believe that legacy-blessed individuals like {NAME} serve as living archives of their god's creative techniques, their bodies containing muscle memories passed down since the first dawn of crafting.",
+],

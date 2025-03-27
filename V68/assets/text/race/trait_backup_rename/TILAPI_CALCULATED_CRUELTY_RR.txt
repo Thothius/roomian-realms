@@ -1,0 +1,11 @@
+NAME: "Calculated Cruelty",
+TITLE: "Aminion's Torturer",
+DESC: "This Hellspawn has refined their sadistic impulses into a precise art form, inflicting suffering with methodical patience rather than chaotic rage.",
+
+BIO_DESC: [
+	"{NAME}'s eyes remain unnaturally calm during acts of violence, studying victims' responses with the detached curiosity of a scholar documenting an experiment.",
+	"It is whispered that {NAME} can prolong a victim's suffering for days beyond what should be physically possible, keeping them conscious through methods that defy medical understanding.",
+	"During interrogations, {NAME} seems to instinctively know each subject's deepest fears, exploiting psychological vulnerabilities with surgical precision.",
+	"{NAME}'s touch leaves no visible mark, yet those who experience it describe feeling as if their very soul is being methodically dissected and examined.",
+	"The Aminion priests believe that calculated torturers like {NAME} will serve as eternal inquisitors in the afterlife, extracting the essence of suffering to fuel their dark god's power.",
+],

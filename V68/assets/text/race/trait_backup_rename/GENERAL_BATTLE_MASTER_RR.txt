@@ -1,0 +1,11 @@
+NAME: "Battle Master",
+TITLE: "The Weapon Incarnate",
+DESC: "This individual has transcended mere martial training, their body and mind unified into a perfect instrument of combat.",
+
+BIO_DESC: [
+	"{NAME}'s movements possess an uncanny efficiency, each gesture containing the potential for both lethal violence and perfect defense.",
+	"It is said that {NAME} can perceive the flow of combat as visible currents in the air, allowing {HIM} to anticipate attacks before they begin.",
+	"The Pasunkas masters recognize {NAME} as having achieved 'The Harmony of Blades,' where the distinction between weapon and wielder dissolves completely.",
+	"During battle, witnesses report that {NAME}'s eyes reflect flames that aren't present, as if {HIS} very soul ignites with martial fervor.",
+	"Ancient Hellspawn war-scrolls describe warriors like {NAME} as 'Twice-Killers,' capable of slaying both the body and the fighting spirit of their opponents with a single perfect strike.",
+],

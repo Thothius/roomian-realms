@@ -131,4 +131,4 @@ SPRITES: {
 		},
 	],
 },
-DESCRIPTION: "A guild hall where mercenaries gather to train, socialize, and accept contracts. The hall requires gold, weapons, and armor to attract and equip skilled fighters. Combat-oriented races like Northmen, Hellspawns, and Satyrs find particular satisfaction here. The guild provides specialized mercenary units that can bolster your military forces, though at a significant cost."
+DESCRIPTION: "A guild hall where mercenaries gather to train, socialize, and accept contracts. The hall requires gold, weapons, and armor to attract and equip skilled fighters. Combat-oriented races like Northmen, Hellspawns, and Satyrs find particular satisfaction here. The guild provides specialized mercenary units that can bolster your military forces, though at a significant cost.",

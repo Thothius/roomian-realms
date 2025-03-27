@@ -123,4 +123,4 @@ BOOSTS: {
 		HAPPINESS>ADD: 0.01,
 	},
 },
-DESCRIPTION: "A hall where Northmen display trophies and valuable treasures from battles and raids, along with saga walls depicting their heroic deeds. The hall requires jewelry for its displays and provides significant happiness and loyalty benefits to Northmen. It enhances their battle skills and increases their loyalty and courage. Other races find the displays interesting but are less affected by them."
+DESCRIPTION: "A hall where Northmen display trophies and valuable treasures from battles and raids, along with saga walls depicting their heroic deeds. The hall requires jewelry for its displays and provides significant happiness and loyalty benefits to Northmen. It enhances their battle skills and increases their loyalty and courage. Other races find the displays interesting but are less affected by them.",

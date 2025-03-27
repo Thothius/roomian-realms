@@ -123,4 +123,4 @@ BOOSTS: {
 		HAPPINESS>ADD: -0.02,
 	},
 },
-DESCRIPTION: "A lodge where Satyrs prepare for their ritual Wild Hunts during full moons. The lodge requires herbs for rituals and enhances hunting and archery skills while generating happiness for Satyrs. The primal nature of the rituals makes other races uncomfortable."
+DESCRIPTION: "A lodge where Satyrs prepare for their ritual Wild Hunts during full moons. The lodge requires herbs for rituals and enhances hunting and archery skills while generating happiness for Satyrs. The primal nature of the rituals makes other races uncomfortable.",

@@ -1,0 +1,3 @@
+NAME: "Void Crystal",
+NAMES: "Void Crystals",
+DESC: "A mysterious crystalline substance refined from Void Ore. These crystals contain immense otherworldly energy and serve as a conduit to the realm beyond. Primarily used in advanced void structures and rituals by those who seek to harness the power of the void.",

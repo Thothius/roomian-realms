@@ -130,4 +130,4 @@ SPRITES: {
 		},
 	],
 },
-DESCRIPTION: "A specialized workshop where raw Void Ore is refined into the more stable and powerful Void Crystal. This process requires precise control and specialized equipment, as the otherworldly properties of Void Ore make it volatile during refinement. Wormlings excel at this work due to their natural connection to the void, while Finestorians' crafting expertise and Bloodelves' magical affinity also prove useful in the refinement process."
+DESCRIPTION: "A specialized workshop where raw Void Ore is refined into the more stable and powerful Void Crystal. This process requires precise control and specialized equipment, as the otherworldly properties of Void Ore make it volatile during refinement. Wormlings excel at this work due to their natural connection to the void, while Finestorians' crafting expertise and Bloodelves' magical affinity also prove useful in the refinement process.",

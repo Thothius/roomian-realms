@@ -123,4 +123,4 @@ BOOSTS: {
 	},
 },
 RACE: GARTHIMI,
-DESCRIPTION: "A specialized facility where Wormlings process corpses to extract useful resources. The facility converts corpses into meat and leather while generating happiness for Wormlings who find the process natural and satisfying. The alien nature of the processing causes discomfort to other races."
+DESCRIPTION: "A specialized facility where Wormlings process corpses to extract useful resources. The facility converts corpses into meat and leather while generating happiness for Wormlings who find the process natural and satisfying. The alien nature of the processing causes discomfort to other races.",

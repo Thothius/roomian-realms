@@ -1,0 +1,15 @@
+Backed up 90 files from C:\Users\saare\AppData\Roaming\songsofsyx\mods\RoomianRealms\V68\assets\init\race\trait to C:\Users\saare\AppData\Roaming\songsofsyx\mods\RoomianRealms\V68\assets\init\race\trait_backup_rename
+Backed up 90 files from C:\Users\saare\AppData\Roaming\songsofsyx\mods\RoomianRealms\V68\assets\text\race\trait to C:\Users\saare\AppData\Roaming\songsofsyx\mods\RoomianRealms\V68\assets\text\race\trait_backup_rename
+Starting trait file renaming and content updates...
+Renamed 0 files in C:\Users\saare\AppData\Roaming\songsofsyx\mods\RoomianRealms\V68\assets\init\race\trait:
+Renamed 0 files in C:\Users\saare\AppData\Roaming\songsofsyx\mods\RoomianRealms\V68\assets\text\race\trait:
+Updated content in 0 files in C:\Users\saare\AppData\Roaming\songsofsyx\mods\RoomianRealms\V68\assets\init\race\trait:
+Updated content in 0 files in C:\Users\saare\AppData\Roaming\songsofsyx\mods\RoomianRealms\V68\assets\text\race\trait:
+
+Summary:
+Renamed 0 files in init/race/trait
+Renamed 0 files in text/race/trait
+Updated content in 0 files in init/race/trait
+Updated content in 0 files in text/race/trait
+
+Process completed. Please check the files to ensure all references have been updated correctly.

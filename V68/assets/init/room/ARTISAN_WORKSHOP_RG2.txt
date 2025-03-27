@@ -126,4 +126,4 @@ SPRITES: {
 		},
 	],
 },
-DESCRIPTION: "A versatile workshop where skilled artisans create luxury goods and jewelry from various materials. The workshop combines multiple crafting disciplines, allowing for the creation of high-value items that satisfy the desires of nobles and wealthy citizens. Finestorians and Northmen find particular satisfaction working here due to their cultural affinity for craftsmanship."
+DESCRIPTION: "A versatile workshop where skilled artisans create luxury goods and jewelry from various materials. The workshop combines multiple crafting disciplines, allowing for the creation of high-value items that satisfy the desires of nobles and wealthy citizens. Finestorians and Northmen find particular satisfaction working here due to their cultural affinity for craftsmanship.",

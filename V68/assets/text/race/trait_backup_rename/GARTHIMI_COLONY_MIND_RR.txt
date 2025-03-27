@@ -1,0 +1,11 @@
+NAME: "Colony Mind",
+TITLE: "The Unified",
+DESC: "This Wormling's consciousness has merged completely with their internal parasite colony, creating a hive intelligence that functions as a single coordinated entity.",
+
+BIO_DESC: [
+	"When {NAME} speaks, subtle harmonic undertones can be detected, as if multiple voices are synchronizing perfectly to form a unified communication.",
+	"It is said that {NAME} never truly sleeps, as different segments of {HIS} parasite colony take turns maintaining consciousness while others rest.",
+	"During group activities, other Garthimi near {NAME} unconsciously synchronize their movements with {HIM}, as if drawn into the harmonious field of {HIS} colony mind.",
+	"Those who make eye contact with {NAME} report a disturbing sensation of being observed by countless entities simultaneously, all sharing a single purpose.",
+	"The Shmalor priests believe that colony minds like {NAME}'s represent the ideal state of consciousness, where the illusion of individuality dissolves into the perfect unity of the hive.",
+],

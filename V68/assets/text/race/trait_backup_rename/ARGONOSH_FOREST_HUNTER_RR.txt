@@ -1,0 +1,11 @@
+NAME: "Forest Hunter",
+TITLE: "Athuri's Predator",
+DESC: "This Satyr has developed an uncanny connection to the predatory aspects of the forest, moving through woodland with supernatural stealth and precision.",
+
+BIO_DESC: [
+	"{NAME}'s eyes reflect light like those of a nocturnal predator, allowing perfect vision in even the darkest forest shadows.",
+	"When tracking prey, {NAME}'s hooves leave no prints and break no twigs, as if the forest floor itself rises slightly to prevent disturbance.",
+	"It is whispered that {NAME} can communicate with predatory beasts, forming temporary hunting pacts that dissolve once the prey is shared.",
+	"During the hunt, {NAME}'s breathing synchronizes perfectly with the wind through the trees, becoming indistinguishable from natural forest sounds.",
+	"The Argonosh elders believe that forest hunters like {NAME} are blessed by Athuri to maintain the balance of life and death within the sacred groves.",
+],

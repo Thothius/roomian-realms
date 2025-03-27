@@ -143,4 +143,4 @@ SPRITES: {
 		},
 	],
 },
-DESCRIPTION: "A grand temple complex dedicated to all four major deities of Syx: Aminion, Athuri, Crator, and Shmalor. The Pantheon Temple allows followers of different religions to worship in the same space, accepting various offerings based on each deity's preferences. While this promotes religious tolerance and diversity, dedicated followers may still prefer their deity-specific temples. Each race receives bonuses aligned with their preferred deities."
+DESCRIPTION: "A grand temple complex dedicated to all four major deities of Syx: Aminion, Athuri, Crator, and Shmalor. The Pantheon Temple allows followers of different religions to worship in the same space, accepting various offerings based on each deity's preferences. While this promotes religious tolerance and diversity, dedicated followers may still prefer their deity-specific temples. Each race receives bonuses aligned with their preferred deities.",

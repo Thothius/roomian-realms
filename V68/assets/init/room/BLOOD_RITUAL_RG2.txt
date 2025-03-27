@@ -122,4 +122,4 @@ BOOSTS: {
 		HAPPINESS>ADD: -0.05,
 	},
 },
-DESCRIPTION: "A sacred chamber where Bloodelves perform blood rituals to stave off the Withering. The chamber requires slaves as blood donors and provides significant health benefits and happiness to Bloodelves. The disturbing nature of the rituals causes discomfort to other races."
+DESCRIPTION: "A sacred chamber where Bloodelves perform blood rituals to stave off the Withering. The chamber requires slaves as blood donors and provides significant health benefits and happiness to Bloodelves. The disturbing nature of the rituals causes discomfort to other races.",

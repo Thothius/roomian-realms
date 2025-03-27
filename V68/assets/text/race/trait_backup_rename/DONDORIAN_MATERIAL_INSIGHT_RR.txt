@@ -1,0 +1,11 @@
+NAME: "Material Insight",
+TITLE: "Substance Whisperer",
+DESC: "This Finestorian possesses an uncanny connection to raw materials, perceiving the hidden potential and structural properties of substances through touch alone.",
+
+BIO_DESC: [
+	"When {NAME} handles raw materials, {HIS} fingertips briefly glow with a faint golden light as {HE} communes with the substance's fundamental nature.",
+	"It is said that {NAME} can taste a metal's purity by simply touching it to {HIS} tongue, identifying impurities with precision that surpasses any alchemical test.",
+	"During crafting, {NAME} enters a trance-like state where {HE} seems to negotiate with the material rather than force it, each substance yielding its optimal form willingly.",
+	"Those who use items crafted by {NAME} report that they never break unexpectedly, as if the material itself has promised its maker to maintain integrity until its natural time.",
+	"The Dondorian master smiths believe that material-blessed individuals like {NAME} can perceive the memories embedded in substances, reading the history of their formation within Crator's forge.",
+],

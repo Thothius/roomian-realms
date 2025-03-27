@@ -129,4 +129,4 @@ SPRITES: {
 		},
 	],
 },
-DESCRIPTION: "A grand embassy where diplomatic relations with other factions are managed and foreign dignitaries are hosted. The embassy consumes luxury goods, paper, and jewelry to facilitate diplomatic exchanges and lavish receptions. Races with natural diplomatic talents, such as Froggians, Bloodelves, and Finestorians, find particular satisfaction working here. The embassy improves relations with other factions and can unlock special diplomatic options."
+DESCRIPTION: "A grand embassy where diplomatic relations with other factions are managed and foreign dignitaries are hosted. The embassy consumes luxury goods, paper, and jewelry to facilitate diplomatic exchanges and lavish receptions. Races with natural diplomatic talents, such as Froggians, Bloodelves, and Finestorians, find particular satisfaction working here. The embassy improves relations with other factions and can unlock special diplomatic options.",

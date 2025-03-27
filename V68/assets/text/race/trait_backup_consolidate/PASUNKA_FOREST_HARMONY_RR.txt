@@ -1,0 +1,11 @@
+NAME: "Forest Harmony",
+TITLE: "The Root-Bound",
+DESC: "This individual has formed a symbiotic bond with the ancient forests, their flesh partially merged with wood and vine in a forbidden ritual of communion.",
+
+BIO_DESC: [
+	"Thin wooden fibers can be seen beneath {NAME}'s skin, pulsing with the rhythm of distant forest heartwoods.",
+	"When {NAME} bleeds, {HIS} blood carries seeds that sprout within hours, growing into twisted saplings that whisper {HIS} thoughts.",
+	"It is said that {NAME} can feel the pain of every tree cut down within a league, each death adding another line to {HIS} face.",
+	"At night, {NAME}'s dreams manifest as luminescent spores that drift from {HIS} nostrils, carrying visions to the forest's edge.",
+	"The ritual that granted {NAME} this power required {HIM} to be buried alive for seven days, roots growing through {HIS} body before {HE} was exhumed.",
+],

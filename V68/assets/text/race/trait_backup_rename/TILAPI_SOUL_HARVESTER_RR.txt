@@ -1,0 +1,11 @@
+NAME: "Soul Harvester",
+TITLE: "Aminion's Reaper",
+DESC: "This Hellspawn possesses the ability to extract and consume fragments of life essence from those they defeat, growing stronger with each kill and inspiring primal terror in their opponents.",
+
+BIO_DESC: [
+	"When {NAME} defeats an opponent in combat, faint wisps of luminous energy can be seen flowing from the fallen into {HIS} body, momentarily causing {HIS} eyes to flare with stolen vitality.",
+	"It is said that {NAME} can sense fear as a physical presence, drawing sustenance from the terror of others and growing visibly stronger in the presence of the frightened.",
+	"During battle, those who meet {NAME}'s gaze report experiencing momentary visions of their own death, a psychic attack that weakens resolve before physical combat even begins.",
+	"Those who study {NAME} closely note that {HE} appears to age in reverse after significant conflicts, as if the consumed life essence rejuvenates {HIM} at the cellular level.",
+	"The Aminion war-priests believe that soul harvesters like {NAME} serve as living conduits for their god's hunger, each consumed essence strengthening both the harvester and Aminion himself.",
+],

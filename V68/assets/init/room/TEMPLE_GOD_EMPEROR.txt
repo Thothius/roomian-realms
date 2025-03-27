@@ -1,0 +1,123 @@
+ICON: 32->RELIGION->16,
+RESOURCES: [STONE,WOOD,FURNITURE,FABRIC],
+AREA_COSTS: [0.5,0.3,0,0],
+FLOOR: [STONE_DARK,STONE_DARK],
+MINI_COLOR: 100_0_150,
+REQUIRES: {
+	GREATER: {
+		POPULATION_CITIZEN_I: 100,
+	},
+},
+ITEMS: [
+	{
+		COSTS: [3,2,2,1],	** Void Altars
+		STATS: [1,0,0],
+	},
+	{
+		COSTS: [2,2,2,2],	** Void Crystals
+		STATS: [0,2,0],
+	},
+	{
+		COSTS: [1,1,1,2],	** Communion Pools
+		STATS: [0,0,2],
+	},
+],
+UPGRADES: [
+	{
+		RESOURCE_MASK: [1,1,1,1],
+		BOOST: 0,
+	},
+	{
+		RESOURCE_MASK: [2,2,2,2],
+		BOOST: 0.5,
+	},
+	{
+		RESOURCE_MASK: [3,3,3,3],
+		BOOST: 1.0,
+	},
+],
+WORK: {
+	SHIFT_OFFSET: 0.5,
+	SOUND: work->Magic*,
+	ACCIDENTS_PER_YEAR: 0.05,
+	FULFILLMENT: 2.0,
+},
+INDUSTRIES: [
+	{
+		INDUSTRY: {
+			IN: {
+				SLAVE: 0.2,
+			},
+			OUT: {
+				RELIGION_GOD_EMPEROR: 0.5,
+			},
+		},
+	},
+],
+ENVIRONMENT_EMIT: {
+	_NOISE: {
+		VALUE: 0.5,
+		RADIUS: 1,
+	},
+},
+BOOSTS: {
+	GARTHIMI: {
+		RELIGION_GOD_EMPEROR>MUL: 0.3,
+		HAPPINESS>ADD: 0.1,
+		VOID_AFFINITY>ADD: 0.2,
+		PARASITIC_INFILTRATION>MUL: 0.2,
+	},
+	CANTOR: {
+		RELIGION_GOD_EMPEROR>MUL: 0.1,
+		HAPPINESS>ADD: 0.05,
+		VOID_AFFINITY>ADD: 0.1,
+	},
+},
+SPRITES: {
+	ALTAR_2X2: [
+		{	
+			TINT: true,
+			SHADOW_HEIGHT: 6,
+			FRAMES: [
+				ALTAR: 0,	
+				ALTAR: 1,
+			],
+		},
+	],
+	STATUE_1X1: [
+		{	
+			TINT: true,
+			SHADOW_LENGTH: 5,
+			ROTATES: true,
+			FRAMES: [
+				STATUE: 0,
+				STATUE: 1,	
+			],
+		},
+	],
+	DECOR_1X1: [
+		{
+			TINT: true,
+			SHADOW_LENGTH: 2,
+			FRAMES: [
+				DECOR: 0,
+				DECOR: 1,
+				DECOR: 2,
+			],
+		},
+	],
+},
+ROOM_INFO: {
+	NAME: "Temple of the God Emperor",
+	DESC: "A dark, unsettling temple dedicated to the God Emperor of the Endless Void. The air within seems to shimmer with otherworldly energies, and visitors report hearing whispers from beyond reality. Void crystals pulse with eerie light, and communion pools allow worshippers to temporarily merge their consciousness with fragments of the God Emperor's essence.",
+	TUTORIAL: "Temples of the God Emperor provide religious services to Wormlings and some Bloodelves. They require slaves as sacrifices to maintain the connection to the void.",
+	WIKI: "The Temple of the God Emperor serves as a conduit between our reality and the void beyond. Within these dark halls, worshippers commune with fragments of the Time Worm's consciousness through specialized void crystals and communion pools filled with a strange, shimmering liquid.
+
+The temple's architecture deliberately defies conventional geometry, with angles that seem to shift when not directly observed and shadows that move independently of light sources. At the center of each temple stands a void altar—a structure of obsidian and void crystal that serves as a focal point for the God Emperor's influence in our reality.
+
+Priests of the Void Communion, primarily Wormlings with enhanced psychic abilities, lead ceremonies where worshippers temporarily surrender their individual consciousness to experience brief union with the God Emperor's fractured mind. These experiences are said to be both terrifying and ecstatic, often leaving participants with new insights but also recurring nightmares.
+
+The temples require regular sacrifices to maintain the connection to the void. These sacrifices are not merely killed but transformed through parasitic infestation into new vessels for the God Emperor's expanding consciousness. The process is horrifying to witness but considered the highest honor among devotees of the Void Communion.
+
+Non-Wormling visitors to these temples often report disorienting experiences, including time dilation, spatial distortion, and disturbing visions. Many leave with a lingering sense of being watched by something vast and incomprehensible from beyond the veil of reality.",
+},

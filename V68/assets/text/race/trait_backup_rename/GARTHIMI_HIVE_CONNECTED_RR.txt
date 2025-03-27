@@ -1,0 +1,11 @@
+NAME: "Hive Connected",
+TITLE: "Shmalor's Vessel",
+DESC: "This Wormling maintains a strong psychic connection to the collective consciousness of their kind, serving as a perfect conduit for Shmalor's will.",
+
+BIO_DESC: [
+	"The parasites beneath {NAME}'s skin move in perfect synchronization, creating rippling patterns that other Garthimi can read as messages from the hive.",
+	"When {NAME} sleeps, {HIS} body emits a low-frequency hum that causes nearby Wormlings to enter a shared dreamstate of collective memory.",
+	"It is said that {NAME} can sense the presence and emotional state of other Garthimi within a mile radius, serving as a living node in their psychic network.",
+	"During times of stress, {NAME}'s body can rapidly heal by redirecting the parasitic colony within to prioritize damaged areas, sacrificing non-essential functions.",
+	"The Garthimi elders believe that hive-connected individuals like {NAME} will be absorbed directly into Shmalor's consciousness upon death, achieving perfect unity.",
+],

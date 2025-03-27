@@ -123,4 +123,4 @@ BOOSTS: {
 		HAPPINESS>ADD: 0.02,
 	},
 },
-DESCRIPTION: "A tranquil pool where Froggians can meditate and connect to their collective consciousness. The pool requires water to maintain but provides significant happiness and knowledge benefits to Froggians. It enhances their performance in libraries and universities while increasing their natural pacifism. The peaceful atmosphere provides a small happiness boost to other races."
+DESCRIPTION: "A tranquil pool where Froggians can meditate and connect to their collective consciousness. The pool requires water to maintain but provides significant happiness and knowledge benefits to Froggians. It enhances their performance in libraries and universities while increasing their natural pacifism. The peaceful atmosphere provides a small happiness boost to other races.",

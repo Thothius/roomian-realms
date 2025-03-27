@@ -1,0 +1,11 @@
+NAME: "Diplomatic Savvy",
+TITLE: "Master Negotiator",
+DESC: "This Northman possesses an exceptional talent for navigating complex social and political landscapes, their intuitive understanding of others' motivations allowing them to forge agreements where none seemed possible.",
+
+BIO_DESC: [
+	"When {NAME} speaks in diplomatic settings, observers report a subtle modulation in {HIS} voice that seems to resonate differently with each listener, as if {HE} unconsciously tailors {HIS} communication.",
+	"It is said that {NAME} can detect micro-expressions and subtle body language cues that others miss entirely, giving {HIM} an almost supernatural insight into hidden intentions and unspoken thoughts.",
+	"During tense negotiations, {NAME} exhibits an uncanny ability to identify the precise moment when concessions can be extracted, as if {HE} perceives the invisible tipping points in others' resolve.",
+	"Those who negotiate against {NAME} often leave feeling satisfied with agreements that only later reveal themselves to be more beneficial to {HIS} side, a subtle manipulation so skillful it goes unnoticed.",
+	"Political advisors across all races recognize that diplomacy-blessed individuals like {NAME} represent humanity's greatest weapon in interspecies relations - the ability to shape outcomes through words rather than force.",
+],

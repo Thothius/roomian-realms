@@ -124,4 +124,4 @@ BOOSTS: {
 		LOYALTY>ADD: -0.02,
 	},
 },
-DESCRIPTION: "A ritualistic chamber where Hellspawns practice scarification and embrace pain as a path to power. The chamber requires slaves for rituals and provides significant happiness and loyalty benefits to Hellspawns. It enhances their torture skills and increases their cruelty and loyalty to their leaders. The horrific nature of the rituals causes significant discomfort and loyalty loss to other races."
+DESCRIPTION: "A ritualistic chamber where Hellspawns practice scarification and embrace pain as a path to power. The chamber requires slaves for rituals and provides significant happiness and loyalty benefits to Hellspawns. It enhances their torture skills and increases their cruelty and loyalty to their leaders. The horrific nature of the rituals causes significant discomfort and loyalty loss to other races.",

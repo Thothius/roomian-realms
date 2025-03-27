@@ -1,0 +1,3 @@
+NAME: "Void Ore",
+NAMES: "Void Ores",
+DESC: "A mysterious raw material that appears in areas where the fabric of reality has been weakened. This otherworldly substance pulses with strange energies and can be refined into the more stable Void Crystal. Mining this resource is dangerous and difficult, with Wormlings showing a natural affinity for working with it.",

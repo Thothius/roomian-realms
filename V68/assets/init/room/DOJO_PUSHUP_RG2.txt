@@ -115,4 +115,4 @@ BOOSTS: {
 		BEHAVIOUR_DISCIPLINED>ADD: 0.05,
 	},
 },
-DESCRIPTION: "A specialized training facility for Pasunkas where they practice their Push-up Taijutsu. The intense training breaks stone slabs, requiring regular replacement. Pasunkas who train here gain increased stamina, health, and discipline while experiencing greater happiness from following their cultural traditions."
+DESCRIPTION: "A specialized training facility for Pasunkas where they practice their Push-up Taijutsu. The intense training breaks stone slabs, requiring regular replacement. Pasunkas who train here gain increased stamina, health, and discipline while experiencing greater happiness from following their cultural traditions.",
