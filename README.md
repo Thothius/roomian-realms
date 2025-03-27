@@ -1,4 +1,4 @@
-# RoomianRealms
+# RoomianRealms (v0.4)
 
 ## Overview
 
@@ -10,6 +10,21 @@ When ancient powers clashed, they left behind a tapestry of diverse cultures—e
 
 - **[Online Documentation](https://thothius.github.io/roomian-realms/)** - View our comprehensive documentation website
 - **In-Game Documentation** - Access the HTML documentation in the mod folder
+
+## What's New in Version 0.4
+
+### Comprehensive Religious Framework
+- Expanded lore for all four deities (Athuri, Aminion, Crator, Shmalor)
+- Detailed connections between races and their patron deities
+- Enhanced temple descriptions and religious practices
+- Sacred rituals and ceremonies for each faith
+
+### Enhanced Trait System
+- Rebalanced trait distribution across all races
+- Fixed mutual exclusivity between thematically opposite traits
+- Balanced powerful traits with appropriate limitations
+- Added new elite traits with very low occurrence rates but powerful effects
+- Void-related traits that enhance the Void technology system
 
 ## Features
 
@@ -33,10 +48,23 @@ When ancient powers clashed, they left behind a tapestry of diverse cultures—e
 
 ### Divine Powers
 
-- **The Fallen One** (Aminion) - Lord of chaos requiring human sacrifice
-- **The Leader** (Athuri) - Greatest of the Astari, defeated his brother Bardok
-- **The Creator** (Crator) - Foremost creator of the Astari who made many species
-- **The Slain Queen** (Shmalor) - Queen of the Agonosh, slain during the first war
+- **The Fallen One (Aminion)** - Lord of chaos who rebelled against the cosmic order. Once a powerful Astari, Aminion sought to remake reality in his own image. Primarily worshipped by Hellspawns and Bloodelves.
+
+- **The Leader (Athuri)** - Greatest of the Astari, who embodies wisdom, harmony, and the natural order. Defeated his brother Bardok in both cosmic wars, establishing balance in the world. Primarily worshipped by Satyrs and Froggians.
+
+- **The Creator (Crator)** - Divine Architect and foremost creator among the Astari, who shaped the physical world and its many creatures. His temples celebrate craftsmanship, discipline, and the perfection of form. Primarily worshipped by Pasunkas and Finestorians.
+
+- **The Slain Queen (Shmalor)** - Queen of the Agonosh, who represents the cosmic void and the spaces between realities. Slain during the first war of the gods, her death tore the veil between dimensions. Primarily worshipped by Wormlings.
+
+### Character Traits System
+
+The mod features a comprehensive trait system with:
+
+- **Race-Specific Traits**: Each race has unique traits that reflect their cultural and biological characteristics
+- **Elite Traits**: Rare and powerful traits with very low occurrence rates (0.5-1.5%)
+- **Void-Related Traits**: Special traits that enhance interaction with Void technology
+- **Balanced Distribution**: Traits are distributed appropriately based on race population sizes
+- **Mutual Exclusivity**: Thematically opposite traits cannot be possessed simultaneously
 
 ### Void Technology
 
@@ -49,29 +77,25 @@ Harness the power of the void with specialized buildings and resources that unlo
 
 ### Custom Music
 
-Immersive soundtrack that enhances the atmospheric experience of each race and their environments.
+Immerse yourself in the world of Roomian Realms with a custom soundtrack that enhances the atmosphere of your empire.
 
 ## Installation
 
-1. Download the latest release from the [Releases](https://github.com/Thothius/roomian-realms/releases) page
-2. Extract the contents to your Songs of Syx mods folder:
-   - Windows: `%APPDATA%\songsofsyx\mods\`
-   - Linux: `~/.local/share/songsofsyx/mods/`
-   - Mac: `~/Library/Application Support/songsofsyx/mods/`
-3. Launch Songs of Syx and enable the mod in the Mod Manager
+1. Download the latest release from the [Releases page](https://github.com/Thothius/roomian-realms/releases)
+2. Extract the contents to your Songs of Syx mods folder (usually located at `C:\Users\[YourUsername]\AppData\Roaming\songsofsyx\mods\`)
+3. Launch Songs of Syx and enable the mod in the Mods menu
+4. Start a new game to experience all features
 
 ## Compatibility
 
-Roomian Realms is compatible with Songs of Syx version 68+.
-
-## Contributing
-
-Contributions are welcome! Feel free to submit issues or pull requests to help improve the mod.
+- Compatible with Songs of Syx version 68
+- Not compatible with previous versions
 
 ## Credits
 
-Created by Thothius
+- Mod created by Ted
+- Special thanks to the Songs of Syx modding community
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the LICENSE file for details.
