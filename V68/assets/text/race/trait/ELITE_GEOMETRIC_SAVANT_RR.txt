@@ -1,0 +1,11 @@
+NAME: "Geometric Savant",
+TITLE: "Crator's Vessel",
+DESC: "This individual perceives the mathematical underpinnings of reality with unprecedented clarity, their mind capable of intuiting complex patterns and solutions that remain invisible to others.",
+
+BIO_DESC: [
+	"When {NAME} contemplates complex problems, observers report seeing faint luminous geometric patterns forming in the air around {HIS} head, as if {HIS} thoughts manifest as visible mathematical structures.",
+	"It is said that {NAME} can perceive the optimal configuration of any system at a glance, {HIS} mind automatically calculating perfect proportions and relationships without conscious effort.",
+	"During moments of profound insight, {NAME}'s eyes reflect complex fractal patterns that don't exist in the physical space around {HIM}, as if {HE} perceives a higher-dimensional reality.",
+	"Those who study under {NAME} often develop the ability to recognize mathematical patterns in seemingly random phenomena, their minds permanently altered by exposure to {HIS} unique perception.",
+	"The geometry priests across all races recognize that savants like {NAME} represent living conduits of Crator's ordering essence, their minds containing the sacred patterns that underlie all creation.",
+],

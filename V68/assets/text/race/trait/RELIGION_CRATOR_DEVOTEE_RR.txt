@@ -1,0 +1,11 @@
+NAME: "Crator Devotee",
+TITLE: "The Perfected",
+DESC: "This individual has dedicated their existence to Crator's principles of order and creation, their body and mind reshaped through ritualistic discipline.",
+
+BIO_DESC: [
+	"{NAME}'s hands never tremble, moving with unnatural precision as if guided by invisible geometric principles.",
+	"When {NAME} works with tools or crafts, observers report seeing faint golden measurements and angles briefly manifesting in the air around {HIM}.",
+	"It is said that {NAME} can perceive flaws in any construction, often becoming physically ill when surrounded by imperfect or asymmetrical architecture.",
+	"During deep concentration, {NAME}'s breathing synchronizes perfectly with the rhythms of nearby machinery, as if {HE} and the devices share a single purpose.",
+	"The Finestorians believe that after death, {NAME} and other devoted followers will be reforged as living tools in Crator's eternal workshop, achieving perfect utility.",
+],

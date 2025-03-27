@@ -1,0 +1,11 @@
+NAME: "Tradition Bound",
+TITLE: "The Eternal Keeper",
+DESC: "This individual's spirit is anchored to ancient ways, their very essence intertwined with rituals and traditions that provide stability in a chaotic world.",
+
+BIO_DESC: [
+	"When {NAME} performs traditional rituals, observers report seeing faint outlines of ancestors mirroring {HIS} movements, as if generations past guide {HIS} hands.",
+	"It is said that {NAME} can sense when sacred customs are violated, experiencing physical pain that intensifies with the severity of the transgression.",
+	"During religious ceremonies, {NAME}'s shadow sometimes adopts the silhouette of ritual implements or sacred symbols, regardless of {HIS} actual posture or position.",
+	"Those who attempt to teach {NAME} new methods often find themselves inexplicably reverting to traditional approaches, as if {HIS} presence bends reality toward established patterns.",
+	"The Pasunka elders believe that tradition-bound souls like {NAME}'s serve as living anchors that prevent society from drifting too far from the wisdom of the ancestors.",
+],

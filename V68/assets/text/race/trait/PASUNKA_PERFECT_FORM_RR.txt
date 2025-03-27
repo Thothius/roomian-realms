@@ -1,0 +1,13 @@
+NAME: "Perfect Form Master",
+TITLE: "Crator's Living Weapon",
+DESC: "This Pasunka has achieved the pinnacle of physical perfection through decades of martial discipline, their body a living embodiment of Crator's principles of ideal form, function, and combat mastery.",
+
+BIO_DESC: [
+	"When {NAME} moves, {HIS} muscles flow with such perfect efficiency that {HE} appears to be gliding rather than walking, each motion precisely calibrated to conserve energy.",
+	"It is said that {NAME} can maintain perfect stillness for days, {HIS} heartbeat and breathing slowed to imperceptible levels through complete mastery of bodily functions.",
+	"During combat training, {NAME}'s movements create faint geometric patterns in the air, visible only to those who have studied the sacred mathematics of Crator.",
+	"Those who spar with {NAME} report that fighting {HIM} is like battling a force of nature - {HIS} attacks coming with perfect timing and {HIS} defenses appearing exactly where needed.",
+	"Even elite warriors find themselves exhausted after brief encounters with {NAME}, while {HE} barely shows signs of exertion, {HIS} breathing controlled and {HIS} movements economical.",
+	"The geometric precision of {NAME}'s combat forms has been studied by military scholars, who claim that {HE} has achieved a level of martial perfection that transcends mere physical prowess.",
+	"{NAME}'s body bears the marks of {HIS} discipline - not scars, but rather an unnatural symmetry and proportion that makes {HIM} appear almost like a living statue crafted by Crator himself."
+]

@@ -1,0 +1,11 @@
+NAME: "Obsessive Perfectionist",
+TITLE: "Crator's Affliction",
+DESC: "This Finestorian is consumed by an unrelenting need for flawlessness, their pursuit of perfection having transformed from virtue to pathology that imprisons both mind and body.",
+
+BIO_DESC: [
+	"When {NAME} works on a project, {HE} will destroy and restart dozens of times over microscopic flaws invisible to others, sometimes weeping in frustration at {HIS} own inability to achieve the perfection {HE} envisions.",
+	"It is said that {NAME} can spend hours arranging and rearranging a single object, trapped in an endless loop of minute adjustments as {HE} seeks an ideal position that exists only in {HIS} mind.",
+	"During sleep, {NAME}'s fingers continue to make precise, corrective movements, as if even in unconsciousness {HE} cannot escape the compulsion to perfect {HIS} surroundings.",
+	"Those who examine {NAME}'s completed works report feeling a strange unease, as if the objects' mathematical perfection somehow violates natural law in a subtle but disturbing way.",
+	"The Finestorian healers believe that obsessive souls like {NAME}'s have been touched too deeply by Crator's perfection, their minds fractured by glimpsing divine standards that mortal hands can never truly achieve.",
+],

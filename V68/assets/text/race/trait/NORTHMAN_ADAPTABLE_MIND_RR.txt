@@ -1,0 +1,11 @@
+NAME: "Adaptable Mind",
+TITLE: "Boundless Potential",
+DESC: "This Northman possesses exceptional cognitive flexibility, their mind capable of rapidly adapting to new information and challenges with remarkable efficiency.",
+
+BIO_DESC: [
+	"When {NAME} encounters new knowledge, observers report seeing a subtle gleam in {HIS} eyes as neural connections form at an accelerated rate, {HIS} understanding visibly deepening.",
+	"It is said that {NAME} can master skills in half the time required by others, {HIS} brain forming optimized neural pathways that bypass the usual inefficiencies of learning.",
+	"During moments of intense study, {NAME} enters a flow state where time seems to dilate, allowing {HIM} to absorb and process information at a rate that appears supernatural to observers.",
+	"Those who teach {NAME} often find themselves challenged by unexpected questions that reveal connections between disparate fields of knowledge that the teachers themselves had never considered.",
+	"Scholars across all races recognize that adaptability-blessed individuals like {NAME} represent humanity's greatest strength - the capacity to evolve mentally without requiring physical transformation.",
+],

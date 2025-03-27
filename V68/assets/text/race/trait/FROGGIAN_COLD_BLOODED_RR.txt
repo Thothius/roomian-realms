@@ -1,0 +1,11 @@
+NAME: "Cold-Blooded",
+TITLE: "Athuri's Burden",
+DESC: "This Froggian's metabolism is unusually dependent on external heat, their body and mind slowing dramatically in cool environments and requiring constant thermal management.",
+
+BIO_DESC: [
+	"When ambient temperatures drop, {NAME}'s skin takes on a dull, grayish hue and {HIS} movements become visibly sluggish, as if {HE} is moving through invisible resistance.",
+	"It is said that {NAME} must bask in direct sunlight for hours each day, {HIS} skin developing iridescent patterns that maximize heat absorption from even weak light sources.",
+	"During cold periods, {NAME} sometimes enters a torpor state so profound that {HIS} breathing and heartbeat become nearly undetectable, requiring careful monitoring by caretakers.",
+	"Those who observe {NAME} closely note that {HIS} intellectual capacity fluctuates dramatically with temperature, brilliant insights flowing in warmth while basic functions become challenging in cold.",
+	"The Froggiann healers believe that cold-dependent individuals like {NAME} represent an evolutionary throwback to their ancestors' earliest emergence from water, their bodies not fully adapted to terrestrial life.",
+],

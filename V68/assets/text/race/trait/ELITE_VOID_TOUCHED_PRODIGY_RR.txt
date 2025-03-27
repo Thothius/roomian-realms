@@ -1,0 +1,11 @@
+NAME: "Void Touched Prodigy",
+TITLE: "The Veil Walker",
+DESC: "This individual possesses an unprecedented connection to the Void, their consciousness existing partially beyond normal reality and granting them insights that both illuminate and consume.",
+
+BIO_DESC: [
+	"When {NAME} speaks of the Void, listeners report hearing faint whispers beneath {HIS} words, as if countless entities from beyond are speaking through {HIM} simultaneously.",
+	"It is said that {NAME}'s shadow sometimes moves independently of {HIS} body, forming shapes that correspond to Void fluctuations occurring miles away.",
+	"During moments of deep concentration, {NAME}'s eyes become perfect black voids that reflect no light, yet observers report seeing distant stars moving within their depths.",
+	"Those who spend extended time with {NAME} often develop recurring nightmares featuring impossible geometries and vast, watching presences that feel intimately familiar.",
+	"Scholars across all races recognize that prodigies like {NAME} represent both humanity's greatest hope for understanding the Void and the most terrifying evidence of its corrupting influence.",
+],

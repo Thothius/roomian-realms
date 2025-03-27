@@ -1,0 +1,11 @@
+NAME: "Swift Hooves",
+TITLE: "Wind's Companion",
+DESC: "This Satyr possesses extraordinary speed and agility, their hooves barely touching the ground as they move with a grace that seems to defy natural law.",
+
+BIO_DESC: [
+	"When {NAME} runs at full speed, observers report seeing afterimages trailing behind {HIM}, as if reality struggles to keep pace with {HIS} movements.",
+	"It is said that {NAME} can traverse the most treacherous mountain paths without faltering, {HIS} hooves finding purchase on surfaces that should not support weight.",
+	"During moments of extreme exertion, {NAME}'s hooves occasionally emit small sparks or briefly ignite with a cold blue flame that leaves no burn marks.",
+	"Those who race alongside {NAME} often report feeling unnaturally fatigued afterward, as if {HE} somehow draws upon their stamina to fuel {HIS} own speed.",
+	"The Satyr legends speak of 'wind-blessed' Satyrs who can outrun arrows and leap chasms; many believe {NAME} carries this blessing, forever pursued by jealous wind spirits.",
+],

@@ -1,0 +1,13 @@
+NAME: "Honorable Mediator",
+TITLE: "Crator's Balance",
+DESC: "This Pasunka embodies the principles of honor and balance, serving as a bridge between opposing forces while upholding the geometric harmony that Crator values above all else.",
+
+BIO_DESC: [
+	"{NAME} speaks with such measured precision and integrity that even bitter enemies find themselves nodding in agreement, {HIS} words carrying the weight of unassailable truth.",
+	"When mediating disputes, {NAME} creates intricate geometric diagrams that somehow represent the conflict in abstract form, allowing solutions to emerge from pattern recognition.",
+	"It is said that {NAME} can perceive the underlying order in any chaotic situation, {HIS} mind naturally organizing conflicting elements into balanced systems.",
+	"Those who attempt to bribe or manipulate {NAME} quickly discover that {HIS} integrity is unshakable, as if {HIS} moral compass were physically embedded in {HIS} being.",
+	"During negotiations, {NAME} maintains perfect emotional equilibrium, neither favoring one side nor the other, but rather seeking the geometric center where balance exists.",
+	"The geometric patterns that {NAME} traces in the air when speaking seem to have a calming effect on those around {HIM}, reducing tensions and creating space for rational discourse.",
+	"{NAME}'s reputation for absolute fairness has spread so widely that disputants will travel great distances to have {HIM} mediate their conflicts, knowing {HE} will find the most honorable resolution."
+]

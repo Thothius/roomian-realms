@@ -1,0 +1,11 @@
+NAME: "Peaceful Soul",
+TITLE: "The Harmonizer",
+DESC: "This individual radiates a profound tranquility that calms conflicts and bridges divides, their very presence a balm to wounded spirits.",
+
+BIO_DESC: [
+	"{NAME}'s voice carries a subtle resonance that soothes agitated minds, often resolving conflicts before they escalate to violence.",
+	"It is whispered that {NAME} has never willingly harmed another being, yet has survived countless dangers through an uncanny ability to find peaceful resolutions.",
+	"The Froggiann philosophers believe those like {NAME} have achieved 'The Serene Plateau,' a state of consciousness beyond the turbulent valleys of aggression and fear.",
+	"During diplomatic negotiations, {NAME} sometimes appears to glow faintly with an inner light that only the most spiritually attuned can perceive.",
+	"Ancient texts describe individuals with {NAME}'s temperament as 'Boundary Walkers,' capable of existing in the liminal spaces between opposing forces without being consumed by either.",
+],

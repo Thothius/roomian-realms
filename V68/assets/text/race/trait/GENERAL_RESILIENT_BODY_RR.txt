@@ -1,0 +1,11 @@
+NAME: "Resilient Body",
+TITLE: "The Unyielding",
+DESC: "This individual's flesh and bone possess an unnatural durability, resisting disease, injury, and the ravages of time itself.",
+
+BIO_DESC: [
+	"{NAME}'s wounds close with remarkable speed, often leaving no scars as evidence of injuries that would cripple others.",
+	"It is said that {NAME} once survived three days trapped beneath a collapsed mine shaft, emerging with only minor bruises and unquenchable thirst.",
+	"The Hellspawn warriors speak of those like {NAME} as 'Twice-Born,' believing their souls refused to depart their bodies after mortal wounds.",
+	"During the Great Plague, {NAME} tended the sick without protection, yet the disease seemed to recoil from {HIS} touch as if repelled.",
+	"Ancient texts describe individuals with {NAME}'s constitution as having 'flesh of stone and blood of fire,' capable of enduring torments that would destroy ordinary beings.",
+],

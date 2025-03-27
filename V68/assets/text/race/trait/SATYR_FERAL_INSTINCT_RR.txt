@@ -1,0 +1,11 @@
+NAME: "Feral Instinct",
+TITLE: "The Untamed",
+DESC: "This Satyr's connection to their bestial nature has overwhelmed their higher faculties, leaving them driven by primal impulses that civilization cannot fully contain.",
+
+BIO_DESC: [
+	"During moments of stress, {NAME}'s pupils dilate to consume almost the entire eye, giving {HIM} a predatory gaze that instinctively triggers fear responses in others.",
+	"It is whispered that {NAME} experiences periodic 'wild episodes' during which {HE} abandons tools and speech, reverting to all-fours and communicating only through animalistic sounds.",
+	"When {NAME} sleeps, {HE} often shifts position to face approaching footsteps before any sound is audible, {HIS} unconscious mind perpetually alert for threats.",
+	"Those who observe {NAME} closely note that {HE} often reacts to stimuli seconds before they occur, as if {HIS} instincts perceive subtle precursors invisible to conscious awareness.",
+	"The Athuri priests believe that feral-minded Satyrs like {NAME} are caught in a transitional state between beast and person, their souls fragmented between two incompatible forms of existence.",
+],

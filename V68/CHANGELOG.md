@@ -1,6 +1,15 @@
 # Roomian Realms Changelog
 
-## Version 0.3 (Current)
+## Version 0.3.1 (Current)
+
+### Enhanced
+- **Religion-Race Integration**: Strengthened thematic connections between races and their patron deities
+- **Religious Lore**: Expanded the backstory and relationships between the four major religions
+- **Cosmic Framework**: Established a cohesive cosmology with the four deities and their spheres of influence
+- **Future Content Roadmap**: Outlined the upcoming "Great Cosmic Struggle" narrative arc
+- **Documentation**: Updated README with comprehensive race-religion relationships and divine powers
+
+## Version 0.3
 
 ### Added
 - **Void Ore Mining**: Implemented the Void Ore mine (MINE_VOID_ORE_RG2) with specialized mechanics
@@ -14,9 +23,9 @@
 - **Resource References**: Corrected resource references to ensure proper game integration
 
 ### Coming Soon
-- **Race-Specific Events**: Custom events for each race that reflect their unique cultures
+- **Race-Specific Divine Events**: Custom events for each race tied to their religious beliefs
 - **Advanced Void Technology**: Expanded applications for Void Ore and related resources
-- **Additional Buildings**: More specialized structures for each race
+- **The Great Cosmic Struggle**: New narrative arc exploring the ancient conflict between deities
 
 ## Version 0.2
 

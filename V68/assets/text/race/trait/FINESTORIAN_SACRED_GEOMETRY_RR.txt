@@ -1,0 +1,11 @@
+NAME: "Sacred Geometry",
+TITLE: "Crator's Patterns",
+DESC: "This Finestorian perceives the mathematical underpinnings of reality with unusual clarity, their mind attuned to the sacred geometric patterns that form the foundation of Crator's creation.",
+
+BIO_DESC: [
+	"When {NAME} studies architectural plans, observers report seeing faint luminous lines extending from {HIS} eyes, tracing perfect geometric forms that reveal hidden structural relationships.",
+	"It is said that {NAME} can instantly calculate load-bearing capacities, stress points, and resonance patterns of any structure with a precision that defies conventional engineering methods.",
+	"During moments of deep concentration, {NAME} sometimes sketches complex geometric patterns that appear meaningless to others but later prove to predict structural failures or optimal design solutions.",
+	"Those who study under {NAME} often report dreams filled with impossible architecture and non-Euclidean spaces, their minds struggling to process the geometric insights {HE} has awakened in them.",
+	"The Crator geometry-priests believe that pattern-blessed individuals like {NAME} perceive echoes of the original divine blueprint from which all physical reality was constructed.",
+],
