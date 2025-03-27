@@ -2,7 +2,7 @@
 ![Roomian Realms Banner](assets/gfx/settlement/ui/sprite/icon/32/BG/4.png)
 
 ## 🌍 Overview
-**Roomian Realms** transforms your Songs of Syx experience with 7 unique playable races, 4 powerful religions, mysterious void technology, specialized buildings, and an immersive resource economy. Designed to enhance gameplay while maintaining balance with the base game.
+**Roomian Realms** transforms your Songs of Syx experience with 7 unique playable races, 5 powerful religions, mysterious void technology, specialized buildings, and an immersive resource economy. Designed to enhance gameplay while maintaining balance with the base game.
 
 ---
 
@@ -14,35 +14,40 @@ Each race offers unique gameplay advantages and cultural traits, aligned with th
 | Race | Specialization | Cultural Focus | Primary Religion |
 |------|----------------|---------------|-----------------|
 | **Argonosh (Satyrs)** | Archery & Forest Affinity | Matriarchal forest society with spiritual connections | Athuri (Nature) |
-| **Cantor (Bloodelves)** | Blood Magic & Aristocracy | Refined predators with blood-based rituals | Aminion (Blood) |
+| **Cantor (Bloodelves)** | Blood Magic & Aristocracy | Refined predators with blood-based rituals | Aminion (Blood) & Shmalor (Decay) |
 | **Cretonian (Pasunkas)** | Martial Arts & Balance | Disciplined fighters seeking perfect harmony | Crator (Creation) |
 | **Dondorian (Finestorians)** | Craftsmanship & Industry | Master artisans with unparalleled skill | Crator (Creation) |
-| **Garthimi (Wormlings)** | Parasitism & Hive Mind | Parasitic collective with alien consciousness | Shmalor (Decay) |
+| **Garthimi (Wormlings)** | Parasitism & Hive Mind | Parasitic collective with alien consciousness | God Emperor (Void) |
 | **Q'Amevia (Froggians)** | Knowledge & Diplomacy | Scholarly amphibians focused on peaceful progress | Athuri (Nature) |
 | **Tilapi (Hellspawns)** | Warfare & Cruelty | Merciless warriors who thrive on suffering | Aminion (Blood) |
 
-### ⛪ The Four Great Powers
-The world is shaped by four divine forces that compete for influence:
+### ⛪ The Five Great Powers
+The world is shaped by five divine forces that compete for influence:
 
 - **Athuri, The Balanced One** - Deity of nature, harmony, and knowledge
   - *Favored by:* Satyrs and Froggians
-  - *Grants:* Bonuses to mining, refinement, and education
+  - *Grants:* "Athuri's Harmony" - enhanced connection to natural cycles, bonuses to mining, refinement, and education
   - *Opposed to:* Aminion and Shmalor
 
 - **Aminion, The Fallen One** - Deity of blood, domination, and cruelty
   - *Favored by:* Bloodelves and Hellspawns
-  - *Grants:* Increased loyalty, submission, and military conscription
+  - *Grants:* "Aminion's Vitality" - enhanced longevity, accelerated healing, and increased loyalty
   - *Opposed to:* Athuri
 
 - **Crator, The Divine Architect** - Deity of creation, craftsmanship, and order
   - *Favored by:* Pasunkas and Finestorians
-  - *Grants:* Bonuses to agriculture, farming, and food production
+  - *Grants:* "Crator's Precision" - enhanced perception of flaws in materials and designs
   - *Opposed to:* Aminion and Shmalor (mildly)
 
-- **Shmalor, The Great Worm** - Deity of decay, parasitism, and transformation
-  - *Favored by:* Wormlings
-  - *Grants:* Bonuses to raiding, loyalty, and offensive combat
+- **Shmalor, The Queen of the Agonosh** - Deity of decay, parasitism, and transformation
+  - *Favored by:* Wormlings (secondary), Bloodelves (secondary), Northmen (secondary)
+  - *Grants:* "Shmalor's Foresight" - ability to perceive hidden opportunities and adapt to changing circumstances
   - *Opposed to:* Athuri and Crator (mildly)
+
+- **God Emperor, The Alien Entity** - Deity from beyond reality that entered through The Breach
+  - *Favored by:* Wormlings (primary)
+  - *Grants:* "Imperial Synchronization" - enhanced hive mind functionality and "Void Perception" - ability to sense patterns beyond normal reality
+  - *Relationship:* Complex connection to Shmalor - while Shmalor's death created The Breach, the God Emperor appears to be the entity that entered through it
 
 ### 🏗️ Specialized Buildings
 Over 20 unique buildings that enhance each race's strengths:
@@ -72,6 +77,13 @@ Expanded economic options with new resources and production chains:
 ---
 
 ## 🆕 New in Version 0.3
+
+### Enhanced Religious Framework
+The religious system has been expanded to include a fifth deity - the God Emperor - with unique rituals, benefits, and followers:
+
+- **Dual Worship Systems**: Bloodelves practice dual worship of Aminion and Shmalor, while Northmen honor both Crator and Shmalor
+- **Practical Divine Benefits**: Each deity now provides tangible benefits to their followers
+- **Sacred Rituals**: Unique ceremonies for each religion that enhance gameplay
 
 ### Void Technology System
 ![Void Technology](assets/gfx/settlement/ui/sprite/icon/24/resource/Sithilon/0.png)
@@ -106,14 +118,14 @@ Each race will receive unique events tied to their religious beliefs:
 
 ### Advanced Void Technology
 Future updates will expand the Void technology tree:
-- **Void Corruption**: New gameplay mechanic affecting religious devotion
+- **Void Communion**: Specialized ritual for connecting with the God Emperor
 - **Divine Void Artifacts**: Special items combining Void energy with religious power
 - **Void Priests**: Specialized units who harness Void energy for religious purposes
 
 ### The Great Cosmic Struggle
-A new narrative arc exploring the ancient conflict between the four deities:
+A new narrative arc exploring the ancient conflict between the five deities:
 - **Origin of the Void**: Discover how the Void relates to the divine powers
-- **Prophecies and Portents**: Signs of a coming cosmic upheaval
+- **The Shattering**: Learn about the cataclysmic event that transformed the world
 - **Choose Your Side**: Align with one deity against the others in the final conflict
 
 ---
@@ -136,4 +148,4 @@ Please report any bugs or provide feedback through our [GitHub repository](https
 
 ---
 
-*"Between the four great powers, the Void whispers secrets of a fifth."* - Ancient Argonosh prophecy
+*"Between the five great powers, the Void whispers secrets of transcendence."* - Ancient Wormling prophecy

@@ -1,12 +1,12 @@
 DESC_LONG: "The Wormlings are ancient parasitic entities whose origins lie in the darkest age of the world, when primordial horrors still walked freely. They are not individuals but collective consciousnesses—thousands of writhing worms that infest and transform humanoid hosts, hollowing them from within until nothing remains but a vessel of squirming flesh. Each Wormling colony develops a distinct personality shaped by the memories and suffering of hosts they've consumed throughout their existence, carrying forward fragments of their victims' knowledge and terror across countless generations.
 
-Their biology transcends conventional understanding, representing one of the world's most disturbing forms of life and embodying the essence of undeath itself. When a Wormling colony selects a new host, the infestation begins subtly—a few worms enter through any available orifice, multiplying rapidly and secreting enzymes that gradually liquefy the host's internal organs while preserving the nervous system. The victim remains conscious throughout this agonizing transformation, their mind slowly merging with the colony's consciousness until individual identity dissolves entirely. This dreadful resilience allows even a small fragment of a Wormling colony to regenerate by finding a new host, perpetuating their existence through an endless cycle of parasitic consumption.
+Their biology transcends conventional understanding, representing one of the world's most disturbing forms of life and embodying the essence of the God Emperor's alien influence. When a Wormling colony selects a new host, the infestation begins subtly—a few worms enter through any available orifice, multiplying rapidly and secreting enzymes that gradually liquefy the host's internal organs while preserving the nervous system. The victim remains conscious throughout this agonizing transformation, their mind slowly merging with the colony's consciousness until individual identity dissolves entirely. This dreadful resilience allows even a small fragment of a Wormling colony to regenerate by finding a new host, perpetuating their existence through an endless cycle of parasitic consumption.
 
 Individual Wormlings live and die quickly within their host bodies, constantly being replaced by new generations. This rapid lifecycle results in continuous decomposition within the host vessel, producing copious amounts of waste that seeps from their pores and orifices. Some hosts are more decomposed than others, with varying states of decay visible across their population—from relatively fresh vessels to walking corpses held together only by the writhing mass within. This perpetual state of decay is maintained through a forgotten dark magic curse that binds the worm colonies to their hosts, preventing true death while ensuring eternal suffering.
 
 In battle, Wormlings employ tactics that inspire primal terror. Their forms can partially dissolve and reconstitute during combat, with limbs shifting position or momentarily separating into writhing masses before reforming. When mortally wounded, they often expel clouds of microscopic larvae that seek to infiltrate nearby combatants through open wounds or airways. Their eerie, harmonious vocalizations—produced by thousands of tiny throats working in concert—contain subtle frequencies that induce disorientation and visceral dread in those who hear them, a evolutionary hunting mechanism refined over millennia.
 
-Wormling settlements are built around the sacred Nutrient Pools—vast, bubbling pits of partially digested organic matter where their young gestate and the revered Great Worms dwell. These ancient progenitor beings, bloated and immense from centuries of consumption, connect all Wormlings to their ancestral memory. Their architecture features intricate irrigation systems that distribute liquefied nutrients harvested from sacrificial hosts throughout their dwellings, with walls inscribed with undulating patterns that record their collective memories. Despite their horrifying nature, Wormlings are unparalleled agricultural innovators, having developed sophisticated techniques that maximize yield through controlled decomposition processes—often using their own digestive enzymes to prepare soil. They perceive all existence as part of 'The Great Renewal'—an eternal cycle where all life is ultimately destined to be consumed and transformed into new Wormling colonies.
+Wormling settlements are built around the sacred Nutrient Pools—vast, bubbling pits of partially digested organic matter where their young gestate and the revered Great Worms dwell. These ancient progenitor beings, bloated and immense from centuries of consumption, connect all Wormlings to the God Emperor's consciousness. Their architecture features intricate irrigation systems that distribute liquefied nutrients harvested from sacrificial hosts throughout their dwellings, with walls inscribed with undulating patterns that record their collective memories. Despite their horrifying nature, Wormlings are unparalleled agricultural innovators, having developed sophisticated techniques that maximize yield through controlled decomposition processes—often using their own digestive enzymes to prepare soil. They perceive all existence as part of 'The Great Renewal'—an eternal cycle where all life is ultimately destined to be consumed and transformed into new Wormling colonies.
 
 Uniquely among all races, Wormlings are drawn to death and decay, finding comfort and sustenance in the presence of unburied corpses. Their settlements often include designated areas where bodies are left exposed to the elements, allowing the worms to feast upon the decaying flesh and absorb the lingering essence of the deceased. This practice is both practical and spiritual for them—a way to honor the dead by incorporating them into the eternal cycle of consumption and renewal that defines Wormling existence.",
 
@@ -23,46 +23,73 @@ PRONOUN_HIMC: ["It",],
 PRONOUN_HIMSELF: ["itself",],
 PRONOUN_HIMSELFC: ["Itself",],
 
-DESC: "The Wormlings are ancient parasitic entities that embody undeath, living within decomposing host bodies through dark forgotten magic. They live and die quickly, producing waste as they decompose, and are drawn to unburied corpses.",
+DESC: "The Wormlings are ancient parasitic entities that embody the God Emperor's alien influence, living within decomposing host bodies through dark forgotten magic. They live and die quickly, producing waste as they decompose, and are drawn to unburied corpses.",
 
 HELLO: [
 	"The Collective remembers your pattern... and hungers for it",
 	"We sense the rhythm of your life-song beneath fragile skin",
 	"Your essence will enrich the Great Renewal when your time comes",
-	"The Ancient Ones stir at your approach, tasting your fear",
+	"The God Emperor stirs at your approach, tasting your fear",
 	"We are many, yet one in greeting you... for now",
 	"Your journey intersects with our endless path of consumption",
 	"The Nutrient Pools ripple with anticipation at your presence",
+	"The Void whispers your name through our thousand mouths",
+	"Imperial Synchronization acknowledges your singular existence... how limiting",
+	"Your pattern lacks the beauty of the God Emperor's design",
+	"We taste the absence of Void in your flesh... disappointing",
+	"The Communion prepares a place for your consciousness",
+	"Your individual thoughts... how chaotic compared to our harmony",
 ],
+
 GOODBYE: [
 	"Your pattern remains in our memory until we claim it",
 	"Until the Great Renewal brings us together in final union",
 	"Your essence leaves traces we shall follow when you sleep",
 	"The cycle continues, with or without your willing participation",
-	"The Ancient Ones will watch your journey with patient hunger",
+	"The God Emperor will watch your journey with patient hunger",
 	"A thousand eyes mark your departure, a thousand mouths await your return",
 	"All paths lead eventually to the Nutrient Pools and dissolution",
+	"The Void awaits your eventual return to nothingness",
+	"Imperial Directives will guide us to you when the time comes",
+	"Your temporary separation is noted in the Collective",
+	"The God Emperor's patience spans eternities... as does our hunger",
+	"Void Communion will reveal your movements to us",
+	"Your singular path diverges from our collective purpose... temporarily",
 ],
+
 CURSE: [
-	"By the First Worm's insatiable hunger!",
+	"By the God Emperor's insatiable hunger!",
 	"Cycle-breaker! Infestation-resistant!",
 	"Nutrient Pool's drought! Starvation upon you!",
 	"Pattern-disruptor! May your flesh reject our gift!",
 	"Colony-sundering! Dissolution without rebirth!",
-	"Ancient Ones' rejection! Forever unworthy of hosting!",
-	"Eternal separation from the collective consciousness!",
-	"May your essence never return to the soil or our bellies!",
+	"Void-severed! Connection-lost!",
+	"Imperial Synchronization disrupted!",
+	"Communion-blocked! Isolation eternal!",
+	"May the Void forget your pattern!",
+	"Collective-rejected! Individuality-cursed!",
+	"God Emperor's gaze averted!",
+	"Transcendence-denied! Stagnation eternal!",
+	"Breach-sealed! Reality-trapped!",
 ],
-INSULT: [
-	"single-souled", 
+
+INSULT: [ 
+	"single-minded",
 	"pattern-rigid",
-	"cycle-denier",
-	"soil-forsaken",
-	"renewal-resistant",
-	"memory-limited",
-	"essence-contained",
-	"harmony-breaker",
+	"void-blind",
+	"emperor-forgotten",
+	"communion-resistant",
+	"synchronization-incapable",
+	"nutrient-poor",
+	"cycle-resistant",
+	"renewal-rejecting",
+	"consumption-fearing",
+	"individually-trapped",
+	"void-disconnected",
+	"breach-sealed",
+	"transcendence-incapable",
 ],
+
 INSULTING: [
 	"unharmonized", 
 	"single-patterned",
@@ -73,18 +100,20 @@ INSULTING: [
 	"soil-separated",
 	"harmony-lacking",
 ],
+
 NOBLE: [
 	"Pattern Weaver",
-	"Ancient Memory",
+	"Imperial Memory",
 	"Nutrient Sovereign",
 	"Harmony Conductor",
 	"Thousand-Souled Elder",
 	"Great Renewal Guide",
 	"Colony Nexus",
-	"First Worm's Voice",
+	"God Emperor's Voice",
 	"Cycle Keeper",
 	"Essence Curator",
 ],
+
 CITY: [
 	"nutrient-nexus",
 	"pattern-haven",
@@ -93,6 +122,7 @@ CITY: [
 	"essence-garden",
 	"harmony-dwelling",
 ],
+
 OTHERS: [
 	"the single-patterned",
 	"potential harmonies",
@@ -100,6 +130,7 @@ OTHERS: [
 	"the cycle-bound",
 	"memory vessels",
 ],
+
 SELVES: [
 	"the collective",
 	"the harmonized",
@@ -108,6 +139,7 @@ SELVES: [
 	"the renewal-bound",
 	"the ancient memory",
 ],
+
 SELF: [
 	"colony member",
 	"pattern vessel",
@@ -145,20 +177,20 @@ LORD: [
 	"Ancient Memory Vessel",
 	"Renewal Coordinator",
 	"Thousand-Souled Commander",
-	"First Worm's Chosen",
+	"God Emperor's Chosen",
 	"Collective Consciousness",
 	"Great Consumption Leader",
 ],
+
 LORDS: "Cycle Guardians",
 LADY: "Nutrient Curator",
 LADIES: "Nutrient Curators",
 KNIGHT: "Colony Protector",
 KNIGHTS: "Colony Protectors",
-RELIGION: "The Great Renewal",
-RELIGIONS: "The Great Renewal",
-MYTH: "Song of the First Worm",
-MYTHS: "Songs of the Ancient Ones",
-
+RELIGION: "The God Emperor's Communion",
+RELIGIONS: "The God Emperor's Communion",
+MYTH: "Song of the God Emperor",
+MYTHS: "Songs of the Imperial Void",
 ARMY_NAMES: [
 	"The Writhing Horde",
 	"Colony Swarm",
@@ -166,11 +198,11 @@ ARMY_NAMES: [
 	"Pattern Enforcers",
 	"The Great Consumption",
 	"Essence Collectors",
-	"Memory Devourers",
+	"Imperial Devourers",
 	"Renewal Vanguard",
 	"Thousand-Mouthed Legion",
 	"Cycle Preservers",
-	"Ancient Ones' Tendrils",
+	"God Emperor's Tendrils",
 	"Harmony Assimilators",
 ],
 
@@ -181,12 +213,28 @@ PROS: [
 	"Swarm fighters",
 	"Resilient to disease",
 ],
+
 CONS: [
 	"Very short lifespan",
 	"Poor cold resistance",
 	"Weak health",
 	"Poor with scholarly pursuits",
 	"Require specialized nurseries",
+],
+
+TRAIT: [
+	"Void Touched",
+	"Void Perception",
+	"Imperial Synchronization",
+	"Void Adaptation",
+	"Collective Consciousness",
+	"Hive Nexus",
+	"Breach Sensitive",
+	"God Emperor's Fragment",
+	"Void Resilience",
+	"Pattern Recognition",
+	"Nutrient Efficiency",
+	"Transcendence Preparation",
 ],
 
 COMPATIBILITY: {

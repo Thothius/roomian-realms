@@ -1,6 +1,6 @@
 NAME: "Blood Ascendant",
 TITLE: "Aminion's Vessel",
-DESC: "This individual has transcended normal limitations through blood rituals, their body and mind transformed by Aminion's essence until they exist in a state between mortality and godhood.",
+DESC: "This individual has transcended normal limitations through blood rituals, their body and mind transformed by Aminion's essence until they exist in a state between mortality and godhood. Among Bloodelves, these rare individuals often practice the 'Crimson Mirror' ritual, combining Aminion's raw power with Shmalor's strategic insight.",
 
 BIO_DESC: [
 	"When {NAME} becomes agitated or excited, observers report seeing {HIS} veins glow with a crimson light that pulses in rhythm with an unseen heartbeat that is not {HIS} own.",
@@ -8,4 +8,7 @@ BIO_DESC: [
 	"During combat, {NAME}'s wounds close with unnatural speed, the blood sometimes flowing back into {HIS} body against gravity before the flesh knits itself together.",
 	"Those who spend extended time with {NAME} often develop recurring nightmares of drowning in warm blood while distant laughter echoes around them, waking with unexplained puncture marks.",
 	"The blood priests across all races recognize that ascendants like {NAME} represent living vessels of Aminion's dominating essence, their very existence a testament to the terrible power that flows through willing sacrifices.",
+	"Bloodelf nobles with this trait can perform the 'Crimson Extraction' ritual with unprecedented efficiency, drawing forth specific qualities from consumed blood with perfect precision.",
+	"During the 'Night of a Thousand Faces' festival, {NAME} serves as the central figure in the 'Crimson Mirror' ceremony, where {HIS} blood becomes a medium through which Shmalor's foresight and Aminion's power merge.",
+	"Other religious authorities view {NAME} with a mixture of fear and respect, recognizing that {HE} represents a living embodiment of Aminion's will that even other deities must acknowledge.",
 ],

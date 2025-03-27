@@ -1,6 +1,6 @@
 NAME: "Hive Nexus",
 TITLE: "Shmalor's Vessel",
-DESC: "This individual serves as a living psychic hub for collective consciousness, their mind capable of connecting with and coordinating dozens of others simultaneously through Shmalor's parasitic network.",
+DESC: "This individual serves as a living psychic hub for collective consciousness, their mind capable of connecting with and coordinating dozens of others simultaneously through Shmalor's parasitic network. This trait is particularly valued among Shmalor worshippers for its strategic applications in trade networks, military operations, and political maneuvering.",
 
 BIO_DESC: [
 	"When {NAME} focuses on coordination, witnesses report seeing faint tendrils of shadow extending from {HIS} body to those under {HIS} influence, pulsing with information exchange.",
@@ -8,4 +8,7 @@ BIO_DESC: [
 	"During periods of intense psychic activity, {NAME}'s skin develops subtle shifting patterns that resemble insect carapaces or fungal structures, physical manifestations of {HIS} altered consciousness.",
 	"Those who serve under {NAME}'s direct command report experiencing shared dreams where they move with perfect coordination through impossible hive structures that seem both alien and familiar.",
 	"The hive priests across all races recognize that nexus individuals like {NAME} represent living conduits of Shmalor's organizing essence, their minds containing fractal patterns that can restructure the thoughts of others.",
+	"Northmen trading companies compete fiercely to recruit {NAME}, as {HIS} ability to coordinate complex trade networks across vast distances provides unprecedented advantages in negotiations and logistics.",
+	"During the 'Night of a Thousand Faces' festival, {NAME} can simultaneously maintain multiple personas across different social circles, weaving a complex web of interactions that all serve a unified purpose.",
+	"Among Wormlings, {NAME} is viewed with a mixture of reverence and suspicion, as {HIS} connection to Shmalor sometimes interferes with the God Emperor's Imperial Synchronization.",
 ],

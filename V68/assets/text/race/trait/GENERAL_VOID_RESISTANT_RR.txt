@@ -1,6 +1,6 @@
 NAME: "Void Resistant",
 TITLE: "The Unblemished",
-DESC: "This individual's flesh and soul resist Void corruption, allowing them to handle materials that would taint or consume others.",
+DESC: "This individual's flesh and soul resist Void corruption, allowing them to handle materials that would taint or consume others. Followers of Crator believe this trait represents 'Crator's Shield'—divine protection against chaos and corruption.",
 
 BIO_DESC: [
 	"{NAME}'s blood crystallizes when exposed to air, forming a protective barrier that Void energies cannot penetrate.",
@@ -8,4 +8,7 @@ BIO_DESC: [
 	"It is whispered that {NAME} survived direct exposure to a Void breach that killed everyone else within a hundred paces.",
 	"Void-corrupted creatures become docile in {NAME}'s presence, as if {HE} emits some frequency that neutralizes their aggression.",
 	"The ancient Finestorian texts speak of 'The Untainted Ones' born once a generation; {NAME} bears their telltale resistance to corruption.",
+	"Crator-worshipping craftsmen seek {NAME}'s assistance when working with Void-tainted materials, believing {HIS} presence helps maintain order and structure in their creations.",
+	"During the 'Forging of the Divine Spark' ritual, {NAME} can handle the sacred implements without the protective gear others require.",
+	"Wormlings find {NAME}'s presence uncomfortable, claiming that {HE} 'disrupts the Imperial Synchronization' with an aura of stability.",
 ],

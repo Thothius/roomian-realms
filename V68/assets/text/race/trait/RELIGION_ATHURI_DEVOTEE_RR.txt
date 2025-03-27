@@ -1,6 +1,6 @@
 NAME: "Athuri Devotee",
 TITLE: "Nature's Vessel",
-DESC: "This individual has surrendered part of their soul to Athuri, becoming a conduit for the ancient forest deity's whispers and verdant power.",
+DESC: "This individual has surrendered part of their soul to Athuri, receiving 'Athuri's Harmony'—an enhanced connection to natural cycles and living things. Froggians and Satyrs with this trait serve as mediators between civilization and wilderness, ensuring balance is maintained.",
 
 BIO_DESC: [
 	"Tiny roots occasionally emerge from {NAME}'s skin before retreating back beneath the surface, leaving intricate patterns like living tattoos.",
@@ -8,4 +8,7 @@ BIO_DESC: [
 	"It is said that {NAME} can communicate with plants, often found whispering to them when {HE} believes no one is watching.",
 	"During sleep, {NAME}'s body exudes a faint phosphorescent glow that attracts nocturnal insects and small forest creatures.",
 	"The ancient Satyrs believe those marked by Athuri like {NAME} will be reborn as sentient trees, forever watching over the sacred groves.",
+	"Froggian communities seek {NAME}'s guidance during the 'Deep Meditation' ritual, where {HE} can perceive imbalances in the natural order that threaten their settlements.",
+	"Crops tended by {NAME} grow more abundantly and resist disease, as if Athuri's blessing flows through {HIS} touch into the soil and plants.",
+	"During times of natural disaster, {NAME} often receives prophetic dreams that provide warning and guidance, allowing communities to prepare or evacuate.",
 ],

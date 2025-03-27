@@ -1,0 +1,14 @@
+NAME: "God Emperor Devotee",
+TITLE: "The Transcendent",
+DESC: "This individual has opened their mind to the God Emperor's alien consciousness, receiving 'Imperial Insight'—glimpses of knowledge from beyond reality. Primarily found among Wormlings, these devotees serve as conduits for the God Emperor's will and vision.",
+
+BIO_DESC: [
+	"{NAME}'s eyes occasionally display geometric patterns that shift and reconfigure in ways that defy conventional mathematics.",
+	"When {NAME} speaks of the God Emperor, listeners report experiencing brief sensory hallucinations of impossible architectures and vast cosmic voids.",
+	"It is whispered that {NAME} can perceive dimensions beyond the conventional three, often reaching for objects at angles that shouldn't work but somehow do.",
+	"During the Void Communion ritual, {NAME}'s body temporarily displays anatomical configurations that shouldn't be possible, yet function with disturbing efficiency.",
+	"The Wormlings believe that devotees like {NAME} will eventually transcend physical form entirely, becoming pure consciousness within the God Emperor's collective.",
+	"Other races find {NAME}'s presence subtly disorienting, as if {HIS} body occasionally shifts slightly out of alignment with normal reality.",
+	"During moments of stress, {NAME} sometimes speaks in languages unknown to any scholar, yet listeners report understanding concepts that their minds cannot fully process.",
+	"Engineers and architects seek {NAME}'s counsel when conventional designs fail, as {HE} can perceive solutions that violate established principles yet function perfectly.",
+],

@@ -1,6 +1,6 @@
 NAME: "Nature's Chosen",
 TITLE: "Athuri's Vessel",
-DESC: "This individual possesses a profound connection to the natural world, their very presence causing plants to flourish and animals to respond with unusual intelligence and cooperation.",
+DESC: "This individual possesses a profound connection to the natural world, their very presence causing plants to flourish and animals to respond with unusual intelligence and cooperation. Among Froggians and Satyrs, these rare individuals serve as living conduits between civilization and wilderness, ensuring harmony between the two realms.",
 
 BIO_DESC: [
 	"When {NAME} walks through wilderness areas, observers report seeing plants subtly turn toward {HIM} as if drawn to an invisible light, while small animals approach without their usual fear.",
@@ -8,4 +8,7 @@ BIO_DESC: [
 	"During moments of communion with nature, {NAME}'s skin develops subtle patterns resembling bark, leaves, or scales, as if {HIS} body temporarily harmonizes with the essence of surrounding life.",
 	"Those who consume food grown by {NAME} report unusually vivid dreams of ancient forests and primordial oceans, as if the nutrients carry memories from the dawn of life itself.",
 	"The nature priests across all races recognize that chosen ones like {NAME} represent living conduits of Athuri's nurturing essence, their very blood carrying harmonics that resonate with the fundamental patterns of growth and renewal.",
+	"Froggian communities with access to {NAME}'s guidance experience unprecedented agricultural prosperity, as {HIS} presence enhances soil fertility and plant resilience against disease and drought.",
+	"During the 'Deep Meditation' ritual, {NAME} can perceive imbalances in the natural order across vast distances, providing early warnings of blights, droughts, or other ecological threats.",
+	"Satyr elders believe that {NAME} carries fragments of Athuri's original consciousness from before The Shattering, preserving ancient wisdom that would otherwise be lost to time.",
 ],

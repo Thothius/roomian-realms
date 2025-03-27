@@ -1,10 +1,21 @@
-DESC_LONG: "Northmen are imposing figures with robust frames adorned with intricate jewelry that doubles as portable wealth. Their society is built upon competing trading clans, each led by merchant-warriors who have proven their worth through commercial prowess and political maneuvering.
+DESC_LONG: "The Northmen are a hardy, seafaring people from the frigid coasts of northern Roomia, where brutal winters and treacherous waters forge resilient souls. Their society is built upon a foundation of competitive achievement, with status determined by one's accomplishments in trade, craftsmanship, or warfare. From an early age, Northmen children are taught to value self-reliance, cunning, and strength—qualities essential for survival in their harsh homeland. Their settlements feature distinctive architecture of intricately carved wooden longhouses with steep, pitched roofs designed to shed heavy snow, often adorned with elaborate knotwork patterns that tell the stories of their ancestors' great deeds.
 
-Their culture revolves around commercial dominance, political ambition, and clan reputation. Their social hierarchy is fluid—any Northman can challenge for leadership by demonstrating superior trading skill or political cunning. This creates constant internal competition tempered by the need for unity against external threats.
+The cornerstone of Northmen culture is their trading tradition. Their sleek longships—masterpieces of engineering capable of navigating both open seas and shallow rivers—have established vast trade networks spanning the known world. Northmen traders are renowned for their shrewdness in negotiations, a trait they attribute to Shmalor's blessing. Before important trading expeditions, they perform the ritual of "Shmalor's Bargain," where they symbolically offer a portion of their expected profits to the Trickster God in exchange for the gift of foresight in deals. Many carry small silver mirrors as talismans, believing they reflect Shmalor's cunning insight and reveal hidden opportunities where others see only obstacles.
 
-In warfare, they combine brutal efficiency with calculated tactics. Their battle formations emphasize overwhelming force at critical points, with warriors competing for profitable conquests while maintaining tactical discipline. Their smiths create weapons designed for intimidation—massive axes and ornate swords that complement their strength.
+While they revere Crator as the divine craftsman who blesses their shipbuilding and weapon-forging, they equally honor Shmalor as the deity who grants them the wit to use these tools to maximum advantage. This dual worship is reflected in their saying: "Crator provides the sword, but Shmalor teaches where to strike." In times of hardship, Northmen attribute their remarkable ability to adapt and overcome to "Shmalor's Whisper"—the sudden flash of insight that reveals an unexpected solution to seemingly insurmountable problems.
 
-They approach diplomacy as an extension of competition—alliances form based on mutual benefit and respect for cunning. Their word, once given in formal contract, is binding from the practical understanding that reputation affects future opportunities.",
+Their warrior tradition emphasizes tactical cunning over brute force. Northmen raiders study their targets carefully before attacking, seeking vulnerabilities and unexpected approaches—a strategy they call "Walking Shmalor's Path." Warriors who display exceptional tactical creativity are said to be "Shmalor-touched" and often rise to leadership positions. Before battle, war leaders often tell the "Tale of Shmalor's Victory," recounting how the deity defeated stronger opponents through cleverness and misdirection, inspiring their warriors to do the same.
+
+In Northmen settlements, the most respected elders are those who have demonstrated "Shmalor's Wisdom"—the ability to navigate complex social and political challenges through diplomatic finesse rather than conflict. These elders often serve as mediators in disputes, drawing on Shmalor's teachings to find solutions that benefit all parties while avoiding unnecessary bloodshed. The highest compliment one can receive in Northmen society is to be called "silver-tongued," indicating mastery of Shmalor's gift of persuasion.
+
+Annual festivals honoring Shmalor feature complex games of strategy and negotiation, where participants must secure resources and allies through cunning rather than force. The "Trickster's Tournament" tests competitors' ability to solve elaborate puzzles and navigate mazes filled with illusions and false paths. Winners are believed to receive Shmalor's special blessing of opportunity for the coming year—a valuable advantage in trade and exploration.
+
+The Northmen's legal system incorporates the concept of "Shmalor's Justice," which values clever solutions to disputes over rigid adherence to precedent. In their courts, a defendant who can present a particularly ingenious defense may be pardoned even if technically guilty, as such creativity is seen as evidence of Shmalor's favor. This approach has produced a complex and adaptable legal tradition that prioritizes pragmatic outcomes over abstract principles.
+
+Despite their reputation as fierce warriors and shrewd traders, Northmen society places high value on hospitality and oath-keeping. Breaking a sworn oath is considered not only dishonorable but a direct affront to Shmalor, who is believed to punish oath-breakers by withdrawing the gift of opportunity, leaving them blind to advantageous circumstances. This belief ensures that Northmen, for all their cunning in negotiations, are scrupulously honest once terms are agreed upon and oaths are sworn.
+
+The Northmen maintain pragmatic relationships with other races, judging them primarily by their usefulness as trading partners, worthy opponents, or potential threats. They respect the Finestorians for their craftsmanship and reliability, often forming lucrative trade partnerships with them. They view the Satyrs and Froggians with cautious curiosity, appreciating their unique goods but finding their societal structures somewhat alien. They maintain a wary distance from the Bloodelves, seeing them as dangerous but potentially valuable allies in certain circumstances, particularly appreciating their shared reverence for Shmalor's teachings on opportunity and adaptation. They view the Hellspawns with deep distrust, engaging with them only when absolutely necessary and always from a position of strength.
+
 NAME: "Northman",
 NAMES: "Northmen",
 POSSESSIVE: "Northman",
@@ -20,33 +31,32 @@ PRONOUN_HIMSELF: ["himself", "herself",],
 PRONOUN_HIMSELFC: ["Himself", "Herself",],
 
 HELLO: [
-	"Gold speaks louder than words, stranger.",
-	"What treasures do you bring to our trading halls?",
-	"The northern winds bring opportunity... and danger.",
-	"Your reputation precedes you... for better or worse.",
-	"Every deal has a price. What's yours?",
-	"The trading clans watch your every move, outsider.",
-	"Your coin is welcome, but your trust is naive.",
-	"Let us discuss business. Time is gold, after all.",
-	"The fjords have eyes, and they've been watching you.",
-	"A new face means new opportunities... for someone.",
+	"The winds bring you to our shores. What trades do you offer?",
+	"Your arrival is noted in our ledgers. Speak your business.",
+	"Stand tall and state your purpose, outsider.",
+	"May Crator guide your crafts and Shmalor your dealings.",
+	"Your reputation precedes you. Let us see if it's deserved.",
+	"The sagas will record this meeting. Make it worth telling.",
+	"Speak plainly or not at all. We value directness here.",
+	"Shmalor's eye sees opportunity in your arrival.",
+	"May your words be as true as Crator's designs.",
+	"The Silver Mirror reflects your intentions clearly to us.",
 ],
+
 GOODBYE: [
-	"May your coffers fill and your enemies fall.",
-	"Until our paths cross again... profitably.",
-	"Remember who your true allies are. Hint: there are none.",
-	"Your actions will determine if we meet as partners or rivals.",
-	"The northern winds remember those who break their word.",
-	"Keep your blade sharp and your contracts sharper.",
-	"Wealth favors the bold and punishes the trusting.",
-	"Our business is concluded... for now.",
-	"The sagas will tell if you were wise in your dealings.",
-	"Trust is a luxury few can afford in these lands.",
+	"May profitable winds fill your sails.",
+	"Until our ledgers cross again.",
+	"Your departure is noted. Return with better offers.",
+	"The sagas will remember our dealings.",
+	"May Crator strengthen your vessel and Shmalor guide your course.",
+	"Our bargain is struck. The Trickster witnesses our agreement.",
+	"The Divine Architect watch over your journey.",
+	"Until Shmalor's whisper brings you back to our shores.",
+	"May you find worthy opportunities on your path.",
+	"Remember our terms. Oath-breakers find no welcome here.",
 ],
+
 CURSE: [
-	"By Odin's empty socket!",
-	"Thor's missing hammer!",
-	"Frozen hells!",
 	"Oath-breaker!",
 	"Gold-thief!",
 	"Contract-voider!",
@@ -59,7 +69,16 @@ CURSE: [
 	"Troll's breath!",
 	"Ragnarök's dawn!",
 	"Valhalla reject!",
+	"Shmalor's twisted mirror!",
+	"By the Trickster's mask!",
+	"Silver-tongue turned leaden!",
+	"Crator's hammer strike you!",
+	"May your keel split in the storm!",
+	"Opportunity-blinded fool!",
+	"Shmalor's whisper missed!",
+	"By the Divine Architect's broken compass!",
 ],
+
 INSULT: [ 
 	"coin-poor",
 	"oath-keeper",
@@ -76,7 +95,17 @@ INSULT: [
 	"rune-blind",
 	"Aminion-forsaken",
 	"saga-forgotten",
+	"Shmalor-rejected",
+	"trick-obvious",
+	"mask-transparent",
+	"opportunity-blind",
+	"Crator-abandoned",
+	"hammer-dropping",
+	"pattern-missing",
+	"silver-mirror-cracked",
+	"bargain-losing",
 ],
+
 INSULTING: [ 
 	"coin-poor",
 	"oath-keeping",
@@ -93,7 +122,11 @@ INSULTING: [
 	"rune-blinded",
 	"Aminion-forsaken",
 	"saga-forgotten",
+	"Shmalor-rejected",
+	"trick-obvious",
+	"mask-transparent",
 ],
+
 LORD: [
 	"Trade Baron",
 	"Fjord King",
@@ -113,6 +146,7 @@ LORD: [
 	"Raid Commander",
 	"Berserker King",
 ],
+
 CITY: [
 	"gold-haven",
 	"trade-port",
@@ -125,6 +159,7 @@ CITY: [
 	"coin-capital",
 	"power-haven",
 ],
+
 OTHERS: [
 	"southerners",
 	"coin-wasters",
@@ -137,6 +172,7 @@ OTHERS: [
 	"ambition-lacking",
 	"backstab-targets",
 ],
+
 SELVES: [
 	"northern-born",
 	"gold-seekers",
@@ -149,6 +185,7 @@ SELVES: [
 	"ambition-driven",
 	"coin-blooded",
 ],
+
 SELF: [
 	"northern-born",
 	"gold-seeker",
@@ -161,6 +198,7 @@ SELF: [
 	"ambition-driven",
 	"coin-blooded",
 ],
+
 CHILDREN: [
 	"clan-young",
 	"gold-cubs",
@@ -204,7 +242,6 @@ ARMY_NAMES: [
 	"Valkyrie's Chosen",
 	"Ragnarök Harbingers",
 ],
-
 
 PROS: [
     "Cold resistance",

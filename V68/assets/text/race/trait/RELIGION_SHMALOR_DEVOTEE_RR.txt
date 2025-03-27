@@ -1,6 +1,6 @@
 NAME: "Shmalor Devotee",
 TITLE: "The Transformed",
-DESC: "This individual has opened themselves to Shmalor's parasitic influence, their body becoming a living laboratory for the deity's endless experiments in decay and rebirth.",
+DESC: "This individual has opened themselves to Shmalor's parasitic influence, gaining the ability to perceive hidden opportunities and adapt to changing circumstances. Devotees receive 'Shmalor's Foresight'—an intuitive understanding of shifting patterns and the ability to anticipate changes before they occur.",
 
 BIO_DESC: [
 	"Small bulges occasionally move beneath {NAME}'s skin, as if something lives and breeds within {HIS} flesh.",
@@ -8,4 +8,7 @@ BIO_DESC: [
 	"It is whispered that {NAME} can communicate with parasites and fungi, directing them to consume only that which {HE} deems unworthy of preservation.",
 	"During moments of stress, {NAME}'s pupils split and divide like cellular mitosis before reforming, a transformation {HE} seems unaware of.",
 	"The Wormlings believe that {NAME} and other devotees will never truly die, but instead gradually transform into living hives of sacred parasites that will spread Shmalor's gifts eternally.",
+	"Northmen traders seek {NAME}'s counsel before major expeditions, believing {HIS} 'Shmalor's Whisper' ability reveals unexpected opportunities in seemingly hopeless situations.",
+	"Bloodelf nobles with this trait excel at 'The Thousand Faces' technique, allowing them to adapt their social persona to any political circumstance with uncanny precision.",
+	"During times of crisis, {NAME} often experiences sudden insights that others miss, seeing patterns and connections that reveal solutions where none seemed possible.",
 ],

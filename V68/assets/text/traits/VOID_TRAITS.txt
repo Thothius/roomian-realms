@@ -1,0 +1,92 @@
+# Void-Related Traits
+
+## Common Void Traits
+
+### Void Touched
+"Those with a special connection to the Void, able to sense its patterns and draw upon its alien energies."
+
+**Effects:**
+- 20% bonus to Void Ore mining
+- +10% movement speed
+- +5% combat effectiveness
+- -5% stress from Void exposure
+
+**Distribution:**
+- Garthimi (Wormlings): 20% chance
+- Argonosh: 15% chance
+- Q'Amevia: 15% chance
+- Other races: 5% chance or less
+
+**Religious Connection:**
+Void Touched individuals are particularly attuned to the God Emperor's influence. Among Wormlings, they often serve as conduits during the Void Communion ritual, their bodies temporarily hosting a stronger fragment of the God Emperor's consciousness. Non-Wormling Void Touched individuals report disturbing dreams of vast alien geometries and whispers in unknown languages—subtle attempts by the God Emperor to extend influence beyond its primary worshippers.
+
+### Void Resistant
+"Those whose bodies and minds have developed natural defenses against the corrupting influence of the Void."
+
+**Effects:**
+- 30% bonus to Void Ore mining
+- +15% health
+- +10% stamina
+- Immune to minor Void corruption effects
+
+**Distribution:**
+- Cretonian: 15% chance
+- Dondorian: 15% chance
+- Tilapi: 10% chance
+- Other races: 3% chance or less
+
+**Religious Connection:**
+Void Resistant individuals among Crator-worshipping societies are often seen as blessed by the Divine Architect with "Crator's Shield"—an innate protection against chaos and corruption. They frequently become specialized miners and crafters who work with Void-tainted materials, creating the intricate tools and weapons that incorporate Void Ore. In Athuri-worshipping societies, this trait is viewed as a sign of exceptional harmony with the natural world, allowing the individual to resist unnatural influences.
+
+### Void Sensitive
+"Those with heightened perception of Void energies, able to detect subtle anomalies and patterns invisible to others."
+
+**Effects:**
+- -15% penalty to Void Ore mining (too sensitive to exposure)
+- +25% research speed for Void-related technologies
+- +15% to intelligence-based tasks
+- +10% chance to develop intellectual traits
+
+**Distribution:**
+- Q'Amevia: 20% chance
+- Cantor (Bloodelves): 15% chance
+- Cretonian: 10% chance
+- Other races: 2% chance or less
+
+**Religious Connection:**
+Among Bloodelves, Void Sensitive individuals often become specialized diviners who combine their natural sensitivity with blood rituals to gain unprecedented insights. The "Crimson Mirror" ritual is particularly effective when performed by Void Sensitive Bloodelves, who can perceive subtle patterns in the blood that others miss. In Shmalor-worshipping societies, this trait is associated with "Shmalor's Eye"—the ability to perceive hidden opportunities and threats that exist at the boundaries between realities.
+
+## Elite Void Traits
+These traits are extremely rare (1-5% occurrence) and mutually exclusive with other elite traits.
+
+### Void Touched Prodigy
+"A rare individual whose connection to the Void transcends mere sensitivity, allowing them to manipulate Void energies with intuitive ease."
+
+**Effects:**
+- 50% bonus to Void Ore mining
+- +30% research speed for Void-related technologies
+- Can safely handle raw Void materials
+- Occasional insights into advanced technologies
+- -10% social skills with non-Void Touched individuals
+
+**Religious Connection:**
+Among Wormlings, these individuals are revered as "God Emperor's Chosen"—direct vessels for the deity's consciousness who receive clear visions rather than the fragmented whispers experienced by others. Non-Wormling Void Touched Prodigies are often viewed with suspicion by traditional religious authorities, who fear their connection to alien influences. They frequently become either revered advisors or persecuted outcasts, depending on the society's relationship with Void phenomena.
+
+### Hive Nexus
+"A rare individual with an extraordinary capacity to coordinate group efforts and maintain complex organizational systems."
+
+**Effects:**
+- +25% to all administration tasks
+- +20% to loyalty of subordinates
+- +15% to group work efficiency
+- -10% to individual tasks performed alone
+- -5% to creative thinking
+
+**Religious Connection:**
+This trait is particularly valued among Shmalor worshippers for its strategic applications. Individuals with this trait often become leaders of trading companies, military units, or political factions where coordinating many moving parts is essential. Among Wormlings, this trait manifests as an enhanced connection to the collective consciousness, allowing the individual to serve as a living coordination hub for hundreds of other Wormlings. The God Emperor's worship enhances this trait, as the alien deity's consciousness operates on principles of vast, interconnected systems.
+
+## Implementation Notes
+
+These traits should be integrated into the existing trait system, with appropriate visual indicators and gameplay effects. The religious connections provide narrative justification for their distribution among different races and create interesting gameplay dynamics where certain combinations of traits and religious affiliations produce unique advantages.
+
+The traits also reinforce the established connections between races and their patron deities while adding gameplay depth to the Void technology system. Players can strategically assign characters with these traits to appropriate roles to maximize their effectiveness.

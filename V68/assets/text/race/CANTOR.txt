@@ -1,10 +1,24 @@
-DESC_LONG: "The Bloodelves are elegant, pale-skinned immortals whose civilization thrives in the eternal twilight of ancient castles and shadowed valleys. Distinguished by their pointed ears and crimson eyes, these vampire-like beings move with uncanny silence and strike with deadly precision. Their slender frames belie supernatural strength and reflexes, while their enhanced senses allow them to perceive the flowing life essence beneath living skin, making them peerless hunters who never require sleep.
+DESC_LONG: "The Bloodelves are an ancient race of aristocratic predators whose civilization is built upon the twin pillars of blood magic and political intrigue. Their alabaster skin and crimson eyes mark them as beings touched by arcane power, while their tall, slender forms move with an unnerving grace that betrays their supernatural origins. Bloodelves age at one-seventh the rate of humans, with lifespans extending several centuries—a longevity that breeds both patience in their schemes and a certain detachment from the concerns of shorter-lived races. Their architecture reflects this timeless perspective, with sprawling estates of black marble and crimson glass designed to last millennia, often incorporating optical illusions and secret passages that serve both aesthetic and practical purposes in their intrigue-filled society.
 
-Their society revolves around the 'Crimson Court' - an intricate aristocracy where status is determined by bloodline purity, mastery of blood magic, and the number of slaves one possesses. Bloodelf architecture favors soaring spires, elaborate crypts, and grand halls designed for nocturnal gatherings, all adorned with stained glass that filters moonlight into mesmerizing patterns. Their dwellings lack bedchambers entirely, as they have evolved beyond the need for sleep, instead using these nighttime hours for study, ritual, and the careful draining of life essence from their carefully maintained stables of slaves.
+At the heart of Bloodelf society lies the Crimson Court—a labyrinthine political structure where noble houses compete for influence through a complex dance of alliances, betrayals, and calculated displays of power. Within this cutthroat environment, devotion to Shmalor has become increasingly prevalent among the most successful houses. The "Order of the Silver Mirror," once a fringe cult within Bloodelf society, has grown into a powerful inner circle whose members attribute their political survival to Shmalor's teachings on adaptability and opportunity. Initiates into the Order undergo the "Reflection Ritual," where they gaze into enchanted mirrors that reveal their true ambitions and the hidden opportunities to achieve them—knowledge that provides a crucial edge in court politics.
+
+Bloodelf devotees of Shmalor practice "The Thousand Faces" technique, a form of social camouflage that allows them to present different personas to different allies and rivals, revealing only what serves their purposes in each relationship. This practice, taught in Shmalor's temples, is considered the highest form of social artistry among Bloodelves. Those who master it are said to receive "Shmalor's Insight"—the ability to perceive the true motivations behind others' carefully constructed facades. This gift is particularly valued in a society where direct questions are considered vulgar and truth is typically veiled in layers of implication and metaphor.
+
+The most prestigious political advisors in Bloodelf society are those who have demonstrated "Shmalor's Foresight"—the ability to anticipate shifts in power and position their patrons to benefit from changing circumstances. These advisors often carry silver hand mirrors as symbols of their office, using them in elaborate ceremonies where they symbolically reflect the "true path" forward for their houses. The most successful noble houses maintain private shrines to Shmalor within their estates, where they perform the "Opportunity Divination" before making major political moves, seeking the deity's guidance in identifying the most advantageous course of action.
+
+While Bloodelves maintain their traditional worship of Aminion, who they credit for their knowledge of blood magic, they increasingly turn to Shmalor for guidance in how to use that power most effectively. This dual worship is reflected in their saying: "Aminion grants the power, but Shmalor reveals when to use it." In the complex political landscape of the Crimson Court, raw power alone is insufficient; knowing precisely when and how to deploy it makes the difference between ascension and destruction. Bloodelves who successfully navigate major political crises often attribute their survival to "Shmalor's Escape"—the unexpected path to safety that appears when all conventional options have been exhausted.
+
+The annual "Festival of Shifting Alliances" honors Shmalor through elaborate masquerade balls where political relationships are renegotiated behind the anonymity of masks. These events are renowned for their intricate social choreography, where subtle gestures and symbolic exchanges communicate political intentions without explicit statements that could later prove binding or incriminating. Bloodelves consider this festival the perfect embodiment of Shmalor's teachings on adaptability and opportunity, as it allows for political realignment without the loss of face that would normally accompany such shifts.
+
+Bloodelf children are taught the "Parables of Shmalor" alongside their lessons in etiquette and blood magic. These stories emphasize the value of patience, observation, and timing—teaching that the most elegant solution often involves allowing one's opponents to defeat themselves through their own mistakes. Young Bloodelves who show particular aptitude for political thinking are sometimes selected for special mentorship by members of the Order of the Silver Mirror, who train them in "Shmalor's Calculation"—the art of identifying multiple pathways to one's goals and selecting the approach that requires the least expenditure of resources.
+
+In warfare, Bloodelf commanders employ "Shmalor's Strategy"—focusing on deception, misdirection, and striking at unexpected moments rather than direct confrontation. Their military doctrine emphasizes creating the illusion of weakness where they are strong and strength where they are weak, confusing enemies into making fatal miscalculations. Before battle, Bloodelf officers perform the "Mirror Shield Ritual," where they contemplate their own reflections in polished silver shields while envisioning how to turn their enemies' strengths against them—a practice they believe channels Shmalor's cunning into their tactical planning.
+
+The highest echelons of Bloodelf society practice what they call "The Long Game"—political strategies that may take decades or even centuries to come to fruition. This approach, which they attribute to Shmalor's influence, takes advantage of their extended lifespans to outmaneuver shorter-lived races who cannot maintain consistent political direction across generations. Bloodelves who successfully complete century-spanning schemes are honored with the title "Voice of Shmalor," indicating their mastery of the deity's teachings on patience and opportunity.
 
 Bloodelves reproduce at an exceptionally slow rate, with females capable of conception perhaps once a century. This biological limitation has shaped their entire culture, making them fiercely protective of their young and obsessively focused on extending their already considerable lifespans through the consumption of life essence. The draining process, when performed with skill, allows a Bloodelf to sustain themselves while keeping their slaves alive for decades—a practice they consider both practical and merciful compared to the crude bloodletting of lesser vampire species.
 
-In warfare, Bloodelves excel at stealth, archery, and psychological manipulation. Their archers can strike with supernatural accuracy even in complete darkness, their arrows often enchanted with blood magic that drains vitality from victims. Rather than overwhelming force, they prefer to isolate targets through misdirection and fear, striking when enemies are most vulnerable. Their legendary patience, honed through centuries of sleepless nights, allows them to orchestrate elaborate stratagems spanning decades or even centuries.
+In warfare, Bloodelves excel at stealth, archery, and psychological manipulation. Their archers can strike with supernatural accuracy even in complete darkness, their arrows often enchanted with blood magic that drains vitality from victims. Rather than overwhelming force, they prefer to isolate targets through misdirection and fear, striking when enemies are most vulnerable. Their legendary patience, honed through centuries of sleepless nights, allows them to orchestrate elaborate stratagems spanning decades or even centuries. The most feared Bloodelf generals are those who have mastered 'The Thousand Faces'—a technique taught in Shmalor's temples that allows them to adopt multiple personas and infiltrate enemy ranks undetected.
 
 Bloodelves approach relationships as carefully cultivated investments, with a clear hierarchy between themselves and the lesser beings they consider worthy only of servitude. They maintain networks of informants, vassals, and carefully selected slaves, each relationship precisely managed for maximum benefit and longevity of essence extraction. While capable of genuine loyalty to those who earn their respect, their immortal perspective makes them view most alliances as temporary arrangements. Their diplomatic corps employs blood-oaths that magically bind parties to agreements, with severe consequences for betrayal. Despite their predatory nature, they prefer sustainable relationships over wasteful violence, seeing themselves as refined caretakers rather than mindless monsters—the inevitable apex predators in a world of lesser beings.",
 
@@ -22,28 +36,32 @@ PRONOUN_HIMSELF: ["himself", "herself",],
 PRONOUN_HIMSELFC: ["Himself", "Herself",],
 
 HELLO: [
-	"The night welcomes you... for now.",
-	"I sense your heartbeat, mortal.",
-	"Your blood calls to me, stranger.",
-	"Step into my shadow, if you dare.",
-	"The eternal thirst brings us together.",
-	"Your veins sing a beautiful melody.",
-	"The darkness recognizes your presence.",
+	"Your presence is... noted in our ledgers.",
+	"The Crimson Mirror foresaw your arrival.",
+	"Speak your purpose. Time is precious to the long-lived.",
+	"Your blood sings an... interesting melody.",
+	"The House acknowledges your presence, for now.",
+	"Aminion grants power, Shmalor reveals when to use it. Remember this.",
+	"Your reflection in our mirrors is... revealing.",
+	"The Eternal Game continues. What move do you represent?",
+	"Both power and cunning are required here. Possess you either?",
+	"The Crimson Court observes. Tread carefully.",
 ],
+
 GOODBYE: [
-	"Until the moon rises again.",
-	"Your blood remains... tempting.",
-	"The shadows will watch your departure.",
-	"May your veins stay warm until we meet again.",
-	"The night is long, and memory eternal.",
-	"Your heartbeat echoes in my memory.",
-	"The darkness parts, but never forgets.",
+	"Your role in the Eternal Game is... evolving.",
+	"Until the Crimson Mirror reflects you again.",
+	"Your blood will remember this encounter, even if your mind does not.",
+	"May Aminion grant you power and Shmalor the wisdom to wield it.",
+	"The Court will be watching your... progress.",
+	"Your reflection remains in our mirrors long after you depart.",
+	"The next move is yours. Choose wisely.",
+	"Blood remembers what minds forget.",
+	"Your usefulness determines our next meeting.",
+	"The Dual Sight follows your path.",
 ],
+
 CURSE: [
-	"By the ancient blood!",
-	"Sunlight scorch you!",
-	"May your veins run dry!",
-	"Eternal thirst take you!",
 	"Blood and ashes!",
 	"Crimson damnation!",
 	"Moonless night!",
@@ -54,7 +72,18 @@ CURSE: [
 	"Crimson court's disgrace!",
 	"Sanguine treachery!",
 	"Bloodline's end!",
+	"Shmalor's twisted reflection!",
+	"Silver Mirror's crack!",
+	"Thousand Faces revealed!",
+	"By Aminion's spilled blood!",
+	"Crimson Mirror shattered!",
+	"Dual Sight blinded!",
+	"Eternal Game forfeit!",
+	"Blood Gift wasted!",
+	"May your reflection betray you!",
+	"Void in the Mirror!",
 ],
+
 INSULT: [ 
 	"daywalker",
 	"sun-lover",
@@ -70,23 +99,16 @@ INSULT: [
 	"shadow-feared",
 	"moonlight-weakened",
 	"bloodline-tainted",
+	"mirror-blind",
+	"opportunity-missing",
+	"power-squandering",
+	"covenant-breaking",
+	"reflection-ignorant",
+	"game-losing",
+	"Aminion-forsaken",
+	"Shmalor-abandoned",
 ],
-INSULTING: [ 
-	"sunlit",
-	"mortal",
-	"warm-blooded",
-	"pulse-bearing",
-	"mortality-bound",
-	"light-dwelling",
-	"vein-wasting",
-	"blood-ignorant",
-	"thirst-denying",
-	"hemomancy-blind",
-	"crimson-diluted",
-	"shadow-fearing",
-	"moonlight-weakened",
-	"bloodline-tainted",
-],
+
 LORD: [
 	"Blood Archon",
 	"Crimson Sovereign",
@@ -106,6 +128,7 @@ LORD: [
 	"Crimson Patriarch",
 	"Shadowvein Monarch",
 ],
+
 CITY: [
 	"blood-haven",
 	"night-citadel",
@@ -117,6 +140,7 @@ CITY: [
 	"veiled dominion",
 	"crimson estate",
 ],
+
 OTHERS: [
 	"mortals",
 	"daywalkers",
@@ -128,6 +152,7 @@ OTHERS: [
 	"life-wasters",
 	"temporary ones",
 ],
+
 SELVES: [
 	"eternal ones",
 	"night children",
@@ -138,6 +163,7 @@ SELVES: [
 	"thirst-bearers",
 	"immortal bloodlines",
 ],
+
 SELF: [
 	"night child",
 	"blood-bound",
@@ -147,6 +173,7 @@ SELF: [
 	"thirst-bearer",
 	"immortal scion",
 ],
+
 CHILDREN: [
 	"fledglings",
 	"blood-young",
