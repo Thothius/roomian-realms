@@ -1,6 +1,6 @@
-NAME: Temple of Crator
-NAMES: Temples of Crator
-DESC: The Temple of Crator venerates the Divine Architect, foremost creator among the Astari, who shaped the physical world and its many creatures. Crator's temples celebrate craftsmanship, discipline, and the perfection of form, reflecting his role as the master craftsman of reality.
+NAME: "Temple of Crator",
+NAMES: "Temples of Crator",
+DESC: "The Temple of Crator venerates the Divine Architect, foremost creator among the Astari, who shaped the physical world and its many creatures. Crator's temples celebrate craftsmanship, discipline, and the perfection of form, reflecting his role as the master craftsman of reality.
 
 Crator's sanctuaries are marvels of architectural precision, where every stone, beam, and ornament is placed according to sacred geometric principles. Offerings of livestock are made upon perfectly balanced stone altars, symbolizing Crator's appreciation for well-crafted living forms. The temples themselves serve as working forges and training grounds, where devotees hone their crafts and physical disciplines as acts of worship.
 
@@ -12,4 +12,4 @@ The Northmen honor Crator through their "Glory Hoard" tradition, collecting trop
 
 Crator maintains a complex relationship with other deities. While not directly opposed to Athuri, he stands against Aminion, who once tempted him to create monstrous beings, and Shmalor, whose chaotic void threatens his ordered creations. Crator represents the balance between creation and preservation, believing that true mastery comes through disciplined practice and respect for natural forms.
 
-The most sacred ritual in Crator's worship is the Solstice Forging, performed during the longest day of summer, where master craftsmen from all disciplines work together to create objects of extraordinary beauty and function. These artifacts, imbued with Crator's essence through the focused devotion of his followers, are said to carry special properties that reflect the divine spark of creation itself.
+The most sacred ritual in Crator's worship is the Solstice Forging, performed during the longest day of summer, where master craftsmen from all disciplines work together to create objects of extraordinary beauty and function. These artifacts, imbued with Crator's essence through the focused devotion of his followers, are said to carry special properties that reflect the divine spark of creation itself.,

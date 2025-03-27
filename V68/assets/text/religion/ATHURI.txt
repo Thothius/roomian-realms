@@ -1,6 +1,6 @@
-NAME: Temple of Athuri
-NAMES: Temples of Athuri
-DESC: The Temple of Athuri honors the Leader and Greatest of the Astari, who embodies wisdom, harmony, and the natural order of the cosmos. Athuri Astari defeated his brother Bardok in both cosmic wars, establishing balance in the world and ensuring the continuation of life's sacred cycles.
+NAME: "Temple of Athuri",
+NAMES: "Temples of Athuri",
+DESC: "The Temple of Athuri honors the Leader and Greatest of the Astari, who embodies wisdom, harmony, and the natural order of the cosmos. Athuri Astari defeated his brother Bardok in both cosmic wars, establishing balance in the world and ensuring the continuation of life's sacred cycles.
 
 Athuri's temples are places of meditation, learning, and communion with nature. They feature open-air sanctuaries where sunlight and moonlight freely enter, symbolizing Athuri's omnipresent wisdom. Offerings of food are placed upon living altars—great stone tables entwined with flowering vines that change with the seasons, representing the eternal cycle of growth and renewal that Athuri protects.
 
@@ -10,4 +10,4 @@ The Satyrs honor Athuri through their "Wild Hunt" traditions, believing that the
 
 Athuri stands in direct opposition to both Aminion and Shmalor, representing the cosmic struggle between order and chaos, creation and destruction. While Aminion seeks to unmake reality through chaos, and Shmalor represents the void between worlds, Athuri embodies the creative force that maintains the universe's harmony.
 
-The most sacred ritual in Athuri's worship is the Equinox Communion, performed twice yearly when day and night are in perfect balance. During these ceremonies, worshippers enter a meditative trance guided by priests who have trained for decades to channel Athuri's wisdom. It is said that during these moments, Athuri himself walks among his followers, invisible to the eye but felt in the sudden insights and visions that come to those whose minds are properly attuned.
+The most sacred ritual in Athuri's worship is the Equinox Communion, performed twice yearly when day and night are in perfect balance. During these ceremonies, worshippers enter a meditative trance guided by priests who have trained for decades to channel Athuri's wisdom. It is said that during these moments, Athuri himself walks among his followers, invisible to the eye but felt in the sudden insights and visions that come to those whose minds are properly attuned.,

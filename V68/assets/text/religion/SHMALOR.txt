@@ -1,6 +1,6 @@
-NAME: Temple of Shmalor
-NAMES: Temples of Shmalor
-DESC: The Temple of Shmalor honors the Queen of the Agonosh, who represents the cosmic void and the spaces between realities. Slain by the Tilapi chieftain Trinduri during the first war of the gods, Shmalor's death is believed to have torn the veil between dimensions, allowing alien entities to enter the world of Syx.
+NAME: "Temple of Shmalor",
+NAMES: "Temples of Shmalor",
+DESC: "The Temple of Shmalor honors the Queen of the Agonosh, who represents the cosmic void and the spaces between realities. Slain by the Tilapi chieftain Trinduri during the first war of the gods, Shmalor's death is believed to have torn the veil between dimensions, allowing alien entities to enter the world of Syx.
 
 Shmalor's temples are unsettling places of shadow and whispers, where the boundaries between worlds seem to thin. Unlike other temples, they often appear larger inside than their exterior suggests, with corridors that seem to bend in impossible ways. Human sacrifices are offered upon obsidian altars that appear to absorb rather than reflect light, symbolizing Shmalor's endless hunger for life essence that sustains her fractured existence across multiple realities.
 
@@ -10,4 +10,4 @@ The Bloodelves form a secondary cult within Shmalor's faith, drawn to her promis
 
 Shmalor stands in direct opposition to Athuri, whose ordered creation she seeks to unravel, and maintains a complex relationship with Crator, whose creations she both admires and seeks to transform. With Aminion, she shares a mutual understanding, as both deities represent forces that exist beyond conventional morality.
 
-The most sacred ritual in Shmalor's worship is the Void Communion, performed during the darkest night of winter, where willing sacrifices offer their lives to strengthen Shmalor's influence in the mortal realm. During these ceremonies, the boundaries between dimensions are said to dissolve temporarily, allowing glimpses of other realities and permitting Shmalor's alien servants to briefly manifest in physical form. Those who witness these manifestations often describe entities that defy conventional understanding of anatomy and physics, moving in ways that seem to violate the fundamental laws of reality.
+The most sacred ritual in Shmalor's worship is the Void Communion, performed during the darkest night of winter, where willing sacrifices offer their lives to strengthen Shmalor's influence in the mortal realm. During these ceremonies, the boundaries between dimensions are said to dissolve temporarily, allowing glimpses of other realities and permitting Shmalor's alien servants to briefly manifest in physical form. Those who witness these manifestations often describe entities that defy conventional understanding of anatomy and physics, moving in ways that seem to violate the fundamental laws of reality.,
