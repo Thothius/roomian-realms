@@ -1,6 +1,6 @@
 VERSION: "0.5",
 NAME: "Roomian Realms",
-DESC: "8 custom races with unique traits and religions. Streamlined building selection focused on core gameplay. Expanded armory, specialized training facilities, and mercenary expeditions. Custom music.",
+DESC: "8 custom races with unique traits and religions. Streamlined building selection with removal of complex religious buildings, void-related structures, and resource-focused facilities. Focused on core gameplay with essential military buildings and shrines.",
 AUTHOR: "Ted",
-INFO: "Work in progress featuring 8 races with distinct traits and five deities (Athuri, Aminion, Crator, Shmalor, and the God Emperor). Streamlined to focus on essential buildings: race-specific nurseries, military/training facilities, production workshops, and religious shrines. Includes specialized military buildings like the Advanced Armory, Cretonian Dojo for unarmed combat, and Mercenary Expedition Post for valuable resources.",
+INFO: "Work in progress featuring 8 races with distinct traits and five deities (Athuri, Aminion, Crator, Shmalor, and the God Emperor). Extensively streamlined by removing complex religious buildings (PANTHEON_TEMPLE_RG2, PAIN_EMBRACE_RG2, BLOOD_RITUAL_RG2, DREAMING_POOL_RG2), void-related structures (VOID_AMPLIFIER_RG2, VOID_CRYSTAL_REFINERY_RG2, VOID_GATEWAY_RG2, VOID_NEXUS_RG2, BREACH_PORTAL_RG2), additional military buildings (GLORY_HOARD_RG2, WILD_HUNT_LODGE_RG2), and resource-focused facilities (FORGE_BOUND_RG2, MINE_VOID_ORE_RG2, CORPSE_PROCESSOR_RG2, EMBASSY_RG2). Retains essential buildings: race-specific nurseries (8), military/training buildings (3), production buildings (2), and religious shrines (4).",
 COMPATIBLE: "68",
