@@ -1,6 +1,22 @@
 # Roomian Realms Changelog
 
-## Version 0.3.1 (Current)
+## Version 0.5 (Current)
+
+### Streamlined
+- **Building System**: Removed complex religious buildings, void-related structures, additional military buildings, and resource-focused facilities
+- **Core Focus**: Retained essential buildings: race-specific nurseries (8), military/training buildings (3), production buildings (2), and religious shrines (4)
+- **Removed Void Technology**: Eliminated the void technology system to focus on core gameplay mechanics
+
+### Added
+- **Mercenary Expedition Post**: New building that sends mercenaries on expeditions to find luxury resources (JEWELRY, GEM, ALCO_WINE)
+- **Enhanced Cretonian Dojo**: Updated to focus specifically on unarmed combat and training with pushup gloves
+- **God Emperor Integration**: Fully integrated the God Emperor as the fifth deity in the religious framework
+
+### Enhanced
+- **Military Building Synergy**: Created connections between military buildings (Advanced Armory produces pushup gloves, Cretonian Dojo trains with them)
+- **Documentation**: Updated README and mod info to reflect all changes in version 0.5
+
+## Version 0.3.1
 
 ### Enhanced
 - **Religion-Race Integration**: Strengthened thematic connections between races and their patron deities
@@ -12,8 +28,6 @@
 ## Version 0.3
 
 ### Added
-- **Void Ore Mining**: Implemented the Void Ore mine (MINE_VOID_ORE_RG2) with specialized mechanics
-- **Void Ore Resource**: Added a new mysterious resource with unique properties
 - **Resource Processing Chains**: Created new production chains for processing raw materials
 - **Comprehensive README**: Added detailed documentation about mod features and upcoming content
 
@@ -24,8 +38,7 @@
 
 ### Coming Soon
 - **Race-Specific Divine Events**: Custom events for each race tied to their religious beliefs
-- **Advanced Void Technology**: Expanded applications for Void Ore and related resources
-- **The Great Cosmic Struggle**: New narrative arc exploring the ancient conflict between deities
+- **Balance Improvements**: Fine-tuning of race traits and building effects
 
 ## Version 0.2
 
