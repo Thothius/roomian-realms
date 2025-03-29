@@ -1,4 +1,4 @@
-# RoomianRealms (v0.4)
+# RoomianRealms (v0.5)
 
 ## Overview
 
@@ -11,7 +11,19 @@ When ancient powers clashed, they left behind a tapestry of diverse cultures—e
 - **[Online Documentation](https://thothius.github.io/roomian-realms/)** - View our comprehensive documentation website
 - **In-Game Documentation** - Access the HTML documentation in the mod folder
 
-## What's New in Version 0.4
+## What's New in Version 0.5
+
+### Streamlined Building System
+- Removed complex religious buildings (PANTHEON_TEMPLE_RG2, PAIN_EMBRACE_RG2, BLOOD_RITUAL_RG2, DREAMING_POOL_RG2)
+- Removed void-related structures (VOID_AMPLIFIER_RG2, VOID_CRYSTAL_REFINERY_RG2, VOID_GATEWAY_RG2, VOID_NEXUS_RG2, BREACH_PORTAL_RG2)
+- Removed additional military buildings (GLORY_HOARD_RG2, WILD_HUNT_LODGE_RG2)
+- Removed resource-focused facilities (FORGE_BOUND_RG2, MINE_VOID_ORE_RG2, CORPSE_PROCESSOR_RG2, EMBASSY_RG2)
+- Retained essential buildings: race-specific nurseries (8), military/training buildings (3), production buildings (2), and religious shrines (4)
+
+### Enhanced Military Buildings
+- Added **Mercenary Expedition Post** that sends mercenaries on expeditions to find luxury resources
+- Updated **Cretonian Dojo** to focus on unarmed combat and training with pushup gloves
+- Maintained the **Advanced Armory** for production of specialized weapons including pushup gloves
 
 ### Comprehensive Religious Framework
 - Expanded lore for all five deities (Athuri, Aminion, Crator, Shmalor, God Emperor)
@@ -19,13 +31,6 @@ When ancient powers clashed, they left behind a tapestry of diverse cultures—e
 - Enhanced temple descriptions and religious practices
 - Sacred rituals and ceremonies for each faith
 - Revealed the true nature of the God Emperor and its relationship with Shmalor
-
-### Enhanced Trait System
-- Rebalanced trait distribution across all races
-- Fixed mutual exclusivity between thematically opposite traits
-- Balanced powerful traits with appropriate limitations
-- Added new elite traits with very low occurrence rates but powerful effects
-- Void-related traits that enhance the Void technology system
 
 ## Features
 
@@ -68,15 +73,6 @@ The mod features a comprehensive trait system with:
 - **Void-Related Traits**: Special traits that enhance interaction with Void technology
 - **Balanced Distribution**: Traits are distributed appropriately based on race population sizes
 - **Mutual Exclusivity**: Thematically opposite traits cannot be possessed simultaneously
-
-### Void Technology
-
-Harness the power of the void with specialized buildings and resources that unlock new capabilities for your civilization:
-- Void Ore Mining
-- Crystal Refineries
-- Void Nexus
-- Void Amplifiers
-- Void Gateways
 
 ### Custom Music
 
