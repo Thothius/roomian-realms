@@ -1,6 +1,6 @@
 VERSION: "0.5",
 NAME: "Roomian Realms",
-DESC: "8 custom races with unique traits and religions. Expanded armory, specialized training facilities, and mercenary expeditions. Custom music.",
+DESC: "8 custom races with unique traits and religions. Streamlined building selection focused on core gameplay. Expanded armory, specialized training facilities, and mercenary expeditions. Custom music.",
 AUTHOR: "Ted",
-INFO: "Work in progress featuring 8 races with distinct traits and five deities (Athuri, Aminion, Crator, Shmalor, and the God Emperor). Includes specialized military buildings like the Advanced Armory, Cretonian Dojo for unarmed combat, and Mercenary Expedition Post for valuable resources.",
+INFO: "Work in progress featuring 8 races with distinct traits and five deities (Athuri, Aminion, Crator, Shmalor, and the God Emperor). Streamlined to focus on essential buildings: race-specific nurseries, military/training facilities, production workshops, and religious shrines. Includes specialized military buildings like the Advanced Armory, Cretonian Dojo for unarmed combat, and Mercenary Expedition Post for valuable resources.",
 COMPATIBLE: "68",
