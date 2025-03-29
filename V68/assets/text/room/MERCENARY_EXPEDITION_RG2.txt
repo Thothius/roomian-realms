@@ -1,0 +1,27 @@
+INFO: {
+	NAME: "Mercenary Expedition Post",
+	NAMES: "Mercenary Expedition Posts",
+	DESC: "A specialized outpost where mercenaries prepare for and return from expeditions beyond the city walls. These adventurers venture into the wilderness to seek fortune, returning with gold and occasionally precious gems. The post is most effective when built near the edges of your settlement.",
+},
+
+WORK: {
+	TITLE: "Expedition Leader",
+	VERB: "Expeditioning",
+},
+
+STATS: [
+	{
+		NAME: "Expedition Leaders",
+		DESC: "The maximum number of mercenaries that can lead expeditions.",
+	},	
+	{
+		NAME: "Efficiency",
+		DESC: "Additional furniture and weapons increase the expedition efficiency.",
+	},
+	{
+		NAME: "Reputation",
+		DESC: "How prestigious the expedition post is, affecting the quality of treasures found.",
+	},
+],
+
+DESCRIPTION: "A specialized outpost where mercenaries prepare for and return from expeditions beyond the city walls. These adventurers venture into the wilderness to seek fortune, returning with gold and occasionally precious gems. The post employs up to 10 expedition leaders who organize and lead small bands of mercenaries on treasure-hunting missions. The building requires minimal resources to operate, making it an efficient source of additional income for your settlement. Humans, Tilapi, and Argonosh find particular satisfaction in these adventure-seeking roles, gaining small combat bonuses from the experience."

@@ -1,0 +1,125 @@
+ICON: 32->MILITARY->5,
+RESOURCES: [FURNITURE,],
+AREA_COSTS: [0,],
+FLOOR: STONE_MEDIUM_DARK,
+MINI_COLOR: 226_195_38,
+ITEMS: [
+	{
+		COSTS: [1,],
+		STATS: [1,0,0,],
+	},
+	{
+		COSTS: [0.25,],
+		STATS: [0,0.4,0,],
+	},
+],
+
+MAX_EMPLOYED: 10,
+INDUSTRIES: [
+	{
+		INDUSTRY: {
+			IN: {
+			
+			},
+			OUT: {
+				JEWELRY: 0.2,
+			},
+		},
+	},
+	
+	{
+		INDUSTRY: {
+			IN: {
+			
+			},
+			OUT: {
+				GEM: 0.05,
+			},
+		},
+	},
+	
+	{
+		INDUSTRY: {
+			IN: {
+			
+			},
+			OUT: {
+				ALCO_WINE: 0.3,
+			},
+		},
+	},
+],
+
+WORK: {
+	SHIFT_OFFSET: 0.125,
+	SOUND: impact->Metal*,
+	USES_TOOL: true,
+	FULFILLMENT: 1.2,
+},
+BONUS: {
+	CLIMATE: {
+		COLD: 1.0,
+		HOT: 1.0,
+	},
+},
+SPRITES: {
+	
+	TABLE_COMBO: [
+		{	
+			TINT: true,
+			SHADOW_HEIGHT: 5,
+			FRAMES: [
+				COMBO_TABLES: 8,	
+			],
+		},
+	],
+	CHAIR_1X1: [
+		{	
+			TINT: true,
+			SHADOW_LENGTH: 4,
+			ROTATES: true,
+			FRAMES: [
+				CHAIRS: 0,	
+				CHAIRS: 1,
+			],
+		},
+	],
+	STORAGE_1X1: [
+		{
+			SHADOW_LENGTH: 3,
+			SHADOW_HEIGHT: 0,
+			FRAMES: [
+				STORAGE:1,
+				STORAGE:5,
+			],
+		},
+	],
+	NICKNACK_1X1: [
+		{
+			ROTATES: false,
+			SHADOW_LENGTH: 3,
+			SHADOW_HEIGHT: 0,
+			FRAMES: [
+				TOP: 0,
+				TOP: 1,
+				WEAPON: 0,
+				WEAPON: 1,
+			],
+		},
+	],
+},
+
+BOOSTS: {
+	HUMAN: {
+		BATTLE_MELEE>ADD: 0.02,
+		HAPPINESS>ADD: 0.01,
+	},
+	TILAPI: {
+		BATTLE_MELEE>ADD: 0.02,
+		HAPPINESS>ADD: 0.01,
+	},
+	ARGONOSH: {
+		BATTLE_RANGED>ADD: 0.02,
+		HAPPINESS>ADD: 0.01,
+	},
+},

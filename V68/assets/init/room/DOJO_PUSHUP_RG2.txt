@@ -1,11 +1,11 @@
 INFO: {
 	NAME: "Cretonian Dojo",
 	NAMES: "Cretonian Dojos",
-	DESC: "A specialized training facility where Cretonians practice their unique martial arts and physical conditioning. These dojos focus on strength training, particularly push-ups and other bodyweight exercises that enhance the natural physical advantages of Cretonians.",
+	DESC: "A specialized training facility where Cretonians practice their unique martial arts and physical conditioning. These dojos focus on unarmed combat techniques and training with pushup gloves, enhancing the natural physical advantages of Cretonians.",
 },
 BONUS: {
-	NAME: "Physical Mastery",
-	DESC: "Enhances physical strength and combat effectiveness through disciplined training.",
+	NAME: "Unarmed Combat Mastery",
+	DESC: "Enhances unarmed combat effectiveness and stamina through disciplined training with pushup gloves.",
 },
 WORK: {
 	TITLE: "Martial Instructor",
@@ -90,6 +90,17 @@ ENVIRONMENT_EMIT: {
 		RADIUS: 16,
 	},
 },
+BOOSTS: {
+	CRETONIAN: {
+		BATTLE_MELEE>ADD: 0.05,
+		PHYSICS_STAMINA>MUL: 1.1,
+		BATTLE_MORALE>ADD: 0.1,
+	},
+	*: {
+		BATTLE_MELEE>ADD: 0.02,
+		PHYSICS_STAMINA>MUL: 1.05,
+	},
+},
 SPRITES: {
 	DOJO_FLOOR_1X1: [
 		{	
@@ -133,11 +144,4 @@ SPRITES: {
 	],
 },
 RACE: CRETONIAN,
-BOOSTS: {
-	CRETONIAN: {
-		PHYSICS_STAMINA>MUL: 0.05,
-		PHYSICS_HEALTH>MUL: 0.03,
-		BEHAVIOUR_DISCIPLINED>ADD: 0.05,
-	},
-},
-DESCRIPTION: "A specialized training facility for Pasunkas where they practice their Push-up Taijutsu. The intense training breaks stone slabs, requiring regular replacement. Pasunkas who train here gain increased stamina, health, and discipline while experiencing greater happiness from following their cultural traditions.",
+DESCRIPTION: "A specialized training facility where Cretonians hone their natural physical abilities through rigorous martial arts training. The dojo focuses on unarmed combat techniques and training with specialized pushup gloves, which are crafted in the Advanced Armory. Cretonians gain significant combat bonuses from training here, while other races receive modest benefits. The facility requires minimal resources to operate and serves as both a training center and a cultural gathering place for Cretonians. The disciplined training regimen enhances melee combat abilities, stamina, and morale for all who train here, with Cretonians receiving the greatest benefit.",
