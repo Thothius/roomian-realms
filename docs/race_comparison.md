@@ -123,6 +123,19 @@ This document provides a comprehensive comparison of all races in the Roomian Re
 | Q_AMEVIA | FIGHTER (0.3), NIMBLE (0.8), FARMER (0.9), HEALER (0.8), SWIMMER (1.0) |
 | TILAPI | FIGHTER (0.9), STRONG (0.8), TOUGH (0.9), MINER (0.8), HEAT_RESISTANT (1.0) |
 
+## Custom Traits
+
+| Race | Race-Specific Traits | General Traits |
+|------|---------------------|----------------|
+| HUMAN (Finestorian) | ARCHITECTURAL_VISION (0.3), ARTISAN_LEGACY (0.3), EFFICIENT_BUILDER (0.2), GEOMETRIC_MIND (0.2), MASTER_CRAFTSMAN (0.3), MATERIAL_INSIGHT (0.2), OBSESSIVE_PERFECTIONIST (0.1), SACRED_GEOMETRY (0.1) | QUICK_LEARNER (0.2), VIRTUOUS_SOUL (0.2), NATURAL_LEADER (0.1), IRON_MIND (0.1) |
+| DONDORIAN (Northman) | *Not yet implemented* | *Not yet implemented* |
+| GARTHIMI (Pasunka) | *Not yet implemented* | *Not yet implemented* |
+| ARGONOSH (Satyr) | *Not yet implemented* | *Not yet implemented* |
+| CANTOR (Bloodelf) | *Not yet implemented* | *Not yet implemented* |
+| CRETONIAN | *Not yet implemented* | *Not yet implemented* |
+| Q_AMEVIA (Froggian) | *Not yet implemented* | *Not yet implemented* |
+| TILAPI (Hellspawn) | *Not yet implemented* | *Not yet implemented* |
+
 ## Combat Stats
 
 | Race | Archery | Battle Prowess | Preferred Armor | Preferred Weapons |
