@@ -1,0 +1,21 @@
+NAME: "Athuri Devotee",
+TITLE: "Nature's Disciple",
+DESC: "This Satyr has dedicated themselves to the worship of Athuri, gaining spiritual insight and a deeper connection to the natural cycles of life.",
+
+BIO_DESC: [
+    "When {NAME} performs the sacred rituals of Athuri, the surrounding forest seems to respond—leaves rustle without wind, animals draw near without fear, and flowers turn toward {HIM} as if sensing a kindred spirit.",
+    "Other Satyrs seek {NAME}'s guidance on spiritual matters, recognizing that {HIS} connection to Athuri, leader of the Astari and deity of wisdom and natural order, runs deeper than most.",
+    "{NAME} approaches worship through celebration of life's cycles, finding in Athuri's teachings a perfect reflection of the Satyr understanding that joy and reverence are complementary, not contradictory.",
+    "The sacred groves tended by {NAME} pulse with vibrant energy, the plants growing more lush and the wildlife more abundant than in surrounding areas, as if Athuri's blessing flows directly through {HIS} care.",
+    "During the most sacred moon festivals, {NAME} enters a trance-like state where {HE} claims to perceive the living web that connects all forest beings, a direct communion with Athuri's domain of natural harmony.",
+    "The symbols {NAME} wears are crafted from materials freely given by the forest—shed antlers, fallen feathers, naturally dropped seeds—honoring Athuri's teaching that nature provides all that is needed when approached with respect.",
+    "It is said that in moments of great need, {NAME} can call upon Athuri's blessing to accelerate healing, calm raging beasts, or cause plants to grow with supernatural speed.",
+],
+
+FLAVOUR: [
+    "The spiritual path followed by Satyrs like {NAME} embodies the ancient relationship between Athuri and the Satyr people, who alongside the Froggians have been the deity's primary followers since time immemorial.",
+    "While all Satyrs honor Athuri's importance in their culture, true Devotees develop a personal connection with the deity that transforms their understanding of the natural world and their place within it.",
+    "The intuitive wisdom that guides {NAME}'s spiritual practice stems directly from Athuri's blessing, allowing {HIM} to perceive the subtle patterns and cycles that maintain the forest's balance.",
+    "In Satyr society, Athuri Devotees serve as spiritual leaders and keepers of ancient traditions, their connection to the deity of wisdom making them invaluable in maintaining cultural continuity.",
+    "Some theologians believe that the most devoted Satyrs like {NAME} are gradually evolving toward a state of being that more closely resembles Athuri's own nature—becoming living embodiments of the harmony between civilization and wilderness.",
+],

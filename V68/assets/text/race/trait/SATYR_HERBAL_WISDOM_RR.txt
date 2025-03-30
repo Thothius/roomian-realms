@@ -1,0 +1,21 @@
+NAME: "Herbal Wisdom",
+TITLE: "Plant Speaker",
+DESC: "This Satyr possesses extensive knowledge of medicinal and poisonous plants, able to create potent remedies and toxins from the bounty of the forest.",
+
+BIO_DESC: [
+    "When {NAME} walks through the forest, {HE} perceives the medicinal properties of plants with extraordinary clarity, instinctively understanding which combinations will heal specific ailments or produce specific effects.",
+    "Other Satyrs seek {NAME}'s remedies when conventional treatments fail, trusting in {HIS} ability to concoct solutions for even the most unusual maladies using Athuri's botanical gifts.",
+    "{NAME} approaches herbalism as a sacred dialogue with the plant world, carefully honoring Athuri's teachings by harvesting only what is needed and ensuring sustainable growth of rare specimens.",
+    "The workshop where {NAME} creates {HIS} remedies contains hundreds of carefully preserved specimens, organized according to an intuitive system that reflects the plants' relationships rather than arbitrary categories.",
+    "During ceremonies honoring Athuri, {NAME} prepares special herbal mixtures that enhance spiritual awareness, allowing participants to sense the living consciousness that Athuri's wisdom teaches permeates all plants.",
+    "The gardens {NAME} tends contain species that most herbalists consider impossible to cultivate together, yet under {HIS} care they thrive in harmonious proximity, a testament to {HIS} understanding of plant relationships.",
+    "It is said that in moments of communion with the plant world, {NAME} can encourage rapid growth, healing, or even defensive responses from vegetation, a gift attributed to Athuri's blessing.",
+],
+
+FLAVOUR: [
+    "The herbal wisdom displayed by Satyrs like {NAME} embodies Athuri's teaching that plants are not merely resources but conscious participants in the web of life, deserving of respect and partnership.",
+    "While other races approach herbalism as mere chemistry, those with true Herbal Wisdom understand that plants respond to intention and relationship, offering their full potential only to those who approach with proper respect.",
+    "The intuitive understanding that guides {NAME}'s work stems from Athuri's blessing, which allows {HIM} to perceive the subtle energetic properties and consciousness of plants that conventional analysis might miss.",
+    "In Satyr society, those with Herbal Wisdom serve as healers, teachers, and guardians of botanical knowledge, their abilities ensuring that communities maintain proper relationship with the plant kingdom.",
+    "Some theologians believe that the most gifted Herbal Wisdom practitioners are developing a form of communication with plant consciousness, their minds evolving toward a state where they can directly exchange information with botanical life through Athuri's blessing.",
+],

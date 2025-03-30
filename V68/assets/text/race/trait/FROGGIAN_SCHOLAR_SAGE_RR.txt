@@ -1,0 +1,21 @@
+NAME: "Scholar Sage",
+TITLE: "Wisdom Seeker",
+DESC: "This Froggian has dedicated their life to the pursuit of knowledge, excelling in research and theoretical studies across multiple disciplines.",
+
+BIO_DESC: [
+    "When {NAME} studies a subject, {HE} perceives connections between seemingly unrelated fields of knowledge, synthesizing insights that specialists often miss in their narrow focus.",
+    "Other Froggians seek {NAME}'s counsel on matters requiring deep understanding, knowing that {HIS} breadth of knowledge often reveals solutions invisible to those with more specialized expertise.",
+    "{NAME} approaches learning as a sacred duty, believing that the accumulation and sharing of knowledge honors Athuri's domain as deity of wisdom and understanding.",
+    "The study spaces designed by {NAME} are distinctive for their integration of natural elements that stimulate thought—flowing water features that provide white noise, living plants that purify the air, and natural light that reduces eye strain.",
+    "During ceremonies honoring Athuri, {NAME} recites portions of ancient texts from memory, preserving and transmitting wisdom that might otherwise be lost to time.",
+    "The books and scrolls in {NAME}'s personal collection are annotated with {HIS} own insights, creating a meta-text that future scholars will study as much as the original works.",
+    "It is said that in moments of deep contemplation, {NAME} can access a form of intuitive understanding that transcends normal learning, a direct connection to Athuri's domain of universal wisdom.",
+],
+
+FLAVOUR: [
+    "The scholarly dedication displayed by Froggians like {NAME} represents the purest expression of their species' connection to Athuri, deity of wisdom and leader of the Astari.",
+    "While other races often pursue knowledge for practical gain, Scholar Sages understand learning as a spiritual practice that brings them closer to Athuri's divine understanding.",
+    "The intuitive connections that guide {NAME}'s research stem from Athuri's blessing, which allows {HIM} to perceive the underlying patterns that connect all fields of knowledge.",
+    "In Froggian society, Scholar Sages occupy positions of tremendous respect, their commitment to preserving and expanding knowledge making them essential to cultural continuity and advancement.",
+    "Some theologians believe that the most dedicated Scholar Sages are gradually developing a form of divine insight, their minds evolving toward a state where they can access universal truths directly through Athuri's blessing of wisdom.",
+],

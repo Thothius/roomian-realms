@@ -1,0 +1,21 @@
+NAME: "Sadistic Torturer",
+TITLE: "Pain Artist",
+DESC: "This Hellspawn has refined the art of inflicting pain, extracting information and instilling fear with terrifying efficiency.",
+
+BIO_DESC: [
+    "When {NAME} speaks of pain, it is with the reverence of a scholar discussing a complex field of study, {HIS} understanding of suffering extending far beyond mere physical torment.",
+    "Other Hellspawn seek {NAME}'s expertise when information must be extracted quickly, knowing that {HIS} methods rarely fail and leave lasting psychological scars that serve as warnings to others.",
+    "{NAME} approaches torture as a sacred art form, each session meticulously planned to honor Aminion's teachings that transformation comes through embracing pain rather than fleeing from it.",
+    "The tools designed by {NAME} for {HIS} work are as beautiful as they are terrible, crafted with an artist's attention to detail and often incorporating symbols sacred to Aminion.",
+    "During the most important rituals honoring Aminion, {NAME} serves as the pain-master, guiding initiates through carefully calibrated suffering that opens their minds to the Fallen One's wisdom.",
+    "The chambers where {NAME} works are kept immaculately clean and organized, the methodical environment contrasting with the chaos of pain {HE} orchestrates within them.",
+    "It is said that {NAME} can read a person's deepest fears merely by studying their reactions to minor discomforts, allowing {HIM} to craft personalized torments of extraordinary effectiveness.",
+],
+
+FLAVOUR: [
+    "The sadistic expertise displayed by Hellspawn like {NAME} embodies Aminion's teaching that pain is the purest catalyst for transformation and revelation.",
+    "While other races view torture as merely a means to extract information, Sadistic Torturers understand it as a sacred practice that reveals fundamental truths about existence that cannot be accessed through comfort.",
+    "The supernatural insight that guides {NAME}'s work stems from Aminion's blessing, which allows {HIM} to perceive the unique patterns of suffering that will break each individual most efficiently.",
+    "In Hellspawn society, Sadistic Torturers occupy positions of religious significance, their ability to orchestrate transformative pain making them essential to both spiritual and military endeavors.",
+    "Some theologians believe that the most skilled Sadistic Torturers are gradually transcending conventional morality, their minds evolving toward a state where they perceive suffering as Aminion does—as necessary catalyst rather than cruelty.",
+],

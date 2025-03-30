@@ -1,0 +1,21 @@
+NAME: "Ancient Wisdom",
+TITLE: "The Timeless One",
+DESC: "This Bloodelf carries the accumulated knowledge of countless generations, their long lifespan allowing them to master multiple disciplines and arts.",
+
+BIO_DESC: [
+    "{NAME}'s eyes reflect centuries of accumulated knowledge, giving {HIM} an unsettling depth of perception that few can withstand for long.",
+    "When {NAME} speaks of historical events, {HE} often slips into first-person narrative, as if {HE} had personally witnessed occurrences from centuries past.",
+    "The personal library {NAME} maintains contains texts in languages long forgotten by most scholars, which {HE} reads with casual fluency.",
+    "Other Bloodelves defer to {NAME}'s judgment in matters of tradition and ritual, recognizing the weight of experience behind {HIS} counsel.",
+    "{NAME} possesses an uncanny ability to predict outcomes based on historical patterns, often citing obscure precedents that prove eerily relevant.",
+    "Despite {HIS} vast knowledge, {NAME} approaches new information with genuine curiosity, believing that learning is an eternal process even for the longest-lived Bloodelf.",
+    "The rituals {NAME} performs incorporate elements from ancient traditions that predate even the worship of Aminion, preserved through oral transmission across generations.",
+],
+
+FLAVOUR: [
+    "The extended lifespan of Bloodelves allows individuals like {NAME} to accumulate knowledge across centuries, creating living repositories of wisdom that other races can only dream of preserving in books.",
+    "While most races must rediscover knowledge lost to time, {NAME} carries the unbroken intellectual tradition of the Bloodelves, remembering what others have forgotten.",
+    "It is said that the oldest and wisest Bloodelves can recall the time before The Shattering, though they speak of these memories only in cryptic fragments.",
+    "{NAME} has mastered disciplines that would require multiple lifetimes for shorter-lived races, viewing knowledge as the one treasure that transcends mortality.",
+    "The ancient wisdom carried by elders like {NAME} forms the foundation of Bloodelf society, creating a civilization where the past and present exist in continuous dialogue.",
+],

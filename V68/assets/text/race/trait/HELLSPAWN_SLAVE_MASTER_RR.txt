@@ -1,0 +1,21 @@
+NAME: "Slave Master",
+TITLE: "The Subjugator",
+DESC: "This Hellspawn has a natural talent for controlling and exploiting slaves, extracting maximum productivity while maintaining just enough loyalty to prevent rebellion.",
+
+BIO_DESC: [
+    "When {NAME} issues commands, {HIS} voice carries a subtle harmonic that bypasses conscious resistance, compelling obedience even from those who would normally resist.",
+    "Other Hellspawn defer to {NAME} in matters of workforce management, recognizing that {HIS} methods produce results that benefit the collective while reinforcing proper hierarchies.",
+    "{NAME} approaches slave management as both science and art, meticulously balancing punishment and reward to create a psychological dependency that makes rebellion unthinkable.",
+    "The slaves under {NAME}'s control display an eerie uniformity of behavior, moving with synchronized efficiency as if their individual wills have been subsumed into a collective purpose.",
+    "During rituals honoring Aminion, {NAME} offers the labor and suffering of {HIS} slaves as tribute, demonstrating how effectively {HE} channels their energy toward purposes that please the Fallen One.",
+    "The tools {NAME} uses to maintain control are rarely displayed openly, their mere existence as implied threat sufficient to maintain order among those who have witnessed their use.",
+    "It is said that {NAME} can sense incipient rebellion before any overt signs appear, allowing {HIM} to isolate and make examples of potential troublemakers before dissent can spread.",
+],
+
+FLAVOUR: [
+    "The mastery over others displayed by Hellspawn like {NAME} embodies Aminion's teaching that true power comes from dominating the wills of others rather than merely controlling their bodies.",
+    "While other races rely on brute force to control slaves, Slave Masters understand that breaking and reshaping the mind creates far more reliable servants than chains ever could.",
+    "The supernatural control that guides {NAME}'s work stems from Aminion's blessing, which allows {HIM} to perceive the unique patterns of fear, hope, and desire that will bind each individual most effectively to service.",
+    "In Hellspawn society, Slave Masters occupy positions of economic importance, their ability to extract maximum productivity from captive populations making them essential to ambitious expansion.",
+    "Some theologians believe that the most skilled Slave Masters are gradually developing a form of collective consciousness with their slaves, their minds evolving toward a state where they can directly experience and control multiple bodies simultaneously.",
+],

@@ -1,0 +1,21 @@
+NAME: "Flowing Leap Warrior",
+TITLE: "Water Dancer",
+DESC: "This Froggian has mastered 'The Way of Water' combat style, focusing on mobility, evasion, and non-lethal techniques rather than direct confrontation.",
+
+BIO_DESC: [
+    "When {NAME} moves in combat, {HIS} body flows with liquid grace, each motion blending seamlessly into the next like water finding its natural course through obstacles.",
+    "Other Froggians study {NAME}'s techniques with admiration, recognizing that {HIS} mastery of the Way of Water represents the perfect balance of Athuri's teachings of harmony applied to conflict.",
+    "{NAME} approaches combat as a last resort, but when forced to fight, employs techniques that subdue rather than destroy, honoring Athuri's principle that all life deserves respect.",
+    "The training grounds where {NAME} practices are distinctive for their integration of natural water features, which {HE} uses to enhance mobility and develop techniques that harness rather than oppose natural forces.",
+    "During ceremonies honoring Athuri, {NAME} performs sacred movement forms that demonstrate how the deity's principles of harmony can be applied even in situations of conflict.",
+    "The weapons {NAME} favors are designed to redirect force rather than generate it—curved staves, flexible whips, and bolas that entangle rather than pierce.",
+    "It is said that in the heat of battle, {NAME} can perceive the flow of combat as patterns of energy, allowing {HIM} to move through seemingly impossible openings and evade attacks before they're fully formed.",
+],
+
+FLAVOUR: [
+    "The Way of Water practiced by Froggians like {NAME} embodies Athuri's teaching that true strength comes from adaptability and harmony rather than rigid opposition.",
+    "While other races develop combat styles focused on overwhelming force, Flowing Leap Warriors understand that water—which can flow around obstacles or, over time, wear down mountains—represents the ultimate martial philosophy.",
+    "The supernatural agility that guides {NAME}'s movements stems from Athuri's blessing, which allows {HIM} to perceive and flow with the natural rhythms that underlie all physical interaction.",
+    "In Froggian society, Flowing Leap Warriors serve as both defenders and living examples of Athuri's principles, demonstrating that even in conflict, harmony can be maintained through proper understanding.",
+    "Some theologians believe that the most skilled practitioners of the Way of Water are gradually transcending normal physical limitations, their bodies evolving toward a state where they can flow like water itself through Athuri's blessing of natural harmony.",
+],

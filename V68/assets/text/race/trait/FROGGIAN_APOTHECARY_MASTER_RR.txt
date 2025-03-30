@@ -1,0 +1,21 @@
+NAME: "Apothecary Master",
+TITLE: "Herbal Sage",
+DESC: "This Froggian has mastered the art of creating medicines, potions, and remedies from natural ingredients, particularly those found in aquatic environments.",
+
+BIO_DESC: [
+    "When {NAME} examines plants and fungi, {HE} perceives their medicinal properties with extraordinary clarity, instinctively understanding which combinations will heal specific ailments.",
+    "Other Froggians seek {NAME}'s remedies when conventional treatments fail, trusting in {HIS} ability to concoct solutions for even the most unusual maladies.",
+    "{NAME} approaches apothecary work as a sacred calling, meticulously honoring Athuri's teachings by maintaining balance between harvesting ingredients and ensuring their sustainable regrowth.",
+    "The workshop where {NAME} creates {HIS} remedies is filled with carefully preserved specimens from various ecosystems, with special emphasis on aquatic plants that most races overlook.",
+    "During ceremonies honoring Athuri, {NAME} prepares special elixirs that heighten spiritual awareness, allowing participants to sense the interconnectedness of all living things as taught in Athuri's wisdom.",
+    "The scent that follows {NAME} is distinctive—a complex blend of herbs and minerals that changes subtly with the seasons as {HE} works with whatever ingredients are at their peak potency.",
+    "It is said that {NAME} can diagnose illnesses merely by observing subtle changes in a patient's skin tone and eye clarity, a gift attributed to Athuri's blessing of natural insight.",
+],
+
+FLAVOUR: [
+    "The healing arts practiced by Froggians like {NAME} embody Athuri's teachings of harmony and balance, using nature's bounty to restore health without causing broader disruption.",
+    "While other races often rely on surgery or strong chemicals, Apothecary Masters understand that gentler, plant-based remedies can be more effective when properly prepared with knowledge of natural systems.",
+    "The intuitive understanding that guides {NAME}'s work stems from Athuri's blessing, which allows {HIM} to perceive the subtle energetic properties of plants that conventional analysis might miss.",
+    "In Froggian society, Apothecary Masters occupy positions of tremendous respect, their ability to heal and prevent illness making them essential to community well-being.",
+    "Some theologians believe that the most skilled Apothecary Masters are gradually developing a deeper connection with the plant world, their minds evolving toward a state where they can directly communicate with botanical life through Athuri's blessing.",
+],

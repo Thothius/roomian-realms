@@ -1,0 +1,21 @@
+NAME: "Forest Harmony",
+TITLE: "Woodland Spirit",
+DESC: "This Satyr has an exceptional connection to the woodland, able to move through dense forest with supernatural ease and communicate with the natural world.",
+
+BIO_DESC: [
+    "When {NAME} moves through the forest, branches seem to bend away and undergrowth parts before {HIS} steps, as if the woodland itself recognizes and welcomes {HIS} presence.",
+    "Other Satyrs defer to {NAME} when navigating difficult terrain, knowing that {HIS} intuitive understanding of the forest will find paths invisible to others.",
+    "{NAME} describes experiencing the forest as a living entity with its own consciousness, claiming to sense its moods and intentions through subtle changes in scent, sound, and energy.",
+    "The areas where {NAME} regularly travels develop distinctive characteristics over time—healthier vegetation, more diverse wildlife, and a palpable sense of vitality that visitors can feel.",
+    "During ceremonies honoring Athuri, {NAME} serves as a conduit between the community and the forest, translating the subtle language of nature into guidance for sustainable coexistence.",
+    "The clothing and tools {NAME} crafts incorporate living elements—vines that continue to grow, wood that remains responsive to {HIS} touch—creating items that exist in harmony with nature rather than separated from it.",
+    "It is said that in times of danger, {NAME} can call upon the forest for protection, causing roots to trip pursuers or branches to form impenetrable barriers against threats.",
+],
+
+FLAVOUR: [
+    "The forest harmony exhibited by Satyrs like {NAME} represents one of Athuri's most profound gifts—the ability to exist within nature not as visitor or conqueror, but as integral participant.",
+    "While other races must clear paths through the wilderness, those with true Forest Harmony find that the wilderness accommodates their presence, recognizing them as kin rather than intruder.",
+    "The supernatural connection that guides {NAME}'s woodland interactions stems from Athuri's blessing, which allows {HIM} to perceive and communicate with the consciousness that permeates all natural systems.",
+    "In Satyr society, those with Forest Harmony often serve as pathfinders, guardians of sacred groves, and mediators with the wilderness, their abilities ensuring that Satyr communities maintain proper balance with their environment.",
+    "Some theologians believe that the most attuned Forest Harmony practitioners are gradually merging their consciousness with the forest itself, their minds evolving toward a state where they can simultaneously perceive events throughout vast woodland areas through Athuri's blessing.",
+],

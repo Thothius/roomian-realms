@@ -1,0 +1,21 @@
+NAME: "Soul Harvester",
+TITLE: "Essence Drinker",
+DESC: "This Hellspawn has the ability to extract and consume fragments of life essence from those who die near them, gaining strength and vitality in the process.",
+
+BIO_DESC: [
+    "When beings die in {NAME}'s presence, faint luminous wisps can be seen briefly flowing from the deceased toward {HIM}, as if {HE} draws in their departing essence.",
+    "Other Hellspawn maintain a respectful distance from {NAME} during battles, aware that {HIS} hunger for life essence doesn't always discriminate between friend and foe in the chaos of combat.",
+    "{NAME} describes the sensation of harvesting souls as a rush of memories and emotions that briefly overwhelm before being consumed, leaving only increased vitality and fragments of the deceased's knowledge.",
+    "The battlefield areas where {NAME} has harvested extensively develop a distinctive coldness that lingers for days, as if the very ground has been drained of some vital energy.",
+    "During the most sacred rituals honoring Aminion, {NAME} serves as a conduit, harvesting sacrificial essence and channeling it toward the Fallen One's domain rather than consuming it personally.",
+    "The eyes of those {NAME} has recently harvested from take on a distinctive emptiness that experienced observers can recognize, marking them as more than merely dead—their very essence consumed.",
+    "It is whispered that {NAME} can sense the approaching death of beings nearby, {HIS} perception extending beyond physical senses to detect the imminent separation of essence from flesh.",
+],
+
+FLAVOUR: [
+    "The soul harvesting practiced by Hellspawn like {NAME} represents one of Aminion's most controversial gifts, allowing his followers to directly consume the vital essence that other deities claim for their afterlife realms.",
+    "While death is typically seen as the end of a being's worldly influence, Soul Harvesters ensure that the energy and experience of the deceased continue to serve Aminion's purposes through their consumption.",
+    "The supernatural consumption that empowers {NAME} stems from Aminion's rebellion against the natural order, specifically his rejection of the traditional boundaries between life and death.",
+    "In Hellspawn society, Soul Harvesters occupy positions of religious significance, their ability to redirect the flow of departing essence making them living symbols of Aminion's defiance of cosmic laws.",
+    "Some theologians believe that the most powerful Soul Harvesters are gradually accumulating a collective consciousness comprised of fragments from thousands of consumed essences, their minds evolving toward a composite entity that embodies Aminion's vision of transcendent chaos.",
+],

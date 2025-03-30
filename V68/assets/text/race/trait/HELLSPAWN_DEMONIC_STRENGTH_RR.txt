@@ -1,0 +1,21 @@
+NAME: "Demonic Strength",
+TITLE: "Aminion's Might",
+DESC: "This Hellspawn possesses supernatural physical power, making them formidable in combat and capable of feats of strength that intimidate allies and enemies alike.",
+
+BIO_DESC: [
+    "The muscles beneath {NAME}'s skin seem to shift and writhe with a life of their own, occasionally forming patterns that resemble Aminion's sacred symbols.",
+    "When {NAME} exerts {HIMSELF} fully, veins of molten energy briefly become visible beneath {HIS} skin, as if Aminion's power flows directly through {HIS} physical form.",
+    "Other Hellspawn defer to {NAME} in matters requiring physical force, recognizing that {HIS} connection to Aminion's strength aspect surpasses their own.",
+    "{NAME} has been observed lifting objects several times {HIS} own weight with apparent ease, a demonstration that never fails to instill both awe and terror in witnesses.",
+    "During the sacred rituals honoring Aminion, {NAME} serves as a living conduit for the Fallen One's power, {HIS} body temporarily transforming to channel energies that would destroy lesser vessels.",
+    "The weapons wielded by {NAME} must be specially reinforced to withstand the supernatural force {HE} applies, conventional arms often breaking in {HIS} grip during moments of battle frenzy.",
+    "It is said that {NAME} can tear through stone walls with {HIS} bare hands when fully embracing the demonic strength that flows from Aminion's realm into {HIS} mortal form.",
+],
+
+FLAVOUR: [
+    "The demonic strength exhibited by Hellspawn like {NAME} represents one of the most visible manifestations of Aminion's influence, raw power granted to those who embrace pain and chaos.",
+    "While all Hellspawn possess greater strength than their size would suggest, those with true Demonic Strength have formed a deeper connection to Aminion's power, becoming living weapons in service to the Fallen One.",
+    "The supernatural might wielded by {NAME} comes at a price—periods of intense exertion are followed by burning pain as mortal flesh struggles to contain energies it was never designed to channel.",
+    "In Hellspawn society, those blessed with Demonic Strength occupy positions of respect, their abilities representing the most direct expression of Aminion's favor and the potential for mortal transcendence through pain.",
+    "Some theologians believe that the most powerful Demonic Strength wielders like {NAME} are slowly transforming into something beyond mortal, their physical forms gradually becoming more suitable vessels for Aminion's power.",
+],

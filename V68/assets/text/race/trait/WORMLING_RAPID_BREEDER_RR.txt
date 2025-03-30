@@ -1,0 +1,21 @@
+NAME: "Rapid Breeder",
+TITLE: "Void Propagator",
+DESC: "This Wormling has an accelerated reproductive cycle, allowing them to produce offspring at an extraordinary rate. They contribute significantly to the colony's growth and recovery from population losses.",
+
+BIO_DESC: [
+    "When {NAME} enters reproductive cycles, {HIS} body undergoes transformations that defy conventional biology, producing offspring at rates that would be impossible without the influence of the God Emperor's extradimensional principles.",
+    "Other Wormlings treat {NAME} with special reverence during breeding periods, recognizing that {HIS} accelerated reproduction represents the colony's most direct path to fulfilling the God Emperor's vision of a transformed Roomia.",
+    "{NAME} describes the reproductive process as a sacred communion with both Shmalor's void and the God Emperor's realm beyond, temporarily accessing energies from beyond conventional reality to fuel the creation of new life.",
+    "The breeding chambers where {NAME} produces offspring develop unusual spatial properties over time—objects might seem larger on the inside than outside, and visitors report brief sensations of existing in multiple places simultaneously.",
+    "During Void Communion rituals honoring the God Emperor, {NAME} often experiences spontaneous reproductive surges, {HIS} body responding to the heightened connection with the deity by accelerating the creation of new vessels for the God Emperor's consciousness.",
+    "The reproductive organs in {NAME}'s body contain structures that scientists cannot fully explain, appearing to function according to principles that transcend conventional biology in ways that reflect the God Emperor's alien nature.",
+    "It is whispered that the offspring produced by {NAME} carry stronger fragments of the God Emperor's essence than those of other Wormlings, making them more receptive to Imperial Synchronization and more likely to develop advanced void-touched abilities.",
+],
+
+FLAVOUR: [
+    "The accelerated reproduction displayed by Wormlings like {NAME} represents the most direct fulfillment of their purpose in Roomia—to multiply and spread the God Emperor's influence through vessels that contain fragments of the deity's essence.",
+    "While other races reproduce primarily to continue their bloodlines, Rapid Breeders understand their reproduction as a sacred act of creation that advances the God Emperor's plan for Roomia's eventual transformation.",
+    "The supernatural fertility that allows {NAME} to produce offspring at extraordinary rates stems from the unique relationship between Shmalor and the God Emperor—the void passages established by Shmalor's death provide conduits for the God Emperor's creative energies to flow into physical reality.",
+    "In Wormling society, Rapid Breeders hold positions of special honor, their enhanced connection to both Shmalor's void and the God Emperor's extradimensional influence making them essential to the colony's growth and the advancement of the deity's plan.",
+    "Some theologians believe that the accelerated reproduction of certain Wormlings represents a response to the God Emperor's call for more vessels, the deity's consciousness gradually preparing for a more complete return to Roomia through the continued expansion of The Breach and the multiplication of suitable hosts.",
+],

@@ -1,0 +1,21 @@
+NAME: "Shadow Dancer",
+TITLE: "The Unseen",
+DESC: "This Bloodelf has mastered the art of moving unseen, blending with shadows and darkness to strike from unexpected angles with deadly precision.",
+
+BIO_DESC: [
+    "When {NAME} moves, {HIS} form seems to blur at the edges, as if {HE} exists partially in this world and partially in some darker dimension.",
+    "Guards report seeing {NAME} in multiple locations simultaneously, a trick of perception created by {HIS} supernatural ability to move between shadows.",
+    "The fighting style developed by {NAME} incorporates fluid, dance-like movements that make {HIS} attacks unpredictable and nearly impossible to counter.",
+    "Other Bloodelves seek {NAME}'s instruction in the shadow arts, though few possess the innate talent and centuries of dedication required to truly master them.",
+    "{NAME} performs special blood rituals at the dark of the moon, when shadows are deepest, to strengthen {HIS} connection to Aminion's darker aspects.",
+    "During ceremonial dances, {NAME} can seemingly disappear from view entirely, reappearing elsewhere in the ritual circle to the astonishment of observers.",
+    "It is whispered that {NAME} can step into one shadow and emerge from another distant one, though whether this is literal truth or metaphor for {HIS} exceptional stealth remains debated.",
+],
+
+FLAVOUR: [
+    "The shadow dancing tradition among Bloodelves dates back to the earliest days after The Shattering, when their ancestors needed to move unseen among more numerous and hostile races.",
+    "What began as a survival necessity evolved into a sophisticated martial art that perfectly complements the Bloodelves' natural grace and affinity for darkness.",
+    "Shadow dancers like {NAME} are often employed as assassins and spies, but they also serve important ceremonial roles in Aminion's most sacred and secret rituals.",
+    "The training required to become a true shadow dancer involves years of sensory deprivation exercises, specialized blood rituals, and movement disciplines that reshape the practitioner's relationship with physical space.",
+    "Some theologians believe that shadow dancers achieve their supernatural abilities by temporarily merging their essence with Aminion's shadow realm, a dangerous practice that risks permanent transformation if taken too far.",
+],

@@ -1,0 +1,21 @@
+NAME: "Diplomatic Mediator",
+TITLE: "Peace Weaver",
+DESC: "This Froggian possesses exceptional diplomatic skills, able to negotiate favorable terms and resolve conflicts through peaceful means.",
+
+BIO_DESC: [
+    "When {NAME} speaks in diplomatic settings, {HIS} voice carries a subtle cadence that soothes tensions and encourages rational thought, a gift attributed to Athuri's blessing of harmony.",
+    "Other Froggians often send {NAME} as their representative to inter-species negotiations, knowing that {HIS} natural talent for finding common ground serves their community's interests better than any show of force.",
+    "{NAME} approaches conflict resolution as an extension of Athuri's teachings, seeking solutions that restore natural balance rather than imposing artificial compromises that may later unravel.",
+    "The treaties negotiated by {NAME} are distinctive for their longevity, often incorporating flexible terms that can adapt to changing circumstances while maintaining the core principles of mutual benefit.",
+    "During ceremonies honoring Athuri, {NAME} offers prayers for universal understanding, believing that the deity of wisdom wishes to see all sentient beings find harmony through reasoned dialogue.",
+    "The symbolic gestures {NAME} incorporates into diplomatic rituals draw from ancient Froggian traditions that predate written history, connecting modern negotiations to Athuri's timeless principles.",
+    "It is said that in the most tense negotiations, {NAME} can perceive the underlying fears and desires of all parties, a form of empathic insight that allows {HIM} to address unspoken concerns before they derail progress.",
+],
+
+FLAVOUR: [
+    "The diplomatic talents displayed by Froggians like {NAME} represent one of Athuri's most valuable gifts—the ability to find harmony even among seemingly incompatible interests.",
+    "While other races often approach diplomacy as a zero-sum game, Diplomatic Mediators understand that true stability comes from solutions where all parties feel their core needs have been addressed.",
+    "The intuitive understanding that guides {NAME}'s negotiations stems from Athuri's blessing, which allows {HIM} to perceive the patterns of compromise that can transform conflict into cooperation.",
+    "In Froggian society, Diplomatic Mediators occupy positions of tremendous respect, their ability to secure peace and prosperity through words rather than weapons making them essential to community survival.",
+    "Some theologians believe that the most skilled Diplomatic Mediators are gradually developing a form of universal communication, their minds evolving toward a state where they can bridge even the most profound cultural and philosophical divides through Athuri's gift of wisdom.",
+],

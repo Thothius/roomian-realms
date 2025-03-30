@@ -1,0 +1,21 @@
+NAME: "Infernal Resilience",
+TITLE: "The Unburnt",
+DESC: "This Hellspawn's connection to infernal energies grants them exceptional resistance to heat and environmental hazards, allowing them to work in conditions that would be unbearable for others.",
+
+BIO_DESC: [
+    "{NAME}'s skin radiates a constant heat that can be felt by those standing nearby, as if {HIS} blood carries the essence of Aminion's infernal domain.",
+    "When exposed to extreme heat or flame, {NAME}'s skin takes on a subtle glow, absorbing and channeling the energy rather than being damaged by it.",
+    "Other Hellspawn defer to {NAME} in matters requiring exposure to extreme environments, recognizing {HIS} unique ability to endure conditions that would harm even their resilient kind.",
+    "{NAME} has been observed walking through raging fires unscathed, emerging with only soot marking {HIS} passage while the flames themselves seemed to part before {HIM}.",
+    "During the most sacred rituals honoring Aminion, {NAME} serves as the flame-bearer, carrying consecrated fire that would sear the flesh from ordinary beings.",
+    "The weapons and tools used by {NAME} often bear scorch marks from {HIS} touch, yet function perfectly despite exposure to heat that would warp lesser implements.",
+    "It is said that {NAME} can sense the presence of fire and heat with supernatural accuracy, feeling the pulse of thermal energy like others might feel a heartbeat.",
+],
+
+FLAVOUR: [
+    "The infernal resilience exhibited by Hellspawn like {NAME} represents one of Aminion's most practical blessings, allowing his followers to thrive in environments that would destroy other races.",
+    "While all Hellspawn possess greater heat resistance than humans, those with true Infernal Resilience have formed a deeper connection to the fiery aspects of Aminion's domain, becoming living embodiments of his consuming flame.",
+    "The supernatural endurance wielded by {NAME} serves both practical and symbolic purposes in Hellspawn society, enabling specialized labor in extreme conditions while also demonstrating Aminion's power to transform mortal limitations.",
+    "In Hellspawn theology, fire represents both destruction and purification—those blessed with Infernal Resilience are seen as having already passed through Aminion's cleansing flame and emerged transformed.",
+    "Some scholars believe that the most powerful Infernally Resilient Hellspawn like {NAME} could eventually survive direct immersion in lava or exposure to the raw elemental fires of Aminion's realm itself.",
+],

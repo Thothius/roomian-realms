@@ -1,0 +1,21 @@
+NAME: "Collective Thinker",
+TITLE: "Mind Weaver",
+DESC: "This Froggian possesses an enhanced connection to the collective consciousness of their people, able to coordinate group efforts with remarkable efficiency.",
+
+BIO_DESC: [
+    "When {NAME} enters a gathering of Froggians, a subtle shift occurs in the group dynamic—conversations become more focused, decisions more efficient, as if {HE} serves as a living nexus for shared thought.",
+    "Other Froggians instinctively defer to {NAME} during complex planning, recognizing that {HIS} ability to synthesize multiple perspectives creates solutions that benefit the entire community.",
+    "{NAME} describes experiencing the thoughts of nearby Froggians as gentle currents that flow through {HIS} mind, not as invasive voices but as intuitive understanding of their needs and concerns.",
+    "The projects coordinated by {NAME} display a distinctive harmony of effort, with participants seeming to anticipate each other's actions in ways that outside observers find almost supernatural.",
+    "During ceremonies honoring Athuri, {NAME} serves as a focal point for communal meditation, helping to align the spiritual energies of participants into a unified connection with the deity of wisdom and harmony.",
+    "The living spaces {NAME} designs incorporate elements that facilitate community interaction, with subtle architectural features that naturally guide residents toward productive collaboration.",
+    "It is said that in moments of crisis, {NAME} can extend {HIS} consciousness to encompass an entire Froggian community, allowing for instantaneous coordination that has saved countless lives during natural disasters.",
+],
+
+FLAVOUR: [
+    "The collective thinking exhibited by Froggians like {NAME} represents one of Athuri's most practical blessings to their species—the ability to maintain individual identity while accessing shared wisdom.",
+    "While other races must rely on explicit communication to coordinate group efforts, Collective Thinkers can perceive the unspoken needs and intentions of their communities through Athuri's gift of harmonious connection.",
+    "The intuitive coordination that guides {NAME}'s work stems from Athuri's blessing, which allows {HIM} to perceive the patterns of thought that connect all Froggians in a web of shared consciousness.",
+    "In Froggian society, Collective Thinkers occupy positions of natural leadership, their ability to synthesize community wisdom making them ideal administrators and project coordinators.",
+    "Some theologians believe that the most powerful Collective Thinkers are gradually developing abilities that extend beyond their own species, their minds evolving toward a state where they can sense the underlying patterns that connect all sentient life through Athuri's universal wisdom.",
+],

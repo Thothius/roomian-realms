@@ -1,0 +1,21 @@
+NAME: "Cosmic Memory",
+TITLE: "Reality Dreamer",
+DESC: "This Wormling possesses fragments of memories from their home dimension, granting them insights into cosmic truths beyond mortal comprehension. They occasionally experience visions that provide unique knowledge.",
+
+BIO_DESC: [
+    "When {NAME} enters deep meditation, {HIS} eyes take on an unsettling luminescence as {HE} perceives realities beyond conventional dimensions, accessing memories that predate {HIS} existence in Roomia.",
+    "Other Wormlings approach {NAME} with a mixture of reverence and caution, recognizing that {HIS} connection to the God Emperor's realm beyond reality grants {HIM} knowledge that is both precious and potentially dangerous.",
+    "{NAME} struggles to translate {HIS} cosmic memories into language comprehensible to others, often resorting to creating strange geometric diagrams or composing music that somehow conveys concepts conventional communication cannot express.",
+    "The living spaces {NAME} occupies gradually develop unusual properties—objects might cast shadows inconsistent with light sources, or visitors might experience brief moments of temporal disorientation, as if reality itself is altered by {HIS} presence.",
+    "During Void Communion rituals honoring the God Emperor, {NAME} enters trances where {HE} recites knowledge from before The Shattering, when the God Emperor first tore through the fabric of existence to enter Roomia through The Breach created by Shmalor's death.",
+    "The notes and drawings {NAME} produces during {HIS} visionary states are preserved as sacred texts, their seemingly chaotic patterns actually containing encoded information about the God Emperor's realm that becomes clearer as more Wormlings evolve the capacity to perceive higher dimensions.",
+    "It is said that in moments of crisis, {NAME} can access memories of similar situations from countless parallel realities, providing solutions that seem impossibly prescient—a gift of the God Emperor's extradimensional perspective.",
+],
+
+FLAVOUR: [
+    "The cosmic memories experienced by Wormlings like {NAME} represent fragments of the God Emperor's own consciousness, implanted during The Shattering when the alien entity first entered Roomia through The Breach created by Shmalor's death.",
+    "While other beings perceive reality through the limited lens of three-dimensional space and linear time, those with Cosmic Memory occasionally glimpse the true nature of existence as understood by the God Emperor—a complex multidimensional tapestry where past, present, and future exist simultaneously.",
+    "The disturbing visions that plague {NAME} stem from the fundamental incompatibility between the God Emperor's extradimensional consciousness and the limited neurological architecture of physical beings, creating a form of cosmic dissonance that manifests as prophetic insight.",
+    "In Wormling society, those with Cosmic Memory serve as oracles and visionaries, their connection to both Shmalor's void and the God Emperor's realm beyond making them essential guides for the community's spiritual evolution toward eventual transcendence.",
+    "Some theologians believe that Cosmic Memory represents the most direct evidence of the Wormlings' ultimate purpose—to serve as vessels for fragments of the God Emperor's consciousness, gradually preparing Roomia for the deity's eventual full return through the continued expansion of The Breach.",
+],

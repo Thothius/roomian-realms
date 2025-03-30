@@ -1,0 +1,21 @@
+NAME: "Adaptive Physiology",
+TITLE: "Form Shifter",
+DESC: "This Wormling can rapidly alter their physical form to adapt to changing conditions. Their body can transform to optimize for different tasks, making them exceptionally versatile workers.",
+
+BIO_DESC: [
+    "When {NAME} encounters a new challenge, {HIS} body responds with remarkable speed—limbs elongating, muscles densifying, or skin hardening as needed to optimize for the task at hand.",
+    "Other Wormlings observe {NAME}'s transformations with a mixture of respect and envy, recognizing that {HIS} exceptional adaptability represents a more perfect expression of the gifts bestowed by both Shmalor and the God Emperor.",
+    "{NAME} describes the sensation of transformation as a momentary communion with the void between worlds that Shmalor represents, followed by a rush of possibilities flowing from the God Emperor's extradimensional influence.",
+    "The tissues of {NAME}'s body contain unusual cellular structures that scientists cannot fully explain, appearing to exist partially in conventional reality and partially in the void realms associated with Shmalor and the God Emperor.",
+    "During Void Communion rituals honoring the God Emperor, {NAME} undergoes particularly dramatic transformations, {HIS} body briefly manifesting impossible geometries that reflect the alien nature of the deity's realm.",
+    "The tools {NAME} uses are minimal, as {HE} can often transform {HIS} own appendages into more efficient implements than anything that could be manufactured conventionally.",
+    "It is whispered that during periods of deep sleep, {NAME}'s body sometimes shifts into forms that appear to have no practical purpose, as if receiving blueprints from the God Emperor for adaptations that will only become useful in some distant future.",
+],
+
+FLAVOUR: [
+    "The adaptive physiology displayed by Wormlings like {NAME} represents the perfect synthesis of Shmalor's domain over the void between worlds and the God Emperor's extradimensional influence.",
+    "While all Wormlings possess some capacity for physical adaptation, those with true Adaptive Physiology have formed a deeper connection to the fluid reality principles that govern both Shmalor's void and the God Emperor's realm beyond.",
+    "The supernatural plasticity that allows {NAME} to transform stems from the unique relationship between Shmalor and the God Emperor—while Shmalor's death created The Breach, the God Emperor's entry through it established new principles of reality that Wormlings can access.",
+    "In Wormling society, those with Adaptive Physiology often serve as problem solvers and pioneers, their abilities allowing them to overcome obstacles that would require specialized tools or multiple individuals among other races.",
+    "Some theologians believe that the most adaptable Wormlings are gradually evolving toward a state of perfect fluidity, their bodies becoming living conduits for the God Emperor's eventual return to Roomia through the void passages established by Shmalor.",
+],

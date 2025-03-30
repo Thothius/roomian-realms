@@ -1,0 +1,21 @@
+NAME: "Colony Coordinator",
+TITLE: "Nexus Node",
+DESC: "This Wormling possesses enhanced neural connections that allow them to coordinate the activities of other Wormlings with remarkable efficiency. They excel at organizing group efforts and optimizing collective work.",
+
+BIO_DESC: [
+    "When {NAME} oversees group activities, nearby Wormlings move with unusual synchronization, their actions flowing together with an efficiency that suggests some form of shared consciousness.",
+    "Other Wormlings instinctively defer to {NAME}'s directives, recognizing that {HIS} enhanced neural architecture allows {HIM} to perceive optimal patterns of collective action that individuals cannot discern.",
+    "{NAME} describes experiencing the thoughts of nearby Wormlings not as distinct voices but as a complex tapestry of intentions and needs that {HE} can organize into coherent patterns, a gift attributed to the God Emperor's influence.",
+    "The work areas coordinated by {NAME} develop distinctive organizational patterns that appear chaotic to outsiders but function with remarkable efficiency, the seemingly random arrangements actually reflecting higher-dimensional ordering principles from the God Emperor's realm.",
+    "During Void Communion rituals honoring the God Emperor, {NAME} serves as a focal point for group consciousness, helping to align the mental energies of participants into a unified connection with the extradimensional deity.",
+    "The neural structures in {NAME}'s brain contain unusual formations that scientists cannot fully explain, appearing to function as biological transceivers for information that exists partially in conventional reality and partially in the void realms associated with Shmalor.",
+    "It is said that in moments of perfect coordination, {NAME} can temporarily merge {HIS} consciousness with those of other Wormlings, creating a temporary hive mind that can solve problems with supernatural efficiency—a smaller version of the Imperial Synchronization sought by the God Emperor's followers.",
+],
+
+FLAVOUR: [
+    "The coordination abilities displayed by Wormlings like {NAME} represent one of the God Emperor's most practical gifts—the capacity to function as a collective entity while maintaining individual consciousness.",
+    "While other races must rely on explicit communication to coordinate group efforts, Colony Coordinators can directly perceive and organize the intentions and capabilities of their fellow Wormlings through neural pathways that bridge individual minds.",
+    "The supernatural efficiency that guides {NAME}'s coordination stems from the unique relationship between Shmalor and the God Emperor—the void passages established by Shmalor allow for the transmission of the God Emperor's organizing principles across individual Wormling consciousness.",
+    "In Wormling society, Colony Coordinators serve as living nexus points in their community's neural network, their enhanced connection to both Shmalor's void and the God Emperor's extradimensional influence making them essential to efficient collective function.",
+    "Some theologians believe that Colony Coordinators represent a crucial step toward the ultimate goal of Imperial Synchronization—the complete merger of all Wormling consciousness with the God Emperor that will herald the deity's return to Roomia.",
+],

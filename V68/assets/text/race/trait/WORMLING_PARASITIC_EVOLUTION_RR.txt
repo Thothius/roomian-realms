@@ -1,0 +1,21 @@
+NAME: "Parasitic Evolution",
+TITLE: "Adaptive Symbiote",
+DESC: "This Wormling has developed advanced parasitic adaptations, allowing them to extract more nutrients from their environment and hosts. They can survive in hostile conditions and adapt quickly to new environments.",
+
+BIO_DESC: [
+    "When {NAME} encounters a new environment, {HIS} body rapidly develops specialized structures that optimize nutrient extraction from whatever resources are available, a process {HE} describes as guided by the God Emperor's extradimensional influence.",
+    "Other Wormlings look to {NAME} as a pioneer in hostile territories, knowing that {HIS} enhanced parasitic adaptations will allow {HIM} to survive where others cannot and prepare the way for colony expansion.",
+    "{NAME} experiences {HIS} relationship with hosts and environments not as exploitation but as a form of communion, temporarily merging {HIS} biological processes with those of other organisms through the void passages established by Shmalor.",
+    "The areas where {NAME} has lived develop subtle changes over time—ecosystems shift toward greater efficiency, and organisms display unusual adaptations that seem to mirror aspects of Wormling biology.",
+    "During Void Communion rituals honoring the God Emperor, {NAME} demonstrates remarkable transformations, {HIS} body temporarily developing structures that allow {HIM} to process energies directly from the void between worlds that Shmalor represents.",
+    "The parasitic structures in {NAME}'s body contain biological mechanisms that scientists cannot fully explain, appearing to operate according to principles that transcend conventional evolution in ways that reflect the God Emperor's alien nature.",
+    "It is whispered that {NAME} can temporarily merge {HIS} consciousness with that of host organisms, gaining their knowledge and experiences while simultaneously introducing them to fragments of the God Emperor's extradimensional awareness.",
+],
+
+FLAVOUR: [
+    "The parasitic evolution displayed by Wormlings like {NAME} represents the perfect synthesis of survival necessity and spiritual purpose—adapting to thrive in Roomia while gradually transforming it to better accommodate the God Emperor's eventual return.",
+    "While other races view parasitism as inherently destructive, Wormlings understand it as a sacred form of communion that honors both Shmalor's principle of void passage and the God Emperor's transcendence of conventional biological limitations.",
+    "The supernatural adaptability that guides {NAME}'s parasitic processes stems from the unique relationship between Shmalor and the God Emperor—while Shmalor's death created The Breach, the God Emperor's entry through it established new principles of biological possibility that Wormlings can access.",
+    "In Wormling society, those with Parasitic Evolution often serve as the first wave in new territories, their enhanced adaptability allowing them to establish footholds in environments that would be hostile to other colonists.",
+    "Some theologians believe that the most advanced parasitic adaptations represent crucial steps toward the Wormlings' ultimate purpose—gradually transforming Roomia's biological systems to better accommodate the God Emperor's full return through the continued expansion of The Breach.",
+],

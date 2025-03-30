@@ -1,0 +1,21 @@
+NAME: "Dark Bargainer",
+TITLE: "The Deal Maker",
+DESC: "This Hellspawn has mastered the art of making deals that ultimately favor them, using subtle manipulation and promises of power to get what they want.",
+
+BIO_DESC: [
+    "When {NAME} speaks of potential agreements, {HIS} words seem to linger in the air with unusual weight, as if each promise carries tangible power.",
+    "Those who make deals with {NAME} often find themselves agreeing to terms they would normally reject, only realizing the true cost when it's too late to renegotiate.",
+    "Other Hellspawn seek {NAME}'s counsel before entering important negotiations, valuing {HIS} ability to craft agreements with hidden advantages.",
+    "{NAME} maintains a meticulous mental record of every bargain {HE} has struck, each promise representing a strand in a complex web of obligation and influence.",
+    "The contracts drafted by {NAME} often contain subtle wordplay and double meanings that create loopholes benefiting {HIM} while appearing fair to the other party.",
+    "During rituals honoring Aminion, {NAME} serves as a negotiator with the spiritual realm, securing blessings and power through carefully worded pacts.",
+    "It is whispered that {NAME} has made bargains with entities beyond mortal understanding, exchanges that have granted {HIM} insights into the fundamental nature of obligation and desire.",
+],
+
+FLAVOUR: [
+    "The art of dark bargaining practiced by Hellspawn like {NAME} reflects Aminion's domain over desire and ambition, using mortals' own wants against them.",
+    "While other races rely on force or wealth to achieve their goals, skilled Dark Bargainers like {NAME} understand that properly leveraged promises can secure far more with far less investment.",
+    "The supernatural effectiveness of {NAME}'s bargains stems from Aminion's blessing, which infuses {HIS} words with subtle compulsion that bypasses normal resistance.",
+    "In Hellspawn society, Dark Bargainers occupy positions of significant influence, their ability to secure advantageous agreements without bloodshed making them valuable in both war and peace.",
+    "Some theologians believe that the most skilled Dark Bargainers are gradually accumulating power through their deals that will eventually be offered to Aminion in exchange for transformation into something beyond mortal.",
+],

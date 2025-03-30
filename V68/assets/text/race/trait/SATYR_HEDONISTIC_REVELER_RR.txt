@@ -1,0 +1,21 @@
+NAME: "Hedonistic Reveler",
+TITLE: "Joy Bringer",
+DESC: "This Satyr embraces the pleasures of life with exceptional enthusiasm, excelling at creating festive atmospheres and lifting the spirits of those around them.",
+
+BIO_DESC: [
+    "When {NAME} enters a gathering, the atmosphere immediately shifts—voices grow louder, laughter flows more freely, and even the most reserved individuals find themselves drawn into the celebration.",
+    "Other Satyrs look to {NAME} to lead seasonal festivals, recognizing that {HIS} natural talent for revelry creates experiences that strengthen community bonds while honoring Athuri's celebration of life's cycles.",
+    "{NAME} approaches pleasure not as mere indulgence but as sacred appreciation, finding in each sensory experience an opportunity to honor Athuri's gift of consciousness and joy.",
+    "The celebrations organized by {NAME} are distinctive for their balance of abandon and meaning—wild dancing and feasting serve as expressions of gratitude for nature's abundance rather than empty excess.",
+    "During the most important seasonal festivals, {NAME} leads rituals that combine pleasure with purpose, creating experiences where participants' joy becomes a form of worship that honors Athuri's domain of natural harmony.",
+    "The instruments and brews {NAME} creates are renowned for their ability to elevate mood and open minds, crafted with ingredients and techniques passed down through generations of Satyr revelers.",
+    "It is said that in the height of celebrations led by {NAME}, participants occasionally glimpse the spirit world, the veil between realms thinning as joy reaches its peak—a phenomenon attributed to Athuri's blessing.",
+],
+
+FLAVOUR: [
+    "The celebratory nature of Satyrs like {NAME} represents an often misunderstood aspect of Athuri's teachings—that joy and reverence are complementary expressions of appreciation for life's gifts.",
+    "While other races often separate spiritual practice from celebration, Hedonistic Revelers understand that properly channeled pleasure creates community cohesion and spiritual openness that benefits all.",
+    "The infectious enthusiasm that radiates from {NAME} stems from Athuri's blessing, which allows {HIM} to perceive and amplify the natural joy that exists in all beings when properly awakened.",
+    "In Satyr society, Hedonistic Revelers serve essential cultural and spiritual functions, their abilities ensuring that communities maintain proper balance between work and celebration.",
+    "Some theologians believe that the most gifted Revelers are channeling aspects of Athuri's own nature, their capacity for joy reflecting the deity's fundamental appreciation for the wonder of existence.",
+],

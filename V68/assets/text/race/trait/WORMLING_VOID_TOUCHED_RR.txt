@@ -1,0 +1,21 @@
+NAME: "Void-Touched",
+TITLE: "Reality Breacher",
+DESC: "This Wormling bears a stronger connection to the Void and their home dimension. They can perceive aspects of reality invisible to others and manipulate the fabric of space in subtle ways.",
+
+BIO_DESC: [
+    "When {NAME} focuses, {HE} can perceive the thin boundaries between conventional reality and the void between worlds, seeing shimmering tears in space where Shmalor's influence bleeds through The Breach created during The Shattering.",
+    "Other Wormlings approach {NAME} with a mixture of reverence and caution, recognizing that {HIS} enhanced connection to both Shmalor's void and the God Emperor's realm beyond represents both power and potential instability.",
+    "{NAME} describes experiencing reality as layered and permeable, with conventional space-time merely the most obvious layer beneath which flows the void currents of Shmalor and beyond them the impossible geometries of the God Emperor's domain.",
+    "The areas where {NAME} spends significant time develop subtle distortions—shadows might fall at impossible angles, objects might occasionally seem to occupy slightly different positions than expected, and visitors report brief moments of spatial disorientation.",
+    "During Void Communion rituals honoring the God Emperor, {NAME} serves as a primary conduit for extradimensional energies, {HIS} body temporarily becoming a living portal through which glimpses of the God Emperor's realm beyond reality can be perceived.",
+    "The physical form of {NAME} sometimes displays subtle anomalies—limbs that bend at impossible angles, skin that occasionally seems to phase slightly out of alignment with conventional reality, or eyes that reflect light in ways that defy optical principles.",
+    "It is said that in moments of great need, {NAME} can briefly manipulate the fabric of space itself, creating temporary passages through the void between worlds that allow for movement across distances that would otherwise be impossible.",
+],
+
+FLAVOUR: [
+    "The void connection displayed by Wormlings like {NAME} represents the most direct evidence of their origin—beings created when the God Emperor tore through the fabric of existence during The Shattering, entering Roomia through The Breach created by Shmalor's death.",
+    "While all Wormlings contain fragments of the God Emperor's essence, those who are truly Void-Touched have developed a deeper connection to the spaces between conventional reality, allowing them to perceive and occasionally manipulate the boundaries between dimensions.",
+    "The supernatural perceptions that allow {NAME} to see beyond conventional reality stem from the unique relationship between Shmalor and the God Emperor—while Shmalor represents the void between worlds, the God Emperor exists beyond even that void, in realms that defy comprehension.",
+    "In Wormling society, the Void-Touched serve as oracles and guides, their enhanced connection to both Shmalor's void and the God Emperor's extradimensional influence making them essential to navigating the colony's spiritual evolution toward eventual transcendence.",
+    "Some theologians believe that the Void-Touched represent living anchors for The Breach itself, their very existence helping to maintain and gradually expand the tear in reality through which the God Emperor first entered Roomia and through which the deity will eventually return in full.",
+],

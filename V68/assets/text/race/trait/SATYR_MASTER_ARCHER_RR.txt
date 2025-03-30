@@ -1,0 +1,21 @@
+NAME: "Master Archer",
+TITLE: "Forest Hunter",
+DESC: "This Satyr has perfected the art of archery, able to hit targets with uncanny precision even through dense foliage or in low light conditions.",
+
+BIO_DESC: [
+    "When {NAME} draws a bow, time seems to slow around {HIM}, {HIS} perception sharpening to notice subtle details—the direction of the breeze, the movement of leaves, the rhythm of a target's breathing.",
+    "Other Satyrs seek {NAME}'s instruction in archery, recognizing that {HIS} technique transcends mere skill to become a form of moving meditation that honors Athuri's teachings of harmony with nature.",
+    "{NAME} approaches archery not as violence but as communion with the forces of nature, each shot representing the perfect alignment of archer, bow, arrow, and target in a moment of unified purpose.",
+    "The bows crafted by {NAME} are works of art that incorporate the natural properties of various woods, sinews, and resins in perfect balance, creating weapons that seem to anticipate the archer's intentions.",
+    "During hunting ceremonies honoring Athuri, {NAME} demonstrates shots of impossible difficulty, striking targets that others cannot even see, yet always taking only what is needed for the community.",
+    "The arrows {NAME} fletches are distinctive for their perfect balance and the subtle carved symbols that invoke Athuri's blessing for true flight and clean kills that minimize suffering.",
+    "It is said that in moments of perfect focus, {NAME} can guide arrows around obstacles or cause them to follow targets that attempt to dodge, abilities attributed to Athuri's blessing of harmony with natural forces.",
+],
+
+FLAVOUR: [
+    "The archery mastery displayed by Satyrs like {NAME} embodies Athuri's teaching that true skill comes from working with natural forces rather than imposing will upon them.",
+    "While other races approach archery as a mechanical skill, Master Archers understand it as a spiritual practice where success depends on achieving perfect harmony between self, weapon, and environment.",
+    "The supernatural accuracy that guides {NAME}'s shots stems from Athuri's blessing, which allows {HIM} to perceive and align with the patterns of wind, light, and motion that determine an arrow's path.",
+    "In Satyr society, Master Archers serve as hunters, defenders, and teachers, their abilities ensuring that communities can protect themselves and harvest game with minimal waste or suffering.",
+    "Some theologians believe that the most gifted archers are developing a form of kinetic intuition, their minds evolving toward a state where they can influence the flight of arrows after release through Athuri's blessing of natural harmony.",
+],

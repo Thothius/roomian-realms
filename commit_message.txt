@@ -1,0 +1,7 @@
+Version 0.51 Hotfix
+
+- Fixed syntax errors in trait text files (missing commas and brackets)
+- Added missing trait text files for SATYR and WORMLING races
+- Ensured consistency in religious framework references across all trait descriptions
+- Updated trait descriptions to properly reflect the five deities (Athuri, Crator, Aminion, Shmalor, and God Emperor)
+- Maintained consistent lore for race-deity relationships

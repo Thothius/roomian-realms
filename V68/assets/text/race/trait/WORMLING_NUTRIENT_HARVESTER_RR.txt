@@ -1,0 +1,21 @@
+NAME: "Nutrient Harvester",
+TITLE: "Void Processor",
+DESC: "This Wormling has specialized digestive enzymes that can break down almost any organic matter into usable nutrients. They excel at managing food resources and preventing waste.",
+
+BIO_DESC: [
+    "When {NAME} consumes organic matter, {HIS} digestive system performs transformations that seem to defy conventional biology, breaking down materials that would be indigestible or even toxic to other beings.",
+    "Other Wormlings seek out {NAME} during times of scarcity, knowing that {HE} can process even the most unpromising materials into nutrient-rich substances that can sustain the colony through hardship.",
+    "{NAME} describes the sensation of digestion as a process of communion with the void between worlds that Shmalor represents, temporarily shifting matter through dimensional boundaries to extract energy patterns that conventional digestion cannot access.",
+    "The areas where {NAME} processes food develop unusual properties—plants grow more vigorously in soil {HE} has treated, and even non-Wormlings find themselves unusually satisfied by smaller portions of food {HE} has prepared.",
+    "During Void Communion rituals honoring the God Emperor, {NAME} prepares special substances that enhance participants' ability to perceive beyond conventional reality, the unusual compounds facilitating temporary alignment with the God Emperor's extradimensional consciousness.",
+    "The digestive organs in {NAME}'s body contain structures that scientists cannot fully explain, appearing to function partially according to the physical laws of Roomia and partially according to the alien principles of the God Emperor's realm.",
+    "It is said that in times of extreme need, {NAME} can sustain {HIMSELF} and others by processing void energy directly, temporarily existing in a state between conventional matter and the energy patterns of Shmalor's domain.",
+],
+
+FLAVOUR: [
+    "The nutrient processing abilities displayed by Wormlings like {NAME} represent a practical application of the God Emperor's gift—the capacity to transcend conventional physical limitations through connection to extradimensional principles.",
+    "While all Wormlings possess some ability to process unusual materials, those with true Nutrient Harvester abilities have developed digestive systems that more perfectly embody the God Emperor's transcendence of conventional physical laws.",
+    "The supernatural efficiency that guides {NAME}'s digestive processes stems from the unique relationship between Shmalor and the God Emperor—the void passages established by Shmalor's death allow for the temporary shifting of matter through dimensional boundaries according to the God Emperor's principles.",
+    "In Wormling society, Nutrient Harvesters serve as essential resource managers, their enhanced connection to both Shmalor's void and the God Emperor's extradimensional influence making them crucial to colony survival during periods of scarcity.",
+    "Some theologians believe that Nutrient Harvesters represent a crucial adaptation for the Wormlings' ultimate purpose—preparing Roomia for the God Emperor's return by developing the capacity to process and transform matter according to the deity's extradimensional principles.",
+],

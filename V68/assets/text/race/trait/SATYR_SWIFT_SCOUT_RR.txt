@@ -1,0 +1,21 @@
+NAME: "Swift Scout",
+TITLE: "Shadow Runner",
+DESC: "This Satyr excels at reconnaissance and stealth, able to move silently through the forest and report on enemy movements without being detected.",
+
+BIO_DESC: [
+    "When {NAME} moves through the forest, {HE} seems to blend with the shadows and foliage, {HIS} footsteps making no more sound than falling leaves even at remarkable speed.",
+    "Other Satyrs rely on {NAME} for information about surrounding territories, knowing that {HIS} reports will be detailed and accurate thanks to {HIS} ability to observe without being observed.",
+    "{NAME} approaches scouting as an extension of Athuri's teachings about harmony with nature, moving through the environment in ways that disturb nothing and leave no trace of passage.",
+    "The pathways {NAME} favors for reconnaissance develop subtle markers over time that only other scouts can recognize—bent twigs, arranged stones, and other signs that form a silent language of the forest.",
+    "During ceremonies honoring Athuri, {NAME} performs ritual movements that demonstrate the perfect unity of speed and silence, physical expressions of the deity's principle that true harmony with nature allows one to move within it undetected.",
+    "The clothing and equipment {NAME} uses incorporate natural materials that change with the seasons, ensuring perfect camouflage throughout the year in accordance with Athuri's cycles.",
+    "It is said that in moments of danger, {NAME} can achieve bursts of speed that seem supernatural, covering ground with a fluid grace that leaves no trail and makes no sound, a gift attributed to Athuri's blessing.",
+],
+
+FLAVOUR: [
+    "The scouting abilities displayed by Satyrs like {NAME} embody Athuri's teaching that true understanding of nature allows one to move within it as an integral part rather than as an intruder.",
+    "While other races rely on brute strength or numbers for security, Swift Scouts understand that knowledge of surrounding territories provides far greater protection through early warning and strategic advantage.",
+    "The supernatural stealth that guides {NAME}'s movements stems from Athuri's blessing, which allows {HIM} to perceive and move with the natural rhythms of the forest in perfect harmony.",
+    "In Satyr society, Swift Scouts serve as the first line of defense, early warning system, and primary source of intelligence about neighboring territories, their abilities ensuring that communities are never surprised by external threats.",
+    "Some theologians believe that the most gifted Swift Scouts are gradually developing abilities that transcend physical limitations, their bodies evolving toward a state where they can move with the speed and silence of thought itself through Athuri's blessing of natural harmony.",
+],

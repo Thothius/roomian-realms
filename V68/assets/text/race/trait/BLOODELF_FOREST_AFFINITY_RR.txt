@@ -1,0 +1,21 @@
+NAME: "Forest Affinity",
+TITLE: "The Woodland Shadow",
+DESC: "This Bloodelf has a deep connection to the ancient forests, able to move through woodland with supernatural ease and draw sustenance from the natural world.",
+
+BIO_DESC: [
+    "{NAME} moves through dense forest without disturbing a single leaf, a skill developed through centuries of communion with the ancient woodlands that shelter Bloodelf enclaves.",
+    "The scent of pine and moss clings to {NAME} even in urban environments, as if the forest has marked {HIM} as one of its own.",
+    "When hunting, {NAME} seems to intuitively understand the patterns of woodland creatures, anticipating their movements with uncanny precision.",
+    "Other Bloodelves seek {NAME}'s guidance when venturing into unfamiliar forests, trusting {HIS} ability to navigate by subtle signs invisible to less attuned eyes.",
+    "{NAME} can identify dozens of edible and medicinal plants at a glance, knowledge passed down through generations of forest-dwelling Bloodelves.",
+    "During times of meditation, {NAME} often communes with the oldest trees, claiming to hear whispers of wisdom from entities that have witnessed centuries of history.",
+    "Even in combat, {NAME} moves with the fluid grace of wind through leaves, using the natural environment as both weapon and shield with instinctive understanding.",
+],
+
+FLAVOUR: [
+    "While Bloodelves are known for their aristocratic courts and blood rituals, some maintain deeper connections to the ancient forests that sheltered their ancestors during The Shattering.",
+    "The forest affinity displayed by Bloodelves like {NAME} represents a different aspect of their heritage—one that values stealth, harmony with nature, and patient observation.",
+    "Some scholars believe that the supernatural connection between certain Bloodelves and the forest stems from ancient pacts made with woodland spirits during the earliest days of their civilization.",
+    "The silent movement and heightened awareness that {NAME} displays in woodland settings gives {HIM} significant advantages in both hunting and warfare, making forest-attuned Bloodelves valued scouts and assassins.",
+    "Despite their devotion to Aminion, forest-attuned Bloodelves like {NAME} sometimes incorporate elements of Athuri worship into their practices, creating a unique spiritual tradition that bridges multiple divine domains.",
+],

@@ -1,0 +1,21 @@
+NAME: "Hive Mind",
+TITLE: "Collective Nexus",
+DESC: "This individual has an exceptionally strong connection to the collective consciousness of the Wormling colony. They can communicate telepathically with other Wormlings and access the shared knowledge of the hive.",
+
+BIO_DESC: [
+    "When {NAME} focuses, {HE} can perceive the thoughts and experiences of other Wormlings as clearly as {HIS} own, a living conduit for the collective consciousness that binds their species together through the God Emperor's influence.",
+    "Other Wormlings instinctively gravitate toward {NAME} during times of stress or confusion, finding clarity and purpose through {HIS} enhanced ability to channel the organizing principles of the God Emperor across individual minds.",
+    "{NAME} describes experiencing the colony not as a collection of separate beings but as a single organism with distributed awareness, a perspective that reflects the God Emperor's own extradimensional consciousness.",
+    "The areas where {NAME} spends significant time develop unusual psychic resonances that other Wormlings can detect, serving as natural gathering points for communion and coordination through the void passages established by Shmalor.",
+    "During Void Communion rituals honoring the God Emperor, {NAME} serves as a primary conduit for Imperial Synchronization, temporarily merging the consciousness of participants into a unified whole that mirrors the God Emperor's multifaceted awareness.",
+    "The neural structures in {NAME}'s brain contain highly developed void receptors that scientists cannot fully explain, appearing to function as biological transceivers for the collective consciousness that flows through the spaces between conventional reality.",
+    "It is said that in moments of perfect communion, {NAME} can temporarily access the complete knowledge and experience of the entire Wormling species across multiple dimensions, a smaller version of the transcendence sought by the God Emperor's followers.",
+],
+
+FLAVOUR: [
+    "The hive mind connection displayed by Wormlings like {NAME} represents the most direct expression of the God Emperor's influence—the capacity to transcend individual consciousness and experience reality as a collective entity.",
+    "While all Wormlings possess some connection to their collective consciousness, those with true Hive Mind abilities have developed neural architectures that more perfectly channel the God Emperor's organizing principles across individual awareness.",
+    "The supernatural communion that allows {NAME} to merge with the collective stems from the unique relationship between Shmalor and the God Emperor—the void passages established by Shmalor's death provide the medium through which the God Emperor's consciousness can flow between individual Wormlings.",
+    "In Wormling society, those with Hive Mind serve as living anchors for their community's collective consciousness, their enhanced connection to both Shmalor's void and the God Emperor's extradimensional influence making them essential to maintaining colony cohesion.",
+    "Some theologians believe that Hive Mind individuals represent the most advanced stage in Wormling evolution, their neural structures gradually approaching the state necessary for complete Imperial Synchronization—the perfect merger of all Wormling consciousness with the God Emperor that will herald the deity's return to Roomia.",
+],

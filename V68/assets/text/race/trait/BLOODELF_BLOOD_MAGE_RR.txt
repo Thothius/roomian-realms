@@ -1,0 +1,21 @@
+NAME: "Blood Mage",
+TITLE: "Crimson Adept",
+DESC: "This Bloodelf has mastered the ancient art of blood magic, able to draw power from the life essence of others and channel it into mystical energies.",
+
+BIO_DESC: [
+    "The veins visible beneath {NAME}'s pale skin pulse with an unnatural rhythm, as if the blood within follows patterns dictated by arcane formulas rather than natural circulation.",
+    "Small scars cover {NAME}'s fingertips and palms, testament to countless blood offerings made in the pursuit of hemomantic mastery.",
+    "When {NAME} performs blood rituals, the droplets sometimes hover in the air before {HIM}, forming complex geometric patterns that shimmer with dark energy.",
+    "Other Bloodelves approach {NAME} with a mixture of respect and caution, aware that {HE} can sense the subtle variations in their blood that reveal emotional states and hidden intentions.",
+    "{NAME} maintains a collection of specialized ritual blades, each designed for different types of blood magic, from combat enhancement to divination.",
+    "During the Crimson Mirror ritual, {NAME} serves as a conduit between participants and Aminion, {HIS} blood temporarily merging with theirs to create a unified connection to the Fallen One.",
+    "It is whispered that {NAME} has developed techniques that allow {HIM} to briefly access the memories contained within the blood {HE} consumes, though such practices are considered taboo even among Bloodelves.",
+],
+
+FLAVOUR: [
+    "Blood magic represents the pinnacle of Bloodelf mystical tradition, transforming their natural affinity for blood into a sophisticated magical system that other races can only crudely imitate.",
+    "While outsiders view blood magic with horror, Bloodelves see it as their sacred birthright—a gift from Aminion that allows them to transcend ordinary limitations through willing sacrifice.",
+    "The most accomplished blood mages like {NAME} can perform feats that seem impossible: healing mortal wounds, temporarily enhancing physical abilities beyond natural limits, or even briefly perceiving future possibilities.",
+    "Some blood mages develop a dual devotion to both Aminion and Shmalor, using the Crimson Mirror ritual to access deeper cosmic insights through their hemomantic practices.",
+    "The power wielded by blood mages comes at a price—years of exposure to blood magic leaves subtle alterations in their own blood, creating a distinctive resonance that other blood mages can immediately recognize.",
+],

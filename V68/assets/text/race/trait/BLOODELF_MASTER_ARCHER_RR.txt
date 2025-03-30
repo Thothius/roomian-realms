@@ -1,0 +1,21 @@
+NAME: "Master Archer",
+TITLE: "The Deadeye",
+DESC: "This Bloodelf has perfected the art of archery through centuries of practice, able to strike targets with deadly precision at incredible distances.",
+
+BIO_DESC: [
+    "{NAME}'s fingers bear distinctive calluses from countless millennia of bowstring tension, physical markers of dedication that even regenerative Bloodelf physiology cannot erase.",
+    "When {NAME} draws a bow, time itself seems to slow around {HIM}, {HIS} perception expanding to account for wind, distance, and target movement with supernatural precision.",
+    "Other archers often gather to watch {NAME} practice, studying the perfect economy of {HIS} movements that wastes not a single ounce of energy in delivering death from afar.",
+    "It is said that {NAME} can split an arrow at three hundred paces, a feat {HE} demonstrates with casual ease when challenged by skeptics.",
+    "{NAME} crafts {HIS} own arrows with meticulous care, each shaft perfectly balanced and fletched according to ancient Bloodelf archery traditions.",
+    "During battle, {NAME} enters a trance-like state of perfect focus, {HIS} heartbeat slowing to ensure absolute stillness at the moment of release.",
+    "The bows used by {NAME} are heirlooms of ancient design, crafted from rare woods and reinforced with materials that enhance their connection to {HIS} innate Bloodelf abilities.",
+],
+
+FLAVOUR: [
+    "While many races practice archery, Bloodelf master archers like {NAME} elevate it to an art form that transcends mere martial skill, becoming a spiritual discipline that connects them to their ancestors.",
+    "The legendary precision of Bloodelf archers stems from their extended lifespans, allowing them to refine techniques over centuries that shorter-lived races can only begin to master.",
+    "Some Bloodelf archery techniques incorporate elements of their blood magic, using minute amounts of the archer's blood to create a mystical connection between bow, arrow, and target.",
+    "In Bloodelf society, master archers hold positions of great respect, their skills representing the perfect balance of patience, precision, and lethal intent that their culture values.",
+    "The distinctive curved bows favored by Bloodelf archers are designed to complement their natural speed and agility, allowing for rapid fire without sacrificing accuracy or power.",
+],

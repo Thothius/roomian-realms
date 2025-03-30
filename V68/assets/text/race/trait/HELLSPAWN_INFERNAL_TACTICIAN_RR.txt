@@ -1,0 +1,21 @@
+NAME: "Infernal Tactician",
+TITLE: "Master of Chaos",
+DESC: "This Hellspawn possesses a cunning mind for warfare and conquest, able to devise strategies that maximize suffering while achieving victory.",
+
+BIO_DESC: [
+    "When {NAME} studies battle maps, {HIS} eyes seem to perceive patterns invisible to others, as if Aminion's chaotic wisdom reveals vulnerabilities that conventional tactics would miss.",
+    "Other Hellspawn commanders defer to {NAME}'s judgment in matters of strategy, having witnessed how {HIS} seemingly reckless plans inevitably create opportunities for devastating victory.",
+    "{NAME} approaches warfare as a form of artistic expression, crafting campaigns that not only defeat enemies but break their will through precisely orchestrated suffering.",
+    "The battle formations designed by {NAME} often appear chaotic to observers, yet somehow create perfect synergy between different unit types, turning apparent disorder into overwhelming advantage.",
+    "During planning sessions, {NAME} enters a trance-like state where {HE} mutters calculations and contingencies with unnerving speed, as if receiving direct tactical insight from Aminion himself.",
+    "The weapons and armor {NAME} selects for {HIS} forces are chosen not just for effectiveness but psychological impact, maximizing terror while maintaining lethal efficiency.",
+    "It is said that {NAME} can predict enemy movements with uncanny accuracy, anticipating reactions to {HIS} strategies as if {HE} can see the patterns of fear and desperation that drive opposing commanders.",
+],
+
+FLAVOUR: [
+    "The tactical genius displayed by Hellspawn like {NAME} reflects Aminion's domain over chaos and transformation, turning battlefield unpredictability into strategic advantage.",
+    "While other races develop rigid tactical doctrines, Infernal Tacticians embrace constant adaptation and evolution, their strategies as fluid and unpredictable as Aminion's own nature.",
+    "The supernatural insight that guides {NAME}'s battle plans stems from Aminion's blessing, which allows {HIM} to perceive the hidden patterns within chaos that determine victory and defeat.",
+    "In Hellspawn society, Infernal Tacticians occupy positions of tremendous respect, their ability to orchestrate conquest without wasting resources making them invaluable to ambitious warlords.",
+    "Some theologians believe that the most brilliant Infernal Tacticians are gradually developing a form of prescience, their minds evolving toward a state where they can perceive multiple possible futures simultaneously.",
+],

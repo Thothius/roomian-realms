@@ -1,0 +1,21 @@
+NAME: "Athuri Harmonist",
+TITLE: "Keeper of Balance",
+DESC: "This Froggian has dedicated themselves to the worship of Athuri, finding spiritual harmony through connection with nature and water.",
+
+BIO_DESC: [
+    "When {NAME} performs the sacred rituals of Athuri, the surrounding environment seems to respond—water flows more smoothly, plants sway in rhythm, and animals grow calm in {HIS} presence.",
+    "Other Froggians seek {NAME}'s spiritual guidance, recognizing that {HIS} connection to Athuri, leader of the Astari and deity of wisdom and natural order, runs deeper than most.",
+    "{NAME} approaches worship not as obligation but as joyful communion, finding in Athuri's teachings a perfect reflection of the Froggian ideal of balance between civilization and nature.",
+    "The temple spaces tended by {NAME} are distinctive for their integration of living elements—flowing water, thriving plants, and carefully placed stones that create natural harmony.",
+    "During the most sacred ceremonies, {NAME} enters a meditative state where {HE} claims to perceive the fundamental patterns that connect all life, a direct communion with Athuri's domain of wisdom.",
+    "The symbols {NAME} wears are subtle representations of Athuri's aspects—flowing water for adaptability, green leaves for growth, and clear crystals for wisdom and clarity of thought.",
+    "It is said that in moments of crisis, {NAME} can call upon Athuri's blessing to restore balance, calming conflicts and bringing clarity to confused minds through the power of the deity's harmonizing influence.",
+],
+
+FLAVOUR: [
+    "The spiritual path followed by Froggians like {NAME} embodies the core relationship between Athuri and the Froggian people, who have been the deity's primary followers since ancient times.",
+    "While all Froggians acknowledge Athuri's importance, true Harmonists develop a personal connection with the deity that transforms their understanding of the world and their place in it.",
+    "The intuitive wisdom that guides {NAME}'s spiritual practice stems directly from Athuri's blessing, allowing {HIM} to perceive the subtle interconnections that maintain natural order.",
+    "In Froggian society, Athuri Harmonists serve as both spiritual leaders and practical advisors, their connection to the deity of wisdom making them invaluable in maintaining community harmony.",
+    "Some theologians believe that the most devoted Harmonists like {NAME} are gradually evolving toward a state of being that more closely resembles Athuri's own nature—becoming living embodiments of wisdom and natural harmony.",
+],

@@ -1,0 +1,21 @@
+NAME: "Aristocratic Grace",
+TITLE: "The Noble Born",
+DESC: "This Bloodelf embodies the elegant refinement and haughty demeanor of their noble heritage, commanding respect and admiration through their bearing alone.",
+
+BIO_DESC: [
+    "{NAME} moves with an effortless elegance that makes even simple actions appear as choreographed art, a physical manifestation of centuries of noble breeding.",
+    "The commanding presence {NAME} exudes can silence a room merely by entering it, a subtle power cultivated through generations of aristocratic lineage.",
+    "Even in the most dire circumstances, {NAME} maintains impeccable composure, considering visible distress to be beneath one of {HIS} station.",
+    "Lesser beings are addressed by {NAME} with a carefully measured tone that conveys both courtesy and an unmistakable reminder of their relative positions.",
+    "{NAME}'s quarters are meticulously arranged according to ancient Bloodelf aesthetic principles, transforming even humble surroundings into a space of refined elegance.",
+    "The blood rituals {NAME} performs are executed with a theatrical precision that transforms necessary sacrifice into high art, honoring Aminion with perfect form.",
+    "Other Bloodelves instinctively defer to {NAME}'s judgment in matters of protocol and propriety, recognizing the authority that comes with perfect aristocratic bearing.",
+],
+
+FLAVOUR: [
+    "Bloodelf aristocracy traces its lineage to the ancient courts that ruled before The Shattering, maintaining traditions of refinement that have been lost to other races.",
+    "The grace exhibited by nobles like {NAME} is not merely aesthetic but practical—movements optimized through centuries of refinement to conserve energy while maximizing impact.",
+    "It is said that the most accomplished Bloodelf aristocrats can convey entire conversations through subtle variations in posture and expression, a language of refinement invisible to outsiders.",
+    "While other races mistake Bloodelf aristocratic bearing for mere vanity, it serves as a sophisticated social technology that maintains order and hierarchy without crude displays of force.",
+    "The seemingly effortless perfection displayed by {NAME} is the product of relentless discipline, with noble Bloodelves spending decades mastering the art of appearing naturally superior.",
+],

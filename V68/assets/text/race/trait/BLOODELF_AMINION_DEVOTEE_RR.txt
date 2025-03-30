@@ -1,0 +1,21 @@
+NAME: "Aminion Devotee",
+TITLE: "The Fallen's Chosen",
+DESC: "This Bloodelf has dedicated themselves to the worship of Aminion, the fallen one, gaining dark powers through blood rituals and sacrifices.",
+
+BIO_DESC: [
+    "{NAME}'s skin bears intricate scarification patterns that symbolize their devotion to Aminion, each mark representing a sacrifice offered to the Fallen One.",
+    "During blood moon nights, {NAME} can be found performing elaborate rituals, their chants echoing with promises of power and vengeance in Aminion's name.",
+    "Other Bloodelves respect {NAME}'s dedication, even those who follow different paths recognize the potent connection {HE} has forged with the Fallen One.",
+    "The priests of Aminion often seek {NAME}'s assistance during major ceremonies, valuing {HIS} unwavering devotion and ritual precision.",
+    "{NAME} carries a ceremonial dagger made from a special alloy that resonates with Aminion's power, using it to draw {HIS} own blood as offerings during daily prayers.",
+    "Those who spend time with {NAME} report feeling a subtle but persistent pressure, as if Aminion's gaze occasionally falls upon them through {HIS} devoted servant.",
+    "Despite {HIS} fearsome reputation, {NAME} follows a strict code of conduct based on Aminion's teachings, believing that true power comes from disciplined devotion rather than chaotic indulgence.",
+],
+
+FLAVOUR: [
+    "The blood rituals performed by Aminion's devotees like {NAME} are said to temporarily thin the veil between worlds, allowing whispers of their deity's will to reach the material plane.",
+    "While some view Aminion's followers with fear, {NAME} sees {HIS} devotion as a path to transcendence, embracing pain as the doorway to greater understanding.",
+    "The dark energies that flow through {NAME} during rituals leave a lingering aura that other Bloodelves can sense, marking {HIM} as one of Aminion's chosen.",
+    "{NAME} believes that each sacrifice offered strengthens not only {HIMSELF} but all Bloodelves, as Aminion's power flows through the collective bloodline of {HIS} people.",
+    "In times of crisis, {NAME} has reported receiving direct guidance from Aminion, the deity's whispers providing solutions that, while often requiring sacrifice, prove eerily effective.",
+],

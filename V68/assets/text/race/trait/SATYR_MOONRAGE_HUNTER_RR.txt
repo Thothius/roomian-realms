@@ -1,0 +1,21 @@
+NAME: "Moonrage Hunter",
+TITLE: "Lunar Blessed",
+DESC: "This Satyr experiences a powerful transformation during the full moon, gaining enhanced strength and primal instincts that make them a fearsome hunter.",
+
+BIO_DESC: [
+    "When the full moon rises, {NAME}'s eyes take on a silvery luminescence, {HIS} muscles become more defined, and {HIS} movements gain a fluid, predatory quality that both fascinates and unnerves observers.",
+    "Other Satyrs both respect and maintain careful distance from {NAME} during the lunar peak, recognizing that {HIS} heightened state represents a sacred but volatile connection to Athuri's wilder aspects.",
+    "{NAME} describes the moonrage state as a form of communion with the primal essence of nature, where Athuri's teachings of harmony take on a different meaning—the perfect balance of predator and prey.",
+    "The hunting grounds favored by {NAME} during the full moon develop distinctive characteristics over time—more abundant game, unusual nocturnal plant growth, and a palpable sense of wildness that persists even when the moon wanes.",
+    "During ceremonies honoring Athuri that coincide with the full moon, {NAME} leads special hunts that combine spiritual ritual with practical provision, the participants moving through the forest like a single organism.",
+    "The trophies {NAME} collects from moonrage hunts are treated with special reverence, each item representing not conquest but sacred exchange between hunter and hunted under Athuri's watchful gaze.",
+    "It is said that during the height of moonrage, {NAME} can communicate with predatory animals, forming temporary hunting packs that move with supernatural coordination to bring down prey that would normally be beyond their reach.",
+],
+
+FLAVOUR: [
+    "The moonrage phenomenon exhibited by Satyrs like {NAME} represents Athuri's teaching that true harmony with nature includes embracing its wilder, more primal aspects rather than seeking to tame them completely.",
+    "While some races fear the loss of control that comes with moonrage, those who experience it understand it as a gift that reconnects them to ancient instincts and abilities that civilization has dulled.",
+    "The supernatural transformation that overtakes {NAME} during the full moon stems from Athuri's blessing, which allows {HIM} to channel lunar energies that amplify the primal aspects of {HIS} nature.",
+    "In Satyr society, Moonrage Hunters serve as both providers and living reminders of the wildness that exists within all beings, their monthly transformation ensuring that communities maintain proper respect for nature's untamed aspects.",
+    "Some theologians believe that the most powerful Moonrage Hunters are gradually developing greater control over their transformations, their bodies evolving toward a state where they can channel lunar energy even when the moon is not full through Athuri's blessing.",
+],

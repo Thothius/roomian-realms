@@ -1,0 +1,21 @@
+NAME: "Nocturnal Predator",
+TITLE: "Night Hunter",
+DESC: "This Bloodelf has embraced their nocturnal nature to become a deadly hunter in the darkness, moving with unparalleled stealth and precision.",
+
+BIO_DESC: [
+    "{NAME}'s pupils dilate to impossible widths in darkness, allowing {HIM} to see clearly on even the most moonless nights when others are blind.",
+    "The footsteps of {NAME} make no sound even on dry leaves or creaking floorboards, as if darkness itself muffles {HIS} movements.",
+    "Other Bloodelves speak of {NAME}'s hunting prowess with a mixture of admiration and unease, noting how {HE} seems to become a different being entirely under starlight.",
+    "{NAME} sleeps during daylight hours in a chamber kept in perfect darkness, emerging at dusk with heightened senses and predatory focus.",
+    "The weapons favored by {NAME} are designed for silent killing—compound bows with special dampening systems, blades balanced for throwing, and garrotes of enchanted silk.",
+    "During nocturnal blood rituals, {NAME} serves as guardian and scout, {HIS} enhanced senses detecting potential threats long before they can approach the sacred circle.",
+    "It is said that {NAME} can track prey for days without rest, {HIS} patience as infinite as the night sky and {HIS} strike as sudden as a shooting star.",
+],
+
+FLAVOUR: [
+    "While all Bloodelves possess superior night vision compared to humans, nocturnal predators like {NAME} have developed this natural advantage into a defining aspect of their existence.",
+    "The predatory instincts displayed by {NAME} connect {HIM} to the darkest aspects of Aminion's domain, where shadow and blood intertwine in the eternal hunt.",
+    "Some theologians believe that nocturnal Bloodelves represent the perfect fusion of their race's aristocratic refinement and primal hunting instincts—civilization and savagery in perfect balance.",
+    "The silent hunting techniques developed by Bloodelf nocturnal predators have been adopted by elite military units of other races, though few can match the natural advantages that make {NAME} so lethal in darkness.",
+    "During the Blood Moon festivals, nocturnal predators like {NAME} lead ceremonial hunts that honor both Aminion and the ancient forest spirits that sheltered the first Bloodelves after The Shattering.",
+],

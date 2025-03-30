@@ -1,0 +1,21 @@
+NAME: "Agricultural Innovator",
+TITLE: "Harvest Master",
+DESC: "This Froggian has developed advanced techniques for sustainable farming and irrigation, significantly improving crop yields.",
+
+BIO_DESC: [
+    "When {NAME} surveys farmland, {HE} perceives patterns of soil fertility, water flow, and sunlight that others miss, instinctively understanding how to optimize growing conditions.",
+    "Other Froggians seek {NAME}'s counsel before planting seasons, valuing {HIS} unique ability to predict weather patterns and recommend ideal crop rotations.",
+    "{NAME} approaches agriculture as both science and art, meticulously balancing natural principles with innovative techniques that honor Athuri's teachings of harmony with nature.",
+    "The farms under {NAME}'s guidance display a distinctive organization, with crops arranged in patterns that maximize yield while minimizing resource consumption.",
+    "During rituals honoring Athuri, {NAME} offers the first and finest harvests as tribute, demonstrating how effectively {HE} channels the land's bounty in ways that please the deity of wisdom and natural order.",
+    "The tools {NAME} designs for farming are elegant in their simplicity, often incorporating natural materials and biomimetic principles that reflect Froggian philosophy.",
+    "It is said that plants respond to {NAME}'s touch, growing more vigorously when tended by {HIM} as if recognizing a kindred spirit connected to Athuri's natural domain.",
+],
+
+FLAVOUR: [
+    "The agricultural innovations developed by Froggians like {NAME} embody Athuri's teachings of sustainable harmony with nature, producing abundance without depleting the land.",
+    "While other races view farming as merely a means to produce food, Agricultural Innovators understand it as a sacred practice that demonstrates proper stewardship of Athuri's gifts.",
+    "The intuitive understanding that guides {NAME}'s work stems from Athuri's blessing, which allows {HIM} to perceive the subtle interconnections between soil, water, plants, and climate.",
+    "In Froggian society, Agricultural Innovators occupy positions of significant respect, their ability to ensure food security making them essential to community prosperity.",
+    "Some theologians believe that the most skilled Agricultural Innovators are gradually developing a deeper connection with the land, their minds evolving toward a state where they can directly communicate with plant life through Athuri's blessing.",
+],

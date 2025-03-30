@@ -1,0 +1,21 @@
+NAME: "Corrupting Influence",
+TITLE: "The Defiler",
+DESC: "This Hellspawn exudes a subtle aura that corrupts and influences those around them, making them particularly effective at spreading the dark influence of their kind.",
+
+BIO_DESC: [
+    "The air around {NAME} seems to shimmer with an imperceptible miasma, causing plants to wither slightly and metals to tarnish more quickly in {HIS} prolonged presence.",
+    "Those who spend extended time with {NAME} report disturbing dreams and intrusive thoughts, as if {HIS} very proximity erodes moral boundaries and amplifies darker impulses.",
+    "Even other Hellspawn maintain a respectful distance from {NAME}, aware that {HIS} corrupting influence affects them as well, though to a lesser degree than it does other races.",
+    "Religious symbols and blessed objects react visibly to {NAME}'s presence, tarnishing, cracking, or otherwise deteriorating when exposed to {HIS} aura for too long.",
+    "The priests of Aminion value {NAME}'s abilities during conversion rituals, using {HIS} natural corrupting influence to weaken the spiritual resistance of potential converts.",
+    "Animals become agitated and aggressive in {NAME}'s vicinity, sensing the unnatural emanations that humans and other sentient beings have learned to rationalize away.",
+    "{NAME} has learned to modulate {HIS} corrupting aura with careful concentration, intensifying it when useful and suppressing it when necessary to move undetected among more sensitive populations.",
+],
+
+FLAVOUR: [
+    "The corrupting influence exhibited by Hellspawn like {NAME} is a manifestation of Aminion's power seeping into the material world through vessels specially attuned to channel it.",
+    "While most Hellspawn can influence emotions and thoughts to some degree, those with the Corrupting Influence trait represent a more profound connection to the entropic aspects of Aminion's domain.",
+    "Theologians debate whether the corruption spread by Hellspawn is truly evil or merely a different form of natural change—accelerated decay and transformation that only appears malevolent from limited mortal perspectives.",
+    "The subtle corruption spread by {NAME} serves a strategic purpose in Hellspawn society, weakening resistance and preparing territories for eventual domination without requiring direct military confrontation.",
+    "Some believe that the most powerful Corrupting Influencers like {NAME} can eventually transform an entire region's spiritual alignment, creating spaces where Aminion's power flows more freely into the material world.",
+],

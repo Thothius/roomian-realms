@@ -1,0 +1,21 @@
+NAME: "Matriarchal Leader",
+TITLE: "Grove Mother",
+DESC: "This Satyr possesses the wisdom and charisma of the Grove Mothers, commanding respect and inspiring loyalty among their kin.",
+
+BIO_DESC: [
+    "When {NAME} speaks in council, others naturally fall silent, {HER} words carrying a weight and authority that stems from deep connection to Athuri's wisdom and the ancestral traditions of the Satyr people.",
+    "Other Satyrs instinctively defer to {NAME}'s judgment in matters affecting the community, recognizing that {HER} decisions consistently balance immediate needs with long-term harmony in the way Athuri teaches.",
+    "{NAME} approaches leadership as sacred stewardship, seeing {HER} role not as ruling over others but as nurturing the community's growth and maintaining its connection to Athuri's natural order.",
+    "The grove where {NAME} holds council develops distinctive characteristics over time—more vibrant plant life, unusual animal visitors, and a palpable sense of safety that visitors can feel upon entering.",
+    "During ceremonies honoring Athuri, {NAME} serves as the primary conduit between the deity and the community, {HER} prayers and offerings carrying special weight due to {HER} recognized spiritual authority.",
+    "The symbols of office {NAME} carries are ancient artifacts passed down through generations of Grove Mothers, each item imbued with the accumulated wisdom and spiritual energy of those who carried it before.",
+    "It is said that in times of great need, {NAME} can call upon the collective wisdom of ancestral Grove Mothers, entering a trance state where {SHE} receives guidance from those who led before {HER}.",
+],
+
+FLAVOUR: [
+    "The matriarchal leadership tradition of Satyrs like {NAME} embodies Athuri's teaching that true authority comes from wisdom, nurturing, and harmony with natural cycles rather than dominance.",
+    "While other races often structure leadership around military prowess or wealth, Satyr society recognizes that the feminine principles of creation, nurturing, and intuitive wisdom create more sustainable communities.",
+    "The natural authority that radiates from {NAME} stems from Athuri's blessing, which allows {HER} to perceive the complex web of relationships and needs that must be balanced for a community to thrive in harmony with nature.",
+    "In Satyr society, Matriarchal Leaders serve as the final arbiters in disputes, keepers of oral history, and primary negotiators with other communities, their wisdom ensuring that Satyr traditions remain unbroken across generations.",
+    "Some theologians believe that the most respected Grove Mothers develop a form of collective consciousness with their communities, their minds evolving toward a state where they can sense the needs and feelings of all members through Athuri's blessing.",
+],

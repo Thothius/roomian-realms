@@ -1,0 +1,21 @@
+NAME: "Water Affinity",
+TITLE: "Flow Master",
+DESC: "This Froggian has an exceptional connection to water, able to swim with remarkable speed and breathe underwater for extended periods.",
+
+BIO_DESC: [
+    "When {NAME} enters water, {HIS} movements become fluid and graceful, as if {HE} were returning to {HIS} natural element rather than entering a foreign environment.",
+    "Other Froggians marvel at {NAME}'s ability to remain submerged for hours at a time, a trait that connects {HIM} to the ancient amphibious ancestors of their species.",
+    "{NAME} approaches water not merely as a substance but as a sacred element, believing that Athuri's wisdom flows through all water bodies, connecting disparate ecosystems into a harmonious whole.",
+    "The underwater domains {NAME} explores are mapped in {HIS} mind with extraordinary detail, creating knowledge of submerged landscapes that proves invaluable for fishing, navigation, and resource discovery.",
+    "During ceremonies honoring Athuri, {NAME} performs sacred swimming rituals that demonstrate the deity's principles of adaptability and flow through physical movement in water.",
+    "The clothing and equipment {NAME} designs incorporate hydrophilic materials that work with water rather than repelling it, allowing for greater efficiency in aquatic environments.",
+    "It is said that in deep waters, {NAME} can communicate with aquatic life through subtle movements and vibrations, a gift attributed to Athuri's blessing of natural harmony.",
+],
+
+FLAVOUR: [
+    "The water affinity displayed by Froggians like {NAME} represents their species' fundamental connection to Athuri's domain of natural harmony and adaptability.",
+    "While all Froggians possess some degree of aquatic capability, those with true Water Affinity maintain a deeper connection to their evolutionary heritage and the spiritual significance of water in Athuri's teachings.",
+    "The supernatural comfort that allows {NAME} to thrive in aquatic environments stems from Athuri's blessing, which harmonizes {HIS} body with water's natural properties in ways that transcend normal biology.",
+    "In Froggian society, those with Water Affinity often serve as explorers, resource managers, and spiritual guides, their connection to water making them essential for communities built around aquatic resources.",
+    "Some theologians believe that the most powerful Water Affinity Froggians are gradually developing abilities that transcend normal limitations, their bodies evolving toward a state where they can perceive and manipulate water currents through Athuri's blessing of natural harmony.",
+],
