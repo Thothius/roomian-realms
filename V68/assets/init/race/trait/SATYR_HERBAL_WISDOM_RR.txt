@@ -1,0 +1,13 @@
+NAME: "Herbal Wisdom",
+DESC: "This Satyr possesses extensive knowledge of medicinal and poisonous plants, able to create potent remedies and toxins from the bounty of the forest.",
+BOOST: {
+	HERBALISM>ADD: 0.3,
+	ROOM_WORKSHOP_APOTHECARY>MUL: 1.25,
+	ROOM_ORCHARD>MUL: 1.15,
+	PHYSICS_HEALTH>MUL: 1.1,
+	PHYSICS_STAMINA>MUL: 1.1,
+},
+SPRITE: 0,
+AVAILABLE: {
+	ARGONOSH: 0.3,
+},

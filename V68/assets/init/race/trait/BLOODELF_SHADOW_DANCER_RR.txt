@@ -1,0 +1,13 @@
+NAME: "Shadow Dancer",
+DESC: "This Bloodelf has mastered the art of moving unseen, blending with shadows and darkness to strike from unexpected angles with deadly precision.",
+BOOST: {
+	PHYSICS_SPEED>MUL: 1.2,
+	STEALTH_AMBUSH>ADD: 0.35,
+	BATTLE_DODGE>MUL: 1.25,
+	PHYSICS_NIGHT_VISION>ADD: 0.15,
+	BATTLE_SPEED>MUL: 1.15,
+},
+SPRITE: 0,
+AVAILABLE: {
+	CANTOR: 0.25,
+},

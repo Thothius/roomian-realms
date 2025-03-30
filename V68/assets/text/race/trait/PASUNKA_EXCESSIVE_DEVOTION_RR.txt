@@ -9,5 +9,5 @@ BIO_DESC: [
 	"Each night, {NAME} recites the Ninety-Nine Principles of Perfect Creation before allowing {HIMSELF} rest, and will begin again if {HE} makes even a single error.",
 	"The priests of Crator watch {NAME} with concern, recognizing that {HIS} devotion has become unbalanced, lacking the creative spark that Crator values alongside order.",
 	"{NAME} judges others harshly for even minor deviations from ritual protocol, creating tension among colleagues who find {HIS} rigid expectations exhausting.",
-	"Though {NAME}'s temple ceremonies are performed with flawless precision, they lack the intuitive understanding that transforms mere ritual into true communion with Crator."
-]
+	"Though {NAME}'s temple ceremonies are performed with flawless precision, they lack the intuitive understanding that transforms mere ritual into true communion with Crator.",
+],

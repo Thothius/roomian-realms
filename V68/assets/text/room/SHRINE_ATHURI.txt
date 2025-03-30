@@ -1,0 +1,25 @@
+INFO: {
+	NAME: "Shrine to Athuri",
+	NAMES: "Shrine to Athuri",
+	DESC: "A place for a quick worship of the deity Athuri.",
+},
+
+STATS: [
+	{
+		NAME: "Worshippers",
+		DESC: "The capacity of worshippers the will be available.",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "",
+		DESC: "",
+	},
+],
+
+SERVICE: {
+	NAME: "Shrine to Athuri",
+	NAMES: "Shrine to Athuri",
+	VERB: "Worshipping",
+},

@@ -1,0 +1,13 @@
+NAME: "Scholar Sage",
+DESC: "This Froggian has dedicated their life to the pursuit of knowledge, excelling in research and theoretical studies across multiple disciplines.",
+BOOST: {
+	KNOWLEDGE>MUL: 1.25,
+	SCIENCE>MUL: 1.2,
+	ROOM_UNIVERSITY>MUL: 1.2,
+	ROOM_LIBRARY>MUL: 1.2,
+	ROOM_LABORATORY>MUL: 1.15,
+},
+SPRITE: 0,
+AVAILABLE: {
+	Q_AMEVIA: 0.3,
+},

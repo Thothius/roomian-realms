@@ -1,0 +1,14 @@
+NAME: "Void-Touched",
+DESC: "This Wormling bears a stronger connection to the Void and their home dimension. They can perceive aspects of reality invisible to others and manipulate the fabric of space in subtle ways.",
+BOOST: {
+	PHYSICS_NIGHT_VISION>ADD: 0.4,
+	BATTLE_DODGE>MUL: 1.3,
+	BATTLE_MORALE>MUL: 1.2,
+	RELIGION_SHMALOR>ADD: 0.4,
+	BEHAVIOUR_SANITY>MUL: 0.7,
+	RATES_LEARNING>MUL: 1.15,
+},
+SPRITE: 0,
+AVAILABLE: {
+	GARTHIMI: 0.15,
+},

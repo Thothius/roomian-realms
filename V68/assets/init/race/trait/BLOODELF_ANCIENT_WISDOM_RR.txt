@@ -1,0 +1,13 @@
+NAME: "Ancient Wisdom",
+DESC: "This Bloodelf carries the accumulated knowledge of countless generations, their long lifespan allowing them to master multiple disciplines and arts.",
+BOOST: {
+	PHYSICS_INTELLIGENCE>ADD: 0.2,
+	PHYSICS_DEATH_AGE>MUL: 1.1,
+	ROOM_LIBRARY>MUL: 1.25,
+	ROOM_LABORATORY>MUL: 1.15,
+	BEHAVIOUR_SANITY>MUL: 1.2,
+},
+SPRITE: 0,
+AVAILABLE: {
+	CANTOR: 0.25,
+},

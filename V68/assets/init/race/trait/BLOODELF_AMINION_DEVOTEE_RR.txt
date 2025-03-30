@@ -1,0 +1,13 @@
+NAME: "Aminion Devotee",
+DESC: "This Bloodelf has dedicated themselves to the worship of Aminion, the fallen one, gaining dark powers through blood rituals and sacrifices.",
+BOOST: {
+	RELIGION_AMINION>ADD: 0.3,
+	BLOOD_MAGIC>ADD: 0.2,
+	ROOM_TEMPLE>MUL: 1.25,
+	BEHAVIOUR_BLOODLUST>ADD: 0.2,
+	RATES_TEMPLE>MUL: 1.2,
+},
+SPRITE: 0,
+AVAILABLE: {
+	CANTOR: 0.25,
+},

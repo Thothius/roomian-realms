@@ -89,10 +89,10 @@ The Roomian Realms mod includes a variety of custom traits that need to be prope
 ### Trait Categories
 
 1. **Race-Specific Traits**:
-   - Finestorian (HUMAN): ARCHITECTURAL_VISION, ARTISAN_LEGACY, EFFICIENT_BUILDER, GEOMETRIC_MIND, MASTER_CRAFTSMAN, MATERIAL_INSIGHT, OBSESSIVE_PERFECTIONIST, SACRED_GEOMETRY
-   - Northman (DONDORIAN): ADAPTABLE_MIND, AMBITIOUS_GREED, DIPLOMATIC_SAVVY, RESOURCEFUL_SURVIVOR
-   - Pasunka (GARTHIMI): EXCESSIVE_DEVOTION, GEOMETRIC_MIND, HONORABLE_MEDIATOR, MARTIAL_INSTRUCTOR, PERFECT_FORM, RIGID_THINKING
-   - Wormling: ADAPTIVE_PARASITE, COLONY_MIND, HIVE_CONNECTED, HOST_DEPENDENCY, INDEPENDENT_MIND, METAMORPHIC_FLESH, PARASITIC_ADAPTATION
+   - Finestorian (DONDORIAN): ARCHITECTURAL_VISION, ARTISAN_LEGACY, EFFICIENT_BUILDER, GEOMETRIC_MIND, MASTER_CRAFTSMAN, MATERIAL_INSIGHT, OBSESSIVE_PERFECTIONIST, SACRED_GEOMETRY
+   - Northman (HUMAN): ADAPTABLE_MIND, AMBITIOUS_GREED, DIPLOMATIC_SAVVY, RESOURCEFUL_SURVIVOR
+   - Pasunka (CRETONIAN): EXCESSIVE_DEVOTION, GEOMETRIC_MIND, HONORABLE_MEDIATOR, MARTIAL_INSTRUCTOR, PERFECT_FORM, RIGID_THINKING
+   - Wormling (GARTHIMI): HIVE_MIND, PARASITIC_EVOLUTION, COSMIC_MEMORY, ADAPTIVE_PHYSIOLOGY, NUTRIENT_HARVESTER, VOID_TOUCHED, COLONY_COORDINATOR, RAPID_BREEDER
 
 2. **General Traits** (available to all races):
    - BATTLE_MASTER, CORRUPT_HEART, FRACTURED_MIND, FRAIL_BODY, IRON_MIND, LONE_WOLF, NATURAL_LEADER, PEACEFUL_SOUL, QUICK_LEARNER, RESILIENT_BODY, TRADITION_BOUND, VIRTUOUS_SOUL
@@ -124,12 +124,12 @@ The Roomian Realms mod includes a variety of custom traits that need to be prope
 
 | Race | Primary Custom Traits | Secondary Custom Traits |
 |------|----------------------|------------------------|
-| HUMAN (Finestorian) | ARCHITECTURAL_VISION, ARTISAN_LEGACY, MASTER_CRAFTSMAN | QUICK_LEARNER, VIRTUOUS_SOUL |
-| DONDORIAN (Northman) | ADAPTABLE_MIND, DIPLOMATIC_SAVVY, RESOURCEFUL_SURVIVOR | BATTLE_MASTER, NATURAL_LEADER |
-| GARTHIMI (Pasunka) | EXCESSIVE_DEVOTION, PERFECT_FORM, HONORABLE_MEDIATOR | IRON_MIND, TRADITION_BOUND |
+| DONDORIAN (Finestorian) | ARCHITECTURAL_VISION, ARTISAN_LEGACY, MASTER_CRAFTSMAN | QUICK_LEARNER, VIRTUOUS_SOUL |
+| HUMAN (Northman) | ADAPTABLE_MIND, DIPLOMATIC_SAVVY, RESOURCEFUL_SURVIVOR | BATTLE_MASTER, NATURAL_LEADER |
+| CRETONIAN (Pasunka) | EXCESSIVE_DEVOTION, PERFECT_FORM, HONORABLE_MEDIATOR | IRON_MIND, TRADITION_BOUND |
 | ARGONOSH (Satyr) | (Need to create Satyr-specific traits) | NIMBLE, QUICK_LEARNER, LONE_WOLF |
 | CANTOR (Bloodelf) | (Need to create Bloodelf-specific traits) | CORRUPT_HEART, FRACTURED_MIND |
-| CRETONIAN | (Need to create Cretonian-specific traits) | BATTLE_MASTER, RESILIENT_BODY |
+| GARTHIMI (Wormling) | HIVE_MIND, PARASITIC_EVOLUTION, COSMIC_MEMORY, ADAPTIVE_PHYSIOLOGY, NUTRIENT_HARVESTER, VOID_TOUCHED, COLONY_COORDINATOR, RAPID_BREEDER | HOST_DEPENDENCY, INDEPENDENT_MIND |
 | Q_AMEVIA (Froggian) | (Need to create Froggian-specific traits) | PEACEFUL_SOUL, VIRTUOUS_SOUL |
 | TILAPI (Hellspawn) | (Need to create Hellspawn-specific traits) | CORRUPT_HEART, FRAIL_BODY |
 
@@ -142,7 +142,36 @@ The Roomian Realms mod includes a variety of custom traits that need to be prope
 
 ## Current Implementation Tasks
 
-### Human (Finestorian) Trait Implementation - In Progress
+### Race Differentiation Focus
+
+Our current focus is on enhancing race uniqueness by emphasizing their core identities:
+
+### 1. Evil Slavers
+- **Hellspawn (TILAPI)**: Enhance their evil and slaver aspects with traits focusing on cruelty and exploitation.
+- **Bloodelves (CANTOR)**: Enhance their cruel and exploitative nature with traits focusing on blood magic and night hunting.
+
+### 2. Peaceful Researchers
+- **Froggians (Q_AMEVIA)**: Enhance their peaceful and research-oriented nature with traits focusing on water affinity and healing.
+
+### 3. Neutral Specialists
+- **Finestorians (DONDORIAN)**: Focus on crafting and production with traits emphasizing quality and refinement.
+- **Pasunkas (CRETONIAN)**: Focus on farming and pasture with traits emphasizing agricultural wisdom and community.
+- **Northmen (HUMAN)**: Focus on war and trading with traits emphasizing seafaring and glory-seeking.
+
+### 4. Nature-Connected
+- **Satyrs (ARGONOSH)**: Enhance their connection to nature with traits focusing on forest harmony and hunting.
+- **Wormlings (GARTHIMI)**: Enhance their parasitic and alien nature with traits focusing on adaptation and collective consciousness.
+
+Each race should have traits, boosts, and preferences that align with these core identities while maintaining game balance.
+
+### Race Enhancement Priorities
+
+1. Enhance TILAPI and CANTOR to be more evil and slaver-focused
+2. Enhance Q_AMEVIA to be more peaceful and research-oriented
+3. Refine the specializations of DONDORIAN, CRETONIAN, and HUMAN
+4. Enhance the nature connection for ARGONOSH and GARTHIMI
+
+### Human (Northman) Trait Implementation - In Progress
 
 The HUMAN race file currently doesn't have a TRAITS section. We'll add one with the following traits:
 
@@ -156,14 +185,9 @@ TRAITS: {
     TRADER: 0.7,
     
     // Custom race-specific traits
-    FINESTORIAN_ARCHITECTURAL_VISION_RR: 0.3,
-    FINESTORIAN_ARTISAN_LEGACY_RR: 0.3,
-    FINESTORIAN_EFFICIENT_BUILDER_RR: 0.2,
-    FINESTORIAN_GEOMETRIC_MIND_RR: 0.2,
-    FINESTORIAN_MASTER_CRAFTSMAN_RR: 0.3,
-    FINESTORIAN_MATERIAL_INSIGHT_RR: 0.2,
-    FINESTORIAN_OBSESSIVE_PERFECTIONIST_RR: 0.1,
-    FINESTORIAN_SACRED_GEOMETRY_RR: 0.1,
+    NORTHMAN_ADAPTABLE_MIND_RR: 0.3,
+    NORTHMAN_DIPLOMATIC_SAVVY_RR: 0.3,
+    NORTHMAN_RESOURCEFUL_SURVIVOR_RR: 0.2,
     
     // General traits
     GENERAL_QUICK_LEARNER_RR: 0.2,
@@ -173,4 +197,17 @@ TRAITS: {
 },
 ```
 
-This implementation will give Finestorians access to all their race-specific traits with appropriate probabilities, plus a selection of general traits that match their lore as intelligent, virtuous craftspeople.
+This implementation will give Northmen access to all their race-specific traits with appropriate probabilities, plus a selection of general traits that match their lore as intelligent, virtuous craftspeople.
+
+## Implementation Status
+
+| Race | Custom Traits | Status |
+|------|----------------------|------------------------|
+| DONDORIAN (Finestorian) | ARCHITECTURAL_VISION, ARTISAN_LEGACY, MASTER_CRAFTSMAN | Implemented |
+| HUMAN (Northman) | ADAPTABLE_MIND, DIPLOMATIC_SAVVY, RESOURCEFUL_SURVIVOR | Implemented |
+| CRETONIAN (Pasunka) | EXCESSIVE_DEVOTION, GEOMETRIC_MIND, HONORABLE_MEDIATOR, MARTIAL_INSTRUCTOR, PERFECT_FORM, RIGID_THINKING | Implemented |
+| ARGONOSH (Satyr) | FOREST_HARMONY, MOONRAGE_HUNTER, MASTER_ARCHER, HERBAL_WISDOM, ATHURI_DEVOTEE, MATRIARCHAL_LEADER, HEDONISTIC_REVELER, SWIFT_SCOUT | Implemented |
+| CANTOR (Bloodelf) | BLOOD_MAGE, NOCTURNAL_PREDATOR, ARISTOCRATIC_GRACE, FOREST_AFFINITY, MASTER_ARCHER, ANCIENT_WISDOM, SHADOW_DANCER, AMINION_DEVOTEE | Implemented |
+| GARTHIMI (Wormling) | HIVE_MIND, PARASITIC_EVOLUTION, COSMIC_MEMORY, ADAPTIVE_PHYSIOLOGY, NUTRIENT_HARVESTER, VOID_TOUCHED, COLONY_COORDINATOR, RAPID_BREEDER | Implemented |
+| TILAPI (Hellspawn) | SLAVE_MASTER, INFERNAL_RESILIENCE, SADISTIC_TORTURER, DEMONIC_STRENGTH, CORRUPTING_INFLUENCE, SOUL_HARVESTER, INFERNAL_TACTICIAN, DARK_BARGAINER | Implemented |
+| Q_AMEVIA (Froggian) | WATER_AFFINITY, SCHOLAR_SAGE, DIPLOMATIC_MEDIATOR, FLOWING_LEAP_WARRIOR, COLLECTIVE_THINKER, ATHURI_HARMONIST, AGRICULTURAL_INNOVATOR, APOTHECARY_MASTER | Implemented |

@@ -18,7 +18,7 @@
 - Other races: 5% chance or less
 
 **Religious Connection:**
-Void Touched individuals are particularly attuned to the God Emperor's influence. Among Wormlings, they often serve as conduits during the Void Communion ritual, their bodies temporarily hosting a stronger fragment of the God Emperor's consciousness. Non-Wormling Void Touched individuals report disturbing dreams of vast alien geometries and whispers in unknown languages—subtle attempts by the God Emperor to extend influence beyond its primary worshippers.
+Void Touched individuals are particularly attuned to Shmalor's influence. Among Wormlings, they often serve as conduits during the Void Communion ritual, their bodies temporarily hosting a stronger fragment of Shmalor's consciousness. Non-Wormling Void Touched individuals report disturbing dreams of vast alien geometries and whispers in unknown languages—subtle attempts by Shmalor to extend influence beyond its primary worshippers.
 
 ### Void Resistant
 "Those whose bodies and minds have developed natural defenses against the corrupting influence of the Void."
@@ -70,7 +70,7 @@ These traits are extremely rare (1-5% occurrence) and mutually exclusive with ot
 - -10% social skills with non-Void Touched individuals
 
 **Religious Connection:**
-Among Wormlings, these individuals are revered as "God Emperor's Chosen"—direct vessels for the deity's consciousness who receive clear visions rather than the fragmented whispers experienced by others. Non-Wormling Void Touched Prodigies are often viewed with suspicion by traditional religious authorities, who fear their connection to alien influences. They frequently become either revered advisors or persecuted outcasts, depending on the society's relationship with Void phenomena.
+Among Wormlings, these individuals are revered as "Shmalor's Chosen"—direct vessels for the deity's consciousness who receive clear visions rather than the fragmented whispers experienced by others. Non-Wormling Void Touched Prodigies are often viewed with suspicion by traditional religious authorities, who fear their connection to alien influences. They frequently become either revered advisors or persecuted outcasts, depending on the society's relationship with Void phenomena.
 
 ### Hive Nexus
 "A rare individual with an extraordinary capacity to coordinate group efforts and maintain complex organizational systems."
@@ -83,7 +83,7 @@ Among Wormlings, these individuals are revered as "God Emperor's Chosen"—direc
 - -5% to creative thinking
 
 **Religious Connection:**
-This trait is particularly valued among Shmalor worshippers for its strategic applications. Individuals with this trait often become leaders of trading companies, military units, or political factions where coordinating many moving parts is essential. Among Wormlings, this trait manifests as an enhanced connection to the collective consciousness, allowing the individual to serve as a living coordination hub for hundreds of other Wormlings. The God Emperor's worship enhances this trait, as the alien deity's consciousness operates on principles of vast, interconnected systems.
+This trait is particularly valued among Shmalor worshippers for its strategic applications. Individuals with this trait often become leaders of trading companies, military units, or political factions where coordinating many moving parts is essential. Among Wormlings, this trait manifests as an enhanced connection to the collective consciousness, allowing the individual to serve as a living coordination hub for hundreds of other Wormlings. Shmalor's worship enhances this trait, as the void deity's consciousness operates on principles of vast, interconnected systems.
 
 ## Implementation Notes
 

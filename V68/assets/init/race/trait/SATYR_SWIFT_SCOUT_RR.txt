@@ -1,0 +1,13 @@
+NAME: "Swift Scout",
+DESC: "This Satyr excels at reconnaissance and stealth, able to move silently through the forest and report on enemy movements without being detected.",
+BOOST: {
+	PHYSICS_SPEED>MUL: 1.25,
+	BATTLE_DODGE>MUL: 1.2,
+	PHYSICS_STAMINA>MUL: 1.15,
+	ROOM_HUNTER>MUL: 1.15,
+	FOREST_AFFINITY>MUL: 1.1,
+},
+SPRITE: 0,
+AVAILABLE: {
+	ARGONOSH: 0.25,
+},

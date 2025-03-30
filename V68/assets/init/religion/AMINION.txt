@@ -1,50 +1,16 @@
-<<<<<<< HEAD
-=======
-NAME: "Aminionism",
-DEITY: "Aminion",
-DESC: "Aminion, the Blood Lord, demands sacrifice and rewards cruelty. His temples accept human sacrifices (prisoners).",
-
->>>>>>> gh-pages
 ICON: 32->religion->AMINION->0,
 DEFAULT_SPREAD: 1.0,
 COLOR: 90_10_10,
 
 OPPOSITION: {
 	ATHURI: 4,
-<<<<<<< HEAD
 	CRATOR: 0,
 	SHMALOR: 0,
 },
 
 
-=======
-	CRATOR: 2,
-	SHMALOR: 1,
-	GOD_EMPEROR: 0,
-},
-
->>>>>>> gh-pages
 BOOST: {
 	BEHAVIOUR_SUBMISSION>MUL: 1.20,
 	WORLD_LOYALTY*>MUL: 1.05,
 	WORLD_CONSCRIPTABLE_TARGET>MUL: 1.1,
-<<<<<<< HEAD
 },
-=======
-	BATTLE_OFFENCE_DAMAGE>MUL: 1.15,
-	BATTLE_MORALE>ADD: 0.1,
-	ROOM_TORTURE*>MUL: 1.3,
-},
-
-WIKI: {
-	NAME: "Aminionism",
-	CATEGORY: "Religion",
-	TEXT: "Before The Shattering, Aminion was a just and beloved deity, a paragon of harmony and beauty who created the most graceful races in his image. When the Time Worm tore through reality, Aminion was the first to confront it, only to be corrupted by the void energies. His essence imploded in pain and rage, bursting into chaotic energies that spread through the races he had lovingly created.
-
-The Bloodelves were once Aminion's most beautiful creation - the harmonic elves of old, paragons of beauty and harmony. In their desperation to save their dying god, they performed a ritual to bind his essence to their bloodline. This ritual succeeded but at a terrible cost - they absorbed Aminion's corruption, leading to their current condition where they must consume blood to stave off 'The Withering.' Ancient knowledge preserved by the Bloodelves suggests that the void energies inverted Aminion's virtues, transforming his love into cruelty, his justice into tyranny. Well-fed Bloodelves are said to be nearly immortal, leading to their aristocratic, hedonistic society built on slavery and pragmatic cruelty.
-
-Hellspawns, originally graceful humans blessed by Aminion, underwent horrific transformation after exposure to the chaotic energies released during his implosion. Their skin hardened into a crimson carapace, and their minds were filled with the thousand faces and personalities that Aminion split into when he imploded. They embody mindless rage and aggression, thriving on slavery and brutal oppression - the living manifestations of Aminion's pain and anger.
-
-Aminion's temples are places of blood and shadow, where sacrifices are performed to feed the god's insatiable hunger. His priests, known as the Crimson Covenant, believe that through blood sacrifice, they can eventually restore Aminion to his former glory, though many suspect this is merely a delusion born of corruption. The twisted irony of Aminion's fall - from a god of harmony to a deity of chaos and cruelty - serves as a grim reminder of how the void can pervert even the most noble of beings.",
-},
->>>>>>> gh-pages

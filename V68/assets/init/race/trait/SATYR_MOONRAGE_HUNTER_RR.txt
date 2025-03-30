@@ -1,0 +1,13 @@
+NAME: "Moonrage Hunter",
+DESC: "This Satyr experiences a powerful transformation during the full moon, gaining enhanced strength and primal instincts that make them a fearsome hunter.",
+BOOST: {
+	LUNAR_INFLUENCE>ADD: 0.3,
+	BATTLE_SPEED>MUL: 1.2,
+	BATTLE_MORALE>MUL: 1.15,
+	PHYSICS_STAMINA>MUL: 1.15,
+	BEHAVIOUR_FERAL>ADD: 0.2,
+},
+SPRITE: 0,
+AVAILABLE: {
+	ARGONOSH: 0.25,
+},

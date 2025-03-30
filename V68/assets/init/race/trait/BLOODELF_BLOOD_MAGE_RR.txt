@@ -1,17 +1,13 @@
+NAME: "Blood Mage",
+DESC: "This Bloodelf has mastered the ancient art of blood magic, able to draw power from the life essence of others and channel it into mystical energies.",
 BOOST: {
-	PHYSICS_INTELLIGENCE>ADD: 0.1,
-	PHYSICS_LEARNING>MUL: 1.1,
-	ROOM_LABORATORY*>MUL: 1.15,
-	ROOM_LIBRARY*>MUL: 1.1,
-	ROOM_TEMPLE_AMINION*>MUL: 1.1,
-	BEHAVIOUR_RITUALISTIC>ADD: 0.15,
-	BEHAVIOUR_CRUEL>ADD: 0.1,
+	PHYSICS_INTELLIGENCE>ADD: 0.2,
+	BLOOD_MAGIC>ADD: 0.3,
+	ROOM_TEMPLE>MUL: 1.2,
+	ROOM_LIBRARY>MUL: 1.15,
+	BEHAVIOUR_RITUALISTIC>ADD: 0.2,
 },
-
-DEFAULT_RACE_OCCURANCE: {
-	*: 0.01,
-	BLOODELF: 0.2,
+SPRITE: 0,
+AVAILABLE: {
+	CANTOR: 0.3,
 },
-
-DISABLES_OTHERS: [
-],

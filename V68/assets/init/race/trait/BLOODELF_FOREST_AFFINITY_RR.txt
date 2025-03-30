@@ -1,0 +1,13 @@
+NAME: "Forest Affinity",
+DESC: "This Bloodelf has a deep connection to the ancient forests, able to move through woodland with supernatural ease and draw sustenance from the natural world.",
+BOOST: {
+	PHYSICS_SPEED>MUL: 1.15,
+	ROOM_WOODCUTTER>MUL: 1.1,
+	ROOM_HUNTER>MUL: 1.2,
+	BATTLE_SPEED>MUL: 1.2,
+	BATTLE_DODGE>MUL: 1.1,
+},
+SPRITE: 0,
+AVAILABLE: {
+	CANTOR: 0.3,
+},

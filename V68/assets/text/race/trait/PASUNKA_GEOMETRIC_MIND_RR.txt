@@ -9,5 +9,5 @@ BIO_DESC: [
 	"Those who spend extended time with {NAME} often find their own thoughts becoming more ordered and their emotions more controlled, as if {HIS} mental discipline radiates outward.",
 	"The Crator priests recognize {NAME}'s gift as a manifestation of divine geometry, the fundamental patterns that underlie all of creation made visible in a mortal mind.",
 	"{NAME} can enter a trance-like state where {HE} perceives reality as interlocking geometric forms, allowing {HIM} to understand complex systems with intuitive clarity.",
-	"Even in sleep, {NAME}'s mind remains partially active, processing information and solving problems through dreams filled with sacred geometric symbols and patterns."
-]
+	"Even in sleep, {NAME}'s mind remains partially active, processing information and solving problems through dreams filled with sacred geometric symbols and patterns.",
+],

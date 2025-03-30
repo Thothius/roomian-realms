@@ -1,0 +1,13 @@
+NAME: "Water Affinity",
+DESC: "This Froggian has an exceptional connection to water, able to swim with remarkable speed and breathe underwater for extended periods.",
+BOOST: {
+	PHYSICS_SWIMMING>MUL: 1.3,
+	PHYSICS_WATER_BREATHING>MUL: 1.2,
+	WATER_AFFINITY>ADD: 0.3,
+	ROOM_FISHERY>MUL: 1.2,
+	WORLD_BUILDING_PASTURE_FISHERY>MUL: 1.15,
+},
+SPRITE: 0,
+AVAILABLE: {
+	Q_AMEVIA: 0.3,
+},

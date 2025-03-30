@@ -1,0 +1,14 @@
+NAME: "Cosmic Memory",
+DESC: "This Wormling possesses fragments of memories from their home dimension, granting them insights into cosmic truths beyond mortal comprehension. They occasionally experience visions that provide unique knowledge.",
+BOOST: {
+	ROOM_LIBRARY>MUL: 1.3,
+	ROOM_UNIVERSITY>MUL: 1.2,
+	ROOM_LABORATORY>MUL: 1.3,
+	RATES_LEARNING>MUL: 1.3,
+	BEHAVIOUR_SANITY>MUL: 0.8,
+	RELIGION_SHMALOR>ADD: 0.3,
+},
+SPRITE: 0,
+AVAILABLE: {
+	GARTHIMI: 0.2,
+},

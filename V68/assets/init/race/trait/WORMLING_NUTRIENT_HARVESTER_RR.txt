@@ -1,0 +1,14 @@
+NAME: "Nutrient Harvester",
+DESC: "This Wormling has specialized digestive enzymes that can break down almost any organic matter into usable nutrients. They excel at managing food resources and preventing waste.",
+BOOST: {
+	ROOM_FARM>MUL: 1.25,
+	ROOM_ORCHARD>MUL: 1.2,
+	ROOM_PASTURE>MUL: 1.2,
+	FOOD_SPOILAGE>MUL: 0.6,
+	RATES_HUNGER>MUL: 0.85,
+	PHYSICS_HEALTH>MUL: 1.1,
+},
+SPRITE: 0,
+AVAILABLE: {
+	GARTHIMI: 0.2,
+},

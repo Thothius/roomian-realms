@@ -1,0 +1,13 @@
+NAME: "Aristocratic Grace",
+DESC: "This Bloodelf embodies the elegant refinement and haughty demeanor of their noble heritage, commanding respect and admiration through their bearing alone.",
+BOOST: {
+	PHYSICS_HEALTH>MUL: 1.1,
+	PHYSICS_SPEED>MUL: 1.1,
+	RATES_TEMPLE>MUL: 1.2,
+	ROOM_TAVERN_NORMAL>MUL: 1.2,
+	BEHAVIOUR_SANITY>MUL: 1.2,
+},
+SPRITE: 0,
+AVAILABLE: {
+	CANTOR: 0.3,
+},

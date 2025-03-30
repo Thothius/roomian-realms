@@ -1,0 +1,14 @@
+NAME: "Rapid Breeder",
+DESC: "This Wormling has an accelerated reproductive cycle, allowing them to produce offspring at an extraordinary rate. They contribute significantly to the colony's growth and recovery from population losses.",
+BOOST: {
+	RATES_REPRODUCTION>MUL: 1.4,
+	RATES_DEATH>MUL: 1.1,
+	PHYSICS_DEATH_AGE>MUL: 0.9,
+	PHYSICS_STAMINA>MUL: 0.9,
+	PHYSICS_HEALTH>MUL: 0.9,
+	WORLD_POINT_WORKFORCE>MUL: 1.2,
+},
+SPRITE: 0,
+AVAILABLE: {
+	GARTHIMI: 0.2,
+},

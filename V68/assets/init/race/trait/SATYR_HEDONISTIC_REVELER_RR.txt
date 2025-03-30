@@ -1,0 +1,13 @@
+NAME: "Hedonistic Reveler",
+DESC: "This Satyr embraces the pleasures of life with exceptional enthusiasm, excelling at creating festive atmospheres and lifting the spirits of those around them.",
+BOOST: {
+	ROOM_TAVERN_NORMAL>MUL: 1.25,
+	BEHAVIOUR_HEDONISM>ADD: 0.2,
+	RATES_REPRODUCTION>MUL: 1.15,
+	PHYSICS_STAMINA>MUL: 1.1,
+	BEHAVIOUR_SANITY>MUL: 1.1,
+},
+SPRITE: 0,
+AVAILABLE: {
+	ARGONOSH: 0.3,
+},

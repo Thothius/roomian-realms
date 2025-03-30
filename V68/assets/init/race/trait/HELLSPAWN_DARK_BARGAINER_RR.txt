@@ -1,0 +1,13 @@
+NAME: "Dark Bargainer",
+DESC: "This Hellspawn has mastered the art of making deals that ultimately favor them, using subtle manipulation and promises of power to get what they want.",
+BOOST: {
+	PHYSICS_HEALTH>MUL: 1.15,
+	INTIMIDATION>MUL: 1.15,
+	WORLD_POINT_WORKFORCE>MUL: 1.2,
+	BEHAVIOUR_CORRUPTION>ADD: 0.2,
+	BEHAVIOUR_LAWFULNESS>MUL: 0.8,
+},
+SPRITE: 0,
+AVAILABLE: {
+	TILAPI: 0.25,
+},

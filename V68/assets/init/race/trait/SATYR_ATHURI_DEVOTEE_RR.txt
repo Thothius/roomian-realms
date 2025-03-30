@@ -1,0 +1,13 @@
+NAME: "Athuri Devotee",
+DESC: "This Satyr has dedicated themselves to the worship of Athuri, gaining spiritual insight and a deeper connection to the natural cycles of life.",
+BOOST: {
+	RELIGION_ATHURI>ADD: 0.3,
+	ROOM_TEMPLE>MUL: 1.2,
+	RATES_TEMPLE>MUL: 1.15,
+	BEHAVIOUR_SANITY>MUL: 1.15,
+	BEHAVIOUR_RITUALISTIC>ADD: 0.2,
+},
+SPRITE: 0,
+AVAILABLE: {
+	ARGONOSH: 0.25,
+},

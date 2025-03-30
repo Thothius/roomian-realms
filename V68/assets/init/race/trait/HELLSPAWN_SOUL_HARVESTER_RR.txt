@@ -1,18 +1,13 @@
+NAME: "Soul Harvester",
+DESC: "This Hellspawn has the ability to extract and consume fragments of life essence from those who die near them, gaining strength and vitality in the process.",
 BOOST: {
-	BATTLE_OFFENCE_SKILL>ADD: 0.15,
-	BATTLE_MORALE>ADD: 0.1,
-	PHYSICS_STAMINA>MUL: 1.1,
-	PHYSICS_SPEED>MUL: 1.05,
-	BEHAVIOUR_AGGRESSIVE>ADD: 0.1,
-	BEHAVIOUR_CRUEL>ADD: 0.1,
-	CIVIC_INTIMIDATION>MUL: 1.15,
+	PHYSICS_HEALTH>MUL: 1.2,
+	PHYSICS_STAMINA>MUL: 1.25,
+	BATTLE_MORALE>MUL: 1.2,
+	BEHAVIOUR_CRUELTY>ADD: 0.2,
+	RATES_EXECUTION>MUL: 1.2,
 },
-
-DEFAULT_RACE_OCCURANCE: {
-	*: 0.01,
-	HELLSPAWN: 0.2,
-	BLOODELF: 0.05,
+SPRITE: 0,
+AVAILABLE: {
+	TILAPI: 0.25,
 },
-
-DISABLES_OTHERS: [
-],

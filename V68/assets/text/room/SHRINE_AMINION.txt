@@ -1,0 +1,25 @@
+INFO: {
+	NAME: "Shrine to Aminion",
+	NAMES: "Shrine to Aminion",
+	DESC: "A place for a quick worship of the deity Aminion.",
+},
+
+STATS: [
+	{
+		NAME: "Worshippers",
+		DESC: "The capacity of worshippers the will be available.",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "",
+		DESC: "",
+	},
+],
+
+SERVICE: {
+	NAME: "Shrine to Aminion",
+	NAMES: "Shrine to Aminion",
+	VERB: "Worshipping",
+},

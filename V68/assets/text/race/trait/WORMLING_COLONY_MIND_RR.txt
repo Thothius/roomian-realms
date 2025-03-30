@@ -1,14 +1,24 @@
 NAME: "Colony Mind",
 TITLE: "The Unified",
-DESC: "This Wormling's consciousness has merged completely with their internal parasite colony, creating a hive intelligence that functions as a single coordinated entity. This trait enhances 'Imperial Synchronization'—the ability to receive and transmit the God Emperor's directives throughout the collective consciousness.",
+DESC: "This Wormling's consciousness has merged completely with their internal parasite colony, creating a hive intelligence that functions as a single coordinated entity. This trait enhances 'Void Synchronization'—the ability to receive and transmit Shmalor's directives throughout the collective consciousness.",
 
 BIO_DESC: [
 	"When {NAME} speaks, subtle harmonic undertones can be detected, as if multiple voices are synchronizing perfectly to form a unified communication.",
 	"It is said that {NAME} never truly sleeps, as different segments of {HIS} parasite colony take turns maintaining consciousness while others rest.",
 	"During group activities, other Wormlings near {NAME} unconsciously synchronize their movements with {HIM}, as if drawn into the harmonious field of {HIS} colony mind.",
 	"Those who make eye contact with {NAME} report a disturbing sensation of being observed by countless entities simultaneously, all sharing a single purpose.",
-	"The God Emperor priests believe that colony minds like {NAME}'s represent the ideal state of consciousness, where the illusion of individuality dissolves into the perfect unity of the collective.",
-	"During the Void Communion ritual, {NAME} serves as a relay node, transmitting the God Emperor's consciousness to other participants with extraordinary clarity.",
+	"Shmalor priests believe that colony minds like {NAME}'s represent the ideal state of consciousness, where the illusion of individuality dissolves into the perfect unity of the collective.",
+	"During the Void Communion ritual, {NAME} serves as a relay node, transmitting Shmalor's consciousness to other participants with extraordinary clarity.",
 	"In times of crisis, {NAME} can enter a trance state where {HE} receives 'Imperial Directives'—insights that guide the collective toward optimal solutions with uncanny precision.",
-	"Other races find {NAME}'s presence deeply unsettling, sensing the alien intelligence of the God Emperor observing them through {HIS} countless eyes.",
+	"Other races find {NAME}'s presence deeply unsettling, sensing the alien intelligence of Shmalor observing them through {HIS} countless eyes.",
+],
+
+FLAVOUR: [
+	"The colony within {NAME} has achieved perfect harmony, allowing thousands of individual worms to function as a single organism with unprecedented coordination.",
+	"When {NAME} speaks, it is not with one voice but with thousands, each contributing to a haunting chorus that resonates with void energies.",
+	"Shmalor priests believe that colony minds like {NAME}'s represent the ideal state of consciousness, where the illusion of individuality dissolves into the perfect unity of the collective.",
+	"During the Void Communion ritual, {NAME} serves as a relay node, transmitting Shmalor's consciousness to other participants with extraordinary clarity.",
+	"{NAME} can process information through thousands of neural pathways simultaneously, perceiving patterns invisible to singular minds.",
+	"Other races find {NAME}'s presence deeply unsettling, sensing the alien intelligence of Shmalor observing them through {HIS} countless eyes.",
+	"The worms within {NAME} move with such perfect synchronization that they can reshape {HIS} host body with fluid precision, temporarily forming new appendages or sensory organs as needed.",
 ],

@@ -1,17 +1,13 @@
+NAME: "Infernal Resilience",
+DESC: "This Hellspawn's connection to infernal energies grants them exceptional resistance to heat and environmental hazards, allowing them to work in conditions that would be unbearable for others.",
 BOOST: {
-	PHYSICS_HEALTH>MUL: 1.1,
-	PHYSICS_HEALTH_REGENERATION>MUL: 1.05,
-	PHYSICS_STAMINA>MUL: 1.1,
-	CIVIC_ACCIDENT>MUL: 0.8,
-	BATTLE_DEFENCE_SKILL>ADD: 0.1,
-	ROOM_SMITH*>MUL: 1.15,
-	ROOM_MINE*>MUL: 1.1,
+	PHYSICS_RESISTANCE_HOT>ADD: 0.5,
+	PHYSICS_RESISTANCE_FIRE>ADD: 0.3,
+	PHYSICS_STAMINA>MUL: 1.2,
+	FIRE_AFFINITY>ADD: 0.2,
+	PHYSICS_PAIN_TOLERANCE>ADD: 0.3,
 },
-
-DEFAULT_RACE_OCCURANCE: {
-	*: 0.01,
-	HELLSPAWN: 0.2,
+SPRITE: 0,
+AVAILABLE: {
+	TILAPI: 0.3,
 },
-
-DISABLES_OTHERS: [
-],

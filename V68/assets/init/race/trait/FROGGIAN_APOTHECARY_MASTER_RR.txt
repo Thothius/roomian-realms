@@ -1,0 +1,13 @@
+NAME: "Apothecary Master",
+DESC: "This Froggian has mastered the art of creating medicines, potions, and remedies from natural ingredients, particularly those found in aquatic environments.",
+BOOST: {
+	ROOM_WORKSHOP_APOTHECARY>MUL: 1.25,
+	PHYSICS_HEALTH>MUL: 1.15,
+	PHYSICS_STAMINA>MUL: 1.1,
+	WATER_AFFINITY>ADD: 0.1,
+	KNOWLEDGE>MUL: 1.1,
+},
+SPRITE: 0,
+AVAILABLE: {
+	Q_AMEVIA: 0.3,
+},

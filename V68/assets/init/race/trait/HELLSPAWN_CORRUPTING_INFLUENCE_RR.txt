@@ -1,0 +1,13 @@
+NAME: "Corrupting Influence",
+DESC: "This Hellspawn exudes a subtle aura that corrupts and influences those around them, making them particularly effective at spreading the dark influence of their kind.",
+BOOST: {
+	PHYSICS_HEALTH>MUL: 1.15,
+	INTIMIDATION>MUL: 1.2,
+	BEHAVIOUR_CORRUPTION>ADD: 0.3,
+	ROOM_TAVERN_NORMAL>MUL: 1.15,
+	ROOM_TEMPLE>MUL: 1.15,
+},
+SPRITE: 0,
+AVAILABLE: {
+	TILAPI: 0.25,
+},

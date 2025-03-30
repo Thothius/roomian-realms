@@ -1,18 +1,13 @@
+NAME: "Forest Harmony",
+DESC: "This Satyr has an exceptional connection to the woodland, able to move through dense forest with supernatural ease and communicate with the natural world.",
 BOOST: {
-	ROOM_FORESTER*>MUL: 1.25,
-	ROOM_HUNTER*>MUL: 1.2,
-	ROOM_FARM*>MUL: 1.1,
-	PHYSICS_SPEED>MUL: 1.1,
-	PHYSICS_HEALTH>MUL: 1.05,
-	BEHAVIOUR_SPIRITUAL>ADD: 0.15,
-	BEHAVIOUR_DISCIPLINE>ADD: -0.05,
+	FOREST_AFFINITY>MUL: 1.3,
+	PHYSICS_SPEED>MUL: 1.2,
+	ROOM_WOODCUTTER>MUL: 1.2,
+	BATTLE_DODGE>MUL: 1.15,
+	BEHAVIOUR_FERAL>ADD: 0.1,
 },
-
-DEFAULT_RACE_OCCURANCE: {
-	*: 0.01,
-	SATYR: 0.15,
-	FROGGIAN: 0.05,
+SPRITE: 0,
+AVAILABLE: {
+	ARGONOSH: 0.3,
 },
-
-DISABLES_OTHERS: [
-],

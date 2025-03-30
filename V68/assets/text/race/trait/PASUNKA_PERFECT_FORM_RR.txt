@@ -9,5 +9,5 @@ BIO_DESC: [
 	"Those who spar with {NAME} report that fighting {HIM} is like battling a force of nature - {HIS} attacks coming with perfect timing and {HIS} defenses appearing exactly where needed.",
 	"Even elite warriors find themselves exhausted after brief encounters with {NAME}, while {HE} barely shows signs of exertion, {HIS} breathing controlled and {HIS} movements economical.",
 	"The geometric precision of {NAME}'s combat forms has been studied by military scholars, who claim that {HE} has achieved a level of martial perfection that transcends mere physical prowess.",
-	"{NAME}'s body bears the marks of {HIS} discipline - not scars, but rather an unnatural symmetry and proportion that makes {HIM} appear almost like a living statue crafted by Crator himself."
-]
+	"{NAME}'s body bears the marks of {HIS} discipline - not scars, but rather an unnatural symmetry and proportion that makes {HIM} appear almost like a living statue crafted by Crator himself.",
+],

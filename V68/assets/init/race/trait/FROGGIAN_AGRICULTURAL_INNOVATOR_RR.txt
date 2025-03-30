@@ -1,0 +1,13 @@
+NAME: "Agricultural Innovator",
+DESC: "This Froggian has developed advanced techniques for sustainable farming and irrigation, significantly improving crop yields.",
+BOOST: {
+	ROOM_FARM>MUL: 1.25,
+	ROOM_ORCHARD>MUL: 1.2,
+	WORLD_BUILDING_AGRICULTURE>MUL: 1.15,
+	WATER_AFFINITY>ADD: 0.1,
+	SCIENCE>MUL: 1.1,
+},
+SPRITE: 0,
+AVAILABLE: {
+	Q_AMEVIA: 0.3,
+},

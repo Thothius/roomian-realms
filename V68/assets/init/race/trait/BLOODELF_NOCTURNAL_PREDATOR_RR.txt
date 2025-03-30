@@ -1,0 +1,13 @@
+NAME: "Nocturnal Predator",
+DESC: "This Bloodelf has embraced their nocturnal nature to become a deadly hunter in the darkness, moving with unparalleled stealth and precision.",
+BOOST: {
+	PHYSICS_SPEED>MUL: 1.2,
+	BATTLE_RANGED_BOW>MUL: 1.2,
+	STEALTH_AMBUSH>ADD: 0.3,
+	ROOM_HUNTER>MUL: 1.25,
+	PHYSICS_NIGHT_VISION>ADD: 0.2,
+},
+SPRITE: 0,
+AVAILABLE: {
+	CANTOR: 0.3,
+},

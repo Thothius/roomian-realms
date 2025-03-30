@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ICON: 32->religion->CRATOR->0,
 DEFAULT_SPREAD: 1.0,
 COLOR: 127_74_39,
@@ -16,42 +15,3 @@ BOOST: {
 	ROOM_PASTURE*>ADD: 0.05,
 	ROOM_ORCHARD*>ADD: 0.05,
 },
-=======
-NAME: "Cratorism",
-DEITY: "Crator",
-DESC: "Crator, the Master Artificer, values perfection and order. His temples accept livestock offerings.",
-
-ICON: 32->religion->CRATOR->0,
-DEFAULT_SPREAD: 1.0,
-COLOR: 60_60_150,
-
-OPPOSITION: {
-	AMINION: 2,
-	ATHURI: 1,
-	SHMALOR: 3,
-	GOD_EMPEROR: 1,
-},
-
-BOOST: {
-	BEHAVIOUR_DISCIPLINE>ADD: 0.15,
-	WORLD_BUILDING_MINE>MUL: 1.15,
-	WORLD_BUILDING_INDUSTRY>MUL: 1.2,
-	WORLD_STONE*>MUL: 1.1,
-	WORLD_METAL*>MUL: 1.1,
-	ROOM_WORKSHOP*>MUL: 1.2,
-},
-
-WIKI: {
-	NAME: "Cratorism",
-	CATEGORY: "Religion",
-	TEXT: "Before The Shattering, Crator was the god of crafting and stonework, dwelling within a massive mountain fortress of his own creation. When the Time Worm tore through reality, Crator alone among the gods survived relatively unscathed, protected by ancient rune magic and cryptic stonebending techniques that were cerebral in nature. To this day, Crator remains trapped within his mountain sanctuary, unable to walk freely in the world but still able to guide his followers through strict codexes of discipline and meticulous training.
-
-The Finestorians, blue-skinned half-giants with an innate understanding of metalwork, serve as the 'Hammers of Crator.' These master craftsmen stand against the corruption and evil that has spread throughout the world since The Shattering, believing that order can be restored through materialism and perfect craftsmanship. Their metallic blue skin is said to be a blessing from Crator, allowing them to sense imperfections in metal and stone that would be invisible to others. In their forges, they bind fragments of their souls to their creations, imbuing them with purpose and power.
-
-The Pasunkas were once ordinary humans who sought refuge in Crator's temples during The Shattering. Through rigorous discipline and devotion to Crator's teachings, they transformed themselves into living embodiments of stone. Their characteristic baldness represents their strength, like a polished stone - perfect, smooth, and unyielding. These ascetic monks practice 'stone spiritualism,' a philosophy that teaches them to make themselves like stone both mentally and physically. Their push-up training regimen is not merely physical exercise but a spiritual practice, each repetition bringing them closer to the ideal of perfect form that Crator represents.
-
-Both races stand firmly against the chaotic forces represented by the Bloodelves and Hellspawns, seeing themselves as bulwarks of order in a world descending into madness. The Finestorians create weapons and armor of exceptional quality to equip those who fight against corruption, while the Pasunkas train warriors in the perfect forms of combat, teaching them to be as unyielding as stone in the face of chaos.
-
-Crator's temples are perfect geometric structures where every angle and proportion follows divine mathematics. Within these sanctuaries, his followers practice their crafts and martial disciplines with meticulous attention to detail, believing that through perfect form and unwavering discipline, they can maintain order in a world increasingly threatened by chaos and corruption. Though Crator remains trapped within his mountain, his followers believe that by adhering to his teachings and preserving his methods, they keep his influence alive in the world until the day he can break free from his self-imposed exile.",
-},
->>>>>>> gh-pages

@@ -36,7 +36,7 @@ TRAINING: {
 	FULL_TRAINING_IN_DAYS: 100,
 	BOOST: 
 	{
-		BATTLE_RANGED_CROSSBOW_RG2>ADD: 1.0,	** Crossbow skill
+		BATTLE_RANGED>ADD: 1.0,	** Standard archery skill
 		BATTLE_MORALE>ADD: 1.0,
 		PHYSICS_STAMINA>MUL: 1.2,		** more stamina
 	},

@@ -1,0 +1,13 @@
+NAME: "Diplomatic Mediator",
+DESC: "This Froggian possesses exceptional diplomatic skills, able to negotiate favorable terms and resolve conflicts through peaceful means.",
+BOOST: {
+	DIPLOMATIC_INSIGHT>ADD: 0.3,
+	NEGOTIATION>MUL: 1.25,
+	TRADE_EFFICIENCY>MUL: 1.15,
+	BEHAVIOUR_TALK>MUL: 1.2,
+	BEHAVIOUR_PACIFISM>ADD: 0.1,
+},
+SPRITE: 0,
+AVAILABLE: {
+	Q_AMEVIA: 0.25,
+},

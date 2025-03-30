@@ -1,0 +1,219 @@
+ICON: {
+	BG: 32->religion->ATHURI->0,
+	FG: 32->BG->8,
+	OFFX: 0,
+	OFFY: 0,
+	SHADOW: 2,
+},
+
+RELIGION: ATHURI,
+RESOURCES: [STONE,STONE_CUT,SITHILON,JEWELRY,],
+AREA_COSTS: [0.0,0,0,0,],
+MINI_COLOR: 173_107_165,
+MINI_COLOR_PATTERN: [
+	"--------",
+	"-0----0-",
+	"---00---",
+	"--0440--",
+	"-04--40-",
+	"-04--40-",
+	"--4--4--",
+	"--------",	
+],
+
+FLOOR: [STONE1,STONE_CROSS,STONE_CROSS,],
+
+ITEMS: [
+	{
+		COSTS: [1,1,1,1,],
+		STATS: [1,],
+	},
+],
+
+UPGRADES: [
+	{
+		RESOURCE_MASK: [2,0,0,0,],
+		BOOST: 0,
+	},
+	{
+		RESOURCE_MASK: [2,8,0,0,],
+		BOOST: 0.5,
+	},
+	{
+		RESOURCE_MASK: [2,8,3,1,],
+		BOOST: 1.0,
+	},
+],
+
+SERVICE: {
+	SOUND: DUMMY,
+	RADIUS: 128,
+},
+SPRITES: {
+
+	ALTAR_FLOOR_TEXTURE: [
+		{
+			COLOR: 150_150_150,
+			SHADOW_LENGTH: 0,
+			FRAMES: [
+				DECOR: 1,
+			],
+		},
+		{
+			COLOR: 180_180_180,
+			SHADOW_LENGTH: 0,
+			FRAMES: [
+				DECOR: 1,
+			],
+		},
+		{
+			COLOR: 200_200_200,
+			SHADOW_LENGTH: 0,
+			FRAMES: [
+				DECOR: 1,
+			],
+		},
+	
+	],
+	ALTAR_FLOOR_SCRIBBLE1_TEXTURE: [
+		{
+			COLOR: 220_220_220,
+			SHADOW_LENGTH: 0,
+			FRAMES: [
+				DECOR: 2,
+			],
+		},
+		{
+			COLOR: 0_86_48,
+			SHADOW_LENGTH: 0,
+			FRAMES: [
+				DECOR: 2,
+			],
+		},
+		{
+			COLOR: 30_120_70,
+			SHADOW_LENGTH: 0,
+			FRAMES: [
+				DECOR: 2,
+			],
+		},
+	
+	],
+	ALTAR_FLOOR_SCRIBBLE2_TEXTURE: [
+		{
+			COLOR: 255_255_255,
+			SHADOW_LENGTH: 0,
+			FRAMES: [
+				DECOR: 3,
+			],
+		},
+		{
+			COLOR: 0_86_48,
+			SHADOW_LENGTH: 0,
+			FRAMES: [
+				DECOR: 3,
+			],
+		},
+		{
+			COLOR: 255_255_30,
+			SHADOW_LENGTH: 0,
+			FRAMES: [
+				DECOR: 3,
+			],
+		},	
+	],
+
+	INNER_BOX: [
+		{
+			COLOR: 150_150_150,
+			FRAMES: [
+				PODIUM: 6,
+			],
+		},
+		{
+			COLOR: 213_203_182,
+			FRAMES: [
+				PODIUM: 6,
+			],
+		},
+		{
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 0,
+			FRAMES: [
+				PODIUM: 4,
+			],
+		},
+	],
+	ALTAR_BOX: [
+		{
+			COLOR: 85_80_80,
+			SHADOW_LENGTH: 8,
+			SHADOW_HEIGHT: 0,
+			FRAMES: [
+				ALTAR: 5,
+			],
+		},
+		{
+			COLOR: 200_200_200,
+			SHADOW_LENGTH: 8,
+			SHADOW_HEIGHT: 0,
+			FRAMES: [
+				ALTAR: 5,
+			],
+		},
+		{
+			SHADOW_LENGTH: 8,
+			SHADOW_HEIGHT: 0,
+			FRAMES: [
+				ALTAR: 1,
+			],
+		},
+	],
+	EMBLEM_1X1: [
+		{
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 0,
+			ROTATES: true,
+			FRAMES: [
+				TEMPLE_DECOR: 5,
+			],
+		},
+	],
+	EMBLEM_2X2: [
+		{
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 0,
+			ROTATES: true,
+			FRAMES: [
+				TEMPLE_EMBLEM: 1,
+			],
+		},
+	],
+	TORCH_1X1: [
+		{
+			SHADOW_LENGTH: 5,
+			SHADOW_HEIGHT: 0,
+			ROTATES: false,
+			FRAMES: [
+				TORCH: 3,
+			],
+		},
+		{
+			SHADOW_LENGTH: 5,
+			SHADOW_HEIGHT: 0,
+			ROTATES: false,
+			FRAMES: [
+				TORCH: 3,
+			],
+		},
+		{
+			SHADOW_LENGTH: 5,
+			SHADOW_HEIGHT: 0,
+			ROTATES: false,
+			FRAMES: [
+				TORCH: 2,
+			],
+		},
+	],
+},
+

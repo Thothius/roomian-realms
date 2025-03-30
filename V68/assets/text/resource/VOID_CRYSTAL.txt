@@ -1,6 +1,5 @@
 NAME: "Void Crystal",
 NAMES: "Void Crystals",
-<<<<<<< HEAD
 DESC: "Refined from raw Void Ore, these glowing purple crystals contain stabilized otherworldly energies. They serve as powerful conduits to the realm beyond, enabling the construction of void-based structures. Wormlings have a natural affinity for these crystals, while other races find them both fascinating and slightly unsettling.",
 ICON: 24->resource->Gem->0,
 DEGRADE_RATE: 0.001,
@@ -9,6 +8,3 @@ MINIMAP_COLOR: 150_0_200,
 SPRITE: Gem,
 SPRITE_DEBRIS: Wood,
 CATEGORY_DEFAULT: 1,
-=======
-DESC: "A mysterious crystalline substance refined from Void Ore. These crystals contain immense otherworldly energy and serve as a conduit to the realm beyond. Primarily used in advanced void structures and rituals by those who seek to harness the power of the void.",
->>>>>>> gh-pages

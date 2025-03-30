@@ -1,0 +1,14 @@
+NAME: "Colony Coordinator",
+DESC: "This Wormling possesses enhanced neural connections that allow them to coordinate the activities of other Wormlings with remarkable efficiency. They excel at organizing group efforts and optimizing collective work.",
+BOOST: {
+	ROOM_ADMIN_NORMAL>MUL: 1.3,
+	ROOM_STOCKPILE>MUL: 1.2,
+	ROOM_BARRACKS>MUL: 1.15,
+	BEHAVIOUR_LAWFULNESS>ADD: 0.3,
+	BEHAVIOUR_SUBMISSION>MUL: 1.2,
+	RATES_WORK>MUL: 1.15,
+},
+SPRITE: 0,
+AVAILABLE: {
+	GARTHIMI: 0.15,
+},

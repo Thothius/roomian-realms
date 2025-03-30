@@ -1,0 +1,13 @@
+NAME: "Infernal Tactician",
+DESC: "This Hellspawn possesses a cunning mind for warfare and conquest, able to devise strategies that maximize suffering while achieving victory.",
+BOOST: {
+	PHYSICS_INTELLIGENCE>ADD: 0.15,
+	BATTLE_PIERCE>MUL: 1.15,
+	BATTLE_MORALE>MUL: 1.1,
+	BATTLE_OFFENCE>MUL: 1.2,
+	BEHAVIOUR_LAWFULNESS>MUL: 0.9,
+},
+SPRITE: 0,
+AVAILABLE: {
+	TILAPI: 0.25,
+},

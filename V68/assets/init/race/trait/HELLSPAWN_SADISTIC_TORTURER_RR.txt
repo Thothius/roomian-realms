@@ -1,0 +1,13 @@
+NAME: "Sadistic Torturer",
+DESC: "This Hellspawn has refined the art of inflicting pain, extracting information and instilling fear with terrifying efficiency.",
+BOOST: {
+	BEHAVIOUR_CRUELTY>ADD: 0.3,
+	BEHAVIOUR_INTIMIDATION>ADD: 0.25,
+	TORTURE_EFFICIENCY>ADD: 0.3,
+	INTIMIDATION>MUL: 1.25,
+	RATES_EXECUTION>MUL: 1.2,
+},
+SPRITE: 0,
+AVAILABLE: {
+	TILAPI: 0.25,
+},

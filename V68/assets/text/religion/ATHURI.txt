@@ -1,20 +1,6 @@
-NAME: "Temple of Athuri",
-NAMES: "Temples of Athuri",
-DESC: "The Temple of Athuri honors the Leader and Greatest of the Astari, who embodies wisdom, harmony, and the natural order of the cosmos. Athuri Astari defeated his brother Bardok in both cosmic wars, establishing balance in the world and ensuring the continuation of life's sacred cycles.
-
-Athuri's temples are places of meditation, learning, and communion with nature. They feature open-air sanctuaries where sunlight and moonlight freely enter, symbolizing Athuri's omnipresent wisdom. Offerings of food are placed upon living altars—great stone tables entwined with flowering vines that change with the seasons, representing the eternal cycle of growth and renewal that Athuri protects.
-
-The Froggians are Athuri's primary devotees, connecting to his wisdom through their "Dreaming Pools" meditation practice. These sacred pools, filled with water infused with special herbs, allow Froggians to enter a collective trance state where they believe they can commune directly with Athuri's consciousness. Their Knowledge Pool, a vast repository of wisdom maintained by their eldest scholars, is said to contain fragments of Athuri's own thoughts, collected over millennia of meditation.
-
-The Satyrs honor Athuri through their "Wild Hunt" traditions, believing that the deity manifests in the cycles of the moon and the rhythms of the forest. During full moons, their Moonrage Matrons lead ceremonial hunts that celebrate the balance of predator and prey, life and death.
-
-Worshippers of Athuri believe the deity bestows several tangible blessings upon the faithful. Chief among these is "Athuri's Harmony"—an enhanced connection to natural cycles and living things. Devotees who regularly pray at Athuri's temples report an intuitive understanding of weather patterns, animal behavior, and plant growth cycles that provides practical benefits in agriculture, hunting, and medicine. Froggian communities with access to Athuri priests experience unprecedented agricultural prosperity, as their presence enhances soil fertility and plant resilience against disease and drought.
-
-The "Deep Meditation" ritual, practiced primarily by Froggians but open to all devotees, allows participants to perceive imbalances in the natural order across vast distances. During this ritual, participants enter a trance state where their consciousness expands beyond their physical bodies, allowing them to sense ecological threats such as blights, droughts, or invasive species before they become catastrophic. Communities that regularly perform this ritual can prepare for natural disasters with remarkable foresight, minimizing loss of life and resources.
-
-Athuri represents the eternal cycle of creation, preservation, and renewal. His followers believe that all life is interconnected in what they call the Great Harmony—a cosmic balance that must be maintained through mindful action and respect for natural laws. They see death not as an end but as a transformation, a return to the cosmic cycle that Athuri governs.
-
-The most sacred ritual in Athuri's temples is the Equinox Communion, performed twice yearly when day and night are perfectly balanced. During these ceremonies, worshippers enter a meditative trance and are said to glimpse the Astral Realm where Athuri dwells, receiving visions of wisdom that guide them through the coming seasons. Following this ritual, many devotees report receiving prophetic dreams that provide warning and guidance about future events, allowing communities to prepare or adapt accordingly.
+NAME: "Athurism",
+DEITY: "Athuri",
+DESC: "Athuri, the leader of the Astari, promotes wisdom and harmony. His temples are places of meditation and learning.",
 
 WIKI: {
 	NAME: "Temple of Athuri",

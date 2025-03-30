@@ -1,3 +1,9 @@
+INFO: {
+	NAME: "Northman",
+	NAMES: "Northmen",
+	DESC: "A hardy, seafaring people from the frigid coasts of northern Roomia, known for their resilience, trading prowess, and tactical cunning.",
+},
+
 DESC_LONG: "The Northmen are a hardy, seafaring people from the frigid coasts of northern Roomia, where brutal winters and treacherous waters forge resilient souls. Their society is built upon a foundation of competitive achievement, with status determined by one's accomplishments in trade, craftsmanship, or warfare. From an early age, Northmen children are taught to value self-reliance, cunning, and strength—qualities essential for survival in their harsh homeland. Their settlements feature distinctive architecture of intricately carved wooden longhouses with steep, pitched roofs designed to shed heavy snow, often adorned with elaborate knotwork patterns that tell the stories of their ancestors' great deeds.
 
 The cornerstone of Northmen culture is their trading tradition. Their sleek longships—masterpieces of engineering capable of navigating both open seas and shallow rivers—have established vast trade networks spanning the known world. Northmen traders are renowned for their shrewdness in negotiations, a trait they attribute to Shmalor's blessing. Before important trading expeditions, they perform the ritual of "Shmalor's Bargain," where they symbolically offer a portion of their expected profits to the Trickster God in exchange for the gift of foresight in deals. Many carry small silver mirrors as talismans, believing they reflect Shmalor's cunning insight and reveal hidden opportunities where others see only obstacles.

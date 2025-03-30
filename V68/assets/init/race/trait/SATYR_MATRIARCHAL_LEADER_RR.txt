@@ -1,0 +1,13 @@
+NAME: "Matriarchal Leader",
+DESC: "This Satyr possesses the wisdom and charisma of the Grove Mothers, commanding respect and inspiring loyalty among their kin.",
+BOOST: {
+	MATRIARCHAL_LEADERSHIP>ADD: 0.3,
+	BATTLE_MORALE>MUL: 1.15,
+	BEHAVIOUR_SUBMISSION>MUL: 0.8,
+	WORLD_POINT_WORKFORCE>MUL: 1.1,
+	PHYSICS_INTIMIDATION>ADD: 0.1,
+},
+SPRITE: 0,
+AVAILABLE: {
+	ARGONOSH: 0.25,
+},

@@ -1,0 +1,13 @@
+NAME: "Slave Master",
+DESC: "This Hellspawn has a natural talent for controlling and exploiting slaves, extracting maximum productivity while maintaining just enough loyalty to prevent rebellion.",
+BOOST: {
+	SLAVE_MANAGEMENT>MUL: 1.3,
+	PHYSICS_INTIMIDATION>ADD: 0.2,
+	BEHAVIOUR_CRUELTY>ADD: 0.2,
+	BEHAVIOUR_INTIMIDATION>ADD: 0.2,
+	RATES_EXECUTION>MUL: 1.2,
+},
+SPRITE: 0,
+AVAILABLE: {
+	TILAPI: 0.3,
+},

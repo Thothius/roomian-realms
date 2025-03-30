@@ -1,0 +1,13 @@
+NAME: "Athuri Harmonist",
+DESC: "This Froggian has dedicated themselves to the worship of Athuri, finding spiritual harmony through connection with nature and water.",
+BOOST: {
+	RELIGION_ATHURI>ADD: 0.3,
+	ROOM_TEMPLE>MUL: 1.2,
+	RATES_TEMPLE>MUL: 1.15,
+	BEHAVIOUR_RITUALISTIC>ADD: 0.2,
+	BEHAVIOUR_SPIRITUAL>ADD: 0.2,
+},
+SPRITE: 0,
+AVAILABLE: {
+	Q_AMEVIA: 0.25,
+},

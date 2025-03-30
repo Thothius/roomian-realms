@@ -1,0 +1,13 @@
+NAME: "Master Archer",
+DESC: "This Satyr has perfected the art of archery, able to hit targets with uncanny precision even through dense foliage or in low light conditions.",
+BOOST: {
+	BATTLE_ARCHERY>MUL: 1.25,
+	BATTLE_RANGED_BOW>MUL: 1.2,
+	BATTLE_PIERCE>MUL: 1.15,
+	ROOM_ARCHERY>MUL: 1.2,
+	ROOM_WORKSHOP_BOWYER>MUL: 1.15,
+},
+SPRITE: 0,
+AVAILABLE: {
+	ARGONOSH: 0.3,
+},
