@@ -1,0 +1,693 @@
+{
+  "metadata": {
+    "title": "Roomian Realms",
+    "version": "0.51",
+    "lastUpdated": "2025-03-31",
+    "description": "Eight extraordinary civilizations emerge from the ashes of a shattered world. From mystical forest guardians to technological amphibians, each society has forged its own path through the chaos of divine conflict."
+  },
+  "races": [
+    {
+      "id": "ARGONOSH",
+      "name": "Satyr",
+      "category": "Children of Light",
+      "alignment": "Good",
+      "primaryDeity": "Athuri",
+      "shortDescription": "Female-dominated forest dwellers who value nature and defense",
+      "description": "The Satyrs are forest-dwelling, nature-oriented beings with strong spiritual connections to Athuri. They excel in archery and hunting, with a deep understanding of herbal wisdom.",
+      "traitHighlights": ["Forest Harmony", "Moonrage Hunter", "Master Archer", "Herbal Wisdom", "Athuri Devotee"],
+      "physicalProperties": {
+        "height": 7,
+        "width": 7,
+        "adultAgeDays": 90,
+        "corpsesDecay": true,
+        "sleeps": true,
+        "raidMercenary": 0.3
+      },
+      "preferences": {
+        "foods": ["FRUIT", "VEGETABLE", "MUSHROOM", "MEAT"],
+        "favoriteDrink": "ALCO_WINE",
+        "environmentalPreferences": {
+          "cold": 0.4,
+          "temperate": 1.0,
+          "hot": 0.6,
+          "mountain": 0.01,
+          "forest": 1.0
+        },
+        "structurePreferences": {
+          "mountain": 0.1,
+          "stone": 0.0,
+          "grand": 0.1,
+          "wood": 1.0,
+          "outdoors": 1.0
+        }
+      },
+      "socialBehaviors": {
+        "skinnyDips": 0.8,
+        "slaveDriver": 0.1,
+        "slaver": 0.1,
+        "execution": 0.2,
+        "forestLover": 1.0,
+        "bloodlust": 0.4,
+        "cruelty": 0.3
+      },
+      "personalityTraits": {
+        "discipline": 0.9,
+        "loyalty": 1.0,
+        "pacifism": 0.5,
+        "hedonism": 0.9,
+        "ritualistic": 0.8,
+        "spiritual": 0.9,
+        "intellectual": 0.7
+      },
+      "workPreferences": {
+        "military": "High (Archery)",
+        "crafting": "Medium",
+        "farming": "High",
+        "administration": "Low"
+      },
+      "population": {
+        "maxPopulation": 0.9,
+        "growthRate": 0.05,
+        "immigrationRate": 0.7
+      },
+      "combat": {
+        "archery": 1.0,
+        "battleProwess": 1.0,
+        "preferredArmor": "LEATHER",
+        "preferredWeapons": "SHORT"
+      },
+      "relations": {
+        "mostFriendlyWith": "Q_AMEVIA (0.9)",
+        "mostHostileTo": "TILAPI (0.1)"
+      }
+    },
+    {
+      "id": "CANTOR",
+      "name": "Bloodelf",
+      "category": "Servants of Shadow",
+      "alignment": "Evil",
+      "primaryDeity": "Aminion",
+      "shortDescription": "Vampire-like beings who maintain slaves for blood consumption",
+      "description": "The Bloodelves are aristocratic, blood-focused beings with strong magical abilities. They excel in blood magic and stealth, with a deep connection to forests despite their sinister nature.",
+      "traitHighlights": ["Blood Mage", "Nocturnal Predator", "Aristocratic Grace", "Shadow Dancer", "Aminion Devotee"],
+      "physicalProperties": {
+        "height": 10,
+        "width": 8,
+        "adultAgeDays": 540,
+        "corpsesDecay": true,
+        "sleeps": true,
+        "raidMercenary": 1.0
+      },
+      "preferences": {
+        "foods": ["MEAT", "FISH"],
+        "favoriteDrink": "ALCO_WINE",
+        "environmentalPreferences": {
+          "cold": 0.7,
+          "temperate": 0.8,
+          "hot": 0.5,
+          "mountain": 0.8,
+          "forest": 0.9
+        },
+        "structurePreferences": {
+          "mountain": 0.8,
+          "stone": 0.3,
+          "grand": 0.75,
+          "wood": 0.5,
+          "outdoors": 0.2
+        }
+      },
+      "socialBehaviors": {
+        "skinnyDips": 0.2,
+        "slaveDriver": 1.0,
+        "slaver": 1.0,
+        "execution": 0.9,
+        "forestLover": 1.0,
+        "bloodlust": 1.0,
+        "cruelty": 1.0
+      },
+      "personalityTraits": {
+        "discipline": 1.0,
+        "loyalty": 0.7,
+        "pacifism": 0.1,
+        "hedonism": 0.9,
+        "ritualistic": 1.0,
+        "spiritual": 0.8,
+        "intellectual": 1.0
+      },
+      "workPreferences": {
+        "military": "High",
+        "crafting": "High",
+        "farming": "Low",
+        "administration": "High"
+      },
+      "population": {
+        "maxPopulation": 0.7,
+        "growthRate": 0.01,
+        "immigrationRate": 0.3
+      },
+      "combat": {
+        "archery": 0.8,
+        "battleProwess": 1.0,
+        "preferredArmor": "PLATE",
+        "preferredWeapons": "LONG"
+      },
+      "relations": {
+        "mostFriendlyWith": "TILAPI (0.8)",
+        "mostHostileTo": "Q_AMEVIA (0.1)"
+      }
+    },
+    {
+      "id": "CRETONIAN",
+      "name": "Pasunka",
+      "category": "The Outsiders",
+      "alignment": "Beyond Morality",
+      "primaryDeity": "Crator",
+      "shortDescription": "Spiritual martial artists who value discipline",
+      "description": "The Pasunkas are disciplined, balanced martial artists who follow the teachings of Crator. They value order, perfection, and spiritual devotion, with exceptional combat abilities.",
+      "traitHighlights": ["Excessive Devotion", "Geometric Mind", "Honorable Mediator", "Martial Instructor", "Perfect Form"],
+      "physicalProperties": {
+        "height": 9,
+        "width": 9,
+        "adultAgeDays": 120,
+        "corpsesDecay": true,
+        "sleeps": true,
+        "raidMercenary": 0.8
+      },
+      "preferences": {
+        "foods": ["MEAT", "BREAD"],
+        "favoriteDrink": "ALCO_BEER",
+        "environmentalPreferences": {
+          "cold": 0.3,
+          "temperate": 0.7,
+          "hot": 0.9,
+          "mountain": 0.5,
+          "forest": 0.5
+        },
+        "structurePreferences": {
+          "mountain": 0.5,
+          "stone": 0.5,
+          "grand": 0.5,
+          "wood": 0.5,
+          "outdoors": 0.5
+        }
+      },
+      "socialBehaviors": {
+        "skinnyDips": 0.5,
+        "slaveDriver": 0.8,
+        "slaver": 0.8,
+        "execution": 0.8,
+        "forestLover": 0.2,
+        "bloodlust": 0.9,
+        "cruelty": 0.8
+      },
+      "personalityTraits": {
+        "discipline": 1.0,
+        "loyalty": 0.8,
+        "pacifism": 0.1,
+        "hedonism": 0.6,
+        "ritualistic": 0.7,
+        "spiritual": 0.6,
+        "intellectual": 0.7
+      },
+      "workPreferences": {
+        "military": "Very High",
+        "crafting": "Medium",
+        "farming": "Low",
+        "administration": "Medium"
+      },
+      "population": {
+        "maxPopulation": 0.8,
+        "growthRate": 0.04,
+        "immigrationRate": 0.6
+      },
+      "combat": {
+        "archery": 0.5,
+        "battleProwess": 1.0,
+        "preferredArmor": "PLATE",
+        "preferredWeapons": "BLUNT"
+      },
+      "relations": {
+        "mostFriendlyWith": "DONDORIAN (0.8)",
+        "mostHostileTo": "Q_AMEVIA (0.3)"
+      }
+    },
+    {
+      "id": "DONDORIAN",
+      "name": "Finestorian",
+      "category": "Heirs of Balance",
+      "alignment": "Neutral",
+      "primaryDeity": "Crator",
+      "shortDescription": "Craftsmen who value skill and honest labor",
+      "description": "The Finestorians are master craftsmen and builders with a deep connection to Crator. They excel in architecture, geometric thinking, and creating things of beauty and function.",
+      "traitHighlights": ["Architectural Vision", "Artisan Legacy", "Efficient Builder", "Geometric Mind", "Master Craftsman"],
+      "physicalProperties": {
+        "height": 8,
+        "width": 8,
+        "adultAgeDays": 120,
+        "corpsesDecay": true,
+        "sleeps": true,
+        "raidMercenary": 0.9
+      },
+      "preferences": {
+        "foods": ["MEAT", "BREAD", "CHEESE"],
+        "favoriteDrink": "ALCO_BEER",
+        "environmentalPreferences": {
+          "cold": 0.9,
+          "temperate": 0.8,
+          "hot": 0.3,
+          "mountain": 0.7,
+          "forest": 0.6
+        },
+        "structurePreferences": {
+          "mountain": 0.7,
+          "stone": 0.6,
+          "grand": 0.6,
+          "wood": 0.8,
+          "outdoors": 0.7
+        }
+      },
+      "socialBehaviors": {
+        "skinnyDips": 0.7,
+        "slaveDriver": 0.7,
+        "slaver": 0.7,
+        "execution": 0.7,
+        "forestLover": 0.5,
+        "bloodlust": 0.8,
+        "cruelty": 0.7
+      },
+      "personalityTraits": {
+        "discipline": 0.8,
+        "loyalty": 0.8,
+        "pacifism": 0.3,
+        "hedonism": 0.8,
+        "ritualistic": 0.6,
+        "spiritual": 0.6,
+        "intellectual": 0.8
+      },
+      "workPreferences": {
+        "military": "High",
+        "crafting": "High",
+        "farming": "Medium",
+        "administration": "Medium"
+      },
+      "population": {
+        "maxPopulation": 0.9,
+        "growthRate": 0.05,
+        "immigrationRate": 0.7
+      },
+      "combat": {
+        "archery": 0.7,
+        "battleProwess": 0.9,
+        "preferredArmor": "CHAIN",
+        "preferredWeapons": "LONG"
+      },
+      "relations": {
+        "mostFriendlyWith": "CRETONIAN (0.8)",
+        "mostHostileTo": "TILAPI (0.4)"
+      }
+    },
+    {
+      "id": "GARTHIMI",
+      "name": "Wormling",
+      "category": "The Outsiders",
+      "alignment": "Beyond Morality",
+      "primaryDeity": "Shmalor",
+      "secondaryDeity": "God Emperor",
+      "shortDescription": "Parasitic entities that infest hosts",
+      "description": "The Wormlings are parasitic, hive-minded beings with cosmic connections to Shmalor and the God Emperor. They possess alien intelligence and adaptability, with fragments of the God Emperor's essence allowing them to perceive multiple realities.",
+      "traitHighlights": ["Hive Mind", "Parasitic Evolution", "Cosmic Memory", "Adaptive Physiology", "Void Touched"],
+      "physicalProperties": {
+        "height": 8,
+        "width": 8,
+        "adultAgeDays": 120,
+        "corpsesDecay": true,
+        "sleeps": true,
+        "raidMercenary": 0.4
+      },
+      "preferences": {
+        "foods": ["VEGETABLE", "FRUIT", "BREAD"],
+        "favoriteDrink": "WATER",
+        "environmentalPreferences": {
+          "cold": 0.5,
+          "temperate": 0.8,
+          "hot": 0.7,
+          "mountain": 0.9,
+          "forest": 0.5
+        },
+        "structurePreferences": {
+          "mountain": 0.9,
+          "stone": 0.8,
+          "grand": 0.9,
+          "wood": 0.3,
+          "outdoors": 0.3
+        }
+      },
+      "socialBehaviors": {
+        "skinnyDips": 0.4,
+        "slaveDriver": 0.3,
+        "slaver": 0.3,
+        "execution": 0.3,
+        "forestLover": 0.7,
+        "bloodlust": 0.2,
+        "cruelty": 0.2
+      },
+      "personalityTraits": {
+        "discipline": 1.0,
+        "loyalty": 0.9,
+        "pacifism": 0.7,
+        "hedonism": 0.3,
+        "ritualistic": 0.9,
+        "spiritual": 1.0,
+        "intellectual": 0.9
+      },
+      "workPreferences": {
+        "military": "Medium",
+        "crafting": "High",
+        "farming": "High",
+        "administration": "High"
+      },
+      "population": {
+        "maxPopulation": 0.7,
+        "growthRate": 0.03,
+        "immigrationRate": 0.5
+      },
+      "combat": {
+        "archery": 0.5,
+        "battleProwess": 0.7,
+        "preferredArmor": "CHAIN",
+        "preferredWeapons": "SHORT"
+      },
+      "relations": {
+        "mostFriendlyWith": "HUMAN (0.8)",
+        "mostHostileTo": "TILAPI (0.2)"
+      }
+    },
+    {
+      "id": "HUMAN",
+      "name": "Northman",
+      "category": "Heirs of Balance",
+      "alignment": "Neutral",
+      "primaryDeity": "Crator",
+      "shortDescription": "Pragmatic traders and warriors driven by ambition",
+      "description": "The Northmen are adaptable humans with seafaring and trading traditions. They are pragmatic warriors who value ambition, glory, and clan loyalty, with exceptional cold resistance.",
+      "traitHighlights": ["Seafarer", "Glory Seeker", "Trader Savvy", "Cold Resistant", "Pragmatic Warrior"],
+      "physicalProperties": {
+        "height": 7,
+        "width": 7,
+        "adultAgeDays": 120,
+        "corpsesDecay": true,
+        "sleeps": true,
+        "raidMercenary": 0.5
+      },
+      "preferences": {
+        "foods": ["BREAD", "CHEESE", "MEAT", "FRUIT"],
+        "favoriteDrink": "ALCO_WINE",
+        "environmentalPreferences": {
+          "cold": 0.6,
+          "temperate": 1.0,
+          "hot": 0.6,
+          "mountain": 0.6,
+          "forest": 0.6
+        },
+        "structurePreferences": {
+          "mountain": 0.5,
+          "stone": 0.9,
+          "grand": 0.9,
+          "wood": 0.5,
+          "outdoors": 0.5
+        }
+      },
+      "socialBehaviors": {
+        "skinnyDips": 0.5,
+        "slaveDriver": 0.5,
+        "slaver": 0.5,
+        "execution": 0.5,
+        "forestLover": 0.5,
+        "bloodlust": 0.5,
+        "cruelty": 0.5
+      },
+      "personalityTraits": {
+        "discipline": 0.7,
+        "loyalty": 0.7,
+        "pacifism": 0.5,
+        "hedonism": 0.6,
+        "ritualistic": 0.6,
+        "spiritual": 0.6,
+        "intellectual": 0.9
+      },
+      "workPreferences": {
+        "military": "Medium",
+        "crafting": "Very High",
+        "farming": "Medium",
+        "administration": "High"
+      },
+      "population": {
+        "maxPopulation": 1.0,
+        "growthRate": 0.06,
+        "immigrationRate": 0.8
+      },
+      "combat": {
+        "archery": 0.6,
+        "battleProwess": 0.7,
+        "preferredArmor": "CHAIN",
+        "preferredWeapons": "SHORT"
+      },
+      "relations": {
+        "mostFriendlyWith": "GARTHIMI (0.8)",
+        "mostHostileTo": "TILAPI (0.3)"
+      }
+    },
+    {
+      "id": "Q_AMEVIA",
+      "name": "Froggian",
+      "category": "Children of Light",
+      "alignment": "Good",
+      "primaryDeity": "Athuri",
+      "shortDescription": "Amphibious beings who embody wisdom and technology",
+      "description": "The Froggians are amphibious, intellectual beings with a deep connection to Athuri. They excel in diplomacy, scholarship, and agriculture, with a strong affinity for water.",
+      "traitHighlights": ["Water Affinity", "Scholar Sage", "Diplomatic Mediator", "Collective Thinker", "Agricultural Innovator"],
+      "physicalProperties": {
+        "height": 6,
+        "width": 6,
+        "adultAgeDays": 90,
+        "corpsesDecay": true,
+        "sleeps": true,
+        "raidMercenary": 0.1
+      },
+      "preferences": {
+        "foods": ["FISH", "FRUIT", "VEGETABLE"],
+        "favoriteDrink": "WATER",
+        "environmentalPreferences": {
+          "cold": 0.3,
+          "temperate": 0.8,
+          "hot": 0.9,
+          "mountain": 0.2,
+          "forest": 0.7
+        },
+        "structurePreferences": {
+          "mountain": 0.1,
+          "stone": 0.3,
+          "grand": 0.3,
+          "wood": 0.7,
+          "outdoors": 0.9
+        }
+      },
+      "socialBehaviors": {
+        "skinnyDips": 0.9,
+        "slaveDriver": 0.1,
+        "slaver": 0.1,
+        "execution": 0.1,
+        "forestLover": 0.9,
+        "bloodlust": 0.1,
+        "cruelty": 0.1
+      },
+      "personalityTraits": {
+        "discipline": 0.6,
+        "loyalty": 0.8,
+        "pacifism": 0.9,
+        "hedonism": 0.7,
+        "ritualistic": 0.9,
+        "spiritual": 1.0,
+        "intellectual": 0.8
+      },
+      "workPreferences": {
+        "military": "Low",
+        "crafting": "Medium",
+        "farming": "High",
+        "administration": "Medium"
+      },
+      "population": {
+        "maxPopulation": 0.8,
+        "growthRate": 0.07,
+        "immigrationRate": 0.6
+      },
+      "combat": {
+        "archery": 0.4,
+        "battleProwess": 0.5,
+        "preferredArmor": "LEATHER",
+        "preferredWeapons": "SHORT"
+      },
+      "relations": {
+        "mostFriendlyWith": "ARGONOSH (0.9)",
+        "mostHostileTo": "CANTOR (0.1)"
+      }
+    },
+    {
+      "id": "TILAPI",
+      "name": "Hellspawn",
+      "category": "Servants of Shadow",
+      "alignment": "Evil",
+      "primaryDeity": "Aminion",
+      "shortDescription": "Demonic entities that embody chaos and destruction",
+      "description": "The Hellspawns are demonic entities devoted to Aminion. They excel in combat, torture, and slave management, with innate demonic strength and resilience to heat.",
+      "traitHighlights": ["Slave Master", "Infernal Resilience", "Sadistic Torturer", "Demonic Strength", "Corrupting Influence"],
+      "physicalProperties": {
+        "height": 8,
+        "width": 8,
+        "adultAgeDays": 90,
+        "corpsesDecay": true,
+        "sleeps": true,
+        "raidMercenary": 0.9
+      },
+      "preferences": {
+        "foods": ["MEAT", "CHEESE"],
+        "favoriteDrink": "ALCO_BEER",
+        "environmentalPreferences": {
+          "cold": 0.3,
+          "temperate": 0.5,
+          "hot": 1.0,
+          "mountain": 0.8,
+          "forest": 0.3
+        },
+        "structurePreferences": {
+          "mountain": 0.8,
+          "stone": 0.7,
+          "grand": 0.6,
+          "wood": 0.3,
+          "outdoors": 0.2
+        }
+      },
+      "socialBehaviors": {
+        "skinnyDips": 0.3,
+        "slaveDriver": 0.9,
+        "slaver": 0.9,
+        "execution": 0.9,
+        "forestLover": 0.3,
+        "bloodlust": 1.0,
+        "cruelty": 1.0
+      },
+      "personalityTraits": {
+        "discipline": 0.9,
+        "loyalty": 0.6,
+        "pacifism": 0.1,
+        "hedonism": 0.7,
+        "ritualistic": 0.8,
+        "spiritual": 0.7,
+        "intellectual": 0.6
+      },
+      "workPreferences": {
+        "military": "Very High",
+        "crafting": "Medium",
+        "farming": "Low",
+        "administration": "Medium"
+      },
+      "population": {
+        "maxPopulation": 0.7,
+        "growthRate": 0.04,
+        "immigrationRate": 0.4
+      },
+      "combat": {
+        "archery": 0.6,
+        "battleProwess": 1.0,
+        "preferredArmor": "PLATE",
+        "preferredWeapons": "LONG"
+      },
+      "relations": {
+        "mostFriendlyWith": "CANTOR (0.8)",
+        "mostHostileTo": "Q_AMEVIA (0.1)"
+      }
+    }
+  ],
+  "deities": [
+    {
+      "id": "ATHURI",
+      "name": "Athuri",
+      "title": "The Leader",
+      "description": "Greatest of the Astari, who embodies wisdom, harmony, and the natural order. Defeated his brother Bardok in both cosmic wars, establishing balance in the world.",
+      "domains": ["Nature", "Wisdom", "Harmony", "Balance"],
+      "primaryFollowers": ["Satyrs (ARGONOSH)", "Froggians (Q_AMEVIA)"],
+      "sacredRitual": "Astral Communion",
+      "templeDescription": "Athuri temples are built with natural materials and feature living gardens, flowing water, and open-air meditation spaces where followers can commune with nature."
+    },
+    {
+      "id": "AMINION",
+      "name": "Aminion",
+      "title": "The Fallen One",
+      "description": "Lord of chaos who rebelled against the cosmic order. Once a powerful Astari, Aminion sought to remake reality in his own image.",
+      "domains": ["Chaos", "Pain", "Rebellion", "Blood"],
+      "primaryFollowers": ["Hellspawns (TILAPI)", "Bloodelves (CANTOR)"],
+      "sacredRitual": "Embrace of Pain",
+      "templeDescription": "Aminion temples feature blood altars, pain chambers, and sacrificial pits where followers demonstrate their devotion through embracing suffering."
+    },
+    {
+      "id": "CRATOR",
+      "name": "Crator",
+      "title": "The Divine Architect",
+      "description": "Foremost creator among the Astari, who shaped the physical world and its many creatures. His temples celebrate craftsmanship, discipline, and the perfection of form.",
+      "domains": ["Creation", "Order", "Discipline", "Craftsmanship"],
+      "primaryFollowers": ["Pasunkas (CRETONIAN)", "Finestorians (DONDORIAN)"],
+      "sacredRitual": "Geometrical Meditation",
+      "templeDescription": "Crator temples feature perfect geometric proportions, workshops for crafting sacred objects, and meditation chambers where devotees contemplate perfect forms and patterns."
+    },
+    {
+      "id": "SHMALOR",
+      "name": "Shmalor",
+      "title": "The Slain Queen",
+      "description": "Queen of the Agonosh, who represents the cosmic void and the spaces between realities. Slain during the first war of the gods, her death tore the veil between dimensions.",
+      "domains": ["Void", "Death", "Transformation", "Space Between"],
+      "primaryFollowers": ["Wormlings (GARTHIMI)"],
+      "sacredRitual": "Void Glimpsing",
+      "templeDescription": "Shmalor temples feature impossible geometries, dark chambers that seem larger inside than outside, and meditation pools where devotees can glimpse the void between worlds."
+    },
+    {
+      "id": "GOD_EMPEROR",
+      "name": "God Emperor",
+      "title": "The Alien Entity",
+      "description": "An alien entity from beyond reality that entered Roomia through The Breach created by Shmalor's death. Unlike the other deities who were once gods of Roomia, the God Emperor is an extradimensional presence.",
+      "domains": ["Extradimensional", "Transcendence", "Cosmic Horror", "Alien Knowledge"],
+      "primaryFollowers": ["Wormlings (GARTHIMI)"],
+      "sacredRitual": "Void Communion",
+      "templeDescription": "God Emperor temples feature impossible geometries, void breaches, and strange machinery that seems to function according to alien principles. Worshippers temporarily merge their consciousness with the God Emperor during sacred rituals."
+    }
+  ],
+  "categories": [
+    {
+      "id": "CHILDREN_OF_LIGHT",
+      "name": "Children of Light",
+      "alignment": "Good",
+      "description": "These races value harmony with nature, knowledge, and peaceful cooperation. They seek to preserve life and maintain balance in the world.",
+      "members": ["Satyrs (ARGONOSH)", "Froggians (Q_AMEVIA)"]
+    },
+    {
+      "id": "HEIRS_OF_BALANCE",
+      "name": "Heirs of Balance",
+      "alignment": "Neutral",
+      "description": "These races take a pragmatic approach to survival, valuing tradition, craft, and community while acknowledging the necessity of conflict.",
+      "members": ["Finestorians (DONDORIAN)", "Northmen (HUMAN)"]
+    },
+    {
+      "id": "SERVANTS_OF_SHADOW",
+      "name": "Servants of Shadow",
+      "alignment": "Evil",
+      "description": "These races embrace pain, domination, and chaos. They seek power through cruelty and the subjugation of others.",
+      "members": ["Hellspawns (TILAPI)", "Bloodelves (CANTOR)"]
+    },
+    {
+      "id": "THE_OUTSIDERS",
+      "name": "The Outsiders",
+      "alignment": "Beyond Morality",
+      "description": "These races operate according to alien principles that transcend conventional morality. Their motives and perceptions are fundamentally different from other races.",
+      "members": ["Wormlings (GARTHIMI)", "Pasunkas (CRETONIAN)"]
+    }
+  ]
+}

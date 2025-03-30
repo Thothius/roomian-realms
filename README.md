@@ -1,4 +1,4 @@
-# RoomianRealms (v0.5)
+# RoomianRealms (v0.51)
 
 ## Overview
 
@@ -11,7 +11,21 @@ When ancient powers clashed, they left behind a tapestry of diverse cultures—e
 - **[Online Documentation](https://thothius.github.io/roomian-realms/)** - View our comprehensive documentation website
 - **In-Game Documentation** - Access the HTML documentation in the mod folder
 
-## What's New in Version 0.5
+## What's New in Version 0.51
+
+### Enhanced Character Trait System
+- Added comprehensive race-specific traits for all 8 playable races
+- Each race now has 8 unique traits reflecting their culture and biology
+- Implemented the God Emperor Devotee trait for Wormlings and other followers
+- Added elite traits that reflect connections to all five deities
+- Balanced trait distribution and improved exclusivity rules
+
+### Comprehensive Religious Framework
+- Expanded lore for all five deities (Athuri, Aminion, Crator, Shmalor, God Emperor)
+- Detailed connections between races and their patron deities
+- Enhanced temple descriptions and religious practices
+- Sacred rituals and ceremonies for each faith
+- Revealed the true nature of the God Emperor and its relationship with Shmalor
 
 ### Streamlined Building System
 - Removed complex religious buildings (PANTHEON_TEMPLE_RG2, PAIN_EMBRACE_RG2, BLOOD_RITUAL_RG2, DREAMING_POOL_RG2)
@@ -24,13 +38,6 @@ When ancient powers clashed, they left behind a tapestry of diverse cultures—e
 - Added **Mercenary Expedition Post** that sends mercenaries on expeditions to find luxury resources
 - Updated **Cretonian Dojo** to focus on unarmed combat and training with pushup gloves
 - Maintained the **Advanced Armory** for production of specialized weapons including pushup gloves
-
-### Comprehensive Religious Framework
-- Expanded lore for all five deities (Athuri, Aminion, Crator, Shmalor, God Emperor)
-- Detailed connections between races and their patron deities
-- Enhanced temple descriptions and religious practices
-- Sacred rituals and ceremonies for each faith
-- Revealed the true nature of the God Emperor and its relationship with Shmalor
 
 ## Features
 
@@ -62,15 +69,15 @@ When ancient powers clashed, they left behind a tapestry of diverse cultures—e
 
 - **The Slain Queen (Shmalor)** - Queen of the Agonosh, who represents the cosmic void and the spaces between realities. Slain during the first war of the gods, her death tore the veil between dimensions. Primarily worshipped by Wormlings.
 
-- **The God Emperor** - An alien entity from beyond reality that entered Roomia through the breach created by Shmalor's death. Unlike the other deities who were once gods of Roomia, the God Emperor is an extradimensional presence whose consciousness exists primarily in the void between dimensions. The Wormlings contain fragments of its essence, allowing them to perceive multiple realities simultaneously. The ultimate goal of its worship is transcendence - preparing Roomia for the God Emperor's eventual return.
+- **The God Emperor** - An alien entity from beyond reality that entered Roomia through The Breach created by Shmalor's death. Unlike the other deities who were once gods of Roomia, the God Emperor is an extradimensional presence whose consciousness exists primarily in the void between dimensions. The Wormlings contain fragments of its essence, allowing them to perceive multiple realities simultaneously. The ultimate goal of its worship is transcendence - preparing Roomia for the God Emperor's eventual return.
 
 ### Character Traits System
 
 The mod features a comprehensive trait system with:
 
-- **Race-Specific Traits**: Each race has unique traits that reflect their cultural and biological characteristics
+- **Race-Specific Traits**: Each race has 8 unique traits that reflect their cultural and biological characteristics
 - **Elite Traits**: Rare and powerful traits with very low occurrence rates (0.5-1.5%)
-- **Void-Related Traits**: Special traits that enhance interaction with Void technology
+- **Religious Devotee Traits**: Special traits for devoted followers of each of the five deities
 - **Balanced Distribution**: Traits are distributed appropriately based on race population sizes
 - **Mutual Exclusivity**: Thematically opposite traits cannot be possessed simultaneously
 
@@ -89,6 +96,20 @@ Immerse yourself in the world of Roomian Realms with a custom soundtrack that en
 
 - Compatible with Songs of Syx version 68
 - Not compatible with previous versions
+
+## Changelog
+
+### Version 0.51 (March 31, 2025)
+- Added 41 race-specific trait files for all 8 races
+- Implemented the God Emperor as the fifth deity in the religious framework
+- Fixed references to deities in documentation
+- Updated trait system to reflect the expanded religious framework
+
+### Version 0.5 (Previous Release)
+- Streamlined building system by removing complex and redundant structures
+- Enhanced military buildings with new functionality
+- Expanded religious framework and lore
+- Added custom music
 
 ## Credits
 
