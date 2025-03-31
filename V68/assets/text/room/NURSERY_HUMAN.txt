@@ -1,12 +1,12 @@
 INFO: {
-	NAME: "Human Nursery",
-	NAMES: "Human Nurseries",
+	NAME: "Northmen Nursery",
+	NAMES: "Northmen Nurseries",
 	DESC: "A place where human babies are born and brought up. Each station is capable of bringing one up and needs fruit to operate, else the child will starve.",
 },
 
 
 BONUS: {
-	NAME: "Human upbringing",
+	NAME: "Northmen upbringing",
 	DESC: "Increases the rate at which humans are raised in Human Nurseries.",
 },
 
@@ -38,7 +38,7 @@ ITEMS: [
 
 WORK: {
 	TITLE: "Wet Nurse",
-	VERB: "Tending to human children.",
+	VERB: "Tending to Northmen children.",
 },
 
 

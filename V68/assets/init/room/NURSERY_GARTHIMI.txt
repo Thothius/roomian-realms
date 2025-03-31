@@ -1,11 +1,12 @@
 INFO: {
-	NAME: "Garthimi Nursery",
-	NAMES: "Garthimi Nurseries",
-	DESC: "A specialized environment where young Garthimi are nurtured in organic, fungal-rich surroundings. The nursery provides the unique decomposing matter and fungi that young Garthimi need for proper development of their natural abilities.",
+	NAME: "Wormling Hatchery",
+	NAMES: "Wormling Hatcheries",
+	DESC: "A pulsating organic chamber where larval Wormlings undergo accelerated maturation through controlled exposure to void residue. The air thrums with psychic resonance as the hive mind imprints basic survival protocols.",
 },
+
 BONUS: {
-	NAME: "Fungal Nurturing",
-	DESC: "Provides specialized care for young Garthimi, ensuring healthy population growth.",
+	NAME: "Corpse Development",
+	DESC: "Provides specialized care for young Wormlings, ensuring healthy population growth.",
 },
 WORK: {
 	TITLE: "Spore Tender",
@@ -22,11 +23,11 @@ STATS: [
 	},
 	{
 		NAME: "Capacity",
-		DESC: "The number of young Garthimi that can be nurtured.",
+		DESC: "The number of young Wormlings that can be nurtured.",
 	},
 	{
-		NAME: "Fungal Quality",
-		DESC: "How well the environment supports Garthimi development.",
+		NAME: "Corpse Quality",
+		DESC: "How well the environment supports Wormling development.",
 	},
 ],
 ICON: {

@@ -1,11 +1,11 @@
 INFO: {
-	NAME: "Cantor Nursery",
-	NAMES: "Cantor Nurseries",
-	DESC: "A sacred space where young Cantors are raised in the traditions of their ancestors. The dark, quiet environment helps develop their natural sensitivities to spiritual energies while elders impart ancient knowledge through rituals and stories.",
+	NAME: "Bloodelf Creche",
+	NAMES: "Bloodelf Creches",
+	DESC: "A darkened sanctum where young Bloodelves are nurtured on a diet of blood essence. Ancient runes line the walls, preserving their aristocratic bloodlines.",
 },
 BONUS: {
-	NAME: "Cantor Upbringing",
-	DESC: "Provides spiritual and cultural education for young Cantors, ensuring population growth.",
+	NAME: "Bloodelve Upbringing",
+	DESC: "Ensures proper development of young Bloodelves, maintaining population growth.",
 },
 WORK: {
 	TITLE: "Elder Guardian",
@@ -22,7 +22,7 @@ STATS: [
 	},
 	{
 		NAME: "Capacity",
-		DESC: "The number of young Cantors that can be cared for.",
+		DESC: "The number of young Bloodelves that can be cared for.",
 	},
 	{
 		NAME: "Spiritual Attunement",
@@ -148,6 +148,6 @@ SPRITES: {
 	},
 },
 DESC: {
-	TEXT: "A sacred space where young Cantors are raised in the traditions of their ancestors. The dark, quiet environment helps develop their natural sensitivities to spiritual energies while elders impart ancient knowledge through rituals and stories.",
-	REQUIRED: "Requires a population of at least 20 Cantor citizens.",
+	TEXT: "A darkened sanctuary where young Bloodelves are nurtured on a diet of blood essence. Ancient runes line the walls, preserving their aristocratic bloodlines.",
+	REQUIRED: "Requires a population of at least 20 Bloodelve citizens.",
 },

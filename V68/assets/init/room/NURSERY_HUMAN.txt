@@ -1,11 +1,11 @@
 INFO: {
-	NAME: "Human Nursery",
-	NAMES: "Human Nurseries",
-	DESC: "A facility where human children are raised and educated. These nurseries provide a safe environment for children to grow, learn basic skills, and develop social bonds that will serve them throughout their lives.",
+	NAME: "Northman Nursery",
+	NAMES: "Northman Nurseries",
+	DESC: "A facility where Northman children are raised and educated. These nurseries provide a safe environment for children to grow, learn basic skills, and develop social bonds that will serve them throughout their lives.",
 },
 BONUS: {
-	NAME: "Human Upbringing",
-	DESC: "Provides care and education for human children, ensuring healthy population growth.",
+	NAME: "Northman Upbringing",
+	DESC: "Provides care and education for Northman children, ensuring healthy population growth.",
 },
 WORK: {
 	TITLE: "Caretaker",

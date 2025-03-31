@@ -1,42 +1,41 @@
 INFO: {
-	NAME: "Garthimi Nursery",
-	NAMES: "Garthimi Nurseries",
-	DESC: "A specialized chamber where young Garthimi develop in a controlled environment. Each station provides the necessary conditions with meat and vegetable matter to sustain their growth.",
+	NAME: "Wormling Hatchery",
+	NAMES: "Wormling Hatcheries",
+	DESC: "A pulsating organic chamber where larval Wormlings undergo accelerated maturation through controlled exposure to void residue. The air thrums with psychic resonance as the hive mind imprints basic survival protocols.",
 },
 
-
 BONUS: {
-	NAME: "Garthimi Development",
-	DESC: "Ensures proper development of young Garthimi, maintaining population growth.",
+	NAME: "Parasitic Development",
+	DESC: "Ensures proper development of young Wormlings, maintaining the hive's growth.",
 },
 
 STATS: [
 
 	{
 		NAME: "Caretakers",
-		DESC: "Number of adults who can tend to the young.",
+		DESC: "Number of adult Wormlings who can tend to the larvae.",
 	},
 	{
 		
 	},
 	{
 		NAME: "Development Rate",
-		DESC: "How quickly the young Garthimi mature.",
+		DESC: "How quickly the Wormling larvae mature.",
 	},
 ],
 
 ITEMS: [
 	{
-		NAME: "Growth Chamber",
-		DESC: "",
+		NAME: "Void Chamber",
+		DESC: "A specialized chamber infused with void residue for larval development.",
 	},
 	{
-		NAME: "Nutrient Enrichments",
-		DESC: "Increases efficiency through specialized compounds that speed development.",
+		NAME: "Psychic Resonators",
+		DESC: "Enhances hive mind connection, accelerating mental development.",
 	},
 ],
 
 WORK: {
 	TITLE: "Brood Tender",
-	VERB: "Tending to developing Garthimi",
+	VERB: "Tending to developing Wormlings",
 },

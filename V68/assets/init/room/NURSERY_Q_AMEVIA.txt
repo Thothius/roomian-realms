@@ -1,11 +1,11 @@
 INFO: {
-	NAME: "Q'Amevia Nursery",
-	NAMES: "Q'Amevia Nurseries",
-	DESC: "A specialized aquatic environment where young Q'Amevia develop their psychic abilities and amphibious nature. These nurseries feature shallow pools and meditation areas where the young learn to harness their natural telepathic talents.",
+	NAME: "Froggian Nursery",
+	NAMES: "Froggian Nurseries",
+	DESC: "A specialized aquatic environment where young Froggians develop their psychic abilities and amphibious nature. These nurseries feature shallow pools and meditation areas where the young learn to harness their natural telepathic talents.",
 },
 BONUS: {
 	NAME: "Psychic Development",
-	DESC: "Provides specialized care for young Q'Amevia, ensuring healthy population growth.",
+	DESC: "Provides specialized care for young Froggians, ensuring healthy population growth.",
 },
 WORK: {
 	TITLE: "Mind Guide",
@@ -22,7 +22,7 @@ STATS: [
 	},
 	{
 		NAME: "Capacity",
-		DESC: "The number of young Q'Amevia that can be cared for.",
+		DESC: "The number of young Froggians that can be cared for.",
 	},
 	{
 		NAME: "Psychic Attunement",
@@ -149,6 +149,6 @@ SPRITES: {
 	},
 },
 DESC: {
-	TEXT: "An amphibious nursery for Q'Amevia tadpoles. Features shallow pools and moist environments essential for their early development. Young Q'Amevians are taught the basics of knowledge and wisdom from the moment they hatch.",
-	REQUIRED: "Requires a population of at least 20 Q'Amevia citizens.",
+	TEXT: "An amphibious nursery for Froggian tadpoles. Features shallow pools and moist environments essential for their early development. Young Froggians are taught the basics of knowledge and wisdom from the moment they hatch.",
+	REQUIRED: "Requires a population of at least 20 Froggian citizens.",
 },

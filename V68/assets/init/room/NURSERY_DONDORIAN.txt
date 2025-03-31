@@ -1,8 +1,9 @@
 INFO: {
-	NAME: "Dondorian Nursery",
-	NAMES: "Dondorian Nurseries",
-	DESC: "A facility where young Dondorians are raised with a focus on spiritual connection and craftsmanship. The nursery combines education with practical skills, teaching the youth to channel their innate spiritual energy into their work.",
+	NAME: "Finestorian Forge Crib",
+	NAMES: "Finestorian Forge Cribs",
+	DESC: "A place where Dondorian children are raised with traditional values and education. Each station provides the necessary care and nourishment with bread and beer, essential for their cultural development.",
 },
+
 BONUS: {
 	NAME: "Spiritual Crafting",
 	DESC: "Provides spiritual and crafting education for young Dondorians, ensuring population growth.",

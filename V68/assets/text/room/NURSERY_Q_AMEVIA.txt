@@ -1,12 +1,12 @@
 INFO: {
-	NAME: "Q'Amevia Nursery",
-	NAMES: "Q'Amevia Nurseries",
-	DESC: "A specialized aquatic environment where young Q'Amevia develop their psychic abilities and amphibious nature. These nurseries feature shallow pools and meditation areas where the young learn to harness their natural telepathic talents.",
+	NAME: "Froggian Knowledge Pool",
+	NAMES: "Froggian Knowledge Pools",
+	DESC: "A harmonious aquatic environment where Froggian tadpoles develop their amphibious nature and telepathic abilities. These nurseries feature shallow pools infused with resonance crystals where the young learn to perceive multiple spectrums of reality.",
 },
 
 
 BONUS: {
-	NAME: "Psychic Development",
+	NAME: "Froggian Development",
 	DESC: "Provides specialized care for young Q'Amevia, ensuring healthy population growth.",
 },
 
@@ -20,7 +20,7 @@ STATS: [
 		DESC: "The number of young Q'Amevia that can be cared for.",
 	},
 	{
-		NAME: "Psychic Potential",
+		NAME: "Froggian Potential",
 		DESC: "How well the young develop their telepathic abilities.",
 	},
 ],
@@ -28,7 +28,7 @@ STATS: [
 ITEMS: [
 	{
 		NAME: "Meditation Pool",
-		DESC: "A specialized pool where young Q'Amevia develop their psychic abilities.",
+		DESC: "A specialized pool where young Froggian develop their telepathic abilities.",
 	},
 	{
 		NAME: "Psychic Focus Crystals",
@@ -38,5 +38,5 @@ ITEMS: [
 
 WORK: {
 	TITLE: "Mind Guide",
-	VERB: "Teaching",
+	VERB: "Teaching telepathy",
 },

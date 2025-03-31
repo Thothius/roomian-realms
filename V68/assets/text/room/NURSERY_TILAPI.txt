@@ -1,13 +1,13 @@
 INFO: {
-	NAME: "Tilapi Nursery",
-	NAMES: "Tilapi Nurseries",
-	DESC: "A place where Tilapi children are raised in harmony with nature. Each station provides the necessary care and nourishment with fruit to ensure proper development.",
+	NAME: "Hellspawn Crucible",
+	NAMES: "Hellspawn Crucibles",
+	DESC: "A scorching chamber where young Hellspawns are forged in fire and darkness. The air crackles with chaotic energy as these demonic entities develop their inherent cruelty and strength.",
 },
 
 
 BONUS: {
-	NAME: "Tilapi Upbringing",
-	DESC: "Ensures proper development of young Tilapi, maintaining population growth.",
+	NAME: "Hellspawn Development",
+	DESC: "Ensures proper development of young Hellspawns, maintaining population growth.",
 },
 
 STATS: [
@@ -27,7 +27,7 @@ STATS: [
 ITEMS: [
 	{
 		NAME: "Nature Pod",
-		DESC: "A specialized environment for raising Tilapi young.",
+		DESC: "A specialized environment for raising Hellspawn young.",
 	},
 	{
 		NAME: "Natural Enrichments",
@@ -37,5 +37,5 @@ ITEMS: [
 
 WORK: {
 	TITLE: "Nature Guide",
-	VERB: "Tending to Tilapi children",
+	VERB: "Tending to Hellspawn children",
 },

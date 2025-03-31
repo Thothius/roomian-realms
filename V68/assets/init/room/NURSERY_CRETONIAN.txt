@@ -1,11 +1,11 @@
 INFO: {
-	NAME: "Cretonian Nursery",
-	NAMES: "Cretonian Nurseries",
-	DESC: "A training ground for young Cretonians where they learn discipline and physical prowess from an early age. The facility combines education with physical conditioning, preparing the youth for their roles as warriors and craftspeople in Cretonian society.",
+	NAME: "Pasunka Training Temple",
+	NAMES: "Pasunka Training Temples",
+	DESC: "A sacred space where young Pasunkas begin their journey on the Three Pillars of Transcendence. Here, they develop their spiritual awareness, martial skills, and physical strength through rigorous training and meditation.",
 },
 BONUS: {
-	NAME: "Warrior Upbringing",
-	DESC: "Provides physical and martial education for young Cretonians, ensuring strong population growth.",
+	NAME: "Pasunka Upbringing",
+	DESC: "Provides spiritual and martial education for young Pasunkas, ensuring strong population growth.",
 },
 WORK: {
 	TITLE: "Training Master",
@@ -22,7 +22,7 @@ STATS: [
 	},
 	{
 		NAME: "Capacity",
-		DESC: "The number of young Cretonians that can be trained.",
+		DESC: "The number of young Pasunkas that can be trained.",
 	},
 	{
 		NAME: "Training Quality",

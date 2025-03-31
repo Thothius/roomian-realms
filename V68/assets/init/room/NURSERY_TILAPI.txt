@@ -1,14 +1,14 @@
 INFO: {
-	NAME: "Tilapi Nursery",
-	NAMES: "Tilapi Nurseries",
-	DESC: "A specialized facility where young Tilapi are raised with a focus on technological aptitude and innovation. These nurseries combine education with hands-on experience, allowing the naturally curious Tilapi youth to explore and experiment with various mechanical concepts.",
+	NAME: "Hellspawn Crucible",
+	NAMES: "Hellspawn Crucibles",
+	DESC: "A scorching chamber where young Hellspawns are forged in fire and darkness. The air crackles with chaotic energy as these demonic entities develop their inherent cruelty and strength.",
 },
 BONUS: {
-	NAME: "Technical Education",
-	DESC: "Provides specialized technical training for young Tilapi, ensuring healthy population growth.",
+	NAME: "Hellspawn Development",
+	DESC: "Ensures proper development of young Hellspawns, maintaining population growth.",
 },
 WORK: {
-	TITLE: "Tech Instructor",
+	TITLE: "Hellspawn Instructor",
 	VERB: "Teaching",
 	SHIFT_OFFSET: 0.125,
 	SOUND: FABRIC,
@@ -18,11 +18,11 @@ WORK: {
 STATS: [
 	{
 		NAME: "Instructors",
-		DESC: "The number of tech instructors that can teach the young.",
+		DESC: "The number of Hellspawn instructors that can teach the young.",
 	},
 	{
 		NAME: "Capacity",
-		DESC: "The number of young Tilapi that can be educated.",
+		DESC: "The number of young Hellspawns that can be educated.",
 	},
 	{
 		NAME: "Innovation",
@@ -148,6 +148,6 @@ SPRITES: {
 	},
 },
 DESC: {
-	TEXT: "A natural, harmonious nursery for Tilapi children. Built with stone and natural materials, it features comfortable spaces that help young Tilapi connect with nature. They are fed meat and wine to develop their strength and vitality in service to their community.",
-	REQUIRED: "Requires a population of at least 20 Tilapi citizens.",
+	TEXT: "A hellish, harsh nursery for Hellspawn children. Built with stone and natural materials, it features comfortable spaces that help young Hellspawns connect with nature. They are fed meat and wine to develop their strength and vitality in service to their community.",
+	REQUIRED: "Requires a population of at least 20 Hellspawn citizens.",
 },

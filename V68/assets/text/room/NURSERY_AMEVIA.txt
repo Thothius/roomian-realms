@@ -1,13 +1,13 @@
 INFO: {
-	NAME: "Amevia Nursery",
-	NAMES: "Amevia Nurseries",
-	DESC: "A specialized environment where Amevia hatchlings are born and raised. Each station provides the necessary heat and care for one hatchling and requires meat for proper development.",
+	NAME: "Froggian Nursery",
+	NAMES: "Froggian Nurseries",
+	DESC: "A specialized environment where Froggian hatchlings are born and raised. Each station provides the necessary heat and care for one hatchling and requires meat for proper development.",
 },
 
 
-BONUS: {
-	NAME: "Amevia Upbringing",
-	DESC: "Ensures proper development of young Amevia, maintaining population growth.",
+BONUS: {	
+	NAME: "Froggian Upbringing",
+	DESC: "Ensures proper development of young Froggians, maintaining population growth.",
 },
 
 STATS: [
@@ -21,7 +21,7 @@ STATS: [
 	},
 	{
 		NAME: "Development Rate",
-		DESC: "How quickly the young Amevia mature.",
+		DESC: "How quickly the young Froggians mature.",
 	},
 ],
 
@@ -38,5 +38,5 @@ ITEMS: [
 
 WORK: {
 	TITLE: "Clutch Tender",
-	VERB: "Tending to Amevia hatchlings",
+	VERB: "Tending to Froggian hatchlings",
 },

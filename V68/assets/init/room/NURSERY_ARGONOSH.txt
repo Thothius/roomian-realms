@@ -1,11 +1,12 @@
 INFO: {
-	NAME: "Argonosh Nursery",
-	NAMES: "Argonosh Nurseries",
-	DESC: "A specialized facility for raising young Argonosh. The humid environment and specialized pools help nurture the amphibious young until they are ready to join society. Caretakers ensure proper development of both aquatic and land-based abilities.",
+	NAME: "Satyr Sapling Grove",
+	NAMES: "Satyr Sapling Groves",
+	DESC: "A living sanctuary where young Satyrs are raised in harmony with the forest. The structure is formed from guided living trees, creating a perfect blend of shelter and nature where fawns learn the ways of the Sylvan Sisterhood.",
 },
+
 BONUS: {
-	NAME: "Argonosh Nurturing",
-	DESC: "Provides care and education for young Argonosh, ensuring healthy population growth.",
+	NAME: "Satyr Nurturing",
+	DESC: "Provides care and education for young Satyrs, ensuring healthy population growth.",
 },
 WORK: {
 	TITLE: "Nursery Caretaker",
@@ -22,7 +23,7 @@ STATS: [
 	},
 	{
 		NAME: "Capacity",
-		DESC: "The number of young Argonosh that can be cared for.",
+		DESC: "The number of young Satyrs that can be cared for.",
 	},
 	{
 		NAME: "Development Quality",

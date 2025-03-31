@@ -1,38 +1,38 @@
 INFO: {
-	NAME: "Cantor Nursery",
-	NAMES: "Cantor Nurseries",
-	DESC: "A sacred space where young Cantors are raised in the traditions of their ancestors. The dark, quiet environment helps develop their natural sensitivities to spiritual energies while elders impart ancient knowledge through rituals and stories.",
+	NAME: "Bloodelf Creche",
+	NAMES: "Bloodelf Creches",
+	DESC: "A darkened sanctum where young Bloodelves are nurtured on a diet of blood essence. Ancient runes line the walls, preserving their aristocratic bloodlines.",
 },
 
 
 BONUS: {
-	NAME: "Cantor Upbringing",
-	DESC: "Provides spiritual and cultural education for young Cantors, ensuring population growth.",
+	NAME: "Blood Lineage",
+	DESC: "Ensures the proper development of young Bloodelves, maintaining their noble bloodlines.",
 },
 
 STATS: [
 	{
-		NAME: "Guardians",
-		DESC: "The number of elder guardians that can teach the young.",
+		NAME: "Blood Matrons",
+		DESC: "Number of adult Bloodelves who can nurture the young.",
 	},
 	{
 		NAME: "Capacity",
-		DESC: "The number of young Cantors that can be cared for.",
+		DESC: "The number of young Bloodelves that can be cared for.",
 	},
 	{
-		NAME: "Spiritual Attunement",
-		DESC: "How well the young develop their spiritual abilities.",
+		NAME: "Development Rate",
+		DESC: "How quickly the young Bloodelves mature.",
 	},
 ],
 
 ITEMS: [
 	{
-		NAME: "Guardian Station",
-		DESC: "A station where elder guardians teach and care for young Cantors.",
+		NAME: "Blood Font",
+		DESC: "Ancient vessel that stores and purifies blood essence for the young.",
 	},
 	{
-		NAME: "Ritual Implements",
-		DESC: "Sacred tools that enhance spiritual learning and development.",
+		NAME: "Lineage Runes",
+		DESC: "Mystical runes that strengthen bloodline traits during development.",
 	},
 ],
 
