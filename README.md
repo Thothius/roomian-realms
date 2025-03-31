@@ -54,6 +54,38 @@ When ancient powers clashed, they left behind a tapestry of diverse cultures—e
 
 ### Unique Races
 
+| ![Satyrs](docs/assets/race_backgrounds/satyrs.png) | ![Froggians](docs/assets/race_backgrounds/froggians.png) |
+|:---:|:---:|
+| **Satyrs** | **Froggians** |
+| **Category**: Children of Light | **Category**: Children of Light |
+| **Deity**: Athuri | **Deity**: Athuri |
+| **Size**: Medium (Adult: 80 Days) | **Size**: Small (Adult: 60 Days) |
+| Forest-dwelling, nature-oriented beings with strong spiritual connections. They excel in archery and hunting, with a deep understanding of herbal wisdom. | Amphibious race renowned for their innovation, diplomacy, and harmonious lifestyles. They live in perfect balance with nature, while developing remarkable technologies. |
+
+| ![Northmen](docs/assets/race_backgrounds/northmen.png) | ![Pasunkas](docs/assets/race_backgrounds/pasunkas.png) |
+|:---:|:---:|
+| **Northmen** | **Pasunkas** |
+| **Category**: Heirs of Balance | **Category**: Heirs of Balance |
+| **Deity**: Crator/Shmalor | **Deity**: Crator |
+| **Size**: Medium (Adult: 80 Days) | **Size**: Medium (Adult: 90 Days) |
+| Hardy humans with Norse-inspired society, skilled in battle and craftsmanship. They value honor and practical knowledge, forming the backbone of many trade networks. | Disciplined engineers with a deep connection to geometric patterns and architecture. Their society thrives on order and structured social hierarchies. |
+
+| ![Wormlings](docs/assets/race_backgrounds/wormlings.png) | ![Bloodelves](docs/assets/race_backgrounds/bloodelves.png) |
+|:---:|:---:|
+| **Wormlings** | **Bloodelves** |
+| **Category**: Breakers of Reality | **Category**: Breakers of Reality |
+| **Deity**: Shmalor/God Emperor | **Deity**: Aminion/Shmalor |
+| **Size**: Small (Adult: 15 Days) | **Size**: Medium (Adult: 85 Days) |
+| Alien hive-minded entities from beyond reality with a unique connection to the void. They communicate telepathically and possess an otherworldly understanding of dimensional physics. | Fallen elves corrupted by blood magic and chaos, embracing pain as enlightenment. Their society values personal transformation through suffering. |
+
+| ![Finestorians](docs/assets/race_backgrounds/finestorians.png) | ![Hellspawn](docs/assets/race_backgrounds/hellspawn.png) |
+|:---:|:---:|
+| **Finestorians** | **Hellspawn** |
+| **Category**: Arbiters of Order | **Category**: Arbiters of Order |
+| **Deity**: Crator | **Deity**: Aminion |
+| **Size**: Large (Adult: 120 Days) | **Size**: Large (Adult: 110 Days) |
+| Technologically advanced beings with a deep respect for order and perfection. Their society emphasizes intellectual achievement and architectural grandeur. | Monstrous beings born of chaos and fire with an insatiable bloodlust. Their society thrives on conquest and dominance, with a harsh survival-of-the-strongest hierarchy. |
+
 - **Children of Light** (Good Races)
   - Satyrs (ARGONOSH) - Female-dominated forest dwellers who value nature and defense
   - Froggians (Q_AMEVIA) - Amphibious beings who embody wisdom and technology
