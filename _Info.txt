@@ -1,4 +1,4 @@
-VERSION: "0.5",
+VERSION: "0.52",
 NAME: "Roomian Realms",
 DESC: "8 custom races with unique traits and religions. Streamlined building selection with removal of complex religious buildings, void-related structures, and resource-focused facilities. Focused on core gameplay with essential military buildings and shrines.",
 AUTHOR: "Ted",

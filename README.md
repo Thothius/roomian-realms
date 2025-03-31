@@ -1,4 +1,4 @@
-# RoomianRealms (v0.51)
+# RoomianRealms (v0.52)
 
 ## Overview
 
@@ -11,7 +11,18 @@ When ancient powers clashed, they left behind a tapestry of diverse cultures—e
 - **[Online Documentation](https://thothius.github.io/roomian-realms/)** - View our comprehensive documentation website
 - **In-Game Documentation** - Access the HTML documentation in the mod folder
 
-## What's New in Version 0.51
+## What's New in Version 0.52
+
+### Race Enhancement Patch v1
+- Standardized race sizes into three distinct groups for better gameplay balance:
+  - **Small Races**: Wormlings and Froggians (Height 5, Width 5)
+  - **Medium Races**: Satyrs, Bloodelves, Pasunkas, and Northmen (Height 7, Width 7)
+  - **Large Races**: Finestorians and Hellspawn (Height 9, Width 9)
+- Rebalanced adult maturation ages based on race size:
+  - Smaller races reach adulthood faster (Froggians: 60 days)
+  - Medium races have moderate maturation periods (80-90 days)
+  - Larger races develop more slowly (110-120 days)
+  - Wormlings remain unique with extremely rapid maturation (15 days) reflecting their alien biology
 
 ### Enhanced Character Trait System
 - Added comprehensive race-specific traits for all 8 playable races
@@ -98,6 +109,10 @@ Immerse yourself in the world of Roomian Realms with a custom soundtrack that en
 - Not compatible with previous versions
 
 ## Changelog
+
+### Version 0.52 (April 15, 2025)
+- Added Race Enhancement Patch v1, standardizing race sizes and rebalancing adult maturation ages
+- Updated documentation to reflect changes in version 0.52
 
 ### Version 0.51 (March 31, 2025)
 - Added 41 race-specific trait files for all 8 races

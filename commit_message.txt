@@ -1,7 +1,15 @@
-Version 0.51 Hotfix
+Version 0.52: Race Enhancement Patch v1
 
-- Fixed syntax errors in trait text files (missing commas and brackets)
-- Added missing trait text files for SATYR and WORMLING races
-- Ensured consistency in religious framework references across all trait descriptions
-- Updated trait descriptions to properly reflect the five deities (Athuri, Crator, Aminion, Shmalor, and God Emperor)
-- Maintained consistent lore for race-deity relationships
+- Standardized race sizes into three distinct groups for better gameplay balance:
+  - Small Races: Wormlings and Froggians (Height 5, Width 5)
+  - Medium Races: Satyrs, Bloodelves, Pasunkas, and Northmen (Height 7, Width 7)
+  - Large Races: Finestorians and Hellspawn (Height 9, Width 9)
+  
+- Rebalanced adult maturation ages based on race size:
+  - Smaller races reach adulthood faster (Froggians: 60 days)
+  - Medium races have moderate maturation periods (80-90 days)
+  - Larger races develop more slowly (110-120 days)
+  - Wormlings remain unique with extremely rapid maturation (15 days)
+
+- Updated documentation in README.md to reflect these changes
+- Updated version number to 0.52 in _Info.txt
