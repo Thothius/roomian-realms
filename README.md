@@ -16,6 +16,8 @@ The Chronoworm's passage left an indelible scar: **void residue**, the lingering
 | **Category**: Children of Light | **Category**: Children of Light |
 | **Deity**: Athuri | **Deity**: Athuri |
 | **Size**: Medium (Adult: 80 Days) | **Size**: Small (Adult: 60 Days) |
+| **Climate**: Temperate forests | **Climate**: Temperate wetlands |
+| **Religious Preference**: Strong devotion to Athuri (+1.5), mild respect for Shmalor (+0.3), aversion to Aminion (-0.5) | **Religious Preference**: Strong devotion to Athuri (+1.5), mild respect for Crator (+0.3), aversion to Aminion (-0.3) and Shmalor (-0.2) |
 | Forest-dwelling, nature-oriented beings with strong spiritual connections. They excel in archery and hunting, with a deep understanding of herbal wisdom. | Amphibious race renowned for their innovation, diplomacy, and harmonious lifestyles. They live in perfect balance with nature, while developing remarkable technologies. |
 
 | ![Northmen](docs/assets/race_backgrounds/northmen.png) | ![Pasunkas](docs/assets/race_backgrounds/pasunkas.png) |
@@ -24,6 +26,8 @@ The Chronoworm's passage left an indelible scar: **void residue**, the lingering
 | **Category**: Heirs of Balance | **Category**: Heirs of Balance |
 | **Deity**: Crator/Shmalor | **Deity**: Crator |
 | **Size**: Medium (Adult: 80 Days) | **Size**: Medium (Adult: 90 Days) |
+| **Climate**: Cold to temperate regions | **Climate**: Adaptable to most environments |
+| **Religious Preference**: Strong devotion to Crator (+1.0), significant respect for Shmalor (+0.8), mild respect for Athuri and Aminion (+0.2 each) | **Religious Preference**: Exclusive devotion to Crator (+1.0), no significant connection to other deities |
 | Hardy humans with Norse-inspired society, skilled in battle and craftsmanship. They value honor and practical knowledge, forming the backbone of many trade networks. | Disciplined engineers with a deep connection to geometric patterns and architecture. Their society thrives on order and structured social hierarchies. |
 
 | ![Wormlings](docs/assets/race_backgrounds/wormlings.png) | ![Bloodelves](docs/assets/race_backgrounds/bloodelves.png) |
@@ -32,6 +36,8 @@ The Chronoworm's passage left an indelible scar: **void residue**, the lingering
 | **Category**: Breakers of Reality | **Category**: Breakers of Reality |
 | **Deity**: Shmalor/God Emperor | **Deity**: Aminion/Shmalor |
 | **Size**: Small (Adult: 15 Days) | **Size**: Medium (Adult: 85 Days) |
+| **Climate**: Temperate plains and grasslands | **Climate**: Temperate forests |
+| **Religious Preference**: Strong devotion to Shmalor (+1.5), mild respect for Aminion (+0.3), slight respect for Crator (+0.1), aversion to Athuri (-0.5) | **Religious Preference**: Strong devotion to Aminion (+1.5), significant respect for Shmalor (+0.8), mild respect for Crator (+0.2), aversion to Athuri (-0.5) |
 | Alien hive-minded entities from beyond reality with a unique connection to the void. They communicate telepathically and possess an otherworldly understanding of dimensional physics. | Fallen elves corrupted by blood magic and chaos, embracing pain as enlightenment. Their society values personal transformation through suffering. |
 
 | ![Finestorians](docs/assets/race_backgrounds/finestorians.png) | ![Hellspawn](docs/assets/race_backgrounds/hellspawn.png) |
@@ -40,8 +46,9 @@ The Chronoworm's passage left an indelible scar: **void residue**, the lingering
 | **Category**: Arbiters of Order | **Category**: Arbiters of Order |
 | **Deity**: Crator | **Deity**: Aminion |
 | **Size**: Large (Adult: 120 Days) | **Size**: Large (Adult: 110 Days) |
+| **Climate**: Cold mountainous regions | **Climate**: Hot and volcanic regions |
+| **Religious Preference**: Strong devotion to Crator (+1.5), mild respect for Athuri (+0.2), no significant connection to other deities | **Religious Preference**: Strong devotion to Aminion (+1.5), mild respect for Shmalor (+0.3), aversion to Athuri (-0.5) and Crator (-0.2) |
 | Technologically advanced beings with a deep respect for order and perfection. Their society emphasizes intellectual achievement and architectural grandeur. | Monstrous beings born of chaos and fire with an insatiable bloodlust. Their society thrives on conquest and dominance, with a harsh survival-of-the-strongest hierarchy. |
-
 
 ### Divine Powers
 
