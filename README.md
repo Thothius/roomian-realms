@@ -1,19 +1,14 @@
 # RoomianRealms (v0.55)
 
-## Overview
+### The Shattering
 
-*"In the wake of The Shattering, eight extraordinary civilizations emerged from the chaos, each shaped by their connection to ancient deities and the mysterious void residue found within the world's ores. From the enigmatic forest-dwelling Satyrs to the technologically advanced Froggians, each race brings unique strengths and perspectives to the fractured world of Roomia."
+The current age was born from **The Shattering**, a cataclysm triggered when the **Chronoworm**, a colossal, reality-bending entity from another plane, tore through the fabric of the realms. This violent intrusion fractured the world and extinguished several of the ancient **Astari** gods, including **Bardok** (mentioned as defeated by Athuri) and the powerful **Shmalor**, whose void essence dissolved into potent, corrupting energy.
 
-The discovery of void residue within the planet's ores has ushered in a new era of technological and magical possibilities. This mysterious substance, believed to be remnants of Shmalor's essence, has become the catalyst for both progress and conflict across Roomia. As the races harness this power, they must navigate complex alliances, ancient rivalries, and the ever-present threat of the God Emperor's return.
+The surviving Astari—**Athuri** (Wisdom & Harmony), **Crator** (Creation & Order), and **Aminion** (Chaos & Destruction)—along with the enigmatic **Shmalor** (now known primarily as the Trickster, embodying Cunning & Opportunity), struggled to impose their wills on the fractured reality.
 
-## Documentation
+The Chronoworm's passage left an indelible scar: **void residue**, the lingering essence of the fallen aspect of Shmalor, now infused within the common **Sithilon Ore**. This ore, pulsating with transformative power, became a focal point for the eight surviving civilizations—Satyrs, Froggians, Northmen, Pasunkas, Wormlings, Bloodelves, Finestorians, and Hellspawn. Each race seeks to harness its potential, navigating a world forever changed by the echo of the void and the shifting balance of the remaining gods.
 
-- **[Online Documentation](https://thothius.github.io/roomian-realms/)** - View our comprehensive documentation website
-- **In-Game Documentation** - Access the HTML documentation in the mod folder
-
-## Features
-
-### Unique Races
+### The Eight Civilizations
 
 | ![Satyrs](docs/assets/race_backgrounds/satyrs.png) | ![Froggians](docs/assets/race_backgrounds/froggians.png) |
 |:---:|:---:|
