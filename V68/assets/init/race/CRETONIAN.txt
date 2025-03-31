@@ -5,24 +5,24 @@ PROPERTIES: {
 	ADULT_AT_DAY: 90,
 	CORPSE_DECAY: true,
 	SLEEPS: true,
-	RAID_MERCINARY: 0.7,
+	RAID_MERCINARY: 0.6,
 },
 BEHAVIOUR: {
-	SKINNY_DIPS: 0.4,
-	SLAVE_DRIVER: 0.3,
-	SLAVER: 0.3,
-	EXECUTION_PERFORM: 0.4,
-	FOREST_LOVER: 0.8,
-	BLOODLUST: 0.5,
-	CRUELTY: 0.3,
+	SKINNY_DIPS: 0.1,
+	SLAVE_DRIVER: 0.1,
+	SLAVER: 0.1,
+	EXECUTION_PERFORM: 0.1,
+	FOREST_LOVER: 0.7,
+	BLOODLUST: 0.1,
+	CRUELTY: 0.1,
 	DISCIPLINE: 1.0,
-	LOYALTY: 0.9,
-	PRAGMATIC: 0.7,
-	PACIFISM: 0.7,
+	LOYALTY: 1.0,
+	PRAGMATIC: 0.9,
+	PACIFISM: 0.8,
 	SPIRITUAL: 1.0,
-	RITUALISTIC: 0.9,
-	LAWFULNESS: 0.8,
-	SUBMISSION: 0.5,
+	RITUALISTIC: 1.0,
+	LAWFULNESS: 1.0,
+	SUBMISSION: 0.3,
 	BALANCED: 1.0,
 	MEDITATIVE: 1.0,
 },
@@ -207,39 +207,40 @@ TRAITS: {
 },
 BOOST: {
 	RELIGION_AMINION>ADD: 0.0,
-	RELIGION_ATHURI>ADD: 0.3,
-	RELIGION_CRATOR>ADD: 1.5,
+	RELIGION_ATHURI>ADD: 0.0,
+	RELIGION_CRATOR>ADD: 1.0,
 	RELIGION_SHMALOR>ADD: 0.0,
+	RELIGION_GOD_EMPEROR>ADD: 0.0,
 	
-	BATTLE_DODGE>MUL: 1.7,
-	BATTLE_SPEED>MUL: 1.5,
-	BATTLE_MORALE>MUL: 1.4,
-	BATTLE_OFFENCE>MUL: 1.3,
-	BATTLE_DEFENCE>MUL: 1.5,
-	BATTLE_BLUNT>MUL: 1.8,
+	BATTLE_DODGE>MUL: 1.0,
+	BATTLE_SPEED>MUL: 1.0,
+	BATTLE_MORALE>MUL: 1.0,
+	BATTLE_OFFENCE>MUL: 1.0,
+	BATTLE_DEFENCE>MUL: 1.0,
+	BATTLE_BLUNT>MUL: 1.0,
 	BATTLE_PIERCE>MUL: 0.8,
 	BATTLE_SLASH>MUL: 0.6,
 	BATTLE_BLUNT_ATTACK>ADD: 30,
-	BATTLE_UNARMED>MUL: 2.0,
-	BATTLE_DEFENCE_SKILL>MUL: 1.6,
-	BATTLE_OFFENCE_SKILL>MUL: 1.5,
+	BATTLE_UNARMED>MUL: 1.0,
+	BATTLE_DEFENCE_SKILL>MUL: 1.0,
+	BATTLE_OFFENCE_SKILL>MUL: 1.0,
 	
-	ROOM_TEMPLE>MUL: 1.7,
+	ROOM_TEMPLE>MUL: 1.0,
 	
 	BEHAVIOUR_LAWFULNESS>ADD: 0.5,
 	BEHAVIOUR_SUBMISSION>MUL: 1.0,
-	BEHAVIOUR_SANITY>MUL: 1.5,
+	BEHAVIOUR_SANITY>MUL: 1.0,
 	BEHAVIOUR_BALANCED>ADD: 0.7,
 	BEHAVIOUR_MEDITATIVE>ADD: 0.7,
 	BEHAVIOUR_DISCIPLINED>ADD: 0.6,
 	
-	PHYSICS_STAMINA>MUL: 1.8,
-	PHYSICS_MASS>MUL: 1.3,
+	PHYSICS_STAMINA>MUL: 1.0,
+	PHYSICS_MASS>MUL: 1.0,
 	PHYSICS_RESISTANCE_COLD>ADD: 0.3,
 	PHYSICS_RESISTANCE_HOT>ADD: 0.3,
-	PHYSICS_HEALTH>MUL: 1.4,
-	PHYSICS_SPEED>MUL: 1.5,
-	PHYSICS_JUMP>MUL: 1.6,
+	PHYSICS_HEALTH>MUL: 1.0,
+	PHYSICS_SPEED>MUL: 1.0,
+	PHYSICS_JUMP>MUL: 1.0,
 	PHYSICS_DEATH_AGE>MUL: 1.0,
 	
 	ROOM_WORKSHOP>MUL: 0.6,
@@ -247,23 +248,23 @@ BOOST: {
 	ROOM_UNIVERSITY>MUL: 0.7,
 	ROOM_LABORATORY>MUL: 0.7,
 	
-	ROOM_BARRACKS>MUL: 1.7,
-	ROOM_FIGHTPIT>MUL: 1.6,
+	ROOM_BARRACKS>MUL: 1.0,
+	ROOM_FIGHTPIT>MUL: 1.0,
 	
-	ROOM_FARM>MUL: 1.3,
-	ROOM_ORCHARD>MUL: 1.3,
+	ROOM_FARM>MUL: 1.0,
+	ROOM_ORCHARD>MUL: 1.0,
 	
 	ROOM_PLEASURE>MUL: 0.4,
 	ROOM_TAVERN>MUL: 0.6,
 	BATTLE_RANGED>MUL: 0.5,
 	
-	ROOM_SPEAKER>MUL: 1.5,
-	ROOM_STAGE>MUL: 1.5,
+	ROOM_SPEAKER>MUL: 1.0,
+	ROOM_STAGE>MUL: 1.0,
 	
 	RATES_REPRODUCTION>MUL: 0.9,
-	RATES_HUNGER>MUL: 1.2,
-	RATES_THIRST>MUL: 1.1,
-	RATES_TEMPLE>MUL: 1.5,
+	RATES_HUNGER>MUL: 1.0,
+	RATES_THIRST>MUL: 1.0,
+	RATES_TEMPLE>MUL: 1.0,
 	RATES_ARENA>MUL: 0.0,
 	RATES_ARENAG>MUL: 0.0,
 	RATES_EXECUTION>MUL: 0.0,
@@ -275,10 +276,10 @@ BOOST: {
 	MEDIATION_SKILL>ADD: 0.5,
 	DIPLOMATIC_MEDIATION>ADD: 0.4,
 	
-	WORLD_BUILDING_AGRICULTURE>MUL: 1.3,
-	WORLD_BUILDING_PASTURE>MUL: 1.1,
+	WORLD_BUILDING_AGRICULTURE>MUL: 1.0,
+	WORLD_BUILDING_PASTURE>MUL: 1.0,
 	WORLD_BUILDING_MINE>MUL: 0.7,
-	WORLD_POINT_WORKFORCE>MUL: 1.1,
+	WORLD_POINT_WORKFORCE>MUL: 1.0,
 },
 STARTING_ITEMS: {
 	PUSHUP_GLOVES_RG2: 1.0,
@@ -295,19 +296,21 @@ DESC_INFO: {
 	NAMES: "Pasunkas",
 	POSSESSIVE: "Pasunka",
 	POSSESSIVES: "Pasunka",
-	LORE: "The Pasunkas, known as the Harmony Seekers, are masters of a mystical martial tradition that transcends mere physical combat. Their society revolves around the worship of Crator Astari, whom they revere as the Divine Architect who crafted the perfect balance between body and spirit. Their distinctive curved horns—unique among the races of Syx—are believed to be Crator's gift, acting as conduits for cosmic energy that flows through their meditation circles during the three sacred hours of dawn, noon, and dusk.
+	LORE: "When The Shattering tore through Roomia, the Pasunkas witnessed the cosmic balance they had dedicated their lives to preserving collapse into chaos. Rather than despair, they saw this catastrophe as the ultimate test of their discipline and philosophy. The death of the gods—including their patron Crator—was not an end but a transformation, they believed. In the void left behind, the Pasunkas committed themselves to becoming living embodiments of the balance and order that Crator once maintained.
 
-At the core of Pasunka martial philosophy is the sacred practice of 'Push-up Taijutsu'—a rigorous discipline that begins and ends each day with precisely 1,008 push-ups performed in perfect synchronization with specialized breathing techniques. Young Pasunkas start with simple forms, gradually progressing to one-armed variations, inverted positions, and eventually the legendary 'Floating Technique' where masters perform push-ups using only two fingers. Their most revered elders, known as the 'Thousand-Push Masters,' are said to be able to crack stone with a single punch and leap over small buildings without effort.
+In the post-Shattering world, the Pasunkas' martial tradition of 'Push-up Taijutsu' has evolved into a comprehensive system for channeling and controlling the volatile energies of void ore. Their distinctive curved horns—once believed to be Crator's gift—now serve as natural conduits for void energy, glowing faintly during their thrice-daily meditation rituals. Young Pasunkas train relentlessly, learning to harmonize their internal energy with the chaotic void forces that now permeate Roomia.
 
-A curious phenomenon observed throughout Pasunka society is their tendency toward baldness—with the most accomplished warriors being completely bald. This is not merely coincidental but considered a visible sign of spiritual advancement. According to their traditions, 'The balder the Pasunka, the greater their punching power,' as hair is believed to divert vital energy that could otherwise be channeled into their strikes. The most revered masters are completely hairless, their scalps gleaming with an almost supernatural luster that some claim glows faintly during moments of intense concentration.
+The Pasunkas' tendency toward baldness has taken on new significance in the fractured world. Their elders teach that hair creates static interference with void energies, and the completely bald 'Thousand-Push Masters' can manipulate small fragments of void ore with their bare hands without suffering corruption. These masters have developed techniques to neutralize void-warped creatures through precisely targeted strikes that disrupt the chaotic energies animating them.
 
-When a Pasunka warrior enters the legendary state of 'Horn Resonance' during battle, witnesses report seeing ethereal energy spiraling around their bodies, allowing them to perform seemingly impossible feats—leaping impossible heights, striking with the force of battering rams, or moving with such speed that they appear to be in multiple places simultaneously. Their most elite warriors, the Resonant Masters, can reportedly deflect arrows with their bare hands and crack stone with a focused strike. These masters combine their Horn Resonance with the power gained from Push-up Taijutsu to achieve what they call 'The Perfect Strike'—a blow so precisely delivered that it can disable an opponent without causing permanent harm or, if necessary, end a life instantly and painlessly.
+When a Pasunka warrior enters the state of 'Horn Resonance' during battle, they achieve temporary harmony with the void itself. In this state, they can perceive the fracture lines in reality left by The Shattering and exploit these weaknesses with devastating effect. Their most elite warriors, the Resonant Masters, train in special chambers lined with void ore fragments, learning to maintain perfect internal balance while surrounded by chaos. This training allows them to move through void-warped zones that would drive others mad or corrupt their bodies.
 
-The Pasunkas maintain the Great Balance between the forces of creation and destruction. They respect the Satyrs and Froggians for their harmony with nature, while understanding the necessary role of the Finestorians and Northmen in building civilization. They even acknowledge that the destructive forces embodied by the Bloodelves and Hellspawns serve a cosmic purpose, though they actively oppose their excesses. This philosophy of balance extends to their diplomatic relations, making them valued mediators in conflicts between other races.
+The Pasunkas now see themselves as guardians of what remains of Crator's design. They maintain diplomatic relations with all races, believing that balance can only be restored through cooperation. They respect the Northmen for their adaptability, the Finestorians for their creation, and even see value in the destructive forces represented by the Bloodelves and Hellspawns. Their philosophy of balance makes them invaluable mediators in the fractured world, where old alliances have collapsed and new ones form around control of void ore deposits.
 
-Their settlements are architectural marvels built according to sacred geometric principles that channel Crator's creative energy. At the center of each settlement stands a Temple of Crator where the community gathers for the Dawn Meditation, during which they perform the sacred ritual of 108 precise movements—a physical prayer that honors the 108 aspects of Crator's creative power. Their specialized training gloves, crafted with stone, fabric, and leather according to ancient patterns revealed by Crator himself, are considered sacred objects that connect the wearer to the fundamental forces of creation.
+Their settlements are architectural marvels built according to sacred geometric principles that they believe can stabilize reality itself in their vicinity. At the center of each settlement stands a Resonance Temple where void ore fragments are arranged in precise patterns that counteract The Shattering's effects locally. During their Dawn Meditation, the community performs 108 precise movements—a physical prayer that honors what they believe are the 108 fragments of Crator's essence scattered throughout the void.
 
-The Pasunkas believe that through perfect discipline of body and mind, they might one day achieve what they call the 'Final Resonance'—a state of such perfect harmony with Crator's design that they transcend their physical forms entirely, becoming pure creative energy in service to the Divine Architect's ongoing work of universal balance and renewal.",
+The Pasunkas' specialized training gloves are now crafted with minute void ore inlays that help them channel and control void energy. These sacred objects are believed to connect the wearer to the fundamental patterns of creation that persist even after The Shattering. Their most sacred relics are ancient gloves said to have been worn by masters who witnessed The Shattering firsthand and survived with their sanity intact.
+
+The ultimate goal of Pasunka discipline has evolved from achieving 'Final Resonance' to what they now call 'Void Harmony'—a theoretical state where a master might actually repair small fractures in reality through perfect balance of body, mind, and void energy. While no Pasunka has yet achieved this legendary state, their unwavering discipline and methodical approach to understanding the post-Shattering world gives them hope that, through perfect balance, they might one day help restore what was lost.",
 	PROS: [
 		"Exceptional unarmed combat",
 		"Highly adaptable to environments",

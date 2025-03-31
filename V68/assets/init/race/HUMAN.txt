@@ -5,25 +5,25 @@ PROPERTIES: {
 	ADULT_AT_DAY: 80,
 	CORPSE_DECAY: true,
 	SLEEPS: true,
-	RAID_MERCINARY: 0.5,
+	RAID_MERCINARY: 0.65,
 },
 BEHAVIOUR: {
-	SKINNY_DIPS: 0.5,
-	SLAVER: 0.7,
-	SLAVE_DRIVER: 0.7,
-	OPPORTUNIST: 1.0,
+	SKINNY_DIPS: 0.3,
+	SLAVER: 0.5,
+	SLAVE_DRIVER: 0.5,
+	OPPORTUNIST: 0.8,
 	PRAGMATIC: 1.0,
-	CRUELTY: 0.6,
-	BLOODLUST: 0.7,
+	CRUELTY: 0.5,
+	BLOODLUST: 0.6,
 	DISCIPLINE: 0.8,
 	LOYALTY: 0.7,
-	EXECUTION_PERFORM: 0.7,
+	EXECUTION_PERFORM: 0.6,
 	GREED: 0.8,
 	SELFISH: 0.7,
 	AMBITIOUS: 1.0,
-	LAWFULNESS: 0.6,
-	INDUSTRIOUS: 0.9,
-	HEDONISM: 0.7,
+	LAWFULNESS: 0.7,
+	INDUSTRIOUS: 1.0,
+	HEDONISM: 0.6,
 },
 BIO_FILE: Normal,
 OPINION_FILE_SCARED: Normal,
@@ -156,10 +156,11 @@ TRAITS: {
 	GENERAL_ADVENTUROUS_RR: 0.2,
 },
 BOOST: {
-	RELIGION_AMINION>ADD: 0.3,
-	RELIGION_ATHURI>ADD: 0.3,
+	RELIGION_AMINION>ADD: 0.2,
+	RELIGION_ATHURI>ADD: 0.2,
 	RELIGION_CRATOR>ADD: 1.0,
-	RELIGION_SHMALOR>ADD: 0.1,
+	RELIGION_SHMALOR>ADD: 0.8,
+	RELIGION_GOD_EMPEROR>ADD: 0.0,
 	BATTLE_BLUNT>MUL: 1.0,
 	BATTLE_SLASH>MUL: 1.4,
 	BATTLE_PIERCE>MUL: 1.1,
@@ -255,23 +256,21 @@ DESC_INFO: {
 	NAMES: "Northmen",
 	POSSESSIVE: "Northman",
 	POSSESSIVES: "Northmen",
-	LORE: "The Northmen are a pragmatic and ambitious people, driven by competition and the pursuit of wealth, glory, and reputation. Their society is organized around clan structures, with each clan vying for resources, trade opportunities, and military glory. Northmen settlements are bustling centers of commerce, where goods from across the known world change hands and where skilled craftsmen produce weapons, tools, and luxury items of exceptional quality.
+	LORE: "The Northmen emerged from The Shattering as pragmatic survivors, their already resilient culture adapting quickly to the fractured world. When the Time Worm tore through Roomia and killed the gods, the Northmen saw not just catastrophe but opportunity. Their clan structures—once focused solely on trade and raiding—evolved into complex networks of mercenary companies, void ore prospectors, and ambitious traders navigating the dangerous new landscape.
 
-At the heart of Northmen culture lies the sacred tradition of the 'Glory Hoard'—a personal collection of trophies taken from defeated enemies and conquered lands. These hoards are not merely displays of wealth but living chronicles of a warrior's achievements. Each item—be it a weapon, piece of armor, or personal effect—must be claimed in honorable combat or daring raid, and each has a story that its owner must be able to recount in detail. The most prestigious items are those taken from worthy opponents or legendary locations, and the quality of one's Glory Hoard determines their social standing more than birth or wealth ever could.
+At the heart of Northmen culture lies the sacred tradition of the 'Glory Hoard'—a personal collection of trophies that now prominently features void ore artifacts and relics from the pre-Shattering world. These hoards represent not just martial prowess but a warrior's ability to thrive in chaos. The most prestigious items are those containing void ore or taken from the reality-warped zones where The Shattering's effects were strongest. A warrior's social standing is determined by both the power and the story behind each trophy.
 
-Northmen halls are adorned with elaborate 'Saga Walls' where these trophies are displayed alongside intricate carvings depicting the tales of their acquisition. During the winter months, when raiding and trading expeditions cease, Northmen gather in great 'Boast Halls' where warriors take turns recounting their exploits while displaying the corresponding trophies. These tales are not mere entertainment but sacred rituals where the community collectively remembers and honors its achievements. False claims are considered the gravest dishonor, as the Glory Hoard system relies entirely on the integrity of its participants.
+Northmen halls are adorned with elaborate 'Saga Walls' where these trophies are displayed alongside intricate carvings depicting tales of survival and triumph in the post-Shattering world. During harsh winters, Northmen gather in 'Boast Halls' where mercenaries and traders recount their exploits while displaying corresponding trophies. These gatherings serve a practical purpose beyond tradition—they are information exchanges where knowledge of safe routes, void ore deposits, and potential employers is shared.
 
-The most revered Northmen are those whose Glory Hoards contain items representing victories over a diverse array of foes and challenges. The legendary hero Hrothgar the Far-Traveled was said to have possessed trophies from all known races and lands, including a scale from a sea serpent, a feather from a mountain eagle, and the ceremonial daggers of chieftains from seven different clans. His Saga Wall reportedly took three days to view in its entirety, with each item's story more impressive than the last.
+Northmen society occupies a deliberate gray area between the worship of Crator, the Divine Architect they believe survived The Shattering in some form, and Shmalor, whose void domain they see as increasingly relevant in a world defined by fracture. Their temples feature geometric patterns honoring Crator alongside void-touched symbols acknowledging Shmalor's growing influence. This religious duality is not seen as contradictory but as pragmatic adaptation—Crator for creation and order, Shmalor for understanding the void that now permeates their world.
 
-Northmen warriors are renowned for their discipline and tactical acumen, favoring heavy infantry formations supported by archers. Their military tradition emphasizes practical effectiveness over flashy displays of individual prowess, though exceptional warriors are celebrated in song and story. Their battle formations often incorporate the 'Shield Wall'—an interlocking defense that requires absolute trust and coordination between warriors who have trained together since childhood. When this formation advances with rhythmic stomping and the thunderous pounding of weapons against shields, even seasoned enemies have been known to break and flee before the first blow is struck.
+Northmen warriors are renowned for their discipline and willingness to serve as mercenaries for any faction that can pay their price in void ore or valuable resources. Their military formations incorporate both traditional tactics and adaptations to counter void-warped creatures that emerged after The Shattering. The most elite Northmen mercenary companies command exorbitant fees but are considered worth every shard of void ore for their effectiveness and reliability.
 
-While not inherently cruel, Northmen society can be harsh and unforgiving to those who fail to contribute or who violate community norms. Slavery is practiced, though slaves who demonstrate useful skills may earn their freedom and even rise to positions of respect within the community. The most valued slaves are skilled craftsmen captured during raids, who may eventually earn the right to create items for their master's Glory Hoard—a position of considerable honor despite their unfree status.
+While not inherently cruel, Northmen society has grown harder in the post-Shattering world. Slavery is practiced efficiently, with slaves who demonstrate useful skills in void ore processing or artifact identification particularly valued. The most ambitious Northmen see the fractured world not as a tragedy but as a landscape of unlimited opportunity where traditional boundaries and rules no longer apply.
 
-The Northmen's religious practices are pragmatic, honoring Crator, the creator deity, with offerings that are seen as investments rather than sacrifices. Their temples double as mead halls where warriors gather to share tales of their Glory Hoards, believing that Crator himself listens and judges the worth of their achievements. The most sacred ritual in Northmen society is the 'Legacy Passing,' where a dying warrior bequeaths the most significant items from their Glory Hoard to worthy successors, along with the obligation to continue recounting the stories of how those items were won.
+Northmen settlements are fortified trading hubs where void ore and other precious resources change hands. Their architecture combines practical defensibility with the display of wealth and achievement. The centerpiece of any significant Northmen settlement is the Mercenary Guild—a combination tavern, contract hall, and treasury where deals are struck and reputations made or broken.
 
-Northmen architecture favors sturdy wooden structures with stone foundations, practical in design but often decorated with intricate carvings depicting clan histories and mythological scenes. Their settlements are typically well-organized, with clear divisions between residential, commercial, and industrial districts, reflecting their orderly approach to community life. The centerpiece of any Northmen settlement is the Great Hall—a massive structure where the community gathers for feasts, councils, and to witness the display of particularly impressive Glory Hoard items.
-
-The Northmen maintain pragmatic relationships with other races, judging them primarily by their usefulness as trading partners, worthy opponents, or potential threats. They respect the Finestorians for their craftsmanship and reliability, often forming lucrative trade partnerships with them. They view the Satyrs and Froggians with cautious curiosity, appreciating their unique goods but finding their societal structures somewhat alien. They maintain a wary distance from the Bloodelves, seeing them as dangerous but potentially valuable allies in certain circumstances. They view the Hellspawns with deep distrust, engaging with them only when absolutely necessary and always from a position of strength.",
+The Northmen maintain calculated relationships with other races, seeing each as potential clients, competitors, or sources of valuable knowledge. They respect the Finestorians for their craftsmanship with void ore, maintain profitable but cautious trade with the Bloodelves, and hire Wormlings as guides in void-warped territories. They view the Hellspawns as dangerous but potentially valuable allies in certain circumstances, while approaching the more peaceful races like Froggians and Satyrs as sources of unique resources and knowledge rather than military threats.",
 	COMPATIBLE: true,
 	PROS: [
 		"Excellent traders and merchants",

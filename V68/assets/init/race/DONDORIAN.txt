@@ -5,22 +5,22 @@ PROPERTIES: {
 	ADULT_AT_DAY: 120,
 	CORPSE_DECAY: true,
 	SLEEPS: true,
-	RAID_MERCINARY: 0.9,
+	RAID_MERCINARY: 0.8,
 },
 BEHAVIOUR: {
-	SKINNY_DIPS: 0.5,
-	CORRUPTION: 0.2,
-	GREED: 0.05,
-	DISCIPLINE: 0.9,
+	SKINNY_DIPS: 0.1,
+	CORRUPTION: 0.1,
+	GREED: 0.2,
+	DISCIPLINE: 1.0,
 	LOYALTY: 1.0,
 	CRAFTSMANSHIP: 1.0,
-	SLAVE_DRIVER: 0.2,
-	SLAVER: 0.2,
+	SLAVE_DRIVER: 0.3,
+	SLAVER: 0.3,
 	PRAGMATIC: 0.8,
 	OPPORTUNIST: 0.3,
 	INDUSTRIOUS: 1.0,
-	INTELLECTUAL: 0.7,
-	LAWFULNESS: 0.9,
+	INTELLECTUAL: 0.9,
+	LAWFULNESS: 1.0,
 },
 BIO_FILE: Normal,
 OPINION_FILE_SCARED: Normal,
@@ -188,10 +188,11 @@ STATS: {
 	},
 },
 BOOST: {
-	RELIGION_AMINION>ADD: 0.1,
+	RELIGION_AMINION>ADD: 0.0,
 	RELIGION_ATHURI>ADD: 0.2,
 	RELIGION_CRATOR>ADD: 1.5,
-	RELIGION_SHMALOR>ADD: -0.1,
+	RELIGION_SHMALOR>ADD: 0.0,
+	RELIGION_GOD_EMPEROR>ADD: 0.0,
 	BATTLE_ARCHERY>MUL: 0.8,
 	BATTLE_DEFENCE>MUL: 1.6,
 	BATTLE_OFFENCE>MUL: 1.1,
@@ -270,23 +271,23 @@ DESC_INFO: {
 	NAMES: "Finestorians",
 	POSSESSIVE: "Finestorian",
 	POSSESSIVES: "Finestorian",
-	LORE: "The Finestorians are a race of dedicated craftsmen who value skill, precision, and honest labor above all else. Their society is built around guilds and workshops, where masters pass down their knowledge to apprentices through years of rigorous training. Finestorians believe that one's worth is measured by the quality of their work and their dedication to their craft.
+	LORE: "The Finestorians faced The Shattering with the same stoic precision they apply to their crafts. While other races panicked or grieved the death of the gods, the Finestorians methodically documented the fracture patterns in reality and began calculating how to rebuild. Their emotionless response was not indifference but a disciplined focus that has allowed them to adapt more efficiently than most to the broken world.
 
-At the core of Finestorian culture lies the sacred concept of the 'Forge-Bound Soul'—a profound spiritual belief that when a craftsman creates an object of exceptional quality, a fragment of their soul becomes permanently bound to their creation. This is not seen as a loss but as a sacred investment, allowing the craftsman to achieve a form of immortality through their work. The most revered Finestorian masters can reportedly identify the maker of any crafted item simply by touching it and feeling the resonance of the soul fragment within.
+At the core of Finestorian culture lies the sacred concept of the 'Forge-Bound Soul'—a spiritual belief that has taken on new significance in the post-Shattering world. They now understand that when a craftsman creates an object of exceptional quality, a fragment of their soul becomes permanently bound to their creation, stabilizing a small portion of reality against the chaos of the void. The most revered Finestorian masters can identify fracture lines in reality and craft objects specifically designed to reinforce these weaknesses.
 
-This belief shapes every aspect of Finestorian craftsmanship. Each item is created with meticulous care and devotion, as it will forever carry a piece of its maker's essence. The most prestigious works are those that contain the largest soul fragments, requiring months or even years of focused labor. These masterpieces, known as 'Soul Anchors,' are treated with reverence approaching religious worship and are often displayed in special sanctuaries where apprentices can study and commune with the spiritual essence of great masters from the past.
+This belief shapes every aspect of their approach to void ore. Each item containing this precious resource is created with meticulous care, as it will forever carry a piece of its maker's essence that helps stabilize the surrounding reality. Their most prestigious works, known as 'Soul Anchors,' now incorporate void ore in precise geometric patterns that create zones of stability in the fractured world. These masterpieces are displayed in special sanctuaries where apprentices study the techniques required to manipulate void ore without succumbing to its corrupting influence.
 
-The ultimate expression of the Forge-Bound Soul tradition occurs at a craftsman's death. In a solemn ceremony called the 'Final Forging,' the craftsman's finest creation—often one they have spent their final years perfecting—is ritually melted down or disassembled and incorporated into their funeral monument. Finestorians believe this releases the soul fragment back to its creator, completing the cycle and allowing their complete spirit to journey to the divine workshop of Crator, where they will continue their craft for eternity.
+The ultimate expression of the Forge-Bound Soul tradition has evolved since The Shattering. In a ceremony called the 'Final Forging,' a craftsman's finest creation is ritually incorporated into the structural supports of their Guild Spire, reinforcing the building against reality fractures. Finestorians believe this releases the soul fragment back to its creator while permanently strengthening their community against the encroaching void.
 
-Their settlements are marvels of engineering, featuring sturdy stone structures with intricate detailing that showcases their mastery of stonework and metallurgy. Finestorian-made tools, weapons, and armor are highly sought after for their exceptional quality and durability. They approach every task methodically, valuing thoroughness over speed. Their most impressive architectural achievements are their 'Guild Spires'—massive towers that house both workshops and living quarters for an entire guild, with the most accomplished masters occupying the highest levels. These spires are constructed over generations, with each new cohort of craftsmen adding their own innovations and improvements to the structure.
+Their settlements are architectural marvels specifically designed to resist the effects of The Shattering. Sturdy stone structures incorporate void ore reinforcements at mathematically precise intervals, creating stable zones where reality behaves predictably. Finestorian-made tools and weapons containing void ore are highly sought after for their exceptional quality and ability to affect void-warped creatures. They approach every task with calculated efficiency, documenting each successful technique for future generations.
 
-The Finestorian approach to warfare is similar to their approach to crafting—methodical, well-planned, and executed with precision. Their warriors favor heavy armor and weapons that showcase their metalworking prowess, and their formations are as disciplined and structured as their workshop routines. Their most elite military unit, the 'Hammer Guard,' wields masterwork warhammers that have been passed down through generations, each bearing the accumulated soul fragments of dozens of previous wielders. These weapons are said to guide their users' hands in battle, drawing upon the collective martial experience of all who have wielded them before.
+The Finestorian approach to warfare remains methodical and precise, now incorporating specialized weapons designed to combat void-warped threats. Their elite military unit, the 'Hammer Guard,' wields masterwork warhammers with void ore cores that can temporarily seal reality fractures during battle. These weapons contain the accumulated soul fragments of generations of wielders, providing intuitive knowledge of how to counter the unpredictable nature of void-influenced combat.
 
-While not naturally aggressive, Finestorians are fiercely protective of their workshops and trade secrets. They tend to be direct in their dealings and loyal to those who earn their respect through demonstrated skill or honest exchange. However, they can be isolationist and judgmental of those who don't share their values of craftsmanship and diligence. Their legal system, known as the 'Artisan's Code,' places craftsmanship at the center of all judgments. Crimes against property, especially the destruction of crafted items, are considered particularly heinous and may be punished more severely than crimes against persons.
+While never emotionally expressive, Finestorians have become even more reserved since The Shattering, viewing emotional responses as inefficient and potentially dangerous in a world where reality itself is unstable. They maintain detailed records of all interactions with other races, calculating the precise value of each relationship based on resource exchange potential and technical knowledge sharing. They respect the Northmen for their pragmatic approach to the new world and maintain carefully regulated trade relationships with them, primarily exchanging void ore crafting techniques for access to new deposits.
 
-Finestorians maintain pragmatic relationships with other races, judging them primarily by their craftsmanship and work ethic. They respect the Northmen for their practical approach to life and trade, and appreciate the Pasunkas' discipline. They find common ground with the Froggians through shared intellectual pursuits, though they focus on different fields. They view the Bloodelves and Hellspawns with distrust, seeing their cruelty as wasteful and their societies as chaotic.
+Their worship of Crator has transformed into a technical pursuit of the 'Perfect Pattern'—the theoretical blueprint they believe underlies all of creation. By studying void ore and the fracture patterns of The Shattering, they seek to reverse-engineer Crator's design and eventually restore stability to Roomia. Their temples now function as research facilities where master craftsmen analyze void ore samples and test new stabilization techniques. Their most sacred ritual remains the 'Grand Making'—now focused on creating increasingly sophisticated devices to detect, measure, and counteract reality fractures.
 
-Their worship of Crator, the creator deity, is expressed through the perfection of their crafts, which they see as honoring the creative principle that shaped the world. Their temples double as showcases for the finest works of each guild, and their religious ceremonies often involve the collaborative creation of beautiful objects that are then dedicated to Crator. The most sacred ritual in Finestorian society is the 'Grand Making'—a festival held once every decade where master craftsmen from all guilds come together to create a single magnificent work that embodies the pinnacle of their collective skill. These creations are housed in the Great Temple of the Maker, where they form a timeline of Finestorian craftsmanship stretching back thousands of years.",
+The Finestorians view the chaos of the shattered world not as a tragedy but as an engineering problem to be solved through precise application of their crafting skills. Their emotionless exterior hides not indifference but an intense focus on the monumental task of rebuilding reality itself, one meticulously crafted object at a time.",
 	PROS: [
 		"Master craftsmen and smiths",
 		"Superior quality production",

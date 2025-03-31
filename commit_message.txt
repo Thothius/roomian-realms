@@ -1,15 +1,29 @@
-Version 0.52: Race Enhancement Patch v1
+Version 0.52: Race Enhancement Patch v2 with Interactive Race Pills
+
+- Enhanced race presentation with interactive race pills in the documentation:
+  - Created collapsible race pills organized by category
+  - Added responsive design for better viewing across devices
+  - Included deity affiliations with dual worship systems
+  - Standardized race information with size classifications and descriptions
+
+- Corrected deity count in _Info.txt to consistently reference all five deities:
+  - Athuri, Aminion, Crator, Shmalor, and the God Emperor
 
 - Standardized race sizes into three distinct groups for better gameplay balance:
-  - Small Races: Wormlings and Froggians (Height 5, Width 5)
-  - Medium Races: Satyrs, Bloodelves, Pasunkas, and Northmen (Height 7, Width 7)
-  - Large Races: Finestorians and Hellspawn (Height 9, Width 9)
-  
+  - Small Races: Wormlings (Adult: 15 days) and Froggians (Adult: 60 days)
+  - Medium Races: Northmen (Adult: 80 days), Satyrs (Adult: 80 days), Bloodelves (Adult: 85 days), Pasunkas (Adult: 90 days)
+  - Large Races: Hellspawn (Adult: 110 days) and Finestorians (Adult: 120 days)
+
 - Rebalanced adult maturation ages based on race size:
   - Smaller races reach adulthood faster (Froggians: 60 days)
   - Medium races have moderate maturation periods (80-90 days)
   - Larger races develop more slowly (110-120 days)
   - Wormlings remain unique with extremely rapid maturation (15 days)
+
+- Added visual race cards to documentation:
+  - Added markdown race cards with images to GitHub README
+  - Updated HTML documentation with enhanced race cards section
+  - Incorporated race banners images for all eight races
 
 - Updated documentation in README.md to reflect these changes
 - Updated version number to 0.52 in _Info.txt

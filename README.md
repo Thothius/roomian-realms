@@ -1,54 +1,15 @@
-# RoomianRealms (v0.52)
+# RoomianRealms (v0.55)
 
 ## Overview
 
-*"Eight extraordinary civilizations emerge from the ashes of a shattered world. From mystical forest guardians to technological amphibians, each society has forged its own path through the chaos of divine conflict."*
+*"In the wake of The Shattering, eight extraordinary civilizations emerged from the chaos, each shaped by their connection to ancient deities and the mysterious void residue found within the world's ores. From the enigmatic forest-dwelling Satyrs to the technologically advanced Froggians, each race brings unique strengths and perspectives to the fractured world of Roomia."
 
-When ancient powers clashed, they left behind a tapestry of diverse cultures—each shaped by their connection to forgotten deities. Now these inheritors of divine wisdom and arcane knowledge vie for supremacy across fractured lands. The future belongs to those who can unite these disparate peoples or bend their unique strengths to their will.
+The discovery of void residue within the planet's ores has ushered in a new era of technological and magical possibilities. This mysterious substance, believed to be remnants of Shmalor's essence, has become the catalyst for both progress and conflict across Roomia. As the races harness this power, they must navigate complex alliances, ancient rivalries, and the ever-present threat of the God Emperor's return.
 
 ## Documentation
 
 - **[Online Documentation](https://thothius.github.io/roomian-realms/)** - View our comprehensive documentation website
 - **In-Game Documentation** - Access the HTML documentation in the mod folder
-
-## What's New in Version 0.52
-
-### Race Enhancement Patch v1
-- Standardized race sizes into three distinct groups for better gameplay balance:
-  - **Small Races**: Wormlings and Froggians (Height 5, Width 5)
-  - **Medium Races**: Satyrs, Bloodelves, Pasunkas, and Northmen (Height 7, Width 7)
-  - **Large Races**: Finestorians and Hellspawn (Height 9, Width 9)
-- Rebalanced adult maturation ages based on race size:
-  - Smaller races reach adulthood faster (Froggians: 60 days)
-  - Medium races have moderate maturation periods (80-90 days)
-  - Larger races develop more slowly (110-120 days)
-  - Wormlings remain unique with extremely rapid maturation (15 days) reflecting their alien biology
-
-### Enhanced Character Trait System
-- Added comprehensive race-specific traits for all 8 playable races
-- Each race now has 8 unique traits reflecting their culture and biology
-- Implemented the God Emperor Devotee trait for Wormlings and other followers
-- Added elite traits that reflect connections to all five deities
-- Balanced trait distribution and improved exclusivity rules
-
-### Comprehensive Religious Framework
-- Expanded lore for all five deities (Athuri, Aminion, Crator, Shmalor, God Emperor)
-- Detailed connections between races and their patron deities
-- Enhanced temple descriptions and religious practices
-- Sacred rituals and ceremonies for each faith
-- Revealed the true nature of the God Emperor and its relationship with Shmalor
-
-### Streamlined Building System
-- Removed complex religious buildings (PANTHEON_TEMPLE_RG2, PAIN_EMBRACE_RG2, BLOOD_RITUAL_RG2, DREAMING_POOL_RG2)
-- Removed void-related structures (VOID_AMPLIFIER_RG2, VOID_CRYSTAL_REFINERY_RG2, VOID_GATEWAY_RG2, VOID_NEXUS_RG2, BREACH_PORTAL_RG2)
-- Removed additional military buildings (GLORY_HOARD_RG2, WILD_HUNT_LODGE_RG2)
-- Removed resource-focused facilities (FORGE_BOUND_RG2, MINE_VOID_ORE_RG2, CORPSE_PROCESSOR_RG2, EMBASSY_RG2)
-- Retained essential buildings: race-specific nurseries (8), military/training buildings (3), production buildings (2), and religious shrines (4)
-
-### Enhanced Military Buildings
-- Added **Mercenary Expedition Post** that sends mercenaries on expeditions to find luxury resources
-- Updated **Cretonian Dojo** to focus on unarmed combat and training with pushup gloves
-- Maintained the **Advanced Armory** for production of specialized weapons including pushup gloves
 
 ## Features
 
@@ -141,6 +102,10 @@ Immerse yourself in the world of Roomian Realms with a custom soundtrack that en
 - Not compatible with previous versions
 
 ## Changelog
+
+### Version 0.55 (New Release)
+- Updated Overview to reflect new lore
+- Removed 'What's New in Version 0.52' section
 
 ### Version 0.52 (April 15, 2025)
 - Added Race Enhancement Patch v1, standardizing race sizes and rebalancing adult maturation ages

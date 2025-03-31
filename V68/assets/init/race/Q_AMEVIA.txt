@@ -5,23 +5,23 @@ PROPERTIES: {
 	ADULT_AT_DAY: 60,
 	CORPSE_DECAY: true,
 	SLEEPS: true,
-	RAID_MERCINARY: 0.1,
+	RAID_MERCINARY: 0.05,
 },
 BEHAVIOUR: {
 	SKINNY_DIPS: 1.0,
-	SLAVE_DRIVER: 0.1,
-	SLAVER: 0.1,
-	EXECUTION_PERFORM: 0.1,
-	FOREST_LOVER: 0.8,
-	BLOODLUST: 0.2,
-	CRUELTY: 0.1,
-	SUBMISSION: 0.5,
+	SLAVE_DRIVER: 0.0,
+	SLAVER: 0.0,
+	EXECUTION_PERFORM: 0.05,
+	FOREST_LOVER: 1.0,
+	BLOODLUST: 0.05,
+	CRUELTY: 0.0,
+	SUBMISSION: 0.3,
 	DISCIPLINE: 0.9,
-	LOYALTY: 0.9,
+	LOYALTY: 1.0,
 	PACIFISM: 1.0,
-	HEDONISM: 0.4,
-	RITUALISTIC: 0.7,
-	SPIRITUAL: 0.8,
+	HEDONISM: 0.3,
+	RITUALISTIC: 0.8,
+	SPIRITUAL: 1.0,
 	INTELLECTUAL: 1.0,
 	AMPHIBIOUS: 1.0,
 	PRAGMATIC: 0.8,
@@ -275,6 +275,7 @@ BOOST: {
 	RELIGION_ATHURI>ADD: 1.5,
 	RELIGION_CRATOR>ADD: 0.3,
 	RELIGION_SHMALOR>ADD: -0.2,
+	RELIGION_GOD_EMPEROR>ADD: -0.3,
 	BATTLE_ARCHERY>MUL: 1.1,
 	BATTLE_DEFENCE>MUL: 0.8,
 	BATTLE_OFFENCE>MUL: 0.5,
@@ -378,19 +379,25 @@ DESC_INFO: {
 	NAMES: "Froggians",
 	POSSESSIVE: "Froggian",
 	POSSESSIVES: "Froggian",
-	LORE: "The Froggians are amphibious beings whose origins trace back to the First Age of Harmony, when Athuri Astari blessed the waters of the Sacred Pools with his divine wisdom. Their society is built upon the foundations of knowledge, harmony, and peaceful coexistence. Their technological development has followed a unique path, focusing on innovations that work with natural processes rather than attempting to dominate them. This 'living technology' incorporates specially cultivated organisms into everyday tools and systems, creating wonders such as bioluminescent lighting, water purification through symbiotic algae, and living architecture that grows and adapts to the needs of its inhabitants.
+	LORE: "When The Shattering tore through reality, the Froggians made a profound discovery—while the world's physical structure fractured, so too did the collective memory of its inhabitants. Yet somehow, the sacred waters of their Knowledge Pools remained untouched by this amnesia, preserving fragments of history that have been wiped from other races' minds. What began as confusion quickly transformed into purpose: the Froggians would become the Memory Keepers of the broken world.
 
-The cornerstone of Froggian society is the 'Knowledge Pool'—a communal gathering place where information is freely shared and decisions are made through thoughtful consensus rather than hierarchical authority. These sacred pools are believed to contain water from the original blessing of Athuri, and Froggians immerse themselves daily in ritual 'wisdom baths' that they believe connect them directly to the divine intelligence of their patron deity. Their most revered leaders, known as 'Deep Thinkers,' can reportedly enter trances lasting weeks while submerged, emerging with revolutionary insights and innovations.
+The cornerstone of their society, the 'Knowledge Pool,' has evolved into something far more precious—the Repository of Unbroken Memory. These sacred pools contain water that somehow exists simultaneously in both pre- and post-Shattering states, allowing the Froggians to perceive and preserve crucial knowledge about the world that was. Their once-scholarly 'wisdom baths' have become vital rituals where Froggians commune with these memory fragments, ensuring their preservation for future generations.
 
-Froggian settlements are architectural marvels that seamlessly integrate with natural water features, featuring transparent domes, living plant walls, and ingenious irrigation systems. Their most impressive achievement is the Great Library of Amphibia, a massive structure built within and around a series of interconnected pools, where knowledge from across Syx is collected, preserved, and shared freely. The library's central chamber houses the 'Eternal Ripple'—a perfectly circular pool where a single droplet falls from the ceiling at precisely calculated intervals, creating ripples that Froggian scholars study for divine inspiration.
+This unique ability has given rise to specialized scholars known as 'Memory Divers.' Through deep meditative states achieved while fully submerged, these gifted individuals can retrieve specific lost memories from the void itself. The most talented can even access memories that were never their own—glimpses of important events, forgotten technologies, or crucial alliances that existed before The Shattering. This process is both physically and mentally taxing; divers often emerge with their skin temporarily bleached and minds disoriented, requiring days of recovery.
 
-Their society is organized into five 'Circles of Wisdom,' each dedicated to different aspects of knowledge: the Circle of Nature (biology and ecology), the Circle of Elements (physics and chemistry), the Circle of Harmony (arts and philosophy), the Circle of Structure (architecture and engineering), and the Circle of Connection (diplomacy and trade). Rather than a rigid hierarchy, Froggians move fluidly between circles based on their current interests and the community's needs, with respected elders serving as 'Ripple Guides' who help coordinate efforts across circles.
+The Great Library of Amphibia has been transformed into the central hub of their memory preservation efforts. Within its transparent domes, Froggians have developed remarkable 'Story Spheres'—water-filled orbs containing precisely calibrated amounts of void ore that can store and project recovered memories. These spheres line the library's chambers in careful arrangements, each containing knowledge that would otherwise be lost forever. The arrangement itself is a complex mnemonic system, with the relationships between spheres forming a meta-memory that helps organize the vast repository of recovered knowledge.
 
-Despite their peaceful nature, Froggians maintain a defensive force known as the 'Flowing Leap Brigade'—warriors trained in non-lethal combat techniques that emphasize mobility and disorientation rather than direct confrontation. Their unique fighting style, 'The Way of Water,' teaches that like water itself, a warrior should flow around obstacles rather than clash with them directly. Their specialized weapons include stunning sonic resonators, paralytic dart blowers, and nets woven from living aquatic plants that can entangle and subdue opponents without causing permanent harm.
+Their society's organization has adapted to this new purpose. The traditional five 'Circles of Wisdom' remain, but a new circle has emerged—the Circle of Remembrance, dedicated to the recovery, preservation, and strategic distribution of pre-Shattering knowledge. Rather than a rigid hierarchy, Froggians still move fluidly between circles based on their talents and the community's needs, with 'Memory Wardens' serving as coordinators who determine which memories must be prioritized for recovery and which may be too dangerous to restore.
 
-Froggians approach diplomacy with patience and curiosity, seeing each new relationship as an opportunity for mutual growth and learning. They maintain complex relationships with other races, based on their shared values of knowledge and harmony. They share a deep spiritual connection with the Satyrs, both races valuing nature and peaceful coexistence. They find common ground with the Finestorians through intellectual pursuits, though they focus more on theoretical knowledge while Finestorians excel in practical applications. They maintain cautious but respectful relations with the Northmen, appreciating their pragmatism while concerned about their occasional aggression.
+Despite their peaceful nature, the Froggians have developed the 'Clarity Guard'—an evolution of their Flowing Leap Brigade. These defenders protect both the physical repositories and the Memory Divers, who are particularly vulnerable during deep retrieval trances. Their combat techniques remain non-lethal but have adapted to counter void-warped threats, using specially treated waters that can temporarily restore clarity to corrupted minds and stabilize fractures in reality.
 
-They view the Bloodelves and Hellspawns with deep concern, seeing their cruelty as fundamentally opposed to the Froggian philosophy of harmony. Their devotion to Athuri, the leader of the Astari, is expressed through their pursuit of knowledge and wisdom, which they see as the path to enlightenment and the highest form of spiritual practice. Their most sacred annual ceremony, the 'Convergence of Minds,' involves a mass gathering where thousands of Froggians join in a synchronized meditation while partially submerged in a sacred pool, creating ripple patterns that they believe communicate directly with Athuri himself.",
+The Froggians face daily ethical dilemmas about which memories should be restored and shared. Some knowledge, they have discovered, was perhaps better left forgotten—secrets about void manipulation, technologies that may have contributed to The Shattering, or alliances that would only reignite ancient conflicts in the fragmented world. Each recovered memory must pass through a council of elder Memory Wardens who assess its potential impact before deciding whether and how to share it.
+
+Their diplomatic approach has grown more cautious yet more essential. Froggians now carefully evaluate which memories to share with other races, understanding that knowledge is their most valuable trading resource in the post-Shattering economy. They maintain their strongest bond with the Satyrs, who help protect the natural environments where many Knowledge Pools are located. Their relationship with the Finestorians has deepened as they share recovered memories of crafting techniques that incorporate void ore, while the Finestorians provide specialized containers for the most volatile memory fragments.
+
+The Froggians' devotion to Athuri has evolved into a more complex spirituality. They believe that the preservation of memory is the highest form of worship, as it maintains the continuity of Athuri's wisdom across the broken timeline. Their most sacred ceremony, the 'Confluence of Recollection,' involves a mass gathering where thousands of Froggians immerse themselves simultaneously in a great Knowledge Pool, their collective consciousness temporarily forming a complete memory of a significant pre-Shattering event.
+
+The Froggians navigate the precarious balance of memory in the fractured world, knowing that in some cases, remembering is a burden as heavy as forgetting. Yet they persist in their sacred duty, ensuring that even as reality itself breaks apart, the story of what came before—and perhaps the knowledge needed to restore it—remains intact, preserved in the depths of their sacred waters.",
 	PROS: [
 		"Superior research and knowledge retention",
 		"Exceptional water management",
