@@ -49,14 +49,13 @@ The Roomian Realms are influenced by the remaining Astari gods, each representin
 
 | Aminion (The Fallen One) | Athuri (The Leader) |
 | :----------------------: | :-----------------: |
-| ![Aminion](docs/assets/backgrounds/misc_001.png) | ![Athuri](docs/assets/backgrounds/misc_002.png) |
+| ![Aminion](Mod%20Info/images/misc/misc_001.png) | ![Athuri](Mod%20Info/images/misc/misc_002.png) |
 | Lord of Chaos. Once a powerful Astari, he embraced destruction and now seeks to twist reality to his will. Worshipped primarily by **Hellspawns** and **Bloodelves**, who value power gained through suffering and domination. | Embodiment of Wisdom and Harmony. Athuri fought to preserve balance during the cosmic wars and represents the natural order and the pursuit of knowledge. Worshipped primarily by **Satyrs** and **Froggians**, who seek alignment with nature and collective understanding. |
 
 | Crator (The Creator) | Shmalor (The Shattered One / The Trickster) |
 | :------------------: | :-----------------------------------------: |
-| ![Crator](docs/assets/backgrounds/misc_003.png) | ![Shmalor](docs/assets/backgrounds/misc_004.png) |
+| ![Crator](Mod%20Info/images/misc/misc_003.png) | ![Shmalor](Mod%20Info/images/misc/misc_004.png) |
 | The Divine Architect. Crator shaped the physical realm and embodies the principles of creation, order, and the perfection of form through discipline and skill. Worshipped primarily by **Pasunkas** and **Finestorians**, who value mastery, structure, and craftsmanship. Revered also by **Northmen** for blessing their shipbuilding and weapon-forging. | Represents the duality of the Void and Cunning. The original **Void God** aspect of Shmalor was destroyed during **The Shattering**, its essence dissolving into the **void residue** now sought by the **Wormlings**. However, an enigmatic **Trickster** aspect survived, embodying opportunity, adaptation, and manipulation. This aspect is revered by **Northmen** (for success in trade and cunning strategy) and **Bloodelves** (for political maneuvering and exploiting weakness). |
-
 
 ### Custom Music
 
