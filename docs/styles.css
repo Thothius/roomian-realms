@@ -191,66 +191,131 @@ section h2 {
 }
 
 /* Race cards */
-.race-cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 1rem;
-  margin-top: 1rem;
+.race-pills-container {
+  margin-bottom: 40px;
 }
 
-.race-card {
-  background-color: #f8f9fa;
+.category-section {
+  margin-bottom: 30px;
+}
+
+.category-title {
+  margin-bottom: 15px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--primary-color);
+  font-family: 'Cinzel', serif;
+  color: var(--primary-color);
+}
+
+.category-section:nth-child(1) .category-title {
+  border-color: var(--children-of-light);
+  color: var(--children-of-light);
+}
+
+.category-section:nth-child(2) .category-title {
+  border-color: var(--heirs-of-balance);
+  color: var(--heirs-of-balance);
+}
+
+.category-section:nth-child(3) .category-title {
+  border-color: var(--servants-of-shadow);
+  color: var(--servants-of-shadow);
+}
+
+.category-section:nth-child(4) .category-title {
+  border-color: var(--the-outsiders);
+  color: var(--the-outsiders);
+}
+
+.race-pill {
+  background-color: white;
   border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
   overflow: hidden;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s;
+  margin-bottom: 15px;
+  transition: var(--transition);
 }
 
-.race-card:hover {
-  transform: translateY(-5px);
+.race-pill:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
 }
 
-.race-card-banner {
-  height: 100px;
-  background-size: cover;
-  background-position: center;
+.race-pill-header {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  cursor: pointer;
   position: relative;
 }
 
-.race-card-content {
-  padding: 1rem;
+.race-mini-banner {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  margin-right: 15px;
+  border: 2px solid var(--primary-color);
 }
 
-.race-card h4 {
+.category-section:nth-child(1) .race-mini-banner {
+  border-color: var(--children-of-light);
+}
+
+.category-section:nth-child(2) .race-mini-banner {
+  border-color: var(--heirs-of-balance);
+}
+
+.category-section:nth-child(3) .race-mini-banner {
+  border-color: var(--servants-of-shadow);
+}
+
+.category-section:nth-child(4) .race-mini-banner {
+  border-color: var(--the-outsiders);
+}
+
+.race-pill-header h4 {
   margin: 0;
-  font-size: 1.25rem;
+  font-family: 'Cinzel', serif;
+  font-size: 1.3rem;
   color: var(--dark-color);
+  flex-grow: 1;
 }
 
-.race-card .race-deity {
-  font-size: 0.9rem;
+.race-pill-toggle {
+  font-size: 1.5rem;
+  font-weight: bold;
   color: var(--primary-color);
-  margin-top: 0.5rem;
+  transition: var(--transition);
 }
 
-.race-card p {
-  font-size: 0.9rem;
-  margin-top: 0.5rem;
-  color: #555;
+.race-pill-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
 }
 
-.race-traits {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-top: 0.75rem;
+.race-pill.active .race-pill-content {
+  max-height: 500px; /* Adjust this value as needed */
 }
 
-.race-trait {
-  font-size: 0.8rem;
-  background-color: #e9ecef;
-  padding: 0.1rem 0.5rem;
-  border-radius: 12px;
+.race-pill.active .race-pill-toggle {
+  transform: rotate(45deg);
+}
+
+.race-info {
+  padding: 15px 20px;
+  border-top: 1px solid #eee;
+}
+
+.race-info p {
+  margin: 0 0 10px 0;
+  line-height: 1.5;
+}
+
+.race-info p:last-child {
+  margin-bottom: 0;
 }
 
 /* Deity cards */
@@ -455,7 +520,7 @@ footer a {
   }
   
   .categories-container,
-  .race-cards,
+  .race-pills-container,
   .deity-cards {
     grid-template-columns: 1fr;
   }
@@ -468,147 +533,13 @@ footer a {
   nav li {
     padding: 0.75rem;
   }
-}
-
-/* Race Cards Grid */
-.race-cards-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
-  margin-bottom: 40px;
-}
-
-.race-card {
-  background-color: white;
-  border-radius: var(--border-radius);
-  overflow: hidden;
-  box-shadow: var(--box-shadow);
-  transition: var(--transition);
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-.race-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-}
-
-.race-card-banner {
-  height: 200px;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  display: flex;
-  align-items: flex-end;
-}
-
-.race-card-banner::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 60%;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
-  z-index: 1;
-}
-
-.race-card-banner h3 {
-  color: white;
-  font-family: 'Cinzel', serif;
-  font-size: 2rem;
-  padding: 20px;
-  margin: 0;
-  position: relative;
-  z-index: 2;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-}
-
-.race-card-content {
-  padding: 20px;
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-}
-
-.race-category {
-  background-color: var(--children-of-light);
-  color: white;
-  display: inline-block;
-  padding: 4px 10px;
-  border-radius: 20px;
-  font-size: 0.8rem;
-  font-weight: bold;
-  margin-bottom: 10px;
-  align-self: flex-start;
-}
-
-.race-card-content .race-category {
-  background-color: var(--children-of-light);
-}
-
-.race-card:nth-child(1) .race-category,
-.race-card:nth-child(2) .race-category {
-  background-color: var(--children-of-light);
-}
-
-.race-card:nth-child(3) .race-category,
-.race-card:nth-child(4) .race-category {
-  background-color: var(--heirs-of-balance);
-}
-
-.race-card:nth-child(5) .race-category,
-.race-card:nth-child(6) .race-category {
-  background-color: var(--servants-of-shadow);
-}
-
-.race-card:nth-child(7) .race-category,
-.race-card:nth-child(8) .race-category {
-  background-color: var(--the-outsiders);
-}
-
-.race-deity {
-  font-style: italic;
-  color: var(--neutral-color);
-  margin-bottom: 15px;
-  font-size: 0.9rem;
-}
-
-.race-description {
-  color: var(--dark-color);
-  line-height: 1.5;
-  margin-bottom: 15px;
-  flex-grow: 1;
-}
-
-.race-stats {
-  display: flex;
-  justify-content: space-between;
-  border-top: 1px solid #eee;
-  padding-top: 15px;
-}
-
-.race-stat {
-  display: inline-block;
-  padding: 5px 10px;
-  background-color: #f5f5f5;
-  border-radius: 4px;
-  font-size: 0.8rem;
-  font-weight: bold;
-}
-
-/* Media queries for responsive design */
-@media (max-width: 768px) {
-  .race-cards-grid {
-    grid-template-columns: 1fr;
+  
+  .race-pill-header h4 {
+    font-size: 1.1rem;
   }
   
-  .race-card-banner {
-    height: 150px;
-  }
-  
-  .race-card-banner h3 {
-    font-size: 1.5rem;
+  .race-mini-banner {
+    width: 40px;
+    height: 40px;
   }
 }

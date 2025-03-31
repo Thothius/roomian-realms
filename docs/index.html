@@ -31,128 +31,152 @@
     <section id="race-overview">
       <h2>Race Overview</h2>
       
-      <!-- New Race Cards Grid -->
-      <div class="race-cards-grid">
-        <!-- Row 1 -->
-        <div class="race-card">
-          <div class="race-card-banner" style="background-image: url('assets/race_backgrounds/satyrs.png');">
-            <h3>Satyrs</h3>
-          </div>
-          <div class="race-card-content">
-            <p class="race-category">Children of Light</p>
-            <p class="race-deity">Devoted to: Athuri</p>
-            <p class="race-description">Forest-dwelling, nature-oriented beings with strong spiritual connections. They excel in archery and hunting, with a deep understanding of herbal wisdom and a harmonious connection to the forest.</p>
-            <div class="race-stats">
-              <span class="race-stat">Size: Medium</span>
-              <span class="race-stat">Adult: 80 Days</span>
+      <!-- Race Pills Section -->
+      <div class="race-pills-container">
+        <!-- Children of Light -->
+        <div class="category-section">
+          <h3 class="category-title">Children of Light</h3>
+          
+          <!-- Satyrs -->
+          <div class="race-pill">
+            <div class="race-pill-header" onclick="toggleRacePill(this)">
+              <div class="race-mini-banner" style="background-image: url('assets/race_backgrounds/satyrs.png');"></div>
+              <h4>Satyrs</h4>
+              <span class="race-pill-toggle">+</span>
+            </div>
+            <div class="race-pill-content">
+              <div class="race-info">
+                <p><strong>Deity:</strong> Athuri</p>
+                <p><strong>Size:</strong> Medium (Adult: 80 Days)</p>
+                <p>Forest-dwelling, nature-oriented beings with strong spiritual connections. They excel in archery and hunting, with a deep understanding of herbal wisdom and a harmonious connection to the forest.</p>
+              </div>
             </div>
           </div>
-        </div>
-
-        <div class="race-card">
-          <div class="race-card-banner" style="background-image: url('assets/race_backgrounds/froggians.png');">
-            <h3>Froggians</h3>
-          </div>
-          <div class="race-card-content">
-            <p class="race-category">Children of Light</p>
-            <p class="race-deity">Devoted to: Athuri</p>
-            <p class="race-description">Amphibious race renowned for their innovation, diplomacy, and harmonious lifestyles. They live in perfect balance with nature, while developing remarkable technologies that blend with the environment.</p>
-            <div class="race-stats">
-              <span class="race-stat">Size: Small</span>
-              <span class="race-stat">Adult: 60 Days</span>
+          
+          <!-- Froggians -->
+          <div class="race-pill">
+            <div class="race-pill-header" onclick="toggleRacePill(this)">
+              <div class="race-mini-banner" style="background-image: url('assets/race_backgrounds/froggians.png');"></div>
+              <h4>Froggians</h4>
+              <span class="race-pill-toggle">+</span>
             </div>
-          </div>
-        </div>
-        
-        <!-- Row 2 -->
-        <div class="race-card">
-          <div class="race-card-banner" style="background-image: url('assets/race_backgrounds/northmen.png');">
-            <h3>Northmen</h3>
-          </div>
-          <div class="race-card-content">
-            <p class="race-category">Heirs of Balance</p>
-            <p class="race-deity">Devoted to: Crator/Shmalor</p>
-            <p class="race-description">Hardy humans with Norse-inspired society, skilled in battle and craftsmanship. They value honor and practical knowledge, forming the backbone of many trade networks and military alliances.</p>
-            <div class="race-stats">
-              <span class="race-stat">Size: Medium</span>
-              <span class="race-stat">Adult: 80 Days</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="race-card">
-          <div class="race-card-banner" style="background-image: url('assets/race_backgrounds/pasunkas.png');">
-            <h3>Pasunkas</h3>
-          </div>
-          <div class="race-card-content">
-            <p class="race-category">Heirs of Balance</p>
-            <p class="race-deity">Devoted to: Crator</p>
-            <p class="race-description">Disciplined engineers with a deep connection to geometric patterns and architecture. Their society thrives on order, with highly structured social hierarchies and obsessive attention to precise measurements.</p>
-            <div class="race-stats">
-              <span class="race-stat">Size: Medium</span>
-              <span class="race-stat">Adult: 90 Days</span>
+            <div class="race-pill-content">
+              <div class="race-info">
+                <p><strong>Deity:</strong> Athuri</p>
+                <p><strong>Size:</strong> Small (Adult: 60 Days)</p>
+                <p>Amphibious race renowned for their innovation, diplomacy, and harmonious lifestyles. They live in perfect balance with nature, while developing remarkable technologies that blend with the environment.</p>
+              </div>
             </div>
           </div>
         </div>
         
-        <!-- Row 3 -->
-        <div class="race-card">
-          <div class="race-card-banner" style="background-image: url('assets/race_backgrounds/wormlings.png');">
-            <h3>Wormlings</h3>
-          </div>
-          <div class="race-card-content">
-            <p class="race-category">Breakers of Reality</p>
-            <p class="race-deity">Devoted to: Shmalor/God Emperor</p>
-            <p class="race-description">Alien hive-minded entities from beyond reality with a unique connection to the void. They communicate telepathically and possess an otherworldly understanding of dimensional physics and void manipulation.</p>
-            <div class="race-stats">
-              <span class="race-stat">Size: Small</span>
-              <span class="race-stat">Adult: 15 Days</span>
+        <!-- Heirs of Balance -->
+        <div class="category-section">
+          <h3 class="category-title">Heirs of Balance</h3>
+          
+          <!-- Northmen -->
+          <div class="race-pill">
+            <div class="race-pill-header" onclick="toggleRacePill(this)">
+              <div class="race-mini-banner" style="background-image: url('assets/race_backgrounds/northmen.png');"></div>
+              <h4>Northmen</h4>
+              <span class="race-pill-toggle">+</span>
+            </div>
+            <div class="race-pill-content">
+              <div class="race-info">
+                <p><strong>Deity:</strong> Crator/Shmalor</p>
+                <p><strong>Size:</strong> Medium (Adult: 80 Days)</p>
+                <p>Hardy humans with Norse-inspired society, skilled in battle and craftsmanship. They value honor and practical knowledge, forming the backbone of many trade networks and military alliances.</p>
+              </div>
             </div>
           </div>
-        </div>
-
-        <div class="race-card">
-          <div class="race-card-banner" style="background-image: url('assets/race_backgrounds/bloodelves.png');">
-            <h3>Bloodelves</h3>
-          </div>
-          <div class="race-card-content">
-            <p class="race-category">Breakers of Reality</p>
-            <p class="race-deity">Devoted to: Aminion/Shmalor</p>
-            <p class="race-description">Fallen elves corrupted by blood magic and chaos, embracing pain as enlightenment. Their society values personal transformation through suffering, creating powerful rituals that twist reality and flesh alike.</p>
-            <div class="race-stats">
-              <span class="race-stat">Size: Medium</span>
-              <span class="race-stat">Adult: 85 Days</span>
+          
+          <!-- Pasunkas -->
+          <div class="race-pill">
+            <div class="race-pill-header" onclick="toggleRacePill(this)">
+              <div class="race-mini-banner" style="background-image: url('assets/race_backgrounds/pasunkas.png');"></div>
+              <h4>Pasunkas</h4>
+              <span class="race-pill-toggle">+</span>
+            </div>
+            <div class="race-pill-content">
+              <div class="race-info">
+                <p><strong>Deity:</strong> Crator</p>
+                <p><strong>Size:</strong> Medium (Adult: 90 Days)</p>
+                <p>Disciplined engineers with a deep connection to geometric patterns and architecture. Their society thrives on order, with highly structured social hierarchies and obsessive attention to precise measurements.</p>
+              </div>
             </div>
           </div>
         </div>
         
-        <!-- Row 4 -->
-        <div class="race-card">
-          <div class="race-card-banner" style="background-image: url('assets/race_backgrounds/finestorians.png');">
-            <h3>Finestorians</h3>
+        <!-- Breakers of Reality -->
+        <div class="category-section">
+          <h3 class="category-title">Breakers of Reality</h3>
+          
+          <!-- Wormlings -->
+          <div class="race-pill">
+            <div class="race-pill-header" onclick="toggleRacePill(this)">
+              <div class="race-mini-banner" style="background-image: url('assets/race_backgrounds/wormlings.png');"></div>
+              <h4>Wormlings</h4>
+              <span class="race-pill-toggle">+</span>
+            </div>
+            <div class="race-pill-content">
+              <div class="race-info">
+                <p><strong>Deity:</strong> Shmalor/God Emperor</p>
+                <p><strong>Size:</strong> Small (Adult: 15 Days)</p>
+                <p>Alien hive-minded entities from beyond reality with a unique connection to the void. They communicate telepathically and possess an otherworldly understanding of dimensional physics and void manipulation.</p>
+              </div>
+            </div>
           </div>
-          <div class="race-card-content">
-            <p class="race-category">Arbiters of Order</p>
-            <p class="race-deity">Devoted to: Crator</p>
-            <p class="race-description">Technologically advanced beings with a deep respect for order and perfection. Their society emphasizes intellectual achievement, technological innovation, and architectural grandeur.</p>
-            <div class="race-stats">
-              <span class="race-stat">Size: Large</span>
-              <span class="race-stat">Adult: 120 Days</span>
+          
+          <!-- Bloodelves -->
+          <div class="race-pill">
+            <div class="race-pill-header" onclick="toggleRacePill(this)">
+              <div class="race-mini-banner" style="background-image: url('assets/race_backgrounds/bloodelves.png');"></div>
+              <h4>Bloodelves</h4>
+              <span class="race-pill-toggle">+</span>
+            </div>
+            <div class="race-pill-content">
+              <div class="race-info">
+                <p><strong>Deity:</strong> Aminion/Shmalor</p>
+                <p><strong>Size:</strong> Medium (Adult: 85 Days)</p>
+                <p>Fallen elves corrupted by blood magic and chaos, embracing pain as enlightenment. Their society values personal transformation through suffering, creating powerful rituals that twist reality and flesh alike.</p>
+              </div>
             </div>
           </div>
         </div>
-
-        <div class="race-card">
-          <div class="race-card-banner" style="background-image: url('assets/race_backgrounds/hellspawn.png');">
-            <h3>Hellspawn</h3>
+        
+        <!-- Arbiters of Order -->
+        <div class="category-section">
+          <h3 class="category-title">Arbiters of Order</h3>
+          
+          <!-- Finestorians -->
+          <div class="race-pill">
+            <div class="race-pill-header" onclick="toggleRacePill(this)">
+              <div class="race-mini-banner" style="background-image: url('assets/race_backgrounds/finestorians.png');"></div>
+              <h4>Finestorians</h4>
+              <span class="race-pill-toggle">+</span>
+            </div>
+            <div class="race-pill-content">
+              <div class="race-info">
+                <p><strong>Deity:</strong> Crator</p>
+                <p><strong>Size:</strong> Large (Adult: 120 Days)</p>
+                <p>Technologically advanced beings with a deep respect for order and perfection. Their society emphasizes intellectual achievement, technological innovation, and architectural grandeur.</p>
+              </div>
+            </div>
           </div>
-          <div class="race-card-content">
-            <p class="race-category">Arbiters of Order</p>
-            <p class="race-deity">Devoted to: Aminion</p>
-            <p class="race-description">Monstrous beings born of chaos and fire with an insatiable bloodlust. Their society thrives on conquest and dominance, with a harsh survival-of-the-strongest social hierarchy and reverence for destructive power.</p>
-            <div class="race-stats">
-              <span class="race-stat">Size: Large</span>
-              <span class="race-stat">Adult: 110 Days</span>
+          
+          <!-- Hellspawn -->
+          <div class="race-pill">
+            <div class="race-pill-header" onclick="toggleRacePill(this)">
+              <div class="race-mini-banner" style="background-image: url('assets/race_backgrounds/hellspawn.png');"></div>
+              <h4>Hellspawn</h4>
+              <span class="race-pill-toggle">+</span>
+            </div>
+            <div class="race-pill-content">
+              <div class="race-info">
+                <p><strong>Deity:</strong> Aminion</p>
+                <p><strong>Size:</strong> Large (Adult: 110 Days)</p>
+                <p>Monstrous beings born of chaos and fire with an insatiable bloodlust. Their society thrives on conquest and dominance, with a harsh survival-of-the-strongest social hierarchy and reverence for destructive power.</p>
+              </div>
             </div>
           </div>
         </div>
@@ -331,6 +355,241 @@
     </div>
   </footer>
 
-  <script src="scripts.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Fetch and process JSON data for race and deity information
+      fetch('rr_data.json')
+        .then(response => response.json())
+        .then(data => {
+          // Update metadata
+          document.getElementById('mod-title').textContent = data.metadata.title;
+          document.getElementById('mod-version').textContent = 'Version ' + data.metadata.version;
+          document.getElementById('mod-description').textContent = data.metadata.description;
+          
+          // Populate race categories
+          populateCategories(data.categories);
+          
+          // Populate deity cards
+          populateDeityCards(data.deities);
+          
+          // Populate race comparison tables
+          populateRaceComparisons(data.races);
+        })
+        .catch(error => console.error('Error loading data:', error));
+      
+      // Initialize the race pill toggle functionality
+      initRacePills();
+    });
+    
+    // Race pill toggle function
+    function toggleRacePill(header) {
+      const pill = header.parentElement;
+      const isActive = pill.classList.contains('active');
+      
+      // Close all pills
+      document.querySelectorAll('.race-pill').forEach(p => {
+        p.classList.remove('active');
+        const toggle = p.querySelector('.race-pill-toggle');
+        toggle.textContent = '+';
+      });
+      
+      // If the clicked pill wasn't active, open it
+      if (!isActive) {
+        pill.classList.add('active');
+        const toggle = pill.querySelector('.race-pill-toggle');
+        toggle.textContent = '+';
+      }
+    }
+    
+    // Initialize race pills to ensure proper state
+    function initRacePills() {
+      document.querySelectorAll('.race-pill').forEach(pill => {
+        pill.classList.remove('active');
+        const toggle = pill.querySelector('.race-pill-toggle');
+        toggle.textContent = '+';
+      });
+    }
+
+    function populateCategories(categories) {
+      const container = document.querySelector('.categories-container');
+      if (!categories || !container) return;
+      
+      categories.forEach(category => {
+        const categoryDiv = document.createElement('div');
+        categoryDiv.className = 'category';
+        categoryDiv.innerHTML = `
+          <h3>${category.name}</h3>
+          <p>${category.description}</p>
+          <div class="race-cards"></div>
+        `;
+        container.appendChild(categoryDiv);
+      });
+    }
+    
+    function populateDeityCards(deities) {
+      const container = document.querySelector('.deity-cards');
+      if (!deities || !container) return;
+      
+      deities.forEach(deity => {
+        const deityCard = document.createElement('div');
+        deityCard.className = 'deity-card';
+        
+        let colorClass = '';
+        switch(deity.id) {
+          case 'ATHURI': colorClass = 'athuri-color'; break;
+          case 'AMINION': colorClass = 'aminion-color'; break;
+          case 'CRATOR': colorClass = 'crator-color'; break;
+          case 'SHMALOR': colorClass = 'shmalor-color'; break;
+          case 'GOD_EMPEROR': colorClass = 'god-emperor-color'; break;
+        }
+        
+        deityCard.innerHTML = `
+          <div class="deity-header ${colorClass}">
+            <h3>${deity.name}</h3>
+            <p class="deity-title">${deity.title || ''}</p>
+          </div>
+          <div class="deity-content">
+            <p>${deity.description}</p>
+            ${deity.domains ? `
+              <div class="deity-domains">
+                <h4>Domains</h4>
+                <ul>
+                  ${deity.domains.map(domain => `<li>${domain}</li>`).join('')}
+                </ul>
+              </div>
+            ` : ''}
+            ${deity.followers ? `
+              <div class="deity-followers">
+                <h4>Primary Followers</h4>
+                <p>${deity.followers.join(', ')}</p>
+              </div>
+            ` : ''}
+          </div>
+        `;
+        container.appendChild(deityCard);
+      });
+    }
+    
+    function populateRaceComparisons(races) {
+      if (!races) return;
+      
+      // Physical Properties Table
+      const physicalTable = document.querySelector('#physical-properties-table tbody');
+      if (physicalTable) {
+        races.forEach(race => {
+          const tr = document.createElement('tr');
+          tr.innerHTML = `
+            <td>${race.name}</td>
+            <td>${race.physicalProperties.height}</td>
+            <td>${race.physicalProperties.width}</td>
+            <td>${race.physicalProperties.adultAgeDays}</td>
+            <td>${race.physicalProperties.raidMercenary}</td>
+          `;
+          physicalTable.appendChild(tr);
+        });
+      }
+      
+      // Social Behaviors Table
+      const socialTable = document.querySelector('#social-behaviors-table tbody');
+      if (socialTable && races[0].socialBehaviors) {
+        races.forEach(race => {
+          const tr = document.createElement('tr');
+          tr.innerHTML = `
+            <td>${race.name}</td>
+            <td>${race.socialBehaviors.skinnyDips || 'N/A'}</td>
+            <td>${race.socialBehaviors.slaveDriver || 'N/A'}</td>
+            <td>${race.socialBehaviors.slaver || 'N/A'}</td>
+            <td>${race.socialBehaviors.execution || 'N/A'}</td>
+            <td>${race.socialBehaviors.forestLover || 'N/A'}</td>
+            <td>${race.socialBehaviors.bloodlust || 'N/A'}</td>
+            <td>${race.socialBehaviors.cruelty || 'N/A'}</td>
+          `;
+          socialTable.appendChild(tr);
+        });
+      }
+      
+      // Personality Traits Table
+      const personalityTable = document.querySelector('#personality-traits-table tbody');
+      if (personalityTable && races[0].personalityTraits) {
+        races.forEach(race => {
+          const tr = document.createElement('tr');
+          tr.innerHTML = `
+            <td>${race.name}</td>
+            <td>${race.personalityTraits.discipline || 'N/A'}</td>
+            <td>${race.personalityTraits.loyalty || 'N/A'}</td>
+            <td>${race.personalityTraits.pacifism || 'N/A'}</td>
+            <td>${race.personalityTraits.hedonism || 'N/A'}</td>
+            <td>${race.personalityTraits.ritualistic || 'N/A'}</td>
+            <td>${race.personalityTraits.spiritual || 'N/A'}</td>
+            <td>${race.personalityTraits.intellectual || 'N/A'}</td>
+          `;
+          personalityTable.appendChild(tr);
+        });
+      }
+      
+      // Work & Combat Table
+      const workCombatTable = document.querySelector('#work-combat-table tbody');
+      if (workCombatTable && races[0].workPreferences) {
+        races.forEach(race => {
+          const tr = document.createElement('tr');
+          tr.innerHTML = `
+            <td>${race.name}</td>
+            <td>${race.workPreferences.military || 'N/A'}</td>
+            <td>${race.workPreferences.crafting || 'N/A'}</td>
+            <td>${race.workPreferences.farming || 'N/A'}</td>
+            <td>${race.workPreferences.administration || 'N/A'}</td>
+            <td>${race.combatStyles ? race.combatStyles.archery || 'N/A' : 'N/A'}</td>
+            <td>${race.combatStyles ? race.combatStyles.battleProwess || 'N/A' : 'N/A'}</td>
+            <td>${race.combatStyles ? race.combatStyles.preferredArmor || 'N/A' : 'N/A'}</td>
+            <td>${race.combatStyles ? race.combatStyles.preferredWeapons || 'N/A' : 'N/A'}</td>
+          `;
+          workCombatTable.appendChild(tr);
+        });
+      }
+      
+      // Preferences Table
+      const preferencesTable = document.querySelector('#preferences-table tbody');
+      if (preferencesTable && races[0].preferences) {
+        races.forEach(race => {
+          const tr = document.createElement('tr');
+          tr.innerHTML = `
+            <td>${race.name}</td>
+            <td>${race.preferences.foods ? race.preferences.foods.join(', ') : 'N/A'}</td>
+            <td>${race.preferences.favoriteDrink || 'N/A'}</td>
+            <td>${race.preferences.environmentalPreferences ? race.preferences.environmentalPreferences.cold || 'N/A' : 'N/A'}</td>
+            <td>${race.preferences.environmentalPreferences ? race.preferences.environmentalPreferences.temperate || 'N/A' : 'N/A'}</td>
+            <td>${race.preferences.environmentalPreferences ? race.preferences.environmentalPreferences.hot || 'N/A' : 'N/A'}</td>
+            <td>${race.preferences.environmentalPreferences ? race.preferences.environmentalPreferences.mountain || 'N/A' : 'N/A'}</td>
+            <td>${race.preferences.environmentalPreferences ? race.preferences.environmentalPreferences.forest || 'N/A' : 'N/A'}</td>
+          `;
+          preferencesTable.appendChild(tr);
+        });
+      }
+      
+      // Population & Relations Table
+      const populationTable = document.querySelector('#population-relations-table tbody');
+      if (populationTable && races[0].population) {
+        races.forEach(race => {
+          const tr = document.createElement('tr');
+          tr.innerHTML = `
+            <td>${race.name}</td>
+            <td>${race.population.maxPopulation || 'N/A'}</td>
+            <td>${race.population.growthRate || 'N/A'}</td>
+            <td>${race.population.immigrationRate || 'N/A'}</td>
+            <td>${race.relations ? race.relations.mostFriendlyWith || 'N/A' : 'N/A'}</td>
+            <td>${race.relations ? race.relations.mostHostileTo || 'N/A' : 'N/A'}</td>
+          `;
+          populationTable.appendChild(tr);
+        });
+      }
+    }
+    
+    // Accordion functionality
+    document.querySelectorAll('.accordion-header').forEach(header => {
+      header.addEventListener('click', function() {
+        this.parentElement.classList.toggle('active');
+      });
+    });
+  </script>
 </body>
 </html>
