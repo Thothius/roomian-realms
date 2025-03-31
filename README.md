@@ -2,9 +2,9 @@
 
 ### The Shattering
 
-The current age was born from **The Shattering**, a cataclysm triggered when the **Chronoworm**, a colossal, reality-bending entity from another plane, tore through the fabric of the realms. This violent intrusion fractured the world and extinguished several of the ancient **Astari** gods, including **Bardok** (mentioned as defeated by Athuri) and the powerful **Shmalor**, whose void essence dissolved into potent, corrupting energy.
+The current age was born from **The Shattering**, a cataclysm triggered when the **Chronoworm**, a colossal, reality-bending entity from another plane, tore through the fabric of the realms. This violent intrusion fractured the world and extinguished several of the ancient **Astari** gods, including **Bardok** (mentioned as defeated by Athuri) and the powerful **Shmalor**, whose essence dissolved into potent, corrupting energy.
 
-The surviving Astari—**Athuri** (Wisdom & Harmony), **Crator** (Creation & Order), and **Aminion** (Chaos & Destruction)—along with the enigmatic **Shmalor** (now known primarily as the Trickster, embodying Cunning & Opportunity), struggled to impose their wills on the fractured reality.
+The surviving Astari—**Athuri** (Wisdom & Harmony), **Crator** (Creation & Order), and **Aminion** (Chaos & Destruction)—along with the enigmatic **Shmalor** (or what's left of him), struggled to impose their wills on the fractured reality.
 
 The Chronoworm's passage left an indelible scar: **void residue**, the lingering essence of the fallen aspect of Shmalor, now infused within the common **Sithilon Ore**. This ore, pulsating with transformative power, became a focal point for the eight surviving civilizations—Satyrs, Froggians, Northmen, Pasunkas, Wormlings, Bloodelves, Finestorians, and Hellspawn. Each race seeks to harness its potential, navigating a world forever changed by the echo of the void and the shifting balance of the remaining gods.
 
@@ -42,43 +42,21 @@ The Chronoworm's passage left an indelible scar: **void residue**, the lingering
 | **Size**: Large (Adult: 120 Days) | **Size**: Large (Adult: 110 Days) |
 | Technologically advanced beings with a deep respect for order and perfection. Their society emphasizes intellectual achievement and architectural grandeur. | Monstrous beings born of chaos and fire with an insatiable bloodlust. Their society thrives on conquest and dominance, with a harsh survival-of-the-strongest hierarchy. |
 
-- **Children of Light** (Good Races)
-  - Satyrs (ARGONOSH) - Female-dominated forest dwellers who value nature and defense
-  - Froggians (Q_AMEVIA) - Amphibious beings who embody wisdom and technology
-
-- **Heirs of Balance** (Neutral Races)
-  - Finestorians (DONDORIAN) - Craftsmen who value skill and honest labor
-  - Northmen (HUMAN) - Pragmatic traders and warriors driven by ambition
-
-- **Servants of Shadow** (Evil Races)
-  - Hellspawns (TILAPI) - Demonic entities that embody chaos and destruction
-  - Bloodelves (CANTOR) - Vampire-like beings who maintain slaves for blood consumption
-
-- **The Outsiders** (Beyond Morality)
-  - Wormlings (GARTHIMI) - Parasitic entities that infest hosts
-  - Pasunkas (CRETONIAN) - Spiritual martial artists who value discipline
 
 ### Divine Powers
 
-- **The Fallen One (Aminion)** - Lord of chaos who rebelled against the cosmic order. Once a powerful Astari, Aminion sought to remake reality in his own image. Primarily worshipped by Hellspawns and Bloodelves.
+The Roomian Realms are influenced by the remaining Astari gods, each representing fundamental forces:
 
-- **The Leader (Athuri)** - Greatest of the Astari, who embodies wisdom, harmony, and the natural order. Defeated his brother Bardok in both cosmic wars, establishing balance in the world. Primarily worshipped by Satyrs and Froggians.
+| Aminion (The Fallen One) | Athuri (The Leader) |
+| :----------------------: | :-----------------: |
+| ![Aminion](docs/assets/backgrounds/misc_001.png) | ![Athuri](docs/assets/backgrounds/misc_002.png) |
+| Lord of Chaos. Once a powerful Astari, he embraced destruction and now seeks to twist reality to his will. Worshipped primarily by **Hellspawns** and **Bloodelves**, who value power gained through suffering and domination. | Embodiment of Wisdom and Harmony. Athuri fought to preserve balance during the cosmic wars and represents the natural order and the pursuit of knowledge. Worshipped primarily by **Satyrs** and **Froggians**, who seek alignment with nature and collective understanding. |
 
-- **The Creator (Crator)** - Divine Architect and foremost creator among the Astari, who shaped the physical world and its many creatures. His temples celebrate craftsmanship, discipline, and the perfection of form. Primarily worshipped by Pasunkas and Finestorians.
+| Crator (The Creator) | Shmalor (The Shattered One / The Trickster) |
+| :------------------: | :-----------------------------------------: |
+| ![Crator](docs/assets/backgrounds/misc_003.png) | ![Shmalor](docs/assets/backgrounds/misc_004.png) |
+| The Divine Architect. Crator shaped the physical realm and embodies the principles of creation, order, and the perfection of form through discipline and skill. Worshipped primarily by **Pasunkas** and **Finestorians**, who value mastery, structure, and craftsmanship. Revered also by **Northmen** for blessing their shipbuilding and weapon-forging. | Represents the duality of the Void and Cunning. The original **Void God** aspect of Shmalor was destroyed during **The Shattering**, its essence dissolving into the **void residue** now sought by the **Wormlings**. However, an enigmatic **Trickster** aspect survived, embodying opportunity, adaptation, and manipulation. This aspect is revered by **Northmen** (for success in trade and cunning strategy) and **Bloodelves** (for political maneuvering and exploiting weakness). |
 
-- **The Slain Queen (Shmalor)** - Queen of the Agonosh, who represents the cosmic void and the spaces between realities. Slain during the first war of the gods, her death tore the veil between dimensions. Primarily worshipped by Wormlings.
-
-- **The God Emperor** - An alien entity from beyond reality that entered Roomia through The Breach created by Shmalor's death. Unlike the other deities who were once gods of Roomia, the God Emperor is an extradimensional presence whose consciousness exists primarily in the void between dimensions. The Wormlings contain fragments of its essence, allowing them to perceive multiple realities simultaneously. The ultimate goal of its worship is transcendence - preparing Roomia for the God Emperor's eventual return.
-
-### Character Traits System
-
-The mod features a comprehensive trait system with:
-
-- **Race-Specific Traits**: Each race has 8 unique traits that reflect their cultural and biological characteristics
-- **Elite Traits**: Rare and powerful traits with very low occurrence rates (0.5-1.5%)
-- **Religious Devotee Traits**: Special traits for devoted followers of each of the five deities
-- **Balanced Distribution**: Traits are distributed appropriately based on race population sizes
-- **Mutual Exclusivity**: Thematically opposite traits cannot be possessed simultaneously
 
 ### Custom Music
 
@@ -93,8 +71,7 @@ Immerse yourself in the world of Roomian Realms with a custom soundtrack that en
 
 ## Compatibility
 
-- Compatible with Songs of Syx version 68
-- Not compatible with previous versions
+- Compatible with Songs of Syx v68
 
 ## Changelog
 
