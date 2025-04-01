@@ -1,4 +1,4 @@
-# Roomian Realms v0.3
+# Roomian Realms v0.6
 ![Roomian Realms Banner](assets/gfx/settlement/ui/sprite/icon/32/BG/4.png)
 
 ## 🌍 Overview
@@ -65,18 +65,24 @@ Roomian Realms introduces unique race-specific buildings that provide specialize
 - **Function**: Transforms raw stone into polished stone and occasionally extracts precious gems
 - **Race Affinity**: Pasunkas (Cretonians) excel at this work due to their cultural connection to stone and disciplined approach
 - **Special Feature**: Other races struggle with the specialized techniques, making this building most effective when operated by Pasunkas
+- **Production Rates**: 0.8 polished stone or 0.05 gems per unit of raw stone
+- **Happiness Effect**: +5% for Cretonians, slight penalties for other races
 
 #### Bloodmite Breeding Pit
 ![Bloodmite Breeding Pit](assets/gfx/settlement/ui/sprite/icon/32/WORKSHOP/1.png)
 - **Function**: Produces valuable crimson eggs and chitin fabric from bloodmites
 - **Race Affinity**: Cretonians have developed special techniques for handling these dangerous creatures
 - **Special Feature**: Creates a unique grimdark aesthetic with blood-red coloring and increased miasma
+- **Production Rates**: 2.0 crimson eggs and 0.8 chitin fabric for players (higher for AI)
+- **Environmental Effects**: Increased miasma and noise levels, creating a distinct atmosphere
 
 #### Pushup Dojo
 ![Pushup Dojo](assets/gfx/settlement/ui/sprite/icon/32/TEMPLE/3.png)
 - **Function**: Training facility where Pasunkas practice their martial arts and meditation
 - **Race Affinity**: Pasunkas gain significant happiness and physical benefits
 - **Special Feature**: Enhances the combat capabilities of Pasunkas warriors through disciplined training
+- **Cultural Impact**: Central to Pasunkas society, representing their philosophy of balance and discipline
+- **Religious Connection**: Honors the teachings of Crator through physical perfection
 
 ### 🔮 Void Technology
 A complete technological path centered around the mysterious Void Ore:
@@ -97,7 +103,12 @@ Expanded economic options with new resources and production chains:
 
 ---
 
-## 🆕 New in Version 0.3
+## 🆕 New in Version 0.6
+
+### Race-Specific Custom Buildings
+- **Pasunkas Stone Polisher**: A specialized workshop for Pasunkas artisans to transform stone into polished stone and gems
+- **Bloodmite Breeding Pit**: Enhanced production facility for crimson eggs and chitin fabric
+- **Pushup Dojo**: Cultural training center for Pasunkas martial arts and meditation
 
 ### Enhanced Religious Framework
 The religious system has been expanded to include a fifth deity - the God Emperor - with unique rituals, benefits, and followers:

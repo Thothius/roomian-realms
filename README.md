@@ -1,4 +1,4 @@
-# RoomianRealms (v0.55)
+# RoomianRealms (v0.6)
 
 ### The Shattering
 
@@ -81,9 +81,15 @@ Immerse yourself in the world of Roomian Realms with a custom soundtrack that en
 
 ## Changelog
 
-### Version 0.55 (New Release)
+### Version 0.6 (New Release)
 - Updated Overview to reflect new lore
 - Removed 'What's New in Version 0.52' section
+- Added three specialized race-specific buildings:
+  - **Pasunkas Stone Polisher**: Converts stone to polished stone and gems, optimized for Pasunkas workers
+  - **Bloodmite Breeding Pit**: Produces crimson eggs and chitin fabric with enhanced production rates
+  - **Pushup Dojo**: Training facility for Pasunkas martial arts and meditation
+- Enhanced building documentation in V68 README
+- Improved race-specific work preferences for custom buildings
 
 ### Version 0.52 (April 15, 2025)
 - Added Race Enhancement Patch v1, standardizing race sizes and rebalancing adult maturation ages
