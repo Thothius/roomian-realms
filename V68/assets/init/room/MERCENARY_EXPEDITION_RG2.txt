@@ -1,65 +1,120 @@
-ICON: 32->MILITARY->5,
-RESOURCES: [FURNITURE,],
-AREA_COSTS: [0,],
-FLOOR: STONE_MEDIUM_DARK,
-MINI_COLOR: 226_195_38,
-ITEMS: [
-	{
-		COSTS: [1,],
-		STATS: [1,0,0,],
-	},
-	{
-		COSTS: [0.25,],
-		STATS: [0,0.4,0,],
-	},
-],
-
-MAX_EMPLOYED: 10,
-INDUSTRIES: [
-	{
-		INDUSTRY: {
-			IN: {
-			
-			},
-			OUT: {
-				JEWELRY: 0.2,
-			},
-		},
-	},
-	
-	{
-		INDUSTRY: {
-			IN: {
-			
-			},
-			OUT: {
-				GEM: 0.05,
-			},
-		},
-	},
-	
-	{
-		INDUSTRY: {
-			IN: {
-			
-			},
-			OUT: {
-				ALCO_WINE: 0.3,
-			},
-		},
-	},
-],
+INFO: {
+	NAME: "Mercenary Expedition Hall",
+	NAMES: "Mercenary Expedition Halls",
+	DESC: "A dangerous but lucrative operation where hardened mercenaries are sent on perilous expeditions to distant lands. These brave warriors face deadly creatures, hostile environments, and rival factions to bring back valuable treasures and resources.",
+},
 
 WORK: {
+	TITLE: "Expedition Leader",
+	VERB: "Organizing",
 	SHIFT_OFFSET: 0.125,
 	SOUND: impact->Metal*,
 	USES_TOOL: true,
 	FULFILLMENT: 1.2,
+	ACCIDENTS_PER_YEAR: 0.15,
+	HEALTH_FACTOR: 0.6,
 },
+STATS: [
+	{
+		NAME: "Mercenaries",
+		DESC: "The number of mercenaries that can be sent on expeditions.",
+	},
+	{
+		NAME: "Expedition Efficiency",
+		DESC: "How effectively expeditions are organized and executed.",
+	},
+	{
+		NAME: "Equipment Quality",
+		DESC: "The quality of equipment provided to mercenaries, affecting their survival rate.",
+	},
+],
+ICON: 32->MILITARY->5,
+RESOURCES: [FURNITURE,WEAPON,ARMOR,],
+AREA_COSTS: [0.2,0,0,],
+FLOOR: STONE_MEDIUM_DARK,
+MINI_COLOR: 226_195_38,
+ITEMS: [
+	{
+		COSTS: [2,1,1,],
+		STATS: [1,0,0,],
+	},
+	{
+		COSTS: [1,2,1,],
+		STATS: [0,1,0,],
+	},
+	{
+		COSTS: [1,1,2,],
+		STATS: [0,0,1,],
+	},
+],
+
+MAX_EMPLOYED: 15,
+INDUSTRIES: [
+	{
+		INDUSTRY: {
+			IN: {
+				WEAPON: 0.1,
+				ARMOR: 0.1,
+			},
+			OUT: {
+				JEWELRY: 0.3,
+			},
+		},
+	},
+	
+	{
+		INDUSTRY: {
+			IN: {
+				WEAPON: 0.1,
+				ARMOR: 0.1,
+			},
+			OUT: {
+				GEM: 0.1,
+			},
+		},
+	},
+	
+	{
+		INDUSTRY: {
+			IN: {
+				WEAPON: 0.1,
+				ARMOR: 0.1,
+			},
+			OUT: {
+				ALCO_WINE: 0.5,
+			},
+		},
+	},
+	
+	{
+		INDUSTRY: {
+			IN: {
+				WEAPON: 0.2,
+				ARMOR: 0.2,
+			},
+			OUT: {
+				METAL: 1.0,
+			},
+		},
+	},
+	
+	{
+		INDUSTRY: {
+			IN: {
+				WEAPON: 0.2,
+				ARMOR: 0.2,
+			},
+			OUT: {
+				SITHILON: 0.2,
+			},
+		},
+	},
+],
+
 BONUS: {
 	CLIMATE: {
-		COLD: 1.0,
-		HOT: 1.0,
+		COLD: 0.8,
+		HOT: 0.8,
 	},
 },
 SPRITES: {
@@ -111,15 +166,60 @@ SPRITES: {
 
 BOOSTS: {
 	HUMAN: {
-		BATTLE_MELEE>ADD: 0.02,
-		HAPPINESS>ADD: 0.01,
+		BATTLE_MELEE>ADD: 0.05,
+		BATTLE_RANGED>ADD: 0.03,
+		BATTLE_MORALE>ADD: 0.05,
+		HAPPINESS>ADD: 0.02,
 	},
 	TILAPI: {
-		BATTLE_MELEE>ADD: 0.02,
-		HAPPINESS>ADD: 0.01,
+		BATTLE_MELEE>ADD: 0.05,
+		BATTLE_RANGED>ADD: 0.02,
+		BATTLE_MORALE>ADD: 0.04,
+		HAPPINESS>ADD: 0.02,
 	},
 	ARGONOSH: {
-		BATTLE_RANGED>ADD: 0.02,
-		HAPPINESS>ADD: 0.01,
+		BATTLE_RANGED>ADD: 0.05,
+		BATTLE_MELEE>ADD: 0.02,
+		BATTLE_MORALE>ADD: 0.04,
+		HAPPINESS>ADD: 0.02,
 	},
+	CANTOR: {
+		BATTLE_MELEE>ADD: 0.06,
+		BATTLE_MORALE>ADD: 0.05,
+		HAPPINESS>ADD: 0.02,
+	},
+	CRETONIAN: {
+		BATTLE_MELEE>ADD: 0.04,
+		PHYSICS_STAMINA>MUL: 1.05,
+		BATTLE_MORALE>ADD: 0.03,
+		HAPPINESS>ADD: 0.02,
+	},
+	DONDORIAN: {
+		BATTLE_MELEE>ADD: 0.03,
+		BATTLE_RANGED>ADD: 0.03,
+		BATTLE_MORALE>ADD: 0.04,
+		HAPPINESS>ADD: 0.02,
+	},
+	GARTHIMI: {
+		BATTLE_MELEE>ADD: 0.05,
+		BATTLE_MORALE>ADD: 0.03,
+		HAPPINESS>ADD: 0.02,
+	},
+	Q_AMEVIA: {
+		BATTLE_RANGED>ADD: 0.04,
+		BATTLE_MORALE>ADD: 0.04,
+		HAPPINESS>ADD: 0.02,
+	},
+},
+
+ENVIRONMENT_EMIT: {
+	_NOISE: {
+		VALUE: 1,
+		RADIUS: 1,
+	},
+},
+
+DESC: {
+	TEXT: "A headquarters for organizing dangerous expeditions to distant lands. Mercenaries who return bring valuable treasures, but many don't come back at all. The work is extremely dangerous but lucrative, attracting those who seek glory, wealth, or simply have nothing left to lose.",
+	REQUIRED: "Requires weapons and armor to equip the mercenaries for their dangerous journeys.",
 },

@@ -1,4 +1,4 @@
-# Roomian Realms v0.6
+# Roomian Realms v0.7
 ![Roomian Realms Banner](assets/gfx/settlement/ui/sprite/icon/32/BG/4.png)
 
 ## 🌍 Overview
@@ -100,6 +100,154 @@ Expanded economic options with new resources and production chains:
 - **Void Crystal**: Refined Void Ore with enhanced capabilities
 - **Processing Chains**: Convert raw materials into valuable products
 - **Specialized Production**: Race-specific crafting and resource generation
+
+---
+
+## 🆕 New in Version 0.7
+
+### Standardized Race Work Preferences
+- **Complete Work Type Coverage**: All races now have a standardized set of work preferences covering all 80+ work types
+- **Balanced Racial Specializations**: Each race maintains their unique strengths while ensuring gameplay consistency
+- **Improved Organization**: Work preferences are now organized in logical categories for easier comparison
+
+### Race-Specific Work Specializations
+- **Cretonians (Pasunkas)**: Excel at spiritual pursuits, forestry, and balanced development
+- **Dondorians (Finestorians)**: Masters of mining, crafting, and monumental architecture
+- **Humans (Northmen)**: Versatile with strengths in trade, military, and resource gathering
+
+### Complete Building List
+The mod now includes a comprehensive set of buildings for all races:
+
+#### Administrative & Basic Services
+- Administration Centers
+- Military Supply Depots
+- Guard Posts
+
+#### Resource Gathering
+- Hunting Lodges
+- Fisheries
+- Butcher Shops
+- Forester Lodges
+
+#### Mining Operations
+- Clay Mines
+- Coal Mines
+- Gem Mines
+- Ore Mines
+- Stone Mines
+- Stone Polisher (Cretonian specialty)
+
+#### Agricultural Facilities
+- Grain Farms
+- Fruit Farms
+- Vegetable Farms
+- Spice Farms
+- Mushroom Farms
+- Herb Gardens
+- Cotton Fields
+- Orchards
+
+#### Animal Husbandry
+- Aur Pastures
+- Ent Pastures
+- Onx Pastures
+- Globdien Pastures
+
+#### Workshops
+- Smithies
+- Carpentry Shops
+- Masonry Workshops
+- Armories
+- Bowyer Shops
+- Jewelry Crafters
+- Mechanic Workshops
+- Paper Mills
+- Pottery Studios
+- Ration Makers
+- Tailor Shops
+- Artisan Workshops
+
+#### Refiners
+- Bakeries
+- Breweries
+- Coal Refineries
+- Smelters
+- Weaving Mills
+
+#### Military Facilities
+- Barracks
+- Fight Pits
+- Archery Ranges
+- Crossbow Ranges
+- Artillery Yards
+- Mercenary Expedition Centers
+- Bloodmite Breeding Pits
+- Pushup Dojos (Cretonian specialty)
+
+#### Education & Research
+- Laboratories
+- Libraries
+- Universities
+- Schools
+
+#### Religious Buildings
+- Aminion Shrines
+- Athuri Shrines
+- Crator Shrines
+- Shmalor Shrines
+
+#### Commerce
+- Taverns
+- Markets
+- Export Offices
+- Import Offices
+
+#### Health & Wellbeing
+- Bath Houses
+- Eateries
+- Physician Offices
+- Rest Homes
+- Race-specific Nurseries
+
+#### Death & Burial
+- Graveyards
+- Tombs
+
+#### Infrastructure
+- Lavatories
+- Wells
+
+#### Entertainment
+- Speaker Platforms
+- Stages
+- Pleasure Houses
+- Arenas
+
+#### Miscellaneous
+- Asylums
+- Barber Shops
+- Canteens
+- Courts
+- Execution Grounds
+- Inns
+- Prisons
+- Slaver Pens
+- Stockades
+- Stocks
+- Thrones
+
+#### Monuments
+- Blob Monuments
+- Flower Monuments
+- Pillar Monuments
+- Statue Monuments
+- Torch Monuments
+- Tree Monuments
+
+#### Water Features
+- Moats
+- Ponds
+- Stone Pools
 
 ---
 

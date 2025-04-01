@@ -1,6 +1,6 @@
 INFO: {
-	NAME: "Pasunka Training Temple",
-	NAMES: "Pasunka Training Temples",
+	NAME: "Pasunka Push-out House",
+	NAMES: "Pasunka Push-out Houses",
 	DESC: "A sacred space where young Pasunkas begin their journey on the Three Pillars of Transcendence. Here, they develop their spiritual awareness, martial skills, and physical strength through rigorous training and meditation.",
 },
 
