@@ -1,0 +1,56 @@
+INFO: {
+	NAME: "Bloodmite Breeding Pit",
+	NAMES: "Bloodmite Breeding Pits",
+	DESC: "A fortified enclosure for breeding Bloodmites, crimson insectoid creatures native to the fetid swamps of Roomian Realms. These blood-red horrors are difficult to handle and occasionally feast on their handlers, but produce valuable protein-rich crimson eggs and their molted carapaces can be processed into a tough fabric with unique properties.",
+},
+
+BONUS: {
+	NAME: "Bloodmite Husbandry",
+	DESC: "Extracts valuable eggs and chitin fabric from these dangerous pests while keeping them from escaping into the city. Their crimson eggs are particularly prized for their healing properties.",
+},
+
+WORK: {
+	TITLE: "Mite Handler",
+	VERB: "Wrangling",
+},
+
+STATS: [
+	{
+		NAME: "Handlers",
+		DESC: "The number of brave (or desperate) souls needed to maintain the pits and prevent the Bloodmites from escaping. Many bear the characteristic red scars of those who work with these creatures.",
+	},
+	{
+		NAME: "Output",
+		DESC: "The average amount of eggs and fabric this pit will yield daily. This depends on the size of the enclosure and the heat of the environment. Bloodmites thrive in hot, humid conditions.",
+	},
+	{
+		NAME: "Containment",
+		DESC: "How secure the Bloodmite enclosures are, affecting both productivity and safety of nearby citizens. Escaped Bloodmites have been known to cause minor plagues.",
+	},
+	{
+		NAME: "",
+		DESC: "",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Reinforced Gate",
+		DESC: "Heavily fortified entrance and resource storage for the pit, designed to prevent Bloodmite escapes. The wood is stained a deep crimson from years of handling their eggs.",
+	},
+	{
+		NAME: "Breeding Chamber",
+		DESC: "Dark, humid chambers where Bloodmites reproduce and molt. The walls glisten with a reddish secretion that promotes breeding but creates an unbearable stench.",
+	},
+],
+
+RESOURCE: {
+	EGG: {
+		NAME: "Bloodmite Eggs",
+		DESC: "Crimson, protein-rich eggs that pulse with a faint glow. When processed correctly, they have medicinal properties that can accelerate healing.",
+	},
+	FABRIC: {
+		NAME: "Chitin Fabric",
+		DESC: "Tough, flexible material processed from Bloodmite carapaces. Has a distinctive reddish hue and is prized for its durability and resistance to cutting.",
+	},
+},

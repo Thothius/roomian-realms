@@ -57,6 +57,27 @@ Over 20 unique buildings that enhance each race's strengths:
 - **Military Structures**: Specialized training facilities reflecting racial combat styles
 - **Production Buildings**: Workshops and processing facilities aligned with racial skills
 
+### 🏗️ Custom Buildings
+Roomian Realms introduces unique race-specific buildings that provide specialized production and cultural benefits:
+
+#### Pasunkas Stone Polisher
+![Stone Polisher](assets/gfx/settlement/ui/sprite/icon/32/WORKSHOP/3.png)
+- **Function**: Transforms raw stone into polished stone and occasionally extracts precious gems
+- **Race Affinity**: Pasunkas (Cretonians) excel at this work due to their cultural connection to stone and disciplined approach
+- **Special Feature**: Other races struggle with the specialized techniques, making this building most effective when operated by Pasunkas
+
+#### Bloodmite Breeding Pit
+![Bloodmite Breeding Pit](assets/gfx/settlement/ui/sprite/icon/32/WORKSHOP/1.png)
+- **Function**: Produces valuable crimson eggs and chitin fabric from bloodmites
+- **Race Affinity**: Cretonians have developed special techniques for handling these dangerous creatures
+- **Special Feature**: Creates a unique grimdark aesthetic with blood-red coloring and increased miasma
+
+#### Pushup Dojo
+![Pushup Dojo](assets/gfx/settlement/ui/sprite/icon/32/TEMPLE/3.png)
+- **Function**: Training facility where Pasunkas practice their martial arts and meditation
+- **Race Affinity**: Pasunkas gain significant happiness and physical benefits
+- **Special Feature**: Enhances the combat capabilities of Pasunkas warriors through disciplined training
+
 ### 🔮 Void Technology
 A complete technological path centered around the mysterious Void Ore:
 

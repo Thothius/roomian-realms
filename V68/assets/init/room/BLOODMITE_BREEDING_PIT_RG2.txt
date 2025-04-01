@@ -1,0 +1,161 @@
+ICON: {
+	BG: 32->BG->2,
+	FG: 32->animal->Globdien->0,
+	OFFX: -2,
+	OFFY: -2,
+	SHADOW: 2,
+},
+RESOURCES: [WOOD,FABRIC,],
+AREA_COSTS: [0.10,0,],
+MINI_COLOR: 150_20_20,
+ANIMAL: GLOBDIEN,
+FLOOR: DIRT,
+ITEMS: [
+	{
+		COSTS: [20,5,],
+		STATS: [0,0,0,0,],
+	},
+	{
+		COSTS: [20,10,],
+		STATS: [0,0,1,0,],
+	},
+],
+WORK: {
+	SHIFT_OFFSET: 0.125,
+	SOUND: impact->Dig*,
+	USES_TOOL: true,
+	FULFILLMENT: 0.3,
+	ACCIDENTS_PER_YEAR: 0.04,
+},
+SPRITES: {
+	
+	GATE_TOP_3X3: {
+		ROTATES: true,
+		SHADOW_HEIGHT: 8,
+		SHADOW_LENGTH: 0,
+		COLOR: {R: 180, G: 40, B: 40,},
+		FRAMES: [
+			PASTURE_GATE: 1,
+		],
+		
+	},
+	
+	STORAGE_1X1: {
+		ROTATES: false,
+		SHADOW_HEIGHT: 0,
+		SHADOW_LENGTH: 4,
+		COLOR: {R: 180, G: 40, B: 40,},
+		FRAMES: [
+			STORAGE: 6,
+		],
+	},
+	FENCE_COMBO: {
+		SHADOW_LENGTH: 6,
+		SHADOW_HEIGHT: 2,
+		COLOR: {R: 180, G: 40, B: 40,},
+		FRAMES: [
+			FENCE: 3,
+		],
+	},
+	FENCE_D_COMBO: {
+		SHADOW_LENGTH: 6,
+		SHADOW_HEIGHT: 2,
+		COLOR: {R: 180, G: 40, B: 40,},
+		FRAMES: [
+			FENCE: 4,
+		],
+	},
+	AUX_BIG_2X2: [
+		{
+			SHADOW_HEIGHT: 9,
+			ROTATES: false,
+			COLOR: {R: 180, G: 40, B: 40,},
+			FRAMES: [
+				HUT: 0,
+			],
+		},
+	],
+	AUX_EDGE_1X1: [
+		{
+			SHADOW_HEIGHT: 9,
+			ROTATES: true,
+			COLOR: {R: 180, G: 40, B: 40,},
+			FRAMES: [
+				2xROOF: 0,
+			],
+		},
+	],
+	AUX_MID_1X1: [
+		{
+			SHADOW_HEIGHT: 9,
+			ROTATES: true,
+			COLOR: {R: 180, G: 40, B: 40,},
+			FRAMES: [
+				2xROOF: 1,
+			],
+		},
+	],
+},
+INDUSTRIES: [
+	{
+		INDUSTRY: {
+			OUT: {
+				EGG: {
+					PLAYER: 2.0,
+					AI: 2.2,
+					AI_SPEED: 0.7,
+				}, 
+				FABRIC: {
+					PLAYER: 0.8,
+					AI: 1.0,
+					AI_SPEED: 0.4,
+				},
+			},
+		},
+	},
+],
+BONUS: {
+	RACE: 0.8,
+	CLIMATE: {
+		TEMPERATE: 0.8,
+		COLD: 0.3,
+		HOT: 1.5,
+	},
+},
+
+ENVIRONMENT_EMIT: {
+	_NOISE: {
+		VALUE: 0.8,
+		RADIUS: 20,
+	},
+	_MIASMA: {
+		VALUE: 0.4,
+		RADIUS: 15,
+	},
+},
+
+BOOSTS: {
+	ARGONOSH: {
+		HAPPINESS>ADD: -0.01,
+		BATTLE_MORALE>ADD: 0.03,
+	},
+	Q_AMEVIA: {
+		HAPPINESS>ADD: -0.01,
+		BATTLE_MORALE>ADD: 0.03,
+	},
+	CRETONIAN: {
+		HAPPINESS>ADD: 0.02,
+		PHYSICS_STAMINA>MUL: 1.02,
+	},
+	*: {
+		HAPPINESS>ADD: -0.005,
+	}
+},
+
+ANIMAL_COLOR: {R: 180, G: 40, B: 40,},
+ANIMAL_SCALE: 0.9,
+
+DESC: {
+	TEXT: "A fortified enclosure for breeding Bloodmites, vicious insectoid creatures native to the swamps of Roomian Realms. These blood-red chitinous horrors are difficult to handle but produce valuable protein-rich crimson eggs and their molted carapaces can be processed into a tough fabric. The constant chittering and foul odor makes working with them unpleasant, but their eggs are prized for their medicinal properties.",
+	REQUIRED: "Requires wood for reinforced fencing and fabric for handling equipment.",
+},

@@ -1,0 +1,60 @@
+INFO: {
+	NAME: "Pasunkas Stone Polisher",
+	NAMES: "Pasunkas Stone Polishers",
+	DESC: "A specialized workshop where Pasunkas artisans meticulously polish and shape raw stone into refined cut stone. Their unique techniques, developed through generations of practice and spiritual discipline, allow them to extract precious gems from ordinary stone - a skill that other races find nearly impossible to master.",
+},
+
+BONUS: {
+	NAME: "Pasunkas Stone Mastery",
+	DESC: "Transforms raw stone into valuable polished stone and occasionally extracts precious gems through specialized Pasunkas techniques. The Pasunkas' natural affinity for stone and their disciplined approach makes them uniquely suited for this work.",
+},
+
+WORK: {
+	TITLE: "Stone Artisan",
+	VERB: "Polishing",
+},
+
+STATS: [
+	{
+		NAME: "Artisans",
+		DESC: "The number of skilled stone workers needed to operate the polishing equipment. Pasunkas naturally excel at this work due to their cultural connection to stone and their disciplined approach.",
+	},
+	{
+		NAME: "Output",
+		DESC: "The amount of polished stone and gems produced. Pasunkas can achieve much higher output rates than other races, who lack the specialized training and cultural knowledge.",
+	},
+	{
+		NAME: "Efficiency",
+		DESC: "How efficiently the workshop converts raw materials into finished products. The Pasunkas' generations of expertise with stone polishing techniques allows them to work with minimal waste.",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Polishing Station",
+		DESC: "A specialized workbench with fine abrasive materials where Pasunkas artisans transform rough stone into smooth, polished surfaces using techniques passed down through generations.",
+	},
+	{
+		NAME: "Gem Extraction Table",
+		DESC: "A precision table with specialized tools where master Pasunkas artisans carefully extract and cut gems from promising stone specimens, using techniques that require their unique sensitivity to stone's hidden properties.",
+	},
+	{
+		NAME: "Meditation Platform",
+		DESC: "A small raised platform where Pasunkas artisans center themselves before working with stone. Other races find this practice strange and unnecessary, but for Pasunkas, it's essential to achieving the focus needed for quality work.",
+	},
+	{
+		NAME: "Water Filtration System",
+		DESC: "An ingenious Pasunkas invention that recycles water while capturing tiny gem fragments that would otherwise be lost in the polishing process.",
+	},
+],
+
+RESOURCE: {
+	STONE_CUT: {
+		NAME: "Polished Stone",
+		DESC: "Smooth, precisely cut stone blocks with a lustrous finish that only Pasunkas artisans can consistently achieve. Highly valued for construction of important buildings and monuments.",
+	},
+	GEM: {
+		NAME: "Extracted Gems",
+		DESC: "Rare, precious stones carefully extracted from ordinary rock through the Pasunkas' secret techniques. Each gem represents hours of painstaking work and a level of stone sensitivity that other races struggle to develop.",
+	},
+},

@@ -1,0 +1,173 @@
+ICON: 32->WORKSHOP->3,
+RESOURCES: [STONE,FURNITURE,METAL,],
+AREA_COSTS: [0,0,0,],
+FLOOR: STONE3,
+MINI_COLOR: 180_180_200,
+ITEMS: [
+	{
+		COSTS: [1,0.5,0.25,],
+		STATS: [0,0,0,],
+	},
+	{
+		COSTS: [1,0.5,0.25,],
+		STATS: [1,0,1,],
+	},
+	{
+		COSTS: [1,0.5,0.25,],
+		STATS: [0,2,0,],
+	},
+],
+WORK: {
+	SHIFT_OFFSET: 0.325,
+	SOUND: impact->Mason*,
+	ACCIDENTS_PER_YEAR: 0.01,
+	FULFILLMENT: 1.2,
+},
+INDUSTRIES: [
+	{
+		INDUSTRY: {
+			IN: {
+				STONE: 2,
+			},
+			OUT: {
+				STONE_CUT: 0.8,
+			},
+		},
+	},
+	{
+		INDUSTRY: {
+			IN: {
+				STONE: 5,
+			},
+			OUT: {
+				GEM: 0.05,
+			},
+		},
+	},
+],
+ENVIRONMENT_EMIT: {
+	_NOISE: {
+		VALUE: 0.8,
+		RADIUS: 1,
+	},
+	_MIASMA: {
+		VALUE: 0.1,
+		RADIUS: 5,
+	},
+},
+SPRITES: {
+	CHAIR_1X1: [
+		{
+			SHADOW_HEIGHT: 4,
+			FRAMES: [
+				CHAIRS: 10,
+				CHAIRS: 11,
+			],
+		},
+	], 
+	TABLE_COMBO: [
+		{
+			SHADOW_HEIGHT: 4,
+			COLOR: {R:160,G:160,B:200,},
+			FRAMES: [
+				COMBO_TABLES: 4,
+			],
+		},
+	],
+	TABLE_TOP_COMBO: [
+		{
+			TINT: true,
+			FRAMES: [
+				ONTOP: 0,
+			],
+		},
+	],
+	WORK_BELOW_1X1: [
+		{
+			FRAMES: [ 
+				
+			],
+		},
+	],
+	WORK_ABOVE_1X1: [
+		{
+			SHADOW_LENGTH: 3,
+			TINT: true,
+			FPS: 5,
+			FRAMES: [
+				WORK: 2,
+				WORK: 3,
+				WORK: 4,
+				WORK: 5,
+				WORK: 6,
+				WORK: 7,
+				WORK: 8,
+				WORK: 9,
+				WORK: 10,
+			],
+		},
+	],
+	TOOL_1X1: [
+		{
+			SHADOW_LENGTH: 2,
+			TINT: true,
+			ROTATES: false,
+			FRAMES: [
+				STORAGE: 3,
+				STORAGE: 12,
+				STORAGE: 14,
+				WORK: 11,
+				WORK: 12,
+				WORK: 15,
+			],
+		},
+	],
+	MISC_BELOW_1X1: [
+		{
+			SHADOW_LENGTH: 1,
+			TINT: true,
+			ROTATES: false,
+			FRAMES: [
+				STORAGE: 5,
+				STORAGE: 6,
+				STORAGE: 8,
+			],
+		},
+	],
+	MISC_ABOVE_1X1: [
+		{
+			SHADOW_LENGTH: 5,
+			TINT: true,
+			ROTATES: false,
+			FRAMES: [
+				STORAGE: 3,
+				STORAGE: 12,
+				STORAGE: 14,
+			],
+		},
+	],
+},
+
+BOOSTS: {
+	CRETONIAN: {
+		HAPPINESS>ADD: 0.05,
+		PHYSICS_STAMINA>MUL: 1.05,
+	},
+	HUMAN: {
+		HAPPINESS>ADD: -0.02,
+	},
+	ARGONOSH: {
+		HAPPINESS>ADD: -0.01,
+	},
+	DONDORIAN: {
+		HAPPINESS>ADD: -0.01,
+	},
+	CANTOR: {
+		HAPPINESS>ADD: -0.02,
+	},
+},
+
+DESC: {
+	TEXT: "A specialized workshop where Pasunkas artisans meticulously polish and shape raw stone into refined cut stone through their sacred techniques. The process requires discipline and skill that Pasunkas have mastered through generations of practice. Their methods can occasionally extract precious gems from ordinary stone, but the process is physically demanding for non-Pasunkas.",
+	REQUIRED: "Requires stone as raw material, along with furniture for workstations and metal tools for the precise cutting and polishing work.",
+},
